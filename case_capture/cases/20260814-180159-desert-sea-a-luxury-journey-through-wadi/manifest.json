@@ -1,0 +1,123 @@
+{
+  "caseId": "20260814-180159-desert-sea-a-luxury-journey-through-wadi",
+  "createdAt": "2026-08-14T18:01:59.126378+00:00",
+  "trip_title": "Desert & Sea: A Luxury Journey Through Wadi Rum and Aqaba",
+  "rag": {
+    "status": "ok",
+    "source": "retriever",
+    "duration_days": 3,
+    "cluster_count": 3,
+    "clusters": [
+      {
+        "cluster_id": 0,
+        "theme": "Aqaba Governorate · nature, history",
+        "poi_count": 5,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "Aqaba Marine Park",
+          "Gorgone I Reef",
+          "Ayla Oasis Marina",
+          "Aqaba Heritage House",
+          "Aqaba Gateway Shopping Complex"
+        ],
+        "hotel_names": [
+          "Al Manara, a Luxury Collection Hotel, Aqaba",
+          "Kempinski Hotel Aqaba",
+          "Cedar Hotel",
+          "Sea View Hotel"
+        ],
+        "sample_restaurants": [
+          "Royal Yacht Club Restaurant Aqaba",
+          "Tiki Bar & Grill",
+          "Suzana Restaurant & Cafe",
+          "Casalingo",
+          "Pave Restaurant & Cafe",
+          "Ayla Golf Club Restaurant"
+        ],
+        "event_names": [
+          "Golden Triangle Festival",
+          "Aesthetics of Aqaba and Aqabawi Heritage Seminar",
+          "Aqaba International Poetry Evening"
+        ]
+      },
+      {
+        "cluster_id": 1,
+        "theme": "Ma'an Governorate · nature, history",
+        "poi_count": 10,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "Red Sand Dunes of Wadi Rum",
+          "Wadi Rum Visitor Center",
+          "French Fortress Ruins (Wadi Rum)",
+          "Desert Police Station & Fort (Wadi Rum)",
+          "Maan Historic Souq",
+          "Um Frouth Rock Bridge",
+          "Barrah Canyon",
+          "Rum Village Bedouin Oasis",
+          "Neolithic Village of Beidha",
+          "Little Petra (Siq al-Barid)"
+        ],
+        "hotel_names": [
+          "Petra Moon Luxury Hotel",
+          "Cleopetra Hotel",
+          "Rocky Mountain Hotel",
+          "Valentine Inn"
+        ],
+        "sample_restaurants": [
+          "Captain's Desert Camp Restaurant Wadi Rum",
+          "Sun City Camp Dining Tent",
+          "Rum Magic Restaurant",
+          "Rahayeb Desert Camp Restaurant",
+          "Al-Pasha Sweets & Bakery Ma'an",
+          "Wadi Rum Rest House Restaurant"
+        ],
+        "event_names": [
+          "Jordan Summer Festival - Ma'an",
+          "Ma'an Cultural Days",
+          "Petra Heritage Fashion and Local Products Exhibition"
+        ]
+      },
+      {
+        "cluster_id": 2,
+        "theme": "Aqaba Governorate · nature",
+        "poi_count": 5,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "Japanese Garden Dive Site",
+          "Aqaba Bird Observatory",
+          "Souq By The Sea",
+          "Princess Salma Park",
+          "Aqaba Spice Souq"
+        ],
+        "hotel_names": [
+          "Al Manara, a Luxury Collection Hotel, Aqaba",
+          "Kempinski Hotel Aqaba",
+          "Cedar Hotel",
+          "Sea View Hotel"
+        ],
+        "sample_restaurants": [
+          "Royal Yacht Club Restaurant Aqaba",
+          "Suzana Restaurant & Cafe",
+          "Pave Restaurant & Cafe",
+          "Ayla Golf Club Restaurant",
+          "Deera Cafe & Restaurant",
+          "Al Kufa Cafe & Restaurant"
+        ],
+        "event_names": [
+          "Golden Triangle Festival",
+          "Aesthetics of Aqaba and Aqabawi Heritage Seminar",
+          "Aqaba International Poetry Evening"
+        ]
+      }
+    ]
+  },
+  "paths": {
+    "input": "01_input.json",
+    "knowledge": "02_retriever.json",
+    "knowledge_preview": "02_retriever_preview.json",
+    "output": "03_output.json"
+  }
+}

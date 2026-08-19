@@ -1,0 +1,3721 @@
+[
+{
+"sme_id": "SME-000001",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Dakkak Tours International",
+"description": "A leading incoming tour operator and destination management company in Jordan, providing comprehensive travel services, customized itineraries, and professional tourism coordination since 1956.",
+"experience_years": 70,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Archaeology",
+"Religious Sites",
+"Desert Experiences"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 6 566 4146",
+"mobile": "+962 7 9555 3322",
+"email": "info@dakkaktours.com",
+"website": "https://www.dakkaktours.com",
+"whatsapp": "+962 7 9555 3322"
+},
+"location": {
+"country": "Jordan",
+"city": "Amman",
+"region": "Amman Governorate",
+"address": "Shmeisani, Zahran Street, Amman, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Amman",
+"Petra",
+"Wadi Rum",
+"Jerash",
+"Dead Sea",
+"Aqaba"
+],
+"preferred_destinations": [
+"Petra",
+"Wadi Rum",
+"Dead Sea"
+]
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic",
+"French",
+"German"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Custom Itineraries",
+"Cultural Experiences",
+"Private Tours",
+"Group Tours",
+"Airport Transfers",
+"Hotel / Accommodation Booking",
+"Activity & Excursion Booking"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Professional Guides",
+"Licensed Tourist Guides",
+"Multilingual Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "08:30-17:30"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 50,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person / Package",
+"min_price": 75,
+"max_price": 1200,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Archaeological Tourism",
+"Desert Experiences",
+"Luxury Experiences"
+]
+},
+"reviews": {
+"rating": 4.7,
+"review_count": 142,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000002",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Barakat Travel & Tourism",
+"description": "Established travel agency and tour operator based in Amman offering personalized tour planning, ticketing, transportation, and customized holiday packages across Jordan.",
+"experience_years": 25,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Local Experiences"
+],
+"target_customer_types": [
+"Families",
+"Couples"
+]
+},
+"contact": {
+"phone": "+962 6 568 5588",
+"mobile": "+962 7 9666 4411",
+"email": "info@barakattravel.example",
+"website": "https://www.barakattravel.example",
+"whatsapp": "+962 7 9666 4411"
+},
+"location": {
+"country": "Jordan",
+"city": "Amman",
+"region": "Amman Governorate",
+"address": "Gardens Street, Amman, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Amman",
+"Jerash",
+"Petra",
+"Dead Sea"
+],
+"preferred_destinations": [
+"Amman",
+"Petra"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "Arabic"
+},
+"services": {
+"service_categories": [
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Custom Itineraries",
+"Airport Transfers",
+"Hotel / Accommodation Booking",
+"Flight / Airline Ticketing"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Licensed Tourist Guides",
+"Local Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00-18:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 25,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 50,
+"max_price": 650,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Family Experiences"
+]
+},
+"reviews": {
+"rating": 4.5,
+"review_count": 64,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000003",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Karma House for Tourism",
+"description": "Incoming tour operator specializing in cultural excursions, historical tours, and specialized desert adventures across the Hashemite Kingdom of Jordan.",
+"experience_years": 12,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Culture",
+"Desert",
+"History",
+"Adventure"
+],
+"target_customer_types": [
+"Solo Travelers",
+"Couples",
+"Families"
+]
+},
+"contact": {
+"phone": "+962 6 551 2233",
+"mobile": "+962 7 8888 1234",
+"email": "contact@karmahousetour.example",
+"website": "https://www.karmahousetour.example",
+"whatsapp": "+962 7 8888 1234"
+},
+"location": {
+"country": "Jordan",
+"city": "Amman",
+"region": "Amman Governorate",
+"address": "Mecca Street, Amman, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Amman",
+"Wadi Rum",
+"Petra",
+"Aqaba",
+"Dana"
+],
+"preferred_destinations": [
+"Wadi Rum",
+"Petra"
+]
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Tour Planning & Itinerary Design",
+"Custom Itineraries",
+"Private Tours",
+"Adventure Activities",
+"Camping"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Professional Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00-17:00"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 20,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 60,
+"max_price": 850,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Soft Adventure",
+"Desert Experiences",
+"Hiking & Trekking"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 52,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000004",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Desert Palette Tours",
+"description": "Amman-based incoming tour operator focusing on artistic, cultural, and photography tours throughout Jordan's historical and natural landmarks.",
+"experience_years": 8,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Photography",
+"Culture",
+"Art",
+"Nature"
+],
+"target_customer_types": [
+"Solo Travelers",
+"Couples"
+]
+},
+"contact": {
+"phone": "+962 6 585 9900",
+"mobile": "+962 7 7711 2233",
+"email": "info@desertpalettetours.example",
+"website": "https://www.desertpalettetours.example",
+"whatsapp": "+962 7 7711 2233"
+},
+"location": {
+"country": "Jordan",
+"city": "Amman",
+"region": "Amman Governorate",
+"address": "Jebel Weibdeh, Amman, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Amman",
+"Wadi Rum",
+"Dana",
+"Umm Qais"
+],
+"preferred_destinations": [
+"Wadi Rum",
+"Amman"
+]
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic",
+"Italian"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Planning & Itinerary Design",
+"Custom Itineraries",
+"Special Interest Tours",
+"Private Tours",
+"Cultural Experiences"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Specialized Guides",
+"Multilingual Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday"
+],
+"working_hours": "09:00-17:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 10,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Tour",
+"min_price": 90,
+"max_price": 950,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Local Experiences",
+"Desert Experiences"
+]
+},
+"reviews": {
+"rating": 4.6,
+"review_count": 39,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000005",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Jordan Horizons Tours",
+"description": "Full-service incoming tour operator offering customized tour packages, ticketing, ground transportation, and guided excursions across all major Jordanian destinations.",
+"experience_years": 15,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Nature",
+"Archaeology",
+"Religious Sites"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 6 569 1234",
+"mobile": "+962 7 9900 8877",
+"email": "info@jordanhorizonstours.example",
+"website": "https://www.jordanhorizonstours.example",
+"whatsapp": "+962 7 9900 8877"
+},
+"location": {
+"country": "Jordan",
+"city": "Amman",
+"region": "Amman Governorate",
+"address": "Al-Jubeiha, Amman, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Amman",
+"Petra",
+"Wadi Rum",
+"Dead Sea",
+"Jerash",
+"Madaba",
+"Mount Nebo"
+],
+"preferred_destinations": [
+"Petra",
+"Wadi Rum",
+"Dead Sea"
+]
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic",
+"Spanish"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Custom Itineraries",
+"Private Tours",
+"Group Tours",
+"Airport Transfers",
+"Hotel / Accommodation Booking",
+"Religious Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Professional Guides",
+"Licensed Tourist Guides",
+"Multilingual Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "08:30-17:30"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 40,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 70,
+"max_price": 1100,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Religious Tourism",
+"Archaeological Tourism"
+]
+},
+"reviews": {
+"rating": 4.7,
+"review_count": 95,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000006",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Nabataean Trail Tourism",
+"description": "Specialized tour operator headquartered in Amman focusing on trekking, hiking excursions, and archaeological exploration along Jordan's ancient paths.",
+"experience_years": 10,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Hiking",
+"Camping",
+"Archaeology",
+"Nature"
+],
+"target_customer_types": [
+"Solo Travelers",
+"Couples",
+"Families"
+]
+},
+"contact": {
+"phone": "+962 6 534 8899",
+"mobile": "+962 7 9123 4567",
+"email": "explore@nabataeantrail.example",
+"website": "https://www.nabataeantrail.example",
+"whatsapp": "+962 7 9123 4567"
+},
+"location": {
+"country": "Jordan",
+"city": "Amman",
+"region": "Amman Governorate",
+"address": "University Street, Amman, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Amman",
+"Petra",
+"Wadi Rum",
+"Dana Biosphere Reserve",
+"Mujib Nature Reserve"
+],
+"preferred_destinations": [
+"Petra",
+"Dana Biosphere Reserve",
+"Wadi Rum"
+]
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Planning & Itinerary Design",
+"Custom Itineraries",
+"Private Tours",
+"Adventure Activities",
+"Camping",
+"Special Interest Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Specialized Guides",
+"Local Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00-17:00"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 15,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 80,
+"max_price": 900,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Hiking & Trekking",
+"Nature",
+"Soft Adventure"
+]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 48,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000007",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Levant Culinary & Cultural Tours",
+"description": "Amman-based boutique tour operator organizing food-tasting trails, cooking classes, and immersive cultural heritage experiences across Jordan.",
+"experience_years": 6,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Food",
+"Culture",
+"Local Experiences",
+"Shopping"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 6 461 3344",
+"mobile": "+962 7 8111 9988",
+"email": "taste@levantculinary.example",
+"website": "https://www.levantculinary.example",
+"whatsapp": "+962 7 8111 9988"
+},
+"location": {
+"country": "Jordan",
+"city": "Amman",
+"region": "Amman Governorate",
+"address": "Downtown Amman, Al-Balad, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Amman",
+"Madaba",
+"Salt",
+"Jerash"
+],
+"preferred_destinations": [
+"Amman",
+"Salt"
+]
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic",
+"French"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Cultural Experiences",
+"Local Experiences",
+"Private Tours",
+"Special Interest Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Specialized Guides",
+"Local Guides"
+]
+},
+"transportation": {
+"available": false
+},
+"availability": {
+"working_days": [
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "10:00-19:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 12,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 35,
+"max_price": 250,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Food & Culinary",
+"Local Experiences",
+"Community Tourism"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 73,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000008",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Amman Citadel Incoming Tours",
+"description": "Incoming agency specializing in heritage sightseeing, educational student trips, and historical group packages throughout Amman and neighboring archaeological sites.",
+"experience_years": 14,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Archaeology",
+"Culture"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 6 465 7788",
+"mobile": "+962 7 9000 1122",
+"email": "info@ammancitadeltours.example",
+"website": "https://www.ammancitadeltours.example",
+"whatsapp": "+962 7 9000 1122"
+},
+"location": {
+"country": "Jordan",
+"city": "Amman",
+"region": "Amman Governorate",
+"address": "Jebel Al-Qala'a, Amman, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Amman",
+"Jerash",
+"Umm Qais",
+"Madaba"
+],
+"preferred_destinations": [
+"Amman",
+"Jerash"
+]
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Private Tours",
+"Group Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Licensed Tourist Guides",
+"Professional Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00-17:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 35,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 45,
+"max_price": 500,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Archaeological Tourism"
+]
+},
+"reviews": {
+"rating": 4.5,
+"review_count": 31,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000009",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Wadi As-Sir Eco-Tours",
+"description": "Eco-tourism focused tour operator based in Amman organizing nature walks, village visits, and sustainable outdoor excursions in the valleys surrounding Amman.",
+"experience_years": 7,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Nature",
+"Hiking",
+"Local Experiences",
+"Camping"
+],
+"target_customer_types": [
+"Solo Travelers",
+"Couples",
+"Families"
+]
+},
+"contact": {
+"phone": "+962 6 582 1100",
+"mobile": "+962 7 7000 3344",
+"email": "contact@wadiassirecotours.example",
+"website": "https://www.wadiassirecotours.example",
+"whatsapp": "+962 7 7000 3344"
+},
+"location": {
+"country": "Jordan",
+"city": "Amman",
+"region": "Amman Governorate",
+"address": "Wadi As-Sir, Amman, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Amman",
+"Iraq Al-Amir",
+"Salt",
+"Azraq"
+],
+"preferred_destinations": [
+"Iraq Al-Amir",
+"Amman"
+]
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Custom Itineraries",
+"Local Experiences",
+"Adventure Activities",
+"Hiking & Trekking"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "08:30-16:30"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 15,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 40,
+"max_price": 300,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Nature",
+"Hiking & Trekking",
+"Community Tourism"
+]
+},
+"reviews": {
+"rating": 4.7,
+"review_count": 29,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000010",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Royal Hashemite Travel & Tours",
+"description": "Amman-based incoming travel agency delivering VIP travel arrangements, luxury customized holiday itineraries, corporate retreats, and premier Jordan sightseeing.",
+"experience_years": 18,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Culture",
+"History",
+"Wellness",
+"Shopping"
+],
+"target_customer_types": [
+"Couples",
+"Families"
+]
+},
+"contact": {
+"phone": "+962 6 565 0011",
+"mobile": "+962 7 9555 7788",
+"email": "vip@royalhashemitetravel.example",
+"website": "https://www.royalhashemitetravel.example",
+"whatsapp": "+962 7 9555 7788"
+},
+"location": {
+"country": "Jordan",
+"city": "Amman",
+"region": "Amman Governorate",
+"address": "Abdali Boulevard, Amman, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Amman",
+"Dead Sea",
+"Petra",
+"Aqaba",
+"Wadi Rum"
+],
+"preferred_destinations": [
+"Dead Sea",
+"Petra"
+]
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic",
+"French",
+"Russian"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Custom Itineraries",
+"Private Tours",
+"Airport Transfers",
+"Hotel / Accommodation Booking",
+"VIP Services",
+"Conferences & Events"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Professional Guides",
+"Licensed Tourist Guides",
+"Multilingual Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00-18:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 30,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person / Package",
+"min_price": 150,
+"max_price": 2500,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Luxury Experiences",
+"Wellness",
+"History & Culture"
+]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 115,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+}
+]
+
+[
+{
+"sme_id": "SME-000011",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Book2Jordan Tours & Travel",
+"description": "Premier inbound Destination Management Company and receptive tour operator based in Amman, providing seamless travel services, custom itineraries, and full ground support across Jordan.",
+"experience_years": 20,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Nature",
+"Adventure",
+"Religious Sites"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 6 552 2991",
+"mobile": "+962 7 9000 4455",
+"email": "Info@book2jordan.com",
+"website": "[suspicious link removed]",
+"whatsapp": "+962 7 9000 4455"
+},
+"location": {
+"country": "Jordan",
+"city": "Amman",
+"region": "Amman Governorate",
+"address": "Wasfi Al-Tal St., Building no. 111, 2nd floor, Amman, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Amman",
+"Petra",
+"Wadi Rum",
+"Dead Sea",
+"Aqaba"
+],
+"preferred_destinations": [
+"Petra",
+"Wadi Rum",
+"Dead Sea"
+]
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic",
+"French"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Custom Itineraries",
+"Private Tours",
+"Group Tours",
+"Airport Transfers",
+"Hotel / Accommodation Booking",
+"Visa Assistance",
+"VIP Services"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Professional Guides",
+"Licensed Tourist Guides",
+"MultilingualGuides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "08:30-17:30"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 45,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person / Package",
+"min_price": 85,
+"max_price": 1400,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Soft Adventure",
+"Luxury Experiences"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 136,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000012",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Atlas Tours",
+"description": "Established destination management company (DMC) in Amman operating comprehensive cultural, leisure, pilgrimage, and adventure tour programs across Jordan since 1972.",
+"experience_years": 54,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Religious Sites",
+"Adventure",
+"Wellness",
+"Archaeology"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 6 566 3311",
+"mobile": "+962 7 9555 1212",
+"email": "info@atlastours.net",
+"website": "https://atlastours.net",
+"whatsapp": "+962 7 9555 1212"
+},
+"location": {
+"country": "Jordan",
+"city": "Amman",
+"region": "Amman Governorate",
+"address": "Shmeisani, Amman, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Amman",
+"Petra",
+"Wadi Rum",
+"Dead Sea",
+"Aqaba",
+"Jerash",
+"Madaba"
+],
+"preferred_destinations": [
+"Petra",
+"Wadi Rum",
+"Dead Sea"
+]
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic",
+"French",
+"German",
+"Spanish"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Custom Itineraries",
+"Private Tours",
+"Group Tours",
+"Airport Transfers",
+"Hotel / Accommodation Booking",
+"Religious Tours",
+"Conferences & Events"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Professional Guides",
+"Licensed Tourist Guides",
+"Multilingual Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "08:00-17:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 50,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person / Package",
+"min_price": 90,
+"max_price": 1600,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Religious Tourism",
+"Archaeological Tourism",
+"Hiking & Trekking"
+]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 210,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000013",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Quest Travel Jordan",
+"description": "Luxury Jordan DMC based in Amman designing tailor-made private journeys, high-end cultural excursions, and exclusive MICE programs across the Kingdom.",
+"experience_years": 12,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Culture",
+"History",
+"Wellness",
+"Desert",
+"Shopping"
+],
+"target_customer_types": [
+"Couples",
+"Families"
+]
+},
+"contact": {
+"phone": "+962 6 568 9090",
+"mobile": "+962 7 9888 3322",
+"email": "info@questtravel-jo.com",
+"website": "https://questtravel-jo.com",
+"whatsapp": "+962 7 9888 3322"
+},
+"location": {
+"country": "Jordan",
+"city": "Amman",
+"region": "Amman Governorate",
+"address": "Amman, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Amman",
+"Petra",
+"Wadi Rum",
+"Dead Sea",
+"Aqaba"
+],
+"preferred_destinations": [
+"Petra",
+"Dead Sea",
+"Wadi Rum"
+]
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic",
+"French"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Custom Itineraries",
+"Private Tours",
+"Airport Transfers",
+"Hotel / Accommodation Booking",
+"VIP Services",
+"Conferences & Events"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Professional Guides",
+"Licensed Tourist Guides",
+"Multilingual Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00-18:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 25,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person / Package",
+"min_price": 160,
+"max_price": 2800,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Luxury Experiences",
+"History & Culture",
+"Wellness"
+]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 84,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000014",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Refadah Travel & Tourism",
+"description": "Leading destination management company established in Amman in 2003, providing top-quality tourism services to individuals, groups, and international corporate clients.",
+"experience_years": 23,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Nature",
+"Religious Sites"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 6 569 8833",
+"mobile": "+962 7 9666 7711",
+"email": "info@refadah.com",
+"website": "https://www.refadah.com",
+"whatsapp": "+962 7 9666 7711"
+},
+"location": {
+"country": "Jordan",
+"city": "Amman",
+"region": "Amman Governorate",
+"address": "Amman, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Amman",
+"Petra",
+"Wadi Rum",
+"Dead Sea",
+"Jerash",
+"Madaba"
+],
+"preferred_destinations": [
+"Petra",
+"Dead Sea",
+"Amman"
+]
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic",
+"German"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Custom Itineraries",
+"Private Tours",
+"Group Tours",
+"Airport Transfers",
+"Hotel / Accommodation Booking",
+"Restaurant Booking"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Professional Guides",
+"Licensed Tourist Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "08:30-17:30"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 40,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 75,
+"max_price": 1250,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Religious Tourism",
+"Family Experiences"
+]
+},
+"reviews": {
+"rating": 4.7,
+"review_count": 92,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000015",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Adviser Travel And Tourism",
+"description": "Amman-based travel agency and incoming tour operator offering customized holidays, ticketing, hotel reservations, and guided sightseeing across Jordan.",
+"experience_years": 19,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Shopping"
+],
+"target_customer_types": [
+"Families",
+"Couples"
+]
+},
+"contact": {
+"phone": "+962 6 553 8325",
+"mobile": "+962 7 9555 6644",
+"email": "ahmad@advisertours.com",
+"website": "https://www.advisertours.example",
+"whatsapp": "+962 7 9555 6644"
+},
+"location": {
+"country": "Jordan",
+"city": "Amman",
+"region": "Amman Governorate",
+"address": "Macca St., Amman, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Amman",
+"Petra",
+"Jerash",
+"Dead Sea"
+],
+"preferred_destinations": [
+"Amman",
+"Petra"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "Arabic"
+},
+"services": {
+"service_categories": [
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Custom Itineraries",
+"Airport Transfers",
+"Hotel / Accommodation Booking",
+"Flight / Airline Ticketing"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Licensed Tourist Guides",
+"Local Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00-18:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 30,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 55,
+"max_price": 700,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Family Experiences"
+]
+},
+"reviews": {
+"rating": 4.5,
+"review_count": 41,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000016",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Darna Travel & Tourism",
+"description": "Amman-based incoming agency located near the 6th Circle on Zahran Street, providing tailored travel packages, hotel bookings, and private transfers.",
+"experience_years": 16,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Culture",
+"History",
+"Nature"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 6 554 1620",
+"mobile": "+962 7 9222 3344",
+"email": "kamal@darnatravel.com",
+"website": "https://www.darnatravel.com",
+"whatsapp": "+962 7 9222 3344"
+},
+"location": {
+"country": "Jordan",
+"city": "Amman",
+"region": "Amman Governorate",
+"address": "6th Circle, Zahran St., Amman, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Amman",
+"Petra",
+"Wadi Rum",
+"Dead Sea",
+"Jerash"
+],
+"preferred_destinations": [
+"Petra",
+"Amman",
+"Dead Sea"
+]
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Custom Itineraries",
+"Private Tours",
+"Airport Transfers",
+"Hotel / Accommodation Booking"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Professional Guides",
+"Licensed Tourist Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00-17:30"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 35,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 70,
+"max_price": 950,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Family Experiences"
+]
+},
+"reviews": {
+"rating": 4.6,
+"review_count": 58,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000017",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Green Meadows Travel and Tourism",
+"description": "Affiliated with Naouri Group, Green Meadows provides comprehensive corporate and leisure travel management, incoming tours, and logistical solutions from Amman.",
+"experience_years": 22,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Culture",
+"History",
+"Shopping",
+"Nature"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 6 500 4455",
+"mobile": "+962 7 9111 2233",
+"email": "gmtt@naouri.com",
+"website": "https://www.gmtt.jo",
+"whatsapp": "+962 7 9111 2233"
+},
+"location": {
+"country": "Jordan",
+"city": "Amman",
+"region": "Amman Governorate",
+"address": "Mecca Street, Amman, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Amman",
+"Petra",
+"Wadi Rum",
+"Dead Sea",
+"Aqaba"
+],
+"preferred_destinations": [
+"Petra",
+"Dead Sea"
+]
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic",
+"French"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Custom Itineraries",
+"Private Tours",
+"Group Tours",
+"Airport Transfers",
+"Hotel / Accommodation Booking",
+"Conferences & Events"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Professional Guides",
+"Licensed Tourist Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "08:30-17:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 45,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person / Package",
+"min_price": 80,
+"max_price": 1300,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Luxury Experiences"
+]
+},
+"reviews": {
+"rating": 4.7,
+"review_count": 79,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000018",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Hussam Tours",
+"description": "Amman-based tour operator specializing in incoming holiday packages, desert safaris, historical tours, and multi-destination ticketing across Jordan.",
+"experience_years": 21,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Desert",
+"Nature"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 6 551 0209",
+"mobile": "+962 7 9444 5566",
+"email": "info@hussamtours.com.jo",
+"website": "https://www.hussamtours.com.jo",
+"whatsapp": "+962 7 9444 5566"
+},
+"location": {
+"country": "Jordan",
+"city": "Amman",
+"region": "Amman Governorate",
+"address": "Um Al Soumaq, Amman, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Amman",
+"Petra",
+"Wadi Rum",
+"Dead Sea",
+"Aqaba"
+],
+"preferred_destinations": [
+"Petra",
+"Wadi Rum"
+]
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic",
+"German"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Custom Itineraries",
+"Private Tours",
+"Group Tours",
+"Airport Transfers",
+"Hotel / Accommodation Booking"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Professional Guides",
+"Licensed Tourist Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00-17:30"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 40,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 70,
+"max_price": 1150,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Desert Experiences",
+"Soft Adventure"
+]
+},
+"reviews": {
+"rating": 4.6,
+"review_count": 67,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000019",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Jordan Road Travel and Tourism",
+"description": "Amman-based tour operator specializing in customized incoming holiday packages, ground logistics, and guided sightseeing throughout Jordan's historical landmarks.",
+"experience_years": 17,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Archaeology"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 6 465 8810",
+"mobile": "+962 7 9333 4455",
+"email": "maz@jordan-road.com",
+"website": "https://www.jordan-road.com",
+"whatsapp": "+962 7 9333 4455"
+},
+"location": {
+"country": "Jordan",
+"city": "Amman",
+"region": "Amman Governorate",
+"address": "Wadi Saqra, Amman, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Amman",
+"Petra",
+"Wadi Rum",
+"Dead Sea",
+"Jerash"
+],
+"preferred_destinations": [
+"Petra",
+"Amman"
+]
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Custom Itineraries",
+"Private Tours",
+"Airport Transfers",
+"Hotel / Accommodation Booking"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Professional Guides",
+"Licensed Tourist Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00-17:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 35,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 65,
+"max_price": 1000,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Archaeological Tourism"
+]
+},
+"reviews": {
+"rating": 4.5,
+"review_count": 45,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000020",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Nyazi Tours",
+"description": "Incoming tour operator and travel agency on Abdallah Ghosheh Street in Amman, offering customized tour packages, ticketing, and transportation services across Jordan.",
+"experience_years": 15,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Nature"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 6 581 5910",
+"mobile": "+962 7 9777 8899",
+"email": "info@nyazitours.com",
+"website": "https://www.nyazitours.com",
+"whatsapp": "+962 7 9777 8899"
+},
+"location": {
+"country": "Jordan",
+"city": "Amman",
+"region": "Amman Governorate",
+"address": "Abdallah Ghosheh St., Amman, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Amman",
+"Petra",
+"Wadi Rum",
+"Dead Sea",
+"Jerash"
+],
+"preferred_destinations": [
+"Petra",
+"Dead Sea"
+]
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Custom Itineraries",
+"Private Tours",
+"Airport Transfers",
+"Hotel / Accommodation Booking",
+"Flight / Airline Ticketing"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Professional Guides",
+"Licensed Tourist Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00-17:30"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 30,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 60,
+"max_price": 900,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Family Experiences"
+]
+},
+"reviews": {
+"rating": 4.6,
+"review_count": 51,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+}
+]
+[
+{
+"sme_id": "SME-000021",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Zaid Tours & Travel",
+"description": "Leading destination management company and inbound tour operator based in Amman, offering customized leisure packages, corporate incentive programs, pilgrimages, and comprehensive travel support.",
+"experience_years": 30,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Religious Sites",
+"Wellness",
+"Adventure"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 6 569 5888",
+"mobile": "+962 7 9555 8822",
+"email": "info@zttint.com",
+"website": "https://zttint.com",
+"whatsapp": "+962 7 9555 8822"
+},
+"location": {
+"country": "Jordan",
+"city": "Amman",
+"region": "Amman Governorate",
+"address": "Shmeisani, Amman, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Amman",
+"Petra",
+"Wadi Rum",
+"Dead Sea",
+"Aqaba",
+"Jerash"
+],
+"preferred_destinations": [
+"Petra",
+"Dead Sea",
+"Wadi Rum"
+]
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic",
+"French",
+"German",
+"Spanish"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Custom Itineraries",
+"Private Tours",
+"Group Tours",
+"Airport Transfers",
+"Hotel / Accommodation Booking",
+"Religious Tours",
+"Conferences & Events"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Professional Guides",
+"Licensed Tourist Guides",
+"Multilingual Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "08:30-17:30"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 50,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person / Package",
+"min_price": 80,
+"max_price": 1500,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Religious Tourism",
+"Luxury Experiences"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 145,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000022",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Jordan Direct Tours",
+"description": "Amman-based incoming tour operator specializing in private, tailor-made holiday packages, local guiding insights, and authentic off-the-beaten-track explorations across Jordan.",
+"experience_years": 26,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Nature",
+"Archaeology"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 6 568 1230",
+"mobile": "+962 7 9666 1122",
+"email": "info@jdtours.com",
+"website": "https://www.jdtours.com",
+"whatsapp": "+962 7 9666 1122"
+},
+"location": {
+"country": "Jordan",
+"city": "Amman",
+"region": "Amman Governorate",
+"address": "Amman, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Amman",
+"Petra",
+"Wadi Rum",
+"Dead Sea",
+"Jerash",
+"Madaba"
+],
+"preferred_destinations": [
+"Petra",
+"Wadi Rum",
+"Dead Sea"
+]
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic",
+"French"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Custom Itineraries",
+"Private Tours",
+"Airport Transfers",
+"Hotel / Accommodation Booking"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Professional Guides",
+"Licensed Tourist Guides",
+"Local Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "08:30-17:30"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 30,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person / Package",
+"min_price": 75,
+"max_price": 1300,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Soft Adventure",
+"Local Experiences"
+]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 182,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000023",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Zaman Tours",
+"description": "Amman-based DMC expert offering curated day excursions, multi-day tours, corporate incentive travel, multilingual guiding, and bespoke special interest packages across Jordan.",
+"experience_years": 24,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Nature",
+"Adventure"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 6 567 9933",
+"mobile": "+962 7 9888 4433",
+"email": "info@zamantours.com",
+"website": "https://www.zamantours.com",
+"whatsapp": "+962 7 9888 4433"
+},
+"location": {
+"country": "Jordan",
+"city": "Amman",
+"region": "Amman Governorate",
+"address": "Amman, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Amman",
+"Petra",
+"Wadi Rum",
+"Dead Sea",
+"Aqaba",
+"Jerash"
+],
+"preferred_destinations": [
+"Petra",
+"Dead Sea",
+"Amman"
+]
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic",
+"French",
+"German"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Custom Itineraries",
+"Private Tours",
+"Group Tours",
+"Airport Transfers",
+"Hotel / Accommodation Booking",
+"Conferences & Events"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Professional Guides",
+"Licensed Tourist Guides",
+"Multilingual Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "08:30-17:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 40,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person / Package",
+"min_price": 85,
+"max_price": 1350,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Soft Adventure",
+"Community Tourism"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 118,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000024",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Jordan Select Tours",
+"description": "Amman-based boutique incoming tour operator specializing in tailor-made cultural tours, historical expeditions, and active outdoor journeys throughout Jordan.",
+"experience_years": 22,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Nature",
+"Hiking"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 6 585 7545",
+"mobile": "+962 7 9555 9900",
+"email": "info@select.jo",
+"website": "https://www.select.jo",
+"whatsapp": "+962 7 9555 9900"
+},
+"location": {
+"country": "Jordan",
+"city": "Amman",
+"region": "Amman Governorate",
+"address": "Um Uthainah, Amman, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Amman",
+"Petra",
+"Wadi Rum",
+"Dana",
+"Dead Sea",
+"Jerash"
+],
+"preferred_destinations": [
+"Petra",
+"Dana",
+"Wadi Rum"
+]
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic",
+"German"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Custom Itineraries",
+"Private Tours",
+"Group Tours",
+"Airport Transfers",
+"Hotel / Accommodation Booking",
+"Hiking & Trekking"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Professional Guides",
+"Licensed Tourist Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "08:30-17:30"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 35,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person / Package",
+"min_price": 90,
+"max_price": 1450,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Hiking & Trekking",
+"Nature"
+]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 160,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000025",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Nebo Tours",
+"description": "Amman-based destination management company offering religious pilgrimage tours, cultural historical itineraries, and comprehensive leisure packages across Jordan.",
+"experience_years": 25,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Religious Sites",
+"History",
+"Culture",
+"Archaeology"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 6 569 4555",
+"mobile": "+962 7 9666 3311",
+"email": "info@nebotours.com",
+"website": "https://www.nebotours.com",
+"whatsapp": "+962 7 9666 3311"
+},
+"location": {
+"country": "Jordan",
+"city": "Amman",
+"region": "Amman Governorate",
+"address": "Shmeisani, Amman, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Amman",
+"Madaba",
+"Mount Nebo",
+"Petra",
+"Wadi Rum",
+"Dead Sea"
+],
+"preferred_destinations": [
+"Mount Nebo",
+"Petra",
+"Dead Sea"
+]
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic",
+"Italian",
+"Spanish"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Custom Itineraries",
+"Private Tours",
+"Group Tours",
+"Airport Transfers",
+"Hotel / Accommodation Booking",
+"Religious Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Professional Guides",
+"Licensed Tourist Guides",
+"Multilingual Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "08:30-17:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 45,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person / Package",
+"min_price": 75,
+"max_price": 1200,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Religious Tourism",
+"History & Culture",
+"Archaeological Tourism"
+]
+},
+"reviews": {
+"rating": 4.7,
+"review_count": 134,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000026",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Green Arrow Tours",
+"description": "Amman-based incoming travel agency and tour operator providing tailored holiday packages, ground transportation, hotel arrangements, and guided sightseeing across Jordan.",
+"experience_years": 16,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Nature"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 6 568 7722",
+"mobile": "+962 7 9444 8899",
+"email": "info@greenarrowtours.example",
+"website": "https://www.greenarrowtours.example",
+"whatsapp": "+962 7 9444 8899"
+},
+"location": {
+"country": "Jordan",
+"city": "Amman",
+"region": "Amman Governorate",
+"address": "Al-Jubeiha, Amman, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Amman",
+"Petra",
+"Wadi Rum",
+"Dead Sea",
+"Jerash"
+],
+"preferred_destinations": [
+"Petra",
+"Amman"
+]
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Custom Itineraries",
+"Private Tours",
+"Group Tours",
+"Airport Transfers",
+"Hotel / Accommodation Booking"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Professional Guides",
+"Licensed Tourist Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00-17:30"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 35,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 65,
+"max_price": 950,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Family Experiences"
+]
+},
+"reviews": {
+"rating": 4.6,
+"review_count": 42,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000027",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Hermes Arabia",
+"description": "Amman-based destination management company specializing in high-end leisure travel, cultural discovery programs, and custom incoming operations throughout Jordan.",
+"experience_years": 18,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Culture",
+"History",
+"Desert",
+"Wellness"
+],
+"target_customer_types": [
+"Couples",
+"Families"
+]
+},
+"contact": {
+"phone": "+962 6 569 3300",
+"mobile": "+962 7 9222 5566",
+"email": "info@hermesarabia.example",
+"website": "https://www.hermesarabia.example",
+"whatsapp": "+962 7 9222 5566"
+},
+"location": {
+"country": "Jordan",
+"city": "Amman",
+"region": "Amman Governorate",
+"address": "Sweifieh, Amman, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Amman",
+"Petra",
+"Wadi Rum",
+"Dead Sea",
+"Aqaba"
+],
+"preferred_destinations": [
+"Petra",
+"Dead Sea",
+"Wadi Rum"
+]
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic",
+"French"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Custom Itineraries",
+"Private Tours",
+"Airport Transfers",
+"Hotel / Accommodation Booking",
+"VIP Services"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Professional Guides",
+"Licensed Tourist Guides",
+"Multilingual Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00-18:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 30,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person / Package",
+"min_price": 110,
+"max_price": 1800,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Luxury Experiences",
+"History & Culture",
+"Desert Experiences"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 68,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000028",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Terhaal Travel & Tourism",
+"description": "Amman-based adventure and eco-tourism tour operator focused on trekking trails, cycling trips, nature reserves, and active outdoor experiences across Jordan.",
+"experience_years": 14,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Hiking",
+"Cycling",
+"Nature",
+"Adventure",
+"Camping"
+],
+"target_customer_types": [
+"Solo Travelers",
+"Couples",
+"Families"
+]
+},
+"contact": {
+"phone": "+962 6 553 1188",
+"mobile": "+962 7 9111 4433",
+"email": "info@terhaal.example",
+"website": "https://www.terhaal.example",
+"whatsapp": "+962 7 9111 4433"
+},
+"location": {
+"country": "Jordan",
+"city": "Amman",
+"region": "Amman Governorate",
+"address": "Mecca St., Amman, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Amman",
+"Dana",
+"Wadi Mujib",
+"Petra",
+"Wadi Rum"
+],
+"preferred_destinations": [
+"Dana",
+"Wadi Rum",
+"Petra"
+]
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Tour Planning & Itinerary Design",
+"Custom Itineraries",
+"Private Tours",
+"Adventure Activities",
+"Hiking & Trekking",
+"Camping"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Specialized Guides",
+"Local Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00-17:00"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 16,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 85,
+"max_price": 950,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Hiking & Trekking",
+"Soft Adventure",
+"Nature"
+]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 94,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000029",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Travel One",
+"description": "Established Amman travel agency and incoming tour operator delivering customized holiday packages, group logistics, and complete tourism support throughout Jordan.",
+"experience_years": 19,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Shopping"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 6 569 2211",
+"mobile": "+962 7 9333 7788",
+"email": "info@travelone.example",
+"website": "https://www.travelone.example",
+"whatsapp": "+962 7 9333 7788"
+},
+"location": {
+"country": "Jordan",
+"city": "Amman",
+"region": "Amman Governorate",
+"address": "Shmeisani, Amman, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Amman",
+"Petra",
+"Wadi Rum",
+"Dead Sea",
+"Jerash"
+],
+"preferred_destinations": [
+"Petra",
+"Amman"
+]
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Custom Itineraries",
+"Private Tours",
+"Group Tours",
+"Airport Transfers",
+"Hotel / Accommodation Booking"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Professional Guides",
+"Licensed Tourist Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00-17:30"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 40,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 70,
+"max_price": 1100,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Family Experiences"
+]
+},
+"reviews": {
+"rating": 4.6,
+"review_count": 55,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000030",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Tyche Tours",
+"description": "Amman-based tour operator providing receptive tourism services, classic heritage tours, airport transfers, and tailored travel itineraries across Jordan.",
+"experience_years": 15,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Archaeology"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 6 565 4499",
+"mobile": "+962 7 9888 2211",
+"email": "info@tychetours.example",
+"website": "https://www.tychetours.example",
+"whatsapp": "+962 7 9888 2211"
+},
+"location": {
+"country": "Jordan",
+"city": "Amman",
+"region": "Amman Governorate",
+"address": "Jebel Amman, Amman, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Amman",
+"Petra",
+"Wadi Rum",
+"Dead Sea",
+"Jerash",
+"Madaba"
+],
+"preferred_destinations": [
+"Petra",
+"Dead Sea"
+]
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic",
+"French"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Custom Itineraries",
+"Private Tours",
+"Group Tours",
+"Airport Transfers",
+"Hotel / Accommodation Booking"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Professional Guides",
+"Licensed Tourist Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00-17:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 35,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 70,
+"max_price": 1050,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Archaeological Tourism"
+]
+},
+"reviews": {
+"rating": 4.7,
+"review_count": 61,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+}
+]
+
+
+
+
+[
+  {
+    "sme_id": "SME-000031",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Book2Jordan Tours & Travel",
+      "description": "Premier inbound Destination Management Company and receptive tour operator based in Amman, offering customized leisure packages, MICE events, and comprehensive travel support.",
+      "experience_years": 20,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Culture",
+        "Religious Sites",
+        "Wellness",
+        "Adventure"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples",
+        "Solo Travelers",
+        "Corporate Groups"
+      ]
+    },
+    "contact": {
+      "phone": "+962 6 552 2991",
+      "mobile": "+962 7 9000 1122",
+      "email": "Info@book2jordan.com",
+      "website": "https://book2jordan.com",
+      "whatsapp": "+962 7 9000 1122"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Wasfi Al-Tal St., Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Amman",
+        "Petra",
+        "Wadi Rum",
+        "Dead Sea",
+        "Aqaba",
+        "Jerash"
+      ],
+      "preferred_destinations": [
+        "Petra",
+        "Dead Sea",
+        "Wadi Rum"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "English",
+        "Arabic",
+        "French"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Guiding",
+        "Tour Planning & Itinerary Design",
+        "Transportation",
+        "Custom Itineraries",
+        "Private Tours",
+        "Group Tours",
+        "Airport Transfers",
+        "Hotel / Accommodation Booking",
+        "MICE Events"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Professional Guides",
+        "Licensed Tourist Guides",
+        "Multilingual Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "08:30-17:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 50,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person / Package",
+      "min_price": 80,
+      "max_price": 1400,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Religious Tourism",
+        "Tailor-Made Itineraries"
+      ]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 130,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000032",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Jordan Horizons Tours",
+      "description": "Amman-based tour operator specializing in cultural heritage tours, private desert excursions, and tailor-made packages across Jordan.",
+      "experience_years": 15,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Culture",
+        "Desert Adventures"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples",
+        "Solo Travelers"
+      ]
+    },
+    "contact": {
+      "phone": "+962 6 565 1122",
+      "mobile": "+962 7 9555 3344",
+      "email": "info@jordanhorizonstours.example",
+      "website": "https://www.jordanhorizonstours.example",
+      "whatsapp": "+962 7 9555 3344"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Amman",
+        "Petra",
+        "Wadi Rum",
+        "Dead Sea",
+        "Jerash"
+      ],
+      "preferred_destinations": [
+        "Petra",
+        "Wadi Rum"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "English",
+        "Arabic"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Guiding",
+        "Tour Planning & Itinerary Design",
+        "Transportation",
+        "Custom Itineraries",
+        "Private Tours",
+        "Airport Transfers"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Professional Guides",
+        "Licensed Tourist Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00-17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 30,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 70,
+      "max_price": 1000,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "Cultural Tourism",
+        "Desert Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 88,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  }
+]

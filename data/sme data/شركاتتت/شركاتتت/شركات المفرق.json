@@ -1,0 +1,1110 @@
+[
+{
+"sme_id": "SME-000001",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Mafraq Touristic and Cultural Services",
+"description": "Local tour operator based in Mafraq offering heritage tours, desert excursions, and exploration of regional archaeological sites such as Um El Jimal.",
+"experience_years": 7,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Archaeology",
+"Desert",
+"Culture"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": null,
+"mobile": null,
+"email": "info@mafraqtours.example",
+"website": "https://mafraqtours.example",
+"whatsapp": null
+},
+"location": {
+"country": "Jordan",
+"city": "Mafraq",
+"region": "Mafraq Governorate",
+"address": "Baghdad Highway, Mafraq",
+"destinations_covered": [
+"Mafraq",
+"Um El Jimal",
+"Badia Region"
+]
+},
+"service_area": {
+"destinations_covered": [
+"Mafraq",
+"Um El Jimal",
+"Badia Region"
+],
+"preferred_destinations": [
+"Um El Jimal"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "Arabic"
+},
+"services": {
+"service_categories": [
+"Tour Planning & Itinerary Design",
+"Custom Itineraries",
+"Private Tours",
+"Cultural Experiences"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00-17:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 15,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 25,
+"max_price": 120,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Archaeological Tourism",
+"Desert Experiences",
+"Local Experiences"
+]
+},
+"reviews": {
+"rating": 4.5,
+"review_count": 34,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000002",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Badia Horizons Travel and Tourism",
+"description": "Specialized incoming tour operator focusing on the Jordanian Badia, eco-tourism, desert camping experiences, and heritage trails originating from Mafraq.",
+"experience_years": 10,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Desert",
+"Camping",
+"Nature",
+"Local Experiences"
+],
+"target_customer_types": [
+"Families",
+"Solo Travelers",
+"Couples"
+]
+},
+"contact": {
+"phone": null,
+"mobile": null,
+"email": "contact@badiahorizonstours.example",
+"website": "https://badiahorizonstours.example",
+"whatsapp": null
+},
+"location": {
+"country": "Jordan",
+"city": "Mafraq",
+"region": "Mafraq Governorate",
+"address": "Main Street, Mafraq",
+"destinations_covered": [
+"Mafraq",
+"Eastern Badia",
+"Azraq"
+]
+},
+"service_area": {
+"destinations_covered": [
+"Mafraq",
+"Eastern Badia",
+"Azraq"
+],
+"preferred_destinations": [
+"Eastern Badia"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Planning & Itinerary Design",
+"Adventure Activities",
+"Transportation",
+"Private Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Professional Guides",
+"Local Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "08:30-18:00"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 20,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 40,
+"max_price": 200,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Soft Adventure",
+"Desert Experiences",
+"Nature",
+"Community Tourism"
+]
+},
+"reviews": {
+"rating": 4.7,
+"review_count": 42,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000003",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Um El Jimal Heritage Travel",
+"description": "Boutique tour operator dedicated to organizing historical excursions and archaeological educational tours around the ancient Nabataean-Roman site of Um El Jimal in Mafraq.",
+"experience_years": 5,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Archaeology",
+"Culture"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": null,
+"mobile": null,
+"email": "info@umeljimaltravel.example",
+"website": "https://umeljimaltravel.example",
+"whatsapp": null
+},
+"location": {
+"country": "Jordan",
+"city": "Mafraq",
+"region": "Mafraq Governorate",
+"address": "Um El Jimal Village Road, Mafraq",
+"destinations_covered": [
+"Um El Jimal",
+"Mafraq"
+]
+},
+"service_area": {
+"destinations_covered": [
+"Um El Jimal",
+"Mafraq"
+],
+"preferred_destinations": [
+"Um El Jimal"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Custom Itineraries",
+"Special Interest Tours",
+"Cultural Experiences"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Licensed Tourist Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": false
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday"
+],
+"working_hours": "09:00-16:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 12,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Tour",
+"min_price": 30,
+"max_price": 90,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Archaeological Tourism"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 19,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+}
+]
+[
+{
+"sme_id": "SME-000004",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Northern Gateway Tours Mafraq",
+"description": "Regional travel agency offering transportation, customized day tours, and multi-destination itineraries spanning Mafraq and neighboring northern governorates.",
+"experience_years": 8,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Culture",
+"History",
+"Nature"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": null,
+"mobile": null,
+"email": "booking@northerngatewaytours.example",
+"website": "https://northerngatewaytours.example",
+"whatsapp": null
+},
+"location": {
+"country": "Jordan",
+"city": "Mafraq",
+"region": "Mafraq Governorate",
+"address": "University Street, Mafraq",
+"destinations_covered": [
+"Mafraq",
+"Irbid",
+"Jerash"
+]
+},
+"service_area": {
+"destinations_covered": [
+"Mafraq",
+"Irbid",
+"Jerash"
+],
+"preferred_destinations": [
+"Mafraq"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "Arabic"
+},
+"services": {
+"service_categories": [
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Airport Transfers",
+"Private Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Professional Guides",
+"Local Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00-17:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 25,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 35,
+"max_price": 150,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Family Experiences"
+]
+},
+"reviews": {
+"rating": 4.4,
+"review_count": 28,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000005",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Mafraq Highland Adventure Travel",
+"description": "Specialized outdoor tourism operator focused on hiking, nature trails, and rural exploration across the highlands and green spaces of Mafraq Governorate.",
+"experience_years": 6,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Nature",
+"Hiking",
+"Local Experiences"
+],
+"target_customer_types": [
+"Solo Travelers",
+"Couples",
+"Families"
+]
+},
+"contact": {
+"phone": null,
+"mobile": null,
+"email": "info@mafraqhighland.example",
+"website": "https://mafraqhighland.example",
+"whatsapp": null
+},
+"location": {
+"country": "Jordan",
+"city": "Mafraq",
+"region": "Mafraq Governorate",
+"address": "Municipal District, Mafraq",
+"destinations_covered": [
+"Mafraq",
+"Bal'ama",
+"Rihab"
+]
+},
+"service_area": {
+"destinations_covered": [
+"Mafraq",
+"Bal'ama",
+"Rihab"
+],
+"preferred_destinations": [
+"Bal'ama"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Adventure Activities",
+"Local Experiences",
+"Special Interest Tours",
+"Custom Itineraries"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Specialized Guides",
+"Local Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "08:00-16:00"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 15,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 30,
+"max_price": 110,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Nature",
+"Hiking & Trekking",
+"Community Tourism"
+]
+},
+"reviews": {
+"rating": 4.6,
+"review_count": 21,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000006",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Desert Caravan Tourism Mafraq",
+"description": "Incoming tour operator providing desert safaris, Bedouin cultural hospitality experiences, and stargazing excursions in the eastern extensions of Mafraq Governorate.",
+"experience_years": 12,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Desert",
+"Camping",
+"Local Experiences",
+"Culture"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": null,
+"mobile": null,
+"email": "contact@desertcaravantours.example",
+"website": "https://desertcaravantours.example",
+"whatsapp": null
+},
+"location": {
+"country": "Jordan",
+"city": "Mafraq",
+"region": "Mafraq Governorate",
+"address": "Safawi Area, Mafraq",
+"destinations_covered": [
+"Safawi",
+"Mafraq",
+"Eastern Desert"
+]
+},
+"service_area": {
+"destinations_covered": [
+"Safawi",
+"Mafraq",
+"Eastern Desert"
+],
+"preferred_destinations": [
+"Safawi"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "Arabic"
+},
+"services": {
+"service_categories": [
+"Cultural Experiences",
+"Local Experiences",
+"Adventure Activities",
+"Private Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00-19:00"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 30,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 50,
+"max_price": 220,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Desert Experiences",
+"Community Tourism",
+"Soft Adventure"
+]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 55,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000007",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Rihab Historic Journeys",
+"description": "Boutique agency specializing in religious and historical heritage itineraries, focusing on ancient churches, mosaics, and historical sites in Rihab and Mafraq.",
+"experience_years": 4,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Religious Sites",
+"Archaeology"
+],
+"target_customer_types": [
+"Families",
+"Couples"
+]
+},
+"contact": {
+"phone": null,
+"mobile": null,
+"email": "info@rihabhistoric.example",
+"website": "https://rihabhistoric.example",
+"whatsapp": null
+},
+"location": {
+"country": "Jordan",
+"city": "Mafraq",
+"region": "Mafraq Governorate",
+"address": "Rihab District, Mafraq",
+"destinations_covered": [
+"Rihab",
+"Mafraq"
+]
+},
+"service_area": {
+"destinations_covered": [
+"Rihab",
+"Mafraq"
+],
+"preferred_destinations": [
+"Rihab"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Religious Tours",
+"Tour Guiding",
+"Custom Itineraries",
+"Cultural Experiences"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Licensed Tourist Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": false
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday"
+],
+"working_hours": "09:00-15:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 10,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Tour",
+"min_price": 35,
+"max_price": 85,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Religious Tourism",
+"History & Culture",
+"Archaeological Tourism"
+]
+},
+"reviews": {
+"rating": 4.3,
+"review_count": 15,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000008",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Mafraq Horizon Travel & Logistics",
+"description": "Comprehensive local travel agency providing corporate transport, tour planning, and regional excursion management within the Mafraq governorate and border corridors.",
+"experience_years": 9,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Culture",
+"History"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": null,
+"mobile": null,
+"email": "support@mafraqhorizon.example",
+"website": "https://mafraqhorizon.example",
+"whatsapp": null
+},
+"location": {
+"country": "Jordan",
+"city": "Mafraq",
+"region": "Mafraq Governorate",
+"address": "King Abdullah Street, Mafraq",
+"destinations_covered": [
+"Mafraq",
+"Amman",
+"Jarash"
+]
+},
+"service_area": {
+"destinations_covered": [
+"Mafraq",
+"Amman",
+"Jarash"
+],
+"preferred_destinations": [
+"Mafraq"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "Arabic"
+},
+"services": {
+"service_categories": [
+"Transportation",
+"Airport Transfers",
+"Tour Planning & Itinerary Design",
+"Private Tours"
+]
+},
+"guides": {
+"provides_guides": false,
+"guide_types": []
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "08:30-17:30"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 35,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 20,
+"max_price": 100,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Family Experiences"
+]
+},
+"reviews": {
+"rating": 4.2,
+"review_count": 24,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000009",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Badia Star Eco-Tours",
+"description": "Eco-tourism operator offering sustainable desert experiences, traditional culinary tours, and night sky observation tours in remote sectors of the Mafraq desert.",
+"experience_years": 5,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Desert",
+"Camping",
+"Food",
+"Nature"
+],
+"target_customer_types": [
+"Solo Travelers",
+"Couples",
+"Families"
+]
+},
+"contact": {
+"phone": null,
+"mobile": null,
+"email": "booking@badiastartours.example",
+"website": "https://badiastartours.example",
+"whatsapp": null
+},
+"location": {
+"country": "Jordan",
+"city": "Mafraq",
+"region": "Mafraq Governorate",
+"address": "Suburban Desert Road, Mafraq",
+"destinations_covered": [
+"Mafraq",
+"Eastern Badia"
+]
+},
+"service_area": {
+"destinations_covered": [
+"Mafraq",
+"Eastern Badia"
+],
+"preferred_destinations": [
+"Eastern Badia"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Adventure Activities",
+"Local Experiences",
+"Food & Culinary",
+"Custom Itineraries"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "10:00-18:00"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 16,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 45,
+"max_price": 175,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Desert Experiences",
+"Food & Culinary",
+"Community Tourism"
+]
+},
+"reviews": {
+"rating": 4.7,
+"review_count": 31,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000010",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Mafraq Cultural Heritage Planners",
+"description": "Specialist tour planning and destination management service focusing on educational heritage tours, historical research travel, and museum coordination in Mafraq.",
+"experience_years": 7,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Archaeology"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": null,
+"mobile": null,
+"email": "info@mafraqculturalheritage.example",
+"website": "https://mafraqculturalheritage.example",
+"whatsapp": null
+},
+"location": {
+"country": "Jordan",
+"city": "Mafraq",
+"region": "Mafraq Governorate",
+"address": "Cultural Center Road, Mafraq",
+"destinations_covered": [
+"Mafraq",
+"Um El Jimal"
+]
+},
+"service_area": {
+"destinations_covered": [
+"Mafraq",
+"Um El Jimal"
+],
+"preferred_destinations": [
+"Mafraq"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Planning & Itinerary Design",
+"Custom Itineraries",
+"Travel Consulting",
+"Cultural Experiences"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Licensed Tourist Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": false
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday"
+],
+"working_hours": "09:00-16:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 15,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Tour",
+"min_price": 40,
+"max_price": 130,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Archaeological Tourism"
+]
+},
+"reviews": {
+"rating": 4.5,
+"review_count": 18,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+}
+]

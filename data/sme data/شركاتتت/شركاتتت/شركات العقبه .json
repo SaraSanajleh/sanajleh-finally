@@ -1,0 +1,3316 @@
+[
+  {
+    "sme_id": "SME-000001",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Desert Divers & Tours Aqaba",
+      "description": "Aqaba-based tour operator specializing in Red Sea marine activities, diving excursions, desert safaris to Wadi Rum, and cultural tours across southern Jordan.",
+      "experience_years": 12,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Nature",
+        "Adventure",
+        "Desert",
+        "Beaches",
+        "Local Experiences"
+      ],
+      "target_customer_types": [
+        "Couples",
+        "Families",
+        "Solo Travelers"
+      ]
+    },
+    "contact": {
+      "phone": "+96232010000",
+      "mobile": "+962790000001",
+      "email": "info@desertdiversaqaba.example",
+      "website": "https://www.desertdiversaqaba.example",
+      "whatsapp": "+962790000001"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "Al-Nahda Street, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Aqaba",
+        "Wadi Rum",
+        "Petra"
+      ],
+      "preferred_destinations": [
+        "Aqaba",
+        "Wadi Rum"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "English",
+        "Arabic"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Transportation",
+        "Custom Itineraries",
+        "Private Tours",
+        "Activity & Excursion Booking"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Professional Guides",
+        "Local Guides",
+        "Specialized Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "08:00–18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person / Tour",
+      "min_price": 30.0,
+      "max_price": 250.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "Nature",
+        "Soft Adventure",
+        "Desert Experiences",
+        "Beach Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.7,
+      "review_count": 64,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000002",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Red Sea Paradise Tours",
+      "description": "Incoming tour operator and travel agency offering comprehensive holiday packages in Aqaba, yacht rentals, snorkeling trips, and excursions to Jordan's golden triangle.",
+      "experience_years": 8,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Beaches",
+        "Nature",
+        "Adventure",
+        "Culture"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples",
+        "Solo Travelers"
+      ]
+    },
+    "contact": {
+      "phone": "+96232020000",
+      "mobile": "+962790000002",
+      "email": "contact@redseaparadisetours.example",
+      "website": "https://www.redseaparadisetours.example",
+      "whatsapp": "+962790000002"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "King Hussein Street, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Aqaba",
+        "Wadi Rum",
+        "Petra",
+        "Dead Sea"
+      ],
+      "preferred_destinations": [
+        "Aqaba",
+        "Wadi Rum"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "English",
+        "Arabic",
+        "French"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Transportation",
+        "Airport Transfers",
+        "Private Tours",
+        "Group Tours",
+        "Hotel / Accommodation Booking"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Licensed Tourist Guides",
+        "Multilingual Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00–17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 40,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Package",
+      "min_price": 50.0,
+      "max_price": 400.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "Beach Experiences",
+        "Family Experiences",
+        "Soft Adventure"
+      ]
+    },
+    "reviews": {
+      "rating": 4.5,
+      "review_count": 42,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000003",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Aqaba Gateway Travel & Tourism",
+      "description": "Local travel agency and tour operator based in Aqaba providing ticketing, tailor-made historical tours, desert excursions, and seamless travel logistics.",
+      "experience_years": 15,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Culture",
+        "Archaeology",
+        "Desert"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples"
+      ]
+    },
+    "contact": {
+      "phone": "+96232030000",
+      "mobile": "+962790000003",
+      "email": "info@aqabagateway.example",
+      "website": "https://www.aqabagateway.example",
+      "whatsapp": "+962790000003"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "Al-Hammamat Al-Tunisiyyeh Street, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Aqaba",
+        "Petra",
+        "Wadi Rum"
+      ],
+      "preferred_destinations": [
+        "Petra",
+        "Wadi Rum"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "English",
+        "Arabic"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Transportation",
+        "Custom Itineraries",
+        "Airport Transfers",
+        "Travel Consulting"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Professional Guides",
+        "Licensed Tourist Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ],
+      "working_hours": "09:00–17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 20,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 40.0,
+      "max_price": 300.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Archaeological Tourism",
+        "Desert Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 51,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000004",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Ayla Oasis Tour Services",
+      "description": "Specialized incoming tour operator working around the Aqaba coastal and resort zones, providing high-end leisure itineraries, water sports coordination, and regional touring.",
+      "experience_years": 6,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Beaches",
+        "Luxury Experiences",
+        "Nature",
+        "Wellness"
+      ],
+      "target_customer_types": [
+        "Couples",
+        "Families"
+      ]
+    },
+    "contact": {
+      "phone": "+96232040000",
+      "mobile": "+962790000004",
+      "email": "concierge@aylaoasistours.example",
+      "website": "https://www.aylaoasistours.example",
+      "whatsapp": "+962790000004"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "Ayla Boulevard, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Aqaba"
+      ],
+      "preferred_destinations": [
+        "Aqaba"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "English",
+        "Arabic",
+        "German"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "VIP Services",
+        "Activity & Excursion Booking",
+        "Hotel / Accommodation Booking",
+        "Private Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": false,
+      "guide_types": []
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "working_hours": "09:00–19:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 10,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Experience",
+      "min_price": 70.0,
+      "max_price": 500.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "Luxury Experiences",
+        "Beach Experiences",
+        "Wellness"
+      ]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 29,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000005",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Aqaba Marine & Desert Adventures",
+      "description": "Adventure tour operator focused on combining scuba diving and marine explorations in the Gulf of Aqaba with jeep tours and camping expeditions in Wadi Rum.",
+      "experience_years": 10,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Adventure",
+        "Desert",
+        "Beaches",
+        "Hiking",
+        "Camping"
+      ],
+      "target_customer_types": [
+        "Solo Travelers",
+        "Couples",
+        "Families"
+      ]
+    },
+    "contact": {
+      "phone": "+96232050000",
+      "mobile": "+962790000005",
+      "email": "booking@aqabamarineadventures.example",
+      "website": "https://www.aqabamarineadventures.example",
+      "whatsapp": "+962790000005"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "South Beach Highway, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Aqaba",
+        "Wadi Rum"
+      ],
+      "preferred_destinations": [
+        "Aqaba",
+        "Wadi Rum"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "English",
+        "Arabic"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Custom Itineraries",
+        "Private Tours",
+        "Group Tours",
+        "Activity & Excursion Booking"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Specialized Guides",
+        "Local Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "08:00–18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 45.0,
+      "max_price": 220.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "Soft Adventure",
+        "Desert Experiences",
+        "Beach Experiences",
+        "Hiking & Trekking"
+      ]
+    },
+    "reviews": {
+      "rating": 4.6,
+      "review_count": 38,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000006",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Al-Eilwah Desert & Sea Travel",
+      "description": "Regional tour provider facilitating eco-tourism, local Bedouin cultural exchanges, desert safaris, and coastal excursions operating out of Aqaba.",
+      "experience_years": 9,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Local Experiences",
+        "Culture",
+        "Desert",
+        "Nature"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Solo Travelers",
+        "Couples"
+      ]
+    },
+    "contact": {
+      "phone": "+96232060000",
+      "mobile": "+962790000006",
+      "email": "info@aleilwahtravel.example",
+      "website": "https://www.aleilwahtravel.example",
+      "whatsapp": "+962790000006"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "Al-Saada Street, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Aqaba",
+        "Wadi Rum"
+      ],
+      "preferred_destinations": [
+        "Wadi Rum"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "English",
+        "Arabic"
+      ],
+      "preferred_language": "Arabic"
+    },
+    "services": {
+      "service_categories": [
+        "Cultural Experiences",
+        "Local Experiences",
+        "Private Tours",
+        "Tour Planning & Itinerary Design"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Local Guides",
+        "Specialized Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00–17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 16,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 35.0,
+      "max_price": 180.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "Community Tourism",
+        "Local Experiences",
+        "Desert Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 25,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000007",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Aqaba Horizon Incoming Tour Operator",
+      "description": "Incoming tour operator handling group and individual travel arrangements, hotel reservations, guided sightseeing, and transportation across Aqaba and southern Jordan.",
+      "experience_years": 14,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Culture",
+        "Beaches",
+        "Nature"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples"
+      ]
+    },
+    "contact": {
+      "phone": "+96232070000",
+      "mobile": "+962790000007",
+      "email": "operations@aqabahorizon.example",
+      "website": "https://www.aqabahorizon.example",
+      "whatsapp": "+962790000007"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "Al-Karamah Street, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Aqaba",
+        "Petra",
+        "Wadi Rum",
+        "Dead Sea",
+        "Amman"
+      ],
+      "preferred_destinations": [
+        "Aqaba",
+        "Petra",
+        "Wadi Rum"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "English",
+        "Arabic",
+        "French"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Transportation",
+        "Airport Transfers",
+        "Hotel / Accommodation Booking",
+        "Group Tours",
+        "Private Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Licensed Tourist Guides",
+        "Professional Guides",
+        "Multilingual Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "08:30–17:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 45,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day / Package",
+      "min_price": 60.0,
+      "max_price": 450.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Family Experiences",
+        "Soft Adventure"
+      ]
+    },
+    "reviews": {
+      "rating": 4.4,
+      "review_count": 60,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000008",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Gulf of Aqaba Travel & Tourism",
+      "description": "Established local travel agency providing comprehensive ticketing, hotel bookings, airport meet-and-greet services, and curated sightseeing tours departing from Aqaba.",
+      "experience_years": 18,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Culture",
+        "Beaches",
+        "Shopping"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples",
+        "Solo Travelers"
+      ]
+    },
+    "contact": {
+      "phone": "+96232080000",
+      "mobile": "+962790000008",
+      "email": "support@gulfofaqabatravel.example",
+      "website": "https://www.gulfofaqabatravel.example",
+      "whatsapp": "+962790000008"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "Aqaba City Center, Al-Hussein Bin Ali Street, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Aqaba",
+        "Petra",
+        "Wadi Rum"
+      ],
+      "preferred_destinations": [
+        "Aqaba",
+        "Petra"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "English",
+        "Arabic"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Transportation",
+        "Airport Transfers",
+        "Hotel / Accommodation Booking",
+        "Meet & Greet / Airport Assistance"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Licensed Tourist Guides",
+        "Professional Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00–17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 30,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 40.0,
+      "max_price": 250.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Beach Experiences",
+        "Family Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.5,
+      "review_count": 33,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000009",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Aqaba Sun & Sand Expeditions",
+      "description": "Boutique tour operator offering personalized desert trekking, camel tours, snorkeling excursions, and customized itineraries originating from Aqaba.",
+      "experience_years": 7,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Adventure",
+        "Desert",
+        "Hiking",
+        "Beaches"
+      ],
+      "target_customer_types": [
+        "Solo Travelers",
+        "Couples",
+        "Families"
+      ]
+    },
+    "contact": {
+      "phone": "+96232090000",
+      "mobile": "+962790000009",
+      "email": "explore@aqabasunsand.example",
+      "website": "https://www.aqabasunsand.example",
+      "whatsapp": "+962790000009"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "Al-Manara District, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Aqaba",
+        "Wadi Rum"
+      ],
+      "preferred_destinations": [
+        "Wadi Rum"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "English",
+        "Arabic"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Custom Itineraries",
+        "Private Tours",
+        "Activity & Excursion Booking"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Specialized Guides",
+        "Local Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "08:00–17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 12,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 50.0,
+      "max_price": 200.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "Soft Adventure",
+        "Hiking & Trekking",
+        "Desert Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.7,
+      "review_count": 21,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000010",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Aqaba Crown Travel & Tourism",
+      "description": "Full-service incoming tour operator providing comprehensive travel solutions, corporate tourism, leisure packages, and multi-day guided tours across Jordan.",
+      "experience_years": 16,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Culture",
+        "Nature",
+        "Religious Sites"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples",
+        "Solo Travelers"
+      ]
+    },
+    "contact": {
+      "phone": "+96232100000",
+      "mobile": "+962790000010",
+      "email": "info@aqabacrowntravel.example",
+      "website": "https://www.aqabacrowntravel.example",
+      "whatsapp": "+962790000010"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "Al-Ardah Street, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Aqaba",
+        "Petra",
+        "Wadi Rum",
+        "Dead Sea",
+        "Amman",
+        "Jerash"
+      ],
+      "preferred_destinations": [
+        "Petra",
+        "Wadi Rum",
+        "Aqaba"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "English",
+        "Arabic",
+        "French",
+        "Spanish"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Transportation",
+        "Airport Transfers",
+        "Hotel / Accommodation Booking",
+        "Private Tours",
+        "Group Tours",
+        "Conferences & Events"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Licensed Tourist Guides",
+        "Professional Guides",
+        "Multilingual Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00–18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 50,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Package",
+      "min_price": 75.0,
+      "max_price": 600.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Religious Tourism",
+        "Archaeological Tourism",
+        "Family Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.6,
+      "review_count": 74,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  }
+]
+[
+  {
+    "sme_id": "SME-000011",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Red Sea Waves Travel & Tourism",
+      "description": "Aqaba-based incoming agency specializing in coastal holiday packages, resort transfers, desert excursions to Wadi Rum, and customized historical tours.",
+      "experience_years": 11,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Beaches",
+        "Nature",
+        "Adventure",
+        "Culture"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples",
+        "Solo Travelers"
+      ]
+    },
+    "contact": {
+      "phone": "+96232110000",
+      "mobile": "+962790000011",
+      "email": "info@redseawavestravel.example",
+      "website": "https://www.redseawavestravel.example",
+      "whatsapp": "+962790000011"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "Al-Nahda Street, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Aqaba",
+        "Wadi Rum",
+        "Petra"
+      ],
+      "preferred_destinations": [
+        "Aqaba",
+        "Wadi Rum"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "English",
+        "Arabic"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Transportation",
+        "Airport Transfers",
+        "Private Tours",
+        "Hotel / Accommodation Booking"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Licensed Tourist Guides",
+        "Professional Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00–17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 30,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Package",
+      "min_price": 45.0,
+      "max_price": 320.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "Beach Experiences",
+        "Soft Adventure",
+        "Family Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.5,
+      "review_count": 31,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000012",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Aqaba Dune & Deep Tours",
+      "description": "Specialized tour operator combining scuba diving expeditions in the Red Sea with specialized Bedouin jeep tours and overnight camping experiences in Wadi Rum.",
+      "experience_years": 8,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Adventure",
+        "Desert",
+        "Beaches",
+        "Camping"
+      ],
+      "target_customer_types": [
+        "Solo Travelers",
+        "Couples",
+        "Families"
+      ]
+    },
+    "contact": {
+      "phone": "+96232120000",
+      "mobile": "+962790000012",
+      "email": "booking@aqabadunedeep.example",
+      "website": "https://www.aqabadunedeep.example",
+      "whatsapp": "+962790000012"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "South Beach Highway, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Aqaba",
+        "Wadi Rum"
+      ],
+      "preferred_destinations": [
+        "Wadi Rum",
+        "Aqaba"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "English",
+        "Arabic"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Custom Itineraries",
+        "Private Tours",
+        "Activity & Excursion Booking"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Specialized Guides",
+        "Local Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "08:00–18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 50.0,
+      "max_price": 240.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "Soft Adventure",
+        "Desert Experiences",
+        "Beach Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.7,
+      "review_count": 45,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000013",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Nafahat Aqaba Travel Agency",
+      "description": "Local travel office providing ticketing, airport transfers, domestic hotel bookings, and tailored recreational tours focused on Aqaba and its surroundings.",
+      "experience_years": 13,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Culture",
+        "Beaches"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples"
+      ]
+    },
+    "contact": {
+      "phone": "+96232130000",
+      "mobile": "+962790000013",
+      "email": "support@nafahatour.example",
+      "website": "https://www.nafahatour.example",
+      "whatsapp": "+962790000013"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "Al-Hammamat Al-Tunisiyyeh Street, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Aqaba",
+        "Petra",
+        "Wadi Rum"
+      ],
+      "preferred_destinations": [
+        "Aqaba",
+        "Petra"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "English",
+        "Arabic"
+      ],
+      "preferred_language": "Arabic"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Transportation",
+        "Airport Transfers",
+        "Hotel / Accommodation Booking"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Licensed Tourist Guides",
+        "Professional Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ],
+      "working_hours": "09:00–17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 35.0,
+      "max_price": 200.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Family Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.4,
+      "review_count": 19,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000014",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Aqaba Star Tours",
+      "description": "Incoming tour operator delivering comprehensive vacation packages, desert trips, leisure coordination, and logistical support across the southern governorate.",
+      "experience_years": 10,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Culture",
+        "Desert",
+        "Beaches"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples",
+        "Solo Travelers"
+      ]
+    },
+    "contact": {
+      "phone": "+96232140000",
+      "mobile": "+962790000014",
+      "email": "info@aqabastartours.example",
+      "website": "https://www.aqabastartours.example",
+      "whatsapp": "+962790000014"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "King Hussein Street, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Aqaba",
+        "Petra",
+        "Wadi Rum",
+        "Dead Sea"
+      ],
+      "preferred_destinations": [
+        "Petra",
+        "Wadi Rum",
+        "Aqaba"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "English",
+        "Arabic",
+        "French"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Transportation",
+        "Airport Transfers",
+        "Private Tours",
+        "Group Tours",
+        "Hotel / Accommodation Booking"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Licensed Tourist Guides",
+        "Professional Guides",
+        "Multilingual Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00–17:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 35,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Package",
+      "min_price": 50.0,
+      "max_price": 380.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Desert Experiences",
+        "Beach Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.6,
+      "review_count": 55,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000015",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Coral Reef Travel & Tours Aqaba",
+      "description": "Boutique agency offering personalized marine excursions, snorkeling and scuba packages, beach resort getaways, and private desert tours from Aqaba.",
+      "experience_years": 7,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Beaches",
+        "Nature",
+        "Adventure",
+        "Local Experiences"
+      ],
+      "target_customer_types": [
+        "Couples",
+        "Families",
+        "Solo Travelers"
+      ]
+    },
+    "contact": {
+      "phone": "+96232150000",
+      "mobile": "+962790000015",
+      "email": "contact@coralreeftoursaqaba.example",
+      "website": "https://www.coralreeftoursaqaba.example",
+      "whatsapp": "+962790000015"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "Al-Saada Street, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Aqaba",
+        "Wadi Rum"
+      ],
+      "preferred_destinations": [
+        "Aqaba",
+        "Wadi Rum"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "English",
+        "Arabic"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Custom Itineraries",
+        "Private Tours",
+        "Activity & Excursion Booking"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Specialized Guides",
+        "Local Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "08:30–17:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 12,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 40.0,
+      "max_price": 190.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "Beach Experiences",
+        "Soft Adventure",
+        "Local Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 28,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  }
+]
+[
+  {
+    "sme_id": "SME-000016",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Wadi Rum & Aqaba Express Tours",
+      "description": "Specialist tour operator based in Aqaba providing fast transfers, day trips, and overnight desert adventure packages combining the Red Sea coast with Wadi Rum.",
+      "experience_years": 9,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Adventure",
+        "Desert",
+        "Beaches",
+        "Nature"
+      ],
+      "target_customer_types": [
+        "Solo Travelers",
+        "Couples",
+        "Families"
+      ]
+    },
+    "contact": {
+      "phone": "+96232160000",
+      "mobile": "+962790000016",
+      "email": "info@wadirumaqabaexpress.example",
+      "website": "https://www.wadirumaqabaexpress.example",
+      "whatsapp": "+962790000016"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "Al-Nahda Street, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Aqaba",
+        "Wadi Rum"
+      ],
+      "preferred_destinations": [
+        "Wadi Rum",
+        "Aqaba"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "English",
+        "Arabic"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Transportation",
+        "Airport Transfers",
+        "Private Tours",
+        "Activity & Excursion Booking"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Local Guides",
+        "Specialized Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "08:00–18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 20,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 45.0,
+      "max_price": 210.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "Soft Adventure",
+        "Desert Experiences",
+        "Beach Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.6,
+      "review_count": 35,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000017",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Aqaba Heritage & Leisure Tours",
+      "description": "Incoming agency focused on blending cultural heritage exploration, local Aqaba history, city walking tours, and regional holiday organization.",
+      "experience_years": 12,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Culture",
+        "Local Experiences",
+        "Archaeology"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples"
+      ]
+    },
+    "contact": {
+      "phone": "+96232170000",
+      "mobile": "+962790000017",
+      "email": "contact@aqabaheritagetours.example",
+      "website": "https://www.aqabaheritagetours.example",
+      "whatsapp": "+962790000017"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "Al-Karamah Street, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Aqaba",
+        "Petra",
+        "Wadi Rum"
+      ],
+      "preferred_destinations": [
+        "Aqaba",
+        "Petra"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "English",
+        "Arabic",
+        "French"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Cultural Experiences",
+        "Local Experiences",
+        "Private Tours",
+        "Group Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Licensed Tourist Guides",
+        "Professional Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ],
+      "working_hours": "09:00–17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 40.0,
+      "max_price": 220.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Archaeological Tourism",
+        "Local Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.7,
+      "review_count": 39,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000018",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Aqaba Blue Lagoon Travel Services",
+      "description": "Travel and tour agency providing comprehensive coastal bookings, water activity coordination, desert excursions, and custom tour packages out of Aqaba.",
+      "experience_years": 8,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Beaches",
+        "Adventure",
+        "Nature",
+        "Desert"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples",
+        "Solo Travelers"
+      ]
+    },
+    "contact": {
+      "phone": "+96232180000",
+      "mobile": "+962790000018",
+      "email": "info@bluelagoonaqabatravel.example",
+      "website": "https://www.bluelagoonaqabatravel.example",
+      "whatsapp": "+962790000018"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "King Hussein Street, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Aqaba",
+        "Wadi Rum",
+        "Petra"
+      ],
+      "preferred_destinations": [
+        "Aqaba",
+        "Wadi Rum"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "English",
+        "Arabic"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Transportation",
+        "Airport Transfers",
+        "Hotel / Accommodation Booking",
+        "Activity & Excursion Booking"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Professional Guides",
+        "Local Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00–17:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 30,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Package",
+      "min_price": 50.0,
+      "max_price": 300.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "Beach Experiences",
+        "Soft Adventure",
+        "Desert Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.5,
+      "review_count": 27,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000019",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Aqaba Panorama Tours",
+      "description": "Incoming tour operator offering scenic sightseeing tours, multi-day Jordan itinerary planning, and full destination management support based in Aqaba.",
+      "experience_years": 15,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Culture",
+        "Nature",
+        "Desert"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples",
+        "Solo Travelers"
+      ]
+    },
+    "contact": {
+      "phone": "+96232190000",
+      "mobile": "+962790000019",
+      "email": "support@aqabapanoramatours.example",
+      "website": "https://www.aqabapanoramatours.example",
+      "whatsapp": "+962790000019"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "Al-Ardah Street, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Aqaba",
+        "Petra",
+        "Wadi Rum",
+        "Dead Sea",
+        "Amman"
+      ],
+      "preferred_destinations": [
+        "Petra",
+        "Wadi Rum",
+        "Aqaba"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "English",
+        "Arabic",
+        "German"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Transportation",
+        "Airport Transfers",
+        "Hotel / Accommodation Booking",
+        "Private Tours",
+        "Group Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Licensed Tourist Guides",
+        "Professional Guides",
+        "Multilingual Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "08:30–17:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 40,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Package",
+      "min_price": 70.0,
+      "max_price": 500.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Desert Experiences",
+        "Family Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 66,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000020",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Red Sea Horizon Travel",
+      "description": "Aqaba-based agency providing ticketing, airport assistance, resort transfer solutions, and customized holiday tours across southern Jordan.",
+      "experience_years": 10,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Beaches",
+        "Culture",
+        "History",
+        "Nature"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples"
+      ]
+    },
+    "contact": {
+      "phone": "+96232200000",
+      "mobile": "+962790000020",
+      "email": "info@redseahorizontravel.example",
+      "website": "https://www.redseahorizontravel.example",
+      "whatsapp": "+962790000020"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "Al-Saada Street, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Aqaba",
+        "Petra",
+        "Wadi Rum"
+      ],
+      "preferred_destinations": [
+        "Aqaba",
+        "Petra"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "English",
+        "Arabic"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Transportation",
+        "Airport Transfers",
+        "Hotel / Accommodation Booking",
+        "Meet & Greet / Airport Assistance"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Licensed Tourist Guides",
+        "Professional Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00–17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 30,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 40.0,
+      "max_price": 260.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Beach Experiences",
+        "Family Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.4,
+      "review_count": 30,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  }
+]
+[
+  {
+    "sme_id": "SME-000021",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Aqaba Oasis Incoming Tour Agency",
+      "description": "Incoming agency specializing in tailor-made holiday packages, coastal resort arrangements, and guided excursions throughout Aqaba and Wadi Rum.",
+      "experience_years": 9,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Beaches",
+        "Desert",
+        "Nature",
+        "Culture"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples",
+        "Solo Travelers"
+      ]
+    },
+    "contact": {
+      "phone": "+96232210000",
+      "mobile": "+962790000021",
+      "email": "info@aqabaoasistours.example",
+      "website": "https://www.aqabaoasistours.example",
+      "whatsapp": "+962790000021"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "Al-Hammamat Al-Tunisiyyeh Street, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Aqaba",
+        "Wadi Rum",
+        "Petra"
+      ],
+      "preferred_destinations": [
+        "Aqaba",
+        "Wadi Rum"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "English",
+        "Arabic"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Transportation",
+        "Airport Transfers",
+        "Hotel / Accommodation Booking",
+        "Private Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Licensed Tourist Guides",
+        "Professional Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00–17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Package",
+      "min_price": 45.0,
+      "max_price": 280.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "Beach Experiences",
+        "Soft Adventure",
+        "Desert Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.6,
+      "review_count": 34,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000022",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Red Sea Coral Safaris",
+      "description": "Specialist tour provider focusing on marine ecotourism, diving tours, coastal boat charters, and integrated desert trips from Aqaba.",
+      "experience_years": 11,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Beaches",
+        "Adventure",
+        "Nature",
+        "Camping"
+      ],
+      "target_customer_types": [
+        "Solo Travelers",
+        "Couples",
+        "Families"
+      ]
+    },
+    "contact": {
+      "phone": "+96232220000",
+      "mobile": "+962790000022",
+      "email": "booking@redseacoralsafaris.example",
+      "website": "https://www.redseacoralsafaris.example",
+      "whatsapp": "+962790000022"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "South Beach Highway, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Aqaba",
+        "Wadi Rum"
+      ],
+      "preferred_destinations": [
+        "Aqaba",
+        "Wadi Rum"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "English",
+        "Arabic"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Custom Itineraries",
+        "Private Tours",
+        "Activity & Excursion Booking"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Specialized Guides",
+        "Local Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "08:00–18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 50.0,
+      "max_price": 220.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "Beach Experiences",
+        "Soft Adventure",
+        "Desert Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 41,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000023",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Aqaba Gateway Incoming Tour Operator",
+      "description": "Full-service incoming operator offering comprehensive travel itineraries, hotel bookings, tourist transportation, and regional excursions across Jordan.",
+      "experience_years": 14,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Culture",
+        "Nature",
+        "Archaeology"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples",
+        "Solo Travelers"
+      ]
+    },
+    "contact": {
+      "phone": "+96232230000",
+      "mobile": "+962790000023",
+      "email": "operations@aqabagatewaytours.example",
+      "website": "https://www.aqabagatewaytours.example",
+      "whatsapp": "+962790000023"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "King Hussein Street, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Aqaba",
+        "Petra",
+        "Wadi Rum",
+        "Dead Sea",
+        "Amman"
+      ],
+      "preferred_destinations": [
+        "Petra",
+        "Wadi Rum",
+        "Aqaba"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "English",
+        "Arabic",
+        "French"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Transportation",
+        "Airport Transfers",
+        "Hotel / Accommodation Booking",
+        "Private Tours",
+        "Group Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Licensed Tourist Guides",
+        "Professional Guides",
+        "Multilingual Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "08:30–17:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 45,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Package",
+      "min_price": 65.0,
+      "max_price": 480.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Archaeological Tourism",
+        "Family Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.7,
+      "review_count": 58,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000024",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Aqaba Sand & Sea Travel",
+      "description": "Local travel agency providing ticketing, airport assistance, resort transfers, and customized leisure packages originating from Aqaba.",
+      "experience_years": 10,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Beaches",
+        "Desert",
+        "Culture",
+        "History"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples"
+      ]
+    },
+    "contact": {
+      "phone": "+96232240000",
+      "mobile": "+962790000024",
+      "email": "info@aqabasandseatravel.example",
+      "website": "https://www.aqabasandseatravel.example",
+      "whatsapp": "+962790000024"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "Al-Saada Street, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Aqaba",
+        "Petra",
+        "Wadi Rum"
+      ],
+      "preferred_destinations": [
+        "Aqaba",
+        "Wadi Rum"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "English",
+        "Arabic"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Transportation",
+        "Airport Transfers",
+        "Hotel / Accommodation Booking",
+        "Meet & Greet / Airport Assistance"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Licensed Tourist Guides",
+        "Professional Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00–17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 40.0,
+      "max_price": 250.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "Beach Experiences",
+        "Desert Experiences",
+        "Family Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.5,
+      "review_count": 26,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000025",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Aqaba Sun Tours & Travel",
+      "description": "Boutique incoming travel agency offering personalized desert excursions, historical sightseeing tours, and coastal getaways based in Aqaba.",
+      "experience_years": 8,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Culture",
+        "Beaches",
+        "Desert"
+      ],
+      "target_customer_types": [
+        "Solo Travelers",
+        "Couples",
+        "Families"
+      ]
+    },
+    "contact": {
+      "phone": "+96232250000",
+      "mobile": "+962790000025",
+      "email": "support@aqabasuntours.example",
+      "website": "https://www.aqabasuntours.example",
+      "whatsapp": "+962790000025"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "Al-Karamah Street, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Aqaba",
+        "Petra",
+        "Wadi Rum"
+      ],
+      "preferred_destinations": [
+        "Aqaba",
+        "Petra"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "English",
+        "Arabic"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Custom Itineraries",
+        "Private Tours",
+        "Transportation"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Professional Guides",
+        "Local Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00–17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 20,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 40.0,
+      "max_price": 210.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Beach Experiences",
+        "Desert Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.6,
+      "review_count": 22,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  }
+]
+[
+  {
+    "sme_id": "SME-000026",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Aqaba Red Sea Adventures",
+      "description": "Incoming tour operator and travel agency specializing in Red Sea diving packages, desert safaris, and cultural sightseeing tours originating from Aqaba.",
+      "experience_years": 10,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Adventure",
+        "Beaches",
+        "Desert",
+        "Nature"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples",
+        "Solo Travelers"
+      ]
+    },
+    "contact": {
+      "phone": "+96232260000",
+      "mobile": "+962790000026",
+      "email": "info@aqabaredseaadventures.example",
+      "website": "https://www.aqabaredseaadventures.example",
+      "whatsapp": "+962790000026"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "Al-Nahda Street, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Aqaba",
+        "Wadi Rum",
+        "Petra"
+      ],
+      "preferred_destinations": [
+        "Aqaba",
+        "Wadi Rum"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "English",
+        "Arabic"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Transportation",
+        "Airport Transfers",
+        "Private Tours",
+        "Activity & Excursion Booking"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Licensed Tourist Guides",
+        "Specialized Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00–18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 30,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Package",
+      "min_price": 50.0,
+      "max_price": 300.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "Beach Experiences",
+        "Soft Adventure",
+        "Desert Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.6,
+      "review_count": 37,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000027",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Aqaba Desert & Coast Tours",
+      "description": "Boutique tour agency providing customized itinerary design, local Bedouin desert excursions, and coastal leisure planning in southern Jordan.",
+      "experience_years": 7,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Desert",
+        "Beaches",
+        "Culture",
+        "Local Experiences"
+      ],
+      "target_customer_types": [
+        "Solo Travelers",
+        "Couples",
+        "Families"
+      ]
+    },
+    "contact": {
+      "phone": "+96232270000",
+      "mobile": "+962790000027",
+      "email": "contact@aqabadestours.example",
+      "website": "https://www.aqabadestours.example",
+      "whatsapp": "+962790000027"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "Al-Saada Street, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Aqaba",
+        "Wadi Rum"
+      ],
+      "preferred_destinations": [
+        "Wadi Rum",
+        "Aqaba"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "English",
+        "Arabic"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Custom Itineraries",
+        "Private Tours",
+        "Cultural Experiences"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Local Guides",
+        "Specialized Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00–17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 40.0,
+      "max_price": 200.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "Desert Experiences",
+        "Beach Experiences",
+        "Local Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.7,
+      "review_count": 24,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000028",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Aqaba Royal Travel & Tourism",
+      "description": "Full-service incoming agency managing comprehensive multi-day tours, airport transfers, hotel bookings, and guided excursions across Jordan.",
+      "experience_years": 16,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Culture",
+        "Nature",
+        "Archaeology"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples",
+        "Solo Travelers"
+      ]
+    },
+    "contact": {
+      "phone": "+96232280000",
+      "mobile": "+962790000028",
+      "email": "info@aqabaroyaltravel.example",
+      "website": "https://www.aqabaroyaltravel.example",
+      "whatsapp": "+962790000028"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "King Hussein Street, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Aqaba",
+        "Petra",
+        "Wadi Rum",
+        "Dead Sea",
+        "Amman"
+      ],
+      "preferred_destinations": [
+        "Petra",
+        "Wadi Rum",
+        "Aqaba"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "English",
+        "Arabic",
+        "French"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Transportation",
+        "Airport Transfers",
+        "Hotel / Accommodation Booking",
+        "Private Tours",
+        "Group Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Licensed Tourist Guides",
+        "Professional Guides",
+        "Multilingual Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "08:30–17:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 50,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Package",
+      "min_price": 70.0,
+      "max_price": 550.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Archaeological Tourism",
+        "Family Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 62,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000029",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Aqaba Marine Leisure Tours",
+      "description": "Specialist tour operator providing glass-bottom boat trips, snorkeling equipment rental, coastal excursion coordination, and resort transfers in Aqaba.",
+      "experience_years": 9,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Beaches",
+        "Nature",
+        "Adventure"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples"
+      ]
+    },
+    "contact": {
+      "phone": "+96232290000",
+      "mobile": "+962790000029",
+      "email": "support@aqabamarineleisure.example",
+      "website": "https://www.aqabamarineleisure.example",
+      "whatsapp": "+962790000029"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "South Beach Highway, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Aqaba"
+      ],
+      "preferred_destinations": [
+        "Aqaba"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "English",
+        "Arabic"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Activity & Excursion Booking",
+        "Transportation",
+        "Private Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Specialized Guides",
+        "Local Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "08:00–18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 20,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 35.0,
+      "max_price": 180.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "Beach Experiences",
+        "Soft Adventure",
+        "Family Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.5,
+      "review_count": 30,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000030",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Aqaba Sunrise Travel Agency",
+      "description": "Local travel office providing ticketing, airport meet-and-greet, hotel bookings, and packaged sightseeing tours throughout Aqaba and nearby historical sites.",
+      "experience_years": 12,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Culture",
+        "Beaches"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples",
+        "Solo Travelers"
+      ]
+    },
+    "contact": {
+      "phone": "+96232300000",
+      "mobile": "+962790000030",
+      "email": "info@aqabasunrisetravel.example",
+      "website": "https://www.aqabasunrisetravel.example",
+      "whatsapp": "+962790000030"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "Al-Karamah Street, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Aqaba",
+        "Petra",
+        "Wadi Rum"
+      ],
+      "preferred_destinations": [
+        "Aqaba",
+        "Petra"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "English",
+        "Arabic"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Transportation",
+        "Airport Transfers",
+        "Hotel / Accommodation Booking",
+        "Meet & Greet / Airport Assistance"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Licensed Tourist Guides",
+        "Professional Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00–17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 40.0,
+      "max_price": 240.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Beach Experiences",
+        "Family Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.6,
+      "review_count": 33,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  }
+]

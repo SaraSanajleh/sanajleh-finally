@@ -1,0 +1,48 @@
+{
+  "mode": "build",
+  "requestedAt": "2026-08-14T17:59:49.318000Z",
+  "trip": {
+    "startDate": "2026-08-22",
+    "duration": "3",
+    "arrivalAirport": "AMM",
+    "totalBudget": 900.0,
+    "preferredLanguage": "English",
+    "preferredRegions": [
+      "Aqaba"
+    ]
+  },
+  "travelers": {
+    "adults": 2,
+    "children": 0,
+    "childrenAges": [],
+    "seniors": 0,
+    "groupType": "couple",
+    "accessibilityNeeds": []
+  },
+  "preferences": {
+    "interests": [
+      "history",
+      "luxury",
+      "nature"
+    ],
+    "tripPace": "Relaxed",
+    "activityLevel": "Easy",
+    "mustVisit": [
+      "Wadi Rum"
+    ],
+    "placesToAvoid": ""
+  },
+  "accommodation": {
+    "type": "hotel",
+    "rating": "4 star"
+  },
+  "dining": {
+    "cuisine": []
+  },
+  "extras": {
+    "specialOccasion": "None",
+    "smePreferences": [],
+    "aiPriority": "budget",
+    "freeText": ""
+  }
+}

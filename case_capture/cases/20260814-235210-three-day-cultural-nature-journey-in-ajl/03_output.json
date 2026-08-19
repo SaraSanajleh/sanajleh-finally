@@ -1,0 +1,421 @@
+{
+  "metadata": {
+    "model": "gpt-oss:20b-cloud",
+    "provider": "ollama",
+    "mode": "build",
+    "latencyMs": 28503.13,
+    "retries": 0,
+    "caseId": null,
+    "rag": {
+      "status": "ok",
+      "source": "retriever",
+      "duration_days": 3,
+      "cluster_count": 3,
+      "clusters": [
+        {
+          "cluster_id": 0,
+          "theme": "Ajloun Governorate · nature, history, culture",
+          "poi_count": 9,
+          "hotel_count": 4,
+          "event_count": 3,
+          "poi_names": [
+            "Wadi Rayyan",
+            "Mar Elias Trailhead",
+            "Ajloun Forest Reserve",
+            "Orjan Soap House Trailhead",
+            "Mazar Al-Shamali Forest Reserve",
+            "Ajloun Great Mosque",
+            "Natural History Museum at Yarmouk University",
+            "Irbid Central Souq",
+            "Beit Al-Saraya Cultural Forum"
+          ],
+          "hotel_names": [
+            "Ajloun Forest Reserve",
+            "Al-Jabal Castle Hotel - Ajloun",
+            "Ajloun Hotel",
+            "Al Ghazal Villas"
+          ],
+          "sample_restaurants": [
+            "Rasoun Heritage House Restaurant",
+            "Al Rayyan Valley Cafe & Restaurant",
+            "Ajloun Forest Reserve Restaurant",
+            "Ajloun Reserve Restaurant",
+            "Al Andalus Tourist Restaurant",
+            "Al-Basha Restaurant Ajloun"
+          ],
+          "event_names": [
+            "Jordan Summer Festival - Ajloun",
+            "National Celebrations Programme - Ajloun",
+            "Eid Evenings - Ajloun"
+          ]
+        },
+        {
+          "cluster_id": 1,
+          "theme": "Jerash Governorate · culture, history, nature",
+          "poi_count": 9,
+          "hotel_count": 4,
+          "event_count": 3,
+          "poi_names": [
+            "Jerash Heritage Souk",
+            "Hippodrome of Jerash",
+            "Al-Kittah Village and Springs",
+            "Suf Village Heritage Center",
+            "Al-Mustaba Eco-Park",
+            "Abu Jaber House",
+            "Wild Jordan Center",
+            "Wild Jordan Center",
+            "Al-Zarqa Local Market"
+          ],
+          "hotel_names": [
+            "The Olive Branch Hotel",
+            "Jerash Hotel",
+            "Dream House Hotel Apartments",
+            "Celestia Boutique Inn"
+          ],
+          "sample_restaurants": [
+            "Jerash Oasis Grill",
+            "Roman Bridge Restaurant",
+            "Jerash Canyon Restaurant",
+            "Jerash Valley Resort Restaurant",
+            "Jerash Olive Grove Grill",
+            "Jordan Heritage Restaurant Salt"
+          ],
+          "event_names": [
+            "Jerash Climate and Visual Arts Conference",
+            "Jordan Summer Festival - Jerash",
+            "Jerash Festival for Culture and Arts"
+          ]
+        },
+        {
+          "cluster_id": 2,
+          "theme": "Balqa Governorate · culture, history, nature",
+          "poi_count": 9,
+          "hotel_count": 4,
+          "event_count": 3,
+          "poi_names": [
+            "Fuheis Heritage Quarter (Al-Fuheis Old Town)",
+            "As-Salt Hammam Street",
+            "Abu Jaber Museum",
+            "Zarqa River Eco-Trail Pathway",
+            "Madaba Art Space & Gallery",
+            "King's Highway Madaba Segment",
+            "Zarqa Ma'in Waterfalls (Balqa Border Area)",
+            "Mujib Biosphere Reserve",
+            "Wadi Hidan Canyon"
+          ],
+          "hotel_names": [
+            "Beit Aziz Boutique Hotel",
+            "Jordan Heritage Madhafa",
+            "Al Hummar Restaurant and Hotel",
+            "Saltus Hotel"
+          ],
+          "sample_restaurants": [
+            "Carob House Fuheis",
+            "Iskandarani Cafe",
+            "Jordan Heritage Restaurant Salt",
+            "Sitt Inaya Heritage House",
+            "Haret Jdoudna",
+            "Al-Bustan Restaurant"
+          ],
+          "event_names": [
+            "Jordan Summer Festival - Balqa",
+            "Fuheis Festival",
+            "Eid Evenings - Balqa"
+          ]
+        }
+      ]
+    }
+  },
+  "package": {
+    "welcome_message": "Welcome to your personalized Jordan adventure!",
+    "why_you_will_love_this": {
+      "highlights": [
+        "Explore the historic Hippodrome of Jerash",
+        "Hike the scenic Orjan Soap House Trailhead",
+        "Stroll through the lively As-Salt Hammam Street"
+      ],
+      "special_touches": [
+        "Enjoy local Jordanian cuisine at Rasoun Heritage House and Al Rayyan Valley Café",
+        "Stay at family-friendly Al-Jabal Castle Hotel and The Olive Branch Hotel"
+      ]
+    },
+    "trip_title": "Three-Day Cultural & Nature Journey in Ajloun, Jerash & As-Salt",
+    "trip_description": {
+      "overview": "A balanced three-day itinerary that blends Jordan's rich history, natural beauty and local flavors, staying in family-friendly hotels.",
+      "included": [
+        "Meals at Rasoun Heritage House, Al Rayyan Valley Café, Jerash Oasis Grill, Roman Bridge Restaurant, Wild Jordan Center, and As-Salt Hammam Street café",
+        "Entry fees to Ajloun Forest Reserve, Orjan Soap House Trailhead, Hippodrome of Jerash, Wild Jordan Center, As-Salt Hammam Street, Abu Jaber Museum",
+        "Two nights at Al-Jabal Castle Hotel - Ajloun and The Olive Branch Hotel - Jerash"
+      ],
+      "not_included": [
+        "Transportation, guided tours, travel insurance"
+      ]
+    },
+    "trip_details": {
+      "duration": {
+        "days": "3",
+        "nights": "2"
+      },
+      "trip_type": [
+        "Couple",
+        "Culture",
+        "Nature",
+        "History"
+      ],
+      "number_of_travelers": "2",
+      "budget": {
+        "amount": "900",
+        "currency": "JOD"
+      }
+    },
+    "daily_itinerary": [
+      {
+        "day_number": "1",
+        "day_title": "Ajloun Nature & Culture",
+        "day_summary": "Explore Ajloun's forests and waterfalls, dine locally, and stay at Al-Jabal Castle Hotel.",
+        "activities": [
+          {
+            "start_time": "09:00",
+            "end_time": "12:00",
+            "activity_title": "Ajloun Forest Reserve",
+            "description": "Self-guided walk through oak woodland and deer enclosure",
+            "location": "Ajloun Forest Reserve",
+            "estimated_cost": "10 JOD",
+            "smart_tip": "Entry 5 JOD per person x 2 travellers"
+          },
+          {
+            "start_time": "12:00",
+            "end_time": "13:30",
+            "activity_title": "Lunch at Rasoun Heritage House",
+            "description": "Jordanian lunch featuring local specialties",
+            "location": "Rasoun Heritage House Restaurant",
+            "estimated_cost": "24 JOD",
+            "smart_tip": "12 JOD per person x 2 travellers"
+          },
+          {
+            "start_time": "13:30",
+            "end_time": "18:30",
+            "activity_title": "Wadi Rayyan",
+            "description": "Visit to this nature.",
+            "location": "Jidita / Judayta",
+            "estimated_cost": "Not Available",
+            "smart_tip": "No entry fee is recorded for this stop"
+          },
+          {
+            "start_time": "18:30",
+            "end_time": "19:30",
+            "activity_title": "Irbid Central Souq",
+            "description": "Explore local market stalls",
+            "location": "Irbid Central Souq",
+            "estimated_cost": "Free",
+            "smart_tip": "Free entry"
+          },
+          {
+            "start_time": "19:30",
+            "end_time": "21:30",
+            "activity_title": "Dinner at Al Rayyan Valley Café",
+            "description": "Fresh valley-side dishes",
+            "location": "Al Rayyan Valley Café & Restaurant",
+            "estimated_cost": "16 JOD",
+            "smart_tip": "8 JOD per person x 2 travellers"
+          }
+        ],
+        "activity_alternatives": []
+      },
+      {
+        "day_number": "2",
+        "day_title": "Jerash Ancient Wonders",
+        "day_summary": "Visit the Hippodrome, enjoy local markets, and stay at The Olive Branch Hotel.",
+        "activities": [
+          {
+            "start_time": "09:00",
+            "end_time": "09:30",
+            "activity_title": "Hippodrome of Jerash",
+            "description": "Explore the Roman arena",
+            "location": "Hippodrome of Jerash",
+            "estimated_cost": "20 JOD",
+            "smart_tip": "10 JOD per person x 2 travellers"
+          },
+          {
+            "start_time": "10:00",
+            "end_time": "11:30",
+            "activity_title": "Al-Mustaba Eco-Park",
+            "description": "Visit to this park.",
+            "location": "Jerash",
+            "estimated_cost": "2 JOD",
+            "smart_tip": "1 JOD per person x 2 travellers"
+          },
+          {
+            "start_time": "12:00",
+            "end_time": "13:30",
+            "activity_title": "Lunch at Jerash Oasis Grill",
+            "description": "Levantine grill lunch",
+            "location": "Jerash Oasis Grill",
+            "estimated_cost": "28 JOD",
+            "smart_tip": "14 JOD per person x 2 travellers"
+          },
+          {
+            "start_time": "13:30",
+            "end_time": "15:45",
+            "activity_title": "Wild Jordan Center",
+            "description": "Nature reserve walk",
+            "location": "Wild Jordan Center",
+            "estimated_cost": "2 JOD",
+            "smart_tip": "1 JOD per person x 2 travellers"
+          },
+          {
+            "start_time": "15:45",
+            "end_time": "16:45",
+            "activity_title": "Jerash Heritage Souk",
+            "description": "Browse local crafts and food stalls",
+            "location": "Jerash Heritage Souk",
+            "estimated_cost": "Free",
+            "smart_tip": "Free entry"
+          },
+          {
+            "start_time": "17:15",
+            "end_time": "18:00",
+            "activity_title": "Abu Jaber House",
+            "description": "Visit to this heritage.",
+            "location": "As-Salt",
+            "estimated_cost": "4 JOD",
+            "smart_tip": "2 JOD per person x 2 travellers"
+          },
+          {
+            "start_time": "18:30",
+            "end_time": "20:30",
+            "activity_title": "Dinner at Roman Bridge Restaurant",
+            "description": "Roman-style dining",
+            "location": "Roman Bridge Restaurant",
+            "estimated_cost": "28 JOD",
+            "smart_tip": "14 JOD per person x 2 travellers"
+          }
+        ],
+        "activity_alternatives": []
+      },
+      {
+        "day_number": "3",
+        "day_title": "As-Salt Heritage & Markets",
+        "day_summary": "Discover historic streets, museums, and local cafés, staying at a boutique hotel.",
+        "activities": [
+          {
+            "start_time": "09:00",
+            "end_time": "10:00",
+            "activity_title": "As-Salt Hammam Street",
+            "description": "Walk through historic street and shops",
+            "location": "As-Salt Hammam Street",
+            "estimated_cost": "Free",
+            "smart_tip": "Free entry"
+          },
+          {
+            "start_time": "10:30",
+            "end_time": "11:30",
+            "activity_title": "Fuheis Heritage Quarter (Al-Fuheis Old Town)",
+            "description": "Visit to this heritage.",
+            "location": "Fuheis",
+            "estimated_cost": "Not Available",
+            "smart_tip": "No entry fee is recorded for this stop"
+          },
+          {
+            "start_time": "12:00",
+            "end_time": "13:30",
+            "activity_title": "Lunch at Carob House Fuheis",
+            "description": "Local Jordanian lunch",
+            "location": "Carob House Fuheis",
+            "estimated_cost": "24 JOD",
+            "smart_tip": "12 JOD per person x 2 travellers"
+          },
+          {
+            "start_time": "13:30",
+            "end_time": "15:15",
+            "activity_title": "Abu Jaber Museum",
+            "description": "Explore 19th-century heritage house",
+            "location": "Abu Jaber Museum",
+            "estimated_cost": "6 JOD",
+            "smart_tip": "3 JOD per person x 2 travellers"
+          },
+          {
+            "start_time": "15:15",
+            "end_time": "16:15",
+            "activity_title": "As-Salt Hammam Street",
+            "description": "Return for souvenir shopping",
+            "location": "As-Salt Hammam Street",
+            "estimated_cost": "Free",
+            "smart_tip": "Free entry"
+          },
+          {
+            "start_time": "16:45",
+            "end_time": "18:00",
+            "activity_title": "King's Highway Madaba Segment",
+            "description": "Visit to this heritage.",
+            "location": "Madaba",
+            "estimated_cost": "Not Available",
+            "smart_tip": "No entry fee is recorded for this stop"
+          },
+          {
+            "start_time": "18:30",
+            "end_time": "20:30",
+            "activity_title": "Dinner at Iskandarani Cafe",
+            "description": "Traditional Jordanian dinner",
+            "location": "Iskandarani Cafe",
+            "estimated_cost": "24 JOD",
+            "smart_tip": "12 JOD per person x 2 travellers"
+          }
+        ],
+        "activity_alternatives": []
+      }
+    ],
+    "budget_summary": {
+      "items": [
+        {
+          "category": "Accommodation",
+          "estimated_cost": "90 JOD",
+          "notes": "2 night(s) requested as a 3 star hotel — as priced in the plan"
+        },
+        {
+          "category": "Meals",
+          "estimated_cost": "144 JOD",
+          "notes": "Sum of the meals scheduled in the itinerary"
+        },
+        {
+          "category": "Activities & Entry Fees",
+          "estimated_cost": "44 JOD",
+          "notes": "Sum of the entry fees scheduled in the itinerary"
+        },
+        {
+          "category": "Unallocated Budget (before accommodation and transport)",
+          "estimated_cost": "622 JOD",
+          "notes": "What is left of the 900 JOD ceiling once the lines above are counted. Transport between areas is not priced in this plan"
+        }
+      ],
+      "total_estimated_cost": "278 JOD"
+    },
+    "essential_travel_tips": [
+      {
+        "category": "Dining",
+        "tips": [
+          "Reserve lunch at Rasoun Heritage House early to avoid crowds",
+          "Try the fresh pomegranate juice at Al Rayyan Valley Café"
+        ]
+      },
+      {
+        "category": "Safety",
+        "tips": [
+          "Carry water during hikes at Orjan Soap House Trailhead",
+          "Check opening hours for museums before visiting"
+        ]
+      },
+      {
+        "category": "Budget",
+        "tips": [
+          "Use free entry sites to stretch your budget",
+          "Plan meals at local cafés for authentic flavors"
+        ]
+      }
+    ],
+    "explanations": {
+      "trip_planning_reason": "The itinerary follows the traveler's must-visit Jerash and preferred Ajloun regions, allocating one day per cluster and ensuring each day has three sights, lunch, and dinner within realistic time windows.",
+      "selection_reason": "POIs and restaurants were chosen to match the traveler's interests in culture, nature, and history, while respecting the budget priority and selecting family-friendly, locally operated venues."
+    }
+  }
+}

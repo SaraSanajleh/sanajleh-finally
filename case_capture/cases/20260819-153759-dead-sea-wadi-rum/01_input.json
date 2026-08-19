@@ -1,0 +1,50 @@
+{
+  "mode": "build",
+  "requestedAt": "2026-08-19T15:15:47.570000Z",
+  "trip": {
+    "startDate": "2026-08-22",
+    "duration": "3",
+    "arrivalAirport": "AMM",
+    "arrivalTime": "18:15",
+    "totalBudget": 899.0,
+    "preferredLanguage": "English",
+    "preferredRegions": [
+      "Wadi Rum",
+      "Dead Sea"
+    ]
+  },
+  "travelers": {
+    "adults": 2,
+    "children": 0,
+    "childrenAges": [],
+    "seniors": 0,
+    "groupType": "couple",
+    "accessibilityNeeds": []
+  },
+  "preferences": {
+    "interests": [
+      "culture",
+      "nature",
+      "history"
+    ],
+    "tripPace": "Balanced",
+    "activityLevel": "Active",
+    "mustVisit": [
+      "Wadi Rum"
+    ],
+    "placesToAvoid": ""
+  },
+  "accommodation": {
+    "type": "hotel",
+    "rating": "4 star"
+  },
+  "dining": {
+    "cuisine": []
+  },
+  "extras": {
+    "specialOccasion": "None",
+    "smePreferences": [],
+    "aiPriority": "comfort",
+    "freeText": ""
+  }
+}

@@ -1,0 +1,1846 @@
+{
+  "metadata": {
+    "model": "gpt-oss:20b-cloud",
+    "provider": "ollama",
+    "mode": "build",
+    "retries": 0
+  },
+  "package": {
+    "package_id": "pkg-54b092c5d091",
+    "status": "complete",
+    "welcome_message": "Land in Amman, then 5 exploring days through Madaba (2 days), Karak, Tafilah, then Aqaba.",
+    "trip_title": "Jordan Cultural Circuit: Amman - Madaba - Karak - Tafilah - Aqaba",
+    "trip": {
+      "title": "Jordan Cultural Circuit: Amman - Madaba - Karak - Tafilah - Aqaba",
+      "summary": "Arrival, then Madaba (2 days), Karak, Tafilah, then Aqaba. Walk outdoors in the morning. Keep the afternoon for shade, meals, or indoor visits.",
+      "start_date": "2026-08-20",
+      "end_date": "2026-08-25",
+      "duration_days": 6,
+      "nights": 5,
+      "regions": [
+        "Amman",
+        "Madaba",
+        "Karak",
+        "Tafilah",
+        "Aqaba"
+      ],
+      "arrival_airport": "AMM",
+      "language": "English"
+    },
+    "traveler_profile": {
+      "group_type": "couple",
+      "adults": 2,
+      "children": 0,
+      "children_ages": [],
+      "seniors": 0,
+      "total_travelers": 2,
+      "interests": [
+        "culture"
+      ],
+      "pace": "Balanced",
+      "activity_level": "Moderate",
+      "accessibility_needs": []
+    },
+    "planning": {
+      "strategy": "You land at 04:11, so arrival night stays in Amman — hotel, a meal, rest. The touring days start the next morning. After that the days stay on a short loop: Madaba (2 days), Karak, Tafilah, then Aqaba. It's a hot month, so the outdoor sites go before midday.",
+      "constraints": {
+        "must_visit": [],
+        "places_to_avoid": []
+      },
+      "constraint_status": {
+        "status": "satisfied",
+        "unmet": []
+      },
+      "assumptions": [
+        "Travel times between cities are estimated qualitatively, not as exact minutes, unless evidence exists.",
+        "Opening hours are used only when present on the catalog record."
+      ],
+      "climate": {
+        "month": 8,
+        "season": "hot_dry_summer",
+        "typical_pattern": "High daytime heat, especially in the Jordan Valley and desert.",
+        "outdoor_guidance": "Walk outdoors in the morning. Keep the afternoon for shade, meals, or indoor visits.",
+        "heat_risk": "high"
+      },
+      "weather_status": "ok",
+      "decisions": [
+        {
+          "code": "day_route",
+          "title": "Each exploring day stays in one area",
+          "why": "Mixing far-apart cities in one day makes the trip exhausting.",
+          "effect": "After arrival, the days run Madaba (2 days), Karak, Tafilah, then Aqaba."
+        },
+        {
+          "code": "open_explore",
+          "title": "A route from what you like",
+          "why": "No cities were named, so the days follow the places that matched culture.",
+          "effect": "Those retrieved areas become the route: Madaba (2 days), Karak, Tafilah, then Aqaba."
+        },
+        {
+          "code": "one_half",
+          "title": "This trip stays in one part of Jordan",
+          "why": "5 exploring days is too short for both the north and the south.",
+          "effect": "So this journey focuses on the south, and those places get proper time."
+        },
+        {
+          "code": "arrival_stay",
+          "title": "Night one is near the airport",
+          "why": "You land at AMM at 04:11.",
+          "effect": "Sleep in Amman on arrival night. The exploring days start the next morning."
+        },
+        {
+          "code": "arrival_relocate",
+          "title": "Amman for the first night, then south",
+          "why": "You land at Queen Alia, and the exploring days are in Southern Jordan.",
+          "effect": "Stay in Amman on arrival night, then travel south the next day."
+        },
+        {
+          "code": "arrival_pace",
+          "title": "Sleep first — you still have a day",
+          "why": "You land at 04:11, before the city is awake.",
+          "effect": "Go to the hotel and rest properly. After breakfast, nearby visits fill the rest of the arrival day."
+        },
+        {
+          "code": "day_trips",
+          "title": "Day trips from one hotel",
+          "why": "These places are close enough to visit and return the same day.",
+          "effect": "You keep the same hotel in Madaba and come back there to sleep."
+        },
+        {
+          "code": "hotel_move",
+          "title": "Then you move closer to the places you came for",
+          "why": "Sleeping in the same city you visit beats a long commute every morning.",
+          "effect": "After the arrival night, nearby days share one hotel. You only move when the next area is too far for a day trip."
+        },
+        {
+          "code": "heat",
+          "title": "Mornings for the outdoors",
+          "why": "High daytime heat, especially in the Jordan Valley and desert.",
+          "effect": "Walk heritage and nature in the morning. Save museums, meals, and shade for the afternoon."
+        },
+        {
+          "code": "pace",
+          "title": "A balanced pace",
+          "why": "couple group, Moderate activity.",
+          "effect": "On exploring days, plan on about 5 visits and 3 meals. Arrival follows the time left after food and rest."
+        },
+        {
+          "code": "stay_tier",
+          "title": "4 star stays",
+          "why": "You asked for 4 star hotels.",
+          "effect": "Hotels are taken from listings at that star level when the city has them. If it does not, we use the closest listed tier and say so."
+        },
+        {
+          "code": "budget",
+          "title": "A value budget",
+          "why": "200 JOD for 6 days.",
+          "effect": "Stays and meals stay modest. We only show a price when a listing has one."
+        },
+        {
+          "code": "interests",
+          "title": "Chosen around what you care about",
+          "why": "culture",
+          "effect": "Stops follow culture. Unrelated places stay off the list."
+        }
+      ]
+    },
+    "days": [
+      {
+        "day": 1,
+        "date": "2026-08-20",
+        "region": "Amman",
+        "theme": "Arrival in Amman",
+        "summary": "You land before dawn in Amman. Sleep first, then breakfast. After you rest, the remaining day stays in Amman: Amman Citadel, Amman Citadel Flagpole, Al-Basha Turkish Bath.",
+        "is_arrival_day": true,
+        "schedule": [
+          {
+            "time": "04:56",
+            "end_time": "10:56",
+            "slot": "overnight",
+            "type": "hotel",
+            "item_id": "hotel_000022",
+            "name": "InterContinental Jordan",
+            "duration_minutes": null,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.953689,
+              "longitude": 35.913879,
+              "precision": "exact"
+            },
+            "description": "Long-established five-star IHG hotel on Islamic College Street in Jabal Amman, between the Second and Third Circles, with six restaurants, indoor and outdoor pools, a spa and a 24-hour reception.",
+            "reason": "You land before dawn. Go to your hotel and sleep properly — this is rest, not a visit. The day starts after you wake. 5-star stay, as requested",
+            "matched_preferences": [
+              "5-star stay, as requested",
+              "In Amman",
+              "Matches culture",
+              "5-star, as requested",
+              "Matches hotel"
+            ],
+            "estimated_cost": "165 JOD / night",
+            "source": {
+              "dataset": "hotels",
+              "record_id": "hotel_000022"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "10:56",
+            "end_time": "11:56",
+            "slot": "breakfast",
+            "type": "restaurant",
+            "item_id": "restaurant_001076",
+            "name": "Dardasha Weibdeh",
+            "duration_minutes": 60,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.95512,
+              "longitude": 35.91451,
+              "precision": "exact"
+            },
+            "description": "An eclectic art cafe in Jabal Weibdeh celebrating local creativity, coffee, and community conversations.",
+            "reason": "Breakfast after rest — kitchens were closed when you landed.",
+            "matched_preferences": [
+              "In Amman",
+              "Matches culture",
+              "Matches preferred cuisine",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "8 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_001076"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "12:11",
+            "end_time": "14:11",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_000001",
+            "name": "Amman Citadel",
+            "duration_minutes": 120,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.954605,
+              "longitude": 35.934891,
+              "precision": "exact"
+            },
+            "description": "Historic national site situated on a hill in central Amman featuring ancient ruins from the Bronze Age through the Islamic era.",
+            "reason": "Time remains after rest, so the arrival day continues nearby — not a long drive.",
+            "matched_preferences": [
+              "In Amman",
+              "A must-see in Amman",
+              "Matches culture",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "3 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_000001"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "14:26",
+            "end_time": "15:26",
+            "slot": "lunch",
+            "type": "restaurant",
+            "item_id": "restaurant_001029",
+            "name": "Shams El Balad",
+            "duration_minutes": 60,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.95012,
+              "longitude": 35.91891,
+              "precision": "exact"
+            },
+            "description": "A pioneering farm-to-table cafe in Jabal Amman celebrating sustainable agriculture and traditional Jordanian ingredients.",
+            "reason": "Lunch nearby. You still have time left in the same city.",
+            "matched_preferences": [
+              "In Amman",
+              "Matches culture",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "15 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_001029"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "15:41",
+            "end_time": "15:56",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_000052",
+            "name": "Amman Citadel Flagpole",
+            "duration_minutes": 15,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.956944,
+              "longitude": 35.942778,
+              "precision": "exact"
+            },
+            "description": "Massive national flagpole visible across Amman, located on the Royal Palace compound near the Citadel.",
+            "reason": "Time remains after rest, so the arrival day continues nearby — not a long drive.",
+            "matched_preferences": [
+              "In Amman",
+              "A must-see in Amman",
+              "Matches culture"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_000052"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "16:11",
+            "end_time": "18:11",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_000049",
+            "name": "Al-Basha Turkish Bath",
+            "duration_minutes": 120,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.950833,
+              "longitude": 35.929444,
+              "precision": "exact"
+            },
+            "description": "Traditional Levantine bathhouse near Rainbow Street offering steam baths and body treatments.",
+            "reason": "Time remains after rest, so the arrival day continues nearby — not a long drive.",
+            "matched_preferences": [
+              "In Amman",
+              "A must-see in Amman",
+              "Matches culture",
+              "Indoor option on a hot day",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "25 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_000049"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "You land at 04:11. The drive from Queen Alia to Amman is about 45 minutes. Times below start after that transfer."
+      },
+      {
+        "day": 2,
+        "date": "2026-08-21",
+        "region": "Madaba",
+        "theme": "Madaba",
+        "summary": "Morning transfer from Amman to Madaba, visits King's Highway Madaba Segment, Al-Lajjun / East Madaba Desert Border Viewpoint, Moses Spring (Ayn Musa), with breakfast, lunch, and dinner on the clock.",
+        "is_arrival_day": false,
+        "schedule": [
+          {
+            "time": "07:30",
+            "end_time": "08:15",
+            "slot": "morning",
+            "type": "restaurant",
+            "item_id": "restaurant_001001",
+            "name": "Hashem Restaurant",
+            "duration_minutes": 45,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.951564,
+              "longitude": 35.938342,
+              "precision": "exact"
+            },
+            "description": "An iconic, legendary open-air street-level eatery in downtown Amman serving traditional Jordanian breakfast staples.",
+            "reason": "Breakfast in the morning, before visiting.",
+            "matched_preferences": [
+              "In Amman",
+              "Matches culture",
+              "Matches preferred cuisine",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "4 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_001001"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "08:30",
+            "end_time": "09:16",
+            "slot": "morning",
+            "type": "transfer",
+            "item_id": "transfer:amman:madaba:08:30",
+            "name": "Drive to Madaba",
+            "duration_minutes": 46,
+            "location": "Amman → Madaba",
+            "coordinates": null,
+            "description": "Travel from Amman to Madaba.",
+            "reason": "You woke up in a different place than today's sights.",
+            "matched_preferences": [],
+            "estimated_cost": "not_available",
+            "source": {
+              "dataset": "planning",
+              "record_id": "transfer:amman:madaba"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "09:16",
+            "end_time": "10:46",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_004017",
+            "name": "King's Highway Madaba Segment",
+            "duration_minutes": 90,
+            "location": "Madaba",
+            "coordinates": {
+              "latitude": 31.683333,
+              "longitude": 35.783333,
+              "precision": "exact"
+            },
+            "description": "Ancient trade and pilgrimage highway passing through Madaba's agricultural plateau and dramatic canyons.",
+            "reason": "In Madaba; local_tourism_catalog; Matches culture",
+            "matched_preferences": [
+              "In Madaba",
+              "local_tourism_catalog",
+              "Matches culture"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_004017"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "11:01",
+            "end_time": "11:21",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_004039",
+            "name": "Al-Lajjun / East Madaba Desert Border Viewpoint",
+            "duration_minutes": 20,
+            "location": "Madaba",
+            "coordinates": {
+              "latitude": 31.705278,
+              "longitude": 35.848889,
+              "precision": "exact"
+            },
+            "description": "Panoramic viewpoint marking the transition between fertile grain plateau and eastern desert steppes.",
+            "reason": "In Madaba; local_tourism_catalog",
+            "matched_preferences": [
+              "In Madaba",
+              "local_tourism_catalog"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_004039"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "11:36",
+            "end_time": "12:21",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_004024",
+            "name": "Moses Spring (Ayn Musa)",
+            "duration_minutes": 45,
+            "location": "Faisaliyah",
+            "coordinates": {
+              "latitude": 31.776111,
+              "longitude": 35.738889,
+              "precision": "exact"
+            },
+            "description": "Historic freshwater spring tradition links to Moses striking the rock, set in a lush terraced valley below Mount Nebo.",
+            "reason": "In Madaba; A must-see in Madaba",
+            "matched_preferences": [
+              "In Madaba",
+              "A must-see in Madaba"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_004024"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "13:00",
+            "end_time": "14:00",
+            "slot": "afternoon",
+            "type": "restaurant",
+            "item_id": "restaurant_004014",
+            "name": "Al-Bustan Restaurant",
+            "duration_minutes": 60,
+            "location": "Madaba",
+            "coordinates": {
+              "latitude": 31.708892,
+              "longitude": 35.788541,
+              "precision": "exact"
+            },
+            "description": "A garden restaurant on the outskirts of Madaba serving fresh grills and local starters under olive trees.",
+            "reason": "Lunch in the afternoon.",
+            "matched_preferences": [
+              "In Madaba",
+              "Matches culture",
+              "Matches preferred cuisine"
+            ],
+            "estimated_cost": "12 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_004014"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "14:15",
+            "end_time": "15:15",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_004002",
+            "name": "Madaba Archaeological Park",
+            "duration_minutes": 60,
+            "location": "Madaba",
+            "coordinates": {
+              "latitude": 31.716181,
+              "longitude": 35.793264,
+              "precision": "exact"
+            },
+            "description": "An open-air archaeological complex featuring ancient Roman roads, Byzantine churches, and exquisite floor mosaics.",
+            "reason": "In Madaba; A must-see in Madaba; Matches culture; One visit covering the nearby monuments",
+            "matched_preferences": [
+              "In Madaba",
+              "A must-see in Madaba",
+              "Matches culture",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "3 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_004002"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "15:30",
+            "end_time": "17:00",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_004003",
+            "name": "Mount Nebo",
+            "duration_minutes": 90,
+            "location": "Faisaliyah",
+            "coordinates": {
+              "latitude": 31.768311,
+              "longitude": 35.725228,
+              "precision": "exact"
+            },
+            "description": "Sacred mountain site from which Prophet Moses viewed the Promised Land, featuring ancient mosaics and panoramic views.",
+            "reason": "In Madaba; A must-see in Madaba; Matches culture",
+            "matched_preferences": [
+              "In Madaba",
+              "A must-see in Madaba",
+              "Matches culture"
+            ],
+            "estimated_cost": "3 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_004003"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "17:15",
+            "end_time": "18:00",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_004012",
+            "name": "La Storica Mosaics (Mosaic Handicrafts Center)",
+            "duration_minutes": 45,
+            "location": "Faisaliyah",
+            "coordinates": {
+              "latitude": 31.758912,
+              "longitude": 35.748301,
+              "precision": "exact"
+            },
+            "description": "Craft center showcasing traditional stone mosaic production and regional handmade art.",
+            "reason": "In Madaba; local_tourism_catalog; Matches culture; Indoor option on a hot day",
+            "matched_preferences": [
+              "In Madaba",
+              "local_tourism_catalog",
+              "Matches culture",
+              "Indoor option on a hot day"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_004012"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "18:15",
+            "end_time": "19:00",
+            "slot": "evening",
+            "type": "restaurant",
+            "item_id": "restaurant_004005",
+            "name": "Ayola Restaurant",
+            "duration_minutes": 45,
+            "location": "Madaba",
+            "coordinates": {
+              "latitude": 31.71689,
+              "longitude": 35.793883,
+              "precision": "exact"
+            },
+            "description": "A cozy, tourist-friendly eatery near the Mosaic Map offering sandwiches, local dishes, and fresh juices.",
+            "reason": "Dinner in the evening.",
+            "matched_preferences": [
+              "In Madaba",
+              "A must-see in Madaba",
+              "Matches culture",
+              "Matches preferred cuisine",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "7 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_004005"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "",
+            "end_time": "",
+            "slot": "overnight",
+            "type": "hotel",
+            "item_id": "hotel_000075",
+            "name": "Ma'In Hotel & Spa",
+            "duration_minutes": null,
+            "location": "Ma'in",
+            "coordinates": {
+              "latitude": 31.608239,
+              "longitude": 35.607258,
+              "precision": "exact"
+            },
+            "description": "Five-star thermal resort built into the Ma'in canyon in Madaba Governorate, about 264 metres below sea level, with roughly 95 rooms, six hot waterfalls, a spa set beneath a cascade and a natural sauna cave.",
+            "reason": "Overnight stay in Madaba. This is your hotel, not an activity. 5-star stay, as requested",
+            "matched_preferences": [
+              "5-star stay, as requested",
+              "In Madaba",
+              "5-star, as requested",
+              "Matches hotel"
+            ],
+            "estimated_cost": "96 JOD / night",
+            "source": {
+              "dataset": "hotels",
+              "record_id": "hotel_000075"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "This evening you check in to your hotel in Madaba."
+      },
+      {
+        "day": 3,
+        "date": "2026-08-22",
+        "region": "Madaba",
+        "theme": "More time in Madaba",
+        "summary": "Visits Dhiban Archaeological Site, Wadi Wala Dam, Khirbet al-Mukhayyat, with breakfast, lunch, and dinner on the clock.",
+        "is_arrival_day": false,
+        "schedule": [
+          {
+            "time": "09:00",
+            "end_time": "10:00",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_004021",
+            "name": "Dhiban Archaeological Site",
+            "duration_minutes": 60,
+            "location": "Dhiban",
+            "coordinates": {
+              "latitude": 31.500278,
+              "longitude": 35.778889,
+              "precision": "exact"
+            },
+            "description": "Historic capital of the ancient Kingdom of Moab where the famous Mesha Stele was discovered.",
+            "reason": "In Madaba; A second day to go beyond the main site; Matches culture",
+            "matched_preferences": [
+              "In Madaba",
+              "A second day to go beyond the main site",
+              "Matches culture"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_004021"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "10:15",
+            "end_time": "11:15",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_004018",
+            "name": "Wadi Wala Dam",
+            "duration_minutes": 60,
+            "location": "Wala",
+            "coordinates": {
+              "latitude": 31.564722,
+              "longitude": 35.805278,
+              "precision": "exact"
+            },
+            "description": "Water reservoir dam surrounded by green wetland valley, attracting seasonal migratory birds and local picnickers.",
+            "reason": "In Madaba; A second day to go beyond the main site; Matches culture",
+            "matched_preferences": [
+              "In Madaba",
+              "A second day to go beyond the main site",
+              "Matches culture"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_004018"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "11:30",
+            "end_time": "12:30",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_004015",
+            "name": "Khirbet al-Mukhayyat",
+            "duration_minutes": 60,
+            "location": "Faisaliyah",
+            "coordinates": {
+              "latitude": 31.753889,
+              "longitude": 35.741944,
+              "precision": "exact"
+            },
+            "description": "Ancient village site on Mount Nebo's slopes housing the mosaic-rich Church of Saint George and Church of Lot and Procopius.",
+            "reason": "In Madaba; A must-see in Madaba; Matches culture",
+            "matched_preferences": [
+              "In Madaba",
+              "A must-see in Madaba",
+              "Matches culture"
+            ],
+            "estimated_cost": "not_available",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_004015"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "14:15",
+            "end_time": "15:05",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_004035",
+            "name": "Wadi Judeyd Megalithic Field",
+            "duration_minutes": 50,
+            "location": "Faisaliyah",
+            "coordinates": {
+              "latitude": 31.758333,
+              "longitude": 35.718056,
+              "precision": "exact"
+            },
+            "description": "Prehistoric field of Bronze Age stone dolmen tombs and megalithic standing stones.",
+            "reason": "In Madaba; A second day to go beyond the main site; Matches culture",
+            "matched_preferences": [
+              "In Madaba",
+              "A second day to go beyond the main site",
+              "Matches culture"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_004035"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "15:20",
+            "end_time": "15:55",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_004040",
+            "name": "Qasr az-Za'afaran",
+            "duration_minutes": 35,
+            "location": "Madaba",
+            "coordinates": {
+              "latitude": 31.748056,
+              "longitude": 35.834167,
+              "precision": "exact"
+            },
+            "description": "Historic hilltop stone watchtower site dating to the Iron Age and re-used by Romans to guard desert borders.",
+            "reason": "In Madaba; A second day to go beyond the main site; Matches culture",
+            "matched_preferences": [
+              "In Madaba",
+              "A second day to go beyond the main site",
+              "Matches culture"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_004040"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "18:00",
+            "end_time": "19:00",
+            "slot": "evening",
+            "type": "restaurant",
+            "item_id": "restaurant_004012",
+            "name": "Mount Nebo Panorama Restaurant",
+            "duration_minutes": 60,
+            "location": "Madaba",
+            "coordinates": {
+              "latitude": 31.765123,
+              "longitude": 35.727045,
+              "precision": "exact"
+            },
+            "description": "A cliffside restaurant near Mount Nebo offering panoramic views of the Jordan Valley and Dead Sea alongside international dining.",
+            "reason": "Dinner in the evening.",
+            "matched_preferences": [
+              "In Madaba",
+              "A must-see in Madaba",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "22 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_004012"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "Stay overnight in Madaba."
+      },
+      {
+        "day": 4,
+        "date": "2026-08-23",
+        "region": "Karak",
+        "theme": "Karak",
+        "summary": "Morning transfer from Madaba to Karak, visits Al-Karak Old Souq, Al-Karak Heritage Village, Mu'tah University Campus Gardens, with breakfast, lunch, and dinner on the clock.",
+        "is_arrival_day": false,
+        "schedule": [
+          {
+            "time": "09:00",
+            "end_time": "10:20",
+            "slot": "morning",
+            "type": "transfer",
+            "item_id": "transfer:madaba:karak:09:00",
+            "name": "Drive to Karak",
+            "duration_minutes": 80,
+            "location": "Madaba → Karak",
+            "coordinates": null,
+            "description": "Travel from Madaba to Karak.",
+            "reason": "You woke up in a different place than today's sights.",
+            "matched_preferences": [],
+            "estimated_cost": "not_available",
+            "source": {
+              "dataset": "planning",
+              "record_id": "transfer:madaba:karak"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "10:20",
+            "end_time": "11:20",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_008014",
+            "name": "Al-Karak Old Souq",
+            "duration_minutes": 60,
+            "location": "Karak",
+            "coordinates": {
+              "latitude": 31.1815,
+              "longitude": 35.7035,
+              "precision": "exact"
+            },
+            "description": "Traditional market street situated directly below Karak Castle.",
+            "reason": "In Karak; matches culture interest; A must-see in Karak; Matches culture; One visit covering the nearby monuments",
+            "matched_preferences": [
+              "In Karak",
+              "matches culture interest",
+              "A must-see in Karak",
+              "Matches culture",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_008014"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "11:35",
+            "end_time": "12:20",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_008034",
+            "name": "Al-Karak Heritage Village",
+            "duration_minutes": 45,
+            "location": "Karak",
+            "coordinates": {
+              "latitude": 31.184,
+              "longitude": 35.709,
+              "precision": "exact"
+            },
+            "description": "Cultural exhibition space showcasing traditional architecture, local crafts, and folklore of Karak.",
+            "reason": "In Karak; matches culture interest; Matches culture; One visit covering the nearby monuments",
+            "matched_preferences": [
+              "In Karak",
+              "matches culture interest",
+              "Matches culture",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "1 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_008034"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "13:00",
+            "end_time": "14:00",
+            "slot": "afternoon",
+            "type": "restaurant",
+            "item_id": "restaurant_008008",
+            "name": "Al Mazar Traditional Restaurant",
+            "duration_minutes": 60,
+            "location": "Al-Mazar Al-Janubi",
+            "coordinates": {
+              "latitude": 31.066124,
+              "longitude": 35.696312,
+              "precision": "exact"
+            },
+            "description": "A traditional eatery in Al-Mazar Al-Janubi serving classic rice and meat dishes, including Zarb and Mansaf.",
+            "reason": "Lunch in the afternoon.",
+            "matched_preferences": [
+              "In Karak",
+              "Matches culture",
+              "Matches preferred cuisine",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "7 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_008008"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "14:15",
+            "end_time": "15:00",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_008017",
+            "name": "Mu'tah University Campus Gardens",
+            "duration_minutes": 45,
+            "location": "Al-Mazar al-Janubi",
+            "coordinates": {
+              "latitude": 31.083333,
+              "longitude": 35.766667,
+              "precision": "exact"
+            },
+            "description": "Landscaped open grounds and green spaces within the historic Mu'tah University campus near Karak.",
+            "reason": "In Karak; local_tourism_catalog",
+            "matched_preferences": [
+              "In Karak",
+              "local_tourism_catalog"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_008017"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "15:15",
+            "end_time": "16:35",
+            "slot": "afternoon",
+            "type": "transfer",
+            "item_id": "transfer:karak:madaba:15:15",
+            "name": "Return to Madaba",
+            "duration_minutes": 80,
+            "location": "Karak → Madaba",
+            "coordinates": null,
+            "description": "Travel from Karak to Madaba.",
+            "reason": "Back to tonight's hotel before dinner.",
+            "matched_preferences": [],
+            "estimated_cost": "not_available",
+            "source": {
+              "dataset": "planning",
+              "record_id": "transfer:karak:madaba"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "Come back to your hotel in Madaba to sleep."
+      },
+      {
+        "day": 5,
+        "date": "2026-08-24",
+        "region": "Tafilah",
+        "theme": "Tafilah",
+        "summary": "Morning transfer from Madaba to Tafilah, visits Busaira Archaeological Site, Khirbet edh-Dharih, with breakfast, lunch, and dinner on the clock.",
+        "is_arrival_day": false,
+        "schedule": [
+          {
+            "time": "09:00",
+            "end_time": "11:03",
+            "slot": "morning",
+            "type": "transfer",
+            "item_id": "transfer:madaba:tafilah:09:00",
+            "name": "Drive to Tafilah",
+            "duration_minutes": 123,
+            "location": "Madaba → Tafilah",
+            "coordinates": null,
+            "description": "Travel from Madaba to Tafilah.",
+            "reason": "You woke up in a different place than today's sights.",
+            "matched_preferences": [],
+            "estimated_cost": "not_available",
+            "source": {
+              "dataset": "planning",
+              "record_id": "transfer:madaba:tafilah"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "11:03",
+            "end_time": "12:03",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_009011",
+            "name": "Busaira Archaeological Site",
+            "duration_minutes": 60,
+            "location": "Busaira",
+            "coordinates": {
+              "latitude": 30.7397,
+              "longitude": 35.6119,
+              "precision": "exact"
+            },
+            "description": "The ancient capital of the Edomite Kingdom, featuring hilltop ruins and fortification remains.",
+            "reason": "In Tafilah; Matches culture; One visit covering the nearby monuments",
+            "matched_preferences": [
+              "In Tafilah",
+              "Matches culture",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_009011"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "12:18",
+            "end_time": "13:18",
+            "slot": "afternoon",
+            "type": "restaurant",
+            "item_id": "restaurant_007066",
+            "name": "Al-Ayn Heritage Restaurant Tafilah",
+            "duration_minutes": 60,
+            "location": "Tafilah",
+            "coordinates": {
+              "latitude": 30.8385,
+              "longitude": 35.6042,
+              "precision": "exact"
+            },
+            "description": "Traditional hilltop restaurant in Tafilah city offering sweeping views of the surrounding olive valleys and classic southern Jordanian dishes.",
+            "reason": "Lunch in the afternoon.",
+            "matched_preferences": [
+              "In Tafilah",
+              "Matches culture",
+              "Matches preferred cuisine",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "8.5 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_007066"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "13:33",
+            "end_time": "14:33",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_009009",
+            "name": "Khirbet edh-Dharih",
+            "duration_minutes": 60,
+            "location": "Tafilah",
+            "coordinates": {
+              "latitude": 30.7333,
+              "longitude": 35.6167,
+              "precision": "exact"
+            },
+            "description": "An important Nabataean archaeological site featuring a well-preserved temple in Wadi al-Laaban.",
+            "reason": "In Tafilah; Matches culture",
+            "matched_preferences": [
+              "In Tafilah",
+              "Matches culture"
+            ],
+            "estimated_cost": "not_available",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_009009"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "14:48",
+            "end_time": "17:53",
+            "slot": "afternoon",
+            "type": "transfer",
+            "item_id": "transfer:tafilah:aqaba:14:48",
+            "name": "Return to Aqaba",
+            "duration_minutes": 185,
+            "location": "Tafilah → Aqaba",
+            "coordinates": null,
+            "description": "Travel from Tafilah to Aqaba.",
+            "reason": "Back to tonight's hotel before dinner.",
+            "matched_preferences": [],
+            "estimated_cost": "not_available",
+            "source": {
+              "dataset": "planning",
+              "record_id": "transfer:tafilah:aqaba"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "18:00",
+            "end_time": "19:00",
+            "slot": "evening",
+            "type": "restaurant",
+            "item_id": "restaurant_003043",
+            "name": "Ayla Village Bistro",
+            "duration_minutes": 60,
+            "location": "Aqaba",
+            "coordinates": {
+              "latitude": 29.55341,
+              "longitude": 34.98392,
+              "precision": "exact"
+            },
+            "description": "Stylish waterfront bistro located in Marina Village at Ayla Oasis, serving light European dishes, artisan coffee, and craft mocktails.",
+            "reason": "Dinner in the evening.",
+            "matched_preferences": [
+              "In Aqaba",
+              "Matches culture",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "16 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_003043"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "",
+            "end_time": "",
+            "slot": "overnight",
+            "type": "hotel",
+            "item_id": "hotel_000096",
+            "name": "Al Manara, a Luxury Collection Hotel, Aqaba",
+            "duration_minutes": null,
+            "location": "Aqaba",
+            "coordinates": {
+              "latitude": 29.534927,
+              "longitude": 34.994854,
+              "precision": "exact"
+            },
+            "description": "Five-star Luxury Collection hotel in the Saraya Aqaba beachfront development on the Red Sea, with 207 air-conditioned rooms and suites, three restaurants, a full-service spa, outdoor pool, fitness centre and private beach access.",
+            "reason": "Overnight stay in Aqaba. This is your hotel, not an activity. 5-star stay, as requested",
+            "matched_preferences": [
+              "5-star stay, as requested",
+              "In Aqaba",
+              "5-star, as requested",
+              "Matches hotel"
+            ],
+            "estimated_cost": "215 JOD / night",
+            "source": {
+              "dataset": "hotels",
+              "record_id": "hotel_000096"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "This evening you check in to your hotel in Aqaba."
+      },
+      {
+        "day": 6,
+        "date": "2026-08-25",
+        "region": "Aqaba",
+        "theme": "Aqaba",
+        "summary": "Visits Aqaba Spice Souq, Ayla Oasis Marina, King Hussein Bin Talal Mosque, with breakfast, lunch, and dinner on the clock.",
+        "is_arrival_day": false,
+        "schedule": [
+          {
+            "time": "09:15",
+            "end_time": "10:00",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_003015",
+            "name": "Aqaba Spice Souq",
+            "duration_minutes": 45,
+            "location": "Aqaba",
+            "coordinates": {
+              "latitude": 29.528333,
+              "longitude": 35.003611,
+              "precision": "exact"
+            },
+            "description": "Historic bazaar alleys in downtown Aqaba filled with traditional spice, coffee, and herb shops.",
+            "reason": "In Aqaba; matches culture interest; Matches culture; One visit covering the nearby monuments",
+            "matched_preferences": [
+              "In Aqaba",
+              "matches culture interest",
+              "Matches culture",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_003015"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "10:15",
+            "end_time": "12:15",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_003017",
+            "name": "Ayla Oasis Marina",
+            "duration_minutes": 120,
+            "location": "Aqaba",
+            "coordinates": {
+              "latitude": 29.551111,
+              "longitude": 34.989444,
+              "precision": "exact"
+            },
+            "description": "Modern luxury waterfront development with man-made lagoons, dining, and recreational promenades.",
+            "reason": "In Aqaba; local_tourism_catalog",
+            "matched_preferences": [
+              "In Aqaba",
+              "local_tourism_catalog"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_003017"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "13:00",
+            "end_time": "14:00",
+            "slot": "afternoon",
+            "type": "restaurant",
+            "item_id": "restaurant_007080",
+            "name": "Berenice Beach Club Restaurant Aqaba",
+            "duration_minutes": 60,
+            "location": "Aqaba",
+            "coordinates": {
+              "latitude": 29.4312,
+              "longitude": 34.9754,
+              "precision": "exact"
+            },
+            "description": "Coastal beach club restaurant on Aqaba's South Beach offering beachside grills, wood-fired pizza, and Red Sea views.",
+            "reason": "Lunch in the afternoon.",
+            "matched_preferences": [
+              "In Aqaba",
+              "A must-see in Aqaba"
+            ],
+            "estimated_cost": "13 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_007080"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "14:15",
+            "end_time": "14:45",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_003016",
+            "name": "King Hussein Bin Talal Mosque",
+            "duration_minutes": 30,
+            "location": "Aqaba",
+            "coordinates": {
+              "latitude": 29.533333,
+              "longitude": 35.008333,
+              "precision": "exact"
+            },
+            "description": "Major architectural landmark and grand mosque in central Aqaba.",
+            "reason": "In Aqaba; Matches culture",
+            "matched_preferences": [
+              "In Aqaba",
+              "Matches culture"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_003016"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "15:00",
+            "end_time": "15:30",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_003019",
+            "name": "Tell el-Kheleifeh",
+            "duration_minutes": 30,
+            "location": "Aqaba",
+            "coordinates": {
+              "latitude": 29.546667,
+              "longitude": 34.981389,
+              "precision": "exact"
+            },
+            "description": "Iron Age archaeological mound believed to be biblical Ezion-geber or Elath.",
+            "reason": "In Aqaba; Matches culture",
+            "matched_preferences": [
+              "In Aqaba",
+              "Matches culture"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_003019"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "15:45",
+            "end_time": "16:45",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_003013",
+            "name": "The Tank and Underwater Military Museum",
+            "duration_minutes": 60,
+            "location": "Aqaba",
+            "coordinates": {
+              "latitude": 29.418056,
+              "longitude": 34.973611,
+              "precision": "exact"
+            },
+            "description": "Unique underwater museum featuring decommissioned military vehicles arranged in battle formation.",
+            "reason": "In Aqaba; Matches culture; One visit covering the nearby monuments",
+            "matched_preferences": [
+              "In Aqaba",
+              "Matches culture",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "not_available",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_003013"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "17:00",
+            "end_time": "17:20",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_003018",
+            "name": "Pharaoh's Island Viewpoint",
+            "duration_minutes": 20,
+            "location": "Aqaba",
+            "coordinates": {
+              "latitude": 29.366667,
+              "longitude": 34.966667,
+              "precision": "exact"
+            },
+            "description": "Coastal lookout point on South Beach offering panoramic views across four nations.",
+            "reason": "In Aqaba; A must-see in Aqaba",
+            "matched_preferences": [
+              "In Aqaba",
+              "A must-see in Aqaba"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_003018"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "18:00",
+            "end_time": "19:00",
+            "slot": "evening",
+            "type": "restaurant",
+            "item_id": "restaurant_003008",
+            "name": "Captain's Restaurant",
+            "duration_minutes": 60,
+            "location": "Aqaba",
+            "coordinates": {
+              "latitude": 29.529801,
+              "longitude": 35.001423,
+              "precision": "exact"
+            },
+            "description": "Classic maritime-themed restaurant specialized in fresh local fish cooked to order and traditional seafood dishes.",
+            "reason": "Dinner in the evening.",
+            "matched_preferences": [
+              "In Aqaba",
+              "Matches culture",
+              "Matches preferred cuisine",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "18 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_003008"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "Stay overnight in Aqaba."
+      }
+    ],
+    "budget": {
+      "currency": "JOD",
+      "traveler_budget": 200.0,
+      "estimated_total": "1571 JOD",
+      "band": "value",
+      "items": [
+        {
+          "category": "Stays",
+          "estimated_cost": "668 JOD",
+          "notes": "InterContinental Jordan: 165 JOD × 1 night(s); Ma'In Hotel & Spa: 96 JOD × 3 night(s); Al Manara, a Luxury Collection Hotel, Aqaba: 215 JOD × 1 night(s)",
+          "confidence": "medium"
+        },
+        {
+          "category": "Meals on the plan",
+          "estimated_cost": "383 JOD",
+          "notes": "17 listed meal(s) × 2 traveler(s).",
+          "confidence": "medium"
+        },
+        {
+          "category": "Entry tickets",
+          "estimated_cost": "70 JOD",
+          "notes": "22 listed site(s) × 2 traveler(s). 3 site(s) have no listed entry fee.",
+          "confidence": "medium"
+        },
+        {
+          "category": "Trip guide",
+          "estimated_cost": "360 JOD",
+          "notes": "Listed daily rate 60 JOD × 6 days (up to 100 JOD listed)",
+          "confidence": "medium"
+        },
+        {
+          "category": "Trip operator",
+          "estimated_cost": "90 JOD",
+          "notes": "Listed from 90 JOD (up to 1600 JOD listed)",
+          "confidence": "medium"
+        },
+        {
+          "category": "Left vs your ceiling",
+          "estimated_cost": "-1371 JOD",
+          "notes": "Your ceiling is 200 JOD. Listed pieces add up to 1571 JOD.",
+          "confidence": "medium"
+        }
+      ],
+      "disclaimer": "Amounts come from catalog listings. This is a planning estimate, not a final invoice. Missing prices stay unknown — we do not invent them."
+    },
+    "sme_value": {
+      "headline": "Your guide and operator for this journey",
+      "summary": "One local guide and one tour operator for the whole trip — not a new face every day.",
+      "recommended": [
+        {
+          "sme_id": "tour_guide:SME-KARAK-002:karak",
+          "sme_type": "tour_guide",
+          "name": "Eyad Ede",
+          "role": "Trip guide",
+          "location": "Al-Karak",
+          "experience_type": "History, Culture, Religious Sites",
+          "match_score": 0.816,
+          "reason": "Fits what you asked for: culture",
+          "matched_because": [
+            "Fits what you asked for: culture",
+            "Covers karak, madaba",
+            "Based in Al-Karak",
+            "Works with couple travelers",
+            "Speaks English"
+          ],
+          "known_for": [
+            "Private local tour guide offering comprehensive historical and cultural heritage tours across Al-Karak and major Jordanian historic landmarks",
+            "Takes travelers to Al-Karak, Kerak Castle, Madaba, Dead Sea",
+            "Also offers Custom Itineraries, Private Tours, Religious Tours",
+            "Private groups available"
+          ],
+          "specializations": [
+            "History",
+            "Culture",
+            "Religious Sites"
+          ],
+          "languages": [
+            "Arabic",
+            "English",
+            "German"
+          ],
+          "experience_years": 8,
+          "destinations_covered": [
+            "Al-Karak",
+            "Kerak Castle",
+            "Madaba",
+            "Dead Sea"
+          ],
+          "covers_regions": [
+            "karak",
+            "madaba"
+          ],
+          "package_role": "guide",
+          "specs": [
+            {
+              "label": "Specializations",
+              "value": "History, Culture, Religious Sites"
+            },
+            {
+              "label": "Experience",
+              "value": "8 years"
+            },
+            {
+              "label": "Languages",
+              "value": "Arabic, English, German"
+            },
+            {
+              "label": "Best for",
+              "value": "Families, Solo Travelers, Couples"
+            },
+            {
+              "label": "Group size",
+              "value": "1–15"
+            },
+            {
+              "label": "From",
+              "value": "60–100 JOD"
+            },
+            {
+              "label": "Hours",
+              "value": "07:30 - 19:00"
+            },
+            {
+              "label": "Rating",
+              "value": "4.8 (9 reviews)"
+            }
+          ],
+          "source": {
+            "dataset": "sme_guides",
+            "record_id": "tour_guide:SME-KARAK-002:karak"
+          },
+          "coordinates": {
+            "latitude": 31.1853,
+            "longitude": 35.7047,
+            "precision": "city_centroid"
+          }
+        },
+        {
+          "sme_id": "tour_operator:SME-000012:amman",
+          "sme_type": "tour_operator",
+          "name": "Atlas Tours",
+          "role": "Trip operator",
+          "location": "Amman",
+          "experience_type": "History, Culture, Religious Sites",
+          "match_score": 0.842,
+          "reason": "Fits what you asked for: culture",
+          "matched_because": [
+            "Fits what you asked for: culture",
+            "Covers amman, aqaba, madaba",
+            "Based in Amman",
+            "Works with couple travelers",
+            "Speaks English",
+            "Transportation across the itinerary"
+          ],
+          "known_for": [
+            "Established destination management company (DMC) in Amman operating comprehensive cultural, leisure, pilgrimage, and adventure tour programs across Jordan since 1972",
+            "Takes travelers to Amman, Petra, Wadi Rum, Dead Sea",
+            "Also offers Transportation, Custom Itineraries, Private Tours",
+            "Private groups available",
+            "Can arrange transportation"
+          ],
+          "specializations": [
+            "History",
+            "Culture",
+            "Religious Sites",
+            "Adventure",
+            "Wellness",
+            "Archaeology"
+          ],
+          "languages": [
+            "English",
+            "Arabic",
+            "French",
+            "German",
+            "Spanish"
+          ],
+          "experience_years": 54,
+          "destinations_covered": [
+            "Amman",
+            "Petra",
+            "Wadi Rum",
+            "Dead Sea",
+            "Aqaba",
+            "Jerash",
+            "Madaba"
+          ],
+          "covers_regions": [
+            "amman",
+            "aqaba",
+            "madaba"
+          ],
+          "package_role": "operator",
+          "specs": [
+            {
+              "label": "Specializations",
+              "value": "History, Culture, Religious Sites, Adventure, Wellness, Archaeology"
+            },
+            {
+              "label": "Experience",
+              "value": "54 years"
+            },
+            {
+              "label": "Languages",
+              "value": "English, Arabic, French, German, Spanish"
+            },
+            {
+              "label": "Best for",
+              "value": "Families, Couples, Solo Travelers"
+            },
+            {
+              "label": "Group size",
+              "value": "1–50"
+            },
+            {
+              "label": "From",
+              "value": "90–1600 JOD"
+            },
+            {
+              "label": "Hours",
+              "value": "08:00-17:00"
+            },
+            {
+              "label": "Rating",
+              "value": "4.9 (210 reviews)"
+            }
+          ],
+          "source": {
+            "dataset": "sme_operators",
+            "record_id": "tour_operator:SME-000012:amman"
+          },
+          "coordinates": {
+            "latitude": 31.9454,
+            "longitude": 35.9284,
+            "precision": "city_centroid"
+          }
+        }
+      ]
+    },
+    "sources": [
+      {
+        "dataset": "hotels",
+        "record_id": "hotel_000022"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_001076"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_000001"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_001029"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_000052"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_000049"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_001001"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_004017"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_004039"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_004024"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_004014"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_004002"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_004003"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_004012"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_004005"
+      },
+      {
+        "dataset": "hotels",
+        "record_id": "hotel_000075"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_004021"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_004018"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_004015"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_004035"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_004040"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_004012"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_008014"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_008034"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_008008"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_008017"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_009011"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_007066"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_009009"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_003043"
+      },
+      {
+        "dataset": "hotels",
+        "record_id": "hotel_000096"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_003015"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_003017"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_007080"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_003016"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_003019"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_003013"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_003018"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_003008"
+      },
+      {
+        "dataset": "sme_guides",
+        "record_id": "tour_guide:SME-KARAK-002:karak"
+      },
+      {
+        "dataset": "sme_operators",
+        "record_id": "tour_operator:SME-000012:amman"
+      }
+    ],
+    "warnings": [],
+    "explanations": {
+      "trip_planning_reason": "You land at 04:11, so arrival night stays in Amman — hotel, a meal, rest. The touring days start the next morning. After that the days stay on a short loop: Madaba (2 days), Karak, Tafilah, then Aqaba. It's a hot month, so the outdoor sites go before midday.",
+      "highlights": [
+        "Amman Citadel",
+        "Amman Citadel Flagpole",
+        "Al-Basha Turkish Bath",
+        "King's Highway Madaba Segment",
+        "Al-Lajjun / East Madaba Desert Border Viewpoint",
+        "Moses Spring (Ayn Musa)"
+      ],
+      "why_smes": [
+        "Eyad Ede: Fits what you asked for: culture",
+        "Atlas Tours: Fits what you asked for: culture"
+      ],
+      "context_benefits": []
+    }
+  }
+}

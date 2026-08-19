@@ -1,0 +1,1 @@
+{"job_id": "7258da93-72e5-497b-b687-75c639ffd469", "status": "failed", "created_at": 1787163175.3073, "updated_at": 1787163179.7308397, "error": "The Brain restarted during generation. Click Generate My Package again.", "result": null, "stage": "failed", "stage_label": "Interrupted"}

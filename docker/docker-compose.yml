@@ -1,0 +1,29 @@
+services:
+  api:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      RETOUR_ENVIRONMENT: production
+      RETOUR_DEBUG: "false"
+      RETOUR_LLM_CONFIG_PATH: config/llm.yaml
+    volumes:
+      - ../config:/app/config:ro
+      - ../prompts:/app/prompts:ro
+    depends_on:
+      ollama:
+        condition: service_started
+    restart: unless-stopped
+
+  ollama:
+    image: ollama/ollama:latest
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    restart: unless-stopped
+
+volumes:
+  ollama_data:

@@ -1,0 +1,122 @@
+{
+  "status": "ok",
+  "source": "retriever",
+  "duration_days": 3,
+  "cluster_count": 3,
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "theme": "Jerash Governorate · culture, history, nature",
+      "poi_count": 10,
+      "hotel_count": 4,
+      "event_count": 3,
+      "poi_names": [
+        "Jerash Heritage Souk",
+        "Hippodrome of Jerash",
+        "Suf Village Heritage Center",
+        "Al-Mustaba Eco-Park",
+        "Mazar Al-Shamali Forest Reserve",
+        "Abu Jaber House",
+        "Tell Johfiyeh",
+        "Al-Husun Traditional Pottery Studio",
+        "Tell Johfiyeh",
+        "Wild Jordan Center"
+      ],
+      "hotel_names": [
+        "The Olive Branch Hotel",
+        "Jerash Hotel",
+        "Dream House Hotel Apartments",
+        "Celestia Boutique Inn"
+      ],
+      "sample_restaurants": [
+        "Jerash Oasis Grill",
+        "Roman Bridge Restaurant",
+        "Jerash Canyon Restaurant",
+        "Jerash Olive Grove Grill",
+        "Al Andalus Tourist Restaurant",
+        "Jordan Heritage Restaurant Salt"
+      ],
+      "event_names": [
+        "Jordan Summer Festival - Jerash",
+        "Jerash Climate and Visual Arts Conference",
+        "Jerash Festival for Culture and Arts"
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "theme": "Ajloun Governorate · history, nature, culture",
+      "poi_count": 10,
+      "hotel_count": 4,
+      "event_count": 3,
+      "poi_names": [
+        "Wadi Rayyan",
+        "Ajloun Great Mosque",
+        "Orjan Soap House Trailhead",
+        "Mar Elias Trailhead",
+        "Wadi Al-Arayan",
+        "Wadi Jirim",
+        "Natural History Museum at Yarmouk University",
+        "Beit Al-Saraya Cultural Forum",
+        "Irbid Central Souq",
+        "Yarmouk University Anthropology Museum"
+      ],
+      "hotel_names": [
+        "Al-Jabal Castle Hotel - Ajloun",
+        "Ajloun Forest Reserve",
+        "Ajloun Hotel",
+        "Al Ghazal Villas"
+      ],
+      "sample_restaurants": [
+        "Rasoun Heritage House Restaurant",
+        "Al-Basha Restaurant Ajloun",
+        "Ajloun Reserve Restaurant",
+        "Al Rayyan Valley Cafe & Restaurant",
+        "Wadi Al Rayyan Garden Resto",
+        "Orjan Village Farm Breakfast & House"
+      ],
+      "event_names": [
+        "Jordan Summer Festival - Ajloun",
+        "National Celebrations Programme - Ajloun",
+        "Eid Evenings - Ajloun"
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "theme": "Balqa Governorate · history, culture, nature",
+      "poi_count": 10,
+      "hotel_count": 4,
+      "event_count": 3,
+      "poi_names": [
+        "Fuheis Heritage Quarter (Al-Fuheis Old Town)",
+        "As-Salt Hammam Street",
+        "Abu Jaber Museum",
+        "Zarqa Ma'in Waterfalls (Balqa Border Area)",
+        "Zarqa Ma'in Thermal Springs (Southern Access/Wadi Zarqa)",
+        "Wadi Zerqa Ma'in Gorge",
+        "Mujib Biosphere Reserve",
+        "King's Highway Madaba Segment",
+        "Wadi Hidan Canyon",
+        "Wadi Mujib Biosphere Reserve (Madaba Approach)"
+      ],
+      "hotel_names": [
+        "Jordan Heritage Madhafa",
+        "Beit Aziz Boutique Hotel",
+        "Al Hummar Restaurant and Hotel",
+        "Saltus Hotel"
+      ],
+      "sample_restaurants": [
+        "Carob House Fuheis",
+        "Iskandarani Cafe",
+        "Jordan Heritage Restaurant Salt",
+        "Dead Sea Panorama Restaurant",
+        "Il Terrazzo",
+        "Champions Sports Bar"
+      ],
+      "event_names": [
+        "Jordan Summer Festival - Balqa",
+        "Fuheis Festival",
+        "Eid Evenings - Balqa"
+      ]
+    }
+  ]
+}

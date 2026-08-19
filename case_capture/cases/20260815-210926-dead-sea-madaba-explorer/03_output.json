@@ -1,0 +1,1169 @@
+{
+  "metadata": {
+    "model": "gpt-oss:20b-cloud",
+    "provider": "ollama",
+    "mode": "build",
+    "retries": 0
+  },
+  "package": {
+    "package_id": "pkg-ae9adffc1219",
+    "status": "complete",
+    "welcome_message": "Land in Aqaba, then 3 exploring days through Dead Sea (2 days), then Madaba.",
+    "trip_title": "Dead Sea & Madaba Explorer",
+    "trip": {
+      "title": "Dead Sea & Madaba Explorer",
+      "summary": "Arrival, then Dead Sea (2 days), then Madaba. Walk outdoors in the morning. Keep the afternoon for shade, meals, or indoor visits.",
+      "start_date": "2026-08-20",
+      "end_date": "2026-08-23",
+      "duration_days": 4,
+      "nights": 3,
+      "regions": [
+        "Aqaba",
+        "Dead Sea",
+        "Madaba"
+      ],
+      "arrival_airport": "AQJ",
+      "language": "English"
+    },
+    "traveler_profile": {
+      "group_type": "family",
+      "adults": 4,
+      "children": 0,
+      "children_ages": [],
+      "seniors": 0,
+      "total_travelers": 4,
+      "interests": [
+        "nature",
+        "food",
+        "photography"
+      ],
+      "pace": "Relaxed",
+      "activity_level": "Moderate",
+      "accessibility_needs": []
+    },
+    "planning": {
+      "strategy": "You land at 15:58, so arrival night stays in Aqaba — hotel, a meal, rest. The touring days start the next morning. After that the days stay on a short loop: Dead Sea (2 days), then Madaba. It's a hot month, so the outdoor sites go before midday.",
+      "constraints": {
+        "must_visit": [],
+        "places_to_avoid": []
+      },
+      "constraint_status": {
+        "status": "satisfied",
+        "unmet": []
+      },
+      "assumptions": [
+        "Travel times between cities are estimated qualitatively, not as exact minutes, unless evidence exists.",
+        "Opening hours are used only when present on the catalog record."
+      ],
+      "climate": {
+        "month": 8,
+        "season": "hot_dry_summer",
+        "typical_pattern": "High daytime heat, especially in the Jordan Valley and desert.",
+        "outdoor_guidance": "Walk outdoors in the morning. Keep the afternoon for shade, meals, or indoor visits.",
+        "heat_risk": "high"
+      },
+      "weather_status": "ok",
+      "decisions": [
+        {
+          "code": "day_route",
+          "title": "Each exploring day stays in one area",
+          "why": "Mixing far-apart cities in one day makes the trip exhausting.",
+          "effect": "After arrival, the days run Dead Sea (2 days), then Madaba."
+        },
+        {
+          "code": "arrival_stay",
+          "title": "Night one is near the airport",
+          "why": "You land at AQJ at 15:58.",
+          "effect": "Sleep in Aqaba on arrival night. The exploring days start the next morning."
+        },
+        {
+          "code": "arrival_relocate",
+          "title": "You land in the south, then move north",
+          "why": "King Hussein / Aqaba is the arrival airport, but the trip is for North or Central Jordan.",
+          "effect": "Sleep in Aqaba on night one, then relocate before the main exploring days."
+        },
+        {
+          "code": "arrival_pace",
+          "title": "Settle in this evening",
+          "why": "You land at 15:58.",
+          "effect": "Food and rest first. A nearby stop only if enough evening remains, then back to the hotel."
+        },
+        {
+          "code": "day_trips",
+          "title": "Day trips from one hotel",
+          "why": "These places are close enough to visit and return the same day.",
+          "effect": "You keep the same hotel in Dead Sea and come back there to sleep."
+        },
+        {
+          "code": "hotel_move",
+          "title": "Then you move closer to the places you came for",
+          "why": "Sleeping in the same city you visit beats a long commute every morning.",
+          "effect": "After the arrival night, nearby days share one hotel. You only move when the next area is too far for a day trip."
+        },
+        {
+          "code": "heat",
+          "title": "Mornings for the outdoors",
+          "why": "High daytime heat, especially in the Jordan Valley and desert.",
+          "effect": "Walk heritage and nature in the morning. Save museums, meals, and shade for the afternoon."
+        },
+        {
+          "code": "pace",
+          "title": "A relaxed pace",
+          "why": "family group, Moderate activity.",
+          "effect": "On exploring days, plan on about 2 visits and 3 meals. Arrival follows the time left after food and rest."
+        },
+        {
+          "code": "stay_tier",
+          "title": "4 star stays",
+          "why": "You asked for 4 star hotels.",
+          "effect": "Hotels are taken from listings at that star level when the city has them. If it does not, we use the closest listed tier and say so."
+        },
+        {
+          "code": "budget",
+          "title": "A comfort budget",
+          "why": "900 JOD for 4 days.",
+          "effect": "We lean toward more comfortable stays and dining when those places exist."
+        },
+        {
+          "code": "interests",
+          "title": "Chosen around what you care about",
+          "why": "nature, food, and photography",
+          "effect": "Stops follow nature, food, and photography. Unrelated places stay off the list."
+        }
+      ]
+    },
+    "days": [
+      {
+        "day": 1,
+        "date": "2026-08-20",
+        "region": "Aqaba",
+        "theme": "Arrival in Aqaba",
+        "summary": "Afternoon/evening arrival in Aqaba: eat and rest first. Pharaoh's Island Viewpoint only if evening remains.",
+        "is_arrival_day": true,
+        "schedule": [
+          {
+            "time": "16:18",
+            "end_time": "19:18",
+            "slot": "overnight",
+            "type": "hotel",
+            "item_id": "hotel_000107",
+            "name": "Lavanda Boutique Suites Tala Bay",
+            "duration_minutes": null,
+            "location": "Aqaba",
+            "coordinates": {
+              "latitude": 29.532,
+              "longitude": 35.0063,
+              "precision": "city_centroid"
+            },
+            "description": "Small five-star boutique suite property in Block 12 of the Tala Bay development south of Aqaba, overlooking the marina, with an outdoor heated pool, a private beach area, two restaurants and a 24-hour front desk.",
+            "reason": "Check in and rest first. Add a nearby stop only if enough evening is left. 5-star stay, as requested",
+            "matched_preferences": [
+              "5-star stay, as requested",
+              "In Aqaba",
+              "Matches food, photography",
+              "5-star, as requested",
+              "Matches hotel"
+            ],
+            "estimated_cost": "161 JOD / night",
+            "source": {
+              "dataset": "hotels",
+              "record_id": "hotel_000107"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "19:18",
+            "end_time": "20:18",
+            "slot": "dinner",
+            "type": "restaurant",
+            "item_id": "restaurant_007077",
+            "name": "Captain's Seafood Restaurant Aqaba",
+            "duration_minutes": 60,
+            "location": "Aqaba",
+            "coordinates": {
+              "latitude": 29.5293,
+              "longitude": 35.0051,
+              "precision": "exact"
+            },
+            "description": "Nautically themed seafood restaurant in central Aqaba offering display counter fish selection and classic Mediterranean preparations.",
+            "reason": "A simple dinner if the kitchen is still open, then sleep.",
+            "matched_preferences": [
+              "In Aqaba",
+              "Matches food",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "16 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_007077"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "20:33",
+            "end_time": "20:53",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_003018",
+            "name": "Pharaoh's Island Viewpoint",
+            "duration_minutes": 20,
+            "location": "Aqaba",
+            "coordinates": {
+              "latitude": 29.366667,
+              "longitude": 34.966667,
+              "precision": "exact"
+            },
+            "description": "Coastal lookout point on South Beach offering panoramic views across four nations.",
+            "reason": "Time remains after rest, so the arrival day continues nearby — not a long drive.",
+            "matched_preferences": [
+              "In Aqaba",
+              "local_tourism_catalog",
+              "A must-see in Aqaba",
+              "Matches photography"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_003018"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "",
+            "end_time": "",
+            "slot": "overnight",
+            "type": "hotel",
+            "item_id": "hotel_000107",
+            "name": "Lavanda Boutique Suites Tala Bay",
+            "duration_minutes": null,
+            "location": "Aqaba",
+            "coordinates": {
+              "latitude": 29.532,
+              "longitude": 35.0063,
+              "precision": "city_centroid"
+            },
+            "description": "Small five-star boutique suite property in Block 12 of the Tala Bay development south of Aqaba, overlooking the marina, with an outdoor heated pool, a private beach area, two restaurants and a 24-hour front desk.",
+            "reason": "Back to your arrival hotel for the night.",
+            "matched_preferences": [
+              "5-star stay, as requested",
+              "In Aqaba",
+              "Matches food, photography",
+              "5-star, as requested",
+              "Matches hotel"
+            ],
+            "estimated_cost": "161 JOD / night",
+            "source": {
+              "dataset": "hotels",
+              "record_id": "hotel_000107"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "You land at 15:58. The drive from King Hussein / Aqaba to Aqaba is about 20 minutes. Times below start after that transfer."
+      },
+      {
+        "day": 2,
+        "date": "2026-08-21",
+        "region": "Dead Sea",
+        "theme": "Dead Sea",
+        "summary": "Morning visits to the Dead Sea Panorama Complex and Wadi Zerqa Ma'in Gorge, followed by lunch, a scenic dinner, and overnight stay at a 5-star resort.",
+        "is_arrival_day": false,
+        "schedule": [
+          {
+            "time": "07:30",
+            "end_time": "08:15",
+            "slot": "morning",
+            "type": "restaurant",
+            "item_id": "restaurant_007017",
+            "name": "Al Ghorfal Seafood Restaurant",
+            "duration_minutes": 45,
+            "location": "Dead Sea Region",
+            "coordinates": {
+              "latitude": 31.7215,
+              "longitude": 35.5892,
+              "precision": "exact"
+            },
+            "description": "Resort-area seafood specialty restaurant located near the Dead Sea hotel zone in Sweimeh.",
+            "reason": "Breakfast in the morning, before visiting.",
+            "matched_preferences": [
+              "In Dead Sea",
+              "A must-see in Dead Sea",
+              "Matches food",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "25 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_007017"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "09:00",
+            "end_time": "10:30",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_004029",
+            "name": "Dead Sea Panorama Complex (Madaba Overlook)",
+            "duration_minutes": 90,
+            "location": "Ma'in",
+            "coordinates": {
+              "latitude": 31.646944,
+              "longitude": 35.608889,
+              "precision": "exact"
+            },
+            "description": "Perched complex on the Zara cliff edge offering panoramic Dead Sea views, walking trails, and geology museum.",
+            "reason": "In Dead Sea; local_tourism_catalog; A must-see in Dead Sea; Matches nature, photography",
+            "matched_preferences": [
+              "In Dead Sea",
+              "local_tourism_catalog",
+              "A must-see in Dead Sea",
+              "Matches nature, photography"
+            ],
+            "estimated_cost": "2 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_004029"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "12:00",
+            "end_time": "13:30",
+            "slot": "afternoon",
+            "type": "restaurant",
+            "item_id": "restaurant_007006",
+            "name": "Dead Sea Panorama Restaurant",
+            "duration_minutes": 90,
+            "location": "Dead Sea Region",
+            "coordinates": {
+              "latitude": 31.7486,
+              "longitude": 35.5862,
+              "precision": "exact"
+            },
+            "description": "Clifftop restaurant offering panoramic views over the Dead Sea rift valley and international-Arabic dining.",
+            "reason": "Lunch in the afternoon.",
+            "matched_preferences": [
+              "In Dead Sea",
+              "A must-see in Dead Sea",
+              "Matches food, photography"
+            ],
+            "estimated_cost": "22 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_007006"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "13:45",
+            "end_time": "16:45",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_004014",
+            "name": "Wadi Zerqa Ma'in Gorge",
+            "duration_minutes": 180,
+            "location": "Ma'in",
+            "coordinates": {
+              "latitude": 31.621389,
+              "longitude": 35.655833,
+              "precision": "exact"
+            },
+            "description": "Picturesque freshwater canyon featuring lush basalt rock formations and natural stream pools.",
+            "reason": "In Madaba; matches nature interest; Matches nature",
+            "matched_preferences": [
+              "In Madaba",
+              "matches nature interest",
+              "Matches nature"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_004014"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "18:30",
+            "end_time": "20:00",
+            "slot": "evening",
+            "type": "restaurant",
+            "item_id": "restaurant_007011",
+            "name": "Il Terrazzo",
+            "duration_minutes": 90,
+            "location": "Dead Sea Region",
+            "coordinates": {
+              "latitude": 31.7148,
+              "longitude": 35.5867,
+              "precision": "exact"
+            },
+            "description": "Upscale Italian restaurant at the Mövenpick Resort Dead Sea overlooking the swimming pools and sea.",
+            "reason": "Dinner in the evening.",
+            "matched_preferences": [
+              "In Dead Sea",
+              "A must-see in Dead Sea",
+              "Matches food",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "30 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_007011"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "",
+            "end_time": "",
+            "slot": "overnight",
+            "type": "hotel",
+            "item_id": "hotel_000085",
+            "name": "Kempinski Hotel Ishtar Dead Sea",
+            "duration_minutes": null,
+            "location": "Sweimeh",
+            "coordinates": {
+              "latitude": 31.715148,
+              "longitude": 35.58595,
+              "precision": "exact"
+            },
+            "description": "Five-star beachfront resort at Sweimeh with 345 rooms and suites set among gardens, lagoons and waterfalls, nine outdoor pools, and the Ishtar Spa with twenty treatment rooms and a large hydro-pool complex.",
+            "reason": "Overnight stay in Dead Sea. This is your hotel, not an activity. 5-star stay, as requested",
+            "matched_preferences": [
+              "5-star stay, as requested",
+              "In Dead Sea",
+              "A must-see in Dead Sea",
+              "Matches nature",
+              "5-star, as requested"
+            ],
+            "estimated_cost": "138 JOD / night",
+            "source": {
+              "dataset": "hotels",
+              "record_id": "hotel_000085"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "This evening you check in to your hotel in Dead Sea."
+      },
+      {
+        "day": 3,
+        "date": "2026-08-22",
+        "region": "Dead Sea",
+        "theme": "More time in Dead Sea",
+        "summary": "Morning visits to Wadi Wala Dam, Dhiban Archaeological Site and King's Highway, lunch at a scenic restaurant, an indoor mosaic workshop, a historic site, and a final dinner before returning to the hotel.",
+        "is_arrival_day": false,
+        "schedule": [
+          {
+            "time": "08:30",
+            "end_time": "09:30",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_004018",
+            "name": "Wadi Wala Dam",
+            "duration_minutes": 60,
+            "location": "Wala",
+            "coordinates": {
+              "latitude": 31.564722,
+              "longitude": 35.805278,
+              "precision": "exact"
+            },
+            "description": "Water reservoir dam surrounded by green wetland valley, attracting seasonal migratory birds and local picnickers.",
+            "reason": "In Madaba; matches nature interest; A second day to go beyond the main site",
+            "matched_preferences": [
+              "In Madaba",
+              "matches nature interest",
+              "A second day to go beyond the main site"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_004018"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "09:45",
+            "end_time": "10:45",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_004021",
+            "name": "Dhiban Archaeological Site",
+            "duration_minutes": 60,
+            "location": "Dhiban",
+            "coordinates": {
+              "latitude": 31.500278,
+              "longitude": 35.778889,
+              "precision": "exact"
+            },
+            "description": "Historic capital of the ancient Kingdom of Moab where the famous Mesha Stele was discovered.",
+            "reason": "In Madaba; local_tourism_catalog; A second day to go beyond the main site; Matches photography",
+            "matched_preferences": [
+              "In Madaba",
+              "local_tourism_catalog",
+              "A second day to go beyond the main site",
+              "Matches photography"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_004021"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "11:00",
+            "end_time": "12:30",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_004017",
+            "name": "King's Highway Madaba Segment",
+            "duration_minutes": 90,
+            "location": "Madaba",
+            "coordinates": {
+              "latitude": 31.683333,
+              "longitude": 35.783333,
+              "precision": "exact"
+            },
+            "description": "Ancient trade and pilgrimage highway passing through Madaba's agricultural plateau and dramatic canyons.",
+            "reason": "In Madaba; local_tourism_catalog; A second day to go beyond the main site; Matches nature, photography",
+            "matched_preferences": [
+              "In Madaba",
+              "local_tourism_catalog",
+              "A second day to go beyond the main site",
+              "Matches nature, photography"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_004017"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "14:45",
+            "end_time": "15:30",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_004012",
+            "name": "La Storica Mosaics (Mosaic Handicrafts Center)",
+            "duration_minutes": 45,
+            "location": "Faisaliyah",
+            "coordinates": {
+              "latitude": 31.758912,
+              "longitude": 35.748301,
+              "precision": "exact"
+            },
+            "description": "Craft center showcasing traditional stone mosaic production and regional handmade art.",
+            "reason": "In Madaba; local_tourism_catalog; A second day to go beyond the main site; Indoor option on a hot day",
+            "matched_preferences": [
+              "In Madaba",
+              "local_tourism_catalog",
+              "A second day to go beyond the main site",
+              "Indoor option on a hot day"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_004012"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "15:45",
+            "end_time": "17:00",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_004030",
+            "name": "Hesban Archaeological Site (Tell Hesban)",
+            "duration_minutes": 75,
+            "location": "Hesban",
+            "coordinates": {
+              "latitude": 31.799167,
+              "longitude": 35.808889,
+              "precision": "exact"
+            },
+            "description": "Multi-period citadel tell featuring Iron Age reservoirs, Roman temples, Byzantine churches, and a Mamluk castle.",
+            "reason": "In Madaba; local_tourism_catalog; A second day to go beyond the main site; Matches photography",
+            "matched_preferences": [
+              "In Madaba",
+              "local_tourism_catalog",
+              "A second day to go beyond the main site",
+              "Matches photography"
+            ],
+            "estimated_cost": "1 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_004030"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "Stay overnight in Dead Sea."
+      },
+      {
+        "day": 4,
+        "date": "2026-08-23",
+        "region": "Madaba",
+        "theme": "Madaba",
+        "summary": "Morning visits to Moses Spring, Mount Nebo and Madaba Archaeological Park, lunch at a garden restaurant, a scenic viewpoint, and a desert border viewpoint, followed by a final dinner before returning to the hotel.",
+        "is_arrival_day": false,
+        "schedule": [
+          {
+            "time": "07:30",
+            "end_time": "08:15",
+            "slot": "morning",
+            "type": "restaurant",
+            "item_id": "restaurant_004014",
+            "name": "Al-Bustan Restaurant",
+            "duration_minutes": 45,
+            "location": "Madaba",
+            "coordinates": {
+              "latitude": 31.708892,
+              "longitude": 35.788541,
+              "precision": "exact"
+            },
+            "description": "A garden restaurant on the outskirts of Madaba serving fresh grills and local starters under olive trees.",
+            "reason": "Breakfast in the morning, before visiting.",
+            "matched_preferences": [
+              "In Madaba",
+              "Matches food",
+              "Matches preferred cuisine"
+            ],
+            "estimated_cost": "12 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_004014"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "08:30",
+            "end_time": "09:15",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_004024",
+            "name": "Moses Spring (Ayn Musa)",
+            "duration_minutes": 45,
+            "location": "Faisaliyah",
+            "coordinates": {
+              "latitude": 31.776111,
+              "longitude": 35.738889,
+              "precision": "exact"
+            },
+            "description": "Historic freshwater spring tradition links to Moses striking the rock, set in a lush terraced valley below Mount Nebo.",
+            "reason": "In Madaba; matches nature interest; A must-see in Madaba; Matches nature",
+            "matched_preferences": [
+              "In Madaba",
+              "matches nature interest",
+              "A must-see in Madaba",
+              "Matches nature"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_004024"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "09:30",
+            "end_time": "11:00",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_004003",
+            "name": "Mount Nebo",
+            "duration_minutes": 90,
+            "location": "Faisaliyah",
+            "coordinates": {
+              "latitude": 31.768311,
+              "longitude": 35.725228,
+              "precision": "exact"
+            },
+            "description": "Sacred mountain site from which Prophet Moses viewed the Promised Land, featuring ancient mosaics and panoramic views.",
+            "reason": "In Madaba; local_tourism_catalog; A must-see in Madaba; Matches photography",
+            "matched_preferences": [
+              "In Madaba",
+              "local_tourism_catalog",
+              "A must-see in Madaba",
+              "Matches photography"
+            ],
+            "estimated_cost": "3 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_004003"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "12:00",
+            "end_time": "13:15",
+            "slot": "afternoon",
+            "type": "restaurant",
+            "item_id": "restaurant_004026",
+            "name": "Al-Bustan Restaurant Madaba",
+            "duration_minutes": 75,
+            "location": "Madaba",
+            "coordinates": {
+              "latitude": 31.711802,
+              "longitude": 35.795211,
+              "precision": "exact"
+            },
+            "description": "A spacious garden restaurant in Madaba offering Middle Eastern charcoal grills, fresh mezze, and outdoor dining.",
+            "reason": "Lunch in the afternoon.",
+            "matched_preferences": [
+              "In Madaba",
+              "Matches food",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "12 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_004026"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "13:30",
+            "end_time": "14:30",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_004002",
+            "name": "Madaba Archaeological Park",
+            "duration_minutes": 60,
+            "location": "Madaba",
+            "coordinates": {
+              "latitude": 31.716181,
+              "longitude": 35.793264,
+              "precision": "exact"
+            },
+            "description": "An open-air archaeological complex featuring ancient Roman roads, Byzantine churches, and exquisite floor mosaics.",
+            "reason": "In Madaba; local_tourism_catalog; A must-see in Madaba; Matches photography; One visit covering the nearby monuments",
+            "matched_preferences": [
+              "In Madaba",
+              "local_tourism_catalog",
+              "A must-see in Madaba",
+              "Matches photography",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "3 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_004002"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "14:45",
+            "end_time": "15:05",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_004016",
+            "name": "Al-Faisaliyah Viewpoint",
+            "duration_minutes": 20,
+            "location": "Faisaliyah",
+            "coordinates": {
+              "latitude": 31.751389,
+              "longitude": 35.759444,
+              "precision": "exact"
+            },
+            "description": "Scenic roadside viewpoint offering uninhibited vistas across the Jordan Valley, Dead Sea, and Palestinian hills.",
+            "reason": "In Madaba; matches photography interest; Matches photography",
+            "matched_preferences": [
+              "In Madaba",
+              "matches photography interest",
+              "Matches photography"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_004016"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "15:20",
+            "end_time": "15:40",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_004039",
+            "name": "Al-Lajjun / East Madaba Desert Border Viewpoint",
+            "duration_minutes": 20,
+            "location": "Madaba",
+            "coordinates": {
+              "latitude": 31.705278,
+              "longitude": 35.848889,
+              "precision": "exact"
+            },
+            "description": "Panoramic viewpoint marking the transition between fertile grain plateau and eastern desert steppes.",
+            "reason": "In Madaba; local_tourism_catalog; Matches nature, photography",
+            "matched_preferences": [
+              "In Madaba",
+              "local_tourism_catalog",
+              "Matches nature, photography"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_004039"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "Come back to your hotel in Dead Sea to sleep."
+      }
+    ],
+    "budget": {
+      "currency": "JOD",
+      "traveler_budget": 900.0,
+      "estimated_total": "1519 JOD",
+      "band": "comfort",
+      "items": [
+        {
+          "category": "Stays",
+          "estimated_cost": "437 JOD",
+          "notes": "Lavanda Boutique Suites Tala Bay: 161 JOD × 1 night(s); Kempinski Hotel Ishtar Dead Sea: 138 JOD × 2 night(s)",
+          "confidence": "medium"
+        },
+        {
+          "category": "Meals on the plan",
+          "estimated_cost": "876 JOD",
+          "notes": "10 listed meal(s) × 4 traveler(s).",
+          "confidence": "medium"
+        },
+        {
+          "category": "Entry tickets",
+          "estimated_cost": "36 JOD",
+          "notes": "13 listed site(s) × 4 traveler(s).",
+          "confidence": "medium"
+        },
+        {
+          "category": "Trip guide",
+          "estimated_cost": "80 JOD",
+          "notes": "Listed from 80 JOD (up to 160 JOD listed)",
+          "confidence": "medium"
+        },
+        {
+          "category": "Trip operator",
+          "estimated_cost": "90 JOD",
+          "notes": "Listed from 90 JOD (up to 1600 JOD listed)",
+          "confidence": "medium"
+        },
+        {
+          "category": "Left vs your ceiling",
+          "estimated_cost": "-619 JOD",
+          "notes": "Your ceiling is 900 JOD. Listed pieces add up to 1519 JOD.",
+          "confidence": "medium"
+        }
+      ],
+      "disclaimer": "Amounts come from catalog listings. This is a planning estimate, not a final invoice. Missing prices stay unknown — we do not invent them."
+    },
+    "sme_value": {
+      "headline": "Your guide and operator for this journey",
+      "summary": "One local guide and one tour operator for the whole trip — not a new face every day.",
+      "recommended": [
+        {
+          "sme_id": "tour_guide:SME-AQ-006:aqaba",
+          "sme_type": "tour_guide",
+          "name": "Tariq Al-Momani",
+          "role": "Trip guide",
+          "location": "Aqaba",
+          "experience_type": "Adventure, Hiking, Nature",
+          "match_score": 0.726,
+          "reason": "Fits what you asked for: nature, photography",
+          "matched_because": [
+            "Fits what you asked for: nature, photography",
+            "Covers aqaba",
+            "Based in Aqaba",
+            "Works with family travelers",
+            "Speaks English"
+          ],
+          "known_for": [
+            "Professional adventure and hiking guide specializing in ridge trails, coastal treks, and outdoor excursions around the Red Sea mountains",
+            "Takes travelers to Aqaba Mountains, Wadi Aradah, Red Sea Coastal Ridges",
+            "Also offers Adventure Activities, Custom Itineraries, Private Tours",
+            "Private groups available",
+            "Can arrange transportation"
+          ],
+          "specializations": [
+            "Adventure",
+            "Hiking",
+            "Nature",
+            "Camping",
+            "Photography"
+          ],
+          "languages": [
+            "Arabic",
+            "English",
+            "Spanish"
+          ],
+          "experience_years": 10,
+          "destinations_covered": [
+            "Aqaba Mountains",
+            "Wadi Aradah",
+            "Red Sea Coastal Ridges"
+          ],
+          "covers_regions": [
+            "aqaba"
+          ],
+          "package_role": "guide",
+          "specs": [
+            {
+              "label": "Specializations",
+              "value": "Adventure, Hiking, Nature, Camping, Photography"
+            },
+            {
+              "label": "Experience",
+              "value": "10 years"
+            },
+            {
+              "label": "Languages",
+              "value": "Arabic, English, Spanish"
+            },
+            {
+              "label": "Best for",
+              "value": "Solo Travelers, Families, Couples"
+            },
+            {
+              "label": "Group size",
+              "value": "2–10"
+            },
+            {
+              "label": "From",
+              "value": "80–160 JOD"
+            },
+            {
+              "label": "Hours",
+              "value": "06:00 - 18:00"
+            },
+            {
+              "label": "Rating",
+              "value": "4.8 (27 reviews)"
+            }
+          ],
+          "source": {
+            "dataset": "sme_guides",
+            "record_id": "tour_guide:SME-AQ-006:aqaba"
+          },
+          "coordinates": {
+            "latitude": 29.532,
+            "longitude": 35.0063,
+            "precision": "city_centroid"
+          }
+        },
+        {
+          "sme_id": "tour_operator:SME-000012:amman",
+          "sme_type": "tour_operator",
+          "name": "Atlas Tours",
+          "role": "Trip operator",
+          "location": "Amman",
+          "experience_type": "History, Culture, Religious Sites",
+          "match_score": 0.765,
+          "reason": "Fits what you asked for: nature",
+          "matched_because": [
+            "Fits what you asked for: nature",
+            "Covers aqaba, dead sea, madaba",
+            "Works with family travelers",
+            "Speaks English",
+            "Transportation across the itinerary"
+          ],
+          "known_for": [
+            "Established destination management company (DMC) in Amman operating comprehensive cultural, leisure, pilgrimage, and adventure tour programs across Jordan since 1972",
+            "Takes travelers to Amman, Petra, Wadi Rum, Dead Sea",
+            "Also offers Transportation, Custom Itineraries, Private Tours",
+            "Private groups available",
+            "Can arrange transportation"
+          ],
+          "specializations": [
+            "History",
+            "Culture",
+            "Religious Sites",
+            "Adventure",
+            "Wellness",
+            "Archaeology"
+          ],
+          "languages": [
+            "English",
+            "Arabic",
+            "French",
+            "German",
+            "Spanish"
+          ],
+          "experience_years": 54,
+          "destinations_covered": [
+            "Amman",
+            "Petra",
+            "Wadi Rum",
+            "Dead Sea",
+            "Aqaba",
+            "Jerash",
+            "Madaba"
+          ],
+          "covers_regions": [
+            "aqaba",
+            "dead sea",
+            "madaba"
+          ],
+          "package_role": "operator",
+          "specs": [
+            {
+              "label": "Specializations",
+              "value": "History, Culture, Religious Sites, Adventure, Wellness, Archaeology"
+            },
+            {
+              "label": "Experience",
+              "value": "54 years"
+            },
+            {
+              "label": "Languages",
+              "value": "English, Arabic, French, German, Spanish"
+            },
+            {
+              "label": "Best for",
+              "value": "Families, Couples, Solo Travelers"
+            },
+            {
+              "label": "Group size",
+              "value": "1–50"
+            },
+            {
+              "label": "From",
+              "value": "90–1600 JOD"
+            },
+            {
+              "label": "Hours",
+              "value": "08:00-17:00"
+            },
+            {
+              "label": "Rating",
+              "value": "4.9 (210 reviews)"
+            }
+          ],
+          "source": {
+            "dataset": "sme_operators",
+            "record_id": "tour_operator:SME-000012:amman"
+          },
+          "coordinates": {
+            "latitude": 31.9454,
+            "longitude": 35.9284,
+            "precision": "city_centroid"
+          }
+        }
+      ]
+    },
+    "sources": [
+      {
+        "dataset": "hotels",
+        "record_id": "hotel_000107"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_007077"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_003018"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_007017"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_004029"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_007006"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_004014"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_007011"
+      },
+      {
+        "dataset": "hotels",
+        "record_id": "hotel_000085"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_004018"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_004021"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_004017"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_004012"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_004030"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_004014"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_004024"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_004003"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_004026"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_004002"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_004016"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_004039"
+      },
+      {
+        "dataset": "sme_guides",
+        "record_id": "tour_guide:SME-AQ-006:aqaba"
+      },
+      {
+        "dataset": "sme_operators",
+        "record_id": "tour_operator:SME-000012:amman"
+      }
+    ],
+    "warnings": [],
+    "explanations": {
+      "trip_planning_reason": "You land at 15:58, so arrival night stays in Aqaba — hotel, a meal, rest. The touring days start the next morning. After that the days stay on a short loop: Dead Sea (2 days), then Madaba. It's a hot month, so the outdoor sites go before midday.",
+      "highlights": [
+        "Pharaoh's Island Viewpoint",
+        "Dead Sea Panorama Complex (Madaba Overlook)",
+        "Wadi Zerqa Ma'in Gorge",
+        "Wadi Wala Dam",
+        "Dhiban Archaeological Site",
+        "King's Highway Madaba Segment"
+      ],
+      "why_smes": [
+        "Tariq Al-Momani: Fits what you asked for: nature, photography",
+        "Atlas Tours: Fits what you asked for: nature"
+      ],
+      "context_benefits": []
+    }
+  }
+}

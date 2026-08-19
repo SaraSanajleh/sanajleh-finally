@@ -1,0 +1,2074 @@
+[
+  {
+    "sme_id": "SME-AQ-001",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Ibrahim Al-Majali",
+      "description": "Licensed freelance marine and historical tour guide specializing in the Gulf of Aqaba coastal ecosystem, Aqaba Castle, and regional underwater heritage.",
+      "experience_years": 9,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Nature", "Beaches", "Photography", "Archaeology"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962 3 201 4589",
+      "mobile": "+962 7 9512 3456",
+      "email": "ibrahim.aqaba.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962 7 9512 3456"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "Al-Hafayer Beach Area, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Aqaba City", "Aqaba Marine Park", "Mamluk Castle", "Ayla Ruins"],
+      "preferred_destinations": "Aqaba Coastal Zone and Heritage Sites"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Custom Itineraries", "Private Tours", "Group Tours", "Cultural Experiences"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Local Guides", "Specialized Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "08:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 50,
+      "max_price": 100,
+      "notes": "Rates vary based on tour duration and marine activity coordination."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Nature", "Beach Experiences"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 34,
+      "source": "Direct Client Feedback",
+      "last_updated": "2026-06-15"
+    }
+  },
+  {
+    "sme_id": "SME-AQ-002",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Elena V. Petrova",
+      "description": "Professional multilingual tourist guide offering cultural and historical excursions across Aqaba and connections to Wadi Rum desert expeditions.",
+      "experience_years": 7,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Culture", "Desert", "Shopping"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962 3 203 7891",
+      "mobile": "+962 7 8834 5678",
+      "email": "elena.aqabaguide@outlook.com",
+      "website": null,
+      "whatsapp": "+962 7 8834 5678"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "Al-Nahdah Street, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Aqaba City Center", "Sharif Hussein bin Ali House", "Aqaba Museum", "Wadi Rum Gateway"],
+      "preferred_destinations": "Aqaba Heritage and Cultural Landmarks"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Russian"],
+      "preferred_language": "Russian"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Tour Planning & Itinerary Design", "Private Tours", "Meet & Greet / Airport Assistance"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Professional Guides", "Multilingual Guides", "Licensed Tourist Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "working_hours": "09:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 12,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 60,
+      "max_price": 120,
+      "notes": "Custom multilingual full-day rate."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 28,
+      "source": "Independent Guide Registry",
+      "last_updated": "2026-05-20"
+    }
+  },
+  {
+    "sme_id": "SME-AQ-003",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Salem Al-Zawaideh",
+      "description": "Local desert and heritage guide born and raised near the southern sector, providing deep cultural interpretations of Bedouin traditions and desert trails.",
+      "experience_years": 12,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Desert", "Hiking", "Camping", "Local Experiences", "Adventure"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": "+962 7 7765 4321",
+      "email": "salem.desert.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962 7 7765 4321"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "Disi District Border, Aqaba Governorate, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Wadi Rum Protected Area", "Aqaba Desert Outskirts", "Jabal Um Ad Dami"],
+      "preferred_destinations": "Southern Jordanian Desert and Mountains"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "German"],
+      "preferred_language": "German"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Adventure Activities", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "07:00 - 19:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 8,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 70,
+      "max_price": 150,
+      "notes": "Includes 4x4 desert tracking guidance."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Desert Experiences", "Hiking & Trekking", "Community Tourism"]
+    },
+    "reviews": {
+      "rating": 5.0,
+      "review_count": 52,
+      "source": "Traveler Testimonials",
+      "last_updated": "2026-07-01"
+    }
+  },
+  {
+    "sme_id": "SME-AQ-004",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Nour Al-Din Yaseen",
+      "description": "Licensed archaeological and historical specialist focusing on Islamic era fortifications, ancient trade routes, and coastal heritage around Aqaba.",
+      "experience_years": 8,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Archaeology", "Culture"],
+      "target_customer_types": ["Solo Travelers", "Families", "Couples"]
+    },
+    "contact": {
+      "phone": "+962 3 201 9922",
+      "mobile": "+962 7 9023 4567",
+      "email": "nour.yaseen.arch@yahoo.com",
+      "website": null,
+      "whatsapp": "+962 7 9023 4567"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "Al-Hammamat Al-Tunisiyyah Street, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Aqaba Castle", "Islamic Ayla City", "Aqaba Archaeological Museum"],
+      "preferred_destinations": "Aqaba Historical Center"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "French"],
+      "preferred_language": "French"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Special Interest Tours", "Private Tours", "Cultural Experiences"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:30 - 16:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 20,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 55,
+      "max_price": 110,
+      "notes": "Standard syndicate-aligned day rate for licensed historical guides."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 4.7,
+      "review_count": 19,
+      "source": "Direct Inquiries",
+      "last_updated": "2026-04-10"
+    }
+  },
+  {
+    "sme_id": "SME-AQ-005",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Layla Khouri",
+      "description": "Freelance culinary and cultural tour guide dedicated to exploring local Levantine and coastal seafood gastronomy, traditional markets, and artisanal crafts in Aqaba.",
+      "experience_years": 5,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Food", "Culture", "Shopping", "Local Experiences"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": "+962 7 9988 1122",
+      "email": "layla.khouri.tours@gmail.com",
+      "website": null,
+      "whatsapp": "+962 7 9988 1122"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "Downtown Aqaba Market District, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Aqaba Souq", "Al-Hafayer Corniche", "Local Seafood Markets"],
+      "preferred_destinations": "Aqaba Old Town and Markets"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Italian"],
+      "preferred_language": "Italian"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Restaurant Booking", "Special Interest Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Specialized Guides", "Local Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "10:00 - 20:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 6,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 40,
+      "max_price": 90,
+      "notes": "Includes guided food tasting stops and market navigation."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Food & Culinary", "Local Experiences", "History & Culture"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 41,
+      "source": "Food Tourism Portals",
+      "last_updated": "2026-06-28"
+    }
+  },
+  {
+    "sme_id": "SME-AQ-006",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Tariq Al-Momani",
+      "description": "Professional adventure and hiking guide specializing in ridge trails, coastal treks, and outdoor excursions around the Red Sea mountains.",
+      "experience_years": 10,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Adventure", "Hiking", "Nature", "Camping", "Photography"],
+      "target_customer_types": ["Solo Travelers", "Families", "Couples"]
+    },
+    "contact": {
+      "phone": "+962 3 205 6733",
+      "mobile": "+962 7 8111 2233",
+      "email": "tariq.adventure.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962 7 8111 2233"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "Industrial Zone Road, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Aqaba Mountains", "Wadi Aradah", "Red Sea Coastal Ridges"],
+      "preferred_destinations": "Aqaba Highland Trails and Valleys"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Spanish"],
+      "preferred_language": "Spanish"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Adventure Activities", "Custom Itineraries", "Private Tours", "Group Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Professional Guides", "Licensed Tourist Guides", "Specialized Guides"]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "06:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 10,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 80,
+      "max_price": 160,
+      "notes": "Includes trail safety gear coordination and wilderness support."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Hiking & Trekking", "Soft Adventure", "Nature"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 27,
+      "source": "Outdoor Community Feedback",
+      "last_updated": "2026-03-12"
+    }
+  },
+  {
+    "sme_id": "SME-AQ-007",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Hana S. Haddad",
+      "description": "Licensed heritage guide focusing on interfaith history, architectural evolution, and cultural landmarks throughout Aqaba and southern Jordan.",
+      "experience_years": 6,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Religious Sites", "Culture", "Archaeology"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": "+962 7 9654 7890",
+      "email": "hana.haddad.tours@outlook.com",
+      "website": null,
+      "whatsapp": "+962 7 9654 7890"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "King Hussein Street, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Church of AIA (Ayla)", "Sharif Hussein bin Ali Mosque", "Aqaba Heritage Museum"],
+      "preferred_destinations": "Aqaba Religious and Historical Sites"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Dutch"],
+      "preferred_language": "Dutch"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Religious Tours", "Cultural Experiences", "Private Tours", "Tour Planning & Itinerary Design"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
+      "working_hours": "09:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 50,
+      "max_price": 100,
+      "notes": "Standard professional guide daily rate."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Religious Tourism", "History & Culture"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 22,
+      "source": "Cultural Heritage Registry",
+      "last_updated": "2026-05-18"
+    }
+  },
+  {
+    "sme_id": "SME-AQ-008",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Ziyad Al-Faraj",
+      "description": "Independent freelance photographer and tour guide leading photo-walks capturing sunset panoramas, coastal landscapes, and vibrant street scenes in Aqaba.",
+      "experience_years": 7,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Photography", "Nature", "Beaches", "Culture"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+962 3 203 1144",
+      "mobile": "+962 7 7012 9876",
+      "email": "ziyad.photo.tours@gmail.com",
+      "website": null,
+      "whatsapp": "+962 7 7012 9876"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "Al-Ghandour Beach Promenade, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Aqaba Corniche", "South Beach Coastline", "Aqaba Fishermen Port"],
+      "preferred_destinations": "Aqaba Coastal and Scenic Spots"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "French"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Special Interest Tours", "Private Tours", "Custom Itineraries"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Specialized Guides", "Local Guides", "Professional Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "14:00 - 20:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 5,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 45,
+      "max_price": 95,
+      "notes": "Includes photography guidance and scenic viewpoint routing."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Beach Experiences", "Nature", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 31,
+      "source": "Creative Explorer Reviews",
+      "last_updated": "2026-06-05"
+    }
+  },
+  {
+    "sme_id": "SME-AQ-009",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Rami B. Masri",
+      "description": "Licensed wellness and leisure tour guide facilitating relaxation retreats, coastal wellness walks, and personalized slow-travel itineraries in Aqaba.",
+      "experience_years": 6,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Wellness", "Nature", "Beaches", "Local Experiences"],
+      "target_customer_types": ["Couples", "Solo Travelers", "Families"]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": "+962 7 9123 5566",
+      "email": "rami.wellness.aqaba@outlook.com",
+      "website": null,
+      "whatsapp": "+962 7 9123 5566"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "Tala Bay Entrance Area, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Tala Bay Coast", "Aqaba Marine Reserve Beaches", "Private Resort Zones"],
+      "preferred_destinations": "Aqaba Waterfront and Resort Coastline"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Swedish"],
+      "preferred_language": "Swedish"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Tour Planning & Itinerary Design", "Private Tours", "Travel Consulting"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "07:00 - 15:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 8,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 60,
+      "max_price": 120,
+      "notes": "Specialized wellness itinerary coordination."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Wellness", "Beach Experiences", "Luxury Experiences"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 17,
+      "source": "Wellness Retreat Logs",
+      "last_updated": "2026-07-10"
+    }
+  },
+  {
+    "sme_id": "SME-AQ-010",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Mona Al-Sharif",
+      "description": "Professional community and family-oriented tour guide focusing on interactive children-friendly historical tours, handicraft heritage markets, and local festivals in Aqaba.",
+      "experience_years": 9,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Culture", "Shopping", "Festivals", "Local Experiences", "History"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962 3 201 8899",
+      "mobile": "+962 7 8989 3344",
+      "email": "mona.sharif.tours@gmail.com",
+      "website": null,
+      "whatsapp": "+962 7 8989 3344"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "Al-Nahdah Commercial District, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Aqaba City Center", "Traditional Artisan Workshops", "Community Cultural Centers"],
+      "preferred_destinations": "Aqaba Community Spaces and Markets"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Mandarin"],
+      "preferred_language": "Mandarin"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Private Tours", "Group Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Professional Guides", "Multilingual Guides", "Local Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "09:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 50,
+      "max_price": 110,
+      "notes": "Family-friendly group rates available upon request."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Family Experiences", "Community Tourism", "History & Culture"]
+    },
+    "reviews": {
+      "rating": 5.0,
+      "review_count": 45,
+      "source": "Family Travel Directory",
+      "last_updated": "2026-06-19"
+    }
+  },
+  [
+  {
+    "sme_id": "SME-AQ-011",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Khaled Al-Atiyat",
+      "description": "Licensed archaeological guide specializing in Nabatean and Roman trade route extensions intersecting southern Jordan and the Aqaba frontier.",
+      "experience_years": 11,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Archaeology", "Culture"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962 3 201 3321",
+      "mobile": "+962 7 9445 1122",
+      "email": "khaled.atiyat.arch@gmail.com",
+      "website": null,
+      "whatsapp": "+962 7 9445 1122"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "Aqaba Heritage Village Road, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Ayla Ruins", "Aqaba Museum", "Outlying Desert Fortlets"],
+      "preferred_destinations": "Aqaba Archaeological Zones"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "German"],
+      "preferred_language": "German"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Special Interest Tours", "Private Tours", "Cultural Experiences"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Specialized Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
+      "working_hours": "08:00 - 16:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 60,
+      "max_price": 120,
+      "notes": "Standard syndicate-aligned rate for senior archaeological guides."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Archaeological Tourism", "History & Culture"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 39,
+      "source": "Historical Guide Registry",
+      "last_updated": "2026-06-10"
+    }
+  },
+  {
+    "sme_id": "SME-AQ-012",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Yasmin N. Qasim",
+      "description": "Independent freelance guide focusing on marine conservation education, eco-friendly snorkeling tours, and coastal biodiversity in Aqaba Marine Park.",
+      "experience_years": 6,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Nature", "Beaches", "Adventure", "Photography"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": "+962 7 8223 9988",
+      "email": "yasmin.marine.guide@outlook.com",
+      "website": null,
+      "whatsapp": "+962 7 8223 9988"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "South Beach Highway, Aqaba Marine Park, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Aqaba Marine Park", "Japanese Garden Dive Site", "C-130 Wreck Shoreline"],
+      "preferred_destinations": "Aqaba Protected Marine Reserves"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Japanese"],
+      "preferred_language": "Japanese"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Adventure Activities", "Private Tours", "Custom Itineraries"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Specialized Guides", "Local Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "08:30 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 6,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 55,
+      "max_price": 110,
+      "notes": "Includes snorkeling equipment coordination and marine ecosystem briefing."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Beach Experiences", "Nature", "Soft Adventure"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 47,
+      "source": "Eco-Tourism Network",
+      "last_updated": "2026-07-04"
+    }
+  },
+  {
+    "sme_id": "SME-AQ-013",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Bilal Al-Rawashdeh",
+      "description": "Professional desert safari guide and tracker offering custom off-road expeditions, stargazing sessions, and traditional Bedouin camp integration.",
+      "experience_years": 14,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Desert", "Camping", "Adventure", "Photography", "Local Experiences"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962 3 209 4411",
+      "mobile": "+962 7 7654 3322",
+      "email": "bilal.rawashdeh.desert@gmail.com",
+      "website": null,
+      "whatsapp": "+962 7 7654 3322"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "Wadi Rum Access Road Junction, Aqaba Governorate, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Wadi Rum Protected Area", "Khazali Canyon", "Lawrence Spring Outskirts"],
+      "preferred_destinations": "Southern Desert Expanse"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Italian"],
+      "preferred_language": "Italian"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Adventure Activities", "Cultural Experiences", "Private Tours", "Camping Arrangements"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "07:00 - 20:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 10,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 90,
+      "max_price": 180,
+      "notes": "Includes 4x4 vehicle usage and desert navigation."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Desert Experiences", "Soft Adventure", "Community Tourism"]
+    },
+    "reviews": {
+      "rating": 5.0,
+      "review_count": 83,
+      "source": "Desert Traveler Portal",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-AQ-014",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Nadia O. Al-Khatib",
+      "description": "Licensed cultural and urban tour guide specializing in modern Aqaba development, local folklore, traditional crafts, and women artisan cooperatives.",
+      "experience_years": 8,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Culture", "Shopping", "Local Experiences", "History"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": "+962 7 9331 4455",
+      "email": "nadia.khatib.tours@yahoo.com",
+      "website": null,
+      "whatsapp": "+962 7 9331 4455"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "Al-Saadah Street, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Aqaba Women Association Center", "Downtown Souq", "Sharif Hussein House"],
+      "preferred_destinations": "Aqaba Cultural Core"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "French"],
+      "preferred_language": "French"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "09:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 12,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 50,
+      "max_price": 100,
+      "notes": "Standard professional guide daily rate."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Community Tourism", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 25,
+      "source": "Cultural Heritage Feedback",
+      "last_updated": "2026-05-14"
+    }
+  },
+  {
+    "sme_id": "SME-AQ-015",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Zuhair M. Jaber",
+      "description": "Professional trekking and hiking guide focusing on the rugged terrain connecting Wadi Rum valleys with Aqaba mountain ranges.",
+      "experience_years": 13,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Hiking", "Adventure", "Nature", "Camping"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+962 3 201 6688",
+      "mobile": "+962 7 8776 2211",
+      "email": "zuhair.jaber.trek@gmail.com",
+      "website": null,
+      "whatsapp": "+962 7 8776 2211"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "Aqaba Highland Route, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Jabal Al-Kharrash", "Aqaba Escarpment", "Wadi Araba Border Trails"],
+      "preferred_destinations": "Southern Mountain Trails"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Spanish"],
+      "preferred_language": "Spanish"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Adventure Activities", "Custom Itineraries", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Professional Guides", "Specialized Guides", "Licensed Tourist Guides"]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "06:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 10,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 75,
+      "max_price": 150,
+      "notes": "Includes trekking navigation and safety gear support."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Hiking & Trekking", "Soft Adventure", "Nature"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 36,
+      "source": "Trekker Registry",
+      "last_updated": "2026-06-22"
+    }
+  },
+  {
+    "sme_id": "SME-AQ-016",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Randa S. Halabi",
+      "description": "Licensed multilingual guide specializing in religious pilgrimage routing, historical Christian sites, and interfaith landmarks across Aqaba and southern governorates.",
+      "experience_years": 10,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Religious Sites", "History", "Culture"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": "+962 7 9887 2233",
+      "email": "randa.halabi.pilgrim@outlook.com",
+      "website": null,
+      "whatsapp": "+962 7 9887 2233"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "Al-Furn Street, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Church of Ayla", "Aqaba Historical Mosques", "Regional Shrine Routes"],
+      "preferred_destinations": "Aqaba Religious Landmarks"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Italian"],
+      "preferred_language": "Italian"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Religious Tours", "Private Tours", "Cultural Experiences"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
+      "working_hours": "08:30 - 16:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 20,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 55,
+      "max_price": 110,
+      "notes": "Standard syndicate-aligned rate."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Religious Tourism", "History & Culture"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 30,
+      "source": "Pilgrimage Tourism Board",
+      "last_updated": "2026-05-02"
+    }
+  },
+  {
+    "sme_id": "SME-AQ-017",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Faris K. Haddad",
+      "description": "Independent freelance food and culinary tour guide exploring traditional Jordanian seafood, Bedouin barbecue techniques, and Levantine street food in Aqaba.",
+      "experience_years": 7,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Food", "Culture", "Local Experiences", "Shopping"],
+      "target_customer_types": ["Couples", "Solo Travelers", "Families"]
+    },
+    "contact": {
+      "phone": "+962 3 203 5522",
+      "mobile": "+962 7 7112 4455",
+      "email": "faris.culinary.aqaba@gmail.com",
+      "website": null,
+      "whatsapp": "+962 7 7112 4455"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "Al-Hammamat Al-Tunisiyyah, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Aqaba Fish Market", "Corniche Food Stalls", "Downtown Restros"],
+      "preferred_destinations": "Aqaba Culinary Hubs"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "French"],
+      "preferred_language": "French"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Restaurant Booking"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Specialized Guides", "Local Guides", "Professional Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "working_hours": "11:00 - 21:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 8,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 45,
+      "max_price": 95,
+      "notes": "Includes tasting tokens at partner food venues."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Food & Culinary", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 38,
+      "source": "Gastronomy Guide Network",
+      "last_updated": "2026-07-15"
+    }
+  },
+  {
+    "sme_id": "SME-AQ-018",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Sawsan T. Darwish",
+      "description": "Licensed luxury travel and VIP concierge guide providing tailored private excursions, high-end resort coordination, and exclusive shoreline tours in Aqaba and Tala Bay.",
+      "experience_years": 12,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Wellness", "Beaches", "Culture", "Shopping"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": "+962 7 9665 1199",
+      "email": "sawsan.vip.tours@outlook.com",
+      "website": null,
+      "whatsapp": "+962 7 9665 1199"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "Tala Bay Marina Promenade, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Tala Bay", "Ayla Oasis Marina", "Aqaba Luxury Resorts"],
+      "preferred_destinations": "Aqaba Premier Waterfront Resorts"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Russian"],
+      "preferred_language": "Russian"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "VIP Services", "Private Tours", "Custom Itineraries", "Hotel / Accommodation Booking"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "08:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 6,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 100,
+      "max_price": 220,
+      "notes": "Exclusive VIP concierge and guiding daily rate."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Luxury Experiences", "Wellness", "Beach Experiences"]
+    },
+    "reviews": {
+      "rating": 5.0,
+      "review_count": 29,
+      "source": "Luxury Travel Advisory",
+      "last_updated": "2026-06-30"
+    }
+  },
+  {
+    "sme_id": "SME-AQ-019",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Hamza Al-Bzoor",
+      "description": "Independent freelance photographer and adventure guide leading specialized visual expeditions across desert canyons and coastal golden-hour locations.",
+      "experience_years": 8,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Photography", "Desert", "Adventure", "Nature"],
+      "target_customer_types": ["Solo Travelers", "Couples"]
+    },
+    "contact": {
+      "phone": "+962 3 205 9911",
+      "mobile": "+962 7 8332 5566",
+      "email": "hamza.visual.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962 7 8332 5566"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "King Abdullah II Street, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Aqaba Mountain Lookouts", "Wadi Rum Panoramic Points", "South Beach Coast"],
+      "preferred_destinations": "Scenic Viewpoints of Aqaba and Rum"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "German"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Special Interest Tours", "Private Tours", "Adventure Activities"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Specialized Guides", "Local Guides", "Professional Guides"]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "13:00 - 20:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 4,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 60,
+      "max_price": 130,
+      "notes": "Includes composition tutoring and location scouting."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Desert Experiences", "Soft Adventure", "Nature"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 33,
+      "source": "Photographer Guild",
+      "last_updated": "2026-07-11"
+    }
+  },
+  {
+    "sme_id": "SME-AQ-020",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Amal E. Sweidan",
+      "description": "Licensed community-based tour guide facilitating interactive educational programs, historical walking paths, and family heritage workshops in Aqaba.",
+      "experience_years": 9,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Culture", "History", "Local Experiences", "Festivals"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": "+962 7 9001 7788",
+      "email": "amal.sweidan.tours@outlook.com",
+      "website": null,
+      "whatsapp": "+962 7 9001 7788"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "Al-Nahdah District, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Aqaba City Museum", "Local Artisan Collectives", "Heritage Squares"],
+      "preferred_destinations": "Aqaba Urban Heritage Zones"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Spanish"],
+      "preferred_language": "Spanish"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Group Tours", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Local Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "09:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 20,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 50,
+      "max_price": 100,
+      "notes": "Standard syndicate-aligned daily rate."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Community Tourism", "Family Experiences", "History & Culture"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 26,
+      "source": "Educational Tour Registry",
+      "last_updated": "2026-06-03"
+    }
+  },
+  [
+  {
+    "sme_id": "SME-AQ-021",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Mahmoud S. Al-Zyoud",
+      "description": "Licensed historical and architectural tour guide specializing in Mamluk fortifications, Ottoman heritage structures, and early Islamic urban planning in Aqaba.",
+      "experience_years": 10,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Archaeology", "Culture"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962 3 201 4477",
+      "mobile": "+962 7 9221 3344",
+      "email": "mahmoud.zyoud.arch@gmail.com",
+      "website": null,
+      "whatsapp": "+962 7 9221 3344"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "Al-Hafayer Fortress District, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Aqaba Castle", "Islamic Ayla", "Aqaba Archaeological Museum"],
+      "preferred_destinations": "Aqaba Ancient Fortifications"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "German"],
+      "preferred_language": "German"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Special Interest Tours", "Private Tours", "Cultural Experiences"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Specialized Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
+      "working_hours": "08:30 - 16:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 18,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 55,
+      "max_price": 110,
+      "notes": "Syndicate standard daily rate for certified historical guides."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Archaeological Tourism", "History & Culture"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 35,
+      "source": "Heritage Guides Union",
+      "last_updated": "2026-07-02"
+    }
+  },
+  {
+    "sme_id": "SME-AQ-022",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Dina M. Salameh",
+      "description": "Independent freelance marine interpretive guide offering customized coastal ecology walks, shore snorkeling orientations, and youth conservation tours.",
+      "experience_years": 5,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Nature", "Beaches", "Adventure", "Local Experiences"],
+      "target_customer_types": ["Families", "Solo Travelers", "Couples"]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": "+962 7 8554 1122",
+      "email": "dina.marine.Aqaba@outlook.com",
+      "website": null,
+      "whatsapp": "+962 7 8554 1122"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "South Coast Marine Reserve, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Aqaba Marine Park", "Cedar Pride Wreck Shore", "Yamanieh Coral Reef"],
+      "preferred_destinations": "Aqaba Protected Coastal Zones"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "French"],
+      "preferred_language": "French"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Adventure Activities", "Private Tours", "Custom Itineraries"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Specialized Guides", "Local Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "09:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 8,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 45,
+      "max_price": 95,
+      "notes": "Includes shore-based marine biology commentary and gear coordination."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Beach Experiences", "Nature", "Soft Adventure"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 28,
+      "source": "Eco-Coastal Network",
+      "last_updated": "2026-06-18"
+    }
+  },
+  {
+    "sme_id": "SME-AQ-023",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Awad Al-Sweiti",
+      "description": "Professional desert tracker and cultural heritage guide specializing in nomadic survival skills, night astronomy sessions, and remote wadi crossings.",
+      "experience_years": 15,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Desert", "Camping", "Adventure", "Photography", "Local Experiences"],
+      "target_customer_types": ["Couples", "Solo Travelers", "Families"]
+    },
+    "contact": {
+      "phone": "+962 3 209 8833",
+      "mobile": "+962 7 7990 5566",
+      "email": "awad.desert.tracker@gmail.com",
+      "website": null,
+      "whatsapp": "+962 7 7990 5566"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "Disi Desert Outskirts, Aqaba Governorate, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Wadi Rum Protected Reserve", "Jabal Al-Hash", "Aqaba Southern Desert Border"],
+      "preferred_destinations": "Deep Desert Wilderness"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Italian"],
+      "preferred_language": "Italian"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Adventure Activities", "Cultural Experiences", "Private Tours", "Camping Arrangements"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "06:30 - 20:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 10,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 95,
+      "max_price": 190,
+      "notes": "Includes 4x4 transport and camp guiding expertise."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Desert Experiences", "Soft Adventure", "Community Tourism"]
+    },
+    "reviews": {
+      "rating": 5.0,
+      "review_count": 94,
+      "source": "Desert Expeditions Registry",
+      "last_updated": "2026-08-05"
+    }
+  },
+  {
+    "sme_id": "SME-AQ-024",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Reem K. Maaytah",
+      "description": "Licensed cultural guide offering specialized programs on Levantine folklore, traditional artisanal weaving, and women-led heritage projects in Aqaba.",
+      "experience_years": 7,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Culture", "Shopping", "Local Experiences", "History"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": "+962 7 9118 7766",
+      "email": "reem.maaytah.tours@yahoo.com",
+      "website": null,
+      "whatsapp": "+962 7 9118 7766"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "Al-Nahdah Commercial District, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Aqaba Women Cooperative", "Traditional Markets", "Heritage Exhibition Hall"],
+      "preferred_destinations": "Aqaba Cultural Core"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Spanish"],
+      "preferred_language": "Spanish"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Local Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "09:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 50,
+      "max_price": 100,
+      "notes": "Standard syndicate-aligned daily rate."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Community Tourism", "History & Culture", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 21,
+      "source": "Local Artisan Registry",
+      "last_updated": "2026-05-29"
+    }
+  },
+  {
+    "sme_id": "SME-AQ-025",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Zaid B. Halawa",
+      "description": "Professional trekking guide specializing in rugged mountain passes, canyon descents, and ridge trails connecting Aqaba's highlands.",
+      "experience_years": 9,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Hiking", "Adventure", "Nature", "Camping"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+962 3 205 1122",
+      "mobile": "+962 7 8443 2233",
+      "email": "zaid.halawa.trek@gmail.com",
+      "website": null,
+      "whatsapp": "+962 7 8443 2233"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "Aqaba Escarpment Route, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Wadi Aradah Trails", "Aqaba Mountain Ridges", "Highland Valleys"],
+      "preferred_destinations": "Southern Highland Trails"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "German"],
+      "preferred_language": "German"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Adventure Activities", "Custom Itineraries", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Professional Guides", "Specialized Guides", "Licensed Tourist Guides"]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "06:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 10,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 70,
+      "max_price": 140,
+      "notes": "Includes safety coordination and mountain trail guidance."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Hiking & Trekking", "Soft Adventure", "Nature"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 32,
+      "source": "Mountain Explorers Club",
+      "last_updated": "2026-06-11"
+    }
+  },
+  {
+    "sme_id": "SME-AQ-026",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Mervat Q. Dabbas",
+      "description": "Licensed multilingual guide specializing in interfaith heritage tours, historical church circuits, and cultural landmarks across Aqaba and southern Jordan.",
+      "experience_years": 11,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Religious Sites", "History", "Culture"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": "+962 7 9774 5588",
+      "email": "mervat.dabbas.tours@outlook.com",
+      "website": null,
+      "whatsapp": "+962 7 9774 5588"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "Al-Hamra Street, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Ayla Church Ruins", "Historical Mosques", "Regional Shrine Routes"],
+      "preferred_destinations": "Aqaba Religious Sites"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Italian"],
+      "preferred_language": "Italian"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Religious Tours", "Private Tours", "Cultural Experiences"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
+      "working_hours": "08:30 - 16:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 20,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 55,
+      "max_price": 110,
+      "notes": "Standard syndicate-aligned rate."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Religious Tourism", "History & Culture"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 37,
+      "source": "Pilgrimage Heritage Board",
+      "last_updated": "2026-05-15"
+    }
+  },
+  {
+    "sme_id": "SME-AQ-027",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Iyad N. Shaker",
+      "description": "Independent freelance food and culinary guide leading experiential tours through Aqaba's fish markets, spice bazaars, and traditional seaside dining spots.",
+      "experience_years": 6,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Food", "Culture", "Local Experiences", "Shopping"],
+      "target_customer_types": ["Couples", "Solo Travelers", "Families"]
+    },
+    "contact": {
+      "phone": "+962 3 203 7788",
+      "mobile": "+962 7 7223 9900",
+      "email": "iyad.shaker.culinary@gmail.com",
+      "website": null,
+      "whatsapp": "+962 7 7223 9900"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "Aqaba Fish Market Plaza, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Aqaba Central Souq", "Corniche Seafood Stalls", "Artisan Cafes"],
+      "preferred_destinations": "Aqaba Market District"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "French"],
+      "preferred_language": "French"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Restaurant Booking"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Specialized Guides", "Local Guides", "Professional Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "working_hours": "11:00 - 21:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 8,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 45,
+      "max_price": 95,
+      "notes": "Includes culinary tasting stops and market navigation."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Food & Culinary", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 42,
+      "source": "Culinary Tourism Portal",
+      "last_updated": "2026-07-20"
+    }
+  },
+  {
+    "sme_id": "SME-AQ-028",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Suha H. Qudah",
+      "description": "Licensed luxury concierge and VIP tour guide offering tailored private itineraries, exclusive resort explorations, and private waterfront experiences in Aqaba.",
+      "experience_years": 10,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Wellness", "Beaches", "Culture", "Shopping"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": "+962 7 9552 4433",
+      "email": "suha.qudah.vip@outlook.com",
+      "website": null,
+      "whatsapp": "+962 7 9552 4433"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "Ayla Oasis Marina, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Ayla Oasis", "Tala Bay Waterfront", "Aqaba Luxury Resorts"],
+      "preferred_destinations": "Aqaba Premier Resort Zones"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Russian"],
+      "preferred_language": "Russian"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "VIP Services", "Private Tours", "Custom Itineraries", "Hotel / Accommodation Booking"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "08:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 6,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 100,
+      "max_price": 220,
+      "notes": "Exclusive VIP daily guiding rate."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Luxury Experiences", "Wellness", "Beach Experiences"]
+    },
+    "reviews": {
+      "rating": 5.0,
+      "review_count": 31,
+      "source": "Luxury Travel Forum",
+      "last_updated": "2026-08-02"
+    }
+  },
+  {
+    "sme_id": "SME-AQ-029",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Raed K. Abu-Zaid",
+      "description": "Independent freelance photography and adventure guide specializing in sunset coastal captures, mountain lookouts, and scenic desert light expeditions.",
+      "experience_years": 8,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Photography", "Desert", "Adventure", "Nature"],
+      "target_customer_types": ["Solo Travelers", "Couples"]
+    },
+    "contact": {
+      "phone": "+962 3 205 3344",
+      "mobile": "+962 7 8119 0011",
+      "email": "raed.abuzaid.photo@gmail.com",
+      "website": null,
+      "whatsapp": "+962 7 8119 0011"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "King Abdullah II Street, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Aqaba Ridge Viewpoints", "Wadi Rum Panoramic Points", "South Beach Coast"],
+      "preferred_destinations": "Scenic Photography Spots"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "German"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Special Interest Tours", "Private Tours", "Adventure Activities"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Specialized Guides", "Local Guides", "Professional Guides"]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "13:00 - 20:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 4,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 60,
+      "max_price": 130,
+      "notes": "Includes location scouting and composition instruction."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Desert Experiences", "Soft Adventure", "Nature"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 39,
+      "source": "Photographers Network",
+      "last_updated": "2026-07-28"
+    }
+  },
+  {
+    "sme_id": "SME-AQ-030",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Lubna T. Tarawneh",
+      "description": "Licensed community-based tour guide facilitating educational interactive programs, urban walking paths, and family heritage events in Aqaba.",
+      "experience_years": 9,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Culture", "History", "Local Experiences", "Festivals"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": "+962 7 9008 3322",
+      "email": "lubna.tarawneh.tours@outlook.com",
+      "website": null,
+      "whatsapp": "+962 7 9008 3322"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "address": "Al-Nahdah District, Aqaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Aqaba City Museum", "Artisan Workshops", "Heritage Squares"],
+      "preferred_destinations": "Aqaba Urban Heritage Zones"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Spanish"],
+      "preferred_language": "Spanish"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Group Tours", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Local Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "09:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 20,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 50,
+      "max_price": 100,
+      "notes": "Standard syndicate-aligned daily rate."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Community Tourism", "Family Experiences", "History & Culture"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 29,
+      "source": "Educational Guides Registry",
+      "last_updated": "2026-06-25"
+    }
+  }
+]]]

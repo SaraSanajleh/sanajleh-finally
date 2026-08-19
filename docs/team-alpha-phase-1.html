@@ -1,0 +1,1384 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Team Alpha — Phase 1 Plan</title>
+  <style>
+    :root {
+      --bg: #080c14;
+      --surface: #111827;
+      --surface2: #1a2336;
+      --surface3: #222d44;
+      --border: #2d3f5c;
+      --text: #f0f4fa;
+      --muted: #8ba3c7;
+      --alpha: #2dd4a8;
+      --alpha-dim: rgba(45, 212, 168, 0.12);
+      --beta: #6c9eff;
+      --phase: #f0b429;
+      --phase-dim: rgba(240, 180, 41, 0.12);
+      --llm: #c084fc;
+      --llm-dim: rgba(192, 132, 252, 0.12);
+      --ok: #4ade80;
+      --warn: #fbbf24;
+      --danger: #f87171;
+      --gradient-hero: linear-gradient(145deg, #0a1628 0%, #0f1f35 35%, #0d2820 70%, #0a1628 100%);
+      --shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: "Segoe UI", "IBM Plex Sans Arabic", Tahoma, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.8;
+      padding-bottom: 100px;
+    }
+
+    /* ── Hero ── */
+    .hero {
+      background: var(--gradient-hero);
+      padding: 64px 32px 56px;
+      text-align: center;
+      border-bottom: 1px solid var(--border);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 600px 300px at 20% 50%, rgba(45,212,168,0.08), transparent),
+        radial-gradient(ellipse 500px 250px at 80% 30%, rgba(192,132,252,0.06), transparent);
+      pointer-events: none;
+    }
+
+    .hero-content { position: relative; z-index: 1; }
+
+    .phase-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--phase-dim);
+      border: 1px solid var(--phase);
+      color: var(--phase);
+      padding: 6px 18px;
+      border-radius: 999px;
+      font-size: 0.78rem;
+      font-weight: 800;
+      letter-spacing: 0.04em;
+      margin-bottom: 20px;
+    }
+
+    .hero h1 {
+      font-size: clamp(1.8rem, 4vw, 2.6rem);
+      font-weight: 900;
+      line-height: 1.3;
+      margin-bottom: 14px;
+    }
+
+    .hero h1 .alpha { color: var(--alpha); }
+    .hero h1 .phase { color: var(--phase); }
+
+    .hero-sub {
+      color: var(--muted);
+      max-width: 720px;
+      margin: 0 auto 28px;
+      font-size: 1.02rem;
+    }
+
+    .hero-pipeline {
+      background: rgba(10, 15, 24, 0.6);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 24px 32px;
+      font-family: "Cascadia Code", Consolas, monospace;
+      font-size: 0.88rem;
+      line-height: 2.1;
+      color: #9ec5e8;
+      direction: ltr;
+      text-align: center;
+      white-space: pre;
+      max-width: 420px;
+      margin: 0 auto;
+    }
+
+    .hero-pipeline .hl { color: var(--alpha); font-weight: 700; }
+    .hero-pipeline .arr { color: var(--muted); }
+
+    .proof-chain {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0;
+      flex-wrap: wrap;
+      margin-top: 8px;
+    }
+
+    .proof-node {
+      background: var(--surface2);
+      border: 2px solid var(--border);
+      border-radius: 14px;
+      padding: 16px 22px;
+      min-width: 150px;
+      text-align: center;
+      font-weight: 700;
+      font-size: 0.88rem;
+      transition: border-color 0.2s;
+    }
+
+    .proof-node.n1 { border-color: var(--beta); color: var(--beta); }
+    .proof-node.n2 { border-color: var(--alpha); color: var(--alpha); box-shadow: 0 0 24px rgba(45,212,168,0.15); }
+    .proof-node.n3 { border-color: var(--llm); color: var(--llm); }
+
+    .proof-arrow {
+      color: var(--muted);
+      font-size: 1.4rem;
+      padding: 0 10px;
+      direction: ltr;
+    }
+
+    .proof-node small {
+      display: block;
+      color: var(--muted);
+      font-weight: 500;
+      font-size: 0.72rem;
+      margin-top: 4px;
+      direction: ltr;
+    }
+
+    /* ── Layout ── */
+    .container { max-width: 1160px; margin: 0 auto; padding: 40px 24px; }
+
+    .section { margin-bottom: 56px; }
+
+    .section-head {
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+      margin-bottom: 26px;
+      padding-bottom: 14px;
+      border-bottom: 2px solid var(--border);
+    }
+
+    .section-num {
+      flex-shrink: 0;
+      width: 40px;
+      height: 40px;
+      border-radius: 12px;
+      background: var(--alpha-dim);
+      border: 1px solid var(--alpha);
+      color: var(--alpha);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 900;
+      font-size: 1rem;
+    }
+
+    .section-head h2 { font-size: 1.5rem; font-weight: 800; }
+    .section-head .en { color: var(--muted); font-size: 0.88rem; margin-top: 2px; }
+
+    .badge {
+      display: inline-block;
+      padding: 4px 11px;
+      border-radius: 7px;
+      font-size: 0.72rem;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .badge-alpha { background: var(--alpha-dim); color: var(--alpha); border: 1px solid var(--alpha); }
+    .badge-phase { background: var(--phase-dim); color: var(--phase); border: 1px solid var(--phase); }
+    .badge-llm { background: var(--llm-dim); color: var(--llm); border: 1px solid var(--llm); }
+    .badge-beta { background: rgba(108,158,255,0.12); color: var(--beta); border: 1px solid var(--beta); }
+
+    /* ── Cards & Grids ── */
+    .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+
+    @media (max-width: 900px) {
+      .grid-2, .grid-3 { grid-template-columns: 1fr; }
+      .proof-chain { gap: 8px; }
+      .proof-arrow { padding: 4px; }
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: var(--shadow);
+    }
+
+    .card h3 { font-size: 1.05rem; margin-bottom: 10px; font-weight: 800; }
+    .card p, .card li { color: var(--muted); font-size: 0.9rem; }
+    .card ul { padding-right: 20px; margin-top: 8px; }
+
+    .card-accent-alpha { border-color: rgba(45,212,168,0.4); }
+    .card-accent-phase { border-color: rgba(240,180,41,0.4); }
+    .card-accent-llm { border-color: rgba(192,132,252,0.35); }
+
+    /* ── Insight box ── */
+    .insight {
+      background: linear-gradient(135deg, rgba(240,180,41,0.06), rgba(45,212,168,0.04));
+      border: 1px solid rgba(240,180,41,0.35);
+      border-radius: 16px;
+      padding: 26px 28px;
+      margin: 20px 0;
+    }
+
+    .insight h3 {
+      color: var(--phase);
+      font-size: 1.05rem;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .insight p { color: var(--muted); font-size: 0.92rem; }
+
+    .insight ul {
+      margin-top: 12px;
+      padding-right: 22px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .insight li { margin-bottom: 6px; }
+
+    /* ── Pipeline / Code ── */
+    .pipeline {
+      background: #0a0f18;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 28px;
+      font-family: "Cascadia Code", Consolas, monospace;
+      font-size: 0.8rem;
+      line-height: 2;
+      color: #9ec5e8;
+      overflow-x: auto;
+      white-space: pre;
+      direction: ltr;
+      text-align: left;
+    }
+
+    .pipeline .hl { color: var(--alpha); font-weight: 700; }
+    .pipeline .ph { color: var(--phase); font-weight: 700; }
+    .pipeline .ll { color: var(--llm); font-weight: 700; }
+    .pipeline .cm { color: #4a6080; }
+    .pipeline .api { color: var(--beta); font-weight: 700; }
+
+    pre.json, pre.code {
+      background: #0a0f18;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 18px;
+      font-family: "Cascadia Code", Consolas, monospace;
+      font-size: 0.78rem;
+      overflow-x: auto;
+      direction: ltr;
+      text-align: left;
+      line-height: 1.65;
+      margin: 12px 0;
+    }
+
+    pre.json { color: #79c0ff; }
+    pre.code { color: #b8d4a8; }
+
+    .json-label {
+      font-size: 0.78rem;
+      font-weight: 800;
+      margin-top: 16px;
+      margin-bottom: 6px;
+    }
+
+    .json-label.in { color: var(--beta); }
+    .json-label.out { color: var(--alpha); }
+    .json-label.prompt { color: var(--llm); }
+
+    /* ── Module cards ── */
+    .module-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+
+    @media (max-width: 800px) { .module-grid { grid-template-columns: 1fr; } }
+
+    .module-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: var(--shadow);
+    }
+
+    .module-head {
+      padding: 18px 22px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .module-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+      font-weight: 900;
+      flex-shrink: 0;
+    }
+
+    .module-icon.m1 { background: var(--alpha-dim); color: var(--alpha); border: 1px solid var(--alpha); }
+    .module-icon.m2 { background: rgba(108,158,255,0.12); color: var(--beta); border: 1px solid var(--beta); }
+    .module-icon.m3 { background: var(--alpha-dim); color: var(--alpha); border: 1px solid var(--alpha); }
+    .module-icon.m4 { background: var(--llm-dim); color: var(--llm); border: 1px solid var(--llm); }
+    .module-icon.m5 { background: var(--llm-dim); color: var(--llm); border: 1px solid var(--llm); }
+    .module-icon.m6 { background: var(--phase-dim); color: var(--phase); border: 1px solid var(--phase); }
+
+    .module-head h3 { font-size: 1rem; font-weight: 800; }
+    .module-head .file {
+      font-family: Consolas, monospace;
+      font-size: 0.75rem;
+      color: var(--muted);
+      direction: ltr;
+      text-align: right;
+    }
+
+    .module-body { padding: 20px 22px; }
+    .module-body p { color: var(--muted); font-size: 0.9rem; margin-bottom: 0; line-height: 1.7; }
+
+    .module-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+    }
+
+    @media (max-width: 800px) { .module-list { grid-template-columns: 1fr; } }
+
+    .module-simple {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 20px 22px;
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+    }
+
+    .module-simple .num {
+      flex-shrink: 0;
+      width: 32px;
+      height: 32px;
+      border-radius: 8px;
+      background: var(--alpha-dim);
+      border: 1px solid var(--alpha);
+      color: var(--alpha);
+      font-weight: 900;
+      font-size: 0.85rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .module-simple h3 {
+      font-size: 0.95rem;
+      font-weight: 800;
+      margin-bottom: 4px;
+    }
+
+    .module-simple .file {
+      font-family: Consolas, monospace;
+      font-size: 0.72rem;
+      color: var(--muted);
+      direction: ltr;
+      margin-bottom: 8px;
+    }
+
+    .module-simple p {
+      color: var(--muted);
+      font-size: 0.86rem;
+      line-height: 1.65;
+    }
+
+    .insight { direction: rtl; text-align: right; }
+    .insight ul { padding-right: 22px; padding-left: 0; }
+
+    /* ── Module details (Six Core) ── */
+    .modules-stack { display: flex; flex-direction: column; gap: 22px; }
+
+    .mod-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      direction: rtl;
+      text-align: right;
+    }
+
+    .mod-card.c1 { border-top: 3px solid var(--beta); }
+    .mod-card.c2 { border-top: 3px solid var(--alpha); }
+    .mod-card.c3 { border-top: 3px solid var(--alpha); }
+    .mod-card.c4 { border-top: 3px solid var(--llm); }
+    .mod-card.c5 { border-top: 3px solid var(--llm); }
+    .mod-card.c6 { border-top: 3px solid var(--phase); }
+
+    .mod-top {
+      padding: 20px 24px;
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+      border-bottom: 1px solid var(--border);
+      background: var(--surface2);
+    }
+
+    .mod-num {
+      flex-shrink: 0;
+      width: 36px;
+      height: 36px;
+      border-radius: 10px;
+      font-weight: 900;
+      font-size: 0.95rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .mod-num.n1 { background: rgba(108,158,255,0.15); color: var(--beta); border: 1px solid var(--beta); }
+    .mod-num.n2 { background: var(--alpha-dim); color: var(--alpha); border: 1px solid var(--alpha); }
+    .mod-num.n3 { background: var(--alpha-dim); color: var(--alpha); border: 1px solid var(--alpha); }
+    .mod-num.n4 { background: var(--llm-dim); color: var(--llm); border: 1px solid var(--llm); }
+    .mod-num.n5 { background: var(--llm-dim); color: var(--llm); border: 1px solid var(--llm); }
+    .mod-num.n6 { background: var(--phase-dim); color: var(--phase); border: 1px solid var(--phase); }
+
+    .mod-top h3 { font-size: 1.1rem; font-weight: 800; margin-bottom: 4px; }
+    .mod-file {
+      font-family: Consolas, monospace;
+      font-size: 0.78rem;
+      color: var(--muted);
+    }
+
+    .mod-body { padding: 22px 24px 24px; }
+
+    .problem-box {
+      background: rgba(240, 180, 41, 0.06);
+      border-right: 3px solid var(--phase);
+      border-radius: 0 10px 10px 0;
+      padding: 12px 16px;
+      margin-bottom: 16px;
+    }
+
+    .problem-box strong {
+      display: block;
+      color: var(--phase);
+      font-size: 0.78rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      margin-bottom: 6px;
+    }
+
+    .problem-box p { color: var(--muted); font-size: 0.9rem; line-height: 1.7; }
+
+    .mod-body > p {
+      color: var(--muted);
+      font-size: 0.9rem;
+      line-height: 1.75;
+      margin-bottom: 14px;
+    }
+
+    .mod-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 14px 0;
+    }
+
+    .mod-tag {
+      font-size: 0.72rem;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      color: var(--muted);
+    }
+
+    .mod-tag.ok { border-color: var(--ok); color: var(--ok); background: rgba(74,222,128,0.08); }
+    .mod-tag.no { border-color: var(--danger); color: #fca5a5; background: rgba(248,113,113,0.08); }
+
+    .mod-mini-flow {
+      background: #0a0f18;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px 20px;
+      font-family: Consolas, monospace;
+      font-size: 0.76rem;
+      line-height: 1.9;
+      color: #8ec8d8;
+      white-space: pre;
+      margin: 12px 0;
+    }
+
+    .mod-mini-flow .hl { color: var(--alpha); font-weight: 700; }
+    .mod-mini-flow .ll { color: var(--llm); font-weight: 700; }
+    .mod-mini-flow .api { color: var(--beta); font-weight: 700; }
+
+    .mod-body pre.json,
+    .mod-body pre.code,
+    .mod-mini-flow,
+    .final-diagram { direction: ltr; text-align: left; }
+
+    .mod-body pre.json,
+    .mod-body pre.code { margin: 12px 0 4px; font-size: 0.74rem; }
+
+    .mod-file { direction: ltr; text-align: left; }
+
+    .mod-rules {
+      margin: 12px 0;
+      padding-right: 18px;
+      color: var(--muted);
+      font-size: 0.86rem;
+    }
+
+    .mod-rules li { margin-bottom: 4px; }
+
+    .expand-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin: 12px 0;
+    }
+
+    @media (max-width: 700px) { .expand-grid { grid-template-columns: 1fr; } }
+
+    .expand-box {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 16px;
+    }
+
+    .expand-box h4 {
+      font-size: 0.78rem;
+      font-weight: 800;
+      margin-bottom: 8px;
+      color: var(--alpha);
+    }
+
+    .expand-box.future h4 { color: var(--phase); }
+
+    .expand-box ul {
+      padding-right: 16px;
+      color: var(--muted);
+      font-size: 0.82rem;
+    }
+
+    .beta-note-box {
+      background: rgba(108,158,255,0.06);
+      border: 1px solid var(--beta);
+      border-radius: 16px;
+      padding: 22px 24px;
+      margin-top: 28px;
+    }
+
+    .beta-note-box h3 { color: var(--beta); font-size: 1rem; margin-bottom: 10px; }
+    .beta-note-box p { color: var(--muted); font-size: 0.9rem; line-height: 1.75; }
+
+    .flow-steps {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin: 28px 0 20px;
+    }
+
+    @media (max-width: 800px) { .flow-steps { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 500px) { .flow-steps { grid-template-columns: 1fr; } }
+
+    .flow-step {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 14px 16px;
+      text-align: center;
+    }
+
+    .flow-step .sn {
+      font-size: 0.7rem;
+      font-weight: 800;
+      color: var(--alpha);
+      margin-bottom: 6px;
+    }
+
+    .flow-step h4 { font-size: 0.82rem; font-weight: 800; margin-bottom: 4px; }
+    .flow-step p { font-size: 0.72rem; color: var(--muted); font-family: Consolas, monospace; direction: ltr; }
+
+    .final-diagram {
+      background: #0a0f18;
+      border: 2px solid var(--alpha);
+      border-radius: 18px;
+      padding: 28px;
+      font-family: Consolas, monospace;
+      font-size: 0.78rem;
+      line-height: 1.95;
+      color: #9ec5e8;
+      white-space: pre;
+      direction: ltr;
+      text-align: center;
+      margin-top: 24px;
+      box-shadow: 0 0 48px rgba(45,212,168,0.06);
+    }
+
+    .final-diagram .hl { color: var(--alpha); font-weight: 700; }
+    .final-diagram .api { color: var(--beta); font-weight: 700; }
+    .final-diagram .ll { color: var(--llm); font-weight: 700; }
+    .final-diagram .ph { color: var(--phase); font-weight: 700; }
+    .final-diagram .bad { color: var(--danger); font-weight: 700; }
+
+    /* ── API block ── */
+    .api-block {
+      border: 2px solid var(--alpha);
+      border-radius: 18px;
+      overflow: hidden;
+      background: var(--surface);
+      box-shadow: 0 0 40px rgba(45,212,168,0.08);
+    }
+
+    .api-top {
+      background: rgba(45,212,168,0.07);
+      padding: 20px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+      border-bottom: 2px solid var(--alpha);
+    }
+
+    .method-post {
+      font-family: Consolas, monospace;
+      font-weight: 900;
+      font-size: 0.85rem;
+      background: rgba(45,212,168,0.2);
+      color: var(--alpha);
+      padding: 6px 14px;
+      border-radius: 8px;
+      direction: ltr;
+    }
+
+    .api-path {
+      font-family: Consolas, monospace;
+      font-size: 1.05rem;
+      font-weight: 800;
+      direction: ltr;
+      margin-right: 12px;
+    }
+
+    .api-body { padding: 24px; }
+
+    /* ── Deliverables ── */
+    .deliverables {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+    }
+
+    @media (max-width: 700px) { .deliverables { grid-template-columns: 1fr 1fr; } }
+
+    .deliver-item {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 18px 16px;
+      text-align: center;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+
+    .deliver-item:hover {
+      border-color: var(--alpha);
+      transform: translateY(-2px);
+    }
+
+    .deliver-check {
+      font-size: 1.5rem;
+      margin-bottom: 8px;
+      color: var(--ok);
+    }
+
+    .deliver-item h4 { font-size: 0.88rem; font-weight: 700; }
+    .deliver-item p { color: var(--muted); font-size: 0.76rem; margin-top: 4px; }
+
+    /* ── Compare ── */
+    .compare {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+    }
+
+    @media (max-width: 700px) { .compare { grid-template-columns: 1fr; } }
+
+    .compare-now {
+      border: 2px solid var(--phase);
+      border-radius: 16px;
+      padding: 22px;
+      background: var(--phase-dim);
+    }
+
+    .compare-later {
+      border: 2px solid var(--border);
+      border-radius: 16px;
+      padding: 22px;
+      background: var(--surface);
+    }
+
+    .compare-now h4 { color: var(--phase); margin-bottom: 10px; }
+    .compare-later h4 { color: var(--muted); margin-bottom: 10px; }
+    .compare ul { padding-right: 20px; color: var(--muted); font-size: 0.88rem; }
+
+    /* ── Tree ── */
+    .file-tree {
+      background: #0a0f18;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 24px 28px;
+      font-family: Consolas, monospace;
+      font-size: 0.82rem;
+      line-height: 1.9;
+      color: #8ec8a0;
+      direction: ltr;
+      text-align: left;
+      white-space: pre;
+    }
+
+    .file-tree .dir { color: var(--alpha); font-weight: 700; }
+    .file-tree .file { color: #c4d8f0; }
+    .file-tree .note { color: #5a7a9a; }
+
+    /* ── Footer nav ── */
+    .doc-nav {
+      display: flex;
+      justify-content: center;
+      gap: 14px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    .doc-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.82rem;
+      padding: 8px 16px;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      transition: all 0.2s;
+    }
+
+    .doc-nav a:hover {
+      color: var(--alpha);
+      border-color: var(--alpha);
+    }
+
+    .footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.8rem;
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+      margin-top: 12px;
+    }
+
+    th, td {
+      border: 1px solid var(--border);
+      padding: 11px 14px;
+      text-align: right;
+    }
+
+    th { background: var(--surface2); color: var(--text); }
+    td { color: var(--muted); }
+    td code { direction: ltr; display: inline-block; }
+  </style>
+</head>
+<body>
+
+<!-- ═══════════════════════ HERO ═══════════════════════ -->
+<section class="hero">
+  <div class="hero-content">
+    <div class="phase-pill">● PHASE 1 — PROTOTYPE · TEAM ALPHA</div>
+    <h1><span class="alpha">Team Alpha</span> — خطة <span class="phase">Phase 1</span></h1>
+
+    <div class="hero-pipeline"><span class="hl">Tourist Profile JSON</span>
+        <span class="arr">↓</span>
+<span class="hl">ReTour Tourism Agent</span>
+        <span class="arr">↓</span>
+<span class="hl">Tourism Package JSON</span></div>
+  </div>
+</section>
+
+<div class="container">
+
+<!-- ═══════════════════════ GOAL ═══════════════════════ -->
+<section class="section">
+  <div class="section-head">
+    <div class="section-num">◎</div>
+    <div>
+      <h2>هدف المرحلة الأولى</h2>
+      <div class="en">Phase 1 Goal — Prove the Core Loop</div>
+    </div>
+  </div>
+
+  <div class="insight">
+    <h3>💡 كيف يعمل الـ Agent بدون معلومات خارجية؟</h3>
+    <p>
+      في <strong>Phase 1</strong>، الـ LLM عنده معرفة عامة عن السياحة والأردن.
+      نعطيه ثلاثة مدخلات فقط:
+    </p>
+    <ul>
+      <li><strong>بيانات السائح</strong> — Tourist Profile JSON</li>
+      <li><strong>قواعد الباقة</strong> — budget · duration · interests</li>
+      <li><strong>شكل المخرجات</strong> — Tourism Package schema</li>
+    </ul>
+    <p style="margin-top:14px; color:var(--phase); font-weight:700;">
+      Prototype فقط — مش production. RAG و Context و SME بيجوا بالمراحل الجاية.
+    </p>
+  </div>
+
+  <div class="compare">
+    <div class="compare-now">
+      <h4>✅ Phase 1 — الآن</h4>
+      <ul>
+        <li>LLM general knowledge</li>
+        <li>Prompt engineering</li>
+        <li>Structured JSON in / out</li>
+        <li>Basic validation</li>
+        <li>API contract مع Beta</li>
+      </ul>
+    </div>
+    <div class="compare-later">
+      <h4>🔜 Phase 2+ — لاحقاً</h4>
+      <ul>
+        <li>RAG — Knowledge API (Beta)</li>
+        <li>Context API — Weather · Maps</li>
+        <li>SME Recommendations</li>
+        <li>Grounding · Hallucination control</li>
+        <li>Production-grade quality</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════ EXAMPLE ═══════════════════════ -->
+<section class="section">
+  <div class="section-head">
+    <div class="section-num">1</div>
+    <div>
+      <h2>مثال عملي — ماذا ندخل؟</h2>
+      <div class="en">Example Input — What Beta (or curl) Sends</div>
+    </div>
+  </div>
+
+  <div class="json-label in">▼ Request Body — Tourist Profile (Phase 1 Contract)</div>
+  <pre class="json">{
+  "nationality": "German",
+  "people": 4,
+  "duration": 1,
+  "interests": [
+    "archaeology",
+    "food"
+  ],
+  "budget": 300
+}</pre>
+</section>
+
+<!-- ═══════════════════════ STRUCTURE ═══════════════════════ -->
+<section class="section">
+  <div class="section-head">
+    <div class="section-num">2</div>
+    <div>
+      <h2>هيكل المشروع — Project Structure</h2>
+      <div class="en">ماذا نبني داخل الـ Brain</div>
+    </div>
+  </div>
+
+  <div class="file-tree"><span class="dir">app/</span>
+ ├── <span class="file">main.py</span>                    <span class="note"># FastAPI — نقطة الدخول</span>
+ │
+ ├── <span class="dir">agent/</span>
+ │     ├── <span class="file">tourism_agent.py</span>         <span class="note"># قلب الـ Brain</span>
+ │     ├── <span class="file">prompt_builder.py</span>        <span class="note"># توجيه الـ LLM</span>
+ │     └── <span class="file">package_schema.py</span>        <span class="note"># شكل المخرجات</span>
+ │
+ ├── <span class="dir">llm/</span>
+ │     └── <span class="file">llm_manager.py</span>           <span class="note"># Claude / GPT abstraction</span>
+ │
+ └── <span class="dir">models/</span>
+       └── <span class="file">tourist_profile.py</span>     <span class="note"># عقد الإدخال مع Beta</span></div>
+</section>
+
+<!-- ═══════════════════════ MODULES ═══════════════════════ -->
+<section class="section">
+  <div class="section-head">
+    <div class="section-num">3</div>
+    <div>
+      <h2>الوحدات الست — Six Core Modules</h2>
+      <div class="en">شرح هندسي — ما الذي يحله كل جزء وكيف يتصل بالباقي</div>
+    </div>
+  </div>
+
+  <div class="modules-stack">
+
+    <!-- 1 -->
+    <div class="mod-card c1">
+      <div class="mod-top">
+        <div class="mod-num n1">1</div>
+        <div><h3>Tourist Profile Schema</h3></div>
+      </div>
+      <div class="mod-body">
+        <p>المستخدم يعبّي الفورم: الجنسية، عدد الأشخاص، المدة، الاهتمامات، الميزانية. نعمل Model واحد — <strong>TouristProfile</strong> — يجمع هالحقول + <strong>validation</strong> قبل ما يدخل الـ Agent.</p>
+        <pre class="json">{
+  "nationality": "German",
+  "people": 4,
+  "duration": 1,
+  "interests": ["archaeology"],
+  "budget": 300
+}</pre>
+        <div class="mod-mini-flow"><span class="hl">TouristProfile JSON</span>
+        │
+        ▼
+<span class="ph">Schema + Validation</span>
+        │
+        ▼
+<span class="hl">Tourism Agent</span></div>
+        <ul class="mod-rules">
+          <li><code>people</code> لا يكون 0</li>
+          <li><code>budget</code> لا يكون سالب</li>
+          <li><code>duration</code> لازم أكبر من 0</li>
+        </ul>
+        <p style="margin-top:10px; margin-bottom:0;">الـ Agent <strong>ما لازم يتعامل مع بيانات غلط</strong> — نرفضها قبل ما توصله.</p>
+        <div class="mod-tags">
+          <span class="mod-tag no">No AI</span>
+          <span class="mod-tag no">No LLM</span>
+          <span class="mod-tag ok">Schema + Validation</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2 -->
+    <div class="mod-card c2">
+      <div class="mod-top">
+        <div class="mod-num n2">2</div>
+        <div><h3>Generate Package API</h3></div>
+      </div>
+      <div class="mod-body">
+        <p>React ما تتكلم مع الـ Agent مباشرة. <code>POST /api/v1/packages/generate</code> يستقبل الـ JSON ويمرّره عبر <strong>Agent Service</strong> — مش للـ Agent مباشرة.</p>
+        <div class="mod-mini-flow"><span class="api">React</span>
+   │
+   │  POST /api/v1/packages/generate
+   ▼
+<span class="api">FastAPI Endpoint</span>
+   │
+   ▼
+<span class="api">Agent Service</span>  ← Auth · Logging · Monitoring (لاحقاً)
+   │
+   ▼
+<span class="hl">Tourism Agent</span></div>
+        <p style="font-size:0.86rem; color:var(--muted);">Phase 1 — implementation بسيطة وكافية:</p>
+        <pre class="code">@app.post("/api/v1/packages/generate")
+def generate(profile: TouristProfile):
+    result = agent.run(profile)
+    return result</pre>
+        <div class="mod-tags">
+          <span class="mod-tag no">ما بيفكّر</span>
+          <span class="mod-tag ok">يستقبل ويمرّر</span>
+          <span class="mod-tag ok">Agent Service layer</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3 -->
+    <div class="mod-card c3">
+      <div class="mod-top">
+        <div class="mod-num n3">3</div>
+        <div><h3>Tourism Agent</h3></div>
+      </div>
+      <div class="mod-body">
+        <p>الـ Agent <strong>orchestrates the generation workflow</strong> — ما بيكتب الـ prompt بنفسه. هو ينادي المكوّنات ويفصل المسؤوليات.</p>
+        <div class="mod-mini-flow"><span class="hl">Tourism Agent</span>
+        │
+        ├── calls <span class="ph">Prompt Builder</span>
+        ├── calls <span class="ll">LLM Manager</span>
+        └── validates <span class="ph">Output</span>
+        │
+        ▼
+<span class="ph">Tourism Package JSON</span></div>
+        <div class="mod-tags">
+          <span class="mod-tag ok">Orchestrator</span>
+          <span class="mod-tag ok">Separation of concerns</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 4 -->
+    <div class="mod-card c4">
+      <div class="mod-top">
+        <div class="mod-num n4">4</div>
+        <div><h3>Prompt Builder</h3></div>
+      </div>
+      <div class="mod-body">
+        <p>يحوّل المدخلات لـ <strong>تعليمات واضحة</strong> للـ LLM. مصمّم يكون <strong>قابل للتوسع</strong> — مش مربوط بالبروفايل فقط.</p>
+        <div class="expand-grid">
+          <div class="expand-box">
+            <h4>الآن — Phase 1</h4>
+            <ul>
+              <li>Tourist Profile</li>
+              <li>Package rules</li>
+              <li>JSON output format</li>
+            </ul>
+          </div>
+          <div class="expand-box future">
+            <h4>لاحقاً — Phase 2+</h4>
+            <ul>
+              <li>Retrieved Knowledge (RAG)</li>
+              <li>Weather Context</li>
+              <li>SME Information</li>
+              <li>Decision Rules</li>
+            </ul>
+          </div>
+        </div>
+        <pre class="code">You are ReTour Tourism Agent.
+
+Create a one-day Jordan tourism package.
+
+Rules:
+- Respect budget
+- Include itinerary
+- Return JSON only
+
+Tourist:
+Nationality: German
+Interest: Archaeology
+Budget: 300</pre>
+      </div>
+    </div>
+
+    <!-- 5 -->
+    <div class="mod-card c5">
+      <div class="mod-top">
+        <div class="mod-num n5">5</div>
+        <div><h3>LLM Manager</h3></div>
+      </div>
+      <div class="mod-body">
+        <p>طبقة بين الـ Agent والموديل — Claude اليوم، GPT أو Gemini لاحقاً. مسؤول عن:</p>
+        <ul class="mod-rules">
+          <li>API connection</li>
+          <li>Model configuration</li>
+          <li>Temperature · Tokens</li>
+          <li>Error handling · Retry</li>
+        </ul>
+        <div class="mod-mini-flow"><span class="hl">Agent</span>
+   │
+   │  llm.generate(prompt)
+   ▼
+<span class="ll">LLM Manager</span>
+   │
+   ├── Claude API
+   ├── GPT API
+   └── Retry handling</div>
+        <div class="mod-tags">
+          <span class="mod-tag ok">Abstraction layer</span>
+          <span class="mod-tag ok">Swappable providers</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 6 -->
+    <div class="mod-card c6">
+      <div class="mod-top">
+        <div class="mod-num n6">6</div>
+        <div><h3>Output Schema + Validation</h3></div>
+      </div>
+      <div class="mod-body">
+        <p>الـ LLM أحياناً يرجّع JSON <strong>قريب لكن فيه مشكلة</strong>. المسار الصحيح:</p>
+        <div class="mod-mini-flow"><span class="ll">LLM Response</span>
+        │
+        ▼
+<span class="ph">JSON Parser</span>
+        │
+        ▼
+<span class="ph">Package Schema Validation</span>
+        │
+   ┌────┴────┐
+   ▼         ▼
+Valid     Invalid
+   │         │
+   ▼         ▼
+Return    Retry / Fix</div>
+        <pre class="json">{
+  "title": "Amman Heritage Tour",
+  "itinerary": [
+    { "day": 1, "place": "Roman Theatre" }
+  ],
+  "budget": 250,
+  "explanation": "Chosen for archaeological interest"
+}</pre>
+        <div class="mod-tags">
+          <span class="mod-tag ok">Parser → Validate</span>
+          <span class="mod-tag ok">Retry on invalid</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Combined flow -->
+  <h3 style="margin-top:40px; margin-bottom:8px; font-size:1.15rem;">الشكل النهائي — Final Architecture (Phase 1)</h3>
+  <p style="color:var(--muted); font-size:0.88rem; margin-bottom:16px;">بعد التعديلات — من React لحد Tourism Package JSON.</p>
+
+  <div class="flow-steps">
+    <div class="flow-step"><div class="sn">1</div><h4>React</h4><p>TouristProfile JSON</p></div>
+    <div class="flow-step"><div class="sn">2</div><h4>FastAPI</h4><p>Endpoint</p></div>
+    <div class="flow-step"><div class="sn">3</div><h4>Validation</h4><p>Profile checks</p></div>
+    <div class="flow-step"><div class="sn">4</div><h4>Agent</h4><p>Orchestrates</p></div>
+    <div class="flow-step"><div class="sn">5</div><h4>LLM</h4><p>Claude / GPT</p></div>
+    <div class="flow-step"><div class="sn">6</div><h4>Parser</h4><p>Validate → Return</p></div>
+  </div>
+
+  <div class="final-diagram"><span class="api">React</span>
+         │
+         │  TouristProfile JSON
+         ▼
+<span class="api">FastAPI Endpoint</span>
+         │
+         ▼
+<span class="ph">TouristProfile Validation</span>
+         │
+         ▼
+<span class="hl">Tourism Agent</span>
+         │
+    ─────┴─────
+    │         │
+    ▼         ▼
+<span class="ph">Prompt Builder</span>   <span class="ll">LLM Manager</span>
+                              │
+                              ▼
+                         <span class="ll">Claude / GPT</span>
+                              │
+                              ▼
+                       <span class="ph">JSON Parser</span>
+                              │
+                              ▼
+                 <span class="ph">Package Schema Validation</span>
+                              │
+              ┌───────────────┴───────────────┐
+              ▼                               ▼
+        <span class="hl">Valid JSON</span>                  <span class="bad">Invalid JSON</span>
+              │                               │
+              ▼                               ▼
+       Return Package                    Retry / Fix</div>
+
+  <div class="beta-note-box">
+    <h3>📌 ملاحظة مهمة — الاعتماد على Beta في Phase 1</h3>
+    <p>
+      هالـ Architecture <strong>ما تعتمد على Beta</strong> حالياً. الشي الوحيد المطلوب منهم:
+      الاتفاق على <strong>TouristProfile JSON Contract</strong>.
+    </p>
+    <p style="margin-top:10px;">تقولوا لـ Team Beta: "ابعثوا لنا هذا الشكل:"</p>
+    <pre class="json" style="margin-top:10px;">{
+  "nationality": "",
+  "people": 0,
+  "duration": 0,
+  "interests": [],
+  "budget": 0
+}</pre>
+    <p style="margin-top:10px; margin-bottom:0;">
+      وبعدها Alpha تقدر تبني الـ Brain كامل — حتى لو Beta لسا ما خلصوا RAG و Knowledge.
+    </p>
+  </div>
+
+</section>
+
+<!-- ═══════════════════════ API ═══════════════════════ -->
+<section class="section">
+  <div class="section-head">
+    <div class="section-num">4</div>
+    <div>
+      <h2>API Contract — Alpha يبنيها</h2>
+      <div class="en">POST /api/v1/packages/generate</div>
+    </div>
+  </div>
+
+  <div class="api-block">
+    <div class="api-top">
+      <div>
+        <span class="method-post">POST</span>
+        <span class="api-path">/api/v1/packages/generate</span>
+      </div>
+      <span class="badge badge-alpha">Owner: Team Alpha · Phase 1</span>
+    </div>
+    <div class="api-body">
+      <table>
+        <tr><th>من يستدعي؟</th><td>React UI (Team Beta) — أو curl للاختبار</td></tr>
+        <tr><th>من يبني؟</th><td>Team Alpha</td></tr>
+        <tr><th>Input</th><td><code>TouristProfile</code> JSON</td></tr>
+        <tr><th>Output</th><td><code>TourismPackage</code> JSON + metadata</td></tr>
+        <tr><th>Phase 1</th><td>بدون RAG · بدون Context · LLM فقط</td></tr>
+      </table>
+
+      <div class="json-label in">▼ Request</div>
+      <pre class="json">{
+  "nationality": "German",
+  "people": 4,
+  "duration": 1,
+  "interests": ["archaeology", "food"],
+  "budget": 300
+}</pre>
+
+      <div class="json-label out">▼ Response</div>
+      <pre class="json">{
+  "package": {
+    "title": "Amman Heritage Day",
+    "itinerary": [
+      { "time": "Morning", "activity": "Roman Theatre" },
+      { "time": "Afternoon", "activity": "Jabal Al-Qalaa" }
+    ],
+    "estimated_budget": 250,
+    "explanation": "Chosen based on archaeological interest"
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-20250514",
+    "phase": "1",
+    "retrieval_used": false,
+    "context_used": false,
+    "latency_ms": 3200
+  }
+}</pre>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════ ARCHITECTURE ═══════════════════════ -->
+<section class="section">
+  <div class="section-head">
+    <div class="section-num">5</div>
+    <div>
+      <h2>معمارية Phase 1 — التدفق الكامل</h2>
+      <div class="en">End-to-End Architecture Diagram</div>
+    </div>
+  </div>
+
+  <div class="pipeline"><span class="cm">/* Phase 1 — الشكل النهائي بعد التعديلات */</span>
+
+<span class="api">React</span>  →  TouristProfile JSON
+   │
+   ▼
+<span class="api">FastAPI Endpoint</span>
+   │
+   ▼
+<span class="ph">TouristProfile Validation</span>  (people &gt; 0 · budget ≥ 0 · duration &gt; 0)
+   │
+   ▼
+<span class="api">Agent Service</span>  →  <span class="hl">Tourism Agent</span>  (orchestrates)
+   │
+   ├──────────────┬──────────────┐
+   ▼              ▼              ▼
+<span class="ph">Prompt Builder</span>  <span class="ll">LLM Manager</span>  <span class="ph">Output flow</span>
+   │              │
+   │              ▼
+   │         <span class="ll">Claude API</span>
+   │              │
+   └──────┬───────┘
+          ▼
+   <span class="ph">JSON Parser</span>
+          │
+          ▼
+   <span class="ph">Package Schema Validation</span>
+          │
+     Valid → Return  |  Invalid → Retry/Fix
+          │
+          ▼
+<span class="hl">TourismPackage JSON</span></div>
+</section>
+
+<!-- ═══════════════════════ DELIVERABLES ═══════════════════════ -->
+<section class="section">
+  <div class="section-head">
+    <div class="section-num">6</div>
+    <div>
+      <h2>مخرجات Phase 1 — ماذا ننجز؟</h2>
+      <div class="en">Phase 1 Deliverables Checklist</div>
+    </div>
+  </div>
+
+  <div class="deliverables">
+    <div class="deliver-item">
+      <div class="deliver-check">✅</div>
+      <h4>API Contract</h4>
+      <p>POST /packages/generate + schemas</p>
+    </div>
+    <div class="deliver-item">
+      <div class="deliver-check">✅</div>
+      <h4>Agent Skeleton</h4>
+      <p>tourism_agent.py orchestration</p>
+    </div>
+    <div class="deliver-item">
+      <div class="deliver-check">✅</div>
+      <h4>Prompt Engineering</h4>
+      <p>prompt_builder.py rules</p>
+    </div>
+    <div class="deliver-item">
+      <div class="deliver-check">✅</div>
+      <h4>LLM Integration</h4>
+      <p>llm_manager.py + Claude</p>
+    </div>
+    <div class="deliver-item">
+      <div class="deliver-check">✅</div>
+      <h4>Output Schema</h4>
+      <p>package_schema.py structured JSON</p>
+    </div>
+    <div class="deliver-item">
+      <div class="deliver-check">✅</div>
+      <h4>Basic Validation</h4>
+      <p>Profile + Package · Parser · Retry</p>
+    </div>
+  </div>
+
+  <div class="card card-accent-alpha" style="margin-top:28px;">
+    <h3 style="color:var(--alpha);">تعريف النجاح في Phase 1</h3>
+    <p style="margin-top:10px;">
+      نرسل Tourist Profile JSON عبر API → Validation → Agent يولّد Tourism Package JSON منظم.
+      Alpha تقدر تكمل الـ Brain بدون انتظار RAG من Beta — العقد الوحيد المطلوب: <strong>TouristProfile JSON</strong>.
+    </p>
+  </div>
+</section>
+
+<!-- ═══════════════════════ NAV ═══════════════════════ -->
+<div class="doc-nav">
+  <a href="retour-architecture-plan.html">Architecture Plan</a>
+  <a href="retour-api-agreement.html">API Agreement</a>
+  <a href="team-alpha-phase-1.html">Phase 1 Plan</a>
+</div>
+
+<p class="footer">
+  Team Alpha Phase 1 Plan · ReTour AI Brain · Jordan Smart Tourism Pilot<br>
+  Prototype — LLM-only · No external APIs · July 2026
+</p>
+
+</div>
+</body>
+</html>

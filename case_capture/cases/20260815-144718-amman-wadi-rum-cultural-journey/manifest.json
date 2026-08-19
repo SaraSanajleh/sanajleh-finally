@@ -1,0 +1,131 @@
+{
+  "caseId": "20260815-144718-amman-wadi-rum-cultural-journey",
+  "createdAt": "2026-08-15T14:47:18.509671+00:00",
+  "trip_title": "Amman & Wadi Rum Cultural Journey",
+  "rag": {
+    "status": "ok",
+    "source": "retriever",
+    "duration_days": 3,
+    "cluster_count": 3,
+    "clusters": [
+      {
+        "cluster_id": 0,
+        "theme": "Madaba Governorate · culture",
+        "poi_count": 10,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "Madaba Art Space & Gallery",
+          "Wadi Hidan Canyon",
+          "Wadi Mujib Biosphere Reserve (Madaba Approach)",
+          "Madaba Institute for Mosaic Art and Restoration (MIMAR)",
+          "Dead Sea Panorama Complex (Madaba Overlook)",
+          "King's Highway Madaba Segment",
+          "Madaba Visitor Center",
+          "Al-Lajjun / East Madaba Desert Border Viewpoint",
+          "La Storica Mosaics (Mosaic Handicrafts Center)",
+          "Madaba Museum"
+        ],
+        "hotel_names": [
+          "Saint John Hotel",
+          "Mosaic City Hotel",
+          "Moab Land Hotel",
+          "Mount Nebo Hotel & Restaurant Madaba City Center"
+        ],
+        "sample_restaurants": [
+          "Black Iris Cafe",
+          "Al-Bustan Restaurant",
+          "Hikayet Sitti",
+          "Al-Bustan Restaurant Madaba",
+          "Haret Jdoudna",
+          "Al-Ittihad Restaurant"
+        ],
+        "event_names": [
+          "Jordan Summer Festival - Madaba",
+          "Ramadan Evenings - Madaba",
+          "National Celebrations Programme - Madaba"
+        ]
+      },
+      {
+        "cluster_id": 1,
+        "theme": "Ma'an Governorate · culture",
+        "poi_count": 10,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "Wadi Rum Visitor Center",
+          "Rum Village Bedouin Oasis",
+          "Desert Police Station & Fort (Wadi Rum)",
+          "Red Sand Dunes of Wadi Rum",
+          "French Fortress Ruins (Wadi Rum)",
+          "Maan Historic Souq",
+          "Petra Museum",
+          "Neolithic Village of Beidha",
+          "Little Petra (Siq al-Barid)",
+          "Barrah Canyon"
+        ],
+        "hotel_names": [
+          "Valentine Inn",
+          "Cleopetra Hotel",
+          "Petra Sky Hotel",
+          "Nomads Hotel Petra"
+        ],
+        "sample_restaurants": [
+          "Captain's Desert Camp Restaurant Wadi Rum",
+          "Wadi Rum Rest House Restaurant",
+          "Wadi Rum Visitor Center Rest House",
+          "Rahayeb Desert Camp Restaurant",
+          "Al-Taqwa Restaurant",
+          "Bait Al-Karam Restaurant"
+        ],
+        "event_names": [
+          "Jordan Summer Festival - Ma'an",
+          "Ma'an Cultural Days",
+          "Petra Heritage Fashion and Local Products Exhibition"
+        ]
+      },
+      {
+        "cluster_id": 2,
+        "theme": "Madaba Governorate · culture",
+        "poi_count": 8,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "Madaba Crafts Souk",
+          "Wadi Wala Dam",
+          "Wadi Zerqa Ma'in Gorge",
+          "Wadi Judeyd Megalithic Field",
+          "Bani Hamida Artisans Center",
+          "Sayyidat al-Jabal (Our Lady of the Mount) Church",
+          "Um al-Walid Archaeological Site",
+          "King Hussein Public Park Madaba"
+        ],
+        "hotel_names": [
+          "Saint John Hotel",
+          "Mosaic City Hotel",
+          "Moab Land Hotel",
+          "Mount Nebo Hotel & Restaurant Madaba City Center"
+        ],
+        "sample_restaurants": [
+          "Ayola Restaurant",
+          "Coffee Shop Adonis",
+          "Al-Bustan Restaurant",
+          "Al-Naimat Grill & Seafood",
+          "Carob House",
+          "Al-Mandi Al-Malaki"
+        ],
+        "event_names": [
+          "Jordan Summer Festival - Madaba",
+          "Ramadan Evenings - Madaba",
+          "National Celebrations Programme - Madaba"
+        ]
+      }
+    ]
+  },
+  "paths": {
+    "input": "01_input.json",
+    "knowledge": "02_retriever.json",
+    "knowledge_preview": "02_retriever_preview.json",
+    "output": "03_output.json"
+  }
+}

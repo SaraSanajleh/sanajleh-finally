@@ -1,0 +1,928 @@
+{
+  "metadata": {
+    "model": "gpt-oss:20b-cloud",
+    "provider": "ollama",
+    "mode": "build",
+    "retries": 0
+  },
+  "package": {
+    "package_id": "pkg-931e16c95797",
+    "status": "complete",
+    "welcome_message": "Land in Aqaba, then 3 exploring days through Dead Sea (3 days).",
+    "trip_title": "Dead Sea Escape",
+    "trip": {
+      "title": "Dead Sea Escape",
+      "summary": "Arrival, then Dead Sea (3 days). Walk outdoors in the morning. Keep the afternoon for shade, meals, or indoor visits.",
+      "start_date": "2026-08-20",
+      "end_date": "2026-08-23",
+      "duration_days": 4,
+      "nights": 3,
+      "regions": [
+        "Aqaba",
+        "Dead Sea"
+      ],
+      "arrival_airport": "AQJ",
+      "language": "English"
+    },
+    "traveler_profile": {
+      "group_type": "family",
+      "adults": 4,
+      "children": 0,
+      "children_ages": [],
+      "seniors": 0,
+      "total_travelers": 4,
+      "interests": [
+        "nature",
+        "food",
+        "photography"
+      ],
+      "pace": "Relaxed",
+      "activity_level": "Moderate",
+      "accessibility_needs": []
+    },
+    "planning": {
+      "strategy": "You land at 15:58, so arrival night stays in Aqaba — hotel, a meal, rest. The touring days start the next morning. After that the days stay on a short loop: Dead Sea (3 days). It's a hot month, so the outdoor sites go before midday.",
+      "constraints": {
+        "must_visit": [],
+        "places_to_avoid": []
+      },
+      "constraint_status": {
+        "status": "satisfied",
+        "unmet": []
+      },
+      "assumptions": [
+        "Travel times between cities are estimated qualitatively, not as exact minutes, unless evidence exists.",
+        "Opening hours are used only when present on the catalog record."
+      ],
+      "climate": {
+        "month": 8,
+        "season": "hot_dry_summer",
+        "typical_pattern": "High daytime heat, especially in the Jordan Valley and desert.",
+        "outdoor_guidance": "Walk outdoors in the morning. Keep the afternoon for shade, meals, or indoor visits.",
+        "heat_risk": "high"
+      },
+      "weather_status": "ok",
+      "decisions": [
+        {
+          "code": "day_route",
+          "title": "Each exploring day stays in one area",
+          "why": "Mixing far-apart cities in one day makes the trip exhausting.",
+          "effect": "After arrival, the days run Dead Sea (3 days)."
+        },
+        {
+          "code": "arrival_stay",
+          "title": "Night one is near the airport",
+          "why": "You land at AQJ at 15:58.",
+          "effect": "Sleep in Aqaba on arrival night. The exploring days start the next morning."
+        },
+        {
+          "code": "arrival_relocate",
+          "title": "You land in the south, then move north",
+          "why": "King Hussein / Aqaba is the arrival airport, but the trip is for North or Central Jordan.",
+          "effect": "Sleep in Aqaba on night one, then relocate before the main exploring days."
+        },
+        {
+          "code": "arrival_pace",
+          "title": "Settle in this evening",
+          "why": "You land at 15:58.",
+          "effect": "Food and rest first. A nearby stop only if enough evening remains, then back to the hotel."
+        },
+        {
+          "code": "hotel_move",
+          "title": "Then you move closer to the places you came for",
+          "why": "Sleeping in the same city you visit beats a long commute every morning.",
+          "effect": "After the arrival night, nearby days share one hotel. You only move when the next area is too far for a day trip."
+        },
+        {
+          "code": "heat",
+          "title": "Mornings for the outdoors",
+          "why": "High daytime heat, especially in the Jordan Valley and desert.",
+          "effect": "Walk heritage and nature in the morning. Save museums, meals, and shade for the afternoon."
+        },
+        {
+          "code": "pace",
+          "title": "A relaxed pace",
+          "why": "family group, Moderate activity.",
+          "effect": "On exploring days, plan on about 2 visits and 3 meals. Arrival follows the time left after food and rest."
+        },
+        {
+          "code": "stay_tier",
+          "title": "4 star stays",
+          "why": "You asked for 4 star hotels.",
+          "effect": "Hotels are taken from listings at that star level when the city has them. If it does not, we use the closest listed tier and say so."
+        },
+        {
+          "code": "budget",
+          "title": "A comfort budget",
+          "why": "900 JOD for 4 days.",
+          "effect": "We lean toward more comfortable stays and dining when those places exist."
+        },
+        {
+          "code": "interests",
+          "title": "Chosen around what you care about",
+          "why": "nature, food, and photography",
+          "effect": "Stops follow nature, food, and photography. Unrelated places stay off the list."
+        }
+      ]
+    },
+    "days": [
+      {
+        "day": 1,
+        "date": "2026-08-20",
+        "region": "Aqaba",
+        "theme": "Arrival in Aqaba",
+        "summary": "Afternoon/evening arrival in Aqaba: eat and rest first. Pharaoh's Island Viewpoint only if evening remains.",
+        "is_arrival_day": true,
+        "schedule": [
+          {
+            "time": "16:18",
+            "end_time": "19:18",
+            "slot": "overnight",
+            "type": "hotel",
+            "item_id": "hotel_000107",
+            "name": "Lavanda Boutique Suites Tala Bay",
+            "duration_minutes": null,
+            "location": "Aqaba",
+            "coordinates": {
+              "latitude": 29.532,
+              "longitude": 35.0063,
+              "precision": "city_centroid"
+            },
+            "description": "Small five-star boutique suite property in Block 12 of the Tala Bay development south of Aqaba, overlooking the marina, with an outdoor heated pool, a private beach area, two restaurants and a 24-hour front desk.",
+            "reason": "Check in and rest first. Add a nearby stop only if enough evening is left. 5-star stay, as requested",
+            "matched_preferences": [
+              "5-star stay, as requested",
+              "In Aqaba",
+              "Matches food, photography",
+              "5-star, as requested",
+              "Matches hotel"
+            ],
+            "estimated_cost": "161 JOD / night",
+            "source": {
+              "dataset": "hotels",
+              "record_id": "hotel_000107"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "19:18",
+            "end_time": "20:18",
+            "slot": "dinner",
+            "type": "restaurant",
+            "item_id": "restaurant_003040",
+            "name": "Ayla Golf Club Restaurant",
+            "duration_minutes": 60,
+            "location": "Aqaba",
+            "coordinates": {
+              "latitude": 29.55521,
+              "longitude": 34.98112,
+              "precision": "exact"
+            },
+            "description": "Elegant clubhouse restaurant overlooking the championship Ayla Golf Course, offering gourmet international dining.",
+            "reason": "A simple dinner if the kitchen is still open, then sleep.",
+            "matched_preferences": [
+              "In Aqaba",
+              "Matches food, photography",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "22 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_003040"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "20:33",
+            "end_time": "20:53",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_003018",
+            "name": "Pharaoh's Island Viewpoint",
+            "duration_minutes": 20,
+            "location": "Aqaba",
+            "coordinates": {
+              "latitude": 29.366667,
+              "longitude": 34.966667,
+              "precision": "exact"
+            },
+            "description": "Coastal lookout point on South Beach offering panoramic views across four nations.",
+            "reason": "Time remains after rest, so the arrival day continues nearby — not a long drive.",
+            "matched_preferences": [
+              "In Aqaba",
+              "local_tourism_catalog",
+              "A must-see in Aqaba",
+              "Matches photography"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_003018"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "",
+            "end_time": "",
+            "slot": "overnight",
+            "type": "hotel",
+            "item_id": "hotel_000107",
+            "name": "Lavanda Boutique Suites Tala Bay",
+            "duration_minutes": null,
+            "location": "Aqaba",
+            "coordinates": {
+              "latitude": 29.532,
+              "longitude": 35.0063,
+              "precision": "city_centroid"
+            },
+            "description": "Small five-star boutique suite property in Block 12 of the Tala Bay development south of Aqaba, overlooking the marina, with an outdoor heated pool, a private beach area, two restaurants and a 24-hour front desk.",
+            "reason": "Back to your arrival hotel for the night.",
+            "matched_preferences": [
+              "5-star stay, as requested",
+              "In Aqaba",
+              "Matches food, photography",
+              "5-star, as requested",
+              "Matches hotel"
+            ],
+            "estimated_cost": "161 JOD / night",
+            "source": {
+              "dataset": "hotels",
+              "record_id": "hotel_000107"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "You land at 15:58. The drive from King Hussein / Aqaba to Aqaba is about 20 minutes. Times below start after that transfer."
+      },
+      {
+        "day": 2,
+        "date": "2026-08-21",
+        "region": "Dead Sea",
+        "theme": "Dead Sea",
+        "summary": "Explore the Dead Sea's dramatic cliffs and hot springs, with lunch and dinner at scenic restaurants.",
+        "is_arrival_day": false,
+        "schedule": [
+          {
+            "time": "09:00",
+            "end_time": "10:30",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_004029",
+            "name": "Dead Sea Panorama Complex (Madaba Overlook)",
+            "duration_minutes": 90,
+            "location": "Ma'in",
+            "coordinates": {
+              "latitude": 31.646944,
+              "longitude": 35.608889,
+              "precision": "exact"
+            },
+            "description": "Perched complex on the Zara cliff edge offering panoramic Dead Sea views, walking trails, and geology museum.",
+            "reason": "In Dead Sea; local_tourism_catalog; A must-see in Dead Sea; Matches nature, photography",
+            "matched_preferences": [
+              "In Dead Sea",
+              "local_tourism_catalog",
+              "A must-see in Dead Sea",
+              "Matches nature, photography"
+            ],
+            "estimated_cost": "2 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_004029"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "12:00",
+            "end_time": "13:30",
+            "slot": "afternoon",
+            "type": "restaurant",
+            "item_id": "restaurant_007006",
+            "name": "Dead Sea Panorama Restaurant",
+            "duration_minutes": 90,
+            "location": "Dead Sea Region",
+            "coordinates": {
+              "latitude": 31.7486,
+              "longitude": 35.5862,
+              "precision": "exact"
+            },
+            "description": "Clifftop restaurant offering panoramic views over the Dead Sea rift valley and international-Arabic dining.",
+            "reason": "Lunch in the afternoon.",
+            "matched_preferences": [
+              "In Dead Sea",
+              "A must-see in Dead Sea",
+              "Matches food, photography"
+            ],
+            "estimated_cost": "22 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_007006"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "13:45",
+            "end_time": "16:45",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_004006",
+            "name": "Ma'in Hot Springs",
+            "duration_minutes": 180,
+            "location": "Ma'in",
+            "coordinates": {
+              "latitude": 31.608333,
+              "longitude": 35.610278,
+              "precision": "exact"
+            },
+            "description": "Natural mineral hot springs and waterfall oasis set in a dramatic canyon below sea level.",
+            "reason": "In Dead Sea; matches nature interest; Matches nature",
+            "matched_preferences": [
+              "In Dead Sea",
+              "matches nature interest",
+              "Matches nature"
+            ],
+            "estimated_cost": "15 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_004006"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "18:00",
+            "end_time": "19:30",
+            "slot": "evening",
+            "type": "restaurant",
+            "item_id": "restaurant_007033",
+            "name": "Dead Sea Panorama Restaurant",
+            "duration_minutes": 90,
+            "location": "Dead Sea Region",
+            "coordinates": {
+              "latitude": 31.6214,
+              "longitude": 35.5811,
+              "precision": "exact"
+            },
+            "description": "Cliffside fine-dining restaurant perched high above the Dead Sea coast, offering breathtaking sunset views and international cuisine.",
+            "reason": "Dinner in the evening.",
+            "matched_preferences": [
+              "In Dead Sea",
+              "A must-see in Dead Sea",
+              "Matches food, photography"
+            ],
+            "estimated_cost": "22 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_007033"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "",
+            "end_time": "",
+            "slot": "overnight",
+            "type": "hotel",
+            "item_id": "hotel_000085",
+            "name": "Kempinski Hotel Ishtar Dead Sea",
+            "duration_minutes": null,
+            "location": "Sweimeh",
+            "coordinates": {
+              "latitude": 31.715148,
+              "longitude": 35.58595,
+              "precision": "exact"
+            },
+            "description": "Five-star beachfront resort at Sweimeh with 345 rooms and suites set among gardens, lagoons and waterfalls, nine outdoor pools, and the Ishtar Spa with twenty treatment rooms and a large hydro-pool complex.",
+            "reason": "Overnight stay in Dead Sea. This is your hotel, not an activity. 5-star stay, as requested",
+            "matched_preferences": [
+              "5-star stay, as requested",
+              "In Dead Sea",
+              "A must-see in Dead Sea",
+              "Matches nature",
+              "5-star, as requested"
+            ],
+            "estimated_cost": "138 JOD / night",
+            "source": {
+              "dataset": "hotels",
+              "record_id": "hotel_000085"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "This evening you check in to your hotel in Dead Sea."
+      },
+      {
+        "day": 3,
+        "date": "2026-08-22",
+        "region": "Dead Sea",
+        "theme": "More time in Dead Sea",
+        "summary": "Discover the world's lowest nature reserve and a lush freshwater canyon, followed by a refined dinner.",
+        "is_arrival_day": false,
+        "schedule": [
+          {
+            "time": "08:00",
+            "end_time": "12:00",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_004010",
+            "name": "Wadi Mujib Biosphere Reserve (Madaba Approach)",
+            "duration_minutes": 240,
+            "location": "Mujib",
+            "coordinates": {
+              "latitude": 31.466944,
+              "longitude": 35.573611,
+              "precision": "exact"
+            },
+            "description": "Lowest nature reserve on Earth, featuring dramatic river canyoning and rich biodiversity.",
+            "reason": "In Dead Sea; matches nature interest; A must-see in Dead Sea; Matches nature",
+            "matched_preferences": [
+              "In Dead Sea",
+              "matches nature interest",
+              "A must-see in Dead Sea",
+              "Matches nature"
+            ],
+            "estimated_cost": "21 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_004010"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "13:00",
+            "end_time": "16:00",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_004014",
+            "name": "Wadi Zerqa Ma'in Gorge",
+            "duration_minutes": 180,
+            "location": "Ma'in",
+            "coordinates": {
+              "latitude": 31.621389,
+              "longitude": 35.655833,
+              "precision": "exact"
+            },
+            "description": "Picturesque freshwater canyon featuring lush basalt rock formations and natural stream pools.",
+            "reason": "In Dead Sea; matches nature interest; A second day to go beyond the main site; Matches nature",
+            "matched_preferences": [
+              "In Dead Sea",
+              "matches nature interest",
+              "A second day to go beyond the main site",
+              "Matches nature"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_004014"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "18:30",
+            "end_time": "20:00",
+            "slot": "evening",
+            "type": "restaurant",
+            "item_id": "restaurant_007011",
+            "name": "Il Terrazzo",
+            "duration_minutes": 90,
+            "location": "Dead Sea Region",
+            "coordinates": {
+              "latitude": 31.7148,
+              "longitude": 35.5867,
+              "precision": "exact"
+            },
+            "description": "Upscale Italian restaurant at the Mövenpick Resort Dead Sea overlooking the swimming pools and sea.",
+            "reason": "Dinner in the evening.",
+            "matched_preferences": [
+              "In Dead Sea",
+              "A must-see in Dead Sea",
+              "Matches food",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "30 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_007011"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "Stay overnight in Dead Sea."
+      },
+      {
+        "day": 4,
+        "date": "2026-08-23",
+        "region": "Dead Sea",
+        "theme": "More time in Dead Sea",
+        "summary": "Enjoy thermal springs, waterfalls, and a final canyon adventure before departure.",
+        "is_arrival_day": false,
+        "schedule": [
+          {
+            "time": "07:30",
+            "end_time": "09:00",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_008015",
+            "name": "Zarqa Ma'in Thermal Springs (Southern Access/Wadi Zarqa)",
+            "duration_minutes": 90,
+            "location": "Zarqa Ma'in",
+            "coordinates": {
+              "latitude": 31.6,
+              "longitude": 35.6,
+              "precision": "exact"
+            },
+            "description": "Natural thermal water runoff and scenic valley area flowing toward the Dead Sea basin.",
+            "reason": "In Dead Sea; local_tourism_catalog; A must-see in Dead Sea; Matches nature, photography",
+            "matched_preferences": [
+              "In Dead Sea",
+              "local_tourism_catalog",
+              "A must-see in Dead Sea",
+              "Matches nature, photography"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_008015"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "09:15",
+            "end_time": "11:15",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_007010",
+            "name": "Zarqa Ma'in Waterfalls (Balqa Border Area)",
+            "duration_minutes": 120,
+            "location": "Ma'in",
+            "coordinates": {
+              "latitude": 31.6083,
+              "longitude": 35.5872,
+              "precision": "exact"
+            },
+            "description": "Natural thermal mineral hot springs and cascading waterfalls set within a deep canyon gorge.",
+            "reason": "In Dead Sea; local_tourism_catalog; A second day to go beyond the main site; Matches nature",
+            "matched_preferences": [
+              "In Dead Sea",
+              "local_tourism_catalog",
+              "A second day to go beyond the main site",
+              "Matches nature"
+            ],
+            "estimated_cost": "15 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_007010"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "12:00",
+            "end_time": "15:00",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_008003",
+            "name": "Mujib Biosphere Reserve",
+            "duration_minutes": 180,
+            "location": "Wadi Mujib",
+            "coordinates": {
+              "latitude": 31.458333,
+              "longitude": 35.569444,
+              "precision": "exact"
+            },
+            "description": "Nature reserve featuring deep sandstone canyons and river streams.",
+            "reason": "In Dead Sea; local_tourism_catalog; A must-see in Dead Sea; Matches nature",
+            "matched_preferences": [
+              "In Dead Sea",
+              "local_tourism_catalog",
+              "A must-see in Dead Sea",
+              "Matches nature"
+            ],
+            "estimated_cost": "21 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_008003"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "Stay overnight in Dead Sea."
+      }
+    ],
+    "budget": {
+      "currency": "JOD",
+      "traveler_budget": 900.0,
+      "estimated_total": "1267 JOD",
+      "band": "comfort",
+      "items": [
+        {
+          "category": "Stays",
+          "estimated_cost": "437 JOD",
+          "notes": "Lavanda Boutique Suites Tala Bay: 161 JOD × 1 night(s); Kempinski Hotel Ishtar Dead Sea: 138 JOD × 2 night(s)",
+          "confidence": "medium"
+        },
+        {
+          "category": "Meals on the plan",
+          "estimated_cost": "384 JOD",
+          "notes": "4 listed meal(s) × 4 traveler(s).",
+          "confidence": "medium"
+        },
+        {
+          "category": "Entry tickets",
+          "estimated_cost": "296 JOD",
+          "notes": "8 listed site(s) × 4 traveler(s).",
+          "confidence": "medium"
+        },
+        {
+          "category": "Trip guide",
+          "estimated_cost": "80 JOD",
+          "notes": "Listed from 80 JOD (up to 160 JOD listed)",
+          "confidence": "medium"
+        },
+        {
+          "category": "Trip operator",
+          "estimated_cost": "70 JOD",
+          "notes": "Listed from 70 JOD (up to 500 JOD listed)",
+          "confidence": "medium"
+        },
+        {
+          "category": "Left vs your ceiling",
+          "estimated_cost": "-367 JOD",
+          "notes": "Your ceiling is 900 JOD. Listed pieces add up to 1267 JOD.",
+          "confidence": "medium"
+        }
+      ],
+      "disclaimer": "Amounts come from catalog listings. This is a planning estimate, not a final invoice. Missing prices stay unknown — we do not invent them."
+    },
+    "sme_value": {
+      "headline": "Your guide and operator for this journey",
+      "summary": "One local guide and one tour operator for the whole trip — not a new face every day.",
+      "recommended": [
+        {
+          "sme_id": "tour_guide:SME-AQ-006:aqaba",
+          "sme_type": "tour_guide",
+          "name": "Tariq Al-Momani",
+          "role": "Trip guide",
+          "location": "Aqaba",
+          "experience_type": "Adventure, Hiking, Nature",
+          "match_score": 0.753,
+          "reason": "Fits what you asked for: nature, photography",
+          "matched_because": [
+            "Fits what you asked for: nature, photography",
+            "Covers aqaba",
+            "Based in Aqaba",
+            "Works with family travelers",
+            "Speaks English"
+          ],
+          "known_for": [
+            "Professional adventure and hiking guide specializing in ridge trails, coastal treks, and outdoor excursions around the Red Sea mountains",
+            "Takes travelers to Aqaba Mountains, Wadi Aradah, Red Sea Coastal Ridges",
+            "Also offers Adventure Activities, Custom Itineraries, Private Tours",
+            "Private groups available",
+            "Can arrange transportation"
+          ],
+          "specializations": [
+            "Adventure",
+            "Hiking",
+            "Nature",
+            "Camping",
+            "Photography"
+          ],
+          "languages": [
+            "Arabic",
+            "English",
+            "Spanish"
+          ],
+          "experience_years": 10,
+          "destinations_covered": [
+            "Aqaba Mountains",
+            "Wadi Aradah",
+            "Red Sea Coastal Ridges"
+          ],
+          "covers_regions": [
+            "aqaba"
+          ],
+          "package_role": "guide",
+          "specs": [
+            {
+              "label": "Specializations",
+              "value": "Adventure, Hiking, Nature, Camping, Photography"
+            },
+            {
+              "label": "Experience",
+              "value": "10 years"
+            },
+            {
+              "label": "Languages",
+              "value": "Arabic, English, Spanish"
+            },
+            {
+              "label": "Best for",
+              "value": "Solo Travelers, Families, Couples"
+            },
+            {
+              "label": "Group size",
+              "value": "2–10"
+            },
+            {
+              "label": "From",
+              "value": "80–160 JOD"
+            },
+            {
+              "label": "Hours",
+              "value": "06:00 - 18:00"
+            },
+            {
+              "label": "Rating",
+              "value": "4.8 (27 reviews)"
+            }
+          ],
+          "source": {
+            "dataset": "sme_guides",
+            "record_id": "tour_guide:SME-AQ-006:aqaba"
+          },
+          "coordinates": {
+            "latitude": 29.532,
+            "longitude": 35.0063,
+            "precision": "city_centroid"
+          }
+        },
+        {
+          "sme_id": "tour_operator:SME-000019:aqaba",
+          "sme_type": "tour_operator",
+          "name": "Aqaba Panorama Tours",
+          "role": "Trip operator",
+          "location": "Aqaba",
+          "experience_type": "History, Culture, Nature",
+          "match_score": 0.836,
+          "reason": "Fits what you asked for: nature, photography",
+          "matched_because": [
+            "Fits what you asked for: nature, photography",
+            "Covers aqaba, dead sea",
+            "Based in Aqaba",
+            "Works with family travelers",
+            "Speaks English",
+            "Transportation across the itinerary"
+          ],
+          "known_for": [
+            "Incoming tour operator offering scenic sightseeing tours, multi-day Jordan itinerary planning, and full destination management support based in Aqaba",
+            "Takes travelers to Aqaba, Petra, Wadi Rum, Dead Sea",
+            "Also offers Transportation, Airport Transfers, Hotel / Accommodation Booking",
+            "Private groups available",
+            "Can arrange transportation"
+          ],
+          "specializations": [
+            "History",
+            "Culture",
+            "Nature",
+            "Desert"
+          ],
+          "languages": [
+            "English",
+            "Arabic",
+            "German"
+          ],
+          "experience_years": 15,
+          "destinations_covered": [
+            "Aqaba",
+            "Petra",
+            "Wadi Rum",
+            "Dead Sea",
+            "Amman"
+          ],
+          "covers_regions": [
+            "aqaba",
+            "dead sea"
+          ],
+          "package_role": "operator",
+          "specs": [
+            {
+              "label": "Specializations",
+              "value": "History, Culture, Nature, Desert"
+            },
+            {
+              "label": "Experience",
+              "value": "15 years"
+            },
+            {
+              "label": "Languages",
+              "value": "English, Arabic, German"
+            },
+            {
+              "label": "Best for",
+              "value": "Families, Couples, Solo Travelers"
+            },
+            {
+              "label": "Group size",
+              "value": "1–40"
+            },
+            {
+              "label": "From",
+              "value": "70–500 JOD"
+            },
+            {
+              "label": "Hours",
+              "value": "08:30–17:30"
+            },
+            {
+              "label": "Rating",
+              "value": "4.8 (66 reviews)"
+            }
+          ],
+          "source": {
+            "dataset": "sme_operators",
+            "record_id": "tour_operator:SME-000019:aqaba"
+          },
+          "coordinates": {
+            "latitude": 29.532,
+            "longitude": 35.0063,
+            "precision": "city_centroid"
+          }
+        }
+      ]
+    },
+    "sources": [
+      {
+        "dataset": "hotels",
+        "record_id": "hotel_000107"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_003040"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_003018"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_004029"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_007006"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_004006"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_007033"
+      },
+      {
+        "dataset": "hotels",
+        "record_id": "hotel_000085"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_004010"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_004014"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_007011"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_008015"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_007010"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_008003"
+      },
+      {
+        "dataset": "sme_guides",
+        "record_id": "tour_guide:SME-AQ-006:aqaba"
+      },
+      {
+        "dataset": "sme_operators",
+        "record_id": "tour_operator:SME-000019:aqaba"
+      }
+    ],
+    "warnings": [],
+    "explanations": {
+      "trip_planning_reason": "You land at 15:58, so arrival night stays in Aqaba — hotel, a meal, rest. The touring days start the next morning. After that the days stay on a short loop: Dead Sea (3 days). It's a hot month, so the outdoor sites go before midday.",
+      "highlights": [
+        "Pharaoh's Island Viewpoint",
+        "Dead Sea Panorama Complex (Madaba Overlook)",
+        "Ma'in Hot Springs",
+        "Wadi Mujib Biosphere Reserve (Madaba Approach)",
+        "Wadi Zerqa Ma'in Gorge",
+        "Zarqa Ma'in Thermal Springs (Southern Access/Wadi Zarqa)"
+      ],
+      "why_smes": [
+        "Tariq Al-Momani: Fits what you asked for: nature, photography",
+        "Aqaba Panorama Tours: Fits what you asked for: nature, photography"
+      ],
+      "context_benefits": []
+    }
+  }
+}

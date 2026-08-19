@@ -1,0 +1,1121 @@
+/* =========================================================
+   ReTour Wizard
+   Layout
+========================================================= */
+
+.wizard {
+
+    display: grid;
+
+    grid-template-columns: 240px 1fr;
+
+    min-height: 100vh;
+
+    background: #f8faf9;
+
+}
+
+.main {
+
+    padding: 28px 36px;
+
+    overflow-x: auto;
+
+    min-width: 0;
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+/* =========================================================
+   Sidebar
+========================================================= */
+
+.sidebar {
+
+    background: #ffffff;
+
+    border-right: 1px solid #e8ecef;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: space-between;
+
+    position: sticky;
+
+    top: 0;
+
+    height: 100vh;
+
+}
+
+.sidebarTop {
+
+    padding: 22px;
+
+}
+
+/* =========================================================
+   Logo
+========================================================= */
+
+.logoSection {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    margin-bottom: 34px;
+
+}
+
+.logoIcon {
+
+    width: 38px;
+
+    height: 38px;
+
+    border-radius: 50%;
+
+    background: #198754;
+
+    color: white;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    flex-shrink: 0;
+
+}
+
+.logoSection h5 {
+
+    margin: 0;
+
+    font-size: 1.05rem;
+
+    font-weight: 700;
+
+    color: #1f2937;
+
+}
+
+.logoSection span {
+
+    display: block;
+
+    margin-top: 2px;
+
+    font-size: .78rem;
+
+    color: #6b7280;
+
+}
+
+/* =========================================================
+   Step List
+========================================================= */
+
+.steps {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 6px;
+
+}
+
+.stepButton {
+
+    width: 100%;
+
+    border: none;
+
+    background: transparent;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    padding: 10px 12px;
+
+    border-radius: 12px;
+
+    cursor: pointer;
+
+    transition: .25s;
+
+    text-align: left;
+
+}
+
+.stepButton:hover {
+
+    background: #f4f7f6;
+
+}
+
+.stepCircle {
+
+    width: 34px;
+
+    height: 34px;
+
+    border-radius: 50%;
+
+    background: #eef2f3;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    color: #64748b;
+
+    flex-shrink: 0;
+
+}
+
+.stepButton span {
+
+    font-size: .92rem;
+
+    font-weight: 500;
+
+    color: #374151;
+
+}
+
+.activeStep {
+
+    background: #eef8f2;
+
+}
+
+.activeStep .stepCircle {
+
+    background: #198754;
+
+    color: white;
+
+}
+
+.activeStep span {
+
+    color: #198754;
+
+    font-weight: 600;
+
+}
+
+/* =========================================================
+   AI Assistant Box
+========================================================= */
+
+.aiAssistant {
+
+    margin: 22px;
+
+    padding: 18px;
+
+    border-radius: 16px;
+
+    border: 1px solid #e5e7eb;
+
+    background: #fbfbfb;
+
+}
+
+.aiHeader {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    color: #198754;
+
+    font-weight: 600;
+
+    margin-bottom: 10px;
+
+}
+
+.aiAssistant p {
+
+    margin: 0;
+
+    font-size: .82rem;
+
+    line-height: 1.7;
+
+    color: #6b7280;
+
+}
+
+/* =========================================================
+   Header
+========================================================= */
+
+.header {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: flex-start;
+
+    margin-bottom: 24px;
+
+}
+
+.headerLeft h2 {
+
+    margin: 8px 0 6px;
+
+    font-size: 2rem;
+
+    font-weight: 700;
+
+    color: #1f2937;
+
+}
+
+.headerLeft p {
+
+    margin: 0;
+
+    color: #6b7280;
+
+    font-size: .95rem;
+
+}
+
+.stepBadge {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    padding: 6px 12px;
+
+    border-radius: 999px;
+
+    background: #eef8f2;
+
+    color: #198754;
+
+    font-size: .8rem;
+
+    font-weight: 600;
+
+}
+
+.saveButton {
+
+    height: 42px;
+
+    padding: 0 18px;
+
+    border: 1px solid #d9dee3;
+
+    background: white;
+
+    border-radius: 10px;
+
+    transition: .25s;
+
+}
+
+.saveButton:hover {
+
+    border-color: #198754;
+
+    color: #198754;
+
+}
+
+/* =========================================================
+   Progress
+========================================================= */
+
+.progressContainer {
+
+    margin-bottom: 28px;
+
+}
+
+.progressInfo {
+
+    display: flex;
+
+    justify-content: flex-end;
+
+    align-items: center;
+
+    margin-bottom: 8px;
+
+    font-size: .85rem;
+
+    color: #6b7280;
+
+}
+
+.progressBar {
+
+    width: 100%;
+
+    height: 7px;
+
+    background: #e9ecef;
+
+    border-radius: 999px;
+
+    overflow: hidden;
+
+}
+
+.progressFill {
+
+    height: 100%;
+
+    background: #198754;
+
+    border-radius: 999px;
+
+    transition: width .3s ease;
+
+}
+
+/* =========================================================
+   Footer Navigation
+========================================================= */
+
+.actions {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 12px;
+
+    flex-wrap: wrap;
+
+    margin-top: 32px;
+
+    padding: 16px 0 8px;
+
+    border-top: 1px solid #e9ecef;
+
+    position: sticky;
+
+    bottom: 0;
+
+    background: #f8faf9;
+
+    z-index: 20;
+
+}
+
+.actions button {
+
+    min-width: 140px;
+
+    height: 44px;
+
+    border-radius: 10px;
+
+    font-weight: 500;
+
+    flex: 0 0 auto;
+
+    pointer-events: auto;
+
+}
+
+/* =========================================================
+   Forms
+========================================================= */
+
+.form-label {
+
+    font-weight: 600;
+
+    color: #374151;
+
+    margin-bottom: 8px;
+
+    font-size: .92rem;
+
+}
+
+.form-control,
+
+.form-select {
+
+    height: 46px;
+
+    border-radius: 10px;
+
+    border: 1px solid #d8dee3;
+
+    box-shadow: none;
+
+    font-size: .92rem;
+
+}
+
+.form-control:focus,
+
+.form-select:focus {
+
+    border-color: #198754;
+
+    box-shadow: 0 0 0 .18rem rgba(25, 135, 84, .12);
+
+}
+
+textarea.form-control {
+
+    min-height: 180px;
+
+    resize: vertical;
+
+}
+
+/* =========================================================
+   Layout Helpers
+========================================================= */
+
+.sectionTitle {
+
+    margin-bottom: 14px;
+
+    font-size: .95rem;
+
+    font-weight: 600;
+
+    color: #374151;
+
+}
+
+.rowSpacing {
+
+    margin-bottom: 24px;
+
+}
+
+/* =========================================================
+   Duration Buttons
+========================================================= */
+
+.durationButton {
+
+    min-width: 78px;
+
+    height: 46px;
+
+    border: 1px solid #d9dee3;
+
+    background: white;
+
+    border-radius: 12px;
+
+    font-weight: 500;
+
+    transition: .25s;
+
+}
+
+.durationButton:hover {
+
+    border-color: #198754;
+
+    transform: translateY(-2px);
+
+}
+
+.durationButton {
+
+    min-width: 58px;
+
+    height: 42px;
+
+    border: 1px solid #d9dee3;
+
+    background: white;
+
+    border-radius: 10px;
+
+    font-size: .9rem;
+
+    font-weight: 500;
+
+    transition: .2s;
+
+}
+
+.durationButton:hover {
+
+    border-color: #198754;
+
+    color: #198754;
+
+}
+
+.activeDuration {
+
+    background: #198754;
+
+    border-color: #198754;
+
+    color: #ffffff !important;
+
+}
+
+.activeDuration * {
+
+    color: #ffffff !important;
+
+}
+
+/* =========================================================
+   Chips
+========================================================= */
+
+.regionChip {
+
+    border: 1px solid #D9DEE3;
+
+    background: white;
+
+    padding: 10px 18px;
+
+    border-radius: 999px;
+
+    font-size: .9rem;
+
+    transition: .25s;
+
+}
+
+.regionChip:hover {
+
+    border-color: #198754;
+
+    transform: translateY(-2px);
+
+}
+
+.activeRegion {
+
+    background: #198754;
+
+    color: white;
+
+    border-color: #198754;
+
+    box-shadow: 0 8px 20px rgba(25, 135, 84, .15);
+
+}
+
+/* =========================================================
+   AI Priority
+========================================================= */
+
+.priorityOption {
+
+    width: 100%;
+
+    padding: 18px;
+
+    border: 1px solid #d9dee3;
+
+    border-radius: 12px;
+
+    background: white;
+
+    text-align: left;
+
+    transition: .2s;
+
+}
+
+.priorityOption:hover {
+
+    border-color: #198754;
+
+    transform: translateY(-2px);
+
+}
+
+.priorityOption h6 {
+
+    margin-bottom: 6px;
+
+    font-weight: 600;
+
+    color: #1f2937;
+
+}
+
+.priorityOption small {
+
+    color: #6b7280;
+
+    font-size: .82rem;
+
+}
+
+.priorityActive {
+
+    background: #eef8f2;
+
+    border-color: #198754;
+
+}
+
+/* =========================================================
+   Review
+========================================================= */
+
+.summaryBox {
+
+    background: white;
+
+    border: 1px solid #e5e7eb;
+
+    border-radius: 14px;
+
+    padding: 20px;
+
+}
+
+.summaryBox h5 {
+
+    margin-bottom: 16px;
+
+    font-size: 1rem;
+
+    font-weight: 600;
+
+    color: #1f2937;
+
+}
+
+.summaryBox p {
+
+    margin-bottom: 10px;
+
+    color: #4b5563;
+
+    font-size: .9rem;
+
+}
+
+.summaryBox strong {
+
+    color: #1f2937;
+
+}
+
+.jsonPanel {
+
+    margin-top: 28px;
+
+    background: white;
+
+    border: 1px solid #e5e7eb;
+
+    border-radius: 14px;
+
+    padding: 20px;
+
+    width: 100%;
+
+}
+
+.jsonPanel h5 {
+
+    margin-bottom: 12px;
+
+    font-size: 1rem;
+
+    font-weight: 700;
+
+    color: #1f2937;
+
+}
+
+.jsonError {
+
+    color: #dc3545;
+
+    margin-bottom: 12px;
+
+    font-size: .9rem;
+
+}
+
+.jsonOutput {
+
+    margin: 0;
+
+    padding: 20px;
+
+    background: #0f172a;
+
+    color: #e2e8f0;
+
+    border-radius: 10px;
+
+    overflow: auto;
+
+    font-size: .85rem;
+
+    line-height: 1.55;
+
+    min-height: 420px;
+
+    max-height: min(75vh, 960px);
+
+    width: 100%;
+
+    white-space: pre;
+
+}
+
+.brainStatus {
+
+    margin-top: 20px;
+
+    padding: 12px 16px;
+
+    border-radius: 10px;
+
+    background: #f8fafc;
+
+    border: 1px solid #e5e7eb;
+
+    font-size: .88rem;
+
+}
+
+.brainOk { color: #198754; font-weight: 600; }
+
+.brainWarn { color: #b45309; font-weight: 600; }
+
+.brainError { color: #dc3545; font-weight: 600; }
+
+/* =========================================================
+   Bootstrap Overrides
+========================================================= */
+
+.btn {
+
+    border-radius: 10px;
+
+}
+
+.card {
+
+    border-radius: 14px !important;
+
+}
+
+/* =========================================================
+   Responsive
+========================================================= */
+
+@media (max-width: 992px) {
+
+    .wizard {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .sidebar {
+
+        display: none;
+
+    }
+
+    .main {
+
+        padding: 20px;
+
+    }
+
+    .header {
+
+        flex-direction: column;
+
+        gap: 18px;
+
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .actions {
+
+        flex-direction: column-reverse;
+
+        gap: 12px;
+
+    }
+
+    .actions button {
+
+        width: 100%;
+
+    }
+
+    .durationButtons {
+
+        gap: 12px;
+
+    }
+
+    .durationButton {
+
+        flex: 1;
+
+        min-width: 70px;
+
+    }
+
+    .regionChip {
+
+        font-size: .82rem;
+
+        padding: 7px 14px;
+
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .main {
+
+        padding: 16px;
+
+    }
+
+    .headerLeft h2 {
+
+        font-size: 1.6rem;
+
+    }
+
+}
+
+.actions {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 12px;
+
+    flex-wrap: wrap;
+
+    margin-top: auto;
+
+    padding-top: 24px;
+
+    border-top: 1px solid #e9ecef;
+
+    position: sticky;
+
+    bottom: 0;
+
+    background: #f8faf9;
+
+    z-index: 5;
+
+}
+
+.form-label {
+
+    font-weight: 600;
+
+    color: #1F2937;
+
+    display: flex;
+
+    align-items: center;
+
+    margin-bottom: 8px;
+
+}
+
+.form-label i {
+
+    font-size: 1rem;
+
+}
+
+.fieldHint {
+
+    font-size: .82rem;
+
+    color: #6B7280;
+
+    margin-top: -2px;
+
+    margin-bottom: 10px;
+
+}
+
+.form-control {
+
+    border-radius: 12px;
+
+    min-height: 48px;
+
+}
+
+.form-control:focus {
+
+    border-color: #198754;
+
+    box-shadow: 0 0 0 .15rem rgba(25, 135, 84, .12);
+
+}
+
+.form-select {
+
+    border-radius: 12px;
+
+    min-height: 48px;
+
+}
+
+.form-select:focus {
+
+    border-color: #198754;
+
+    box-shadow: 0 0 0 .15rem rgba(25, 135, 84, .12);
+
+}
+
+.durationButtons {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 12px;
+}
+
+.backHomeLink {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    margin: 8px 0 20px;
+
+    color: #6B7280;
+
+    text-decoration: none;
+
+    font-size: .9rem;
+
+    font-weight: 500;
+
+    transition: .2s;
+
+}
+
+.backHomeLink:hover {
+
+    color: #198754;
+
+}
+
+.backHomeLink i {
+
+    font-size: 1rem;
+
+}
+
+.backHomeLink {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 14px;
+
+    margin: 6px 0 20px;
+
+    text-decoration: none;
+
+    color: #4B5563;
+
+    font-weight: 500;
+
+    transition: .25s;
+
+}
+
+.backHomeCircle {
+
+    width: 36px;
+
+    height: 36px;
+
+    border-radius: 50%;
+
+    background: #F1F5F9;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    color: #64748B;
+
+    transition: .25s;
+
+}
+
+.backHomeLink:hover {
+
+    color: #198754;
+
+}
+
+.backHomeLink:hover .backHomeCircle {
+
+    background: #198754;
+
+    color: white;
+
+}

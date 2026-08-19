@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Team Alpha — تقرير الإنجاز (Phase 1)</title>
+  <style>
+    :root {
+      --bg: #0b1020;
+      --surface: #151d30;
+      --surface2: #1c2740;
+      --border: #2a3a58;
+      --text: #edf2f8;
+      --muted: #8da4c4;
+      --alpha: #2dd4a8;
+      --beta: #6c9eff;
+      --phase: #f0b429;
+      --ok: #4ade80;
+      --warn: #fbbf24;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: "Segoe UI", "IBM Plex Sans Arabic", Tahoma, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.75;
+      font-size: 0.92rem;
+    }
+
+    @media print {
+      body { background: #fff; color: #111; font-size: 10pt; }
+      .hero { background: #f4f6fa !important; border-bottom: 2px solid #ccc; }
+      .hero h1, .section h2, .stat-num { color: #0d5c45 !important; }
+      .card, .phase-box, table { break-inside: avoid; }
+      .no-print { display: none; }
+      .page-break { page-break-before: always; }
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #0f2a4a 0%, #0d2d28 100%);
+      padding: 36px 40px 32px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .hero-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+
+    .pill {
+      padding: 4px 12px;
+      border-radius: 999px;
+      font-size: 0.72rem;
+      font-weight: 800;
+      border: 1px solid;
+    }
+
+    .pill-alpha { color: var(--alpha); border-color: var(--alpha); background: rgba(45,212,168,0.1); }
+    .pill-phase { color: var(--phase); border-color: var(--phase); background: rgba(240,180,41,0.1); }
+
+    .hero h1 { font-size: 1.85rem; font-weight: 900; margin-bottom: 8px; }
+    .hero h1 span { color: var(--alpha); }
+    .hero-sub { color: var(--muted); max-width: 900px; }
+
+    .container { max-width: 980px; margin: 0 auto; padding: 28px 32px 48px; }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin-bottom: 28px;
+    }
+
+    .stat {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px;
+      text-align: center;
+    }
+
+    .stat-num { font-size: 1.6rem; font-weight: 900; color: var(--alpha); }
+    .stat-label { font-size: 0.78rem; color: var(--muted); margin-top: 4px; }
+
+    .section { margin-bottom: 26px; }
+
+    .section-head {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 14px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid var(--border);
+    }
+
+    .section-num {
+      width: 32px; height: 32px;
+      border-radius: 8px;
+      background: rgba(45,212,168,0.15);
+      color: var(--alpha);
+      border: 1px solid var(--alpha);
+      display: flex; align-items: center; justify-content: center;
+      font-weight: 800; font-size: 0.85rem;
+    }
+
+    .section h2 { font-size: 1.15rem; }
+    .section .en { font-size: 0.78rem; color: var(--muted); }
+
+    .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+
+    @media (max-width: 760px) {
+      .stats, .grid-2, .grid-3 { grid-template-columns: 1fr; }
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px 18px;
+    }
+
+    .card h3 { font-size: 0.95rem; margin-bottom: 8px; color: var(--alpha); }
+    .card p, .card li { color: var(--muted); font-size: 0.88rem; }
+    .card ul { padding-right: 18px; margin-top: 6px; }
+    .card li { margin-bottom: 4px; }
+
+    .phase-box {
+      border-radius: 12px;
+      padding: 14px 16px;
+      border: 1px solid var(--border);
+      background: var(--surface2);
+    }
+
+    .phase-box.done { border-color: var(--ok); }
+    .phase-box.next { border-color: var(--beta); opacity: 0.85; }
+    .phase-box.future { border-color: var(--border); opacity: 0.7; }
+
+    .phase-box h4 { font-size: 0.9rem; margin-bottom: 6px; }
+    .phase-box.done h4 { color: var(--ok); }
+    .phase-box.next h4 { color: var(--beta); }
+    .phase-box.future h4 { color: var(--muted); }
+
+    .pipeline {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px 20px;
+      font-family: Consolas, monospace;
+      font-size: 0.82rem;
+      direction: ltr;
+      text-align: center;
+      line-height: 1.9;
+      color: #9ec5e8;
+      margin: 12px 0;
+    }
+
+    .pipeline .a { color: var(--alpha); font-weight: 700; }
+    .pipeline .b { color: var(--beta); font-weight: 700; }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.84rem;
+      margin-top: 8px;
+    }
+
+    th, td {
+      border: 1px solid var(--border);
+      padding: 9px 12px;
+      text-align: right;
+    }
+
+    th { background: var(--surface2); color: var(--text); width: 32%; }
+    td { color: var(--muted); }
+
+    .highlight {
+      background: rgba(45,212,168,0.08);
+      border: 1px solid var(--alpha);
+      border-radius: 12px;
+      padding: 14px 18px;
+      margin-top: 12px;
+    }
+
+    .highlight p { color: var(--muted); font-size: 0.88rem; }
+
+    .footer {
+      margin-top: 24px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.78rem;
+      text-align: center;
+    }
+
+    .links { margin-top: 12px; }
+    .links a { color: var(--beta); text-decoration: none; margin-left: 14px; font-size: 0.82rem; }
+  </style>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-meta">
+    <span class="pill pill-alpha">TEAM ALPHA — AI BRAIN</span>
+    <span class="pill pill-phase">PHASE 1 COMPLETE</span>
+    <span class="pill pill-phase">JULY 2026</span>
+  </div>
+  <h1>تقرير إنجاز <span>Team Alpha</span></h1>
+  <p class="hero-sub">
+    ملخص مفصّل لعمل فريق Alpha في مشروع ReTour — منصة السياحة الذكية في الأردن.
+    يركّز التقرير على ما أنجزناه في Phase 1، دورنا ضمن الرؤية الكاملة،
+    وكيف يتكامل شغلنا مع Team Beta حتى هذه اللحظة.
+  </p>
+</section>
+
+<div class="container">
+
+  <!-- PAGE 1 -->
+  <div class="stats">
+    <div class="stat"><div class="stat-num">25</div><div class="stat-label">Unit Tests — كلها ناجحة</div></div>
+    <div class="stat"><div class="stat-num">1</div><div class="stat-label">Package Builder Agent</div></div>
+    <div class="stat"><div class="stat-num">5</div><div class="stat-label">ملفات Prompt Library</div></div>
+    <div class="stat"><div class="stat-num">1</div><div class="stat-label">Production API Endpoint</div></div>
+  </div>
+
+  <section class="section">
+    <div class="section-head">
+      <div class="section-num">1</div>
+      <div>
+        <h2>خارطة المراحل (Phases)</h2>
+        <div class="en">Where we are · What comes next</div>
+      </div>
+    </div>
+    <div class="grid-3">
+      <div class="phase-box done">
+        <h4>Phase 1 — Prototype ✅ (منجز)</h4>
+        <ul style="color:var(--muted); font-size:0.84rem; padding-right:16px;">
+          <li>إثبات الحلقة: Input JSON → Agent → Output JSON</li>
+          <li>LLM general knowledge (بدون RAG)</li>
+          <li>API production-ready foundation</li>
+          <li>ربط أولي مع واجهة Beta Wizard</li>
+        </ul>
+      </div>
+      <div class="phase-box next">
+        <h4>Phase 2 — Knowledge Integration</h4>
+        <ul style="color:var(--muted); font-size:0.84rem; padding-right:16px;">
+          <li>استهلاك Knowledge API من Beta</li>
+          <li>حقن نتائج ChromaDB في الـ prompt</li>
+          <li>تقليل hallucination</li>
+          <li>ربط attractions · hotels · restaurants حقيقية</li>
+        </ul>
+      </div>
+      <div class="phase-box future">
+        <h4>Phase 3+ — Full Intelligence</h4>
+        <ul style="color:var(--muted); font-size:0.84rem; padding-right:16px;">
+          <li>Context API (طقس · مواصلات · أوقات)</li>
+          <li>SME matching + guide recommendations</li>
+          <li>Multi-agent (اختياري)</li>
+          <li>Production hardening + monitoring</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <div class="section-num">2</div>
+      <div>
+        <h2>ما أنجزناه في Phase 1 — بالتفصيل</h2>
+        <div class="en">Deliverables shipped to date</div>
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <div class="card">
+        <h3>🏗️ Backend Architecture</h3>
+        <ul>
+          <li><strong>FastAPI</strong> — طبقة API نظيفة بدون business logic</li>
+          <li><strong>Package Service</strong> — orchestration بين validation والـ agent</li>
+          <li><strong>Package Builder Agent</strong> — بناء prompt، استدعاء LLM، parse، retry</li>
+          <li><strong>LLM Manager</strong> — abstraction فوق providers</li>
+          <li><strong>Ollama Provider</strong> — qwen3:14b (configurable من llm.yaml)</li>
+          <li><strong>Extension interfaces</strong> — Knowledge · Context · SME · Agent (stubs للمستقبل)</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>📋 Schemas & Validation</h3>
+        <ul>
+          <li><code>PackageRequest</code> — 7 أقسام (trip · travelers · preferences · accommodation · dining · extras)</li>
+          <li><code>TourismPackage</code> — daily plan · hotels · restaurants · costs · tips · confidence</li>
+          <li>Pydantic enums لكل خيارات الـ Wizard</li>
+          <li>Business rules: budget · travelers count · children ages</li>
+          <li>JSON parser + response validator + retry on invalid LLM output</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>🧠 Prompt Library</h3>
+        <ul>
+          <li><code>01_role.md</code> — دور ReTour AI Brain</li>
+          <li><code>02_output_rules.md</code> — قواعد JSON صارمة</li>
+          <li><code>03_schema.md</code> — شكل المخرجات</li>
+          <li><code>04_quality_guidelines.md</code> — جودة التخطيط</li>
+          <li><code>05_request.md</code> — حقن بيانات الطلب</li>
+          <li><strong>PromptService</strong> — تجميع ديناميكي للـ sections</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>🔌 API & Integration</h3>
+        <ul>
+          <li><code>POST /api/v1/packages/generate</code> — توليد الباقة</li>
+          <li><code>GET /api/v1/health</code> — health check</li>
+          <li>CORS مفعّل للفرونت</li>
+          <li>Exception handlers موحّدة (422 · 502 · 504)</li>
+          <li>ربط Team Beta Wizard → API + payload mapping layer</li>
+          <li>عرض JSON response في الواجهة (Phase 1 demo)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PAGE 2 -->
+  <div class="page-break"></div>
+
+  <section class="section">
+    <div class="section-head">
+      <div class="section-num">3</div>
+      <div>
+        <h2>API Contract — ما اتفقنا عليه مع Beta</h2>
+        <div class="en">Alpha owns · Beta consumes</div>
+      </div>
+    </div>
+    <table>
+      <tr><th>Endpoint</th><td><code>POST /api/v1/packages/generate</code></td></tr>
+      <tr><th>Input</th><td>PackageRequest JSON — نفس حقول ReTour Wizard (mode · trip · travelers · preferences · …)</td></tr>
+      <tr><th>Output</th><td>TourismPackage JSON + metadata (model · latency · retries)</td></tr>
+      <tr><th>Phase 1</th><td>LLM فقط — بدون RAG · بدون Context · بدون SME API</td></tr>
+      <tr><th>Frontend</th><td>Team Beta — Next.js Wizard (<code>/wizard</code>)</td></tr>
+      <tr><th>Mapping</th><td>طبقة تحويل قيم UI (History → history · Wheelchair → Wheelchair Access · …)</td></tr>
+    </table>
+    <div class="highlight">
+      <p>
+        <strong style="color:var(--alpha)">إنجاز تكامل:</strong>
+        تم تنزيل فرونت Team Beta من GitHub، حذف الـ playground المؤقت،
+        وربط زر <em>Generate My Package</em> مباشرةً بـ API.
+        Alpha لا يعدّل تصميم Beta — فقط يوفّر العقد (contract) وطبقة التحويل.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <div class="section-num">4</div>
+      <div>
+        <h2>الجودة · التوثيق · التشغيل</h2>
+        <div class="en">Quality assurance & ops readiness</div>
+      </div>
+    </div>
+    <div class="grid-2">
+      <div class="card">
+        <h3>🧪 Testing</h3>
+        <ul>
+          <li>25 unit/integration tests — <strong style="color:var(--ok)">100% passing</strong></li>
+          <li>تغطية: schemas · validators · prompt service · API routes · LLM manager · stubs</li>
+          <li>Sample payloads في <code>tests/fixtures/</code></li>
+          <li>pytest + pytest-asyncio</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>📚 Documentation</h3>
+        <ul>
+          <li><code>README.md</code> — quick start · architecture · config</li>
+          <li><code>retour-architecture-plan.html</code> — الخطة المعمارية الكاملة</li>
+          <li><code>retour-api-agreement.html</code> — اتفاقية Alpha ↔ Beta</li>
+          <li><code>team-alpha-phase-1.html</code> — خطة Phase 1 التفصيلية</li>
+          <li>Swagger / ReDoc على <code>/docs</code></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <div class="section-num">5</div>
+      <div>
+        <h2>الخطوات القادمة — Team Alpha</h2>
+        <div class="en">Next milestones</div>
+      </div>
+    </div>
+    <div class="grid-2">
+      <div class="card">
+        <h3>قريباً (Phase 1.5 → 2)</h3>
+        <ul>
+          <li>تنفيذ <code>KnowledgeRetriever</code> interface — استدعاء Beta Knowledge API</li>
+          <li>حقن retrieved entities في prompt قبل LLM</li>
+          <li>تحسين latency (model tuning · caching · streaming)</li>
+          <li>توسيع test coverage مع mock Beta APIs</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>بالتنسيق مع Beta</h3>
+        <ul>
+          <li>تثبيت contract نهائي للـ Wizard payload</li>
+          <li>عرض الباقة UI (بدل JSON خام) — مسؤولية Beta</li>
+          <li>Context API integration عند جاهزيتها</li>
+          <li>SME recommendations في response schema</li>
+        </ul>
+      </div>
+    </div>
+    <div class="highlight" style="margin-top:14px;">
+      <p>
+        <strong style="color:var(--phase)">الخلاصة:</strong>
+        Team Alpha أنجز <strong>أساس production</strong> للـ AI Brain في Phase 1:
+        API شغّالة، agent ذكي، schemas صارمة، prompts منظّمة، tests خضراء،
+        وربط أولي مع واجهة Beta. المنصة جاهزة للانتقال إلى Phase 2
+        بمجرد توفر Knowledge API من Team Beta — بدون إعادة بناء الـ architecture.
+      </p>
+    </div>
+  </section>
+
+  <div class="footer">
+    ReTour · Team Alpha Progress Report · Phase 1 · Jordan Smart Tourism Pilot · July 2026<br>
+    <div class="links no-print">
+      <a href="team-alpha-phase-1.html">Phase 1 Plan</a>
+      <a href="retour-api-agreement.html">API Agreement</a>
+      <a href="retour-architecture-plan.html">Architecture Plan</a>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

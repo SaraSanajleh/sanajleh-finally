@@ -1,0 +1,5489 @@
+[
+{
+"sme_id": "SME-000001",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Madaba Adventure Tours",
+"description": "Local tour operator based in Madaba specializing in cultural heritage tours, day trips to Mount Nebo and the Jordan Trail, and authentic local community experiences.",
+"experience_years": 8,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Archaeology",
+"Local Experiences",
+"Religious Sites"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+96253245001",
+"mobile": "+962791234567",
+"email": "info@madabaadventure.example",
+"website": "https://www.madabaadventure.example",
+"whatsapp": "+962791234567"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "Tourism Street, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba",
+"Mount Nebo",
+"Machaerus",
+"Umm ar-Rasas",
+"Dead Sea"
+],
+"preferred_destinations": [
+"Madaba",
+"Mount Nebo",
+"Dead Sea"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic",
+"French"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Tour Planning & Itinerary Design",
+"Cultural Experiences",
+"Local Experiences",
+"Private Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Licensed Tourist Guides",
+"Local Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "08:30-18:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 15,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per tour / Per person",
+"min_price": 30,
+"max_price": 250,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Local Experiences",
+"Religious Tourism",
+"Archaeological Tourism"
+]
+},
+"reviews": {
+"rating": 4.7,
+"review_count": 42,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000002",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Mosaic City Travel & Tours",
+"description": "Incoming travel agency operating out of Madaba offering tailored excursions across Jordan, specializing in historical sightseeing, mosaic art tours, and desert excursions.",
+"experience_years": 12,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Art",
+"Archaeology"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+96253256002",
+"mobile": "+962789876543",
+"email": "contact@mosaiccitytravel.example",
+"website": "https://www.mosaiccitytravel.example",
+"whatsapp": "+962789876543"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "Hashemite Street, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba",
+"Amman",
+"Petra",
+"Wadi Rum",
+"Jerash"
+],
+"preferred_destinations": [
+"Madaba",
+"Petra",
+"Wadi Rum"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic",
+"German"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Custom Itineraries",
+"Transportation",
+"Hotel / Accommodation Booking",
+"Airport Transfers"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Professional Guides",
+"Licensed Tourist Guides",
+"Multilingual Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "09:00-17:00"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 30,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per person package",
+"min_price": 50,
+"max_price": 500,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Archaeological Tourism",
+"Luxury Experiences"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 64,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000003",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Nebo Horizon Journeys",
+"description": "Boutique tour operator focusing on spiritual and religious journeys, pilgrimage routes, and historical explorations originating from the Madaba and Mount Nebo region.",
+"experience_years": 6,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Religious Sites",
+"History",
+"Culture"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+96253267003",
+"mobile": "+962775554433",
+"email": "info@nebohorizon.example",
+"website": "https://www.nebohorizon.example",
+"whatsapp": "+962775554433"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "King Talal Street, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba",
+"Mount Nebo",
+"Baptism Site (Maghtas)",
+"Umm ar-Rasas",
+"Mukawir"
+],
+"preferred_destinations": [
+"Mount Nebo",
+"Baptism Site (Maghtas)",
+"Madaba"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic",
+Italian
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Religious Tours",
+"Tour Planning & Itinerary Design",
+"Private Tours",
+"Airport Transfers"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Licensed Tourist Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday"
+],
+"working_hours": "09:00-16:30"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 25,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per day tour",
+"min_price": 40,
+"max_price": 300,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Religious Tourism",
+"History & Culture"
+]
+},
+"reviews": {
+"rating": 4.5,
+"review_count": 29,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000004",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Jordan Trail Eco-Hub Madaba",
+"description": "Specialized incoming operator focusing on hiking, trekking, eco-tourism, and community-based rural tourism along the Madaba sections of the Jordan Trail.",
+"experience_years": 5,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Hiking",
+"Nature",
+"Local Experiences",
+"Camping"
+],
+"target_customer_types": [
+"Solo Travelers",
+"Couples",
+"Families"
+]
+},
+"contact": {
+"phone": "+96253278004",
+"mobile": "+962799112233",
+"email": "trek@jordantrailmadaba.example",
+"website": "https://www.jordantrailmadaba.example",
+"whatsapp": "+962799112233"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "Park Street, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba",
+"Wadi Mujib",
+"Dana Biosphere Reserve",
+"Umm ar-Rasas"
+],
+"preferred_destinations": [
+"Wadi Mujib",
+"Madaba"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Planning & Itinerary Design",
+"Adventure Activities",
+"Local Experiences",
+"Custom Itineraries"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Specialized Guides",
+"Local Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "08:00-17:00"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 12,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per trek / Per person",
+"min_price": 45,
+"max_price": 220,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Hiking & Trekking",
+"Nature",
+"Community Tourism",
+"Soft Adventure"
+]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 35,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000005",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Madaba Heritage & Folklore Tours",
+"description": "Cultural travel provider offering hands-on cooking classes, traditional craft workshops, local artisan visits, and immersive heritage city tours in Madaba.",
+"experience_years": 7,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Culture",
+"Food",
+"Local Experiences",
+"Art"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+96253289005",
+"mobile": "+962781122334",
+"email": "hello@madabaheritagetours.example",
+"website": "https://www.madabaheritagetours.example",
+"whatsapp": "+962781122334"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "Church Street, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba",
+"Mount Nebo",
+"Mukawir"
+],
+"preferred_destinations": [
+"Madaba"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic",
+"Spanish"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Cultural Experiences",
+"Local Experiences",
+"Food & Culinary",
+"Activity & Excursion Booking"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": false
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "09:00-18:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 10,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per activity / Per person",
+"min_price": 25,
+"max_price": 120,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Food & Culinary",
+"Local Experiences",
+"History & Culture"
+]
+},
+"reviews": {
+"rating": 4.6,
+"review_count": 51,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000006",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Levant Horizons DMC Madaba",
+"description": "Incoming destination management company providing full-service tour operations, multi-day packages, luxury transport coordination, and corporate retreat management across Jordan.",
+"experience_years": 15,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Adventure",
+"Wellness"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+96253290006",
+"mobile": "+962790099887",
+"email": "ops@levanthorizons.example",
+"website": "https://www.levanthorizons.example",
+"whatsapp": "+962790099887"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "Main Commercial District, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba",
+"Amman",
+"Petra",
+"Wadi Rum",
+"Aqaba",
+"Dead Sea"
+],
+"preferred_destinations": [
+"Petra",
+"Wadi Rum",
+"Dead Sea"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic",
+"French",
+"German"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Custom Itineraries",
+"Hotel / Accommodation Booking",
+"Airport Transfers",
+"VIP Services"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Professional Guides",
+"Licensed Tourist Guides",
+"Multilingual Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "08:30-17:30"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 45,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per multi-day itinerary",
+"min_price": 150,
+"max_price": 1800,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Luxury Experiences",
+"History & Culture",
+"Family Experiences"
+]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 112,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000007",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Dead Sea & Madaba Express Tours",
+"description": "Regional tour operator specializing in seamless shuttle connections, day tours, and combined itineraries between Madaba, Mount Nebo, and Dead Sea resort areas.",
+"experience_years": 9,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Nature",
+"Wellness",
+"History"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+96253211007",
+"mobile": "+962773322114",
+"email": "booking@deadseamadabaexpress.example",
+"website": "https://www.deadseamadabaexpress.example",
+"whatsapp": "+962773322114"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "Panorama Road Base, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba",
+"Dead Sea",
+"Mount Nebo",
+"Ma'in Hot Springs"
+],
+"preferred_destinations": [
+"Dead Sea",
+"Ma'in Hot Springs"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Transportation",
+"Airport Transfers",
+"Hotel / Accommodation Booking",
+"Activity & Excursion Booking"
+]
+},
+"guides": {
+"provides_guides": false,
+"guide_types": []
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "08:00-19:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 20,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per transfer / Per day",
+"min_price": 35,
+"max_price": 180,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Wellness",
+"Beach Experiences",
+"Nature"
+]
+},
+"reviews": {
+"rating": 4.4,
+"review_count": 38,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000008",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Machaerus Historical Expeditions",
+"description": "Niche archaeological and historical tour organizer focusing on the ancient fortress of Machaerus (Mukawir), regional excavation sites, and educational heritage tours around Madaba.",
+"experience_years": 11,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Archaeology",
+"History",
+"Culture",
+"Religious Sites"
+],
+"target_customer_types": [
+"Solo Travelers",
+"Families",
+"Couples"
+]
+},
+"contact": {
+"phone": "+96253222008",
+"mobile": "+962798877665",
+"email": "info@machaerusexpeditions.example",
+"website": "https://www.machaerusexpeditions.example",
+"whatsapp": "+962798877665"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "Al-Khattab Street, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba",
+"Mukawir (Machaerus)",
+"Umm ar-Rasas",
+"Mount Nebo"
+],
+"preferred_destinations": [
+"Mukawir (Machaerus)",
+"Umm ar-Rasas"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Tour Planning & Itinerary Design",
+"Special Interest Tours",
+"Private Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Specialized Guides",
+"Licensed Tourist Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday"
+],
+"working_hours": "09:00-17:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 12,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per private excursion",
+"min_price": 40,
+"max_price": 200,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Archaeological Tourism",
+"History & Culture"
+]
+},
+"reviews": {
+"rating": 4.7,
+"review_count": 19,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000009",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Madaba Family Gateway Tours",
+"description": "Family-friendly tour operator providing gentle sightseeing experiences, interactive mosaic workshops, and custom stress-free itineraries designed for travelers with children in Madaba.",
+"experience_years": 4,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Culture",
+"Art",
+"Local Experiences"
+],
+"target_customer_types": [
+"Families",
+"Couples"
+]
+},
+"contact": {
+"phone": "+96253233009",
+"mobile": "+962784433221",
+"email": "hello@madabafamilytours.example",
+"website": "https://www.madabafamilytours.example",
+"whatsapp": "+962784433221"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "Falasteen Street, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba",
+"Mount Nebo",
+"Amman"
+],
+"preferred_destinations": [
+"Madaba",
+"Mount Nebo"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Planning & Itinerary Design",
+"Custom Itineraries",
+"Cultural Experiences",
+"Family Experiences"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Licensed Tourist Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00-17:00"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 10,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per family package",
+"min_price": 60,
+"max_price": 280,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Family Experiences",
+"Local Experiences",
+"History & Culture"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 27,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000010",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Panorama Moab Tours",
+"description": "Incoming regional tour operator based in Madaba offering scenic driving tours, canyoning excursions around Wadi Mujib, and photographic expeditions overlooking the Dead Sea valley.",
+"experience_years": 10,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Nature",
+"Adventure",
+"Photography",
+"Hiking"
+],
+"target_customer_types": [
+"Solo Travelers",
+"Couples",
+"Families"
+]
+},
+"contact": {
+"phone": "+96253244010",
+"mobile": "+962796655443",
+"email": "contact@panoramamoab.example",
+"website": "https://www.panoramamoab.example",
+"whatsapp": "+962796655443"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "Panorama Complex Access Road, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba",
+"Dead Sea Panoramic Complex",
+"Wadi Mujib",
+"Ma'in Hot Springs"
+],
+"preferred_destinations": [
+"Dead Sea Panoramic Complex",
+"Wadi Mujib"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic",
+"German"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Adventure Activities",
+"Transportation",
+"Custom Itineraries"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Specialized Guides",
+"Licensed Tourist Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "08:00-18:00"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 16,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per day excursion / Per person",
+"min_price": 50,
+"max_price": 300,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Soft Adventure",
+"Nature",
+"Hiking & Trekking"
+]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 78,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+}
+]
+[
+{
+"sme_id": "SME-000011",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Moab Gateway Travel",
+"description": "Incoming agency specializing in connecting Madaba with central and southern Jordan archaeological sites, offering custom sightseeing packages and multi-lingual tour coordination.",
+"experience_years": 9,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Archaeology"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+96253255011",
+"mobile": "+962791112233",
+"email": "info@moabgateway.example",
+"website": "https://www.moabgateway.example",
+"whatsapp": "+962791112233"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "King Hussein Street, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba",
+"Mount Nebo",
+"Kerak",
+"Petra"
+],
+"preferred_destinations": [
+"Madaba",
+"Kerak"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic",
+"French"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Planning & Itinerary Design",
+"Custom Itineraries",
+"Transportation",
+"Private Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Licensed Tourist Guides",
+"Professional Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00-17:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 25,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per day / Per person",
+"min_price": 45,
+"max_price": 260,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Archaeological Tourism"
+]
+},
+"reviews": {
+"rating": 4.6,
+"review_count": 44,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000012",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Madaba Mosaic Artisans & Tours",
+"description": "Art-focused tour operator providing specialized workshops in traditional mosaic restoration, craft shopping excursions, and cultural walks through Madaba's historic churches.",
+"experience_years": 6,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Art",
+"Culture",
+"Shopping",
+"History"
+],
+"target_customer_types": [
+"Couples",
+"Solo Travelers",
+"Families"
+]
+},
+"contact": {
+"phone": "+96253266012",
+"mobile": "+962782223344",
+"email": "workshops@madabamosaicartisans.example",
+"website": "https://www.madabamosaicartisans.example",
+"whatsapp": "+962782223344"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "Artisan Quarter, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba"
+],
+"preferred_destinations": [
+"Madaba"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic",
+"Italian"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Cultural Experiences",
+"Local Experiences",
+"Special Interest Tours",
+"Activity & Excursion Booking"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Specialized Guides",
+"Local Guides"
+]
+},
+"transportation": {
+"available": false
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "09:00-18:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 12,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per workshop / Per person",
+"min_price": 30,
+"max_price": 140,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Local Experiences"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 56,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000013",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Umm ar-Rasas Heritage Expeditions",
+"description": "Boutique operator organizing specialized historical tours focused on UNESCO World Heritage sites around Madaba, particularly Umm ar-Rasas and surrounding Byzantine ruins.",
+"experience_years": 8,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Archaeology",
+"History",
+"Religious Sites"
+],
+"target_customer_types": [
+"Solo Travelers",
+"Couples",
+"Families"
+]
+},
+"contact": {
+"phone": "+96253277013",
+"mobile": "+962773334455",
+"email": "explore@ummalrasasexpeditions.example",
+"website": "https://www.ummalrasasexpeditions.example",
+"whatsapp": "+962773334455"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "East Ring Road, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba",
+"Umm ar-Rasas",
+"Mount Nebo"
+],
+"preferred_destinations": [
+"Umm ar-Rasas"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Tour Planning & Itinerary Design",
+"Private Tours",
+"Special Interest Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Specialized Guides",
+"Licensed Tourist Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday"
+],
+"working_hours": "08:30-16:30"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 15,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per excursion / Per person",
+"min_price": 35,
+"max_price": 190,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Archaeological Tourism",
+"History & Culture"
+]
+},
+"reviews": {
+"rating": 4.7,
+"review_count": 22,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000014",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Madaba Culinary & Village Tours",
+"description": "Community-focused operator offering traditional Jordanian cooking experiences, farm visits in the Madaba countryside, and authentic home-hosted lunch excursions.",
+"experience_years": 5,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Food",
+"Local Experiences",
+"Culture"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+96253288014",
+"mobile": "+962794445566",
+"email": "tastes@madabaculinary.example",
+"website": "https://www.madabaculinary.example",
+"whatsapp": "+962794445566"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "Rural Highway Junction, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba",
+"Madaba Countryside"
+],
+"preferred_destinations": [
+"Madaba"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Local Experiences",
+"Cultural Experiences",
+"Food & Culinary",
+"Private Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "10:00-19:00"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 14,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per culinary experience / Per person",
+"min_price": 40,
+"max_price": 130,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Food & Culinary",
+"Local Experiences",
+"Community Tourism"
+]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 61,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000015",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Jordan Sacred Trails Madaba",
+"description": "Specialized incoming tour agency organizing spiritual retreats, pilgrimage pathways, and biblical history walking tours spanning Madaba, Mount Nebo, and the Jordan Valley.",
+"experience_years": 10,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Religious Sites",
+"History",
+"Culture",
+"Hiking"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+96253299015",
+"mobile": "+962785556677",
+"email": "pilgrimage@jordansacredtrails.example",
+"website": "https://www.jordansacredtrails.example",
+"whatsapp": "+962785556677"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "Prophets Road, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba",
+"Mount Nebo",
+"Baptism Site (Maghtas)",
+"Mukawir"
+],
+"preferred_destinations": [
+"Mount Nebo",
+"Baptism Site (Maghtas)"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic",
+"Spanish",
+"Italian"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Religious Tours",
+"Tour Planning & Itinerary Design",
+"Private Tours",
+"Transportation"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Licensed Tourist Guides",
+"Specialized Guides",
+"Multilingual Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "08:30-17:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 30,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per day tour / Per person",
+"min_price": 50,
+"max_price": 320,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Religious Tourism",
+"History & Culture",
+"Hiking & Trekking"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 83,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000016",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Madaba Desert & Wadi Expeditions",
+"description": "Adventure travel organizer based in Madaba providing desert jeep safaris, night camping excursions, and connecting tours to Jordan's eastern desert castles and Wadi Rum.",
+"experience_years": 7,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Desert",
+"Adventure",
+"Camping",
+"Nature"
+],
+"target_customer_types": [
+"Solo Travelers",
+"Couples",
+"Families"
+]
+},
+"contact": {
+"phone": "+96253210016",
+"mobile": "+962796667788",
+"email": "safari@madabadeprotexpeditions.example",
+"website": "https://www.madabadeprotexpeditions.example",
+"whatsapp": "+962796667788"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "Desert Highway Link, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba",
+"Desert Castles",
+"Wadi Rum",
+"Azraq"
+],
+"preferred_destinations": [
+"Desert Castles",
+"Wadi Rum"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic",
+"German"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Adventure Activities",
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Private Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Specialized Guides",
+"Local Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "08:00-18:00"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 18,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per expedition / Per person",
+"min_price": 70,
+"max_price": 400,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Desert Experiences",
+"Soft Adventure",
+"Nature"
+]
+},
+"reviews": {
+"rating": 4.7,
+"review_count": 52,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000017",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Madaba Transit & Tour Logistics",
+"description": "Licensed tourism transport and excursion provider offering customized point-to-point transfers, airport pick-ups, and flexible sightseeing drivers across Madaba and surrounding governorates.",
+"experience_years": 12,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Nature"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+96253220017",
+"mobile": "+962777778899",
+"email": "dispatch@madabatransit.example",
+"website": "https://www.madabatransit.example",
+"whatsapp": "+962777778899"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "Transport Terminal Area, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba",
+"Amman",
+"Queen Alia International Airport",
+"Dead Sea",
+"Petra"
+],
+"preferred_destinations": [
+"Queen Alia International Airport",
+"Dead Sea"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Transportation",
+"Airport Transfers",
+"Meet & Greet / Airport Assistance",
+"Custom Itineraries"
+]
+},
+"guides": {
+"provides_guides": false,
+"guide_types": []
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "00:00-23:59"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 10,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per transfer / Per vehicle",
+"min_price": 25,
+"max_price": 150,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Family Experiences",
+"Luxury Experiences"
+]
+},
+"reviews": {
+"rating": 4.5,
+"review_count": 94,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000018",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Madaba Wellness & Thermal Escapes",
+"description": "Boutique agency specializing in wellness tourism packages, combining thermal spring visits at Ma'in Hot Springs, Dead Sea therapeutic stays, and relaxing retreat itineraries in Madaba.",
+"experience_years": 6,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Wellness",
+"Nature",
+"Beaches"
+],
+"target_customer_types": [
+"Couples",
+"Solo Travelers",
+"Families"
+]
+},
+"contact": {
+"phone": "+96253230018",
+"mobile": "+962788889900",
+"email": "relax@madabawellness.example",
+"website": "https://www.madabawellness.example",
+"whatsapp": "+962788889900"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "Spa District Road, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba",
+"Ma'in Hot Springs",
+"Dead Sea"
+],
+"preferred_destinations": [
+"Ma'in Hot Springs",
+"Dead Sea"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic",
+"French"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Planning & Itinerary Design",
+"Hotel / Accommodation Booking",
+"Activity & Excursion Booking",
+"Private Tours"
+]
+},
+"guides": {
+"provides_guides": false,
+"guide_types": []
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00-17:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 12,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per wellness package / Per person",
+"min_price": 80,
+"max_price": 350,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Wellness",
+"Beach Experiences",
+"Luxury Experiences"
+]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 31,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000019",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Madaba Youth & Photography Adventures",
+"description": "Dynamic tour operator organizing photography-focused walking tours, scenic viewpoint expeditions, and youth cultural exchange excursions throughout the Madaba governorate.",
+"experience_years": 4,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Photography",
+"Culture",
+"Art",
+"Local Experiences"
+],
+"target_customer_types": [
+"Solo Travelers",
+"Couples"
+]
+},
+"contact": {
+"phone": "+96253240019",
+"mobile": "+962799990011",
+"email": "capture@madabaphoto.example",
+"website": "https://www.madabaphoto.example",
+"whatsapp": "+962799990011"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "Cultural Center Lane, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba",
+"Mount Nebo",
+"Umm ar-Rasas"
+],
+"preferred_destinations": [
+"Madaba"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Special Interest Tours",
+"Local Experiences",
+"Cultural Experiences"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Specialized Guides",
+"Local Guides"
+]
+},
+"transportation": {
+"available": false
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00-18:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 10,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per photo tour / Per person",
+"min_price": 35,
+"max_price": 150,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Local Experiences",
+"History & Culture",
+"Soft Adventure"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 25,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000020",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Madaba Comprehensive Tours",
+"description": "Established incoming tour operator offering all-inclusive Jordanian holiday packages, hotel coordination, multi-lingual guiding services, and custom group tour operations based in Madaba.",
+"experience_years": 14,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Nature",
+"Adventure"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+96253250020",
+"mobile": "+962770001122",
+"email": "info@madabacomprehensive.example",
+"website": "https://www.madabacomprehensive.example",
+"whatsapp": "+962770001122"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "Downtown Commercial Center, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba",
+"Amman",
+"Jerash",
+"Petra",
+"Wadi Rum",
+"Dead Sea"
+],
+"preferred_destinations": [
+"Petra",
+"Wadi Rum",
+"Madaba"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic",
+"French",
+"German"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Planning & Itinerary Design",
+"Custom Itineraries",
+"Transportation",
+"Hotel / Accommodation Booking",
+"Airport Transfers",
+"Group Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Professional Guides",
+"Licensed Tourist Guides",
+"Multilingual Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "08:30-17:30"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 40,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per package / Per person",
+"min_price": 120,
+"max_price": 1500,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Family Experiences",
+"Luxury Experiences"
+]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 135,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+}
+]
+
+[
+{
+"sme_id": "SME-000021",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Moab Mosaic Journeys",
+"description": "Boutique tour operator in Madaba specializing in custom historical itineraries, mosaic workshop bookings, and guided excursions to archaeological sites in the governorate.",
+"experience_years": 7,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Archaeology",
+"Art"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+96253260021",
+"mobile": "+962791238901",
+"email": "info@moabmosaicjourneys.example",
+"website": "https://www.moabmosaicjourneys.example",
+"whatsapp": "+962791238901"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "Al-Quds Street, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba",
+"Mount Nebo",
+"Umm ar-Rasas"
+],
+"preferred_destinations": [
+"Madaba",
+"Mount Nebo"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Planning & Itinerary Design",
+"Cultural Experiences",
+"Private Tours",
+"Local Experiences"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Licensed Tourist Guides",
+"Local Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00-17:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 15,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per day / Per person",
+"min_price": 40,
+"max_price": 200,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Archaeological Tourism"
+]
+},
+"reviews": {
+"rating": 4.7,
+"review_count": 34,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000022",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Madaba Pilgrimage Planners",
+"description": "Incoming agency focused on faith-based travel, Christian heritage tours, and biblical landmark sightseeing centered around Madaba and the Jordan Valley.",
+"experience_years": 9,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Religious Sites",
+"History",
+"Culture"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+96253270022",
+"mobile": "+962772345678",
+"email": "contact@madabapilgrimage.example",
+"website": "https://www.madabapilgrimage.example",
+"whatsapp": "+962772345678"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "Bishop Street, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba",
+"Mount Nebo",
+"Baptism Site (Maghtas)",
+"Umm ar-Rasas"
+],
+"preferred_destinations": [
+"Mount Nebo",
+"Baptism Site (Maghtas)"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic",
+"Italian"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Religious Tours",
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Private Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Licensed Tourist Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday"
+],
+"working_hours": "08:30-17:00"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 30,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per day tour / Per person",
+"min_price": 45,
+"max_price": 250,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Religious Tourism",
+"History & Culture"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 48,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000023",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Madaba Valley Trails & Trekking",
+"description": "Specialized outdoor adventure operator offering guided hikes, nature walks, and eco-tours along local valley trails and community reserves originating from Madaba.",
+"experience_years": 5,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Hiking",
+"Nature",
+"Adventure",
+"Local Experiences"
+],
+"target_customer_types": [
+"Solo Travelers",
+"Couples"
+]
+},
+"contact": {
+"phone": "+96253280023",
+"mobile": "+962783456789",
+"email": "trek@madabavalleytrails.example",
+"website": "https://www.madabavalleytrails.example",
+"whatsapp": "+962783456789"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "Valley Road, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba",
+"Wadi Zarqa Ma'in",
+"Wadi Mujib"
+],
+"preferred_destinations": [
+"Wadi Zarqa Ma'in",
+"Wadi Mujib"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Adventure Activities",
+"Tour Guiding",
+"Local Experiences",
+"Custom Itineraries"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Specialized Guides",
+"Local Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "08:00-17:00"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 12,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per hike / Per person",
+"min_price": 50,
+"max_price": 180,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Hiking & Trekking",
+"Nature",
+"Soft Adventure"
+]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 27,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000024",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Madaba Artisan Workshops & Tours",
+"description": "Cultural enterprise hosting experiential art classes, traditional weaving sessions, and craft discovery tours centered in downtown Madaba.",
+"experience_years": 4,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Art",
+"Culture",
+"Shopping",
+"Local Experiences"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+96253290024",
+"mobile": "+962794567890",
+"email": "create@madabaartisan.example",
+"website": "https://www.madabaartisan.example",
+"whatsapp": "+962794567890"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "Market Street, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba"
+],
+"preferred_destinations": [
+"Madaba"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Cultural Experiences",
+"Local Experiences",
+"Activity & Excursion Booking"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": false
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "09:00-18:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 10,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per workshop / Per person",
+"min_price": 25,
+"max_price": 100,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Local Experiences",
+"History & Culture"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 41,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000025",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Madaba Horizon Transfers & Sightseeing",
+"description": "Licensed transportation and tour service providing custom travel arrangements, airport drop-offs, and daily regional excursions originating from Madaba.",
+"experience_years": 8,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Nature"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+96253210025",
+"mobile": "+962775678901",
+"email": "booking@madabahorizontransfers.example",
+"website": "https://www.madabahorizontransfers.example",
+"whatsapp": "+962775678901"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "Taxi Central Station, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba",
+"Queen Alia International Airport",
+"Amman",
+"Dead Sea"
+],
+"preferred_destinations": [
+"Queen Alia International Airport",
+"Dead Sea"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Transportation",
+"Airport Transfers",
+"Custom Itineraries",
+"Meet & Greet / Airport Assistance"
+]
+},
+"guides": {
+"provides_guides": false,
+"guide_types": []
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "00:00-23:59"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 8,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per transfer / Per vehicle",
+"min_price": 25,
+"max_price": 140,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Family Experiences",
+"Luxury Experiences"
+]
+},
+"reviews": {
+"rating": 4.6,
+"review_count": 65,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000026",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Madaba Rural & Farm Experiences",
+"description": "Agritourism provider offering farm-to-table culinary sessions, olive oil harvesting tours, and rural village home hospitality around Madaba.",
+"experience_years": 6,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Food",
+"Local Experiences",
+"Culture",
+"Nature"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+96253220026",
+"mobile": "+962786789012",
+"email": "info@madabarural.example",
+"website": "https://www.madabarural.example",
+"whatsapp": "+962786789012"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "Agricultural Road, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba",
+"Madaba Villages"
+],
+"preferred_destinations": [
+"Madaba"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Local Experiences",
+"Cultural Experiences",
+"Food & Culinary",
+"Private Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "09:00-18:00"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 12,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per experience / Per person",
+"min_price": 35,
+"max_price": 120,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Food & Culinary",
+"Community Tourism",
+"Local Experiences"
+]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 39,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000027",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Madaba Panoramic View Expeditions",
+"description": "Adventure and sightseeing organizer focusing on desert viewpoints, canyon vistas, and photographic driving tours around the Dead Sea escarpment near Madaba.",
+"experience_years": 7,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Photography",
+"Nature",
+"Adventure",
+"Desert"
+],
+"target_customer_types": [
+"Solo Travelers",
+"Couples",
+"Families"
+]
+},
+"contact": {
+"phone": "+96253230027",
+"mobile": "+962797890123",
+"email": "explore@madabapanoramic.example",
+"website": "https://www.madabapanoramic.example",
+"whatsapp": "+962797890123"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "Panorama Highway, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba",
+"Dead Sea Panoramic Complex",
+"Ma'in Hot Springs"
+],
+"preferred_destinations": [
+"Dead Sea Panoramic Complex"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic",
+"German"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Adventure Activities",
+"Transportation",
+"Custom Itineraries"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Specialized Guides",
+"Licensed Tourist Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "08:00-18:00"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 15,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per tour / Per person",
+"min_price": 50,
+"max_price": 220,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Soft Adventure",
+"Nature",
+"Desert Experiences"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 55,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000028",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Madaba Heritage & History Tours",
+"description": "Comprehensive historical tour agency focusing on the ancient churches, Byzantine mosaics, and cultural landmarks of Madaba city and neighboring regions.",
+"experience_years": 11,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Archaeology",
+"Religious Sites"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+96253240028",
+"mobile": "+962778901234",
+"email": "info@madabahistorytours.example",
+"website": "https://www.madabahistorytours.example",
+"whatsapp": "+962778901234"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "Museum Street, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba",
+"Mount Nebo",
+"Umm ar-Rasas",
+"Mukawir"
+],
+"preferred_destinations": [
+"Madaba",
+"Mount Nebo"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic",
+"French",
+"Spanish"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Tour Planning & Itinerary Design",
+"Private Tours",
+"Cultural Experiences"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Licensed Tourist Guides",
+"Professional Guides",
+"Multilingual Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "08:30-17:30"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 25,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per day tour / Per person",
+"min_price": 40,
+"max_price": 240,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Archaeological Tourism",
+"Religious Tourism"
+]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 89,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000029",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Madaba Eco-Adventure Hub",
+"description": "Eco-tourism operator offering nature hikes, canyon excursions, and sustainable travel experiences linking Madaba with surrounding natural reserves.",
+"experience_years": 5,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Nature",
+"Adventure",
+"Hiking",
+"Camping"
+],
+"target_customer_types": [
+"Solo Travelers",
+"Couples",
+"Families"
+]
+},
+"contact": {
+"phone": "+96253250029",
+"mobile": "+962789012345",
+"email": "eco@madabaecoadventure.example",
+"website": "https://www.madabaecoadventure.example",
+"whatsapp": "+962789012345"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "Eco-Park Way, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba",
+"Wadi Mujib",
+"Dana Biosphere Reserve"
+],
+"preferred_destinations": [
+"Wadi Mujib"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Adventure Activities",
+"Tour Planning & Itinerary Design",
+"Local Experiences",
+"Custom Itineraries"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Specialized Guides",
+"Local Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "08:00-17:00"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 14,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per adventure / Per person",
+"min_price": 55,
+"max_price": 230,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Hiking & Trekking",
+"Nature",
+"Soft Adventure"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 36,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000030",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Madaba Elite Destination Management",
+"description": "Full-service incoming destination management company based in Madaba providing high-end private itineraries, multi-destination Jordan packages, and corporate event logistics.",
+"experience_years": 13,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Luxury",
+"Adventure"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+96253260030",
+"mobile": "+962790123456",
+"email": "vip@madabaelite.example",
+"website": "https://www.madabaelite.example",
+"whatsapp": "+962790123456"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "Commercial Center Blvd, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba",
+"Amman",
+"Petra",
+"Wadi Rum",
+"Aqaba",
+"Dead Sea"
+],
+"preferred_destinations": [
+"Petra",
+"Wadi Rum",
+"Dead Sea"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic",
+"French",
+"German"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Planning & Itinerary Design",
+"Custom Itineraries",
+"Transportation",
+"Hotel / Accommodation Booking",
+"Airport Transfers",
+"VIP Services"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Professional Guides",
+"Licensed Tourist Guides",
+"Multilingual Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "08:30-17:30"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 40,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per package / Per person",
+"min_price": 140,
+"max_price": 1600,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Luxury Experiences",
+"History & Culture",
+"Family Experiences"
+]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 115,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+}
+] 
+
+[
+{
+"sme_id": "SME-000031",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Madaba Citadel & Mosaic Travels",
+"description": "Specialized incoming tour agency offering customized historical and archaeological itineraries around Madaba, Mount Nebo, and regional cultural landmarks.",
+"experience_years": 8,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Archaeology",
+"Art"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+96253270031",
+"mobile": "+962791122344",
+"email": "info@madabacitadeltravels.example",
+"website": "https://www.madabacitadeltravels.example",
+"whatsapp": "+962791122344"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "Al-Hashimi Street, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba",
+"Mount Nebo",
+"Umm ar-Rasas"
+],
+"preferred_destinations": [
+"Madaba",
+"Mount Nebo"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Planning & Itinerary Design",
+"Cultural Experiences",
+"Private Tours",
+"Local Experiences"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Licensed Tourist Guides",
+"Local Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00-17:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 15,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per day / Per person",
+"min_price": 40,
+"max_price": 210,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Archaeological Tourism"
+]
+},
+"reviews": {
+"rating": 4.7,
+"review_count": 31,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000032",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Madaba Sanctuary Journeys",
+"description": "Pilgrimage and faith-based travel organizer focusing on historical Christian sites, biblical trails, and sacred monuments in Madaba and the surrounding region.",
+"experience_years": 10,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Religious Sites",
+"History",
+"Culture"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+96253280032",
+"mobile": "+962772233455",
+"email": "contact@madabasanctuary.example",
+"website": "https://www.madabasanctuary.example",
+"whatsapp": "+962772233455"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "Church Complex Road, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba",
+"Mount Nebo",
+"Baptism Site (Maghtas)"
+],
+"preferred_destinations": [
+"Mount Nebo",
+"Baptism Site (Maghtas)"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic",
+"Italian"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Religious Tours",
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Private Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Licensed Tourist Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday"
+],
+"working_hours": "08:30-17:00"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 25,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per day tour / Per person",
+"min_price": 45,
+"max_price": 240,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Religious Tourism",
+"History & Culture"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 42,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000033",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Madaba Canyoning & Trekking Expeditions",
+"description": "Outdoor adventure company specializing in guided canyon walks, hiking excursions, and nature trails through the rugged landscapes surrounding Madaba.",
+"experience_years": 6,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Hiking",
+"Nature",
+"Adventure",
+"Camping"
+],
+"target_customer_types": [
+"Solo Travelers",
+"Couples"
+]
+},
+"contact": {
+"phone": "+96253290033",
+"mobile": "+962783344566",
+"email": "adventure@madabacanyoning.example",
+"website": "https://www.madabacanyoning.example",
+"whatsapp": "+962783344566"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "Valley Highway, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba",
+"Wadi Mujib",
+"Wadi Zarqa Ma'in"
+],
+"preferred_destinations": [
+"Wadi Mujib"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Adventure Activities",
+"Tour Guiding",
+"Local Experiences",
+"Custom Itineraries"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Specialized Guides",
+"Local Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "08:00-17:00"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 12,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per excursion / Per person",
+"min_price": 55,
+"max_price": 190,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Hiking & Trekking",
+"Nature",
+"Soft Adventure"
+]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 28,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000034",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Madaba Traditional Crafts & Trails",
+"description": "Cultural tourism provider offering hands-on craft workshops, local artisan studio tours, and heritage walks through the historic streets of Madaba.",
+"experience_years": 5,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Art",
+"Culture",
+"Shopping",
+"Local Experiences"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+96253210034",
+"mobile": "+962794455677",
+"email": "crafts@madabatraditional.example",
+"website": "https://www.madabatraditional.example",
+"whatsapp": "+962794455677"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "Old Town Market, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba"
+],
+"preferred_destinations": [
+"Madaba"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Cultural Experiences",
+"Local Experiences",
+"Activity & Excursion Booking"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": false
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "09:00-18:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 10,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per workshop / Per person",
+"min_price": 25,
+"max_price": 110,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Local Experiences",
+"History & Culture"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 35,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000035",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Madaba Express Transit & Tours",
+"description": "Licensed transport and excursion service offering reliable point-to-point transfers, airport connections, and flexible sightseeing drivers across the Madaba governorate.",
+"experience_years": 9,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Nature"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+96253220035",
+"mobile": "+962775566788",
+"email": "dispatch@madabaexpresstransit.example",
+"website": "https://www.madabaexpresstransit.example",
+"whatsapp": "+962775566788"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "Transport Terminal, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba",
+"Queen Alia International Airport",
+"Dead Sea"
+],
+"preferred_destinations": [
+"Queen Alia International Airport",
+"Dead Sea"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Transportation",
+"Airport Transfers",
+"Custom Itineraries",
+"Meet & Greet / Airport Assistance"
+]
+},
+"guides": {
+"provides_guides": false,
+"guide_types": []
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "00:00-23:59"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 8,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per transfer / Per vehicle",
+"min_price": 25,
+"max_price": 130,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Family Experiences",
+"Luxury Experiences"
+]
+},
+"reviews": {
+"rating": 4.6,
+"review_count": 58,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000036",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Madaba Village Culinary Experiences",
+"description": "Agritourism operator offering traditional cooking classes, farm visits, and authentic home-hosted meals in the rural communities surrounding Madaba.",
+"experience_years": 7,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Food",
+"Local Experiences",
+"Culture",
+"Nature"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+96253230036",
+"mobile": "+962786677899",
+"email": "tastes@madabavillageculinary.example",
+"website": "https://www.madabavillageculinary.example",
+"whatsapp": "+962786677899"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "Rural District Road, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba",
+"Madaba Countryside"
+],
+"preferred_destinations": [
+"Madaba"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Local Experiences",
+"Cultural Experiences",
+"Food & Culinary",
+"Private Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "09:00-18:00"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 12,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per culinary experience / Per person",
+"min_price": 35,
+"max_price": 125,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Food & Culinary",
+"Community Tourism",
+"Local Experiences"
+]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 44,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000037",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Madaba Valley Horizon Vistas",
+"description": "Sightseeing and photography excursion provider specializing in valley lookouts, desert escarpment routes, and panoramic driving tours near the Dead Sea.",
+"experience_years": 8,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Photography",
+"Nature",
+"Adventure",
+"Desert"
+],
+"target_customer_types": [
+"Solo Travelers",
+"Couples",
+"Families"
+]
+},
+"contact": {
+"phone": "+96253240037",
+"mobile": "+962797788900",
+"email": "explore@madabavalleyhorizon.example",
+"website": "https://www.madabavalleyhorizon.example",
+"whatsapp": "+962797788900"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "Panorama Road, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba",
+"Dead Sea Panoramic Complex",
+"Ma'in Hot Springs"
+],
+"preferred_destinations": [
+"Dead Sea Panoramic Complex"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic",
+"German"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Adventure Activities",
+"Transportation",
+"Custom Itineraries"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Specialized Guides",
+"Licensed Tourist Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "08:00-18:00"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 15,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per tour / Per person",
+"min_price": 50,
+"max_price": 210,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Soft Adventure",
+"Nature",
+"Desert Experiences"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 49,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000038",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Madaba Heritage & Mosaic Explorations",
+"description": "Historical tour agency dedicated to showcasing the ancient churches, Byzantine mosaics, and cultural heritage monuments across Madaba and neighboring districts.",
+"experience_years": 12,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Archaeology",
+"Religious Sites"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+96253250038",
+"mobile": "+962778899011",
+"email": "info@madabamosaicexplorations.example",
+"website": "https://www.madabamosaicexplorations.example",
+"whatsapp": "+962778899011"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "Museum Road, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba",
+"Mount Nebo",
+"Umm ar-Rasas",
+"Mukawir"
+],
+"preferred_destinations": [
+"Madaba",
+"Mount Nebo"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic",
+"French",
+"Spanish"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Tour Planning & Itinerary Design",
+"Private Tours",
+"Cultural Experiences"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Licensed Tourist Guides",
+"Professional Guides",
+"Multilingual Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "08:30-17:30"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 25,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per day tour / Per person",
+"min_price": 40,
+"max_price": 250,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Archaeological Tourism",
+"Religious Tourism"
+]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 92,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000039",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Madaba Wilderness & Eco-Trails",
+"description": "Sustainable tourism operator providing guided nature walks, canyon explorations, and eco-friendly outdoor adventures linking Madaba to regional reserves.",
+"experience_years": 5,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Nature",
+"Adventure",
+"Hiking",
+"Camping"
+],
+"target_customer_types": [
+"Solo Travelers",
+"Couples",
+"Families"
+]
+},
+"contact": {
+"phone": "+96253260039",
+"mobile": "+962789900122",
+"email": "eco@madabawilderness.example",
+"website": "https://www.madabawilderness.example",
+"whatsapp": "+962789900122"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "Eco-Valley Path, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba",
+"Wadi Mujib",
+"Dana Biosphere Reserve"
+],
+"preferred_destinations": [
+"Wadi Mujib"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Adventure Activities",
+"Tour Planning & Itinerary Design",
+"Local Experiences",
+"Custom Itineraries"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Specialized Guides",
+"Local Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "08:00-17:00"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 14,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per adventure / Per person",
+"min_price": 55,
+"max_price": 240,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Hiking & Trekking",
+"Nature",
+"Soft Adventure"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 39,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000040",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Madaba Premier Destination Management",
+"description": "Full-service incoming destination management company headquartered in Madaba offering elite private itineraries, multi-destination Jordan holiday packages, and corporate coordination.",
+"experience_years": 14,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Luxury",
+"Adventure"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+96253270040",
+"mobile": "+962790011223",
+"email": "vip@madabapremierdmc.example",
+"website": "https://www.madabapremierdmc.example",
+"whatsapp": "+962790011223"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "Commercial Hub Boulevard, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba",
+"Amman",
+"Petra",
+"Wadi Rum",
+"Aqaba",
+"Dead Sea"
+],
+"preferred_destinations": [
+"Petra",
+"Wadi Rum",
+"Dead Sea"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic",
+"French",
+"German"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Planning & Itinerary Design",
+"Custom Itineraries",
+"Transportation",
+"Hotel / Accommodation Booking",
+"Airport Transfers",
+"VIP Services"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Professional Guides",
+"Licensed Tourist Guides",
+"Multilingual Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "08:30-17:30"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 40,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per package / Per person",
+"min_price": 150,
+"max_price": 1700,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Luxury Experiences",
+"History & Culture",
+"Family Experiences"
+]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 120,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+}
+]
+
+[
+{
+"sme_id": "SME-000041",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Madaba Mosaic Heritage Paths",
+"description": "Boutique tour organizer in Madaba specializing in custom cultural itineraries, ancient church visits, and hands-on Byzantine mosaic workshops.",
+"experience_years": 8,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Archaeology",
+"Art"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+96253280041",
+"mobile": "+962791112233",
+"email": "info@madabamosaicheritage.example",
+"website": "https://www.madabamosaicheritage.example",
+"whatsapp": "+962791112233"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "King Talal Street, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba",
+"Mount Nebo",
+"Umm ar-Rasas"
+],
+"preferred_destinations": [
+"Madaba",
+"Mount Nebo"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Planning & Itinerary Design",
+"Cultural Experiences",
+"Private Tours",
+"Local Experiences"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Licensed Tourist Guides",
+"Local Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00-17:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 15,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per day / Per person",
+"min_price": 40,
+"max_price": 210,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Archaeological Tourism"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 33,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000042",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Madaba Holy Land Pilgrimages",
+"description": "Incoming tour agency centered on faith-based journeys, biblical landmark excursions, and Christian heritage touring across Madaba and the Jordan Valley.",
+"experience_years": 10,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Religious Sites",
+"History",
+"Culture"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+96253290042",
+"mobile": "+962772223344",
+"email": "contact@madabaholyland.example",
+"website": "https://www.madabaholyland.example",
+"whatsapp": "+962772223344"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "Hashemite Plaza Area, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba",
+"Mount Nebo",
+"Baptism Site (Maghtas)",
+"Umm ar-Rasas"
+],
+"preferred_destinations": [
+"Mount Nebo",
+"Baptism Site (Maghtas)"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic",
+"Italian"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Religious Tours",
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Private Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Licensed Tourist Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday"
+],
+"working_hours": "08:30-17:00"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 30,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per day tour / Per person",
+"min_price": 45,
+"max_price": 250,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Religious Tourism",
+"History & Culture"
+]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 51,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000043",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Madaba Escarpment Trekking & Trails",
+"description": "Specialized eco-adventure operator offering guided hikes, nature walks, and canyon explorations through local reserves originating from Madaba.",
+"experience_years": 6,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Hiking",
+"Nature",
+"Adventure",
+"Local Experiences"
+],
+"target_customer_types": [
+"Solo Travelers",
+"Couples"
+]
+},
+"contact": {
+"phone": "+96253210043",
+"mobile": "+962783334455",
+"email": "trek@madabaescarpment.example",
+"website": "https://www.madabaescarpment.example",
+"whatsapp": "+962783334455"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "Wadi Road, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba",
+"Wadi Zarqa Ma'in",
+"Wadi Mujib"
+],
+"preferred_destinations": [
+"Wadi Zarqa Ma'in",
+"Wadi Mujib"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Adventure Activities",
+"Tour Guiding",
+"Local Experiences",
+"Custom Itineraries"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Specialized Guides",
+"Local Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "08:00-17:00"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 12,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per hike / Per person",
+"min_price": 50,
+"max_price": 185,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Hiking & Trekking",
+"Nature",
+"Soft Adventure"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 29,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000044",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Madaba Creative Studio & Tours",
+"description": "Cultural enterprise providing experiential art classes, traditional weaving sessions, and craft discovery tours based in downtown Madaba.",
+"experience_years": 5,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Art",
+"Culture",
+"Shopping",
+"Local Experiences"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+96253220044",
+"mobile": "+962794445566",
+"email": "create@madabacreativestudio.example",
+"website": "https://www.madabacreativestudio.example",
+"whatsapp": "+962794445566"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "Craftsman Quarter, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba"
+],
+"preferred_destinations": [
+"Madaba"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Cultural Experiences",
+"Local Experiences",
+"Activity & Excursion Booking"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": false
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "09:00-18:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 10,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per workshop / Per person",
+"min_price": 25,
+"max_price": 105,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Local Experiences",
+"History & Culture"
+]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 38,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000045",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Madaba Royal Transit & Sightseeing",
+"description": "Licensed transfer and tour service providing custom travel logistics, airport drop-offs, and daily regional excursions originating from Madaba.",
+"experience_years": 9,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Nature"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+96253230045",
+"mobile": "+962775556677",
+"email": "booking@madabaroyaltransfers.example",
+"website": "https://www.madabaroyaltransfers.example",
+"whatsapp": "+962775556677"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "Main Station Road, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba",
+"Queen Alia International Airport",
+"Amman",
+"Dead Sea"
+],
+"preferred_destinations": [
+"Queen Alia International Airport",
+"Dead Sea"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Transportation",
+"Airport Transfers",
+"Custom Itineraries",
+"Meet & Greet / Airport Assistance"
+]
+},
+"guides": {
+"provides_guides": false,
+"guide_types": []
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "00:00-23:59"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 8,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per transfer / Per vehicle",
+"min_price": 25,
+"max_price": 140,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Family Experiences",
+"Luxury Experiences"
+]
+},
+"reviews": {
+"rating": 4.7,
+"review_count": 61,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000046",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Madaba Harvest & Farm Tours",
+"description": "Agritourism provider offering farm-to-table culinary experiences, seasonal olive harvesting sessions, and rural village hospitality around Madaba.",
+"experience_years": 6,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Food",
+"Local Experiences",
+"Culture",
+"Nature"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+96253240046",
+"mobile": "+962786667788",
+"email": "info@madabaharvest.example",
+"website": "https://www.madabaharvest.example",
+"whatsapp": "+962786667788"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "Farmland Loop, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba",
+"Madaba Farming Villages"
+],
+"preferred_destinations": [
+"Madaba"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Local Experiences",
+"Cultural Experiences",
+"Food & Culinary",
+"Private Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "09:00-18:00"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 12,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per experience / Per person",
+"min_price": 35,
+"max_price": 120,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Food & Culinary",
+"Community Tourism",
+"Local Experiences"
+]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 42,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000047",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Madaba Sunset Vistas & Desert Drives",
+"description": "Adventure and sightseeing organizer focusing on desert viewpoints, canyon vistas, and photographic excursions near the Dead Sea escarpment.",
+"experience_years": 7,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Photography",
+"Nature",
+"Adventure",
+"Desert"
+],
+"target_customer_types": [
+"Solo Travelers",
+"Couples",
+"Families"
+]
+},
+"contact": {
+"phone": "+96253250047",
+"mobile": "+962797778899",
+"email": "explore@madabasunsetvistas.example",
+"website": "https://www.madabasunsetvistas.example",
+"whatsapp": "+962797778899"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "Escarpment Road, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba",
+"Dead Sea Panoramic Complex",
+"Ma'in Hot Springs"
+],
+"preferred_destinations": [
+"Dead Sea Panoramic Complex"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic",
+"German"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Adventure Activities",
+"Transportation",
+"Custom Itineraries"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Specialized Guides",
+"Licensed Tourist Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "08:00-18:00"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 15,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per tour / Per person",
+"min_price": 50,
+"max_price": 220,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Soft Adventure",
+"Nature",
+"Desert Experiences"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 53,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000048",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Madaba Antiquity & Mosaic Journeys",
+"description": "Comprehensive historical tour agency focusing on ancient churches, Byzantine art, and cultural monuments across Madaba and neighboring regions.",
+"experience_years": 11,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Archaeology",
+"Religious Sites"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+96253260048",
+"mobile": "+962778889900",
+"email": "info@madabaantiquity.example",
+"website": "https://www.madabaantiquity.example",
+"whatsapp": "+962778889900"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "Antiquities Street, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba",
+"Mount Nebo",
+"Umm ar-Rasas",
+"Mukawir"
+],
+"preferred_destinations": [
+"Madaba",
+"Mount Nebo"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic",
+"French",
+"Spanish"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Tour Planning & Itinerary Design",
+"Private Tours",
+"Cultural Experiences"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Licensed Tourist Guides",
+"Professional Guides",
+"Multilingual Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "08:30-17:30"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 25,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per day tour / Per person",
+"min_price": 40,
+"max_price": 240,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Archaeological Tourism",
+"Religious Tourism"
+]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 85,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000049",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Madaba Nature & Canyon Adventures",
+"description": "Eco-tourism operator offering nature hikes, canyon excursions, and sustainable outdoor adventures linking Madaba with regional reserves.",
+"experience_years": 5,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Nature",
+"Adventure",
+"Hiking",
+"Camping"
+],
+"target_customer_types": [
+"Solo Travelers",
+"Couples",
+"Families"
+]
+},
+"contact": {
+"phone": "+96253270049",
+"mobile": "+962789990011",
+"email": "eco@madabanaturecanyon.example",
+"website": "https://www.madabanaturecanyon.example",
+"whatsapp": "+962789990011"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "Reserve Road, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba",
+"Wadi Mujib",
+"Dana Biosphere Reserve"
+],
+"preferred_destinations": [
+"Wadi Mujib"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Adventure Activities",
+"Tour Planning & Itinerary Design",
+"Local Experiences",
+"Custom Itineraries"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Specialized Guides",
+"Local Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "08:00-17:00"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 14,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per adventure / Per person",
+"min_price": 55,
+"max_price": 230,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Hiking & Trekking",
+"Nature",
+"Soft Adventure"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 37,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000050",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Madaba Grand Destination Management",
+"description": "Full-service incoming destination management company based in Madaba providing high-end private itineraries, multi-destination Jordan packages, and VIP logistics.",
+"experience_years": 13,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Luxury",
+"Adventure"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+96253280050",
+"mobile": "+962790001122",
+"email": "vip@madabagranddmc.example",
+"website": "https://www.madabagranddmc.example",
+"whatsapp": "+962790001122"
+},
+"location": {
+"country": "Jordan",
+"city": "Madaba",
+"region": "Madaba Governorate",
+"address": "Downtown Boulevard, Madaba",
+"service_area": {
+"destinations_covered": [
+"Madaba",
+"Amman",
+"Petra",
+"Wadi Rum",
+"Aqaba",
+"Dead Sea"
+],
+"preferred_destinations": [
+"Petra",
+"Wadi Rum",
+"Dead Sea"
+]
+}
+},
+"languages": {
+"spoken": [
+"English",
+"Arabic",
+"French",
+"German"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Planning & Itinerary Design",
+"Custom Itineraries",
+"Transportation",
+"Hotel / Accommodation Booking",
+"Airport Transfers",
+"VIP Services"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Professional Guides",
+"Licensed Tourist Guides",
+"Multilingual Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "08:30-17:30"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 40,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per package / Per person",
+"min_price": 140,
+"max_price": 1650,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Luxury Experiences",
+"History & Culture",
+"Family Experiences"
+]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 112,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+}
+]

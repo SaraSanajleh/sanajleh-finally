@@ -1,0 +1,133 @@
+{
+  "caseId": "20260814-211747-jerash-dead-sea-family-escape",
+  "createdAt": "2026-08-14T21:17:47.319010+00:00",
+  "trip_title": "Jerash & Dead Sea Family Escape",
+  "rag": {
+    "status": "ok",
+    "source": "retriever",
+    "duration_days": 3,
+    "cluster_count": 3,
+    "clusters": [
+      {
+        "cluster_id": 0,
+        "theme": "Madaba Governorate · photography, museums",
+        "poi_count": 10,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "Dead Sea Panorama Complex (Madaba Overlook)",
+          "Ma'in Hot Springs",
+          "Wadi Mujib Biosphere Reserve (Madaba Approach)",
+          "Zarqa Ma'in Waterfalls (Balqa Border Area)",
+          "Zarqa Ma'in Thermal Springs (Southern Access/Wadi Zarqa)",
+          "Mujib Biosphere Reserve",
+          "Wadi Hidan Canyon",
+          "Wadi Zerqa Ma'in Gorge",
+          "Madaba Museum",
+          "Al-Faisaliyah Viewpoint"
+        ],
+        "hotel_names": [
+          "Ma'In Hotel & Spa",
+          "Saint John Hotel",
+          "Mount Nebo Hotel & Restaurant Madaba City Center",
+          "Mosaic City Hotel"
+        ],
+        "sample_restaurants": [
+          "Dead Sea Panorama Restaurant",
+          "Il Terrazzo",
+          "Wadi Bin Hammad Rest House & Restaurant",
+          "Ocean Fresh Fish Sweimeh",
+          "Zero Degrees Cafe Sweimeh",
+          "Champions Sports Bar"
+        ],
+        "event_names": [
+          "National Celebrations Programme - Madaba",
+          "Eid Joy Celebration - Madaba",
+          "Aesthetics of Place Cultural Programme - Madaba"
+        ]
+      },
+      {
+        "cluster_id": 1,
+        "theme": "Balqa Governorate · museums",
+        "poi_count": 10,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "Al-Salt Folklore Museum (Abu Jaber House)",
+          "Abu Jaber House",
+          "Burin Forest Park",
+          "Wadi Shueib Scenic Road and Stream",
+          "Fuheis Cultural Centre",
+          "The Children's Museum Jordan",
+          "Zaha Cultural Center",
+          "South Shuna Public Park",
+          "Al-Fuheis Heritage Quarter",
+          "Zai Forest Picnic Area"
+        ],
+        "hotel_names": [
+          "Saltus Hotel",
+          "Jordan Heritage Madhafa",
+          "Beit Aziz Boutique Hotel",
+          "Saraya Locanda"
+        ],
+        "sample_restaurants": [
+          "Beit Khairat As-Salt",
+          "Sitt Inaya Heritage House",
+          "Al Ghabah Restaurant",
+          "Bab Al-Hara Restaurant Salt",
+          "Baladna Restaurant",
+          "Dardasha Kitchen"
+        ],
+        "event_names": [
+          "Jaret Al Qalaa Heritage Market",
+          "Jordan International Food Festival",
+          "Shabib Festival for Arts and Culture"
+        ]
+      },
+      {
+        "cluster_id": 2,
+        "theme": "Jerash Governorate · museums, photography",
+        "poi_count": 10,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "Jerash Archaeological Museum",
+          "Al-Mustaba Eco-Park",
+          "Suf Village Heritage Center",
+          "Al-Kittah Village and Springs",
+          "Wadi Shamali Viewpoint",
+          "Ajloun Olive Press Museum",
+          "Ain Al-Basha Public Library and Cultural Hub",
+          "Rasoon Village Heritage Area",
+          "Al-Karakah Nature Trail",
+          "Ain Al-Basha Public Park"
+        ],
+        "hotel_names": [
+          "The Olive Branch Hotel",
+          "Celestia Boutique Inn",
+          "Jerash Hotel",
+          "Makanak Villas"
+        ],
+        "sample_restaurants": [
+          "Peter Jerash Restaurant",
+          "Green Valley Restaurant Jerash",
+          "Jerash Canyon Restaurant",
+          "Jerash Valley Resort Restaurant",
+          "Ajloun Forest Reserve Restaurant",
+          "Al-Manara Grill & Restaurant"
+        ],
+        "event_names": [
+          "National Celebrations Programme - Jerash",
+          "Jerash Festival for Culture and Arts",
+          "Aesthetics of Place Cultural Programme - Jerash"
+        ]
+      }
+    ]
+  },
+  "paths": {
+    "input": "01_input.json",
+    "knowledge": "02_retriever.json",
+    "knowledge_preview": "02_retriever_preview.json",
+    "output": "03_output.json"
+  }
+}

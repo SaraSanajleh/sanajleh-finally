@@ -1,0 +1,118 @@
+{
+  "caseId": "20260815-220521-jerash-dead-sea",
+  "createdAt": "2026-08-15T22:05:21.546852+00:00",
+  "trip_title": "Jerash · Dead Sea",
+  "rag": {
+    "status": "ok",
+    "source": "retriever",
+    "duration_days": 3,
+    "cluster_count": 3,
+    "clusters": [
+      {
+        "cluster_id": 0,
+        "theme": "Jerash Governorate · nature",
+        "poi_count": 4,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "Al-Mustaba Eco-Park",
+          "Al-Kittah Village and Springs",
+          "Dibbeen Forest Reserve",
+          "King Talal Dam Overlook"
+        ],
+        "hotel_names": [
+          "The Olive Branch Hotel",
+          "Celestia Boutique Inn",
+          "Makanak Villas",
+          "Dream House Hotel Apartments"
+        ],
+        "sample_restaurants": [
+          "Jerash Olive Grove Grill",
+          "Green Valley Restaurant Jerash",
+          "Jerash Canyon Restaurant",
+          "Jerash Orchard Restaurant",
+          "Al-Roummanah Restaurant",
+          "Green Valley Restaurant Jerash"
+        ],
+        "event_names": [
+          "National Celebrations Programme - Jerash",
+          "Aesthetics of Place Cultural Programme - Jerash",
+          "Jerash Climate and Visual Arts Conference"
+        ]
+      },
+      {
+        "cluster_id": 1,
+        "theme": "Madaba Governorate · nature, history",
+        "poi_count": 7,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "Wadi Mujib Biosphere Reserve (Madaba Approach)",
+          "Wadi Hidan Canyon",
+          "King's Highway Madaba Segment",
+          "Moses Spring (Ayn Musa)",
+          "Dead Sea Panorama Complex (Madaba Overlook)",
+          "Wadi Zerqa Ma'in Gorge",
+          "Al-Lajjun / East Madaba Desert Border Viewpoint"
+        ],
+        "hotel_names": [
+          "Mujib Chalets",
+          "Grand Hotel Madaba",
+          "Moab Land Hotel",
+          "Saint John Hotel"
+        ],
+        "sample_restaurants": [
+          "Al-Bustan Restaurant",
+          "Al-Salam Seafood & Grill",
+          "Al-Bustan Restaurant Madaba",
+          "Al-Mandi Al-Malaki",
+          "Carob House",
+          "Mount Nebo Panorama Restaurant"
+        ],
+        "event_names": [
+          "Aesthetics of Place Cultural Programme - Madaba",
+          "National Celebrations Programme - Madaba",
+          "Jordan Summer Festival - Madaba"
+        ]
+      },
+      {
+        "cluster_id": 2,
+        "theme": "Jerash Governorate · nature, history",
+        "poi_count": 4,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "Al-Karakhouf Waterfall",
+          "Hippodrome of Jerash",
+          "Suf Village Heritage Center",
+          "Jerash Heritage Souk"
+        ],
+        "hotel_names": [
+          "The Olive Branch Hotel",
+          "Celestia Boutique Inn",
+          "Dream House Hotel Apartments",
+          "Makanak Villas"
+        ],
+        "sample_restaurants": [
+          "Green Valley Restaurant Jerash",
+          "Roman Bridge Restaurant",
+          "Al-Khaimeh Restaurant",
+          "Jerash Canyon Restaurant",
+          "Beit Khairat Souf",
+          "Jerash Oasis Grill"
+        ],
+        "event_names": [
+          "National Celebrations Programme - Jerash",
+          "Aesthetics of Place Cultural Programme - Jerash",
+          "Jerash Climate and Visual Arts Conference"
+        ]
+      }
+    ]
+  },
+  "paths": {
+    "input": "01_input.json",
+    "knowledge": "02_retriever.json",
+    "knowledge_preview": "02_retriever_preview.json",
+    "output": "03_output.json"
+  }
+}

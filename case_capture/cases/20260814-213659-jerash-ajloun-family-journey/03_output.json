@@ -1,0 +1,355 @@
+{
+  "metadata": {
+    "model": "gpt-oss:20b-cloud",
+    "provider": "ollama",
+    "mode": "build",
+    "latencyMs": 123860.29,
+    "retries": 0,
+    "caseId": null,
+    "rag": {
+      "status": "ok",
+      "source": "retriever",
+      "duration_days": 3,
+      "cluster_count": 3,
+      "clusters": [
+        {
+          "cluster_id": 0,
+          "theme": "Balqa Governorate · nature, history",
+          "poi_count": 10,
+          "hotel_count": 4,
+          "event_count": 3,
+          "poi_names": [
+            "Zain Al-Sharaf Nature Reserve",
+            "Wadi Shueib Scenic Road and Stream",
+            "Burin Forest Park",
+            "Abu Jaber Museum",
+            "Al-Fuheis Heritage Quarter",
+            "Zai Forest Picnic Area",
+            "Fuheis Heritage Quarter (Al-Fuheis Old Town)",
+            "As-Salt Heritage Trail Starting Point",
+            "Zarqa River Eco-Trail Pathway",
+            "Fuheis Cultural Centre"
+          ],
+          "hotel_names": [
+            "Beit Aziz Boutique Hotel",
+            "Saltus Hotel",
+            "Jordan Heritage Madhafa",
+            "Saraya Locanda"
+          ],
+          "sample_restaurants": [
+            "Sitt Inaya Heritage House",
+            "Bab Al-Hara Restaurant Salt",
+            "Al Ghabah Restaurant",
+            "Jordan Heritage Restaurant Salt",
+            "Baladna Restaurant",
+            "Al Deyafa Tourist Restaurant"
+          ],
+          "event_names": [
+            "Fuheis Festival",
+            "Eid Evenings - Balqa",
+            "Jordan Summer Festival - Balqa"
+          ]
+        },
+        {
+          "cluster_id": 1,
+          "theme": "Jerash Governorate · history, nature",
+          "poi_count": 10,
+          "hotel_count": 4,
+          "event_count": 3,
+          "poi_names": [
+            "Hippodrome of Jerash",
+            "Al-Kittah Village and Springs",
+            "Al-Mustaba Eco-Park",
+            "Dibbeen Forest Reserve",
+            "Al-Rumman Forest Recreation Area",
+            "Zarqa River Thermal Springs",
+            "Zarqa River Valley Overlook",
+            "Ain Al-Basha Public Park",
+            "Zarqa River Bridge Historic Site",
+            "Ain Al-Basha Public Library and Cultural Hub"
+          ],
+          "hotel_names": [
+            "Celestia Boutique Inn",
+            "The Olive Branch Hotel",
+            "Jerash Hotel",
+            "Dream House Hotel Apartments"
+          ],
+          "sample_restaurants": [
+            "Roman Bridge Restaurant",
+            "Green Valley Restaurant Jerash",
+            "Jerash Olive Grove Grill",
+            "Jerash Canyon Restaurant",
+            "Al Ghabah Restaurant",
+            "Al Deyafa Tourist Restaurant"
+          ],
+          "event_names": [
+            "Jerash Festival for Culture and Arts",
+            "National Celebrations Programme - Jerash",
+            "Aesthetics of Place Cultural Programme - Jerash"
+          ]
+        },
+        {
+          "cluster_id": 2,
+          "theme": "Ajloun Governorate · nature, history",
+          "poi_count": 10,
+          "hotel_count": 4,
+          "event_count": 3,
+          "poi_names": [
+            "Wadi Rayyan",
+            "Wadi Shamali Viewpoint",
+            "Ajloun Forest Reserve",
+            "Al-Karakah Nature Trail",
+            "Mazar Al-Shamali Forest Reserve",
+            "Wadi Jirim",
+            "Wadi Zqlab Oak Canopy Trail",
+            "Wadi Al-Arayan",
+            "Tell Johfiyeh",
+            "Natural History Museum at Yarmouk University"
+          ],
+          "hotel_names": [
+            "Al-Jabal Castle Hotel - Ajloun",
+            "Ajloun Hotel",
+            "Ajloun Forest Reserve",
+            "Al Ghazal Villas"
+          ],
+          "sample_restaurants": [
+            "Rasoun Heritage House Restaurant",
+            "Ajloun Forest Reserve Restaurant",
+            "Royal Academy for Nature Protection Restaurant",
+            "Ajloun Castle Restaurant",
+            "Ras Mounif Pine Forest Rest House",
+            "Al Rayyan Valley Cafe & Restaurant"
+          ],
+          "event_names": [
+            "Mar Elias Celebration",
+            "National Celebrations Programme - Ajloun",
+            "Ajloun Ramadan Family and Children Carnival"
+          ]
+        }
+      ]
+    }
+  },
+  "package": {
+    "welcome_message": "Welcome to your family-friendly Jordan adventure!",
+    "why_you_will_love_this": {
+      "highlights": [
+        "Hippodrome of Jerash",
+        "Al-Mustaba Eco-Park",
+        "Wadi Rayyan",
+        "Ajloun Forest Reserve"
+      ],
+      "special_touches": [
+        "Local Jordanian cuisine at Roman Bridge Restaurant",
+        "Family-friendly dining at Al Ghabah Restaurant"
+      ]
+    },
+    "trip_title": "Jerash & Ajloun Family Journey",
+    "trip_description": {
+      "overview": "A 3-day exploration of Jordan's historic Jerash and natural Ajloun, featuring iconic sites, family-friendly activities, and authentic local dining.",
+      "included": [
+        "Historic sites, nature parks, local restaurants, 4-star hotel in Jerash, 2-star hotel in Ajloun"
+      ],
+      "not_included": [
+        "Transportation, events, guided tours"
+      ]
+    },
+    "trip_details": {
+      "duration": {
+        "days": "3",
+        "nights": "2"
+      },
+      "trip_type": [
+        "family",
+        "history",
+        "nature"
+      ],
+      "number_of_travelers": "4",
+      "budget": {
+        "amount": "1000",
+        "currency": "JOD"
+      }
+    },
+    "daily_itinerary": [
+      {
+        "day_number": "1",
+        "day_title": "Jerash Historic Morning",
+        "day_summary": "Explore the Roman heritage of Jerash and enjoy a family lunch.",
+        "activities": [
+          {
+            "start_time": "09:00",
+            "end_time": "09:30",
+            "activity_title": "Hippodrome of Jerash",
+            "description": "Visit the ancient Roman arena",
+            "location": "Hippodrome of Jerash",
+            "estimated_cost": "40 JOD",
+            "smart_tip": "Entry fee 10 JOD per person, booking not required"
+          },
+          {
+            "start_time": "12:30",
+            "end_time": "13:30",
+            "activity_title": "Lunch at Roman Bridge Restaurant",
+            "description": "Family-friendly Jordanian lunch",
+            "location": "Roman Bridge Restaurant",
+            "estimated_cost": "56 JOD",
+            "smart_tip": "Average cost 14 JOD per person"
+          },
+          {
+            "start_time": "14:00",
+            "end_time": "15:30",
+            "activity_title": "Al-Mustaba Eco-Park",
+            "description": "Picnic and nature walk",
+            "location": "Al-Mustaba Eco-Park",
+            "estimated_cost": "4 JOD",
+            "smart_tip": "Entry fee 1 JOD per person"
+          },
+          {
+            "start_time": "18:30",
+            "end_time": "20:00",
+            "activity_title": "Dinner at Roman Bridge Restaurant",
+            "description": "Evening Jordanian dinner",
+            "location": "Roman Bridge Restaurant",
+            "estimated_cost": "56 JOD",
+            "smart_tip": "Average cost 14 JOD per person"
+          }
+        ],
+        "activity_alternatives": [
+          {
+            "original_activity": "Al-Mustaba Eco-Park",
+            "alternative_activity": "Dibbeen Forest Reserve",
+            "reason": "If Al-Mustaba is closed or full"
+          }
+        ]
+      },
+      {
+        "day_number": "2",
+        "day_title": "Jerash Culture & Nature",
+        "day_summary": "Discover more of Jerash's heritage and enjoy a scenic dinner.",
+        "activities": [
+          {
+            "start_time": "09:00",
+            "end_time": "09:30",
+            "activity_title": "Hippodrome of Jerash",
+            "description": "Revisit the Roman arena",
+            "location": "Hippodrome of Jerash",
+            "estimated_cost": "40 JOD",
+            "smart_tip": "Entry fee 10 JOD per person, booking not required"
+          },
+          {
+            "start_time": "12:30",
+            "end_time": "13:30",
+            "activity_title": "Lunch at Roman Bridge Restaurant",
+            "description": "Family-friendly Jordanian lunch",
+            "location": "Roman Bridge Restaurant",
+            "estimated_cost": "56 JOD",
+            "smart_tip": "Average cost 14 JOD per person"
+          },
+          {
+            "start_time": "14:00",
+            "end_time": "15:30",
+            "activity_title": "Al-Kittah Village and Springs",
+            "description": "Explore local springs and olive groves",
+            "location": "Al-Kittah Village and Springs",
+            "estimated_cost": "0 JOD",
+            "smart_tip": "Free entry, no booking required"
+          },
+          {
+            "start_time": "18:30",
+            "end_time": "20:00",
+            "activity_title": "Dinner at Roman Bridge Restaurant",
+            "description": "Evening Jordanian dinner",
+            "location": "Roman Bridge Restaurant",
+            "estimated_cost": "56 JOD",
+            "smart_tip": "Average cost 14 JOD per person"
+          }
+        ],
+        "activity_alternatives": [
+          {
+            "original_activity": "Al-Kittah Village and Springs",
+            "alternative_activity": "Al-Mustaba Eco-Park",
+            "reason": "If Al-Kittah is closed or full"
+          }
+        ]
+      },
+      {
+        "day_number": "3",
+        "day_title": "Ajloun Nature Escape",
+        "day_summary": "Enjoy the natural beauty of Ajloun and relax in a local hotel.",
+        "activities": [
+          {
+            "start_time": "09:00",
+            "end_time": "10:30",
+            "activity_title": "Wadi Rayyan",
+            "description": "Hike through the valley and watermill ruins",
+            "location": "Wadi Rayyan",
+            "estimated_cost": "0 JOD",
+            "smart_tip": "Free entry, no booking required"
+          },
+          {
+            "start_time": "12:30",
+            "end_time": "13:30",
+            "activity_title": "Lunch at Ajloun Forest Reserve Restaurant",
+            "description": "Family-friendly Jordanian lunch",
+            "location": "Ajloun Forest Reserve Restaurant",
+            "estimated_cost": "48 JOD",
+            "smart_tip": "Average cost 12 JOD per person"
+          },
+          {
+            "start_time": "14:00",
+            "end_time": "15:30",
+            "activity_title": "Ajloun Forest Reserve",
+            "description": "Explore the forest and picnic spots",
+            "location": "Ajloun Forest Reserve",
+            "estimated_cost": "20 JOD",
+            "smart_tip": "Entry fee 5 JOD per person"
+          },
+          {
+            "start_time": "18:30",
+            "end_time": "20:00",
+            "activity_title": "Dinner at Ajloun Forest Reserve Restaurant",
+            "description": "Evening Jordanian dinner",
+            "location": "Ajloun Forest Reserve Restaurant",
+            "estimated_cost": "48 JOD",
+            "smart_tip": "Average cost 12 JOD per person"
+          }
+        ],
+        "activity_alternatives": [
+          {
+            "original_activity": "Ajloun Forest Reserve",
+            "alternative_activity": "Ajloun Forest Reserve Restaurant",
+            "reason": "If the park is closed or full"
+          }
+        ]
+      }
+    ],
+    "budget_summary": {
+      "items": [
+        {
+          "category": "Accommodation",
+          "estimated_cost": "Not Available",
+          "notes": "2 night(s) requested as a 4 star hotel — no grounded nightly rate was returned, so no lodging cost is claimed here"
+        },
+        {
+          "category": "Meals",
+          "estimated_cost": "320 JOD",
+          "notes": "Sum of the meals scheduled in the itinerary"
+        },
+        {
+          "category": "Activities & Entry Fees",
+          "estimated_cost": "104 JOD",
+          "notes": "Sum of the entry fees scheduled in the itinerary"
+        },
+        {
+          "category": "Remaining Budget",
+          "estimated_cost": "576 JOD",
+          "notes": "Against the 1000 JOD ceiling, before lodging and transport between areas, which this plan does not price"
+        }
+      ],
+      "total_estimated_cost": "424 JOD"
+    },
+    "essential_travel_tips": [],
+    "explanations": {
+      "trip_planning_reason": "Route follows retrieved places matching the traveler preferences.",
+      "selection_reason": "Activities and dining taken from retrieved EntityCards."
+    }
+  }
+}

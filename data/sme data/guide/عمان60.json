@@ -1,0 +1,4143 @@
+[
+  {
+    "sme_id": "SME-000001",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Ibrahim Al-Zubi",
+      "description": "Licensed freelance professional tour guide specializing in the rich history, Roman ruins, and cultural heritage of Amman and its surrounding archaeological sites.",
+      "experience_years": 12,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Culture", "Archaeology", "Religious Sites"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+96265000001",
+      "mobile": "+962790000001",
+      "email": "ibrahim.zubi.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000001"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Downtown Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Amman Citadel", "Roman Theater", "Downtown Amman", "Umm Al-Jimal", "Jerash"],
+      "preferred_destinations": "Amman Governorate and central historical sites"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Tour Planning & Itinerary Design", "Custom Itineraries", "Private Tours", "Group Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "08:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 70,
+      "max_price": 120,
+      "notes": "Rates vary based on group size and specific itinerary duration."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 42,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000002",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Rania Haddad",
+      "description": "Experienced local tourist guide focusing on Amman's art scene, culinary traditions, local markets, and modern cultural evolution.",
+      "experience_years": 8,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Food", "Culture", "Art", "Shopping", "Local Experiences"],
+      "target_customer_types": ["Couples", "Solo Travelers", "Families"]
+    },
+    "contact": {
+      "phone": "+96265000002",
+      "mobile": "+962790000002",
+      "email": "rania.haddad.tours@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000002"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Jabal Amman, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Rainbow Street", "Jabal Weibdeh", "Downtown Souks", "Amman Art Galleries"],
+      "preferred_destinations": "Amman urban centers and cultural districts"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "French"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Local Guides", "Specialized Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "working_hours": "09:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 10,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 50,
+      "max_price": 90,
+      "notes": "Includes food tasting stops on culinary walking tours."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Food & Culinary", "Local Experiences", "History & Culture"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 35,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000003",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Tariq Al-Masri",
+      "description": "Professional archaeological and historical tour guide offering immersive educational tours across Amman's ancient landmarks and museums.",
+      "experience_years": 15,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Archaeology", "Religious Sites"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+96265000003",
+      "mobile": "+962790000003",
+      "email": "tariq.masri.guide@outlook.com",
+      "website": null,
+      "whatsapp": "+962790000003"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Shmeisani, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Jordan Museum", "Citadel Hill", "Iraq Al-Amir", "Qasr Al-Abd"],
+      "preferred_destinations": "Amman Governorate museums and historical sites"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "German"],
+      "preferred_language": "German"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Custom Itineraries", "Private Tours", "Special Interest Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:30 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 20,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 80,
+      "max_price": 130,
+      "notes": "Special rates for academic and long-term historical tour groups."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "ArchaeologicalTourism"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 58,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000004",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Nour Obeidat",
+      "description": "Freelance local guide focusing on nature walks, hiking trails, and eco-tourism experiences around the outskirts of Amman and nearby valleys.",
+      "experience_years": 6,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Nature", "Hiking", "Camping", "Photography"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+96265000004",
+      "mobile": "+962790000004",
+      "email": "nour.obeidat.hikes@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000004"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Khalda, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Zarqa River Valley trails", "Amman forest reserves", "Sweileh rural tracks"],
+      "preferred_destinations": "Natural trails and green spaces near Amman"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Adventure Activities", "Private Tours", "Group Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Professional Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Friday", "Saturday", "Sunday", "Thursday"],
+      "working_hours": "07:00 - 16:00"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 25,
+      "max_price": 50,
+      "notes": "Includes trail snacks and basic safety gear."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Nature", "Soft Adventure", "Hiking & Trekking"]
+    },
+    "reviews": {
+      "rating": 4.7,
+      "review_count": 29,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000005",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Zaid Al-Khatib",
+      "description": "Licensed tourist guide providing comprehensive city tours, religious heritage tours, and custom itineraries throughout Amman.",
+      "experience_years": 10,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Religious Sites", "Culture", "Architecture"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+96265000005",
+      "mobile": "+962790000005",
+      "email": "zaid.khatib.guide@yahoo.com",
+      "website": null,
+      "whatsapp": "+962790000005"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Al-Sweifieh, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["King Abdullah I Mosque", "Grand Husseini Mosque", "Roman Nymphaeum", "Downtown Amman"],
+      "preferred_destinations": "Amman Governorate city center and religious landmarks"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Spanish"],
+      "preferred_language": "Spanish"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Religious Tours", "Private Tours", "Custom Itineraries"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 30,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 75,
+      "max_price": 110,
+      "notes": "Full day guiding service across Amman historical highlights."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Religious Tourism"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 38,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000006",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Lina Mansour",
+      "description": "Specialized cultural and photography guide helping visitors capture the authentic beauty, vibrant street life, and hidden corners of Amman.",
+      "experience_years": 7,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Photography", "Culture", "Shopping", "Local Experiences"],
+      "target_customer_types": ["Solo Travelers", "Couples"]
+    },
+    "contact": {
+      "phone": "+96265000006",
+      "mobile": "+962790000006",
+      "email": "lina.mansour.photo@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000006"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Jabal Luweibdeh, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Luweibdeh art hubs", "Gold Souk", "Al-Balad alleys", "Hashemite Plaza"],
+      "preferred_destinations": "Amman cultural and photographic hotspots"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Special Interest Tours", "Private Tours", "Cultural Experiences"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Specialized Guides", "Local Guides", "Professional Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "10:00 - 19:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 6,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 60,
+      "max_price": 100,
+      "notes": "Combines guided walking tour with photography tips and spots."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 5.0,
+      "review_count": 24,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000007",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Khaled Al-Momani",
+      "description": "Professional freelance tourist guide with extensive knowledge of Jordan's northern and central archaeological sites, operating primarily from Amman.",
+      "experience_years": 14,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Archaeology", "Culture"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+96265000007",
+      "mobile": "+962790000007",
+      "email": "khaled.momani.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000007"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Jabal Al-Hussein, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Amman Citadel", "Jerash", "Umm Qais", "Ajloun Castle"],
+      "preferred_destinations": "Amman and surrounding northern archaeological zones"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Italian"],
+      "preferred_language": "Italian"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Private Tours", "Custom Itineraries", "Tour Planning & Itinerary Design"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "08:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 30,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 80,
+      "max_price": 140,
+      "notes": "Standard daily guide fee for licensed historical tours."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 51,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000008",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Yasmin Nabulsi",
+      "description": "Local food and cultural guide offering immersive walking tours through traditional markets, spice shops, and heritage eateries in Amman.",
+      "experience_years": 5,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Food", "Culture", "Shopping", "Local Experiences"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+96265000008",
+      "mobile": "+962790000008",
+      "email": "yasmin.nabulsi.tours@outlook.com",
+      "website": null,
+      "whatsapp": "+962790000008"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Abdoun, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Downtown Amman food stalls", "Al-Bukhari Market", "Souk Jara", "Traditional coffee houses"],
+      "preferred_destinations": "Amman central markets and culinary spots"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Professional Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "working_hours": "10:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 12,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 35,
+      "max_price": 70,
+      "notes": "Includes multiple food tastings and beverage samples."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Food & Culinary", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 31,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000009",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Samer Qudah",
+      "description": "Certified independent tourist guide specializing in Amman's architectural history, museums, and multi-cultural heritage layers.",
+      "experience_years": 11,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Art", "Culture", "Architecture"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+96265000009",
+      "mobile": "+962790000009",
+      "email": "samer.qudah.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000009"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Jabal Amman, 1st Circle, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Darat Al Funun", "Jordan National Gallery of Fine Arts", "Amman Citadel", "Roman Theater"],
+      "preferred_destinations": "Amman cultural landmarks and historical museums"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "German"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Private Tours", "Custom Itineraries", "Special Interest Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "09:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 75,
+      "max_price": 125,
+      "notes": "Customized rate available for multi-day museum and art tours."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 45,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000010",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Dina Jaber",
+      "description": "Independent local guide providing bespoke walking tours of Amman's heritage neighborhoods, craft workshops, and community spaces.",
+      "experience_years": 6,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Culture", "Shopping", "Local Experiences", "Art"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+96265000010",
+      "mobile": "+962790000010",
+      "email": "dina.jaber.tours@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000010"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Jabal Luweibdeh, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Luweibdeh cultural cafes", "Downtown artisan shops", "Paris Square", "King Faisal Street"],
+      "preferred_destinations": "Amman heritage neighborhoods and creative quarters"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "French"],
+      "preferred_language": "French"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Professional Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "09:30 - 17:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 10,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 45,
+      "max_price": 85,
+      "notes": "Includes neighborhood map and curated artisanal shopping guide."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Local Experiences", "History & Culture"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 27,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000011",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Ahmad Al-Tweissi",
+      "description": "Licensed tourist guide specializing in classical historical routes, Roman antiquities, and Hashemite Kingdom heritage across Amman.",
+      "experience_years": 13,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Archaeology", "Culture"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+96265000011",
+      "mobile": "+962790000011",
+      "email": "ahmad.tweissi.guide@yahoo.com",
+      "website": null,
+      "whatsapp": "+962790000011"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Abu Nseir, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Amman Citadel", "Roman Theater", "Byzantine Church ruins", "Royal Automobile Museum"],
+      "preferred_destinations": "Amman historical monuments and museums"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "German"],
+      "preferred_language": "German"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Private Tours", "Custom Itineraries", "Tour Planning & Itinerary Design"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 30,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 80,
+      "max_price": 130,
+      "notes": "Full day comprehensive archaeological and city tour guiding."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 49,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000012",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Reem Kanaan",
+      "description": "Independent local guide offering intimate cultural walks, heritage storytelling, and traditional market tours in downtown Amman.",
+      "experience_years": 6,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Culture", "Shopping", "Food", "Local Experiences"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+96265000012",
+      "mobile": "+962790000012",
+      "email": "reem.kanaan.tours@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000012"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Jabal Al-Webdeh, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Al-Balad souks", "Gold market", "Spice street", "Roman Amphitheater plaza"],
+      "preferred_destinations": "Amman old town and traditional commercial districts"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Professional Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "09:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 10,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 40,
+      "max_price": 80,
+      "notes": "Customized walking tour featuring historical anecdotes of Amman."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Local Experiences", "History & Culture"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 33,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000013",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Faisal Al-Majali",
+      "description": "Professional licensed tour guide with a deep focus on Jordanian political history, modern development, and central landmark tours.",
+      "experience_years": 16,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Culture", "Museums"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+96265000013",
+      "mobile": "+962790000013",
+      "email": "faisal.majali.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000013"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Zahran, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["The Jordan Museum", "Parliament area monuments", "Amman Citadel", "Raghadan Palace view points"],
+      "preferred_destinations": "Amman governmental and historical heritage zones"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "French"],
+      "preferred_language": "French"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Private Tours", "Custom Itineraries", "Special Interest Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 30,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 90,
+      "max_price": 150,
+      "notes": "Senior guide rate for specialized political and historical groups."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture"]
+    },
+    "reviews": {
+      "rating": 5.0,
+      "review_count": 62,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000014",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Hiba Tarawneh",
+      "description": "Freelance nature and hiking guide leading outdoor trekking adventures in the valleys and hills surrounding Amman Governorate.",
+      "experience_years": 7,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Nature", "Hiking", "Camping", "Photography"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+96265000014",
+      "mobile": "+962790000014",
+      "email": "hiba.tarawneh.hikes@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000014"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Tla'a Al-Ali, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Wadi Shueib trails", "Zarqa river basin", "Amman surrounding hills"],
+      "preferred_destinations": "Natural trekking paths around Amman and central Jordan"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Adventure Activities", "Private Tours", "Group Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Professional Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Thursday", "Friday", "Saturday", "Sunday"],
+      "working_hours": "07:00 - 16:00"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 25,
+      "max_price": 55,
+      "notes": "Group rates available for weekend hiking excursions."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Nature", "Soft Adventure", "Hiking & Trekking"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 36,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000015",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Mustafa Al-Banna",
+      "description": "Licensed tourist guide providing expert historical commentary on Amman's Roman, Byzantine, and Islamic heritage sites.",
+      "experience_years": 9,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Archaeology", "Religious Sites"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+96265000015",
+      "mobile": "+962790000015",
+      "email": "mustafa.banna.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000015"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Jabal Al-Nuzha, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Amman Citadel Temple of Hercules", "Umayyad Palace", "Roman Theater", "Abu Darweesh Mosque"],
+      "preferred_destinations": "Amman Governorate historical and religious landmarks"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Russian"],
+      "preferred_language": "Russian"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Private Tours", "Custom Itineraries", "Religious Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:30 - 17:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 75,
+      "max_price": 120,
+      "notes": "Professional guiding for individuals and tour groups."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 4.7,
+      "review_count": 30,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000016",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Suhaib Khasawneh",
+      "description": "Certified freelance guide specializing in cultural heritage, museum exhibitions, and architectural tours throughout Amman city.",
+      "experience_years": 8,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Art", "Culture", "Architecture"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+96265000016",
+      "mobile": "+962790000016",
+      "email": "suhaib.khasawneh.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000016"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Jabal Al-Hussein, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["The Jordan Museum", "Martyrs' Memorial", "Amman Citadel", "Downtown heritage sites"],
+      "preferred_destinations": "Amman cultural and historical attractions"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Private Tours", "Custom Itineraries", "Cultural Experiences"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "09:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 20,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 70,
+      "max_price": 110,
+      "notes": "Standard daily guiding fee."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 28,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000017",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Nadia Al-Bakri",
+      "description": "Local culinary and cultural tour guide offering deep-dive walking experiences into Amman's traditional food markets and bakeries.",
+      "experience_years": 5,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Food", "Culture", "Shopping", "Local Experiences"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+96265000017",
+      "mobile": "+962790000017",
+      "email": "nadia.bakri.tours@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000017"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Jabal Amman, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Downtown Amman spice shops", "Traditional sweet shops", "Souk Al-Sukar", "Local tea houses"],
+      "preferred_destinations": "Amman food markets and heritage areas"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Spanish"],
+      "preferred_language": "Spanish"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "working_hours": "10:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 10,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 40,
+      "max_price": 75,
+      "notes": "Includes food tastings and guided market interaction."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Food & Culinary", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 39,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000018",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Zuhair Al-Assaf",
+      "description": "Licensed freelance tourist guide expert in Jordan's archaeological history, ancient civilizations, and capital city landmarks.",
+      "experience_years": 15,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Archaeology", "Culture"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+96265000018",
+      "mobile": "+962790000018",
+      "email": "zuhair.assaf.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000018"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Sweileh, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Amman Citadel", "Roman Theater", "Iraq Al-Amir caves", "Nearby Roman ruins"],
+      "preferred_destinations": "Amman Governorate archaeological sites"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "French"],
+      "preferred_language": "French"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Private Tours", "Custom Itineraries", "Tour Planning & Itinerary Design"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 30,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 85,
+      "max_price": 140,
+      "notes": "Professional guide rates for comprehensive historical tours."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 55,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000019",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Maha Shoman",
+      "description": "Independent local guide offering art, architecture, and contemporary cultural walking tours across Amman's creative districts.",
+      "experience_years": 7,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Art", "Culture", "Architecture", "Local Experiences"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+96265000019",
+      "mobile": "+962790000019",
+      "email": "maha.shoman.tours@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000019"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Jabal Luweibdeh, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Luweibdeh art galleries", "Local studios", "Staircase murals", "Cultural centers"],
+      "preferred_destinations": "Amman artsy neighborhoods and galleries"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Italian"],
+      "preferred_language": "Italian"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "10:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 12,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 50,
+      "max_price": 90,
+      "notes": "Includes gallery visits and meeting local artists."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 32,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000020",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Iyad Al-Ramahi",
+      "description": "Licensed tourist guide providing professional historical and religious sightseeing tours across Amman and central governorate landmarks.",
+      "experience_years": 11,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Religious Sites", "Culture", "Archaeology"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+96265000020",
+      "mobile": "+962790000020",
+      "email": "iyad.ramahi.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000020"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Jabal Al-Weibdeh, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["King Abdullah I Mosque", "Amman Citadel", "Roman Theater", "Downtown historical mosques and churches"],
+      "preferred_destinations": "Amman Governorate historical and religious sites"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "German"],
+      "preferred_language": "German"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Religious Tours", "Private Tours", "Custom Itineraries"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 75,
+      "max_price": 120,
+      "notes": "Daily guide rates for cultural and religious itineraries."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Religious Tourism"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 41,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000021",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Sawsan Oudeh",
+      "description": "Freelance local tour guide specializing in Amman's folk heritage, traditional crafts, and vibrant community stories.",
+      "experience_years": 6,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Culture", "Shopping", "Local Experiences", "History"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+96265000021",
+      "mobile": "+962790000021",
+      "email": "sawsan.oudeh.tours@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000021"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Jabal Amman, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Souk Jara", "Downtown traditional workshops", "Hashemite Plaza", "Old Amman stairs"],
+      "preferred_destinations": "Amman traditional markets and heritage quarters"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Professional Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "working_hours": "09:30 - 17:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 10,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 40,
+      "max_price": 75,
+      "notes": "Guided cultural walk through Amman old neighborhoods."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Local Experiences", "History & Culture"]
+    },
+    "reviews": {
+      "rating": 4.7,
+      "review_count": 26,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000022",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Bassem Al-Husseini",
+      "description": "Licensed professional tourist guide with expert knowledge in Levant archaeology, Roman architecture, and Amman city landmarks.",
+      "experience_years": 14,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Archaeology", "Culture"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+96265000022",
+      "mobile": "+962790000022",
+      "email": "bassem.husseini.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000022"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Khalda, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Amman Citadel", "Roman Theater", "Qasr Al-Abid", "Iraq Al-Amir"],
+      "preferred_destinations": "Amman Governorate archaeological sites"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "French"],
+      "preferred_language": "French"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Private Tours", "Custom Itineraries", "Tour Planning & Itinerary Design"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 30,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 80,
+      "max_price": 135,
+      "notes": "Standard daily rates for licensed heritage guiding."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 48,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000023",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Laila Shamma",
+      "description": "Freelance local guide specializing in outdoor nature trails, green escapes, and soft hiking experiences around Amman's periphery.",
+      "experience_years": 6,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Nature", "Hiking", "Camping", "Photography"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+96265000023",
+      "mobile": "+962790000023",
+      "email": "laila.shamma.hikes@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000023"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Abdoun, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Zarqa river valley tracks", "Amman surrounding hills", "Local nature reserves"],
+      "preferred_destinations": "Natural walking trails near Amman"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Adventure Activities", "Private Tours", "Group Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Professional Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Thursday", "Friday", "Saturday", "Sunday"],
+      "working_hours": "07:00 - 16:00"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 25,
+      "max_price": 50,
+      "notes": "Guided hiking excursions with trail refreshments."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Nature", "Soft Adventure", "Hiking & Trekking"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 34,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000024",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Rami Nazzal",
+      "description": "Licensed tourist guide providing professional city sightseeing, historical landmarks, and custom cultural itineraries in Amman.",
+      "experience_years": 10,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Culture", "Architecture"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+96265000024",
+      "mobile": "+962790000024",
+      "email": "rami.nazzal.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000024"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Shmeisani, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Amman Citadel", "Roman Theater", "Jordan Museum", "Downtown Amman"],
+      "preferred_destinations": "Amman historical city center and museums"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "German"],
+      "preferred_language": "German"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Private Tours", "Custom Itineraries", "Tour Planning & Itinerary Design"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:30 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 75,
+      "max_price": 120,
+      "notes": "Daily tour guiding fee for historical and cultural sites."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 37,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000025",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Amal Haddadin",
+      "description": "Independent local guide offering food-tasting walks, traditional market tours, and cultural storytelling in Amman.",
+      "experience_years": 5,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Food", "Culture", "Shopping", "Local Experiences"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+96265000025",
+      "mobile": "+962790000025",
+      "email": "amal.haddadin.tours@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000025"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Jabal Amman, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Downtown food spots", "Souk Al-Sukar", "Traditional sweet shops", "Rainbow Street cafes"],
+      "preferred_destinations": "Amman culinary and shopping districts"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "French"],
+      "preferred_language": "French"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "working_hours": "10:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 10,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 35,
+      "max_price": 70,
+      "notes": "Includes food samples and market walkthrough."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Food & Culinary", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 30,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000026",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Nizar Abu-Ghazaleh",
+      "description": "Licensed tourist guide specializing in classical archaeological excavations, ancient history, and museum tours in Amman.",
+      "experience_years": 12,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Archaeology", "Culture"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+96265000026",
+      "mobile": "+962790000026",
+      "email": "nizar.abughazaleh.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000026"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Al-Sweifieh, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Amman Citadel", "Jordan Museum", "Roman Theater", "Umayyad archaeological sites"],
+      "preferred_destinations": "Amman archaeological and historical landmarks"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Italian"],
+      "preferred_language": "Italian"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Private Tours", "Custom Itineraries", "Tour Planning & Itinerary Design"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 30,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 80,
+      "max_price": 130,
+      "notes": "Standard daily guiding rates for archaeological tours."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 44,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000027",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Suha Naffa",
+      "description": "Independent local guide offering photography walks, heritage street tours, and cultural discoveries in Amman old neighborhoods.",
+      "experience_years": 6,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Photography", "Culture", "Art", "Local Experiences"],
+      "target_customer_types": ["Solo Travelers", "Couples"]
+    },
+    "contact": {
+      "phone": "+96265000027",
+      "mobile": "+962790000027",
+      "email": "suha.naffa.photo@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000027"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Jabal Luweibdeh, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Luweibdeh stairs and murals", "Downtown historic alleys", "Gold market", "Hashemite Plaza"],
+      "preferred_destinations": "Amman photographic spots and artistic quarters"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Special Interest Tours", "Private Tours", "Cultural Experiences"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Professional Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "10:00 - 19:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 6,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 55,
+      "max_price": 95,
+      "notes": "Includes guided walking tour and photography composition tips."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 5.0,
+      "review_count": 22,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000028",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Yousef Al-Bataineh",
+      "description": "Licensed professional tourist guide with expertise in religious history, ancient monuments, and museum tours across Amman.",
+      "experience_years": 10,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Religious Sites", "Culture", "Archaeology"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+96265000028",
+      "mobile": "+962790000028",
+      "email": "yousef.bataineh.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000028"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Tla'a Al-Ali, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["King Abdullah I Mosque", "Amman Citadel churches and temples", "Roman Theater", "Jordan Museum"],
+      "preferred_destinations": "Amman religious and historical sites"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Spanish"],
+      "preferred_language": "Spanish"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Religious Tours", "Private Tours", "Custom Itineraries"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:30 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 75,
+      "max_price": 120,
+      "notes": "Daily guide fee for historical and religious itineraries."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Religious Tourism"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 39,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000029",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Rania Qasem",
+      "description": "Independent local guide specializing in community heritage walking tours, artisan markets, and cultural storytelling in Amman.",
+      "experience_years": 6,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Culture", "Shopping", "Local Experiences", "History"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+96265000029",
+      "mobile": "+962790000029",
+      "email": "rania.qasem.tours@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000029"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Jabal Amman, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Souk Jara", "Downtown artisan stalls", "Old Amman staircases", "Traditional cafes"],
+      "preferred_destinations": "Amman heritage neighborhoods and traditional markets"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "French"],
+      "preferred_language": "French"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "working_hours": "09:30 - 17:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 10,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 40,
+      "max_price": 80,
+      "notes": "Customized cultural walking tours through old Amman."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Local Experiences", "History & Culture"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 29,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000030",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Tariq Al-Hindawi",
+      "description": "Licensed professional tour guide with extensive experience in classical Jordanian archaeology, capital history, and customized heritage tours.",
+      "experience_years": 15,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Archaeology", "Culture"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+96265000030",
+      "mobile": "+962790000030",
+      "email": "tariq.hindawi.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000030"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Sweileh, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Amman Citadel", "Roman Theater", "Umm Al-Jimal", "Jerash ruins"],
+      "preferred_destinations": "Amman and central historical archaeological sites"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "German"],
+      "preferred_language": "German"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Private Tours", "Custom Itineraries", "Tour Planning & Itinerary Design"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 30,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 90,
+      "max_price": 150,
+      "notes": "Senior licensed guide rates for extensive archaeological day tours."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 5.0,
+      "review_count": 65,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  [
+  {
+    "sme_id": "SME-000031",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Marwan Al-Abadi",
+      "description": "Expert licensed historical guide specializing in deep archaeological research tours, Nabatean and Roman influences, and Amman's ancient heritage networks.",
+      "experience_years": 16,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Archaeology", "Culture"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+96265000031",
+      "mobile": "+962790000031",
+      "email": "marwan.abadi.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000031"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Jabal Al-Hussein, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Amman Citadel", "Roman Theater", "Qasr Al-Hallabat", "Qasr Amra"],
+      "preferred_destinations": "Amman Governorate and desert castles perimeter"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "German"],
+      "preferred_language": "German"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Private Tours", "Custom Itineraries", "Tour Planning & Itinerary Design"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 30,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 95,
+      "max_price": 160,
+      "notes": "Senior specialist guide rate for academic and deep archaeological excursions."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 5.0,
+      "review_count": 71,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000032",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Farah Darwish",
+      "description": "Independent freelance culinary guide offering immersive street food journeys and local coffee rituals across Amman's oldest quarters.",
+      "experience_years": 6,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Food", "Culture", "Shopping", "Local Experiences"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+96265000032",
+      "mobile": "+962790000032",
+      "email": "farah.darwish.tours@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000032"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Jabal Amman, 1st Circle, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Hashem Restaurant area", "Downtown local bakeries", "Souk Al-Blad", "Rainbow Street food joints"],
+      "preferred_destinations": "Amman urban food trails and culinary hotspots"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "French"],
+      "preferred_language": "French"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "working_hours": "10:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 10,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 40,
+      "max_price": 80,
+      "notes": "Includes comprehensive multi-stop food tastings and historical tidbits."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Food & Culinary", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 46,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000033",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Ziyad Al-Faroukh",
+      "description": "Licensed tourist guide providing professional sightseeing itineraries, religious history tracks, and royal heritage tours in Amman.",
+      "experience_years": 12,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Religious Sites", "Culture", "Architecture"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+96265000033",
+      "mobile": "+962790000033",
+      "email": "ziyad.faroukh.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000033"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Shmeisani, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["King Abdullah I Mosque", "Grand Husseini Mosque", "Amman Citadel", "Royal Automobile Museum"],
+      "preferred_destinations": "Amman cultural landmarks and religious monuments"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Italian"],
+      "preferred_language": "Italian"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Religious Tours", "Private Tours", "Custom Itineraries"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:30 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 80,
+      "max_price": 130,
+      "notes": "Standard daily professional guide tariff."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Religious Tourism"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 40,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000034",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Maysa Halasa",
+      "description": "Freelance art and culture guide offering curated gallery walks, modern art space tours, and creative district explorations in Amman.",
+      "experience_years": 7,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Art", "Culture", "Local Experiences", "Shopping"],
+      "target_customer_types": ["Solo Travelers", "Couples"]
+    },
+    "contact": {
+      "phone": "+96265000034",
+      "mobile": "+962790000034",
+      "email": "maysa.halasa.art@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000034"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Jabal Luweibdeh, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Darat Al Funun", "Jordan National Gallery of Fine Arts", "Independent local studios", "Luweibdeh exhibition hubs"],
+      "preferred_destinations": "Amman cultural quarters and artistic centers"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Spanish"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Special Interest Tours", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Specialized Guides", "Local Guides", "Professional Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "10:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 10,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 50,
+      "max_price": 95,
+      "notes": "Includes gallery entry coordination and local artist interactions."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 35,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000035",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Waleed Qteishat",
+      "description": "Licensed tourist guide specializing in classical antiquity, Roman architecture, and historical sightseeing across Amman Governorate.",
+      "experience_years": 11,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Archaeology", "Culture"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+96265000035",
+      "mobile": "+962790000035",
+      "email": "waleed.qteishat.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000035"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Khalda, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Amman Citadel", "Roman Theater", "Nymphaeum", "Umm Al-Jimal day sites"],
+      "preferred_destinations": "Amman classical and historical monuments"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "German"],
+      "preferred_language": "German"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Private Tours", "Custom Itineraries", "Tour Planning & Itinerary Design"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 30,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 75,
+      "max_price": 125,
+      "notes": "Standard daily guiding fee for historical tours."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 42,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000036",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Nourhane Sukhtian",
+      "description": "Freelance local guide specializing in outdoor soft hiking, nature conservation walks, and valley exploration trails near Amman.",
+      "experience_years": 5,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Nature", "Hiking", "Camping", "Photography"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+96265000036",
+      "mobile": "+962790000036",
+      "email": "nourhane.sukhtian.hikes@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000036"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Abdoun, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Zarqa River basin tracks", "Wadi Shueib trails", "Amman surrounding hills"],
+      "preferred_destinations": "Natural trekking paths around Amman Governorate"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Adventure Activities", "Private Tours", "Group Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Professional Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Thursday", "Friday", "Saturday", "Sunday"],
+      "working_hours": "07:00 - 16:00"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 25,
+      "max_price": 50,
+      "notes": "Includes guided hiking support and trail refreshments."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Nature", "Soft Adventure", "Hiking & Trekking"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 31,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000037",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Zuhair Al-Majali",
+      "description": "Licensed professional tourist guide with extensive expertise in Jordanian dynastic history, political landmarks, and museum tours.",
+      "experience_years": 14,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Culture", "Museums"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+96265000037",
+      "mobile": "+962790000037",
+      "email": "zuhair.majali.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000037"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Zahran, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["The Jordan Museum", "Amman Citadel", "Parliament district monuments", "Royal Automobile Museum"],
+      "preferred_destinations": "Amman historical, political, and museum landmarks"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "French"],
+      "preferred_language": "French"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Private Tours", "Custom Itineraries", "Special Interest Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 30,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 85,
+      "max_price": 140,
+      "notes": "Senior guide tariff for specialized cultural and historical groups."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 52,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000038",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Lina Al-Hassan",
+      "description": "Independent local guide specializing in heritage storytelling, traditional handicraft workshops, and Amman souk explorations.",
+      "experience_years": 6,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Culture", "Shopping", "Local Experiences", "History"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+96265000038",
+      "mobile": "+962790000038",
+      "email": "lina.hassan.tours@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000038"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Jabal Amman, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Souk Jara", "Gold Souk", "Downtown artisan alleys", "Hashemite Plaza"],
+      "preferred_destinations": "Amman traditional commercial quarters and old markets"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Professional Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "09:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 10,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 40,
+      "max_price": 75,
+      "notes": "Customized walking tour focusing on local handicrafts and heritage."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Local Experiences", "History & Culture"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 28,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000039",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Kamil Al-Tarawneh",
+      "description": "Licensed tourist guide expert in classical Levant archaeology, religious pilgrimage sites, and capital city historical narratives.",
+      "experience_years": 13,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Archaeology", "Religious Sites"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+96265000039",
+      "mobile": "+962790000039",
+      "email": "kamil.tarawneh.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000039"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Sweileh, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Amman Citadel", "Roman Theater", "Byzantine church remnants", "King Abdullah I Mosque"],
+      "preferred_destinations": "Amman historical, archaeological, and religious landmarks"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Italian"],
+      "preferred_language": "Italian"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Religious Tours", "Private Tours", "Custom Itineraries"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 30,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 80,
+      "max_price": 130,
+      "notes": "Standard daily professional rate for licensed guides."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism", "Religious Tourism"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 47,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000040",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Dana Sweiss",
+      "description": "Independent local guide offering photography-focused walking tours and urban exploration tracks across Amman's most picturesque staircases.",
+      "experience_years": 6,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Photography", "Culture", "Art", "Local Experiences"],
+      "target_customer_types": ["Solo Travelers", "Couples"]
+    },
+    "contact": {
+      "phone": "+96265000040",
+      "mobile": "+962790000040",
+      "email": "dana.sweiss.photo@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000040"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Jabal Luweibdeh, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Luweibdeh murals", "Downtown historic steps", "Rainbow Street viewpoints", "Citadel sunset spots"],
+      "preferred_destinations": "Amman photography hotspots and scenic viewpoints"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "French"],
+      "preferred_language": "French"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Special Interest Tours", "Private Tours", "Cultural Experiences"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Specialized Guides", "Local Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "10:00 - 19:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 6,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 50,
+      "max_price": 90,
+      "notes": "Includes guided urban walking tour with photography pointers."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 5.0,
+      "review_count": 25,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000041",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Hassan Al-Zoubi",
+      "description": "Licensed tourist guide specializing in classical historical routes, Roman antiquity, and custom heritage itineraries across Amman.",
+      "experience_years": 10,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Archaeology", "Culture"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+96265000041",
+      "mobile": "+962790000041",
+      "email": "hassan.zoubi.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000041"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Al-Sweifieh, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Amman Citadel", "Roman Theater", "Jordan Museum", "Downtown heritage landmarks"],
+      "preferred_destinations": "Amman historical sites and archaeological attractions"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "German"],
+      "preferred_language": "German"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Private Tours", "Custom Itineraries", "Tour Planning & Itinerary Design"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:30 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 75,
+      "max_price": 120,
+      "notes": "Standard daily tour guiding rates."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 38,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000042",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Randa Haddad",
+      "description": "Independent local guide providing immersive cultural tours, traditional spice market visits, and local food tastings in Amman.",
+      "experience_years": 5,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Food", "Culture", "Shopping", "Local Experiences"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+96265000042",
+      "mobile": "+962790000042",
+      "email": "randa.haddad.tours@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000042"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Jabal Amman, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Downtown spice shops", "Souk Al-Sukar", "Traditional sweet houses", "Rainbow Street"],
+      "preferred_destinations": "Amman culinary and traditional market districts"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Spanish"],
+      "preferred_language": "Spanish"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "working_hours": "10:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 10,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 35,
+      "max_price": 70,
+      "notes": "Includes food sampling and market walk guidance."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Food & Culinary", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 33,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000043",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Tariq Al-Nasser",
+      "description": "Licensed tourist guide specializing in classical archaeology, ancient Levant heritage, and capital city historical tours.",
+      "experience_years": 12,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Archaeology", "Culture"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+96265000043",
+      "mobile": "+962790000043",
+      "email": "tariq.nasser.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000043"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Sweileh, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Amman Citadel", "Roman Theater", "Iraq Al-Amir", "Umayyad Palace"],
+      "preferred_destinations": "Amman archaeological and historical landmarks"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "French"],
+      "preferred_language": "French"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Private Tours", "Custom Itineraries", "Tour Planning & Itinerary Design"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 30,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 80,
+      "max_price": 130,
+      "notes": "Daily guide rates for comprehensive historical tours."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 45,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000044",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Sawsan Jaber",
+      "description": "Independent local guide focusing on cultural walking tours, traditional folklore, and community heritage in Amman old neighborhoods.",
+      "experience_years": 6,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Culture", "Shopping", "Local Experiences", "History"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+96265000044",
+      "mobile": "+962790000044",
+      "email": "sawsan.jaber.tours@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000044"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Jabal Amman, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Souk Jara", "Downtown traditional workshops", "Old Amman stairs", "Hashemite Plaza"],
+      "preferred_destinations": "Amman heritage quarters and old souks"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Professional Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "working_hours": "09:30 - 17:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 10,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 40,
+      "max_price": 75,
+      "notes": "Customized cultural walking tour through old Amman."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Local Experiences", "History & Culture"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 27,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000045",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Ziyad Al-Khatib",
+      "description": "Licensed professional tourist guide expert in Jordan's archaeological history, ancient civilizations, and capital city landmarks.",
+      "experience_years": 14,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Archaeology", "Culture"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+96265000045",
+      "mobile": "+962790000045",
+      "email": "ziyad.khatib.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000045"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Khalda, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Amman Citadel", "Roman Theater", "Umm Al-Jimal", "Jerash ruins"],
+      "preferred_destinations": "Amman and northern historical archaeological sites"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "German"],
+      "preferred_language": "German"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Private Tours", "Custom Itineraries", "Tour Planning & Itinerary Design"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 30,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 85,
+      "max_price": 140,
+      "notes": "Standard daily rates for licensed heritage guiding."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 50,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000046",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Maha Al-Ramahi",
+      "description": "Independent local guide offering art, architecture, and contemporary cultural walking tours across Amman's creative districts.",
+      "experience_years": 7,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Art", "Culture", "Architecture", "Local Experiences"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+96265000046",
+      "mobile": "+962790000046",
+      "email": "maha.ramahi.tours@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000046"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Jabal Luweibdeh, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Luweibdeh art galleries", "Local studios", "Staircase murals", "Cultural centers"],
+      "preferred_destinations": "Amman artsy neighborhoods and galleries"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Italian"],
+      "preferred_language": "Italian"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "10:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 12,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 50,
+      "max_price": 90,
+      "notes": "Includes gallery visits and meeting local artists."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 34,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000047",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Faisal Al-Assaf",
+      "description": "Licensed tourist guide providing professional historical and religious sightseeing tours across Amman and central governorate landmarks.",
+      "experience_years": 11,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Religious Sites", "Culture", "Archaeology"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+96265000047",
+      "mobile": "+962790000047",
+      "email": "faisal.assaf.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000047"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Jabal Al-Weibdeh, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["King Abdullah I Mosque", "Amman Citadel", "Roman Theater", "Downtown historical mosques and churches"],
+      "preferred_destinations": "Amman Governorate historical and religious sites"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "German"],
+      "preferred_language": "German"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Religious Tours", "Private Tours", "Custom Itineraries"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 75,
+      "max_price": 120,
+      "notes": "Daily guide rates for cultural and religious itineraries."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Religious Tourism"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 39,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000048",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Nizar Oudeh",
+      "description": "Freelance local tour guide specializing in Amman's folk heritage, traditional crafts, and vibrant community stories.",
+      "experience_years": 6,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Culture", "Shopping", "Local Experiences", "History"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+96265000048",
+      "mobile": "+962790000048",
+      "email": "nizar.oudeh.tours@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000048"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Jabal Amman, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Souk Jara", "Downtown traditional workshops", "Hashemite Plaza", "Old Amman stairs"],
+      "preferred_destinations": "Amman traditional markets and heritage quarters"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Professional Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "working_hours": "09:30 - 17:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 10,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 40,
+      "max_price": 75,
+      "notes": "Guided cultural walk through Amman old neighborhoods."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Local Experiences", "History & Culture"]
+    },
+    "reviews": {
+      "rating": 4.7,
+      "review_count": 28,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000049",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Bassem Nazzal",
+      "description": "Licensed professional tourist guide with expert knowledge in Levant archaeology, Roman architecture, and Amman city landmarks.",
+      "experience_years": 14,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Archaeology", "Culture"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+96265000049",
+      "mobile": "+962790000049",
+      "email": "bassem.nazzal.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000049"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Khalda, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Amman Citadel", "Roman Theater", "Qasr Al-Abid", "Iraq Al-Amir"],
+      "preferred_destinations": "Amman Governorate archaeological sites"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "French"],
+      "preferred_language": "French"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Private Tours", "Custom Itineraries", "Tour Planning & Itinerary Design"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 30,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 80,
+      "max_price": 135,
+      "notes": "Standard daily rates for licensed heritage guiding."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 51,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000050",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Laila Al-Bataineh",
+      "description": "Freelance local guide specializing in outdoor nature trails, green escapes, and soft hiking experiences around Amman's periphery.",
+      "experience_years": 6,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Nature", "Hiking", "Camping", "Photography"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+96265000050",
+      "mobile": "+962790000050",
+      "email": "laila.bataineh.hikes@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000050"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Abdoun, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Zarqa river valley tracks", "Amman surrounding hills", "Local nature reserves"],
+      "preferred_destinations": "Natural walking trails near Amman"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Adventure Activities", "Private Tours", "Group Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Professional Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Thursday", "Friday", "Saturday", "Sunday"],
+      "working_hours": "07:00 - 16:00"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 25,
+      "max_price": 50,
+      "notes": "Guided hiking excursions with trail refreshments."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Nature", "Soft Adventure", "Hiking & Trekking"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 36,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000051",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Rami Abu-Ghazaleh",
+      "description": "Licensed tourist guide providing professional city sightseeing, historical landmarks, and custom cultural itineraries in Amman.",
+      "experience_years": 10,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Culture", "Architecture"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+96265000051",
+      "mobile": "+962790000051",
+      "email": "rami.abughazaleh.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000051"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Shmeisani, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Amman Citadel", "Roman Theater", "Jordan Museum", "Downtown Amman"],
+      "preferred_destinations": "Amman historical city center and museums"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "German"],
+      "preferred_language": "German"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Private Tours", "Custom Itineraries", "Tour Planning & Itinerary Design"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:30 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 75,
+      "max_price": 120,
+      "notes": "Daily tour guiding fee for historical and cultural sites."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 40,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000052",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Amal Qasem",
+      "description": "Independent local guide offering food-tasting walks, traditional market tours, and cultural storytelling in Amman.",
+      "experience_years": 5,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Food", "Culture", "Shopping", "Local Experiences"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+96265000052",
+      "mobile": "+962790000052",
+      "email": "amal.qasem.tours@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000052"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Jabal Amman, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Downtown food spots", "Souk Al-Sukar", "Traditional sweet shops", "Rainbow Street cafes"],
+      "preferred_destinations": "Amman culinary and shopping districts"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "French"],
+      "preferred_language": "French"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "working_hours": "10:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 10,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 35,
+      "max_price": 70,
+      "notes": "Includes food samples and market walkthrough."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Food & Culinary", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 32,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000053",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Nizar Hindawi",
+      "description": "Licensed tourist guide specializing in classical archaeological excavations, ancient history, and museum tours in Amman.",
+      "experience_years": 12,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Archaeology", "Culture"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+96265000053",
+      "mobile": "+962790000053",
+      "email": "nizar.hindawi.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000053"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Al-Sweifieh, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Amman Citadel", "Jordan Museum", "Roman Theater", "Umayyad archaeological sites"],
+      "preferred_destinations": "Amman archaeological and historical landmarks"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Italian"],
+      "preferred_language": "Italian"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Private Tours", "Custom Itineraries", "Tour Planning & Itinerary Design"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 30,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 80,
+      "max_price": 130,
+      "notes": "Standard daily guiding rates for archaeological tours."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 48,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000054",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Suha Al-Abadi",
+      "description": "Independent local guide offering photography walks, heritage street tours, and cultural discoveries in Amman old neighborhoods.",
+      "experience_years": 6,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Photography", "Culture", "Art", "Local Experiences"],
+      "target_customer_types": ["Solo Travelers", "Couples"]
+    },
+    "contact": {
+      "phone": "+96265000054",
+      "mobile": "+962790000054",
+      "email": "suha.abadi.photo@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000054"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Jabal Luweibdeh, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Luweibdeh stairs and murals", "Downtown historic alleys", "Gold market", "Hashemite Plaza"],
+      "preferred_destinations": "Amman photographic spots and artistic quarters"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Special Interest Tours", "Private Tours", "Cultural Experiences"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Professional Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "10:00 - 19:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 6,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 55,
+      "max_price": 95,
+      "notes": "Includes guided walking tour and photography composition tips."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 5.0,
+      "review_count": 24,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000055",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Yousef Darwish",
+      "description": "Licensed professional tourist guide with expertise in religious history, ancient monuments, and museum tours across Amman.",
+      "experience_years": 10,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Religious Sites", "Culture", "Archaeology"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+96265000055",
+      "mobile": "+962790000055",
+      "email": "yousef.darwish.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000055"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Tla'a Al-Ali, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["King Abdullah I Mosque", "Amman Citadel churches and temples", "Roman Theater", "Jordan Museum"],
+      "preferred_destinations": "Amman religious and historical sites"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Spanish"],
+      "preferred_language": "Spanish"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Religious Tours", "Private Tours", "Custom Itineraries"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:30 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 75,
+      "max_price": 120,
+      "notes": "Daily guide fee for historical and religious itineraries."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Religious Tourism"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 41,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000056",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Rania Halasa",
+      "description": "Independent local guide specializing in community heritage walking tours, artisan markets, and cultural storytelling in Amman.",
+      "experience_years": 6,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Culture", "Shopping", "Local Experiences", "History"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+96265000056",
+      "mobile": "+962790000056",
+      "email": "rania.halasa.tours@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000056"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Jabal Amman, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Souk Jara", "Downtown artisan stalls", "Old Amman staircases", "Traditional cafes"],
+      "preferred_destinations": "Amman heritage neighborhoods and traditional markets"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "French"],
+      "preferred_language": "French"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "working_hours": "09:30 - 17:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 10,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 40,
+      "max_price": 80,
+      "notes": "Customized cultural walking tours through old Amman."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Local Experiences", "History & Culture"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 31,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000057",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Tariq Qteishat",
+      "description": "Licensed professional tour guide with extensive experience in classical Jordanian archaeology, capital history, and customized heritage tours.",
+      "experience_years": 15,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Archaeology", "Culture"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+96265000057",
+      "mobile": "+962790000057",
+      "email": "tariq.qteishat.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000057"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Sweileh, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Amman Citadel", "Roman Theater", "Umm Al-Jimal", "Jerash ruins"],
+      "preferred_destinations": "Amman and central historical archaeological sites"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "German"],
+      "preferred_language": "German"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Private Tours", "Custom Itineraries", "Tour Planning & Itinerary Design"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 30,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 90,
+      "max_price": 150,
+      "notes": "Senior licensed guide rates for extensive archaeological day tours."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 5.0,
+      "review_count": 68,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000058",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Marwan Faroukh",
+      "description": "Expert licensed historical guide specializing in deep archaeological research tours, Nabatean and Roman influences, and Amman's ancient heritage networks.",
+      "experience_years": 16,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Archaeology", "Culture"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+96265000058",
+      "mobile": "+962790000058",
+      "email": "marwan.faroukh.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000058"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Jabal Al-Hussein, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Amman Citadel", "Roman Theater", "Qasr Al-Hallabat", "Qasr Amra"],
+      "preferred_destinations": "Amman Governorate and desert castles perimeter"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "German"],
+      "preferred_language": "German"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Private Tours", "Custom Itineraries", "Tour Planning & Itinerary Design"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 30,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 95,
+      "max_price": 160,
+      "notes": "Senior specialist guide rate for academic and deep archaeological excursions."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 5.0,
+      "review_count": 75,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000059",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Farah Sweiss",
+      "description": "Independent freelance culinary guide offering immersive street food journeys and local coffee rituals across Amman's oldest quarters.",
+      "experience_years": 6,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Food", "Culture", "Shopping", "Local Experiences"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+96265000059",
+      "mobile": "+962790000059",
+      "email": "farah.sweiss.tours@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000059"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Jabal Amman, 1st Circle, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Hashem Restaurant area", "Downtown local bakeries", "Souk Al-Blad", "Rainbow Street food joints"],
+      "preferred_destinations": "Amman urban food trails and culinary hotspots"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "French"],
+      "preferred_language": "French"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "working_hours": "10:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 10,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 40,
+      "max_price": 80,
+      "notes": "Includes comprehensive multi-stop food tastings and historical tidbits."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Food & Culinary", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 49,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000060",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Ziyad Zoubi",
+      "description": "Licensed tourist guide providing professional sightseeing itineraries, religious history tracks, and royal heritage tours in Amman.",
+      "experience_years": 12,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Religious Sites", "Culture", "Architecture"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+96265000060",
+      "mobile": "+962790000060",
+      "email": "ziyad.zoubi.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000060"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "address": "Shmeisani, Amman, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["King Abdullah I Mosque", "Grand Husseini Mosque", "Amman Citadel", "Royal Automobile Museum"],
+      "preferred_destinations": "Amman cultural landmarks and religious monuments"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Italian"],
+      "preferred_language": "Italian"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Religious Tours", "Private Tours", "Custom Itineraries"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:30 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 80,
+      "max_price": 130,
+      "notes": "Standard daily professional guide tariff."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Religious Tourism"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 44,
+      "source": "Direct Professional Registry & References",
+      "last_updated": "2026-06-01"
+    }
+  }
+]]

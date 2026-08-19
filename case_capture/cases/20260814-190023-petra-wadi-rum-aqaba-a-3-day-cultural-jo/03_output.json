@@ -1,0 +1,372 @@
+{
+  "metadata": {
+    "model": "gpt-oss:20b-cloud",
+    "provider": "ollama",
+    "mode": "build",
+    "latencyMs": 53126.89,
+    "retries": 0,
+    "caseId": null,
+    "rag": {
+      "status": "ok",
+      "source": "retriever",
+      "duration_days": 3,
+      "cluster_count": 3,
+      "clusters": [
+        {
+          "cluster_id": 0,
+          "theme": "Aqaba Governorate · history, culture",
+          "poi_count": 4,
+          "hotel_count": 4,
+          "event_count": 3,
+          "poi_names": [
+            "Aqaba Heritage House",
+            "Ayla Oasis Marina",
+            "Souq By The Sea",
+            "Princess Salma Park"
+          ],
+          "hotel_names": [
+            "Cedar Hotel",
+            "Marina Plaza Hotel Tala Bay",
+            "Luciana Hotel by FHM",
+            "Jazeerat Qubtan Hotel"
+          ],
+          "sample_restaurants": [
+            "Royal Yacht Club Restaurant Aqaba",
+            "Al Kufa Cafe & Restaurant",
+            "Pave Restaurant & Cafe",
+            "Ayla Beach Club Restaurant",
+            "Deera Cafe & Restaurant",
+            "Formosa Chinese Restaurant"
+          ],
+          "event_names": [
+            "Eid Evenings - Aqaba",
+            "Aesthetics of Aqaba and Aqabawi Heritage Seminar",
+            "Aqaba International Poetry Evening"
+          ]
+        },
+        {
+          "cluster_id": 1,
+          "theme": "Ma'an Governorate · history",
+          "poi_count": 10,
+          "hotel_count": 4,
+          "event_count": 3,
+          "poi_names": [
+            "Red Sand Dunes of Wadi Rum",
+            "Wadi Rum Visitor Center",
+            "French Fortress Ruins (Wadi Rum)",
+            "Desert Police Station & Fort (Wadi Rum)",
+            "Petra Museum",
+            "Maan Historic Souq",
+            "Little Petra (Siq al-Barid)",
+            "Rum Village Bedouin Oasis",
+            "Great Temple of Petra",
+            "Neolithic Village of Beidha"
+          ],
+          "hotel_names": [
+            "Petra Aretas Hotel",
+            "Cleopetra Hotel",
+            "Petra Sky Hotel",
+            "Nomads Hotel Petra"
+          ],
+          "sample_restaurants": [
+            "Captain's Desert Camp Restaurant Wadi Rum",
+            "Sun City Camp Dining Tent",
+            "Wadi Rum Rest House Restaurant",
+            "Rum Magic Restaurant",
+            "Bait Al-Karam Restaurant",
+            "Bawabat Baghdad Restaurant"
+          ],
+          "event_names": [
+            "Jordan Summer Festival - Ma'an",
+            "Petra Heritage Fashion and Local Products Exhibition",
+            "Ma'an Cultural Days"
+          ]
+        },
+        {
+          "cluster_id": 2,
+          "theme": "Aqaba Governorate · history, culture",
+          "poi_count": 4,
+          "hotel_count": 4,
+          "event_count": 3,
+          "poi_names": [
+            "Aqaba Gateway Shopping Complex",
+            "Aqaba Marine Park",
+            "Islamic Ayla Ruins",
+            "Al-Hafayer Park and Beach"
+          ],
+          "hotel_names": [
+            "Marina Plaza Hotel Tala Bay",
+            "Cedar Hotel",
+            "Luciana Hotel by FHM",
+            "Jazeerat Qubtan Hotel"
+          ],
+          "sample_restaurants": [
+            "Syrian Palace Restaurant",
+            "Ali Baba Restaurant",
+            "Suzana Restaurant & Cafe",
+            "Casalingo",
+            "Papaya Restaurant & Cafe",
+            "Red Sea Grill"
+          ],
+          "event_names": [
+            "Eid Evenings - Aqaba",
+            "Aesthetics of Aqaba and Aqabawi Heritage Seminar",
+            "Aqaba International Poetry Evening"
+          ]
+        }
+      ]
+    }
+  },
+  "package": {
+    "welcome_message": "Welcome to your personalized Jordan adventure!",
+    "why_you_will_love_this": {
+      "highlights": [
+        "Petra Museum",
+        "Red Sand Dunes of Wadi Rum",
+        "Aqaba Heritage House",
+        "Aqaba Marine Park"
+      ],
+      "special_touches": [
+        "Comfortable 5-star lodging at Petra Aretas Hotel",
+        "Local Jordanian cuisine at every meal",
+        "Scenic desert and coastal experiences"
+      ]
+    },
+    "trip_title": "Petra, Wadi Rum & Aqaba: A 3-Day Cultural Journey",
+    "trip_description": {
+      "overview": "A three-day journey through Petra, Wadi Rum, and Aqaba, blending ancient history with desert adventure and coastal charm.",
+      "included": [
+        "accommodation",
+        "meals",
+        "entry fees"
+      ],
+      "not_included": [
+        "transportation",
+        "events"
+      ]
+    },
+    "trip_details": {
+      "duration": {
+        "days": "3",
+        "nights": "2"
+      },
+      "trip_type": [
+        "Historical",
+        "Cultural"
+      ],
+      "number_of_travelers": "2",
+      "budget": {
+        "amount": "800",
+        "currency": "JOD"
+      }
+    },
+    "daily_itinerary": [
+      {
+        "day_number": "1",
+        "day_title": "Petra & Wadi Rum Exploration",
+        "day_summary": "Discover Petra's ancient wonders and the dramatic dunes of Wadi Rum.",
+        "activities": [
+          {
+            "start_time": "09:00",
+            "end_time": "10:00",
+            "activity_title": "Petra Museum",
+            "description": "Explore the rich history of Petra.",
+            "location": "Petra Museum, Ma'an Governorate",
+            "estimated_cost": "Free",
+            "smart_tip": "Open 08:30-18:30, no booking required."
+          },
+          {
+            "start_time": "10:15",
+            "end_time": "10:45",
+            "activity_title": "Lunch at Bait Al-Karam Restaurant",
+            "description": "Enjoy local Jordanian dishes.",
+            "location": "Bait Al-Karam Restaurant, Ma'an Governorate",
+            "estimated_cost": "9 JOD per person",
+            "smart_tip": "Open 11:00-23:00."
+          },
+          {
+            "start_time": "11:15",
+            "end_time": "12:00",
+            "activity_title": "Red Sand Dunes of Wadi Rum",
+            "description": "Stroll through the iconic red dunes.",
+            "location": "Red Sand Dunes of Wadi Rum, Ma'an Governorate",
+            "estimated_cost": "5 JOD per person",
+            "smart_tip": "Open 24h, no booking required."
+          },
+          {
+            "start_time": "12:15",
+            "end_time": "13:00",
+            "activity_title": "Dinner at Captain's Desert Camp Restaurant",
+            "description": "Taste Bedouin-inspired cuisine.",
+            "location": "Captain's Desert Camp Restaurant, Ma'an Governorate",
+            "estimated_cost": "15 JOD per person",
+            "smart_tip": "Open 07:00-22:00."
+          }
+        ],
+        "activity_alternatives": [
+          {
+            "original_activity": "Lunch at Bait Al-Karam Restaurant",
+            "alternative_activity": "Al Kufa Cafe & Restaurant",
+            "reason": "If Bait Al-Karam is closed, Al Kufa Cafe is nearby and offers similar local dishes."
+          }
+        ]
+      },
+      {
+        "day_number": "2",
+        "day_title": "Wadi Rum Adventure",
+        "day_summary": "Explore Wadi Rum's historic sites and enjoy desert dining.",
+        "activities": [
+          {
+            "start_time": "09:00",
+            "end_time": "09:45",
+            "activity_title": "Wadi Rum Visitor Center",
+            "description": "Learn about the area's history.",
+            "location": "Wadi Rum Visitor Center, Ma'an Governorate",
+            "estimated_cost": "5 JOD per person",
+            "smart_tip": "Open 08:00-17:00."
+          },
+          {
+            "start_time": "10:00",
+            "end_time": "10:45",
+            "activity_title": "French Fortress Ruins",
+            "description": "Discover ancient fortifications.",
+            "location": "French Fortress Ruins, Ma'an Governorate",
+            "estimated_cost": "5 JOD per person",
+            "smart_tip": "Open 24h, no booking required."
+          },
+          {
+            "start_time": "11:00",
+            "end_time": "12:00",
+            "activity_title": "Lunch at Sun City Camp Dining Tent",
+            "description": "Enjoy a hearty meal in the desert.",
+            "location": "Sun City Camp Dining Tent, Ma'an Governorate",
+            "estimated_cost": "18 JOD per person",
+            "smart_tip": "Open 07:00-22:00."
+          },
+          {
+            "start_time": "12:30",
+            "end_time": "13:15",
+            "activity_title": "Dinner at Rahayeb Desert Camp Restaurant",
+            "description": "Savor Bedouin-style dishes.",
+            "location": "Rahayeb Desert Camp Restaurant, Ma'an Governorate",
+            "estimated_cost": "11 JOD per person",
+            "smart_tip": "Open 07:00-21:30."
+          }
+        ],
+        "activity_alternatives": []
+      },
+      {
+        "day_number": "3",
+        "day_title": "Aqaba Coastal Charm",
+        "day_summary": "Experience Aqaba's heritage, marine park, and seaside dining.",
+        "activities": [
+          {
+            "start_time": "09:00",
+            "end_time": "09:45",
+            "activity_title": "Aqaba Heritage House",
+            "description": "Explore local heritage.",
+            "location": "Aqaba Heritage House, Aqaba Governorate",
+            "estimated_cost": "1 JOD per person",
+            "smart_tip": "Open 09:00-17:00."
+          },
+          {
+            "start_time": "10:00",
+            "end_time": "10:45",
+            "activity_title": "Aqaba Marine Park",
+            "description": "Enjoy marine life and scenic views.",
+            "location": "Aqaba Marine Park, Aqaba Governorate",
+            "estimated_cost": "Free",
+            "smart_tip": "Open 06:00-19:00."
+          },
+          {
+            "start_time": "11:00",
+            "end_time": "11:45",
+            "activity_title": "Islamic Ayla Ruins",
+            "description": "Discover ancient ruins.",
+            "location": "Islamic Ayla Ruins, Aqaba Governorate",
+            "estimated_cost": "Free",
+            "smart_tip": "Open 08:00-17:00."
+          },
+          {
+            "start_time": "12:00",
+            "end_time": "13:00",
+            "activity_title": "Lunch at Royal Yacht Club Restaurant Aqaba",
+            "description": "Fine dining with sea views.",
+            "location": "Royal Yacht Club Restaurant Aqaba, Aqaba Governorate",
+            "estimated_cost": "22 JOD per person",
+            "smart_tip": "Open 12:00-00:00."
+          },
+          {
+            "start_time": "13:30",
+            "end_time": "14:15",
+            "activity_title": "Dinner at Deera Cafe & Restaurant",
+            "description": "Casual local cuisine.",
+            "location": "Deera Cafe & Restaurant, Aqaba Governorate",
+            "estimated_cost": "9 JOD per person",
+            "smart_tip": "Open 12:00-02:00."
+          }
+        ],
+        "activity_alternatives": []
+      }
+    ],
+    "budget_summary": {
+      "items": [
+        {
+          "category": "Accommodation",
+          "estimated_cost": "80 JOD",
+          "notes": "2 nights at Petra Aretas Hotel, 40 JOD per night."
+        },
+        {
+          "category": "Meals",
+          "estimated_cost": "168 JOD",
+          "notes": "Per person cost summed for 2 travelers."
+        },
+        {
+          "category": "Entry Fees",
+          "estimated_cost": "32 JOD",
+          "notes": "Per person cost summed for 2 travelers."
+        },
+        {
+          "category": "Total",
+          "estimated_cost": "280 JOD",
+          "notes": "Total cost well below budget."
+        }
+      ],
+      "total_estimated_cost": "280 JOD"
+    },
+    "essential_travel_tips": [
+      {
+        "category": "Meals",
+        "tips": [
+          "Try local dishes at Bait Al-Karam and Royal Yacht Club for a mix of traditional and upscale.",
+          "Plan meals around opening hours to avoid disappointment."
+        ]
+      },
+      {
+        "category": "Safety",
+        "tips": [
+          "Stay hydrated in Wadi Rum; wear sun protection.",
+          "Use sunscreen and wear comfortable shoes."
+        ]
+      },
+      {
+        "category": "Cultural Etiquette",
+        "tips": [
+          "Dress modestly when visiting heritage sites.",
+          "Respect local customs."
+        ]
+      },
+      {
+        "category": "Budget",
+        "tips": [
+          "Enjoy free entry at many sites; use local transport if needed.",
+          "Keep spare cash for small purchases."
+        ]
+      }
+    ],
+    "explanations": {
+      "trip_planning_reason": "The itinerary follows the traveler's must-visit sites in Petra and Wadi Rum, then concludes in Aqaba, ensuring each day stays within a single region for ease of travel and optimal pacing.",
+      "selection_reason": "POIs were chosen for their historical significance and accessibility; restaurants offer local cuisine and varied price levels; the 5-star Petra Aretas Hotel provides comfort while staying within budget."
+    }
+  }
+}

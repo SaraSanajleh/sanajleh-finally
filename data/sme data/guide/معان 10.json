@@ -1,0 +1,692 @@
+[
+  {
+    "sme_id": "SME-000001",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Ibrahim Al-Naimat",
+      "description": "Licensed freelance tourist guide specializing in the archaeological and natural heritage of Ma'an Governorate, including Petra's outer trails and historical sites.",
+      "experience_years": 9,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Archaeology", "Hiking", "Desert"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962795123456",
+      "mobile": "+962795123456",
+      "email": "ibrahim.naimat.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962795123456"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Wadi Musa",
+      "region": "Ma'an",
+      "address": "Wadi Musa, Petra, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Petra", "Little Petra", "Wadi Araba", "Ma'an City"],
+      "preferred_destinations": "Petra Archaeological Park and surrounding desert trails"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "French"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Custom Itineraries", "Private Tours", "Hiking & Trekking"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Multilingual Guides", "Specialized Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "07:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Daily Rate",
+      "min_price": 80.0,
+      "max_price": 150.0,
+      "notes": "Rates depend on tour duration and trail difficulty."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism", "Hiking & Trekking"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 42,
+      "source": "Independent Guide Registry",
+      "last_updated": "2026-01-15"
+    }
+  },
+  {
+    "sme_id": "SME-000002",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Fatima Al-Bdoul",
+      "description": "Local community tour guide and cultural interpreter providing immersive historical tours and engagement with local Bedouin heritage around Petra and Ma'an.",
+      "experience_years": 6,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Culture", "Local Experiences", "History"],
+      "target_customer_types": ["Families", "Solo Travelers", "Couples"]
+    },
+    "contact": {
+      "phone": "+962778987654",
+      "mobile": "+962778987654",
+      "email": "fatima.bdoul.guide@yahoo.com",
+      "website": null,
+      "whatsapp": "+962778987654"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Wadi Musa",
+      "region": "Ma'an",
+      "address": "Umm Sayhoun, Petra, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Petra", "Umm Sayhoun", "Beidha", "Ma'an"],
+      "preferred_destinations": "Umm Sayhoun village and traditional Bedouin community sites"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "German"],
+      "preferred_language": "German"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Multilingual Guides", "Specialized Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "08:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Daily Rate",
+      "min_price": 70.0,
+      "max_price": 120.0,
+      "notes": "Special rates for family packages."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Local Experiences", "Community Tourism", "History & Culture"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 31,
+      "source": "Direct Client Feedback",
+      "last_updated": "2026-02-01"
+    }
+  },
+  {
+    "sme_id": "SME-000003",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Yousef Al-Hasanat",
+      "description": "Professional desert and adventure tour guide offering expert trekking, mountain scrambling, and historical explorations across Ma'an's rugged terrain.",
+      "experience_years": 12,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Adventure", "Hiking", "Desert", "Camping"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+962796112233",
+      "mobile": "+962796112233",
+      "email": "yousef.hasanat.trek@gmail.com",
+      "website": null,
+      "whatsapp": "+962796112233"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Wadi Musa",
+      "region": "Ma'an",
+      "address": "Wadi Musa Main Street, Ma'an, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Petra Backdoor", "Jebel Haroun", "Wadi Araba", "Ma'an Desert"],
+      "preferred_destinations": "Off-the-beaten-path hiking routes around Petra and Ma'an"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Italian"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Adventure Activities", "Hiking & Trekking", "Custom Itineraries"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "06:00 - 19:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 12,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Daily Rate",
+      "min_price": 90.0,
+      "max_price": 160.0,
+      "notes": "Includes basic expedition safety gear."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Soft Adventure", "Hiking & Trekking", "Desert Experiences"]
+    },
+    "reviews": {
+      "rating": 5.0,
+      "review_count": 58,
+      "source": "Regional Guide Network",
+      "last_updated": "2026-01-20"
+    }
+  },
+  {
+    "sme_id": "SME-000004",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Dr. Mahmoud Al-Khatib",
+      "description": "Historian and licensed tourist guide specializing in Nabataean archaeology, Ottoman history in Ma'an, and academic heritage tours.",
+      "experience_years": 15,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Archaeology", "Culture"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962788334455",
+      "mobile": "+962788334455",
+      "email": "mahmoud.khatib.history@gmail.com",
+      "website": null,
+      "whatsapp": "+962788334455"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ma'an",
+      "region": "Ma'an",
+      "address": "Ma'an City Center, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Ma'an City", "Ma'an Ottoman Castle", "Hajj Route Stations", "Petra"],
+      "preferred_destinations": "Historical Ottoman railway sites and ancient Ma'an town"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Spanish"],
+      "preferred_language": "Spanish"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Special Interest Tours", "Religious Tours", "Travel Consulting"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Professional Guides", "Licensed Tourist Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "working_hours": "08:00 - 16:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 20,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Daily Rate",
+      "min_price": 100.0,
+      "max_price": 200.0,
+      "notes": "Available for academic and specialized historical delegations."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 27,
+      "source": "Academic Tour Association",
+      "last_updated": "2025-12-10"
+    }
+  },
+  {
+    "sme_id": "SME-000005",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Nour Al-Sabah",
+      "description": "Bilingual freelance guide focusing on photography tours, scenic viewpoints, and cultural storytelling across Ma'an Governorate and Petra.",
+      "experience_years": 5,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Photography", "Nature", "Culture"],
+      "target_customer_types": ["Solo Travelers", "Couples"]
+    },
+    "contact": {
+      "phone": "+962797778899",
+      "mobile": "+962797778899",
+      "email": "nour.sabah.photo@gmail.com",
+      "website": null,
+      "whatsapp": "+962797778899"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Wadi Musa",
+      "region": "Ma'an",
+      "address": "Tourism Street, Wadi Musa, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Petra High Place of Sacrifice", "Al-Deir (Monastery)", "Little Petra", "Ma'an Desert Sunsets"],
+      "preferred_destinations": "High-vantage photography locations and sunrise/sunset spots"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Mandarin"],
+      "preferred_language": "Mandarin"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Custom Itineraries", "Private Tours", "Cultural Experiences"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "05:00 - 19:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 8,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Daily Rate",
+      "min_price": 85.0,
+      "max_price": 140.0,
+      "notes": "Includes timing coordination for optimal golden hour lighting."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 39,
+      "source": "Traveler Community Reviews",
+      "last_updated": "2026-02-05"
+    }
+  },
+  {
+    "sme_id": "SME-000006",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Suleiman Al-Marahleh",
+      "description": "Experienced local guide offering desert tracking, traditional Bedouin hospitality experiences, and historical landmark tours throughout Ma'an.",
+      "experience_years": 11,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Desert", "Local Experiences", "History"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962775554433",
+      "mobile": "+962775554433",
+      "email": "suleiman.marahleh@yahoo.com",
+      "website": null,
+      "whatsapp": "+962775554433"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Wadi Musa",
+      "region": "Ma'an",
+      "address": "Bayda Road, Ma'an, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Little Petra", "Beidha Neolithic Village", "Wadi Araba dunes"],
+      "preferred_destinations": "Desert valleys and prehistoric settlement sites"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Dutch"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Local Experiences", "Cultural Experiences", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Licensed Tourist Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "07:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Daily Rate",
+      "min_price": 75.0,
+      "max_price": 130.0,
+      "notes": "Transport available via 4x4 vehicle upon request."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Desert Experiences", "Local Experiences", "Community Tourism"]
+    },
+    "reviews": {
+      "rating": 4.7,
+      "review_count": 34,
+      "source": "Visitor Feedback Log",
+      "last_updated": "2026-01-11"
+    }
+  },
+  {
+    "sme_id": "SME-000007",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Randa Al-Fleifat",
+      "description": "Licensed female tourist guide providing detailed cultural, culinary, and historical tours across Ma'an city and surrounding rural villages.",
+      "experience_years": 8,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Culture", "Food", "History"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962798881122",
+      "mobile": "+962798881122",
+      "email": "randa.fleifat.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962798881122"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ma'an",
+      "region": "Ma'an",
+      "address": "University Street, Ma'an, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Ma'an City", "Al-Jafr", "Ayl", "Petra outskirts"],
+      "preferred_destinations": "Local markets, traditional kitchens, and regional heritage sites"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Russian"],
+      "preferred_language": "Russian"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Custom Itineraries"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Multilingual Guides", "Specialized Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "working_hours": "08:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 12,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Daily Rate",
+      "min_price": 80.0,
+      "max_price": 140.0,
+      "notes": "Culinary tasting components can be added to tour packages."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Food & Culinary", "History & Culture", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 29,
+      "source": "Jordan Tourism Directory",
+      "last_updated": "2026-01-28"
+    }
+  },
+  {
+    "sme_id": "SME-000008",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Khaled Al-Saied",
+      "description": "Professional trekking and nature guide specializing in Jordan Trail segments crossing through Ma'an Governorate and Shobak highlands.",
+      "experience_years": 10,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Hiking", "Nature", "Adventure", "Camping"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+962785443322",
+      "mobile": "+962785443322",
+      "email": "khaled.alsaied.hikes@gmail.com",
+      "website": null,
+      "whatsapp": "+962785443322"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Shobak",
+      "region": "Ma'an",
+      "address": "Shobak Castle Area, Ma'an, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Shobak Castle", "Dana to Petra Trail (Ma'an section)", "Ras Al-Naqab"],
+      "preferred_destinations": "Highland ridge trails and Shobak Crusader fortress"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "German"],
+      "preferred_language": "German"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Hiking & Trekking", "Adventure Activities", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "06:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Daily Rate",
+      "min_price": 85.0,
+      "max_price": 150.0,
+      "notes": "Certified wilderness first responder."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Hiking & Trekking", "Soft Adventure", "Nature"]
+    },
+    "reviews": {
+      "rating": 5.0,
+      "review_count": 48,
+      "source": "Jordan Trail Association Member List",
+      "last_updated": "2026-02-02"
+    }
+  },
+  {
+    "sme_id": "SME-000009",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Amal Al-Rawajfeh",
+      "description": "Licensed tourist guide providing structured historical tours of Shobak Castle, rural agrarian heritage sites, and local craft showcases in Ma'an.",
+      "experience_years": 7,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Culture", "Archaeology"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962791234987",
+      "mobile": "+962791234987",
+      "email": "amal.rawajfeh.guide@yahoo.com",
+      "website": null,
+      "whatsapp": "+962791234987"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Shobak",
+      "region": "Ma'an",
+      "address": "Shobak Town Center, Ma'an, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Shobak Castle", "Mentar Crusader Church ruins", "Local orchards of Shobak"],
+      "preferred_destinations": "Crusader fortress and historic rural farm terraces"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Italian"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Private Tours", "Custom Itineraries"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Multilingual Guides", "Professional Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "working_hours": "08:30 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 20,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Daily Rate",
+      "min_price": 75.0,
+      "max_price": 130.0,
+      "notes": "Discounts available for school and academic groups."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 25,
+      "source": "Independent Guide Registry",
+      "last_updated": "2026-01-19"
+    }
+  },
+  {
+    "sme_id": "SME-000010",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Ziyad Al-Tweissi",
+      "description": "Multi-lingual licensed guide expert in Nabataean history, geological formations, and desert night sky astronomy tours in the Ma'an region.",
+      "experience_years": 14,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Desert", "Photography", "Astronomy"],
+      "target_customer_types": ["Couples", "Solo Travelers", "Families"]
+    },
+    "contact": {
+      "phone": "+962776665544",
+      "mobile": "+962776665544",
+      "email": "ziyad.tweissi.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962776665544"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Wadi Musa",
+      "region": "Ma'an",
+      "address": "Near Petra Visitor Center, Ma'an, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Petra", "Little Petra", "Wadi Araba desert", "Ma'an plateau"],
+      "preferred_destinations": "Petra archaeological monuments and starlight desert camping sites"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Japanese", "French"],
+      "preferred_language": "Japanese"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Special Interest Tours", "Private Tours", "Custom Itineraries"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Multilingual Guides", "Specialized Guides"]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "07:00 - 22:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 18,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Daily Rate",
+      "min_price": 95.0,
+      "max_price": 180.0,
+      "notes": "Includes professional night astronomy interpretation sessions."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Desert Experiences", "Soft Adventure"]
+    },
+    "reviews": {
+      "rating": 5.0,
+      "review_count": 64,
+      "source": "International Guide Directory",
+      "last_updated": "2026-02-08"
+    }
+  }
+]

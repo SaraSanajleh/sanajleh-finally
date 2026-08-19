@@ -1,0 +1,130 @@
+{
+  "caseId": "20260815-143553-amman-highlights-heritage",
+  "createdAt": "2026-08-15T14:35:53.690931+00:00",
+  "trip_title": "Amman Highlights & Heritage",
+  "rag": {
+    "status": "ok",
+    "source": "retriever",
+    "duration_days": 3,
+    "cluster_count": 3,
+    "clusters": [
+      {
+        "cluster_id": 0,
+        "theme": "Karak Governorate · nature, adventure, history",
+        "poi_count": 9,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "Wadi Hasa",
+          "Mujib Biosphere Reserve",
+          "Al-Safi Agricultural Research Station Park",
+          "Safi Museum (Lowest Place on Earth Museum)",
+          "Wadi Al-Hasa Lower Canyon",
+          "Wadi Numeira Canyon",
+          "Zarqa Ma'in Thermal Springs (Southern Access/Wadi Zarqa)",
+          "Jannat Al-Karak Park",
+          "Al-Karak Heritage Village"
+        ],
+        "hotel_names": [
+          "Cairwan Hotel",
+          "Bubble Castle House",
+          "Al-Mujeb Hotel",
+          "The Old House"
+        ],
+        "sample_restaurants": [
+          "Wadi Bin Hammad Rest House & Restaurant",
+          "Safi Valley Heritage Cafe & Restaurant",
+          "Luna Rosa Restaurant & Cafe",
+          "Falafel & Hummus Al-Agha",
+          "Al-Mu'tasim Falafel & Hummus"
+        ],
+        "event_names": [
+          "Jordan Summer Festival - Karak",
+          "Eid Evenings - Karak",
+          "Ramadan Evenings - Karak"
+        ]
+      },
+      {
+        "cluster_id": 1,
+        "theme": "Tafilah Governorate · nature, adventure, history",
+        "poi_count": 9,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "Dana Eco-Tourism Camp",
+          "Wadi Dana Trailhead",
+          "Al-Hasa Valley",
+          "Dana Village",
+          "Wadi Afra Canyon Trailhead",
+          "Feynan Ecolodge",
+          "Burbeita Hot Springs",
+          "Dana Biosphere Reserve",
+          "Afra Hot Springs"
+        ],
+        "hotel_names": [
+          "Dana Tower Hotel",
+          "Dana Moon Hotel",
+          "Dana's Trail Hotel",
+          "Dana Guesthouse"
+        ],
+        "sample_restaurants": [
+          "Buseirah Heritage Rest House",
+          "Al-Ma'tan Heritage Rest House & Cafe",
+          "Afra Hot Springs Restaurant",
+          "Al-Salea Gate Castle Restaurant",
+          "Rummana Camp Restaurant",
+          "Al-Buseirah Central Grill"
+        ],
+        "event_names": [
+          "Aesthetics of Place Cultural Programme - Tafilah",
+          "National Celebrations Programme - Tafilah",
+          "Eid Evenings - Tafilah"
+        ]
+      },
+      {
+        "cluster_id": 2,
+        "theme": "Balqa Governorate · nature, history",
+        "poi_count": 10,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "Zarqa Ma'in Waterfalls (Balqa Border Area)",
+          "Fuheis Heritage Quarter (Al-Fuheis Old Town)",
+          "Zarqa River Eco-Trail Pathway",
+          "Abu Jaber Museum",
+          "Zain Al-Sharaf Nature Reserve",
+          "Burin Forest Park",
+          "As-Salt Heritage Trail Starting Point",
+          "Zarqa River Thermal Springs",
+          "Wadi Shueib Scenic Road and Stream",
+          "Zai Forest Picnic Area"
+        ],
+        "hotel_names": [
+          "Mountain Breeze Lodge & Resort",
+          "Saltus Hotel",
+          "Sindyan Resort",
+          "O Beach Hotel & Resort"
+        ],
+        "sample_restaurants": [
+          "Dead Sea Panorama Restaurant",
+          "Obidos Cafe & Restaurant",
+          "Al Ghabah Restaurant",
+          "Jordan Heritage Restaurant Salt",
+          "Sitt Inaya Heritage House",
+          "Al Deyafa Tourist Restaurant"
+        ],
+        "event_names": [
+          "Jordan Summer Festival - Balqa",
+          "Eid Evenings - Balqa",
+          "Fuheis Festival"
+        ]
+      }
+    ]
+  },
+  "paths": {
+    "input": "01_input.json",
+    "knowledge": "02_retriever.json",
+    "knowledge_preview": "02_retriever_preview.json",
+    "output": "03_output.json"
+  }
+}

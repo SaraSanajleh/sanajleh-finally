@@ -1,0 +1,2301 @@
+{
+  "duration_days": 3,
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "theme": "Ma'an Governorate · culture, history",
+      "pois": [
+        {
+          "poi": {
+            "id": "poi_002008",
+            "entity_type": "poi",
+            "name": "Wadi Rum Visitor Center",
+            "role": "anchor",
+            "region": "Ma'an Governorate",
+            "city": "Wadi Rum",
+            "district": "Quweira District",
+            "address": "Wadi Rum Protected Area Road",
+            "latitude": 29.6385,
+            "longitude": 35.434639,
+            "why_retrieved": [
+              "matches culture interest"
+            ],
+            "facts": {
+              "category": "Nature",
+              "subcategory": "Protected Area Headquarters",
+              "themes": [
+                "Desert",
+                "Visitor Services",
+                "Bedouin Culture",
+                "Conservation"
+              ],
+              "opening_hours": "08:00",
+              "closing_hours": "17:00",
+              "closed_days": [],
+              "average_visit_minutes": 30,
+              "booking_required": false,
+              "best_visit_time": [
+                "Morning",
+                "Afternoon"
+              ],
+              "activity_level": "Low",
+              "indoor_outdoor": "Mixed",
+              "entry_fee": 5.0,
+              "currency": "JOD",
+              "pricing_level": "Low",
+              "highlights": [
+                "Official entry processing point for Wadi Rum Protected Area",
+                "Educational maps and desert geology displays",
+                "Official tour guide and 4x4 driver registry"
+              ],
+              "notes": "Entry fee covered under the Jordan Pass for international visitors.",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Seniors",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_007074",
+              "entity_type": "restaurant",
+              "name": "Captain's Desert Camp Restaurant Wadi Rum",
+              "role": "",
+              "region": "Ma'an Governorate",
+              "city": "Wadi Rum",
+              "district": "Wadi Rum Protected Area",
+              "address": "Disi Area / Main Valley Entrance, Wadi Rum, Ma'an Governorate, Jordan",
+              "latitude": 29.6105,
+              "longitude": 35.4352,
+              "why_retrieved": [
+                "matches history interest",
+                "serves preferred cuisine: Jordanian",
+                "~3.1 km away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Desert Oasis Camp Restaurant",
+                "cuisine_types": [
+                  "Bedouin",
+                  "Jordanian"
+                ],
+                "meal_types": [
+                  "Lunch",
+                  "Dinner"
+                ],
+                "signature_dishes": [
+                  "Bedouin Lamb & Chicken Zarb",
+                  "Hummus & Fresh Flatbread",
+                  "Bedouin Sage Tea"
+                ],
+                "service_style": "Buffet",
+                "atmosphere": "Traditional",
+                "best_visit_time": [
+                  "Evening"
+                ],
+                "average_cost_per_person": 15.0,
+                "currency": "JOD",
+                "pricing_level": "Medium-High",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Desert Safari Lunch",
+                  "Stargazing Dinner",
+                  "Group Event"
+                ],
+                "suitable_for": [
+                  "Tourists",
+                  "Groups",
+                  "Couples",
+                  "Families"
+                ],
+                "opening_hours": "07:00",
+                "closing_hours": "22:00",
+                "average_dining_minutes": 80,
+                "notes": "Desert safari 4x4 transfers to the camp can be arranged via the visitor center."
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_002036",
+              "km": 7.0
+            },
+            {
+              "poi_id": "poi_002037",
+              "km": 7.1
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_002038",
+            "entity_type": "poi",
+            "name": "French Fortress Ruins (Wadi Rum)",
+            "role": "anchor",
+            "region": "Ma'an Governorate",
+            "city": "Wadi Rum",
+            "district": "Quweira District",
+            "address": "Eastern Sector, Wadi Rum Protected Area",
+            "latitude": 29.516111,
+            "longitude": 35.518611,
+            "why_retrieved": [
+              "matches history interest"
+            ],
+            "facts": {
+              "category": "Entertainment",
+              "subcategory": "Film Set & Ruins",
+              "themes": [
+                "Cinema History",
+                "Film Sets",
+                "Desert Ruins",
+                "Photography"
+              ],
+              "opening_hours": "",
+              "closing_hours": "",
+              "closed_days": [],
+              "average_visit_minutes": 25,
+              "booking_required": null,
+              "best_visit_time": [
+                "Morning",
+                "Afternoon"
+              ],
+              "activity_level": "Low",
+              "indoor_outdoor": "Outdoor",
+              "entry_fee": 5.0,
+              "currency": "JOD",
+              "pricing_level": "Low",
+              "highlights": [
+                "Surviving desert fort constructed for film production",
+                "Panoramic views of surrounding eastern sand plains",
+                "Quiet scenic stop off standard main tourist circuits"
+              ],
+              "notes": "Visited via extended full-day 4x4 desert tours.",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_002042",
+              "entity_type": "restaurant",
+              "name": "Wadi Rum Rest House Restaurant",
+              "role": "",
+              "region": "Ma'an Governorate",
+              "city": "Wadi Rum",
+              "district": "Quweira District",
+              "address": "Wadi Rum Village Main Square",
+              "latitude": 29.5772,
+              "longitude": 35.4194,
+              "why_retrieved": [
+                "serves preferred cuisine: Jordanian",
+                "~11.8 km away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Desert Rest Stop & Diner",
+                "cuisine_types": [
+                  "Jordanian",
+                  "Middle Eastern"
+                ],
+                "meal_types": [
+                  "Breakfast",
+                  "Lunch",
+                  "Dinner",
+                  "Coffee/Tea"
+                ],
+                "signature_dishes": [
+                  "Chicken Kabsa",
+                  "Hummus & Pita",
+                  "Sweet Bedouin Tea"
+                ],
+                "service_style": "Buffet",
+                "atmosphere": "Casual",
+                "best_visit_time": [
+                  "Morning",
+                  "Afternoon"
+                ],
+                "average_cost_per_person": 7.0,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Casual Hangout"
+                ],
+                "suitable_for": [
+                  "Groups",
+                  "Solo",
+                  "Family",
+                  "Friends"
+                ],
+                "opening_hours": "07:00",
+                "closing_hours": "21:00",
+                "average_dining_minutes": 45,
+                "notes": "Cash payments are strongly preferred due to limited desert connectivity."
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_002037",
+              "km": 11.7
+            },
+            {
+              "poi_id": "poi_002036",
+              "km": 11.8
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_002036",
+            "entity_type": "poi",
+            "name": "Rum Village Bedouin Oasis",
+            "role": "anchor",
+            "region": "Ma'an Governorate",
+            "city": "Wadi Rum",
+            "district": "Quweira District",
+            "address": "Rum Village, Wadi Rum Protected Area",
+            "latitude": 29.577222,
+            "longitude": 35.418889,
+            "why_retrieved": [
+              "matches culture interest"
+            ],
+            "facts": {
+              "category": "Other",
+              "subcategory": "Bedouin Settlement",
+              "themes": [
+                "Bedouin Culture",
+                "Desert Hub",
+                "Local Life",
+                "Tourism Gateway"
+              ],
+              "opening_hours": "00:00",
+              "closing_hours": "23:59",
+              "closed_days": [],
+              "average_visit_minutes": 30,
+              "booking_required": false,
+              "best_visit_time": [
+                "Morning",
+                "Afternoon"
+              ],
+              "activity_level": "Low",
+              "indoor_outdoor": "Mixed",
+              "entry_fee": 5.0,
+              "currency": "JOD",
+              "pricing_level": "Low",
+              "highlights": [
+                "Cultural interaction with indigenous Bedouin community",
+                "Departure hub for 4x4 desert tours and camel rides",
+                "Picturesque position right beneath Jebel Rum cliff walls"
+              ],
+              "notes": "Main road paved all the way from Desert Highway to Rum Village.",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Seniors",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_007075",
+              "entity_type": "restaurant",
+              "name": "Wadi Rum Visitor Center Rest House",
+              "role": "",
+              "region": "Ma'an Governorate",
+              "city": "Wadi Rum",
+              "district": "Rum Village",
+              "address": "Rum Village Main Entrance, Wadi Rum, Jordan",
+              "latitude": 29.5778,
+              "longitude": 35.419,
+              "why_retrieved": [
+                "matches history interest",
+                "serves preferred cuisine: Jordanian",
+                "~65 m away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Desert Gateway Rest House",
+                "cuisine_types": [
+                  "Jordanian",
+                  "Casual Cafe"
+                ],
+                "meal_types": [
+                  "Breakfast",
+                  "Lunch",
+                  "Snacks"
+                ],
+                "signature_dishes": [
+                  "Gallayet Bandora",
+                  "Fresh Falafel Plate",
+                  "Mint Cardamom Tea"
+                ],
+                "service_style": "Casual Dining",
+                "atmosphere": "Relaxed",
+                "best_visit_time": [
+                  "Morning",
+                  "Afternoon"
+                ],
+                "average_cost_per_person": 7.0,
+                "currency": "JOD",
+                "pricing_level": "Low-Medium",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Pre-Tour Breakfast",
+                  "Trail Stop",
+                  "Casual Lunch"
+                ],
+                "suitable_for": [
+                  "Climbers",
+                  "Hikers",
+                  "Backpackers",
+                  "Tourists"
+                ],
+                "opening_hours": "07:30",
+                "closing_hours": "20:00",
+                "average_dining_minutes": 45,
+                "notes": "Hub location where local guides and 4x4 drivers assemble before safari departures."
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_002037",
+              "km": 0.1
+            },
+            {
+              "poi_id": "poi_002008",
+              "km": 7.0
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_002037",
+            "entity_type": "poi",
+            "name": "Desert Police Station & Fort (Wadi Rum)",
+            "role": "anchor",
+            "region": "Ma'an Governorate",
+            "city": "Wadi Rum",
+            "district": "Quweira District",
+            "address": "Rum Village, Wadi Rum",
+            "latitude": 29.576389,
+            "longitude": 35.419444,
+            "why_retrieved": [
+              "matches culture interest"
+            ],
+            "facts": {
+              "category": "Heritage",
+              "subcategory": "Historical Fort & Police Post",
+              "themes": [
+                "Desert Patrol",
+                "Jordan Heritage",
+                "Fortress",
+                "Cultural Identity"
+              ],
+              "opening_hours": "00:00",
+              "closing_hours": "23:59",
+              "closed_days": [],
+              "average_visit_minutes": 15,
+              "booking_required": false,
+              "best_visit_time": [
+                "Morning",
+                "Afternoon"
+              ],
+              "activity_level": "Low",
+              "indoor_outdoor": "Outdoor",
+              "entry_fee": 0.0,
+              "currency": "JOD",
+              "pricing_level": "Free",
+              "highlights": [
+                "1930s traditional stone desert fort architecture",
+                "Jordanian Desert Patrol officers in traditional military attire",
+                "Desert patrol mounts and camel stables exterior view"
+              ],
+              "notes": "Active police station; exterior photography permitted.",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Seniors",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_002036",
+              "km": 0.1
+            },
+            {
+              "poi_id": "poi_002008",
+              "km": 7.1
+            }
+          ]
+        }
+      ],
+      "hotels": [],
+      "events": [
+        {
+          "id": "event_000094",
+          "entity_type": "event",
+          "name": "Wadi Rum Endurance Race",
+          "role": "",
+          "region": "Aqaba",
+          "city": "Wadi Rum",
+          "district": "Aqaba",
+          "address": "Wadi Rum, Jordan",
+          "latitude": 0.0,
+          "longitude": 0.0,
+          "why_retrieved": [],
+          "facts": {
+            "category": "Sports",
+            "subcategory": "Wadi Rum Equestrian Endurance Race",
+            "themes": [
+              "Horse",
+              "Competition",
+              "Athlete Development",
+              "Jordan Sport"
+            ],
+            "typical_months": [],
+            "typical_seasons": [],
+            "recurrence": "Annual",
+            "duration_minutes": null,
+            "ticket_cost": null,
+            "currency": "JOD",
+            "pricing_level": null,
+            "indoor_outdoor": "Outdoor",
+            "highlights": [
+              "Horse-and-rider combinations competing over desert endurance stages in Wadi Rum",
+              "Organized or sanctioned by Royal Jordanian Equestrian Federation",
+              "Uses edition-specific registration and technical regulations",
+              "Documented by an official Jordanian sports source"
+            ],
+            "languages": [
+              "Arabic",
+              "English"
+            ],
+            "minimum_age": null,
+            "suitable_for": [
+              "Family",
+              "Solo",
+              "Friends",
+              "Groups",
+              "Students"
+            ]
+          }
+        }
+      ],
+      "summary": "Ma'an Governorate: 4 anchor + 0 discovery POIs; 3 restaurants; 1 events."
+    },
+    {
+      "cluster_id": 1,
+      "theme": "Ma'an Governorate · culture, history",
+      "pois": [
+        {
+          "poi": {
+            "id": "poi_002005",
+            "entity_type": "poi",
+            "name": "Petra Museum",
+            "role": "anchor",
+            "region": "Ma'an Governorate",
+            "city": "Wadi Musa",
+            "district": "Petra Region",
+            "address": "Main Entrance, Petra Visitor Center, Wadi Musa",
+            "latitude": 30.32525,
+            "longitude": 35.468222,
+            "why_retrieved": [
+              "matches culture interest",
+              "matches history interest"
+            ],
+            "facts": {
+              "category": "Museum",
+              "subcategory": "Archaeological Museum",
+              "themes": [
+                "Archaeology",
+                "Nabataean Culture",
+                "History",
+                "Education"
+              ],
+              "opening_hours": "08:30",
+              "closing_hours": "18:30",
+              "closed_days": [],
+              "average_visit_minutes": 60,
+              "booking_required": false,
+              "best_visit_time": [
+                "Morning",
+                "Afternoon",
+                "Evening"
+              ],
+              "activity_level": "Low",
+              "indoor_outdoor": "Indoor",
+              "entry_fee": 0.0,
+              "currency": "JOD",
+              "pricing_level": "Free",
+              "highlights": [
+                "Over 280 original archaeological artifacts on display",
+                "Interactive touchscreen maps and historical videos",
+                "Air-conditioned modern facility at Park entrance"
+              ],
+              "notes": "Admission is free for all visitors entering the Petra Visitor Center complex.",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Seniors",
+                "Children",
+                "Students",
+                "Business"
+              ]
+            }
+          },
+          "restaurants": [],
+          "dining_available": false,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_002001",
+              "km": 1.6
+            },
+            {
+              "poi_id": "poi_002018",
+              "km": 2.3
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_002018",
+            "entity_type": "poi",
+            "name": "Petra Church (Byzantine Church)",
+            "role": "anchor",
+            "region": "Ma'an Governorate",
+            "city": "Wadi Musa",
+            "district": "Petra Region",
+            "address": "North Ridge, Petra Archaeological Park",
+            "latitude": 30.330278,
+            "longitude": 35.444444,
+            "why_retrieved": [
+              "matches history interest"
+            ],
+            "facts": {
+              "category": "Heritage",
+              "subcategory": "Byzantine Basilica",
+              "themes": [
+                "Byzantine Mosaics",
+                "Christian History",
+                "Petra Papyri",
+                "Archaeology"
+              ],
+              "opening_hours": "06:00",
+              "closing_hours": "18:00",
+              "closed_days": [],
+              "average_visit_minutes": 40,
+              "booking_required": false,
+              "best_visit_time": [
+                "Morning",
+                "Afternoon"
+              ],
+              "activity_level": "Low",
+              "indoor_outdoor": "Mixed",
+              "entry_fee": 50.0,
+              "currency": "JOD",
+              "pricing_level": "High",
+              "highlights": [
+                "Vibrant 5th-century geometric and animal floor mosaics",
+                "Discovery site of the carbonized Petra Papyri archive",
+                "Protective modern shelter canopy over preserved aisle mosaics"
+              ],
+              "notes": "Protected under a permanent protective shelter structure erected by ACOR.",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Seniors",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_002064",
+              "entity_type": "restaurant",
+              "name": "Crowne Plaza Petra Basin Restaurant",
+              "role": "",
+              "region": "Ma'an Governorate",
+              "city": "Wadi Musa",
+              "district": "Petra District",
+              "address": "Inside Petra Archaeological Park, Base of Monastery Trail",
+              "latitude": 30.3288,
+              "longitude": 35.4435,
+              "why_retrieved": [
+                "serves preferred cuisine: Jordanian",
+                "~188 m away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "In-Site Archaeological Park Dining",
+                "cuisine_types": [
+                  "Jordanian",
+                  "International",
+                  "Levantine"
+                ],
+                "meal_types": [
+                  "Lunch"
+                ],
+                "signature_dishes": [
+                  "International Buffet Spread",
+                  "Grilled Chicken",
+                  "Fresh Salad Bar"
+                ],
+                "service_style": "Buffet",
+                "atmosphere": "Casual",
+                "best_visit_time": [
+                  "Afternoon"
+                ],
+                "average_cost_per_person": 18.0,
+                "currency": "JOD",
+                "pricing_level": "High",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian",
+                  "Gluten-Free"
+                ],
+                "occasion_suitability": [
+                  "Casual Hangout"
+                ],
+                "suitable_for": [
+                  "Groups",
+                  "Family",
+                  "Couples",
+                  "Solo"
+                ],
+                "opening_hours": "11:00",
+                "closing_hours": "16:00",
+                "average_dining_minutes": 60,
+                "notes": "Located inside the ancient site; requires a valid Petra entry ticket to access."
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_002001",
+              "km": 1.1
+            },
+            {
+              "poi_id": "poi_002005",
+              "km": 2.3
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_002001",
+            "entity_type": "poi",
+            "name": "Al-Khazneh (The Treasury)",
+            "role": "anchor",
+            "region": "Ma'an Governorate",
+            "city": "Wadi Musa",
+            "district": "Petra Region",
+            "address": "Petra Archaeological Park, Wadi Musa",
+            "latitude": 30.322003,
+            "longitude": 35.451624,
+            "why_retrieved": [
+              "matches history interest"
+            ],
+            "facts": {
+              "category": "UNESCO",
+              "subcategory": "Rock-cut Architecture",
+              "themes": [
+                "Nabataean",
+                "Ancient History",
+                "Archaeology",
+                "Architecture",
+                "World Heritage"
+              ],
+              "opening_hours": "06:00",
+              "closing_hours": "18:00",
+              "closed_days": [],
+              "average_visit_minutes": 45,
+              "booking_required": false,
+              "best_visit_time": [
+                "Morning"
+              ],
+              "activity_level": "Medium",
+              "indoor_outdoor": "Outdoor",
+              "entry_fee": 50.0,
+              "currency": "JOD",
+              "pricing_level": "High",
+              "highlights": [
+                "40-meter-tall rock-cut classical facade",
+                "Detailed Hellenistic architectural carvings",
+                "First major monument seen after walking through the Siq"
+              ],
+              "notes": "Entrance fee is included in the general Petra Archaeological Park pass.",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Seniors",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_007071",
+              "entity_type": "restaurant",
+              "name": "The Basin Restaurant Petra",
+              "role": "",
+              "region": "Ma'an Governorate",
+              "city": "Wadi Musa",
+              "district": "Petra Archaeological Park",
+              "address": "Petra Archaeological Park (End of Colonnaded Street), Wadi Musa, Jordan",
+              "latitude": 30.3289,
+              "longitude": 35.4412,
+              "why_retrieved": [
+                "serves preferred cuisine: Jordanian",
+                "~1.3 km away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "In-Site Archaeological Park Restaurant",
+                "cuisine_types": [
+                  "Jordanian",
+                  "International",
+                  "Levantine"
+                ],
+                "meal_types": [
+                  "Lunch"
+                ],
+                "signature_dishes": [
+                  "Levantine Mezze Buffet",
+                  "Grilled Chicken Kebab",
+                  "Fresh Fruit Platter"
+                ],
+                "service_style": "Buffet",
+                "atmosphere": "Bustling",
+                "best_visit_time": [
+                  "Midday"
+                ],
+                "average_cost_per_person": 18.0,
+                "currency": "JOD",
+                "pricing_level": "Medium-High",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Mid-Hike Rest",
+                  "Sightseeing Buffet Lunch"
+                ],
+                "suitable_for": [
+                  "Tourists",
+                  "Groups",
+                  "Families",
+                  "Hikers"
+                ],
+                "opening_hours": "11:30",
+                "closing_hours": "16:00",
+                "average_dining_minutes": 60,
+                "notes": "Located inside the paid archaeological park; requires a valid Petra entry ticket to reach."
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_002018",
+              "km": 1.1
+            },
+            {
+              "poi_id": "poi_002005",
+              "km": 1.6
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_002007",
+            "entity_type": "poi",
+            "name": "Little Petra (Siq al-Barid)",
+            "role": "anchor",
+            "region": "Ma'an Governorate",
+            "city": "Wadi Musa",
+            "district": "Petra Region",
+            "address": "Beidha, North of Wadi Musa",
+            "latitude": 30.375361,
+            "longitude": 35.456639,
+            "why_retrieved": [],
+            "facts": {
+              "category": "Heritage",
+              "subcategory": "Archaeological Site",
+              "themes": [
+                "Nabataean",
+                "Archaeology",
+                "Ancient Trade",
+                "Frescoes"
+              ],
+              "opening_hours": "06:00",
+              "closing_hours": "18:00",
+              "closed_days": [],
+              "average_visit_minutes": 60,
+              "booking_required": false,
+              "best_visit_time": [
+                "Morning",
+                "Afternoon"
+              ],
+              "activity_level": "Low",
+              "indoor_outdoor": "Mixed",
+              "entry_fee": 0.0,
+              "currency": "JOD",
+              "pricing_level": "Free",
+              "highlights": [
+                "Rare 2,000-year-old painted Nabataean wall ceiling frescoes",
+                "Narrow mini-canyon atmospheric walkway",
+                "Ancient rock-carved dining chambers"
+              ],
+              "notes": "Free entry; does not require the main Petra Park entrance ticket.",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Seniors",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_002053",
+              "entity_type": "restaurant",
+              "name": "Rock Camp Restaurant Little Petra",
+              "role": "",
+              "region": "Ma'an Governorate",
+              "city": "Wadi Musa",
+              "district": "Petra District",
+              "address": "Siq al-Barid Road, Little Petra Area",
+              "latitude": 30.3751,
+              "longitude": 35.4518,
+              "why_retrieved": [
+                "serves preferred cuisine: Jordanian",
+                "~465 m away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Bedouin Camp Restaurant",
+                "cuisine_types": [
+                  "Jordanian",
+                  "Middle Eastern"
+                ],
+                "meal_types": [
+                  "Breakfast",
+                  "Dinner"
+                ],
+                "signature_dishes": [
+                  "Bedouin Style Chicken Zarb",
+                  "Lentil Soup",
+                  "Bedouin Herbal Tea"
+                ],
+                "service_style": "Buffet",
+                "atmosphere": "Rustic",
+                "best_visit_time": [
+                  "Evening"
+                ],
+                "average_cost_per_person": 11.0,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Casual Hangout",
+                  "Celebration/Group Event"
+                ],
+                "suitable_for": [
+                  "Groups",
+                  "Family",
+                  "Couples",
+                  "Solo"
+                ],
+                "opening_hours": "07:00",
+                "closing_hours": "22:00",
+                "average_dining_minutes": 70,
+                "notes": "Reservations strongly recommended for non-camp guests."
+              }
+            },
+            {
+              "id": "restaurant_007073",
+              "entity_type": "restaurant",
+              "name": "Little Petra Bedouin Camp Restaurant",
+              "role": "",
+              "region": "Ma'an Governorate",
+              "city": "Wadi Musa",
+              "district": "Little Petra (Siq al-Barid)",
+              "address": "Siq al-Barid Access Road, Little Petra, Wadi Musa, Jordan",
+              "latitude": 30.3752,
+              "longitude": 35.4528,
+              "why_retrieved": [
+                "serves preferred cuisine: Jordanian",
+                "~369 m away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Bedouin Desert Camp Restaurant",
+                "cuisine_types": [
+                  "Bedouin",
+                  "Jordanian"
+                ],
+                "meal_types": [
+                  "Dinner"
+                ],
+                "signature_dishes": [
+                  "Underground Earth-Oven Zarb",
+                  "Smoky Moutabal",
+                  "Bedouin Cardamom Tea"
+                ],
+                "service_style": "Buffet",
+                "atmosphere": "Traditional",
+                "best_visit_time": [
+                  "Evening"
+                ],
+                "average_cost_per_person": 13.0,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Stargazing Dinner",
+                  "Cultural Immersion",
+                  "Group Gathering"
+                ],
+                "suitable_for": [
+                  "Tourists",
+                  "Couples",
+                  "Groups",
+                  "Adventure Seekers"
+                ],
+                "opening_hours": "12:00",
+                "closing_hours": "22:00",
+                "average_dining_minutes": 90,
+                "notes": "Unearthing of the underground Zarb oven usually takes place around sunset."
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_002018",
+              "km": 5.1
+            },
+            {
+              "poi_id": "poi_002005",
+              "km": 5.7
+            }
+          ]
+        }
+      ],
+      "hotels": [
+        {
+          "id": "hotel_000178",
+          "entity_type": "hotel",
+          "name": "Petra Aretas Hotel",
+          "role": "",
+          "region": "Ma'an Governorate",
+          "city": "Wadi Musa",
+          "district": "Tourism Street",
+          "address": "Tourism Street, Wadi Musa 71810, Jordan",
+          "latitude": 30.3275182,
+          "longitude": 35.4679981,
+          "why_retrieved": [
+            "matches culture interest"
+          ],
+          "facts": {
+            "category": "Hotel",
+            "subcategory": "Boutique Hotel near Petra Visitor Center",
+            "star_rating": 2,
+            "room_types": [
+              "Deluxe Double",
+              "Deluxe Twin",
+              "Deluxe Triple",
+              "Family Room"
+            ],
+            "amenities": [
+              "WiFi",
+              "Air Conditioning",
+              "Breakfast Included",
+              "TV",
+              "Refrigerator",
+              "Private Bathroom"
+            ],
+            "view_types": [
+              "Mountain View",
+              "City View"
+            ],
+            "best_for": [
+              "Petra Visitors",
+              "Family Vacations",
+              "Adventure Travelers"
+            ],
+            "average_price_per_night": 40,
+            "currency": "JOD",
+            "pricing_level": "Low",
+            "suitable_for": [
+              "Couples",
+              "Family",
+              "Solo",
+              "Groups",
+              "Friends"
+            ],
+            "check_in": "15:00",
+            "check_out": "11:00",
+            "notes": "Located approximately an 8-minute walk from Petra Visitor Centre. Buffet breakfast is available daily. Exact star classification, payment methods, and geographic coordinates are intentionally left unresolved pending verification from official sources."
+          }
+        },
+        {
+          "id": "hotel_000174",
+          "entity_type": "hotel",
+          "name": "Petra Panorama Hotel",
+          "role": "",
+          "region": "Ma'an Governorate",
+          "city": "Wadi Musa",
+          "district": "Queen Rania Street",
+          "address": "Queen Rania Street, Wadi Musa, Petra, Jordan",
+          "latitude": 30.291446,
+          "longitude": 35.457658,
+          "why_retrieved": [],
+          "facts": {
+            "category": "Hotel",
+            "subcategory": "Large Hillside Hotel with Outdoor Pool",
+            "star_rating": 4,
+            "room_types": [
+              "Double",
+              "Twin",
+              "Suite",
+              "Family Room"
+            ],
+            "amenities": [
+              "WiFi",
+              "Air Conditioning",
+              "Heating",
+              "Swimming Pool",
+              "Minibar",
+              "TV",
+              "Balcony/Terrace"
+            ],
+            "view_types": [
+              "Mountain View"
+            ],
+            "best_for": [
+              "Family Vacations",
+              "Groups",
+              "Business Trips"
+            ],
+            "average_price_per_night": 45,
+            "currency": "JOD",
+            "pricing_level": "Medium",
+            "suitable_for": [
+              "Family",
+              "Couples",
+              "Groups",
+              "Business",
+              "Seniors"
+            ],
+            "check_in": "14:00",
+            "check_out": "12:00",
+            "notes": "Opened in 1999. The outdoor pool is open to guests roughly from 07:00 to 19:00. Sources disagree on whether breakfast is included in the rate, so it is not listed as an amenity. Reported room counts vary between 130 and 175 across distribution channels."
+          }
+        },
+        {
+          "id": "hotel_000184",
+          "entity_type": "hotel",
+          "name": "Cleopetra Hotel",
+          "role": "",
+          "region": "Ma'an Governorate",
+          "city": "Wadi Musa",
+          "district": "Main Street",
+          "address": "Main Street, Wadi Musa, Jordan",
+          "latitude": 30.318934,
+          "longitude": 35.481653,
+          "why_retrieved": [],
+          "facts": {
+            "category": "Hotel",
+            "subcategory": "Small Budget Hotel",
+            "star_rating": 3,
+            "room_types": [
+              "Family Room",
+              "Twin Room with View",
+              "Deluxe King Studio",
+              "Family Studio",
+              "Triple"
+            ],
+            "amenities": [
+              "WiFi",
+              "Breakfast Included",
+              "Room Service",
+              "TV"
+            ],
+            "view_types": [
+              "City View"
+            ],
+            "best_for": [
+              "Backpackers",
+              "Adventure Travelers",
+              "Groups"
+            ],
+            "average_price_per_night": 50,
+            "currency": "JOD",
+            "pricing_level": "Medium",
+            "suitable_for": [
+              "Solo",
+              "Couples",
+              "Friends",
+              "Students",
+              "Family"
+            ],
+            "check_in": "14:00",
+            "check_out": "12:00",
+            "notes": "Check-in is available from 09:00, which is earlier than most hotels in the town. Both smoking and non-smoking rooms are offered."
+          }
+        },
+        {
+          "id": "hotel_000189",
+          "entity_type": "hotel",
+          "name": "Little Petra Bedouin Camp",
+          "role": "",
+          "region": "Ma'an Governorate",
+          "city": "Al Beidha",
+          "district": "Little Petra",
+          "address": "Small Petra, Al-Baydha, Wadi Musa 71810, Petra, Jordan",
+          "latitude": 30.370803,
+          "longitude": 35.458497,
+          "why_retrieved": [
+            "matches culture interest"
+          ],
+          "facts": {
+            "category": "Camp/Glamping",
+            "subcategory": "Bedouin Desert Camp",
+            "star_rating": 2,
+            "room_types": [
+              "Tent/Camp Room",
+              "Double",
+              "Twin",
+              "Triple",
+              "Family Room"
+            ],
+            "amenities": [
+              "WiFi",
+              "Air Conditioning",
+              "Room Service"
+            ],
+            "view_types": [
+              "Desert View",
+              "Mountain View",
+              "Garden View"
+            ],
+            "best_for": [
+              "Adventure Travelers",
+              "Family Vacations",
+              "Groups"
+            ],
+            "average_price_per_night": 50,
+            "currency": "JOD",
+            "pricing_level": "Medium",
+            "suitable_for": [
+              "Couples",
+              "Family",
+              "Friends",
+              "Groups",
+              "Solo"
+            ],
+            "check_in": "14:00",
+            "check_out": "10:00",
+            "notes": "Standard tents share bathroom and shower blocks while a newer deluxe category has private bathrooms. Buffet breakfast is charged separately at about JOD 7 per adult. Pets are accepted at no additional cost, but service animals are not permitted. Reported tent counts differ sharply between sources and are not loaded."
+          }
+        }
+      ],
+      "events": [
+        {
+          "id": "event_000159",
+          "entity_type": "event",
+          "name": "Petra Heritage Fashion and Local Products Exhibition",
+          "role": "",
+          "region": "Ma'an",
+          "city": "Wadi Musa",
+          "district": "Wadi Musa",
+          "address": "Petra, Ma'an, Jordan",
+          "latitude": 0.0,
+          "longitude": 0.0,
+          "why_retrieved": [
+            "matches culture interest"
+          ],
+          "facts": {
+            "category": "Cultural Event",
+            "subcategory": "Heritage and Handicrafts",
+            "themes": [
+              "Heritage and Handicrafts"
+            ],
+            "typical_months": [],
+            "typical_seasons": [],
+            "recurrence": null,
+            "duration_minutes": null,
+            "ticket_cost": null,
+            "currency": [],
+            "pricing_level": null,
+            "indoor_outdoor": null,
+            "highlights": [
+              "Heritage and Handicrafts"
+            ],
+            "languages": [
+              "Arabic"
+            ],
+            "minimum_age": null,
+            "suitable_for": [
+              "Local Visitors",
+              "Tourists"
+            ]
+          }
+        },
+        {
+          "id": "event_000161",
+          "entity_type": "event",
+          "name": "Dinner in Front of the Treasury",
+          "role": "",
+          "region": "Ma'an",
+          "city": "Wadi Musa",
+          "district": "Wadi Musa",
+          "address": "The Treasury, Petra, Ma'an, Jordan",
+          "latitude": 0.0,
+          "longitude": 0.0,
+          "why_retrieved": [
+            "matches culture interest"
+          ],
+          "facts": {
+            "category": "Cultural Event",
+            "subcategory": "Culinary Experience",
+            "themes": [
+              "Culinary Experience"
+            ],
+            "typical_months": [],
+            "typical_seasons": [],
+            "recurrence": null,
+            "duration_minutes": null,
+            "ticket_cost": null,
+            "currency": [],
+            "pricing_level": null,
+            "indoor_outdoor": null,
+            "highlights": [
+              "Culinary Experience"
+            ],
+            "languages": [
+              "Arabic"
+            ],
+            "minimum_age": null,
+            "suitable_for": [
+              "Local Visitors",
+              "Tourists"
+            ]
+          }
+        },
+        {
+          "id": "event_000158",
+          "entity_type": "event",
+          "name": "Caravans of Petra Documentary Screening",
+          "role": "",
+          "region": "Ma'an",
+          "city": "Wadi Musa",
+          "district": "Wadi Musa",
+          "address": "Petra, Ma'an, Jordan",
+          "latitude": 0.0,
+          "longitude": 0.0,
+          "why_retrieved": [
+            "matches culture interest"
+          ],
+          "facts": {
+            "category": "Cultural Event",
+            "subcategory": "Documentary Film",
+            "themes": [
+              "Documentary Film"
+            ],
+            "typical_months": [],
+            "typical_seasons": [],
+            "recurrence": null,
+            "duration_minutes": null,
+            "ticket_cost": null,
+            "currency": [],
+            "pricing_level": null,
+            "indoor_outdoor": null,
+            "highlights": [
+              "Documentary Film"
+            ],
+            "languages": [
+              "Arabic"
+            ],
+            "minimum_age": null,
+            "suitable_for": [
+              "Local Visitors",
+              "Tourists"
+            ]
+          }
+        }
+      ],
+      "summary": "Ma'an Governorate: 4 anchor + 0 discovery POIs; 4 restaurants; 4 hotels; 3 events."
+    },
+    {
+      "cluster_id": 2,
+      "theme": "Ma'an Governorate · culture, history",
+      "pois": [
+        {
+          "poi": {
+            "id": "poi_002032",
+            "entity_type": "poi",
+            "name": "Red Sand Dunes of Wadi Rum",
+            "role": "anchor",
+            "region": "Ma'an Governorate",
+            "city": "Wadi Rum",
+            "district": "Quweira District",
+            "address": "Jebel Um Ishrin base, Wadi Rum Protected Area",
+            "latitude": 29.585278,
+            "longitude": 35.433611,
+            "why_retrieved": [],
+            "facts": {
+              "category": "Nature",
+              "subcategory": "Sand Dune",
+              "themes": [
+                "Sand Dunes",
+                "Desert Landscape",
+                "Geology",
+                "Nature"
+              ],
+              "opening_hours": "",
+              "closing_hours": "",
+              "closed_days": [],
+              "average_visit_minutes": 45,
+              "booking_required": null,
+              "best_visit_time": [
+                "Morning",
+                "Afternoon"
+              ],
+              "activity_level": "Medium",
+              "indoor_outdoor": "Outdoor",
+              "entry_fee": 5.0,
+              "currency": "JOD",
+              "pricing_level": "Low",
+              "highlights": [
+                "Vibrant deep red sand dune accumulation against rock face",
+                "Fun dune climb with expansive desert views from top",
+                "Popular sandboarding and sunset photo location"
+              ],
+              "notes": "Sand can become extremely hot under direct midday summer sun.",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Children",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_002042",
+              "entity_type": "restaurant",
+              "name": "Wadi Rum Rest House Restaurant",
+              "role": "",
+              "region": "Ma'an Governorate",
+              "city": "Wadi Rum",
+              "district": "Quweira District",
+              "address": "Wadi Rum Village Main Square",
+              "latitude": 29.5772,
+              "longitude": 35.4194,
+              "why_retrieved": [
+                "serves preferred cuisine: Jordanian",
+                "~1.6 km away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Desert Rest Stop & Diner",
+                "cuisine_types": [
+                  "Jordanian",
+                  "Middle Eastern"
+                ],
+                "meal_types": [
+                  "Breakfast",
+                  "Lunch",
+                  "Dinner",
+                  "Coffee/Tea"
+                ],
+                "signature_dishes": [
+                  "Chicken Kabsa",
+                  "Hummus & Pita",
+                  "Sweet Bedouin Tea"
+                ],
+                "service_style": "Buffet",
+                "atmosphere": "Casual",
+                "best_visit_time": [
+                  "Morning",
+                  "Afternoon"
+                ],
+                "average_cost_per_person": 7.0,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Casual Hangout"
+                ],
+                "suitable_for": [
+                  "Groups",
+                  "Solo",
+                  "Family",
+                  "Friends"
+                ],
+                "opening_hours": "07:00",
+                "closing_hours": "21:00",
+                "average_dining_minutes": 45,
+                "notes": "Cash payments are strongly preferred due to limited desert connectivity."
+              }
+            },
+            {
+              "id": "restaurant_007075",
+              "entity_type": "restaurant",
+              "name": "Wadi Rum Visitor Center Rest House",
+              "role": "",
+              "region": "Ma'an Governorate",
+              "city": "Wadi Rum",
+              "district": "Rum Village",
+              "address": "Rum Village Main Entrance, Wadi Rum, Jordan",
+              "latitude": 29.5778,
+              "longitude": 35.419,
+              "why_retrieved": [
+                "matches history interest",
+                "serves preferred cuisine: Jordanian",
+                "~1.6 km away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Desert Gateway Rest House",
+                "cuisine_types": [
+                  "Jordanian",
+                  "Casual Cafe"
+                ],
+                "meal_types": [
+                  "Breakfast",
+                  "Lunch",
+                  "Snacks"
+                ],
+                "signature_dishes": [
+                  "Gallayet Bandora",
+                  "Fresh Falafel Plate",
+                  "Mint Cardamom Tea"
+                ],
+                "service_style": "Casual Dining",
+                "atmosphere": "Relaxed",
+                "best_visit_time": [
+                  "Morning",
+                  "Afternoon"
+                ],
+                "average_cost_per_person": 7.0,
+                "currency": "JOD",
+                "pricing_level": "Low-Medium",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Pre-Tour Breakfast",
+                  "Trail Stop",
+                  "Casual Lunch"
+                ],
+                "suitable_for": [
+                  "Climbers",
+                  "Hikers",
+                  "Backpackers",
+                  "Tourists"
+                ],
+                "opening_hours": "07:30",
+                "closing_hours": "20:00",
+                "average_dining_minutes": 45,
+                "notes": "Hub location where local guides and 4x4 drivers assemble before safari departures."
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_002039",
+              "km": 2.0
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_002039",
+            "entity_type": "poi",
+            "name": "Nabataean Temple of Wadi Rum",
+            "role": "anchor",
+            "region": "Ma'an Governorate",
+            "city": "Wadi Rum",
+            "district": "Quweira District",
+            "address": "Rum Village outskirts, Wadi Rum",
+            "latitude": 29.575556,
+            "longitude": 35.416667,
+            "why_retrieved": [],
+            "facts": {
+              "category": "Heritage",
+              "subcategory": "Ancient Temple Ruins",
+              "themes": [
+                "Nabataean Religion",
+                "Temple Ruins",
+                "Goddess Allat",
+                "Archaeology"
+              ],
+              "opening_hours": "",
+              "closing_hours": "",
+              "closed_days": [],
+              "average_visit_minutes": 30,
+              "booking_required": null,
+              "best_visit_time": [
+                "Morning",
+                "Afternoon"
+              ],
+              "activity_level": "Low",
+              "indoor_outdoor": "Outdoor",
+              "entry_fee": 5.0,
+              "currency": "JOD",
+              "pricing_level": "Low",
+              "highlights": [
+                "1st-century BC stone column bases and platform wall ruins",
+                "Ancient sanctuary dedicated to goddess Allat",
+                "Easily reached on foot directly from Rum Village"
+              ],
+              "notes": "Located within easy 5-minute walking distance west of Rum Village.",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Seniors",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_007074",
+              "entity_type": "restaurant",
+              "name": "Captain's Desert Camp Restaurant Wadi Rum",
+              "role": "",
+              "region": "Ma'an Governorate",
+              "city": "Wadi Rum",
+              "district": "Wadi Rum Protected Area",
+              "address": "Disi Area / Main Valley Entrance, Wadi Rum, Ma'an Governorate, Jordan",
+              "latitude": 29.6105,
+              "longitude": 35.4352,
+              "why_retrieved": [
+                "matches history interest",
+                "serves preferred cuisine: Jordanian",
+                "~4.3 km away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Desert Oasis Camp Restaurant",
+                "cuisine_types": [
+                  "Bedouin",
+                  "Jordanian"
+                ],
+                "meal_types": [
+                  "Lunch",
+                  "Dinner"
+                ],
+                "signature_dishes": [
+                  "Bedouin Lamb & Chicken Zarb",
+                  "Hummus & Fresh Flatbread",
+                  "Bedouin Sage Tea"
+                ],
+                "service_style": "Buffet",
+                "atmosphere": "Traditional",
+                "best_visit_time": [
+                  "Evening"
+                ],
+                "average_cost_per_person": 15.0,
+                "currency": "JOD",
+                "pricing_level": "Medium-High",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Desert Safari Lunch",
+                  "Stargazing Dinner",
+                  "Group Event"
+                ],
+                "suitable_for": [
+                  "Tourists",
+                  "Groups",
+                  "Couples",
+                  "Families"
+                ],
+                "opening_hours": "07:00",
+                "closing_hours": "22:00",
+                "average_dining_minutes": 80,
+                "notes": "Desert safari 4x4 transfers to the camp can be arranged via the visitor center."
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_002032",
+              "km": 2.0
+            }
+          ]
+        }
+      ],
+      "hotels": [],
+      "events": [
+        {
+          "id": "event_000094",
+          "entity_type": "event",
+          "name": "Wadi Rum Endurance Race",
+          "role": "",
+          "region": "Aqaba",
+          "city": "Wadi Rum",
+          "district": "Aqaba",
+          "address": "Wadi Rum, Jordan",
+          "latitude": 0.0,
+          "longitude": 0.0,
+          "why_retrieved": [],
+          "facts": {
+            "category": "Sports",
+            "subcategory": "Wadi Rum Equestrian Endurance Race",
+            "themes": [
+              "Horse",
+              "Competition",
+              "Athlete Development",
+              "Jordan Sport"
+            ],
+            "typical_months": [],
+            "typical_seasons": [],
+            "recurrence": "Annual",
+            "duration_minutes": null,
+            "ticket_cost": null,
+            "currency": "JOD",
+            "pricing_level": null,
+            "indoor_outdoor": "Outdoor",
+            "highlights": [
+              "Horse-and-rider combinations competing over desert endurance stages in Wadi Rum",
+              "Organized or sanctioned by Royal Jordanian Equestrian Federation",
+              "Uses edition-specific registration and technical regulations",
+              "Documented by an official Jordanian sports source"
+            ],
+            "languages": [
+              "Arabic",
+              "English"
+            ],
+            "minimum_age": null,
+            "suitable_for": [
+              "Family",
+              "Solo",
+              "Friends",
+              "Groups",
+              "Students"
+            ]
+          }
+        }
+      ],
+      "summary": "Ma'an Governorate: 2 anchor + 0 discovery POIs; 3 restaurants; 1 events."
+    }
+  ],
+  "meta": {
+    "unsupported": [],
+    "places_to_avoid": "",
+    "deferred": {
+      "preferredLanguage": "English",
+      "smePreferences": []
+    },
+    "rag_status": "ok",
+    "source": "retriever",
+    "compacted": false,
+    "planning_lock": "PLANNING LOCK (hard — plan OVER clusters, then write JSON):\n- Fill ALL 3 days (nights=2). No empty/partial days.\n- Mandatory destinations (preferredRegions + mustVisit): Petra, Wadi Rum. Plan ONLY in these areas — any other cluster is reference material, not a day.\n- Destination→cluster map: Petra→cluster 1 (Ma'an Governorate · culture, history); Wadi Rum→cluster 0 (Ma'an Governorate · culture, history)\n- Day→cluster route (one day per cluster, in this order): D1:C0/Petra part 1 → D2:C1/Petra part 2 → D3:C2/Petra part 3\n- mustVisit entity lock: Wadi Rum→lead with Wadi Rum Visitor Center (cluster 0)\n- Each day draws its POIs, meals and hotel from ITS OWN cluster.\n- No entity twice in the whole trip: a POI or restaurant used on one day cannot reappear on another, and lunch and dinner are different places. Two days in the same city are two different clusters — use each cluster's own entities.\n- Each day: 3 sights + lunch + dinner (5 entries, 6 max). Two sights only when the cluster has no third worth visiting, and say so. No gap over 90 minutes, no site under 45 minutes, at least 4 hours of sightseeing per full day.\n- activity_alternatives come from that cluster's UNUSED entities: never an entity scheduled elsewhere in the trip, and never two scheduled stops as each other's swap.\n- One visit, one fee (POIs within 600 m are parts of one site): C0: Rum Village Bedouin Oasis + Desert Police Station & Fort (Wadi Rum)\n- Lodging requested: rating=4 star, type=hotel. Per-night base (night N = where day N ends): N1(C0): no hotel card — state lodging is not covered; N2(C1): Petra Panorama Hotel [4-star]\n- Money: 900 JOD covers 5 traveller(s) for 3 days (≈300 JOD/day for the whole party). Lodging = nightly rate x 2 night(s) x ~3 room(s), arithmetic shown in the notes. aiPriority=budget → take the cheaper of two comparable options and note the saving. SME=(none).\n- Entry fees are the last thing to cut: never skip a named destination's main ticketed site to save money, and state what is left of the budget.\n- Names/hours/fees: EntityCards only. If a card does not carry a fact (rating, booking requirement, closing day), do not state it.\n- Prices: use the card value as-is, multiplied by the party size, and show the arithmetic in the tip (\"10 JOD x 4\"). If a card has no price, estimate from pricing_level and label it \"~N JOD (estimated)\".\n- Events are reference only: never schedule them in the itinerary or budget."
+  },
+  "sme_candidates": [
+    {
+      "sme_id": "tour_guide:SME-000013:amman",
+      "sme_type": "tour_guide",
+      "name": "Faisal Al-Majali",
+      "description": "Professional licensed tour guide with a deep focus on Jordanian political history, modern development, and central landmark tours.",
+      "known_for": [
+        "Professional licensed tour guide with a deep focus on Jordanian political history, modern development, and central landmark tours",
+        "Takes travelers to The Jordan Museum, Parliament area monuments, Amman Citadel, Raghadan Palace view points",
+        "Also offers Private Tours, Custom Itineraries, Special Interest Tours",
+        "Private groups available"
+      ],
+      "specs": [
+        {
+          "label": "Specializations",
+          "value": "History, Culture, Museums"
+        },
+        {
+          "label": "Experience",
+          "value": "16 years"
+        },
+        {
+          "label": "Languages",
+          "value": "Arabic, English, French"
+        },
+        {
+          "label": "Best for",
+          "value": "Families, Couples, Solo Travelers"
+        },
+        {
+          "label": "Group size",
+          "value": "1–30"
+        },
+        {
+          "label": "From",
+          "value": "90–150 JOD"
+        },
+        {
+          "label": "Hours",
+          "value": "08:00 - 17:00"
+        },
+        {
+          "label": "Rating",
+          "value": "5.0 (62 reviews)"
+        }
+      ],
+      "specializations": [
+        "History",
+        "Culture",
+        "Museums"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples",
+        "Solo Travelers"
+      ],
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "destinations_covered": [
+        "The Jordan Museum",
+        "Parliament area monuments",
+        "Amman Citadel",
+        "Raghadan Palace view points"
+      ],
+      "languages": [
+        "Arabic",
+        "English",
+        "French"
+      ],
+      "service_categories": [
+        "Tour Guiding",
+        "Private Tours",
+        "Custom Itineraries",
+        "Special Interest Tours"
+      ],
+      "preferred_experience_types": [
+        "History & Culture"
+      ],
+      "transportation_available": false,
+      "min_group": 1,
+      "max_group": 30,
+      "pricing_model": "Per Day",
+      "min_price": 90.0,
+      "max_price": 150.0,
+      "currency": "JOD",
+      "rating": 5.0,
+      "review_count": 62,
+      "subscribed": false,
+      "match_score": 0.787,
+      "match_reasons": [
+        "Fits what you asked for: culture, history",
+        "Covers amman",
+        "Based in Amman",
+        "Works with family travelers",
+        "Speaks English"
+      ],
+      "suggested_role": "Trip guide",
+      "package_role": "guide",
+      "covers_regions": [
+        "amman"
+      ]
+    },
+    {
+      "sme_id": "tour_operator:SME-000001:amman",
+      "sme_type": "tour_operator",
+      "name": "Dakkak Tours International",
+      "description": "A leading incoming tour operator and destination management company in Jordan, providing comprehensive travel services, customized itineraries, and professional tourism coordination since 1956.",
+      "known_for": [
+        "A leading incoming tour operator and destination management company in Jordan, providing comprehensive travel services, customized itineraries, and professional tourism coordination since 1956",
+        "Takes travelers to Amman, Petra, Wadi Rum, Jerash",
+        "Also offers Transportation, Custom Itineraries, Cultural Experiences",
+        "Private groups available",
+        "Can arrange transportation"
+      ],
+      "specs": [
+        {
+          "label": "Specializations",
+          "value": "History, Culture, Archaeology, Religious Sites, Desert Experiences"
+        },
+        {
+          "label": "Experience",
+          "value": "70 years"
+        },
+        {
+          "label": "Languages",
+          "value": "English, Arabic, French, German"
+        },
+        {
+          "label": "Best for",
+          "value": "Couples, Families, Solo Travelers"
+        },
+        {
+          "label": "Group size",
+          "value": "1–50"
+        },
+        {
+          "label": "From",
+          "value": "75–1200 JOD"
+        },
+        {
+          "label": "Hours",
+          "value": "08:30-17:30"
+        },
+        {
+          "label": "Rating",
+          "value": "4.7 (142 reviews)"
+        }
+      ],
+      "specializations": [
+        "History",
+        "Culture",
+        "Archaeology",
+        "Religious Sites",
+        "Desert Experiences"
+      ],
+      "target_customer_types": [
+        "Couples",
+        "Families",
+        "Solo Travelers"
+      ],
+      "city": "Amman",
+      "region": "Amman Governorate",
+      "destinations_covered": [
+        "Amman",
+        "Petra",
+        "Wadi Rum",
+        "Jerash",
+        "Dead Sea",
+        "Aqaba"
+      ],
+      "languages": [
+        "English",
+        "Arabic",
+        "French",
+        "German"
+      ],
+      "service_categories": [
+        "Tour Guiding",
+        "Tour Planning & Itinerary Design",
+        "Transportation",
+        "Custom Itineraries",
+        "Cultural Experiences",
+        "Private Tours",
+        "Group Tours",
+        "Airport Transfers",
+        "Hotel / Accommodation Booking",
+        "Activity & Excursion Booking"
+      ],
+      "preferred_experience_types": [
+        "History & Culture",
+        "Archaeological Tourism",
+        "Desert Experiences",
+        "Luxury Experiences"
+      ],
+      "transportation_available": true,
+      "min_group": 1,
+      "max_group": 50,
+      "pricing_model": "Per Person / Package",
+      "min_price": 75.0,
+      "max_price": 1200.0,
+      "currency": "JOD",
+      "rating": 4.7,
+      "review_count": 142,
+      "subscribed": false,
+      "match_score": 0.885,
+      "match_reasons": [
+        "Fits what you asked for: culture, history",
+        "Covers amman, petra, wadi rum",
+        "Based in Amman",
+        "Works with family travelers",
+        "Speaks English",
+        "Transportation across the itinerary"
+      ],
+      "suggested_role": "Trip operator",
+      "package_role": "operator",
+      "covers_regions": [
+        "amman",
+        "petra",
+        "wadi rum"
+      ]
+    }
+  ],
+  "context": {
+    "trip_window": {
+      "start_date": "2026-08-21",
+      "end_date": "2026-08-24",
+      "duration_days": 4,
+      "exploration_days": 3,
+      "nights": 3,
+      "arrival_airport": "AMM",
+      "arrival_time": "21:46",
+      "language": "English"
+    },
+    "geographic": {
+      "arrival_airport": "AMM",
+      "preferred_regions": [
+        "Wadi Rum",
+        "Petra"
+      ],
+      "region_keys": [
+        "ma'an",
+        "maan",
+        "petra",
+        "wadi musa",
+        "wadi rum"
+      ],
+      "must_visit": [
+        "Wadi Rum"
+      ],
+      "places_to_avoid": [],
+      "clustering_rule": "Keep each day geographically coherent. Avoid unnecessary cross-country hops."
+    },
+    "traveler": {
+      "group_type": "family",
+      "adults": 5,
+      "children": 0,
+      "children_ages": [],
+      "seniors": 0,
+      "total_travelers": 5,
+      "accessibility_needs": [],
+      "limited_mobility": false,
+      "family_mode": true
+    },
+    "pace": {
+      "trip_pace": "Balanced",
+      "activity_level": "Moderate",
+      "sights_per_day": 5,
+      "meals_per_day": 3,
+      "max_schedule_items": 11
+    },
+    "budget": {
+      "total": 900.0,
+      "currency": "JOD",
+      "band": "comfort",
+      "per_day": 225.0,
+      "guidance": "Comfort-oriented stays and dining when listed places exist."
+    },
+    "climate": {
+      "month": 8,
+      "season": "hot_dry_summer",
+      "typical_pattern": "High daytime heat, especially in the Jordan Valley and desert.",
+      "outdoor_guidance": "Walk outdoors in the morning. Keep the afternoon for shade, meals, or indoor visits.",
+      "heat_risk": "high"
+    },
+    "weather": [
+      {
+        "date": "2026-08-21",
+        "t_min_c": 24.2,
+        "t_max_c": 37.7,
+        "precipitation_probability": 0.0,
+        "condition": "very_hot",
+        "source": "open-meteo"
+      },
+      {
+        "date": "2026-08-22",
+        "t_min_c": 22.9,
+        "t_max_c": 35.7,
+        "precipitation_probability": 0.0,
+        "condition": "hot",
+        "source": "open-meteo"
+      },
+      {
+        "date": "2026-08-23",
+        "t_min_c": 21.1,
+        "t_max_c": 35.0,
+        "precipitation_probability": 0.0,
+        "condition": "hot",
+        "source": "open-meteo"
+      },
+      {
+        "date": "2026-08-24",
+        "t_min_c": 20.1,
+        "t_max_c": 34.9,
+        "precipitation_probability": 0.0,
+        "condition": "hot",
+        "source": "open-meteo"
+      }
+    ],
+    "weather_status": "ok",
+    "decisions": [
+      {
+        "code": "day_route",
+        "title": "Each exploring day stays in one area",
+        "why": "Mixing far-apart cities in one day makes the trip exhausting.",
+        "effect": "After arrival, the days run Petra, then Wadi Rum (2 days)."
+      },
+      {
+        "code": "arrival_stay",
+        "title": "Night one is near the airport",
+        "why": "You land at AMM at 21:46.",
+        "effect": "Sleep in Amman on arrival night. The exploring days start the next morning."
+      },
+      {
+        "code": "arrival_relocate",
+        "title": "Amman for the first night, then south",
+        "why": "You land at Queen Alia, and the exploring days are in Southern Jordan.",
+        "effect": "Stay in Amman on arrival night, then travel south the next day."
+      },
+      {
+        "code": "arrival_pace",
+        "title": "A quiet first night",
+        "why": "You land at 21:46.",
+        "effect": "Transfer, a simple dinner if kitchens are open, then sleep. Exploring starts tomorrow."
+      },
+      {
+        "code": "day_trips",
+        "title": "Day trips from one hotel",
+        "why": "These places are close enough to visit and return the same day.",
+        "effect": "You keep the same hotel in Wadi Rum and come back there to sleep."
+      },
+      {
+        "code": "hotel_move",
+        "title": "Then you move closer to the places you came for",
+        "why": "Sleeping in the same city you visit beats a long commute every morning.",
+        "effect": "After the arrival night, nearby days share one hotel. You only move when the next area is too far for a day trip."
+      },
+      {
+        "code": "must_visit",
+        "title": "Your must-see places get proper time",
+        "why": "Wadi Rum were marked as required.",
+        "effect": "Those places get up to two exploring days first. Then the remaining days go to the destinations you asked to explore."
+      },
+      {
+        "code": "heat",
+        "title": "Mornings for the outdoors",
+        "why": "High daytime heat, especially in the Jordan Valley and desert.",
+        "effect": "Walk heritage and nature in the morning. Save museums, meals, and shade for the afternoon."
+      },
+      {
+        "code": "pace",
+        "title": "A balanced pace",
+        "why": "family group, Moderate activity.",
+        "effect": "On exploring days, plan on about 5 visits and 3 meals. Arrival follows the time left after food and rest."
+      },
+      {
+        "code": "stay_tier",
+        "title": "4 star stays",
+        "why": "You asked for 4 star hotels.",
+        "effect": "Hotels are taken from listings at that star level when the city has them. If it does not, we use the closest listed tier and say so."
+      },
+      {
+        "code": "budget",
+        "title": "A comfort budget",
+        "why": "900 JOD for 4 days.",
+        "effect": "We lean toward more comfortable stays and dining when those places exist."
+      },
+      {
+        "code": "interests",
+        "title": "Chosen around what you care about",
+        "why": "culture and history",
+        "effect": "Stops follow culture and history. Unrelated places stay off the list."
+      }
+    ],
+    "day_intents": [
+      {
+        "day": 1,
+        "date": "2026-08-21",
+        "region": "Amman",
+        "region_key": "amman",
+        "theme": "Arrival in Amman",
+        "is_must_visit": false,
+        "stay_index": 0,
+        "outdoor_window": "morning",
+        "indoor_window": "afternoon",
+        "sights": 0,
+        "meals": 1,
+        "heat_note": "Walk outdoors in the morning. Keep the afternoon for shade, meals, or indoor visits.",
+        "overnight_key": "amman",
+        "overnight_region": "Amman",
+        "is_arrival_day": true,
+        "stay_style": "arrival",
+        "rest_hours": 0,
+        "allow_arrival_activities": false,
+        "arrival_time": "21:46",
+        "paired_key": ""
+      },
+      {
+        "day": 2,
+        "date": "2026-08-22",
+        "region": "Petra",
+        "region_key": "petra",
+        "theme": "Petra",
+        "is_must_visit": false,
+        "stay_index": 0,
+        "outdoor_window": "morning",
+        "indoor_window": "afternoon",
+        "sights": 5,
+        "meals": 3,
+        "heat_note": "Walk outdoors in the morning. Keep the afternoon for shade, meals, or indoor visits.",
+        "overnight_key": "wadi rum",
+        "overnight_region": "Wadi Rum",
+        "is_arrival_day": false,
+        "stay_style": "day_trip",
+        "rest_hours": 0,
+        "allow_arrival_activities": true,
+        "arrival_time": "",
+        "paired_key": ""
+      },
+      {
+        "day": 3,
+        "date": "2026-08-23",
+        "region": "Wadi Rum",
+        "region_key": "wadi rum",
+        "theme": "Wadi Rum",
+        "is_must_visit": true,
+        "stay_index": 0,
+        "outdoor_window": "morning",
+        "indoor_window": "afternoon",
+        "sights": 5,
+        "meals": 3,
+        "heat_note": "Walk outdoors in the morning. Keep the afternoon for shade, meals, or indoor visits.",
+        "overnight_key": "wadi rum",
+        "overnight_region": "Wadi Rum",
+        "is_arrival_day": false,
+        "stay_style": "in_region",
+        "rest_hours": 0,
+        "allow_arrival_activities": true,
+        "arrival_time": "",
+        "paired_key": ""
+      },
+      {
+        "day": 4,
+        "date": "2026-08-24",
+        "region": "Wadi Rum",
+        "region_key": "wadi rum",
+        "theme": "More time in Wadi Rum",
+        "is_must_visit": true,
+        "stay_index": 1,
+        "outdoor_window": "morning",
+        "indoor_window": "afternoon",
+        "sights": 5,
+        "meals": 3,
+        "heat_note": "Walk outdoors in the morning. Keep the afternoon for shade, meals, or indoor visits.",
+        "overnight_key": "wadi rum",
+        "overnight_region": "Wadi Rum",
+        "is_arrival_day": false,
+        "stay_style": "in_region",
+        "rest_hours": 0,
+        "allow_arrival_activities": true,
+        "arrival_time": "",
+        "paired_key": ""
+      }
+    ],
+    "decision_rules": [
+      "Never invent POIs, hotels, restaurants, SMEs, prices, hours, or coordinates.",
+      "Use only retrieved catalog IDs. If a needed item is missing, leave it unknown and warn.",
+      "Must-visit destinations are hard constraints unless impossible.",
+      "Honor places_to_avoid as a hard exclusion.",
+      "Keep each day geographically coherent.",
+      "Day 1 is the arrival phase, not an exploration day. Wizard duration is the exploring days after arrival.",
+      "Target about 5 sights and 3 meals per exploring day for a Balanced pace.",
+      "Recommend at most one tour guide and one tour operator for the whole package, not per day.",
+      "Tourist relevance always outranks commercial promotion.",
+      "Avoid stacking outdoor sites in peak afternoon heat."
+    ],
+    "assumptions": [
+      "Travel times between cities are estimated qualitatively, not as exact minutes, unless evidence exists.",
+      "Opening hours are used only when present on the catalog record."
+    ],
+    "unknowns": []
+  },
+  "trace": {
+    "stages": [
+      "normalize",
+      "knowledge",
+      "context",
+      "sme",
+      "plan",
+      "validate"
+    ],
+    "profile": {
+      "duration_days": 4,
+      "regions": [
+        "Wadi Rum",
+        "Petra"
+      ],
+      "interests": [
+        "culture",
+        "history"
+      ]
+    },
+    "context": {},
+    "knowledge_counts": {
+      "pois": 27,
+      "restaurants": 24,
+      "hotels": 8,
+      "status": 1
+    },
+    "sme_counts": {
+      "catalog": 495,
+      "matched": 2,
+      "guides": 1,
+      "operators": 1
+    },
+    "validation": {
+      "status": "complete",
+      "days": 4,
+      "warnings": 1,
+      "constraint_status": "satisfied"
+    },
+    "prompt_chars": 199167
+  }
+}

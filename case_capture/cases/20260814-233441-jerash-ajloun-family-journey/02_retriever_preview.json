@@ -1,0 +1,108 @@
+{
+  "status": "ok",
+  "source": "retriever",
+  "duration_days": 3,
+  "cluster_count": 3,
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "theme": "Jerash Governorate · culture, history, nature",
+      "poi_count": 4,
+      "hotel_count": 4,
+      "event_count": 3,
+      "poi_names": [
+        "Jerash Heritage Souk",
+        "Hippodrome of Jerash",
+        "Suf Village Heritage Center",
+        "Al-Kittah Village and Springs"
+      ],
+      "hotel_names": [
+        "The Olive Branch Hotel",
+        "Celestia Boutique Inn",
+        "Jerash Hotel",
+        "Dream House Hotel Apartments"
+      ],
+      "sample_restaurants": [
+        "Jerash Oasis Grill",
+        "Jerash Gate Restaurant",
+        "Roman Bridge Restaurant",
+        "Al-Khaimeh Restaurant",
+        "Jerash Canyon Restaurant",
+        "Jerash Pine Forest Restaurant"
+      ],
+      "event_names": [
+        "National Celebrations Programme - Jerash",
+        "Jerash Festival for Culture and Arts",
+        "Jordan Summer Festival - Jerash"
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "theme": "Jerash Governorate · nature",
+      "poi_count": 4,
+      "hotel_count": 4,
+      "event_count": 3,
+      "poi_names": [
+        "Al-Mustaba Eco-Park",
+        "Al-Karakhouf Waterfall",
+        "Dibbeen Forest Reserve",
+        "Propylaea of Jerash"
+      ],
+      "hotel_names": [
+        "The Olive Branch Hotel",
+        "Celestia Boutique Inn",
+        "Jerash Hotel",
+        "Dream House Hotel Apartments"
+      ],
+      "sample_restaurants": [
+        "Jerash Olive Grove Grill",
+        "Al Ghabah Restaurant",
+        "Anjara Olive Heritage Cafe",
+        "Anjara Heritage Kitchen",
+        "The Lebanese House Jerash",
+        "Al-Roummanah Restaurant"
+      ],
+      "event_names": [
+        "National Celebrations Programme - Jerash",
+        "Jerash Festival for Culture and Arts",
+        "Jordan Summer Festival - Jerash"
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "theme": "Ajloun Governorate · nature, history, culture",
+      "poi_count": 8,
+      "hotel_count": 4,
+      "event_count": 3,
+      "poi_names": [
+        "Wadi Rayyan",
+        "Ajloun Great Mosque",
+        "Orjan Soap House Trailhead",
+        "Ajloun Forest Reserve",
+        "Mar Elias Trailhead",
+        "Wadi Shamali Viewpoint",
+        "Al-Karakah Nature Trail",
+        "Rasoon Village Heritage Area"
+      ],
+      "hotel_names": [
+        "Al-Jabal Castle Hotel - Ajloun",
+        "Ajloun Hotel",
+        "Al Ghazal Villas",
+        "Ajloun Forest Reserve"
+      ],
+      "sample_restaurants": [
+        "Rasoun Heritage House Restaurant",
+        "Ajloun Castle Restaurant",
+        "Ajloun Forest Reserve Restaurant",
+        "Ajloun Reserve Restaurant",
+        "Orjan Village Farm Breakfast & House",
+        "Al Rayyan Valley Cafe & Restaurant"
+      ],
+      "event_names": [
+        "National Celebrations Programme - Ajloun",
+        "Ajloun Ramadan Family and Children Carnival",
+        "Jordan Summer Festival - Ajloun"
+      ]
+    }
+  ]
+}

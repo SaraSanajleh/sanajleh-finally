@@ -1,0 +1,15 @@
+.env
+.venv/
+venv/
+node_modules/
+__pycache__/
+.vscode/
+# Python backend
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+chroma_index/
+**/chroma_index/
+**/*_TEST.json
+.env

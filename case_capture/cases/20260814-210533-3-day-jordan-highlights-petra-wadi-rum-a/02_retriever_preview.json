@@ -1,0 +1,117 @@
+{
+  "status": "ok",
+  "source": "retriever",
+  "duration_days": 3,
+  "cluster_count": 3,
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "theme": "Ma'an Governorate · history, nature",
+      "poi_count": 10,
+      "hotel_count": 4,
+      "event_count": 3,
+      "poi_names": [
+        "Petra Museum",
+        "Petra Church (Byzantine Church)",
+        "Little Petra (Siq al-Barid)",
+        "The Siq",
+        "Neolithic Village of Beidha",
+        "Royal Tombs",
+        "Al-Khazneh Viewpoint (Jabal al-Khubtha Trail)",
+        "Ad-Deir (The Monastery)",
+        "Al-Mu'aysrah Temple Trail",
+        "Al-Maddras Trail & High Viewpoint"
+      ],
+      "hotel_names": [
+        "Mövenpick Resort Petra",
+        "Petra Marriott Hotel",
+        "Grand Mercure Petra",
+        "The Old Village Hotel & Resort"
+      ],
+      "sample_restaurants": [
+        "Mövenpick Al Iwan Restaurant",
+        "The Basin Restaurant Petra",
+        "Rock Camp Restaurant Little Petra",
+        "The Cave Bar",
+        "Little Petra Bedouin Camp Restaurant",
+        "Crowne Plaza Petra Basin Restaurant"
+      ],
+      "event_names": [
+        "Petra Heritage Fashion and Local Products Exhibition",
+        "Jordan Summer Festival - Ma'an",
+        "Ma'an Cultural Days"
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "theme": "Ma'an Governorate · nature, history",
+      "poi_count": 8,
+      "hotel_count": 4,
+      "event_count": 3,
+      "poi_names": [
+        "Red Sand Dunes of Wadi Rum",
+        "Wadi Rum Visitor Center",
+        "French Fortress Ruins (Wadi Rum)",
+        "Desert Police Station & Fort (Wadi Rum)",
+        "Um Frouth Rock Bridge",
+        "Barrah Canyon",
+        "Rum Village Bedouin Oasis",
+        "Jabal Burdah Rock Bridge"
+      ],
+      "hotel_names": [
+        "Mövenpick Resort Petra",
+        "Petra Marriott Hotel",
+        "Petra Bubble Luxotel",
+        "Hayat Zaman Hotel & Resort Petra"
+      ],
+      "sample_restaurants": [
+        "Captain's Desert Camp Restaurant Wadi Rum",
+        "Mani Zarb & Bedouin Camp Restaurant",
+        "Sun City Camp Dining Tent",
+        "Wadi Rum Visitor Center Rest House",
+        "Wadi Rum Rest House Restaurant",
+        "Rum Magic Restaurant"
+      ],
+      "event_names": [
+        "Petra Heritage Fashion and Local Products Exhibition",
+        "Jordan Summer Festival - Ma'an",
+        "Ma'an Cultural Days"
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "theme": "Aqaba Governorate · history, nature",
+      "poi_count": 7,
+      "hotel_count": 4,
+      "event_count": 3,
+      "poi_names": [
+        "Aqaba Heritage House",
+        "Aqaba Marine Park",
+        "Aqaba Bird Observatory",
+        "Aqaba Archaeological Museum",
+        "Princess Salma Park",
+        "Aqaba Gateway Shopping Complex",
+        "Ayla Oasis Marina"
+      ],
+      "hotel_names": [
+        "Al Manara, a Luxury Collection Hotel, Aqaba",
+        "Kempinski Hotel Aqaba",
+        "Oryx Hotel Aqaba",
+        "The Westin Saraya Aqaba Resort & Spa"
+      ],
+      "sample_restaurants": [
+        "Royal Yacht Club Restaurant Aqaba",
+        "Al Kufa Cafe & Restaurant",
+        "Berenice Beach Club Restaurant Aqaba",
+        "Ayla Golf Club Restaurant",
+        "Deera Cafe & Restaurant",
+        "Al-Shami Restaurant Aqaba"
+      ],
+      "event_names": [
+        "Aesthetics of Aqaba and Aqabawi Heritage Seminar",
+        "Aqaba International Poetry Evening",
+        "Eid Evenings - Aqaba"
+      ]
+    }
+  ]
+}

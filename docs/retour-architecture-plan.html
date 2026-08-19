@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ReTour AI Brain — Architecture Plan</title>
+  <style>
+    :root {
+      --bg: #0f1419;
+      --surface: #1a2332;
+      --surface2: #243044;
+      --border: #2d3f56;
+      --text: #e8edf4;
+      --muted: #8fa3bf;
+      --primary: #2dd4a8;
+      --primary-dim: #1a9e7c;
+      --accent: #f0b429;
+      --accent2: #6c9eff;
+      --accent3: #e879a8;
+      --week4: #2dd4a8;
+      --week5: #6c9eff;
+      --week6: #f0b429;
+      --week7: #e879a8;
+      --danger: #f87171;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: "Segoe UI", Tahoma, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      padding: 0 0 80px;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #0d3d32 0%, #1a2332 50%, #1e2a4a 100%);
+      padding: 48px 32px 40px;
+      border-bottom: 1px solid var(--border);
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      margin-bottom: 8px;
+      background: linear-gradient(90deg, var(--primary), var(--accent2));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .hero .subtitle { color: var(--muted); font-size: 1.05rem; max-width: 700px; margin: 0 auto 24px; }
+
+    .big-flow {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    .flow-box {
+      background: var(--surface);
+      border: 2px solid var(--border);
+      border-radius: 12px;
+      padding: 16px 24px;
+      font-weight: 700;
+      font-size: 1rem;
+      min-width: 140px;
+      text-align: center;
+    }
+
+    .flow-box.highlight {
+      border-color: var(--primary);
+      background: rgba(45, 212, 168, 0.1);
+      color: var(--primary);
+      font-size: 1.15rem;
+      padding: 20px 32px;
+    }
+
+    .arrow { color: var(--primary); font-size: 1.5rem; font-weight: 700; }
+
+    .container { max-width: 1100px; margin: 0 auto; padding: 32px 24px; }
+
+    .section {
+      margin-bottom: 48px;
+    }
+
+    .section-header {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 24px;
+      padding-bottom: 12px;
+      border-bottom: 2px solid var(--border);
+    }
+
+    .layer-badge {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 6px 14px;
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--accent2);
+      white-space: nowrap;
+    }
+
+    .section-header h2 { font-size: 1.5rem; font-weight: 700; }
+    .section-header .en { color: var(--muted); font-size: 0.9rem; font-weight: 400; }
+
+    .week-tag {
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      margin-right: 8px;
+    }
+
+    .w4 { background: rgba(45,212,168,0.2); color: var(--week4); border: 1px solid var(--week4); }
+    .w5 { background: rgba(108,158,255,0.2); color: var(--week5); border: 1px solid var(--week5); }
+    .w6 { background: rgba(240,180,41,0.2); color: var(--week6); border: 1px solid var(--week6); }
+    .w7 { background: rgba(232,121,168,0.2); color: var(--week7); border: 1px solid var(--week7); }
+
+    .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+
+    @media (max-width: 800px) {
+      .grid-2, .grid-3 { grid-template-columns: 1fr; }
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 20px;
+    }
+
+    .card h3 {
+      font-size: 1rem;
+      margin-bottom: 12px;
+      color: var(--primary);
+    }
+
+    .card p, .card li { color: var(--muted); font-size: 0.9rem; }
+    .card ul { padding-right: 20px; margin-top: 8px; }
+
+    .pipeline {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 24px;
+      font-family: Consolas, "Courier New", monospace;
+      font-size: 0.82rem;
+      line-height: 1.9;
+      color: #a8c5e8;
+      overflow-x: auto;
+      white-space: pre;
+      direction: ltr;
+      text-align: left;
+    }
+
+    .pipeline .comment { color: #5a7a9a; }
+    .pipeline .highlight { color: var(--primary); font-weight: 700; }
+    .pipeline .accent { color: var(--accent); }
+    .pipeline .blue { color: var(--accent2); }
+    .pipeline .pink { color: var(--accent3); }
+
+    .sources {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin: 24px 0;
+    }
+
+    @media (max-width: 700px) { .sources { grid-template-columns: 1fr; } }
+
+    .source-card {
+      border-radius: 14px;
+      padding: 20px;
+      border: 2px solid;
+      text-align: center;
+    }
+
+    .source-card.s1 { border-color: var(--accent2); background: rgba(108,158,255,0.08); }
+    .source-card.s2 { border-color: var(--week4); background: rgba(45,212,168,0.08); }
+    .source-card.s3 { border-color: var(--accent); background: rgba(240,180,41,0.08); }
+
+    .source-num {
+      font-size: 2rem;
+      font-weight: 800;
+      opacity: 0.3;
+      margin-bottom: 4px;
+    }
+
+    .source-card h4 { font-size: 1rem; margin-bottom: 8px; }
+    .source-card p { font-size: 0.85rem; color: var(--muted); }
+
+    pre.json {
+      background: #0d1117;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px;
+      font-size: 0.78rem;
+      overflow-x: auto;
+      direction: ltr;
+      text-align: left;
+      color: #79c0ff;
+      margin-top: 10px;
+    }
+
+    .ui-mock {
+      background: #fff;
+      color: #1f2933;
+      border-radius: 14px;
+      padding: 24px;
+      max-width: 360px;
+      margin: 0 auto;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.4);
+    }
+
+    .ui-mock h3 { color: #1f6b4e; margin-bottom: 16px; font-size: 1.2rem; }
+    .ui-mock label { display: block; font-size: 0.8rem; color: #6b7280; margin: 10px 0 4px; }
+    .ui-mock input, .ui-mock select {
+      width: 100%;
+      padding: 8px 10px;
+      border: 1px solid #d1d5db;
+      border-radius: 8px;
+      font-size: 0.9rem;
+    }
+    .ui-mock .checks { margin: 12px 0; font-size: 0.85rem; }
+    .ui-mock .btn {
+      width: 100%;
+      margin-top: 16px;
+      padding: 12px;
+      background: #1f6b4e;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 0.95rem;
+    }
+
+    .team-box {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 12px;
+    }
+
+    .team-alpha {
+      flex: 1;
+      min-width: 200px;
+      background: rgba(45,212,168,0.1);
+      border: 1px solid var(--primary);
+      border-radius: 10px;
+      padding: 14px;
+      font-size: 0.85rem;
+    }
+
+    .team-beta {
+      flex: 1;
+      min-width: 200px;
+      background: rgba(108,158,255,0.1);
+      border: 1px solid var(--accent2);
+      border-radius: 10px;
+      padding: 14px;
+      font-size: 0.85rem;
+    }
+
+    .team-alpha strong { color: var(--primary); }
+    .team-beta strong { color: var(--accent2); }
+
+    .timeline {
+      position: relative;
+      padding-right: 30px;
+    }
+
+    .timeline::before {
+      content: "";
+      position: absolute;
+      right: 8px;
+      top: 0;
+      bottom: 0;
+      width: 3px;
+      background: var(--border);
+      border-radius: 3px;
+    }
+
+    .timeline-item {
+      position: relative;
+      margin-bottom: 32px;
+      padding-right: 24px;
+    }
+
+    .timeline-item::before {
+      content: "";
+      position: absolute;
+      right: -26px;
+      top: 6px;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      border: 3px solid var(--bg);
+    }
+
+    .timeline-item.w4::before { background: var(--week4); }
+    .timeline-item.w5::before { background: var(--week5); }
+    .timeline-item.w6::before { background: var(--week6); }
+    .timeline-item.w7::before { background: var(--week7); }
+
+    .deliverable {
+      display: inline-block;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 3px 10px;
+      font-size: 0.75rem;
+      margin: 4px 4px 0 0;
+      color: var(--muted);
+    }
+
+    .legend {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 24px 0;
+      font-size: 0.85rem;
+    }
+
+    .legend span { display: flex; align-items: center; gap: 6px; }
+    .dot { width: 12px; height: 12px; border-radius: 50%; }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+      margin-top: 12px;
+    }
+
+    th, td {
+      border: 1px solid var(--border);
+      padding: 10px 14px;
+      text-align: right;
+    }
+
+    th { background: var(--surface2); color: var(--primary); }
+    td { color: var(--muted); }
+
+    .footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.8rem;
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+    }
+  </style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════ HERO -->
+<section class="hero">
+  <h1>ReTour AI Brain</h1>
+  <p class="subtitle">
+    خطة المعمارية الكاملة — من طلب المستخدم إلى باقة سياحية مخصصة<br>
+    Team Alpha (AI Brain) + Team Beta (Knowledge & Platform)
+  </p>
+
+  <div class="big-flow">
+    <div class="flow-box">Input<br><small style="color:var(--muted)">طلب المستخدم</small></div>
+    <span class="arrow">←</span>
+    <div class="flow-box highlight">AI Brain<br><small>العقل الذكي</small></div>
+    <span class="arrow">←</span>
+    <div class="flow-box">Personalized<br>Tourism Package<br><small style="color:var(--muted)">الباقة السياحية</small></div>
+  </div>
+</section>
+
+<div class="container">
+
+<!-- ═══════════════════════════════════════════ LAYERS OVERVIEW -->
+<section class="section">
+  <div class="section-header">
+    <span class="layer-badge">نظرة عامة</span>
+    <div>
+      <h2>الطبقات الخمس</h2>
+      <div class="en">5-Layer Architecture Overview</div>
+    </div>
+  </div>
+
+  <div class="legend">
+    <span><span class="dot" style="background:var(--accent2)"></span> Layer 1 — UI (Beta)</span>
+    <span><span class="dot" style="background:#a78bfa"></span> Layer 2 — API (Alpha + Beta)</span>
+    <span><span class="dot" style="background:var(--primary)"></span> Layer 3 — AI Brain (Alpha)</span>
+    <span><span class="dot" style="background:var(--week4)"></span> Layer 4 — Knowledge (Beta)</span>
+    <span><span class="dot" style="background:var(--accent)"></span> Layer 5 — Context (Beta + Alpha)</span>
+  </div>
+
+  <div class="pipeline"><span class="comment">/* التدفق الكامل */</span>
+
+<span class="highlight">Layer 1</span>  React UI  ────────────────────────────────  جمع معلومات السائح (نموذج)
+      │
+      ▼
+<span class="blue">Layer 2</span>  FastAPI  ───────────────────────────────  Backend API
+      │
+      ▼
+<span class="highlight">Layer 3</span>  <span class="accent">AI Brain</span>  ────────────────────────────  ReTour Tourism Agent
+      │         │
+      │         ├── LLM Manager  →  Claude / GPT / Gemini
+      │         ├── Package Builder Agent
+      │         ├── RAG Orchestrator  (Week 4)
+      │         └── Decision Rules + Validator
+      │
+      ├── <span class="highlight">Layer 4</span>  Tourism Knowledge Repository  ────  RAG (Week 4)
+      │         Attractions · Heritage · Museums · Restaurants · Hotels
+      │
+      └── <span class="accent">Layer 5</span>  Context Engine  ─────────────────  Weather · Maps · Hours (Week 5)
+                │
+                └── SME Database  ───────────────────  Guides · Operators (Week 6)</div>
+</section>
+
+<!-- ═══════════════════════════════════════════ LAYER 1 -->
+<section class="section">
+  <div class="section-header">
+    <span class="layer-badge">Layer 1</span>
+    <div>
+      <h2>واجهة المستخدم — User Interface</h2>
+      <div class="en">Team Beta — React / Innovation Hub</div>
+    </div>
+  </div>
+
+  <div class="grid-2">
+    <div class="card">
+      <h3>جمع المعلومات من الواجهة</h3>
+      <ul>
+        <li>المستخدم يعبّي <strong>نموذج</strong> في React UI</li>
+        <li>الحقول: الجنسية، عدد الأشخاص، المدة، الاهتمامات، الميزانية</li>
+        <li>عند الضغط على <strong>Generate Package</strong> → يرسل <code>TouristProfile</code> JSON</li>
+      </ul>
+      <p style="margin-top:12px">الواجهة <strong>تجمع المعلومات</strong> وترسل بروفايل جاهز للـ AI Brain — ليس محادثة.</p>
+    </div>
+    <div class="ui-mock">
+      <h3>Welcome to ReTour</h3>
+      <label>Nationality</label>
+      <input value="Germany" readonly />
+      <label>Number of people</label>
+      <input value="4" readonly />
+      <label>Duration</label>
+      <input value="1 day" readonly />
+      <div class="checks">☑ Archaeology &nbsp; ☑ Food</div>
+      <label>Budget</label>
+      <input value="300€" readonly />
+      <button class="btn">Generate Package</button>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════ LAYER 2 -->
+<section class="section">
+  <div class="section-header">
+    <span class="layer-badge">Layer 2</span>
+    <div>
+      <h2>Backend / API</h2>
+      <div class="en">FastAPI — نقطة الربط بين UI و AI Brain</div>
+    </div>
+  </div>
+
+  <div class="pipeline"><span class="highlight">React UI</span>  (نموذج جمع معلومات)
+      │
+      │  يرسل TouristProfile JSON
+      ▼
+<span class="blue">FastAPI</span>
+      │
+      └── POST /api/v1/packages/generate  →  TouristProfile + options
+      │
+      ▼
+<span class="accent">AI Brain</span>  (ReTour Tourism Agent)</div>
+
+  <div class="team-box" style="margin-top:16px">
+    <div class="team-alpha"><strong>Team Alpha</strong><br>FastAPI routes · Agent orchestration · LLM</div>
+    <div class="team-beta"><strong>Team Beta</strong><br>React UI · Innovation Hub integration</div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════ LAYER 3 -->
+<section class="section">
+  <div class="section-header">
+    <span class="layer-badge">Layer 3</span>
+    <div>
+      <h2>AI Brain — العقل الذكي</h2>
+      <div class="en">Team Alpha — أهم جزء في النظام</div>
+    </div>
+  </div>
+
+  <p style="color:var(--muted); margin-bottom:20px">
+    يأخذ <strong>4 مدخلات</strong> ويطلع <strong>Tourism Package</strong> واحدة متماسكة.
+  </p>
+
+  <div class="grid-2" style="margin-bottom:20px">
+    <div class="card">
+      <h3>المدخلات (Inputs)</h3>
+      <ul>
+        <li>Tourist Profile — ملف السائح</li>
+        <li>Knowledge — معرفة سياحية (RAG)</li>
+        <li>Context — سياق لحظي (طقس، مواعيد)</li>
+        <li>SME Information — مرشد / مشغل (Week 6)</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>المخرج (Output)</h3>
+      <ul>
+        <li>TourismPackage — باقة سياحية structured JSON</li>
+        <li>Itinerary — جدول يومي</li>
+        <li>Guide + Restaurant + Transport</li>
+        <li>Budget estimate + Explanations</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="pipeline"><span class="comment">/* داخل AI Brain — وكيل واحد فقط */</span>
+
+<span class="highlight">ReTour Tourism Agent</span>  (وكيل واحد — ليس عدة agents)
+      │
+      │  <span class="blue">Input:</span> TouristProfile  (يأتي جاهز من UI)
+      │
+      ├── RAG Orchestrator  ──→  معرفة سياحية (Week 4)
+      ├── Context Engine  ──→  طقس · مواعيد · خرائط (Week 5)
+      ├── SME Personalization  ──→  مرشد / مشغّل (Week 6)
+      ├── Decision Rules  (قواعد حتمية)
+      ├── Package Generation Module  ──→  TourismPackage
+      └── Package Validator  (تحقق + grounding)
+              │
+              ▼
+      <span class="accent">LLM Manager</span>
+              │
+              ├── Claude  (الحالي)
+              ├── OpenAI  (مستقبلي)
+              ├── Gemini  (مستقبلي)
+              └── Local models  (مستقبلي)</div>
+</section>
+
+<!-- ═══════════════════════════════════════════ 3 SOURCES -->
+<section class="section">
+  <div class="section-header">
+    <span class="layer-badge">مصادر LLM</span>
+    <div>
+      <h2>الـ LLM يأخذ معلوماته من 3 مصادر</h2>
+      <div class="en">3 Information Sources for Package Generation</div>
+    </div>
+  </div>
+
+  <div class="sources">
+    <div class="source-card s1">
+      <div class="source-num">①</div>
+      <h4>Tourist Profile</h4>
+      <p>معلومات المستخدم<br>من نموذج الواجهة (UI Form)</p>
+      <pre class="json">{
+  "nationality": "Germany",
+  "people": 4,
+  "interest": "archaeology",
+  "duration": "1 day"
+}</pre>
+    </div>
+    <div class="source-card s2">
+      <div class="source-num">②</div>
+      <h4>RAG — Tourism Knowledge</h4>
+      <p>أماكن حقيقية من قاعدة المعرفة<br><span class="week-tag w4">Week 4</span></p>
+      <pre class="json">[
+  { "name": "Jabal Al-Qalaa",
+    "type": "heritage",
+    "tags": ["archaeology"] },
+  { "name": "Jordan Museum",
+    "type": "museum", "indoor": true }
+]</pre>
+    </div>
+    <div class="source-card s3">
+      <div class="source-num">③</div>
+      <h4>Context Engine</h4>
+      <p>معلومات لحظية — طقس، زحمة<br><span class="week-tag w5">Week 5</span></p>
+      <pre class="json">{
+  "weather": "40°C",
+  "afternoon": "hot",
+  "traffic": "high"
+}</pre>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════ WEEK 4 -->
+<section class="section">
+  <div class="section-header">
+    <span class="week-tag w4">Week 4</span>
+    <div>
+      <h2>Layer 4 — Tourism Knowledge Repository + RAG</h2>
+      <div class="en">Knowledge-Augmented Tourism Assistant</div>
+    </div>
+  </div>
+
+  <div class="pipeline"><span class="highlight">User Request</span>
+      │
+      ▼
+<span class="blue">Search Knowledge Base</span>  (ChromaDB / Vector DB)
+      │
+      ▼
+<span class="blue">Get Relevant Information</span>  (semantic search + filters)
+      │
+      ▼
+<span class="accent">Inject into LLM Prompt</span>
+      │
+      ▼
+<span class="highlight">Generate Grounded Package</span>  (بدون hallucinations)</div>
+
+  <div class="grid-2" style="margin-top:20px">
+    <div class="card">
+      <h3>📁 Knowledge Repository</h3>
+      <ul>
+        <li>Attractions</li>
+        <li>Heritage Sites</li>
+        <li>Museums</li>
+        <li>Restaurants</li>
+        <li>Hotels</li>
+        <li>Tour Guides</li>
+        <li>Transportation</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>🔍 RAG Pipeline</h3>
+      <ul>
+        <li>Query Builder (من بروفايل السائح)</li>
+        <li>Vector Search (ChromaDB)</li>
+        <li>Context Injection في الـ Prompt</li>
+        <li>Grounding Validator</li>
+      </ul>
+      <div class="team-box">
+        <div class="team-alpha"><strong>Alpha:</strong> RAG Orchestrator + LLM Manager</div>
+        <div class="team-beta"><strong>Beta:</strong> Vector DB + Retrieval API</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════ WEEK 5 -->
+<section class="section">
+  <div class="section-header">
+    <span class="week-tag w5">Week 5</span>
+    <div>
+      <h2>Layer 5 — Context Engine + Explainability</h2>
+      <div class="en">Context-Aware Smart Tourism Assistant</div>
+    </div>
+  </div>
+
+  <div class="pipeline"><span class="highlight">Package Builder Agent</span>
+      │
+      ▼
+<span class="accent">Context Engine</span>
+      │          \
+      │           \── <span class="blue">Weather API</span>
+      │           \── <span class="blue">Maps API</span> (travel time)
+      │           \── <span class="blue">Opening Hours</span> (من قاعدة البيانات)
+      │
+      ▼
+<span class="highlight">Adaptive Itinerary</span>  +  <span class="pink">"Why these recommendations?"</span>
+
+<span class="comment">/* قواعد ذكية */</span>
+  • تجنب الأماكن المفتوحة خارج ساعات العمل
+  • جدولة outdoor صباحاً في الحر
+  • تقليل المشي لكبار السن
+  • احترام الميزانية</div>
+
+  <div class="card" style="margin-top:20px">
+      <h3>⚠️ Opening Hours</h3>
+      <p>يجب تجهيزها في قاعدة البيانات مسبقاً — Beta تضيفها لكل attraction في Knowledge Repository.</p>
+      <table>
+        <tr><th>الحقل</th><th>المصدر</th></tr>
+        <tr><td>opening_hours</td><td>Knowledge DB (Beta)</td></tr>
+        <tr><td>is_open_now</td><td>Context Engine (حساب)</td></tr>
+        <tr><td>weather</td><td>Weather API (Beta)</td></tr>
+        <tr><td>travel_time</td><td>Maps API (Beta)</td></tr>
+      </table>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════ WEEK 6 -->
+<section class="section">
+  <div class="section-header">
+    <span class="week-tag w6">Week 6</span>
+    <div>
+      <h2>SME Personalization — تخصيص المرشدين والمشغّلين</h2>
+      <div class="en">SME-Centric Package Builder</div>
+    </div>
+  </div>
+
+  <div class="pipeline"><span class="comment">/* سيناريو كامل — Week 6 */</span>
+
+<span class="highlight">Tourist:</span>  German Family · 2 adults · 2 children · archaeology · 1 day
+
+<span class="blue">Step 1 — RAG</span>  يبحث في Tourism Knowledge:
+  →  Jabal Al-Qalaa · Roman Theatre · Jordan Museum
+
+<span class="accent">Step 2 — Context</span>  Weather = hot
+  →  يعدّل الترتيب (outdoor صباحاً)
+
+<span class="pink">Step 3 — SME</span>  "أي مرشد يناسب؟"
+  →  يبحث في SME Database:
+  →  <span class="highlight">Ahmed</span> — German speaker · Family specialist · Own car
+
+<span class="highlight">Agent الآن عنده:</span>
+  Tourist + Places + Weather + Guide
+      │
+      ▼
+  <span class="accent">Tourism Package</span>  (3 بدائل + ترتيب + تخصيص)</div>
+
+  <div class="card" style="margin-top:20px">
+      <h3>👤 SME Profile Schema</h3>
+      <ul>
+        <li>Languages spoken</li>
+        <li>Specialization (heritage, adventure, family)</li>
+        <li>Transportation (own car, etc.)</li>
+        <li>Working days / hours</li>
+        <li>Price range</li>
+        <li>Preferred customer types</li>
+      </ul>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════ FULL AGENT DIAGRAM -->
+<section class="section">
+  <div class="section-header">
+    <span class="layer-badge">الصورة الكاملة</span>
+    <div>
+      <h2>Tourism Package Agent — التدفق النهائي</h2>
+      <div class="en">Complete Agent Architecture (Week 6+)</div>
+    </div>
+  </div>
+
+  <div class="pipeline"><span class="highlight">Tourist Request</span>
+         │
+         ▼
+<span class="accent">Tourism Package Agent</span>  (ReTour Tourism Agent — واحد فقط)
+        /       \
+       /         \
+      /           \
+<span class="blue">Tourism KB</span>    <span class="accent">Context APIs</span>    <span class="pink">SME Database</span>
+ (RAG · W4)     (Weather·Maps     (Guides·Operators
+                 ·Hours · W5)      ·Hotels · W6)
+      \           |           /
+       \          |          /
+        \         |         /
+         <span class="highlight">Package Builder + LLM Manager</span>
+                 │
+                 ▼
+         <span class="accent">Personalized Tourism Package</span>
+         + Explanations + Budget + Guide</div>
+</section>
+
+<!-- ═══════════════════════════════════════════ WEEK 7 -->
+<section class="section">
+  <div class="section-header">
+    <span class="week-tag w7">Week 7</span>
+    <div>
+      <h2>Integration, QA & Pilot Validation</h2>
+      <div class="en">Pilot-Ready Demonstrator</div>
+    </div>
+  </div>
+
+  <div class="timeline">
+    <div class="timeline-item w7">
+      <h3 style="margin-bottom:8px">دمج كامل مع Innovation Hub</h3>
+      <p style="color:var(--muted); font-size:0.9rem">UI + Agent + Knowledge + Context + SME Profiles</p>
+    </div>
+    <div class="timeline-item w7">
+      <h3 style="margin-bottom:8px">4 سيناريوهات Demo</h3>
+      <p style="color:var(--muted); font-size:0.9rem">Family Heritage · Educational · Accessible · Cultural Discovery</p>
+    </div>
+    <div class="timeline-item w7">
+      <h3 style="margin-bottom:8px">جودة AI + Guardrails</h3>
+      <p style="color:var(--muted); font-size:0.9rem">تقليل hallucinations · تقييم · استقرار · multilingual</p>
+    </div>
+    <div class="timeline-item w7">
+      <h3 style="margin-bottom:8px">توثيق + تدريب</h3>
+      <p style="color:var(--muted); font-size:0.9rem">User Guide · Demo Script · Technical Docs</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════ TEAM RESPONSIBILITIES -->
+<section class="section">
+  <div class="section-header">
+    <span class="layer-badge">الفرق</span>
+    <div>
+      <h2>تقسيم المسؤوليات</h2>
+      <div class="en">Team Alpha vs Team Beta</div>
+    </div>
+  </div>
+
+  <table>
+    <tr>
+      <th>المكوّن</th>
+      <th>Team Alpha (AI Brain)</th>
+      <th>Team Beta (Knowledge & Platform)</th>
+    </tr>
+    <tr>
+      <td>Package Agent</td>
+      <td>✅ ReTour Tourism Agent</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>LLM Manager</td>
+      <td>✅</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>FastAPI</td>
+      <td>✅ Agent APIs</td>
+      <td>Retrieval · Context · SME APIs</td>
+    </tr>
+    <tr>
+      <td>UI</td>
+      <td>—</td>
+      <td>✅ React + Innovation Hub</td>
+    </tr>
+    <tr>
+      <td>Knowledge Repository</td>
+      <td>يستهلك فقط (RAG)</td>
+      <td>✅ يبني ويملأ</td>
+    </tr>
+    <tr>
+      <td>Vector DB + RAG</td>
+      <td>✅ Orchestration</td>
+      <td>✅ Embeddings + Index</td>
+    </tr>
+    <tr>
+      <td>Context Engine</td>
+      <td>✅ يستهلك ويقرر</td>
+      <td>✅ Weather · Maps APIs</td>
+    </tr>
+    <tr>
+      <td>SME Profiles</td>
+      <td>✅ Personalization logic</td>
+      <td>✅ Database + Dashboard</td>
+    </tr>
+    <tr>
+      <td>Deployment</td>
+      <td>—</td>
+      <td>✅</td>
+    </tr>
+  </table>
+</section>
+
+<p class="footer">
+  ReTour AI Brain Architecture Plan · Team Alpha · Jordan Smart Tourism Pilot<br>
+  Generated for ReTour Project — July 2026
+</p>
+
+</div>
+</body>
+</html>

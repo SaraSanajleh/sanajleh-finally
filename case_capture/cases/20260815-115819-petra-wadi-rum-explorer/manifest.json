@@ -1,0 +1,129 @@
+{
+  "caseId": "20260815-115819-petra-wadi-rum-explorer",
+  "createdAt": "2026-08-15T11:58:19.935813+00:00",
+  "trip_title": "Petra & Wadi Rum Explorer",
+  "rag": {
+    "status": "ok",
+    "source": "retriever",
+    "duration_days": 3,
+    "cluster_count": 3,
+    "clusters": [
+      {
+        "cluster_id": 0,
+        "theme": "Ma'an Governorate · history, photography",
+        "poi_count": 8,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "Petra Museum",
+          "French Fortress Ruins (Wadi Rum)",
+          "Petra Church (Byzantine Church)",
+          "Al-Khazneh Viewpoint (Jabal al-Khubtha Trail)",
+          "Neolithic Village of Beidha",
+          "Royal Tombs",
+          "Al-Mu'aysrah Temple Trail",
+          "Jabal Burdah Rock Bridge"
+        ],
+        "hotel_names": [
+          "Petra Panorama Hotel",
+          "Grand View Hotel",
+          "Petra Boutique Hotel",
+          "Petra Sky Hotel"
+        ],
+        "sample_restaurants": [
+          "Mövenpick Al Iwan Restaurant",
+          "Wadi Rum Visitor Center Rest House",
+          "The Basin Restaurant Petra",
+          "Crowne Plaza Petra Basin Restaurant",
+          "Little Petra Bedouin Camp Restaurant",
+          "Bedouin Cave Cafe"
+        ],
+        "event_names": [
+          "Petra Heritage Fashion and Local Products Exhibition",
+          "Caravans of Petra Documentary Screening",
+          "Ma'an Cultural Days"
+        ]
+      },
+      {
+        "cluster_id": 1,
+        "theme": "Ma'an Governorate · history, photography",
+        "poi_count": 8,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "Little Petra (Siq al-Barid)",
+          "Maan Historic Souq",
+          "Um Frouth Rock Bridge",
+          "Great Temple of Petra",
+          "Ad-Deir (The Monastery)",
+          "Red Sand Dunes of Wadi Rum",
+          "Wadi Rum Visitor Center",
+          "Al-Maddras Trail & High Viewpoint"
+        ],
+        "hotel_names": [
+          "Petra Panorama Hotel",
+          "Grand View Hotel",
+          "Petra Boutique Hotel",
+          "Petra Sky Hotel"
+        ],
+        "sample_restaurants": [
+          "Little Petra Bedouin Camp Restaurant",
+          "Al-Taqwa Restaurant",
+          "Wadi Rum Visitor Center Rest House",
+          "The Basin Restaurant Petra",
+          "Crowne Plaza Petra Basin Restaurant",
+          "Mani Zarb & Bedouin Camp Restaurant"
+        ],
+        "event_names": [
+          "Petra Heritage Fashion and Local Products Exhibition",
+          "Caravans of Petra Documentary Screening",
+          "Ma'an Cultural Days"
+        ]
+      },
+      {
+        "cluster_id": 2,
+        "theme": "Ma'an Governorate · history, photography",
+        "poi_count": 10,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "Little Petra Triclinium & Painted House",
+          "Al-Khazneh (The Treasury)",
+          "Shobak Castle",
+          "Lawrence's Spring",
+          "Dana Village",
+          "Al-Qadisiyyah Lookout",
+          "Al-Qadisiyyah Roman Milestones",
+          "Wadi Dana Trailhead",
+          "Dana Eco-Tourism Camp",
+          "Wadi Faynan Archaeological Site"
+        ],
+        "hotel_names": [
+          "Petra Panorama Hotel",
+          "Grand View Hotel",
+          "Petra Boutique Hotel",
+          "Petra Sky Hotel"
+        ],
+        "sample_restaurants": [
+          "Little Petra Bedouin Camp Restaurant",
+          "The Basin Restaurant Petra",
+          "Montreal Hotel Restaurant Shobak",
+          "Wadi Rum Visitor Center Rest House",
+          "Buseirah Heritage Rest House",
+          "Al-Ma'tan Heritage Rest House & Cafe"
+        ],
+        "event_names": [
+          "Petra Heritage Fashion and Local Products Exhibition",
+          "Caravans of Petra Documentary Screening",
+          "Ma'an Cultural Days"
+        ]
+      }
+    ]
+  },
+  "paths": {
+    "input": "01_input.json",
+    "knowledge": "02_retriever.json",
+    "knowledge_preview": "02_retriever_preview.json",
+    "output": "03_output.json"
+  }
+}

@@ -1,0 +1,388 @@
+{
+  "metadata": {
+    "model": "gpt-oss:20b-cloud",
+    "provider": "ollama",
+    "mode": "build",
+    "latencyMs": 98185.2,
+    "retries": 0,
+    "caseId": null,
+    "rag": {
+      "status": "ok",
+      "source": "retriever",
+      "duration_days": 3,
+      "cluster_count": 3,
+      "clusters": [
+        {
+          "cluster_id": 0,
+          "theme": "Ma'an Governorate · history, nature",
+          "poi_count": 10,
+          "hotel_count": 4,
+          "event_count": 3,
+          "poi_names": [
+            "Petra Museum",
+            "Petra Church (Byzantine Church)",
+            "Little Petra (Siq al-Barid)",
+            "The Siq",
+            "Neolithic Village of Beidha",
+            "Royal Tombs",
+            "Al-Khazneh Viewpoint (Jabal al-Khubtha Trail)",
+            "Ad-Deir (The Monastery)",
+            "Al-Mu'aysrah Temple Trail",
+            "Al-Maddras Trail & High Viewpoint"
+          ],
+          "hotel_names": [
+            "Mövenpick Resort Petra",
+            "Petra Marriott Hotel",
+            "Grand Mercure Petra",
+            "The Old Village Hotel & Resort"
+          ],
+          "sample_restaurants": [
+            "Mövenpick Al Iwan Restaurant",
+            "The Basin Restaurant Petra",
+            "Rock Camp Restaurant Little Petra",
+            "The Cave Bar",
+            "Little Petra Bedouin Camp Restaurant",
+            "Crowne Plaza Petra Basin Restaurant"
+          ],
+          "event_names": [
+            "Petra Heritage Fashion and Local Products Exhibition",
+            "Jordan Summer Festival - Ma'an",
+            "Ma'an Cultural Days"
+          ]
+        },
+        {
+          "cluster_id": 1,
+          "theme": "Ma'an Governorate · nature, history",
+          "poi_count": 8,
+          "hotel_count": 4,
+          "event_count": 3,
+          "poi_names": [
+            "Red Sand Dunes of Wadi Rum",
+            "Wadi Rum Visitor Center",
+            "French Fortress Ruins (Wadi Rum)",
+            "Desert Police Station & Fort (Wadi Rum)",
+            "Um Frouth Rock Bridge",
+            "Barrah Canyon",
+            "Rum Village Bedouin Oasis",
+            "Jabal Burdah Rock Bridge"
+          ],
+          "hotel_names": [
+            "Mövenpick Resort Petra",
+            "Petra Marriott Hotel",
+            "Petra Bubble Luxotel",
+            "Hayat Zaman Hotel & Resort Petra"
+          ],
+          "sample_restaurants": [
+            "Captain's Desert Camp Restaurant Wadi Rum",
+            "Mani Zarb & Bedouin Camp Restaurant",
+            "Sun City Camp Dining Tent",
+            "Wadi Rum Visitor Center Rest House",
+            "Wadi Rum Rest House Restaurant",
+            "Rum Magic Restaurant"
+          ],
+          "event_names": [
+            "Petra Heritage Fashion and Local Products Exhibition",
+            "Jordan Summer Festival - Ma'an",
+            "Ma'an Cultural Days"
+          ]
+        },
+        {
+          "cluster_id": 2,
+          "theme": "Aqaba Governorate · history, nature",
+          "poi_count": 7,
+          "hotel_count": 4,
+          "event_count": 3,
+          "poi_names": [
+            "Aqaba Heritage House",
+            "Aqaba Marine Park",
+            "Aqaba Bird Observatory",
+            "Aqaba Archaeological Museum",
+            "Princess Salma Park",
+            "Aqaba Gateway Shopping Complex",
+            "Ayla Oasis Marina"
+          ],
+          "hotel_names": [
+            "Al Manara, a Luxury Collection Hotel, Aqaba",
+            "Kempinski Hotel Aqaba",
+            "Oryx Hotel Aqaba",
+            "The Westin Saraya Aqaba Resort & Spa"
+          ],
+          "sample_restaurants": [
+            "Royal Yacht Club Restaurant Aqaba",
+            "Al Kufa Cafe & Restaurant",
+            "Berenice Beach Club Restaurant Aqaba",
+            "Ayla Golf Club Restaurant",
+            "Deera Cafe & Restaurant",
+            "Al-Shami Restaurant Aqaba"
+          ],
+          "event_names": [
+            "Aesthetics of Aqaba and Aqabawi Heritage Seminar",
+            "Aqaba International Poetry Evening",
+            "Eid Evenings - Aqaba"
+          ]
+        }
+      ]
+    }
+  },
+  "package": {
+    "welcome_message": "Welcome to your personalized Jordan adventure!",
+    "why_you_will_love_this": {
+      "highlights": [
+        "Petra Church (Byzantine Church)",
+        "Red Sand Dunes of Wadi Rum",
+        "Aqaba Bird Observatory",
+        "Aqaba Marine Park"
+      ],
+      "special_touches": [
+        "Fine dining at Mövenpick Al Iwan",
+        "Bedouin Zarb experience",
+        "Seafood at Royal Yacht Club"
+      ]
+    },
+    "trip_title": "3-Day Jordan Highlights: Petra, Wadi Rum, Aqaba",
+    "trip_description": {
+      "overview": "A relaxed three-day journey through Jordan's iconic Petra, the dramatic dunes of Wadi Rum, and the vibrant coastal city of Aqaba, featuring historic sites, natural wonders, and authentic Jordanian dining.",
+      "included": [
+        "Accommodation at Petra Marriott Hotel",
+        "Meals at local restaurants",
+        "Entry fees to Petra Church, Red Sand Dunes, Aqaba Bird Observatory",
+        "Guided visits to Petra Museum, Wadi Rum Visitor Center, Aqaba Marine Park"
+      ],
+      "not_included": [
+        "Transportation, events, additional activities not listed"
+      ]
+    },
+    "trip_details": {
+      "duration": {
+        "days": "3",
+        "nights": "2"
+      },
+      "trip_type": [
+        "Cultural",
+        "Nature",
+        "Luxury"
+      ],
+      "number_of_travelers": "2",
+      "budget": {
+        "amount": "900",
+        "currency": "JOD"
+      }
+    },
+    "daily_itinerary": [
+      {
+        "day_number": "1",
+        "day_title": "Petra Exploration",
+        "day_summary": "Morning visit to Petra Church, lunch at The Basin, afternoon at Petra Museum, dinner at Mövenpick Al Iwan.",
+        "activities": [
+          {
+            "start_time": "09:00",
+            "end_time": "09:40",
+            "activity_title": "Petra Church (Byzantine Church)",
+            "description": "Explore the historic basilica and mosaics.",
+            "location": "Petra Church, Wadi Musa",
+            "estimated_cost": "100 JOD",
+            "smart_tip": "Entry fee 50 JOD per person; book tickets in advance."
+          },
+          {
+            "start_time": "12:00",
+            "end_time": "13:00",
+            "activity_title": "Lunch at The Basin Restaurant",
+            "description": "Enjoy a local mezze buffet.",
+            "location": "The Basin Restaurant, Petra",
+            "estimated_cost": "36 JOD",
+            "smart_tip": "Try the local mezze buffet."
+          },
+          {
+            "start_time": "14:00",
+            "end_time": "15:00",
+            "activity_title": "Petra Museum",
+            "description": "Discover artifacts and interactive displays.",
+            "location": "Petra Museum, Wadi Musa",
+            "estimated_cost": "Free",
+            "smart_tip": "Explore artifacts and interactive displays."
+          },
+          {
+            "start_time": "18:30",
+            "end_time": "20:00",
+            "activity_title": "Dinner at Mövenpick Al Iwan",
+            "description": "Fine dining with desert view.",
+            "location": "Mövenpick Al Iwan, Petra",
+            "estimated_cost": "60 JOD",
+            "smart_tip": "Fine dining with desert view."
+          }
+        ],
+        "activity_alternatives": [
+          {
+            "original_activity": "Petra Church (Byzantine Church)",
+            "alternative_activity": "Petra Museum",
+            "reason": "If Petra Church is closed, Petra Museum offers a rich historical experience."
+          }
+        ]
+      },
+      {
+        "day_number": "2",
+        "day_title": "Wadi Rum Adventure",
+        "day_summary": "Morning dune walk, lunch at Captain's Desert Camp, afternoon at Visitor Center, dinner at Wadi Rum Rest House.",
+        "activities": [
+          {
+            "start_time": "09:00",
+            "end_time": "09:45",
+            "activity_title": "Red Sand Dunes of Wadi Rum",
+            "description": "Stroll the vibrant red dunes.",
+            "location": "Red Sand Dunes, Wadi Rum",
+            "estimated_cost": "10 JOD",
+            "smart_tip": "Enjoy the dunes; wear sun protection."
+          },
+          {
+            "start_time": "12:00",
+            "end_time": "13:00",
+            "activity_title": "Lunch at Captain's Desert Camp",
+            "description": "Try Bedouin lamb Zarb.",
+            "location": "Captain's Desert Camp, Wadi Rum",
+            "estimated_cost": "30 JOD",
+            "smart_tip": "Try Bedouin lamb Zarb."
+          },
+          {
+            "start_time": "14:00",
+            "end_time": "14:30",
+            "activity_title": "Wadi Rum Visitor Center",
+            "description": "Learn about desert culture and geology.",
+            "location": "Wadi Rum Visitor Center, Wadi Rum",
+            "estimated_cost": "10 JOD",
+            "smart_tip": "Learn about desert culture and geology."
+          },
+          {
+            "start_time": "18:30",
+            "end_time": "19:30",
+            "activity_title": "Dinner at Wadi Rum Rest House",
+            "description": "Try Bedouin Zarb and tea.",
+            "location": "Wadi Rum Rest House, Wadi Rum",
+            "estimated_cost": "14 JOD",
+            "smart_tip": "Try Bedouin Zarb and tea."
+          }
+        ],
+        "activity_alternatives": [
+          {
+            "original_activity": "Red Sand Dunes of Wadi Rum",
+            "alternative_activity": "Wadi Rum Visitor Center",
+            "reason": "If dunes are closed, the Visitor Center provides desert insights."
+          }
+        ]
+      },
+      {
+        "day_number": "3",
+        "day_title": "Aqaba Coastal Experience",
+        "day_summary": "Morning birdwatching, lunch at Royal Yacht Club, afternoon marine park, dinner at Al Shami.",
+        "activities": [
+          {
+            "start_time": "09:00",
+            "end_time": "10:15",
+            "activity_title": "Aqaba Bird Observatory",
+            "description": "Watch migratory birds; bring binoculars.",
+            "location": "Aqaba Bird Observatory, Aqaba",
+            "estimated_cost": "14 JOD",
+            "smart_tip": "Watch migratory birds; bring binoculars."
+          },
+          {
+            "start_time": "12:00",
+            "end_time": "13:00",
+            "activity_title": "Lunch at Royal Yacht Club",
+            "description": "Savor seafood and local dishes.",
+            "location": "Royal Yacht Club, Aqaba",
+            "estimated_cost": "44 JOD",
+            "smart_tip": "Savor seafood and local dishes."
+          },
+          {
+            "start_time": "14:00",
+            "end_time": "17:00",
+            "activity_title": "Aqaba Marine Park",
+            "description": "Explore coral reefs and marine life.",
+            "location": "Aqaba Marine Park, Aqaba",
+            "estimated_cost": "Free",
+            "smart_tip": "Explore coral reefs and marine life."
+          },
+          {
+            "start_time": "18:30",
+            "end_time": "19:30",
+            "activity_title": "Dinner at Al Shami Restaurant",
+            "description": "Enjoy traditional Jordanian grill.",
+            "location": "Al Shami Restaurant, Aqaba",
+            "estimated_cost": "19 JOD",
+            "smart_tip": "Enjoy traditional Jordanian grill."
+          }
+        ],
+        "activity_alternatives": [
+          {
+            "original_activity": "Aqaba Bird Observatory",
+            "alternative_activity": "Aqaba Marine Park",
+            "reason": "If Bird Observatory is closed, Marine Park offers a natural marine experience."
+          }
+        ]
+      }
+    ],
+    "budget_summary": {
+      "items": [
+        {
+          "category": "Accommodation",
+          "estimated_cost": "188 JOD",
+          "notes": "Petra Marriott Hotel, 5-star, 2 nights."
+        },
+        {
+          "category": "Meals",
+          "estimated_cost": "275 JOD",
+          "notes": "Breakfast estimated at 12 JOD per person per day; lunch and dinner as scheduled."
+        },
+        {
+          "category": "Activities & Entry Fees",
+          "estimated_cost": "134 JOD",
+          "notes": "Entry fees per person for each site."
+        },
+        {
+          "category": "Total",
+          "estimated_cost": "597 JOD",
+          "notes": "Total cost within budget."
+        },
+        {
+          "category": "Remaining Budget",
+          "estimated_cost": "303 JOD",
+          "notes": "Remaining budget after planned expenses."
+        }
+      ],
+      "total_estimated_cost": "597 JOD"
+    },
+    "essential_travel_tips": [
+      {
+        "category": "Dining",
+        "tips": [
+          "Choose local Jordanian cuisine for authentic flavors.",
+          "Reserve fine dining restaurants in advance to secure seating."
+        ]
+      },
+      {
+        "category": "Travel",
+        "tips": [
+          "Carry cash for small vendors and restaurants.",
+          "Plan for sun protection and hydration during desert visits."
+        ]
+      },
+      {
+        "category": "Safety",
+        "tips": [
+          "Avoid walking alone at night in desert areas.",
+          "Stay hydrated and wear sunscreen during midday."
+        ]
+      },
+      {
+        "category": "Culture",
+        "tips": [
+          "Respect local customs when visiting religious sites.",
+          "Ask for permission before photographing people."
+        ]
+      }
+    ],
+    "explanations": {
+      "trip_planning_reason": "The itinerary follows the mandatory destinations and preferred regions, ensuring each day focuses on a single region with a headline site, balanced pacing, and local dining experiences.",
+      "selection_reason": "We selected anchor POIs that match the must-visit list, used nearby restaurants for meals, and chose a 5-star hotel in Petra to meet the accommodation rating, all while keeping costs within the budget."
+    }
+  }
+}

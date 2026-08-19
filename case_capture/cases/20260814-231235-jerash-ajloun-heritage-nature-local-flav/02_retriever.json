@@ -1,0 +1,2712 @@
+{
+  "duration_days": 2,
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "theme": "Jerash Governorate · nature",
+      "pois": [
+        {
+          "poi": {
+            "id": "poi_005016",
+            "entity_type": "poi",
+            "name": "Jerash Heritage Souk",
+            "role": "anchor",
+            "region": "Jerash Governorate",
+            "city": "Jerash",
+            "district": "Jerash",
+            "address": "King Hussein Street, Jerash Downtown",
+            "latitude": 32.2792,
+            "longitude": 35.8968,
+            "why_retrieved": [
+              "in requested region: Jerash Governorate"
+            ],
+            "facts": {
+              "category": "Shopping",
+              "subcategory": "Traditional Market",
+              "themes": [
+                "Souk",
+                "Crafts",
+                "Local Market",
+                "Olive Oil",
+                "Culture"
+              ],
+              "opening_hours": "09:00",
+              "closing_hours": "21:00",
+              "closed_days": [
+                "Friday"
+              ],
+              "average_visit_minutes": 60,
+              "booking_required": false,
+              "best_visit_time": [
+                "Morning",
+                "Afternoon",
+                "Evening"
+              ],
+              "activity_level": "Low",
+              "indoor_outdoor": "Mixed",
+              "entry_fee": 0,
+              "currency": "JOD",
+              "pricing_level": "Free",
+              "highlights": [
+                "Authentic locally produced olive oil and soap stalls",
+                "Traditional Jordanian handicrafts and embroidered garments",
+                "Street vendors selling fresh local produce and spices"
+              ],
+              "notes": "Small shops generally accept cash only.",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Seniors"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_005055",
+              "entity_type": "restaurant",
+              "name": "Jerash Oasis Grill",
+              "role": "",
+              "region": "Jerash Governorate",
+              "city": "Jerash",
+              "district": "Central District",
+              "address": "Commercial Street, Jerash",
+              "latitude": 32.27581,
+              "longitude": 35.89481,
+              "why_retrieved": [
+                "in requested region: Jerash Governorate",
+                "serves preferred cuisine: Jordanian",
+                "~421 m away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Levantine Restaurant",
+                "cuisine_types": [
+                  "Levantine",
+                  "Jordanian",
+                  "Middle Eastern"
+                ],
+                "meal_types": [
+                  "Lunch",
+                  "Dinner"
+                ],
+                "signature_dishes": [
+                  "Oasis Mixed Skewers",
+                  "Baba Ghanoush"
+                ],
+                "service_style": "Casual Dining",
+                "atmosphere": "Scenic/Outdoor",
+                "best_visit_time": [
+                  "Afternoon",
+                  "Evening"
+                ],
+                "average_cost_per_person": 14.0,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Family Gathering",
+                  "Casual Hangout"
+                ],
+                "suitable_for": [
+                  "Family",
+                  "Groups",
+                  "Couples"
+                ],
+                "opening_hours": "11:00",
+                "closing_hours": "23:00",
+                "notes": "Features relaxing central fountain installations."
+              }
+            },
+            {
+              "id": "restaurant_005014",
+              "entity_type": "restaurant",
+              "name": "Jerash Gate Restaurant",
+              "role": "",
+              "region": "Jerash Governorate",
+              "city": "Jerash",
+              "district": "Ruins Access Road",
+              "address": "Main Archaeological Access Road, Jerash",
+              "latitude": 32.27854,
+              "longitude": 35.89263,
+              "why_retrieved": [
+                "in requested region: Jerash Governorate",
+                "serves preferred cuisine: Jordanian",
+                "~399 m away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Levantine Buffet & Grills",
+                "cuisine_types": [
+                  "Levantine",
+                  "Middle Eastern",
+                  "Jordanian"
+                ],
+                "meal_types": [
+                  "Lunch",
+                  "Dinner"
+                ],
+                "signature_dishes": [
+                  "Mixed Grill Platter",
+                  "Oriental Rice with Chicken"
+                ],
+                "service_style": "Buffet",
+                "atmosphere": "Casual",
+                "best_visit_time": [
+                  "Afternoon"
+                ],
+                "average_cost_per_person": 14.0,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Celebration/Group Event",
+                  "Family Gathering"
+                ],
+                "suitable_for": [
+                  "Family",
+                  "Groups",
+                  "Seniors"
+                ],
+                "opening_hours": "08:30",
+                "closing_hours": "21:30",
+                "notes": "Primarily structured for tour groups and large family parties."
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_005017",
+              "km": 0.1
+            },
+            {
+              "poi_id": "poi_005020",
+              "km": 4.8
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_005020",
+            "entity_type": "poi",
+            "name": "Al-Kittah Village and Springs",
+            "role": "anchor",
+            "region": "Jerash Governorate",
+            "city": "Jerash",
+            "district": "Jerash",
+            "address": "Al-Kittah, Jerash Governorate",
+            "latitude": 32.27472,
+            "longitude": 35.84583,
+            "why_retrieved": [
+              "matches nature interest",
+              "in requested region: Jerash Governorate"
+            ],
+            "facts": {
+              "category": "Nature",
+              "subcategory": "Rural Village",
+              "themes": [
+                "Agritourism",
+                "Olive Groves",
+                "Springs",
+                "Rural Life",
+                "Nature"
+              ],
+              "opening_hours": "",
+              "closing_hours": "",
+              "closed_days": [],
+              "average_visit_minutes": 60,
+              "booking_required": false,
+              "best_visit_time": [
+                "Morning",
+                "Afternoon"
+              ],
+              "activity_level": "Low",
+              "indoor_outdoor": "Outdoor",
+              "entry_fee": 0,
+              "currency": "JOD",
+              "pricing_level": "Free",
+              "highlights": [
+                "Centuries-old olive tree groves and stone terraces",
+                "Natural freshwater spring channels (Ain Al-Kittah)",
+                "Scenic countryside views of Western Jerash hills"
+              ],
+              "notes": "Springtime (February to April) offers peak greenery and wildflower blooms.",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_005045",
+              "entity_type": "restaurant",
+              "name": "Jerash Orchard Restaurant",
+              "role": "",
+              "region": "Jerash Governorate",
+              "city": "Jerash",
+              "district": "Agricultural Valley",
+              "address": "Orchard Lane, Jerash",
+              "latitude": 32.28912,
+              "longitude": 35.87541,
+              "why_retrieved": [
+                "matches nature interest",
+                "in requested region: Jerash Governorate",
+                "serves preferred cuisine: Jordanian",
+                "~3.2 km away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Levantine Restaurant",
+                "cuisine_types": [
+                  "Levantine",
+                  "Jordanian",
+                  "Middle Eastern"
+                ],
+                "meal_types": [
+                  "Lunch",
+                  "Dinner"
+                ],
+                "signature_dishes": [
+                  "Fresh Citrus Juices",
+                  "Grilled Lamb Skewers"
+                ],
+                "service_style": "Casual Dining",
+                "atmosphere": "Scenic/Outdoor",
+                "best_visit_time": [
+                  "Afternoon",
+                  "Evening"
+                ],
+                "average_cost_per_person": 15.0,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Family Gathering",
+                  "Casual Hangout"
+                ],
+                "suitable_for": [
+                  "Family",
+                  "Couples",
+                  "Groups",
+                  "Seniors"
+                ],
+                "opening_hours": "11:00",
+                "closing_hours": "22:00",
+                "notes": "Tables are nestled directly among fruit-bearing trees."
+              }
+            },
+            {
+              "id": "restaurant_005050",
+              "entity_type": "restaurant",
+              "name": "Jerash Valley Resort Restaurant",
+              "role": "",
+              "region": "Jerash Governorate",
+              "city": "Jerash",
+              "district": "Valley Resort Area",
+              "address": "Resort Road, Jerash",
+              "latitude": 32.29641,
+              "longitude": 35.87124,
+              "why_retrieved": [
+                "in requested region: Jerash Governorate",
+                "serves preferred cuisine: Jordanian",
+                "~3.4 km away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Levantine Restaurant",
+                "cuisine_types": [
+                  "Levantine",
+                  "Jordanian",
+                  "International"
+                ],
+                "meal_types": [
+                  "Breakfast",
+                  "Lunch",
+                  "Dinner"
+                ],
+                "signature_dishes": [
+                  "Resort Mixed Grill",
+                  "Traditional Jordanian Mansaf"
+                ],
+                "service_style": "Buffet/Family Style",
+                "atmosphere": "Upscale/Scenic",
+                "best_visit_time": [
+                  "Afternoon",
+                  "Evening"
+                ],
+                "average_cost_per_person": 22.0,
+                "currency": "JOD",
+                "pricing_level": "High",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Family Gathering",
+                  "Celebration/Group Event",
+                  "Anniversary"
+                ],
+                "suitable_for": [
+                  "Family",
+                  "Couples",
+                  "Groups",
+                  "Seniors"
+                ],
+                "opening_hours": "07:00",
+                "closing_hours": "23:00",
+                "notes": "Located within the premier valley resort complex."
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_005038",
+              "km": 4.2
+            },
+            {
+              "poi_id": "poi_005016",
+              "km": 4.8
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_005035",
+            "entity_type": "poi",
+            "name": "Al-Mustaba Eco-Park",
+            "role": "anchor",
+            "region": "Jerash Governorate",
+            "city": "Jerash",
+            "district": "Jerash",
+            "address": "Al-Mustaba, Jerash Governorate",
+            "latitude": 32.1648,
+            "longitude": 35.8521,
+            "why_retrieved": [
+              "matches nature interest",
+              "in requested region: Jerash Governorate"
+            ],
+            "facts": {
+              "category": "Park",
+              "subcategory": "Nature Park",
+              "themes": [
+                "Nature Park",
+                "Picnic Ground",
+                "Oak Forest",
+                "Outdoors"
+              ],
+              "opening_hours": "08:00",
+              "closing_hours": "19:00",
+              "closed_days": [],
+              "average_visit_minutes": 90,
+              "booking_required": false,
+              "best_visit_time": [
+                "Morning",
+                "Afternoon"
+              ],
+              "activity_level": "Low",
+              "indoor_outdoor": "Outdoor",
+              "entry_fee": 1,
+              "currency": "JOD",
+              "pricing_level": "Low",
+              "highlights": [
+                "Dense native oak and pine forest cover",
+                "Shaded family picnic tables and open green clearings",
+                "Panoramic views of southern Jerash mountain ridges"
+              ],
+              "notes": "Very popular on Fridays for local family picnics.",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Children"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_005058",
+              "entity_type": "restaurant",
+              "name": "Jerash Olive Grove Grill",
+              "role": "",
+              "region": "Jerash Governorate",
+              "city": "Jerash",
+              "district": "Southern Groves",
+              "address": "Grove Lane, Jerash",
+              "latitude": 32.26891,
+              "longitude": 35.89912,
+              "why_retrieved": [
+                "matches history interest",
+                "in requested region: Jerash Governorate",
+                "serves preferred cuisine: Jordanian",
+                "~12.4 km away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Levantine Restaurant",
+                "cuisine_types": [
+                  "Levantine",
+                  "Jordanian",
+                  "Middle Eastern"
+                ],
+                "meal_types": [
+                  "Lunch",
+                  "Dinner"
+                ],
+                "signature_dishes": [
+                  "Olive Oil Marinated Chicken",
+                  "Traditional Mansaf"
+                ],
+                "service_style": "Casual Dining",
+                "atmosphere": "Scenic/Outdoor",
+                "best_visit_time": [
+                  "Afternoon",
+                  "Evening"
+                ],
+                "average_cost_per_person": 15.0,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Family Gathering",
+                  "Casual Hangout"
+                ],
+                "suitable_for": [
+                  "Family",
+                  "Couples",
+                  "Groups",
+                  "Seniors"
+                ],
+                "opening_hours": "11:00",
+                "closing_hours": "22:00",
+                "notes": "Tables are nestled amidst historic olive-producing trees."
+              }
+            },
+            {
+              "id": "restaurant_005033",
+              "entity_type": "restaurant",
+              "name": "Green Valley Restaurant Jerash",
+              "role": "",
+              "region": "Jerash Governorate",
+              "city": "Jerash",
+              "district": "Southern Valley Road",
+              "address": "Valley Highway, Jerash",
+              "latitude": 32.26124,
+              "longitude": 35.89912,
+              "why_retrieved": [
+                "in requested region: Jerash Governorate",
+                "serves preferred cuisine: Jordanian",
+                "~11.6 km away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Levantine Restaurant",
+                "cuisine_types": [
+                  "Levantine",
+                  "Jordanian",
+                  "Middle Eastern"
+                ],
+                "meal_types": [
+                  "Lunch",
+                  "Dinner"
+                ],
+                "signature_dishes": [
+                  "Traditional Mansaf",
+                  "Mixed Barbecue Platters"
+                ],
+                "service_style": "Casual Dining",
+                "atmosphere": "Scenic/Outdoor",
+                "best_visit_time": [
+                  "Afternoon",
+                  "Evening"
+                ],
+                "average_cost_per_person": 17.0,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Family Gathering",
+                  "Celebration/Group Event",
+                  "Casual Hangout"
+                ],
+                "suitable_for": [
+                  "Family",
+                  "Groups",
+                  "Children",
+                  "Seniors"
+                ],
+                "opening_hours": "11:00",
+                "closing_hours": "23:00",
+                "notes": "Features extensive manicured lawns and family recreation spaces."
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_005020",
+              "km": 12.2
+            },
+            {
+              "poi_id": "poi_005017",
+              "km": 13.3
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_005017",
+            "entity_type": "poi",
+            "name": "Al-Husseini Mosque Jerash",
+            "role": "anchor",
+            "region": "Jerash Governorate",
+            "city": "Jerash",
+            "district": "Jerash",
+            "address": "Downtown Jerash, near King Hussein Street, Jerash",
+            "latitude": 32.2785,
+            "longitude": 35.8972,
+            "why_retrieved": [
+              "in requested region: Jerash Governorate"
+            ],
+            "facts": {
+              "category": "Religious",
+              "subcategory": "Mosque",
+              "themes": [
+                "Islamic Heritage",
+                "Mosque",
+                "Hashemite Architecture",
+                "Local Community"
+              ],
+              "opening_hours": "04:30",
+              "closing_hours": "21:30",
+              "closed_days": [],
+              "average_visit_minutes": 20,
+              "booking_required": false,
+              "best_visit_time": [
+                "Morning",
+                "Afternoon"
+              ],
+              "activity_level": "Low",
+              "indoor_outdoor": "Indoor",
+              "entry_fee": 0,
+              "currency": "JOD",
+              "pricing_level": "Free",
+              "highlights": [
+                "Traditional white-and-pink stone masonry facade",
+                "Central dome and traditional minaret rising over old downtown",
+                "Spiritual and historical hub of modern Jerash town"
+              ],
+              "notes": "Non-Muslim visitors should request permission prior to entering outside prayer times and dress conservatively.",
+              "suitable_for": [
+                "Solo",
+                "Couples",
+                "Seniors"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_005064",
+              "entity_type": "restaurant",
+              "name": "Jerash Star Restaurant",
+              "role": "",
+              "region": "Jerash Governorate",
+              "city": "Jerash",
+              "district": "Commercial District",
+              "address": "Commercial Avenue, Jerash",
+              "latitude": 32.27541,
+              "longitude": 35.89512,
+              "why_retrieved": [
+                "in requested region: Jerash Governorate",
+                "serves preferred cuisine: Jordanian",
+                "~395 m away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Levantine Restaurant",
+                "cuisine_types": [
+                  "Levantine",
+                  "Jordanian",
+                  "Middle Eastern"
+                ],
+                "meal_types": [
+                  "Lunch",
+                  "Dinner"
+                ],
+                "signature_dishes": [
+                  "Star Mixed Grill",
+                  "Chicken Kabsa"
+                ],
+                "service_style": "Casual Dining",
+                "atmosphere": "Casual",
+                "best_visit_time": [
+                  "Afternoon",
+                  "Evening"
+                ],
+                "average_cost_per_person": 12.0,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Family Gathering",
+                  "Casual Hangout"
+                ],
+                "suitable_for": [
+                  "Family",
+                  "Groups",
+                  "Couples"
+                ],
+                "opening_hours": "11:00",
+                "closing_hours": "23:00",
+                "notes": "Conveniently located near the central commercial district."
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_005016",
+              "km": 0.1
+            },
+            {
+              "poi_id": "poi_005020",
+              "km": 4.8
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_005038",
+            "entity_type": "poi",
+            "name": "Suf Village Heritage Center",
+            "role": "discovery",
+            "region": "Jerash Governorate",
+            "city": "Jerash",
+            "district": "Jerash",
+            "address": "Suf Main Village Square, Jerash Governorate",
+            "latitude": 32.3112,
+            "longitude": 35.8361,
+            "why_retrieved": [
+              "in requested region: Jerash Governorate"
+            ],
+            "facts": {
+              "category": "Culture",
+              "subcategory": "Cultural Center",
+              "themes": [
+                "Heritage Village",
+                "Handicrafts",
+                "Ottoman Stone Houses",
+                "Community Tourism"
+              ],
+              "opening_hours": "09:00",
+              "closing_hours": "17:00",
+              "closed_days": [
+                "Friday"
+              ],
+              "average_visit_minutes": 75,
+              "booking_required": false,
+              "best_visit_time": [
+                "Morning",
+                "Afternoon"
+              ],
+              "activity_level": "Low",
+              "indoor_outdoor": "Mixed",
+              "entry_fee": 0,
+              "currency": "JOD",
+              "pricing_level": "Free",
+              "highlights": [
+                "Restored 19th-century Ottoman limestone houses",
+                "Local women's cooperative workshop producing heritage crafts",
+                "Tastings of local artisanal olive oil, thyme, and preserved foods"
+              ],
+              "notes": "Directly connected by rural hiking trails toward Dibbeen Forest.",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Seniors"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_005062",
+              "entity_type": "restaurant",
+              "name": "Jerash Canyon Restaurant",
+              "role": "",
+              "region": "Jerash Governorate",
+              "city": "Jerash",
+              "district": "Gorge Outskirts",
+              "address": "Canyon Road, Jerash",
+              "latitude": 32.29124,
+              "longitude": 35.86891,
+              "why_retrieved": [
+                "in requested region: Jerash Governorate",
+                "serves preferred cuisine: Jordanian",
+                "~3.8 km away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Levantine Restaurant",
+                "cuisine_types": [
+                  "Levantine",
+                  "Jordanian",
+                  "Middle Eastern"
+                ],
+                "meal_types": [
+                  "Lunch",
+                  "Dinner"
+                ],
+                "signature_dishes": [
+                  "Canyon Mixed Grill",
+                  "Lamb Chops"
+                ],
+                "service_style": "Casual Dining",
+                "atmosphere": "Scenic/Outdoor",
+                "best_visit_time": [
+                  "Afternoon",
+                  "Evening"
+                ],
+                "average_cost_per_person": 17.0,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Family Gathering",
+                  "Casual Hangout"
+                ],
+                "suitable_for": [
+                  "Family",
+                  "Groups",
+                  "Couples",
+                  "Seniors"
+                ],
+                "opening_hours": "11:00",
+                "closing_hours": "23:00",
+                "notes": "Overlooks dramatic natural canyon cliffs."
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_005020",
+              "km": 4.2
+            },
+            {
+              "poi_id": "poi_005016",
+              "km": 6.7
+            }
+          ]
+        }
+      ],
+      "hotels": [
+        {
+          "id": "hotel_000047",
+          "entity_type": "hotel",
+          "name": "Celestia Boutique Inn",
+          "role": "",
+          "region": "Jerash",
+          "city": "Jerash",
+          "district": "Northern Gate",
+          "address": "Jerash, Jerash Governorate, Jordan",
+          "latitude": 0.0,
+          "longitude": 0.0,
+          "why_retrieved": [
+            "in requested region: Jerash"
+          ],
+          "facts": {
+            "category": "Boutique Hotel",
+            "subcategory": "Boutique Inn",
+            "star_rating": 4,
+            "room_types": [
+              "Double",
+              "Twin",
+              "Family Room"
+            ],
+            "amenities": [
+              "WiFi"
+            ],
+            "view_types": [
+              "Garden View"
+            ],
+            "best_for": [
+              "Romantic Getaways",
+              "Backpackers"
+            ],
+            "average_price_per_night": 60,
+            "currency": "JOD",
+            "pricing_level": "Medium",
+            "suitable_for": [
+              "Couples",
+              "Solo",
+              "Friends",
+              "Family"
+            ],
+            "check_in": "14:00",
+            "check_out": "11:00",
+            "notes": "Formerly listed as The Country House Northern Gate. All rooms are non-smoking. Concierge service is offered."
+          }
+        },
+        {
+          "id": "hotel_000044",
+          "entity_type": "hotel",
+          "name": "The Olive Branch Hotel",
+          "role": "",
+          "region": "Jerash",
+          "city": "Jerash",
+          "district": "Guzn Al-Zaytoon",
+          "address": "Guzn Al-Zaytoon Road, off Jerash-Ajloun Road, Jerash, Jordan",
+          "latitude": 32.296746,
+          "longitude": 35.856674,
+          "why_retrieved": [
+            "matches nature interest",
+            "in requested region: Jerash"
+          ],
+          "facts": {
+            "category": "Resort",
+            "subcategory": "Countryside Resort",
+            "star_rating": 3,
+            "room_types": [
+              "Single",
+              "Double",
+              "Twin",
+              "Family Room"
+            ],
+            "amenities": [
+              "WiFi",
+              "Air Conditioning",
+              "Heating",
+              "Swimming Pool",
+              "Room Service",
+              "TV"
+            ],
+            "view_types": [
+              "Mountain View",
+              "Garden View",
+              "Pool View"
+            ],
+            "best_for": [
+              "Family Vacations",
+              "Groups",
+              "Business Trips"
+            ],
+            "average_price_per_night": 45,
+            "currency": "JOD",
+            "pricing_level": "Medium",
+            "suitable_for": [
+              "Family",
+              "Couples",
+              "Groups",
+              "Friends",
+              "Business"
+            ],
+            "check_in": "13:00",
+            "check_out": "12:00",
+            "notes": "Family-run property with an on-site restaurant named Zaitoun. Room count is reported between 33 and 55 across different listings. Currency exchange, barbecue facilities and a games room with table tennis are available."
+          }
+        },
+        {
+          "id": "hotel_000046",
+          "entity_type": "hotel",
+          "name": "Jerash Hotel",
+          "role": "",
+          "region": "Jerash",
+          "city": "Jerash",
+          "district": "City Centre",
+          "address": "Jerash Highway, Jerash, Jordan",
+          "latitude": 0.0,
+          "longitude": 0.0,
+          "why_retrieved": [
+            "in requested region: Jerash"
+          ],
+          "facts": {
+            "category": "Hotel",
+            "subcategory": "City Hotel",
+            "star_rating": 2,
+            "room_types": [
+              "Single",
+              "Double",
+              "Twin",
+              "Family Room"
+            ],
+            "amenities": [
+              "WiFi",
+              "Air Conditioning",
+              "Minibar",
+              "TV"
+            ],
+            "view_types": [
+              "City View"
+            ],
+            "best_for": [
+              "Family Vacations",
+              "Backpackers",
+              "Groups"
+            ],
+            "average_price_per_night": 24,
+            "currency": "JOD",
+            "pricing_level": "Low",
+            "suitable_for": [
+              "Family",
+              "Couples",
+              "Solo",
+              "Friends",
+              "Groups"
+            ],
+            "check_in": null,
+            "check_out": null,
+            "notes": "Cafe on the fourth and fifth floors with a panoramic view over the Jerash archaeological site. An ATM is available on the premises."
+          }
+        },
+        {
+          "id": "hotel_000048",
+          "entity_type": "hotel",
+          "name": "Dream House Hotel Apartments",
+          "role": "",
+          "region": "Jerash",
+          "city": "Jerash",
+          "district": "Historical District",
+          "address": "Jerash Historical District, Jerash, Jordan",
+          "latitude": 32.279745,
+          "longitude": 35.89784,
+          "why_retrieved": [
+            "in requested region: Jerash"
+          ],
+          "facts": {
+            "category": "Apartment/Aparthotel",
+            "subcategory": "Serviced Apartments",
+            "star_rating": null,
+            "room_types": [
+              "Double",
+              "Family Room"
+            ],
+            "amenities": [
+              "WiFi",
+              "Breakfast Included",
+              "Balcony/Terrace"
+            ],
+            "view_types": [
+              "City View"
+            ],
+            "best_for": [
+              "Family Vacations",
+              "Groups"
+            ],
+            "average_price_per_night": 54,
+            "currency": "JOD",
+            "pricing_level": "Medium",
+            "suitable_for": [
+              "Family",
+              "Groups",
+              "Friends",
+              "Couples"
+            ],
+            "check_in": "13:00",
+            "check_out": "12:00",
+            "notes": "Listed on the official Visit Jordan Jerash accommodation page. A grocery shopping service and an outdoor firepit are offered."
+          }
+        }
+      ],
+      "events": [
+        {
+          "id": "event_000131",
+          "entity_type": "event",
+          "name": "Jordan Summer Festival - Jerash",
+          "role": "",
+          "region": "Jerash",
+          "city": "Jerash",
+          "district": "Jerash",
+          "address": "Hashemite Square, Jerash, Jordan",
+          "latitude": 0.0,
+          "longitude": 0.0,
+          "why_retrieved": [
+            "in requested region: Jerash"
+          ],
+          "facts": {
+            "category": "Cultural Event",
+            "subcategory": null,
+            "themes": [
+              "Summer Culture"
+            ],
+            "typical_months": [],
+            "typical_seasons": [],
+            "recurrence": "Annual",
+            "duration_minutes": null,
+            "ticket_cost": null,
+            "currency": [],
+            "pricing_level": null,
+            "indoor_outdoor": null,
+            "highlights": [
+              "Summer Culture",
+              "Community activities"
+            ],
+            "languages": [
+              "Arabic"
+            ],
+            "minimum_age": null,
+            "suitable_for": [
+              "Families",
+              "Local Visitors",
+              "Tourists"
+            ]
+          }
+        },
+        {
+          "id": "event_000132",
+          "entity_type": "event",
+          "name": "National Celebrations Programme - Jerash",
+          "role": "",
+          "region": "Jerash",
+          "city": "Jerash",
+          "district": "Jerash",
+          "address": "Jerash Sports Complex, Jerash, Jordan",
+          "latitude": 0.0,
+          "longitude": 0.0,
+          "why_retrieved": [
+            "in requested region: Jerash"
+          ],
+          "facts": {
+            "category": "Cultural Event",
+            "subcategory": null,
+            "themes": [
+              "National and Family Activities"
+            ],
+            "typical_months": [],
+            "typical_seasons": [],
+            "recurrence": "Annual",
+            "duration_minutes": null,
+            "ticket_cost": null,
+            "currency": [],
+            "pricing_level": null,
+            "indoor_outdoor": null,
+            "highlights": [
+              "National and Family Activities",
+              "Community activities"
+            ],
+            "languages": [
+              "Arabic"
+            ],
+            "minimum_age": null,
+            "suitable_for": [
+              "Families",
+              "Local Visitors",
+              "Tourists"
+            ]
+          }
+        },
+        {
+          "id": "event_000133",
+          "entity_type": "event",
+          "name": "Aesthetics of Place Cultural Programme - Jerash",
+          "role": "",
+          "region": "Jerash",
+          "city": "Jerash",
+          "district": "Jerash",
+          "address": "Jerash, Jerash, Jordan",
+          "latitude": 0.0,
+          "longitude": 0.0,
+          "why_retrieved": [
+            "in requested region: Jerash"
+          ],
+          "facts": {
+            "category": "Cultural Event",
+            "subcategory": null,
+            "themes": [
+              "Literature and Local Heritage"
+            ],
+            "typical_months": [],
+            "typical_seasons": [],
+            "recurrence": "Annual",
+            "duration_minutes": null,
+            "ticket_cost": null,
+            "currency": [],
+            "pricing_level": null,
+            "indoor_outdoor": null,
+            "highlights": [
+              "Literature and Local Heritage",
+              "Community activities"
+            ],
+            "languages": [
+              "Arabic"
+            ],
+            "minimum_age": null,
+            "suitable_for": [
+              "Families",
+              "Local Visitors",
+              "Tourists"
+            ]
+          }
+        }
+      ],
+      "summary": "Jerash Governorate: 4 anchor + 1 discovery POIs; 8 restaurants; 4 hotels; 3 events."
+    },
+    {
+      "cluster_id": 1,
+      "theme": "Ajloun Governorate · history, nature",
+      "pois": [
+        {
+          "poi": {
+            "id": "poi_006001",
+            "entity_type": "poi",
+            "name": "Ajloun Castle",
+            "role": "anchor",
+            "region": "Ajloun Governorate",
+            "city": "Ajloun",
+            "district": "Ajloun City Center",
+            "address": "Castle Hill Road, Ajloun",
+            "latitude": 32.332611,
+            "longitude": 35.727333,
+            "why_retrieved": [
+              "matches history interest",
+              "in requested region: Ajloun Governorate"
+            ],
+            "facts": {
+              "category": "Heritage",
+              "subcategory": "Castle",
+              "themes": [
+                "Ayyubid Architecture",
+                "Military History",
+                "Islamic Heritage",
+                "Panoramic Views",
+                "Fortress"
+              ],
+              "opening_hours": "08:00",
+              "closing_hours": "18:00",
+              "closed_days": [],
+              "average_visit_minutes": 90,
+              "booking_required": false,
+              "best_visit_time": [
+                "Morning",
+                "Afternoon"
+              ],
+              "activity_level": "Medium",
+              "indoor_outdoor": "Mixed",
+              "entry_fee": 3.0,
+              "currency": "JOD",
+              "pricing_level": "Low",
+              "highlights": [
+                "12th-century Ayyubid military architecture built under Saladin's general",
+                "Panoramic views stretching across the Jordan Valley toward the West Bank",
+                "Preserved vaulted corridors, defensive towers, and internal museum displays",
+                "Historical exhibits featuring medieval weaponry and pottery fragments"
+              ],
+              "notes": "Included in the Jordan Pass. Expect steep stone stairs and uneven paths inside the castle structure.",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Students",
+                "Seniors"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_006001",
+              "entity_type": "restaurant",
+              "name": "Ajloun Castle Restaurant",
+              "role": "",
+              "region": "Ajloun Governorate",
+              "city": "Ajloun",
+              "district": "Qasabat Ajloun",
+              "address": "Castle Road, Near Ajloun Castle Entrance, Ajloun",
+              "latitude": 32.325514,
+              "longitude": 35.728144,
+              "why_retrieved": [
+                "matches history interest",
+                "in requested region: Ajloun Governorate",
+                "serves preferred cuisine: Jordanian",
+                "~793 m away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Traditional Jordanian & Mediterranean Restaurant",
+                "cuisine_types": [
+                  "Jordanian",
+                  "Levantine",
+                  "Middle Eastern"
+                ],
+                "meal_types": [
+                  "Lunch",
+                  "Dinner",
+                  "Coffee/Tea"
+                ],
+                "signature_dishes": [
+                  "Mixed Grill",
+                  "Jordanian Mansaf",
+                  "Fresh Saj Bread"
+                ],
+                "service_style": "Casual Dining",
+                "atmosphere": "Scenic/Outdoor",
+                "best_visit_time": [
+                  "Afternoon",
+                  "Evening"
+                ],
+                "average_cost_per_person": 12,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Family Gathering",
+                  "Casual Hangout",
+                  "Celebration/Group Event"
+                ],
+                "suitable_for": [
+                  "Family",
+                  "Couples",
+                  "Groups",
+                  "Seniors",
+                  "Children"
+                ],
+                "opening_hours": "09:00",
+                "closing_hours": "21:00",
+                "notes": "Convenient dining option immediately accessible from the main parking area of Ajloun Castle."
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_006035",
+              "km": 2.3
+            },
+            {
+              "poi_id": "poi_006017",
+              "km": 2.3
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_006035",
+            "entity_type": "poi",
+            "name": "Ajloun Great Mosque",
+            "role": "anchor",
+            "region": "Ajloun Governorate",
+            "city": "Ajloun",
+            "district": "Downtown Ajloun",
+            "address": "King Hussein Street, Downtown Ajloun",
+            "latitude": 32.3325,
+            "longitude": 35.751667,
+            "why_retrieved": [
+              "matches history interest",
+              "in requested region: Ajloun Governorate"
+            ],
+            "facts": {
+              "category": "Religious",
+              "subcategory": "Historic Mosque",
+              "themes": [
+                "Ayyubid Architecture",
+                "Islamic History",
+                "Historic Mosque",
+                "Ajloun Heritage"
+              ],
+              "opening_hours": "04:30",
+              "closing_hours": "21:30",
+              "closed_days": [],
+              "average_visit_minutes": 30,
+              "booking_required": false,
+              "best_visit_time": [
+                "Morning",
+                "Afternoon"
+              ],
+              "activity_level": "Low",
+              "indoor_outdoor": "Indoor",
+              "entry_fee": 0.0,
+              "currency": "JOD",
+              "pricing_level": "Free",
+              "highlights": [
+                "13th-century Ayyubid stone minaret and architectural masonry",
+                "Foundational Arabic calligraphy inscriptions from the Sultanate period",
+                "Active central place of worship surrounded by traditional markets"
+              ],
+              "notes": "Non-Muslim visitors should avoid visiting during active congregational prayer times.",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Seniors",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_006020",
+              "entity_type": "restaurant",
+              "name": "Al Yarmouk Falafel Ajloun",
+              "role": "",
+              "region": "Ajloun Governorate",
+              "city": "Ajloun",
+              "district": "Qasabat Ajloun",
+              "address": "Downtown Commercial Street, Near Main Mosque, Ajloun",
+              "latitude": 32.33285,
+              "longitude": 35.75123,
+              "why_retrieved": [
+                "matches food interest",
+                "in requested region: Ajloun Governorate",
+                "serves preferred cuisine: Jordanian",
+                "~57 m away"
+              ],
+              "facts": {
+                "category": "Street Food",
+                "subcategory": "Traditional Falafel & Hummus Shop",
+                "cuisine_types": [
+                  "Jordanian",
+                  "Levantine",
+                  "Fast Food",
+                  "Vegetarian/Vegan"
+                ],
+                "meal_types": [
+                  "Breakfast",
+                  "Lunch",
+                  "Snacks"
+                ],
+                "signature_dishes": [
+                  "Stuffed Falafel Sandwich",
+                  "Hummus with Olive Oil",
+                  "Fatteh with Pine Nuts"
+                ],
+                "service_style": "Street Food",
+                "atmosphere": "Casual",
+                "best_visit_time": [
+                  "Morning"
+                ],
+                "average_cost_per_person": 2,
+                "currency": "JOD",
+                "pricing_level": "Low",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian",
+                  "Vegan"
+                ],
+                "occasion_suitability": [
+                  "Casual Hangout"
+                ],
+                "suitable_for": [
+                  "Solo",
+                  "Students",
+                  "Friends",
+                  "Family"
+                ],
+                "opening_hours": "06:00",
+                "closing_hours": "21:00",
+                "notes": "Casual street venue primarily geared toward quick takeout."
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_006017",
+              "km": 0.1
+            },
+            {
+              "poi_id": "poi_006039",
+              "km": 0.2
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_006002",
+            "entity_type": "poi",
+            "name": "Ajloun Forest Reserve",
+            "role": "anchor",
+            "region": "Ajloun Governorate",
+            "city": "Umm Al-Yandoub",
+            "district": "Ajloun Northern Highlands",
+            "address": "Umm Al-Yandoub Road, Ajloun Highlands",
+            "latitude": 32.378944,
+            "longitude": 35.767361,
+            "why_retrieved": [
+              "matches nature interest",
+              "in requested region: Ajloun Governorate"
+            ],
+            "facts": {
+              "category": "Nature",
+              "subcategory": "Nature Reserve",
+              "themes": [
+                "Nature Conservation",
+                "Ecotourism",
+                "Oak Woodland",
+                "Hiking",
+                "Biodiversity"
+              ],
+              "opening_hours": "08:00",
+              "closing_hours": "17:00",
+              "closed_days": [],
+              "average_visit_minutes": 180,
+              "booking_required": false,
+              "best_visit_time": [
+                "Morning",
+                "Afternoon"
+              ],
+              "activity_level": "Medium",
+              "indoor_outdoor": "Outdoor",
+              "entry_fee": 5.0,
+              "currency": "JOD",
+              "pricing_level": "Low",
+              "highlights": [
+                "13 square kilometers of protected evergreen oak and pistachio woodland",
+                "Roe Deer breeding enclosure managed by the RSCN",
+                "Marked self-guided and guided hiking trails through forested valleys",
+                "On-site Soap House and craft workshops operated by local villagers"
+              ],
+              "notes": "Guided hiking trails require advance notification at the visitor center. Evening temperatures can drop significantly.",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_006002",
+              "entity_type": "restaurant",
+              "name": "Ajloun Reserve Restaurant",
+              "role": "",
+              "region": "Ajloun Governorate",
+              "city": "Umm Al-Yandoub",
+              "district": "Qasabat Ajloun",
+              "address": "Ajloun Forest Reserve, Umm Al-Yandoub area, Ajloun",
+              "latitude": 32.378902,
+              "longitude": 35.762115,
+              "why_retrieved": [
+                "matches nature interest",
+                "in requested region: Ajloun Governorate",
+                "serves preferred cuisine: Jordanian",
+                "~493 m away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Ecolodge Traditional Restaurant",
+                "cuisine_types": [
+                  "Jordanian",
+                  "Levantine",
+                  "Vegetarian/Vegan"
+                ],
+                "meal_types": [
+                  "Breakfast",
+                  "Lunch",
+                  "Dinner"
+                ],
+                "signature_dishes": [
+                  "Local Farmhouse Breakfast",
+                  "Chicken Maklouba",
+                  "Fresh Sage & Thyme Tea"
+                ],
+                "service_style": "Buffet",
+                "atmosphere": "Quiet/Relaxed",
+                "best_visit_time": [
+                  "Morning",
+                  "Afternoon"
+                ],
+                "average_cost_per_person": 15,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian",
+                  "Vegan"
+                ],
+                "occasion_suitability": [
+                  "Family Gathering",
+                  "Casual Hangout"
+                ],
+                "suitable_for": [
+                  "Family",
+                  "Couples",
+                  "Solo",
+                  "Friends",
+                  "Groups",
+                  "Seniors"
+                ],
+                "opening_hours": "08:00",
+                "closing_hours": "20:00",
+                "notes": "Reservations are highly recommended during weekend lunch hours due to ecolodge visitor traffic."
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_006007",
+              "km": 2.4
+            },
+            {
+              "poi_id": "poi_006027",
+              "km": 3.4
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_006016",
+            "entity_type": "poi",
+            "name": "Ajloun Heritage Olive Tree",
+            "role": "anchor",
+            "region": "Ajloun Governorate",
+            "city": "Al-Hashimiyya",
+            "district": "Al-Hashimiyya Countryside",
+            "address": "Al-Hashimiyya Agricultural Road, Ajloun",
+            "latitude": 32.355556,
+            "longitude": 35.679167,
+            "why_retrieved": [
+              "matches history interest",
+              "in requested region: Ajloun Governorate"
+            ],
+            "facts": {
+              "category": "Heritage",
+              "subcategory": "Natural Heritage / Ancient Tree",
+              "themes": [
+                "Agricultural History",
+                "Ancient Olive Trees",
+                "Living Heritage",
+                "Botanical Heritage"
+              ],
+              "opening_hours": "",
+              "closing_hours": "",
+              "closed_days": [],
+              "average_visit_minutes": 20,
+              "booking_required": false,
+              "best_visit_time": [
+                "Morning",
+                "Afternoon"
+              ],
+              "activity_level": "Low",
+              "indoor_outdoor": "Outdoor",
+              "entry_fee": 0.0,
+              "currency": "JOD",
+              "pricing_level": "Free",
+              "highlights": [
+                "Massive centuries-old gnarled trunk representing ancient Levant olive cultivation",
+                "Living historical monument still producing olives during autumn harvest",
+                "Scenic location amidst rolling agricultural terraces"
+              ],
+              "notes": "Located on private agricultural land; visitors should respect surrounding farm crops.",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_006032",
+              "entity_type": "restaurant",
+              "name": "Al Rayyan Valley Cafe & Restaurant",
+              "role": "",
+              "region": "Ajloun Governorate",
+              "city": "Judeita / Ajloun Border",
+              "district": "Northern Ajloun Valley",
+              "address": "Wadi Al Rayyan Valley Trail, Ajloun",
+              "latitude": 32.39121,
+              "longitude": 35.71802,
+              "why_retrieved": [
+                "matches nature interest",
+                "in requested region: Ajloun Governorate",
+                "serves preferred cuisine: Jordanian",
+                "~5.4 km away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Valley Streamside Cafe",
+                "cuisine_types": [
+                  "Jordanian",
+                  "Levantine",
+                  "Cafe/Desserts"
+                ],
+                "meal_types": [
+                  "Breakfast",
+                  "Lunch",
+                  "Snacks",
+                  "Coffee/Tea"
+                ],
+                "signature_dishes": [
+                  "Fresh Pomegranate Juice",
+                  "Grilled Chicken Kebabs",
+                  "Saj Bread with Thyme"
+                ],
+                "service_style": "Casual Dining",
+                "atmosphere": "Nature-focused",
+                "best_visit_time": [
+                  "Morning",
+                  "Afternoon"
+                ],
+                "average_cost_per_person": 8,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Nature Excursion",
+                  "Casual Picnic Lunch"
+                ],
+                "suitable_for": [
+                  "Family",
+                  "Friends",
+                  "Hikers/Nature Lovers",
+                  "Couples"
+                ],
+                "opening_hours": "09:00",
+                "closing_hours": "20:00",
+                "notes": "Best experienced during spring and summer months when the valley streams flow."
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_006014",
+              "km": 3.4
+            },
+            {
+              "poi_id": "poi_006001",
+              "km": 5.2
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_006010",
+            "entity_type": "poi",
+            "name": "Ajloun Archeological Museum",
+            "role": "discovery",
+            "region": "Ajloun Governorate",
+            "city": "Ajloun",
+            "district": "Ajloun Castle Interior",
+            "address": "Inside Ajloun Castle, Castle Hill Road",
+            "latitude": 32.33275,
+            "longitude": 35.7275,
+            "why_retrieved": [
+              "matches history interest",
+              "in requested region: Ajloun Governorate"
+            ],
+            "facts": {
+              "category": "Museum",
+              "subcategory": "Archaeology Museum",
+              "themes": [
+                "Archaeological Exhibits",
+                "Ayyubid History",
+                "Regional Antiquities",
+                "Museum"
+              ],
+              "opening_hours": "08:00",
+              "closing_hours": "18:00",
+              "closed_days": [],
+              "average_visit_minutes": 30,
+              "booking_required": false,
+              "best_visit_time": [
+                "Morning",
+                "Afternoon"
+              ],
+              "activity_level": "Low",
+              "indoor_outdoor": "Indoor",
+              "entry_fee": null,
+              "currency": "JOD",
+              "pricing_level": null,
+              "highlights": [
+                "Artifact collection spanning from the Bronze Age through Mamluk times",
+                "Rare medieval Islamic stone inscriptions and ceramics",
+                "Exhibits detailing the architectural evolution of Ajloun Castle"
+              ],
+              "notes": "Access is included with entry to Ajloun Castle.",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Students",
+                "Seniors"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_006024",
+              "entity_type": "restaurant",
+              "name": "Tawaheen Ajloun Tourist Resort",
+              "role": "",
+              "region": "Ajloun Governorate",
+              "city": "Ajloun",
+              "district": "Qasabat Ajloun",
+              "address": "Wadi Tawaheen Valley Road, Ajloun",
+              "latitude": 32.34151,
+              "longitude": 35.73802,
+              "why_retrieved": [
+                "in requested region: Ajloun Governorate",
+                "serves preferred cuisine: Jordanian",
+                "~1.4 km away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Valley Resort & Traditional Restaurant",
+                "cuisine_types": [
+                  "Jordanian",
+                  "Levantine"
+                ],
+                "meal_types": [
+                  "Breakfast",
+                  "Lunch",
+                  "Dinner"
+                ],
+                "signature_dishes": [
+                  "Mixed Meat Bbq Skewers",
+                  "Fattoush Salad",
+                  "Fresh Orange Juice"
+                ],
+                "service_style": "Casual Dining",
+                "atmosphere": "Resort/Garden",
+                "best_visit_time": [
+                  "Afternoon"
+                ],
+                "average_cost_per_person": 11,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Family Gathering",
+                  "Casual Outing"
+                ],
+                "suitable_for": [
+                  "Family",
+                  "Children",
+                  "Groups",
+                  "Friends"
+                ],
+                "opening_hours": "09:00",
+                "closing_hours": "22:00",
+                "notes": "Very popular with local families on Friday afternoons."
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_006035",
+              "km": 2.3
+            },
+            {
+              "poi_id": "poi_006017",
+              "km": 2.3
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_006027",
+            "entity_type": "poi",
+            "name": "Rasoon Village Heritage Area",
+            "role": "discovery",
+            "region": "Ajloun Governorate",
+            "city": "Rasoon",
+            "district": "Rasoon Valley",
+            "address": "Rasoon Valley Road, Ajloun",
+            "latitude": 32.388889,
+            "longitude": 35.733611,
+            "why_retrieved": [
+              "in requested region: Ajloun Governorate"
+            ],
+            "facts": {
+              "category": "Heritage",
+              "subcategory": "Historic Village / Eco-hub",
+              "themes": [
+                "Community Ecotourism",
+                "Jordan Trail Hub",
+                "Mountain Village",
+                "Rural Hospitality"
+              ],
+              "opening_hours": "",
+              "closing_hours": "",
+              "closed_days": [],
+              "average_visit_minutes": 60,
+              "booking_required": false,
+              "best_visit_time": [
+                "Morning",
+                "Afternoon"
+              ],
+              "activity_level": "Low",
+              "indoor_outdoor": "Outdoor",
+              "entry_fee": 0.0,
+              "currency": "JOD",
+              "pricing_level": "Free",
+              "highlights": [
+                "Dramatic mountain canyon setting encircled by oak-covered cliffs",
+                "Key waypoint along the northern section of the Jordan Trail",
+                "Authentic community tourism experience with local homestays"
+              ],
+              "notes": "Home-cooked traditional meals can be arranged in advance with local village families.",
+              "suitable_for": [
+                "Couples",
+                "Solo",
+                "Friends",
+                "Family"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_006014",
+              "entity_type": "restaurant",
+              "name": "Rasoun Heritage House Restaurant",
+              "role": "",
+              "region": "Ajloun Governorate",
+              "city": "Rasoun",
+              "district": "Qasabat Ajloun",
+              "address": "Village Main Road, Rasoun",
+              "latitude": 32.408231,
+              "longitude": 35.733512,
+              "why_retrieved": [
+                "in requested region: Ajloun Governorate",
+                "serves preferred cuisine: Jordanian",
+                "~2.2 km away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Rural Heritage & Eco Restaurant",
+                "cuisine_types": [
+                  "Jordanian",
+                  "Levantine",
+                  "Vegetarian/Vegan"
+                ],
+                "meal_types": [
+                  "Breakfast",
+                  "Lunch"
+                ],
+                "signature_dishes": [
+                  "Kattam / Ktema",
+                  "Fresh Village Eggplant Fatteh",
+                  "Homemade Olive Oil & Wild Za'atar"
+                ],
+                "service_style": "Casual Dining",
+                "atmosphere": "Traditional",
+                "best_visit_time": [
+                  "Afternoon"
+                ],
+                "average_cost_per_person": 12,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian",
+                  "Vegan"
+                ],
+                "occasion_suitability": [
+                  "Family Gathering",
+                  "Casual Hangout"
+                ],
+                "suitable_for": [
+                  "Couples",
+                  "Family",
+                  "Friends",
+                  "Groups"
+                ],
+                "opening_hours": "10:00",
+                "closing_hours": "19:00",
+                "notes": "Advance booking required as meals are prepared to order fresh by local hosts."
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_006014",
+              "km": 3.1
+            },
+            {
+              "poi_id": "poi_006007",
+              "km": 3.1
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_006017",
+            "entity_type": "poi",
+            "name": "Ajloun Souq",
+            "role": "discovery",
+            "region": "Ajloun Governorate",
+            "city": "Ajloun",
+            "district": "Downtown Ajloun",
+            "address": "King Hussein Street, Downtown Ajloun",
+            "latitude": 32.3325,
+            "longitude": 35.752222,
+            "why_retrieved": [
+              "in requested region: Ajloun Governorate"
+            ],
+            "facts": {
+              "category": "Shopping",
+              "subcategory": "Traditional Market / Souq",
+              "themes": [
+                "Local Market",
+                "Traditional Souq",
+                "Culinary Heritage",
+                "Local Farmers"
+              ],
+              "opening_hours": "08:00",
+              "closing_hours": "20:00",
+              "closed_days": [],
+              "average_visit_minutes": 45,
+              "booking_required": false,
+              "best_visit_time": [
+                "Morning",
+                "Afternoon"
+              ],
+              "activity_level": "Low",
+              "indoor_outdoor": "Outdoor",
+              "entry_fee": 0.0,
+              "currency": "JOD",
+              "pricing_level": "Free",
+              "highlights": [
+                "Authentic local market atmosphere centered around the historic city mosque",
+                "Direct purchasing of genuine Ajloun olive oil and wild za'atar",
+                "Fresh mountain honey and artisanal regional dairy products"
+              ],
+              "notes": "Best visited in the morning when fresh produce arrives from local farms.",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Seniors"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_007053",
+              "entity_type": "restaurant",
+              "name": "Al-Siraj Heritage Cafe & Restaurant",
+              "role": "",
+              "region": "Ajloun Governorate",
+              "city": "Ajloun",
+              "district": "Downtown Ajloun",
+              "address": "Market Street, Downtown, Ajloun, Jordan",
+              "latitude": 32.3331,
+              "longitude": 35.7525,
+              "why_retrieved": [
+                "in requested region: Ajloun Governorate",
+                "serves preferred cuisine: Jordanian",
+                "~72 m away"
+              ],
+              "facts": {
+                "category": "Cafe",
+                "subcategory": "Heritage Cafe & Restaurant",
+                "cuisine_types": [
+                  "Cafe/Desserts",
+                  "Jordanian"
+                ],
+                "meal_types": [
+                  "Breakfast",
+                  "Snacks",
+                  "Coffee/Tea"
+                ],
+                "signature_dishes": [
+                  "Manakish Za'atar & Cheese",
+                  "Traditional Sage Tea",
+                  "Kunafa"
+                ],
+                "service_style": "Cafe",
+                "atmosphere": "Traditional",
+                "best_visit_time": [
+                  "Morning",
+                  "Late Afternoon"
+                ],
+                "average_cost_per_person": 5.5,
+                "currency": "JOD",
+                "pricing_level": "Low-Medium",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Casual Hangout",
+                  "Breakfast / Coffee Break"
+                ],
+                "suitable_for": [
+                  "Solo",
+                  "Friends",
+                  "Couples",
+                  "Students"
+                ],
+                "opening_hours": "08:00",
+                "closing_hours": "23:00",
+                "notes": "Convenient walking distance from the main Ajloun bus station and central souk."
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_006035",
+              "km": 0.1
+            },
+            {
+              "poi_id": "poi_006039",
+              "km": 0.2
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_006014",
+            "entity_type": "poi",
+            "name": "Mar Elias Trailhead",
+            "role": "discovery",
+            "region": "Ajloun Governorate",
+            "city": "Listib",
+            "district": "Mar Elias Area",
+            "address": "Tell Mar Elias Parking Area, Listib",
+            "latitude": 32.368056,
+            "longitude": 35.712222,
+            "why_retrieved": [
+              "matches nature interest",
+              "in requested region: Ajloun Governorate"
+            ],
+            "facts": {
+              "category": "Adventure",
+              "subcategory": "Hiking Trailhead",
+              "themes": [
+                "Hiking",
+                "Ecotourism",
+                "Rural Trails",
+                "Nature Walking"
+              ],
+              "opening_hours": "",
+              "closing_hours": "",
+              "closed_days": [],
+              "average_visit_minutes": 240,
+              "booking_required": false,
+              "best_visit_time": [
+                "Morning"
+              ],
+              "activity_level": "High",
+              "indoor_outdoor": "Outdoor",
+              "entry_fee": 0.0,
+              "currency": "JOD",
+              "pricing_level": "Free",
+              "highlights": [
+                "8.5-kilometer designated hiking path through oak forests and olive farms",
+                "Direct connection between Tell Mar Elias pilgrimage site and Ajloun Reserve",
+                "Opportunities to experience traditional rural northern Jordanian farm life"
+              ],
+              "notes": "Moderate difficulty trail. Guided options can be arranged through the RSCN Ajloun Reserve Visitor Center.",
+              "suitable_for": [
+                "Solo",
+                "Friends",
+                "Couples",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_007056",
+              "entity_type": "restaurant",
+              "name": "Tell Mar Elias Visitors Restaurant",
+              "role": "",
+              "region": "Ajloun Governorate",
+              "city": "Ajloun",
+              "district": "Mar Elias Area",
+              "address": "Tell Mar Elias Access Road, Ajloun Governorate, Jordan",
+              "latitude": 32.3781,
+              "longitude": 35.7192,
+              "why_retrieved": [
+                "in requested region: Ajloun Governorate",
+                "serves preferred cuisine: Jordanian",
+                "~1.3 km away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Heritage & Historical Site Rest House",
+                "cuisine_types": [
+                  "Jordanian",
+                  "Traditional Village"
+                ],
+                "meal_types": [
+                  "Breakfast",
+                  "Lunch",
+                  "Snacks"
+                ],
+                "signature_dishes": [
+                  "Saj Bread with Nabulsi Cheese",
+                  "Gallayet Bandora",
+                  "Fresh Sage Tea"
+                ],
+                "service_style": "Casual Dining",
+                "atmosphere": "Quiet/Relaxed",
+                "best_visit_time": [
+                  "Morning",
+                  "Early Afternoon"
+                ],
+                "average_cost_per_person": 7.0,
+                "currency": "JOD",
+                "pricing_level": "Low-Medium",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Sightseeing Stop",
+                  "Breakfast / Coffee Break",
+                  "Day Trip Lunch"
+                ],
+                "suitable_for": [
+                  "Cultural Tourists",
+                  "Pilgrims",
+                  "Hikers",
+                  "Couples",
+                  "Families"
+                ],
+                "opening_hours": "08:30",
+                "closing_hours": "19:30",
+                "notes": "Ideal combined stop when visiting the Byzantine church ruins of Tell Mar Elias."
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_006027",
+              "km": 3.1
+            },
+            {
+              "poi_id": "poi_006016",
+              "km": 3.4
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_006039",
+            "entity_type": "poi",
+            "name": "Ajloun Olive Press Museum",
+            "role": "discovery",
+            "region": "Ajloun Governorate",
+            "city": "Ajloun",
+            "district": "Old Town Quarter",
+            "address": "Heritage Street, near City Center, Ajloun",
+            "latitude": 32.334167,
+            "longitude": 35.753333,
+            "why_retrieved": [
+              "in requested region: Ajloun Governorate"
+            ],
+            "facts": {
+              "category": "Culture",
+              "subcategory": "Heritage Museum",
+              "themes": [
+                "Olive Culture",
+                "Agricultural Heritage",
+                "Traditional Technology",
+                "Local Museum"
+              ],
+              "opening_hours": "09:00",
+              "closing_hours": "16:00",
+              "closed_days": [
+                "Friday"
+              ],
+              "average_visit_minutes": 40,
+              "booking_required": false,
+              "best_visit_time": [
+                "Morning",
+                "Afternoon"
+              ],
+              "activity_level": "Low",
+              "indoor_outdoor": "Indoor",
+              "entry_fee": 1.0,
+              "currency": "JOD",
+              "pricing_level": "Budget",
+              "highlights": [
+                "Authentic restored basalt and limestone animal-driven olive mill",
+                "Exhibits tracing olive oil production from the Bronze Age to modern times",
+                "Tasting area for extra virgin local olive oils and olive wood crafts"
+              ],
+              "notes": "Especially active during the autumn harvest season (October - December).",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Students",
+                "Seniors"
+              ]
+            }
+          },
+          "restaurants": [],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_006035",
+              "km": 0.2
+            },
+            {
+              "poi_id": "poi_006017",
+              "km": 0.2
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_006007",
+            "entity_type": "poi",
+            "name": "Ishtafina Park",
+            "role": "discovery",
+            "region": "Ajloun Governorate",
+            "city": "Ishtafina",
+            "district": "Ishtafina",
+            "address": "Ishtafina Forest Highway, Ajloun",
+            "latitude": 32.364444,
+            "longitude": 35.748611,
+            "why_retrieved": [
+              "matches nature interest",
+              "in requested region: Ajloun Governorate"
+            ],
+            "facts": {
+              "category": "Park",
+              "subcategory": "Forest Park",
+              "themes": [
+                "Outdoor Recreation",
+                "Pine Forest",
+                "Family Picnics",
+                "Nature Walks"
+              ],
+              "opening_hours": "",
+              "closing_hours": "",
+              "closed_days": [],
+              "average_visit_minutes": 120,
+              "booking_required": false,
+              "best_visit_time": [
+                "Morning",
+                "Afternoon"
+              ],
+              "activity_level": "Low",
+              "indoor_outdoor": "Outdoor",
+              "entry_fee": 0.0,
+              "currency": "JOD",
+              "pricing_level": "Free",
+              "highlights": [
+                "Dense Aleppo pine forest shade ideal for summer picnics",
+                "Elevated cool breezes and views across northern highlands",
+                "Convenient location adjacent to the Ajloun Cable Car base terminal"
+              ],
+              "notes": "Extremely popular on Fridays in spring and summer. Open flame fires are restricted in dry seasons.",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Children",
+                "Seniors"
+              ]
+            }
+          },
+          "restaurants": [],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_006002",
+              "km": 2.4
+            },
+            {
+              "poi_id": "poi_006027",
+              "km": 3.1
+            }
+          ]
+        }
+      ],
+      "hotels": [
+        {
+          "id": "hotel_000041",
+          "entity_type": "hotel",
+          "name": "Al-Jabal Castle Hotel - Ajloun",
+          "role": "",
+          "region": "Ajloun",
+          "city": "Ajloun",
+          "district": "Halawa",
+          "address": "Castle Street, Halawa Crossing, Ajloun 26824, Jordan",
+          "latitude": 0.0,
+          "longitude": 0.0,
+          "why_retrieved": [
+            "matches nature interest",
+            "in requested region: Ajloun"
+          ],
+          "facts": {
+            "category": "Hotel",
+            "subcategory": "Budget Mountain Hotel",
+            "star_rating": 2,
+            "room_types": [
+              "Double",
+              "Suite",
+              "Family Room"
+            ],
+            "amenities": [
+              "WiFi",
+              "Air Conditioning",
+              "Breakfast Included",
+              "Room Service",
+              "Balcony/Terrace"
+            ],
+            "view_types": [
+              "Mountain View",
+              "Garden View"
+            ],
+            "best_for": [
+              "Family Vacations",
+              "Adventure Travelers",
+              "Backpackers"
+            ],
+            "average_price_per_night": null,
+            "currency": "JOD",
+            "pricing_level": "Medium",
+            "suitable_for": [
+              "Family",
+              "Couples",
+              "Friends",
+              "Groups"
+            ],
+            "check_in": null,
+            "check_out": "12:00",
+            "notes": "Around 20 rooms. Approximately 2 km from Ajloun Castle and from the town centre. Barbecue facilities available to guests."
+          }
+        },
+        {
+          "id": "hotel_000042",
+          "entity_type": "hotel",
+          "name": "Ajloun Hotel",
+          "role": "",
+          "region": "Ajloun",
+          "city": "Ajloun",
+          "district": "Rabadh",
+          "address": "Al Rabadh Castle Street, Ajloun 26810, Jordan",
+          "latitude": 0.0,
+          "longitude": 0.0,
+          "why_retrieved": [
+            "matches nature interest",
+            "in requested region: Ajloun"
+          ],
+          "facts": {
+            "category": "Hotel",
+            "subcategory": "Budget Hotel",
+            "star_rating": 2,
+            "room_types": [
+              "Single",
+              "Double",
+              "Twin",
+              "Family Room"
+            ],
+            "amenities": [
+              "WiFi",
+              "Air Conditioning",
+              "Swimming Pool",
+              "Room Service",
+              "Minibar"
+            ],
+            "view_types": [
+              "Mountain View"
+            ],
+            "best_for": [
+              "Family Vacations",
+              "Backpackers",
+              "Groups"
+            ],
+            "average_price_per_night": 27,
+            "currency": "JOD",
+            "pricing_level": "Low",
+            "suitable_for": [
+              "Family",
+              "Friends",
+              "Groups",
+              "Solo"
+            ],
+            "check_in": null,
+            "check_out": null,
+            "notes": "40 guest rooms. Continental breakfast is served daily for an extra charge and is not included in the room rate. Reviews rate location highly but room condition and cleanliness poorly."
+          }
+        },
+        {
+          "id": "hotel_000043",
+          "entity_type": "hotel",
+          "name": "Ajloun cabins",
+          "role": "",
+          "region": "Ajloun",
+          "city": "Ajloun",
+          "district": "",
+          "address": "Ajloun, Ajloun Governorate, Jordan",
+          "latitude": 0.0,
+          "longitude": 0.0,
+          "why_retrieved": [
+            "matches nature interest",
+            "in requested region: Ajloun"
+          ],
+          "facts": {
+            "category": "Guesthouse",
+            "subcategory": "Mountain Lodge",
+            "star_rating": null,
+            "room_types": [],
+            "amenities": [],
+            "view_types": [
+              "Mountain View",
+              "Garden View"
+            ],
+            "best_for": [
+              "Adventure Travelers"
+            ],
+            "average_price_per_night": null,
+            "currency": "JOD",
+            "pricing_level": "Medium",
+            "suitable_for": [
+              "Couples",
+              "Family",
+              "Friends"
+            ],
+            "check_in": "15:00",
+            "check_out": "12:00",
+            "notes": "Limited published information. Room types, pricing, meal arrangements and policies were not confirmed and are left unrecorded rather than estimated."
+          }
+        },
+        {
+          "id": "hotel_000040",
+          "entity_type": "hotel",
+          "name": "Ajloun Forest Reserve",
+          "role": "",
+          "region": "Ajloun",
+          "city": "Ajloun",
+          "district": "Orjan",
+          "address": "Arjaan (Orjan) Village, Ajloun Forest Reserve, Ajloun 26810, Jordan",
+          "latitude": 0.0,
+          "longitude": 0.0,
+          "why_retrieved": [
+            "matches nature interest",
+            "in requested region: Ajloun"
+          ],
+          "facts": {
+            "category": "Eco-Lodge",
+            "subcategory": "Nature Reserve Cabins",
+            "star_rating": null,
+            "room_types": [
+              "Double",
+              "Family Room",
+              "Villa"
+            ],
+            "amenities": [
+              "WiFi",
+              "Air Conditioning",
+              "Breakfast Included",
+              "Balcony/Terrace"
+            ],
+            "view_types": [
+              "Mountain View",
+              "Garden View"
+            ],
+            "best_for": [
+              "Family Vacations",
+              "Adventure Travelers",
+              "Groups"
+            ],
+            "average_price_per_night": null,
+            "currency": "JOD",
+            "pricing_level": "Medium",
+            "suitable_for": [
+              "Family",
+              "Couples",
+              "Friends",
+              "Groups"
+            ],
+            "check_in": "14:00",
+            "check_out": "12:00",
+            "notes": "Operated by the Royal Society for the Conservation of Nature under the Wild Jordan brand. Reservations are made through the Wild Jordan booking system. Hiking trails toward Orjan and Rasoun start from the accommodation area."
+          }
+        }
+      ],
+      "events": [
+        {
+          "id": "event_000005",
+          "entity_type": "event",
+          "name": "Jordan Summer Festival - Ajloun",
+          "role": "",
+          "region": "Ajloun",
+          "city": "Ajloun",
+          "district": "Ajloun",
+          "address": "Urban Village, Ajloun, Jordan",
+          "latitude": 0.0,
+          "longitude": 0.0,
+          "why_retrieved": [
+            "in requested region: Ajloun"
+          ],
+          "facts": {
+            "category": "Cultural Event",
+            "subcategory": null,
+            "themes": [
+              "Summer Culture"
+            ],
+            "typical_months": [],
+            "typical_seasons": [],
+            "recurrence": "Annual",
+            "duration_minutes": null,
+            "ticket_cost": null,
+            "currency": [],
+            "pricing_level": null,
+            "indoor_outdoor": null,
+            "highlights": [
+              "Summer Culture",
+              "Community activities"
+            ],
+            "languages": [
+              "Arabic"
+            ],
+            "minimum_age": null,
+            "suitable_for": [
+              "Families",
+              "Local Visitors",
+              "Tourists"
+            ]
+          }
+        },
+        {
+          "id": "event_000006",
+          "entity_type": "event",
+          "name": "National Celebrations Programme - Ajloun",
+          "role": "",
+          "region": "Ajloun",
+          "city": "Ajloun",
+          "district": "Ajloun",
+          "address": "Al-Hussein Youth Camp, Ajloun, Jordan",
+          "latitude": 0.0,
+          "longitude": 0.0,
+          "why_retrieved": [
+            "in requested region: Ajloun"
+          ],
+          "facts": {
+            "category": "Cultural Event",
+            "subcategory": null,
+            "themes": [
+              "National and Family Activities"
+            ],
+            "typical_months": [],
+            "typical_seasons": [],
+            "recurrence": "Annual",
+            "duration_minutes": null,
+            "ticket_cost": null,
+            "currency": [],
+            "pricing_level": null,
+            "indoor_outdoor": null,
+            "highlights": [
+              "National and Family Activities",
+              "Community activities"
+            ],
+            "languages": [
+              "Arabic"
+            ],
+            "minimum_age": null,
+            "suitable_for": [
+              "Families",
+              "Local Visitors",
+              "Tourists"
+            ]
+          }
+        },
+        {
+          "id": "event_000013",
+          "entity_type": "event",
+          "name": "Ajloun Cable Car Summer Festival",
+          "role": "",
+          "region": "Ajloun",
+          "city": "Ajloun",
+          "district": "Ajloun",
+          "address": "Ajloun Cable Car, Ajloun, Jordan",
+          "latitude": 0.0,
+          "longitude": 0.0,
+          "why_retrieved": [
+            "in requested region: Ajloun"
+          ],
+          "facts": {
+            "category": "Cultural Event",
+            "subcategory": "Tourism and Local Products",
+            "themes": [
+              "Tourism and Local Products"
+            ],
+            "typical_months": [],
+            "typical_seasons": [],
+            "recurrence": null,
+            "duration_minutes": null,
+            "ticket_cost": null,
+            "currency": [],
+            "pricing_level": null,
+            "indoor_outdoor": null,
+            "highlights": [
+              "Tourism and Local Products"
+            ],
+            "languages": [
+              "Arabic"
+            ],
+            "minimum_age": null,
+            "suitable_for": [
+              "Local Visitors",
+              "Tourists"
+            ]
+          }
+        }
+      ],
+      "summary": "Ajloun Governorate: 4 anchor + 6 discovery POIs; 8 restaurants; 4 hotels; 3 events."
+    }
+  ],
+  "meta": {
+    "unsupported": [],
+    "places_to_avoid": "Petra, Wadi Rum",
+    "deferred": {
+      "preferredLanguage": "English",
+      "smePreferences": [
+        "Family-owned Businesses"
+      ]
+    },
+    "rag_status": "ok",
+    "source": "retriever",
+    "compacted": false,
+    "planning_lock": "PLANNING LOCK (hard — plan OVER clusters, then write JSON):\n- Fill ALL 2 days (nights=1). No empty/partial days.\n- Mandatory destinations (preferredRegions + mustVisit): Jerash, Ajloun. Plan ONLY in these areas — any other cluster is reference material, not a day.\n- Destination→cluster map: Jerash→cluster 0 (Jerash Governorate · nature); Ajloun→cluster 1 (Ajloun Governorate · history, nature)\n- Day→cluster route (one day per cluster, in this order): D1:C0/Jerash → D2:C1/Ajloun\n- mustVisit entity lock: Jerash→lead with Al-Mustaba Eco-Park (cluster 0)\n- Each day draws its POIs, meals and hotel from ITS OWN cluster.\n- No entity twice in the whole trip: a POI or restaurant used on one day cannot reappear on another, and lunch and dinner are different places. Two days in the same city are two different clusters — use each cluster's own entities.\n- Each day: 3 sights + lunch + dinner (5 entries, 6 max). Two sights only when the cluster has no third worth visiting, and say so. No gap over 90 minutes, no site under 45 minutes, at least 4 hours of sightseeing per full day.\n- activity_alternatives come from that cluster's UNUSED entities: never an entity scheduled elsewhere in the trip, and never two scheduled stops as each other's swap.\n- One visit, one fee (POIs within 600 m are parts of one site): C0: Jerash Heritage Souk + Al-Husseini Mosque Jerash; C1: Ajloun Castle + Ajloun Archeological Museum; C1: Ajloun Great Mosque + Ajloun Souq + Ajloun Olive Press Museum\n- Lodging requested: rating=4 star, type=boutique. Per-night base (night N = where day N ends): N1(C0): Celestia Boutique Inn [4-star]\n- Money: 600 JOD covers 2 traveller(s) for 2 days (≈300 JOD/day for the whole party). Lodging = nightly rate x 1 night(s) x ~1 room(s), arithmetic shown in the notes. aiPriority=authentic → favour local, family-run entities where the cards say so. SME=Family-owned Businesses.\n- Entry fees are the last thing to cut: never skip a named destination's main ticketed site to save money, and state what is left of the budget.\n- Names/hours/fees: EntityCards only. If a card does not carry a fact (rating, booking requirement, closing day), do not state it.\n- Prices: use the card value as-is, multiplied by the party size, and show the arithmetic in the tip (\"10 JOD x 4\"). If a card has no price, estimate from pricing_level and label it \"~N JOD (estimated)\".\n- Events are reference only: never schedule them in the itinerary or budget."
+  }
+}

@@ -1,0 +1,2873 @@
+{
+  "duration_days": 3,
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "theme": "Aqaba Governorate · nature, history",
+      "pois": [
+        {
+          "poi": {
+            "id": "poi_003004",
+            "entity_type": "poi",
+            "name": "Aqaba Marine Park",
+            "role": "anchor",
+            "region": "Aqaba Governorate",
+            "city": "",
+            "district": "",
+            "address": "",
+            "latitude": 29.434722,
+            "longitude": 34.975278,
+            "why_retrieved": [
+              "matches nature interest",
+              "in requested region: Aqaba Governorate"
+            ],
+            "facts": {
+              "category": "Nature",
+              "subcategory": "",
+              "themes": [],
+              "opening_hours": "06:00",
+              "closing_hours": "19:00",
+              "closed_days": [],
+              "average_visit_minutes": 180,
+              "booking_required": false,
+              "best_visit_time": [],
+              "activity_level": "",
+              "indoor_outdoor": "",
+              "entry_fee": 0,
+              "currency": "JOD",
+              "pricing_level": "Free",
+              "highlights": [],
+              "notes": "",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Children",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_007079",
+              "entity_type": "restaurant",
+              "name": "Royal Yacht Club Restaurant Aqaba",
+              "role": "",
+              "region": "Aqaba Governorate",
+              "city": "",
+              "district": "",
+              "address": "",
+              "latitude": 29.5248,
+              "longitude": 35.0002,
+              "why_retrieved": [
+                "in requested region: Aqaba Governorate",
+                "~10.3 km away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "",
+                "cuisine_types": [],
+                "meal_types": [],
+                "signature_dishes": [],
+                "service_style": "",
+                "atmosphere": "",
+                "best_visit_time": [],
+                "average_cost_per_person": 22.0,
+                "currency": "JOD",
+                "pricing_level": "High",
+                "dietary_options": [],
+                "occasion_suitability": [],
+                "suitable_for": [
+                  "Couples",
+                  "Business Travelers",
+                  "Fine Dining Enthusiasts",
+                  "Groups"
+                ],
+                "opening_hours": "12:00",
+                "closing_hours": "00:00",
+                "notes": ""
+              }
+            },
+            {
+              "id": "restaurant_003032",
+              "entity_type": "restaurant",
+              "name": "Tiki Bar & Grill",
+              "role": "",
+              "region": "Aqaba Governorate",
+              "city": "",
+              "district": "",
+              "address": "",
+              "latitude": 29.40891,
+              "longitude": 34.97412,
+              "why_retrieved": [
+                "in requested region: Aqaba Governorate",
+                "~2.9 km away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "",
+                "cuisine_types": [],
+                "meal_types": [],
+                "signature_dishes": [],
+                "service_style": "",
+                "atmosphere": "",
+                "best_visit_time": [],
+                "average_cost_per_person": 20.0,
+                "currency": "JOD",
+                "pricing_level": "High",
+                "dietary_options": [],
+                "occasion_suitability": [],
+                "suitable_for": [
+                  "Family",
+                  "Couples",
+                  "Friends",
+                  "Children"
+                ],
+                "opening_hours": "10:00",
+                "closing_hours": "20:00",
+                "notes": ""
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_003024",
+              "km": 1.0
+            },
+            {
+              "poi_id": "poi_003026",
+              "km": 10.1
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_003024",
+            "entity_type": "poi",
+            "name": "Gorgone I Reef",
+            "role": "anchor",
+            "region": "Aqaba Governorate",
+            "city": "",
+            "district": "",
+            "address": "",
+            "latitude": 29.426111,
+            "longitude": 34.973889,
+            "why_retrieved": [
+              "matches history interest",
+              "matches nature interest",
+              "in requested region: Aqaba Governorate"
+            ],
+            "facts": {
+              "category": "Nature",
+              "subcategory": "",
+              "themes": [],
+              "opening_hours": "06:00",
+              "closing_hours": "18:00",
+              "closed_days": [],
+              "average_visit_minutes": 60,
+              "booking_required": false,
+              "best_visit_time": [],
+              "activity_level": "",
+              "indoor_outdoor": "",
+              "entry_fee": 0,
+              "currency": "JOD",
+              "pricing_level": "Free",
+              "highlights": [],
+              "notes": "",
+              "suitable_for": [
+                "Friends",
+                "Solo",
+                "Couples",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_003045",
+              "entity_type": "restaurant",
+              "name": "Suzana Restaurant & Cafe",
+              "role": "",
+              "region": "Aqaba Governorate",
+              "city": "",
+              "district": "",
+              "address": "",
+              "latitude": 29.40781,
+              "longitude": 34.9752,
+              "why_retrieved": [
+                "in requested region: Aqaba Governorate",
+                "~2.0 km away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "",
+                "cuisine_types": [],
+                "meal_types": [],
+                "signature_dishes": [],
+                "service_style": "",
+                "atmosphere": "",
+                "best_visit_time": [],
+                "average_cost_per_person": 18.0,
+                "currency": "JOD",
+                "pricing_level": "High",
+                "dietary_options": [],
+                "occasion_suitability": [],
+                "suitable_for": [
+                  "Family",
+                  "Couples",
+                  "Friends",
+                  "Honeymoon",
+                  "Seniors"
+                ],
+                "opening_hours": "12:00",
+                "closing_hours": "23:30",
+                "notes": ""
+              }
+            },
+            {
+              "id": "restaurant_003016",
+              "entity_type": "restaurant",
+              "name": "Casalingo",
+              "role": "",
+              "region": "Aqaba Governorate",
+              "city": "",
+              "district": "",
+              "address": "",
+              "latitude": 29.41215,
+              "longitude": 34.975412,
+              "why_retrieved": [
+                "in requested region: Aqaba Governorate",
+                "~1.6 km away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "",
+                "cuisine_types": [],
+                "meal_types": [],
+                "signature_dishes": [],
+                "service_style": "",
+                "atmosphere": "",
+                "best_visit_time": [],
+                "average_cost_per_person": 28.0,
+                "currency": "JOD",
+                "pricing_level": "High",
+                "dietary_options": [],
+                "occasion_suitability": [],
+                "suitable_for": [
+                  "Couples",
+                  "Family",
+                  "Friends",
+                  "Honeymoon",
+                  "Business"
+                ],
+                "opening_hours": "17:00",
+                "closing_hours": "23:30",
+                "notes": ""
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_003004",
+              "km": 1.0
+            },
+            {
+              "poi_id": "poi_003026",
+              "km": 11.0
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_003017",
+            "entity_type": "poi",
+            "name": "Ayla Oasis Marina",
+            "role": "anchor",
+            "region": "Aqaba Governorate",
+            "city": "",
+            "district": "",
+            "address": "",
+            "latitude": 29.551111,
+            "longitude": 34.989444,
+            "why_retrieved": [
+              "in requested region: Aqaba Governorate"
+            ],
+            "facts": {
+              "category": "Entertainment",
+              "subcategory": "",
+              "themes": [],
+              "opening_hours": "08:00",
+              "closing_hours": "23:00",
+              "closed_days": [],
+              "average_visit_minutes": 120,
+              "booking_required": false,
+              "best_visit_time": [],
+              "activity_level": "",
+              "indoor_outdoor": "",
+              "entry_fee": 0,
+              "currency": "JOD",
+              "pricing_level": "Medium",
+              "highlights": [],
+              "notes": "",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Business",
+                "Seniors"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_003020",
+              "entity_type": "restaurant",
+              "name": "Pave Restaurant & Cafe",
+              "role": "",
+              "region": "Aqaba Governorate",
+              "city": "",
+              "district": "",
+              "address": "",
+              "latitude": 29.54812,
+              "longitude": 34.98634,
+              "why_retrieved": [
+                "in requested region: Aqaba Governorate",
+                "~448 m away"
+              ],
+              "facts": {
+                "category": "Cafe",
+                "subcategory": "",
+                "cuisine_types": [],
+                "meal_types": [],
+                "signature_dishes": [],
+                "service_style": "",
+                "atmosphere": "",
+                "best_visit_time": [],
+                "average_cost_per_person": 8.0,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [],
+                "occasion_suitability": [],
+                "suitable_for": [
+                  "Couples",
+                  "Solo",
+                  "Friends",
+                  "Business",
+                  "Students"
+                ],
+                "opening_hours": "08:00",
+                "closing_hours": "23:00",
+                "notes": ""
+              }
+            },
+            {
+              "id": "restaurant_003040",
+              "entity_type": "restaurant",
+              "name": "Ayla Golf Club Restaurant",
+              "role": "",
+              "region": "Aqaba Governorate",
+              "city": "",
+              "district": "",
+              "address": "",
+              "latitude": 29.55521,
+              "longitude": 34.98112,
+              "why_retrieved": [
+                "in requested region: Aqaba Governorate",
+                "~925 m away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "",
+                "cuisine_types": [],
+                "meal_types": [],
+                "signature_dishes": [],
+                "service_style": "",
+                "atmosphere": "",
+                "best_visit_time": [],
+                "average_cost_per_person": 22.0,
+                "currency": "JOD",
+                "pricing_level": "High",
+                "dietary_options": [],
+                "occasion_suitability": [],
+                "suitable_for": [
+                  "Business",
+                  "Couples",
+                  "Friends",
+                  "Seniors"
+                ],
+                "opening_hours": "07:00",
+                "closing_hours": "22:00",
+                "notes": ""
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_003025",
+              "km": 2.8
+            },
+            {
+              "poi_id": "poi_003026",
+              "km": 3.4
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_003026",
+            "entity_type": "poi",
+            "name": "Aqaba Heritage House",
+            "role": "anchor",
+            "region": "Aqaba Governorate",
+            "city": "",
+            "district": "",
+            "address": "",
+            "latitude": 29.522222,
+            "longitude": 35.001389,
+            "why_retrieved": [
+              "in requested region: Aqaba Governorate"
+            ],
+            "facts": {
+              "category": "Heritage",
+              "subcategory": "",
+              "themes": [],
+              "opening_hours": "09:00",
+              "closing_hours": "17:00",
+              "closed_days": [
+                "Friday"
+              ],
+              "average_visit_minutes": 40,
+              "booking_required": false,
+              "best_visit_time": [],
+              "activity_level": "",
+              "indoor_outdoor": "",
+              "entry_fee": 1,
+              "currency": "JOD",
+              "pricing_level": "Low",
+              "highlights": [],
+              "notes": "",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Seniors",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_003058",
+              "entity_type": "restaurant",
+              "name": "Deera Cafe & Restaurant",
+              "role": "",
+              "region": "Aqaba Governorate",
+              "city": "",
+              "district": "",
+              "address": "",
+              "latitude": 29.5261,
+              "longitude": 35.0008,
+              "why_retrieved": [
+                "in requested region: Aqaba Governorate",
+                "~435 m away"
+              ],
+              "facts": {
+                "category": "Cafe",
+                "subcategory": "",
+                "cuisine_types": [],
+                "meal_types": [],
+                "signature_dishes": [],
+                "service_style": "",
+                "atmosphere": "",
+                "best_visit_time": [],
+                "average_cost_per_person": 9.0,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [],
+                "occasion_suitability": [],
+                "suitable_for": [
+                  "Friends",
+                  "Couples",
+                  "Solo",
+                  "Students"
+                ],
+                "opening_hours": "12:00",
+                "closing_hours": "02:00",
+                "notes": ""
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_003025",
+              "km": 0.6
+            },
+            {
+              "poi_id": "poi_003017",
+              "km": 3.4
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_003025",
+            "entity_type": "poi",
+            "name": "Aqaba Gateway Shopping Complex",
+            "role": "discovery",
+            "region": "Aqaba Governorate",
+            "city": "",
+            "district": "",
+            "address": "",
+            "latitude": 29.528056,
+            "longitude": 35.001667,
+            "why_retrieved": [
+              "in requested region: Aqaba Governorate"
+            ],
+            "facts": {
+              "category": "Shopping",
+              "subcategory": "",
+              "themes": [],
+              "opening_hours": "10:00",
+              "closing_hours": "23:00",
+              "closed_days": [],
+              "average_visit_minutes": 45,
+              "booking_required": false,
+              "best_visit_time": [],
+              "activity_level": "",
+              "indoor_outdoor": "",
+              "entry_fee": 0,
+              "currency": "JOD",
+              "pricing_level": "Free",
+              "highlights": [],
+              "notes": "",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Business",
+                "Seniors"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_003005",
+              "entity_type": "restaurant",
+              "name": "Syrian Palace Restaurant",
+              "role": "",
+              "region": "Aqaba Governorate",
+              "city": "",
+              "district": "",
+              "address": "",
+              "latitude": 29.528105,
+              "longitude": 35.001894,
+              "why_retrieved": [
+                "in requested region: Aqaba Governorate",
+                "~23 m away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "",
+                "cuisine_types": [],
+                "meal_types": [],
+                "signature_dishes": [],
+                "service_style": "",
+                "atmosphere": "",
+                "best_visit_time": [],
+                "average_cost_per_person": 11.0,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [],
+                "occasion_suitability": [],
+                "suitable_for": [
+                  "Family",
+                  "Couples",
+                  "Friends",
+                  "Groups",
+                  "Seniors"
+                ],
+                "opening_hours": "11:00",
+                "closing_hours": "01:00",
+                "notes": ""
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_003026",
+              "km": 0.6
+            },
+            {
+              "poi_id": "poi_003017",
+              "km": 2.8
+            }
+          ]
+        }
+      ],
+      "hotels": [
+        {
+          "id": "hotel_000096",
+          "entity_type": "hotel",
+          "name": "Al Manara, a Luxury Collection Hotel, Aqaba",
+          "role": "",
+          "region": "Aqaba Governorate",
+          "city": "",
+          "district": "",
+          "address": "",
+          "latitude": 29.534927,
+          "longitude": 34.994854,
+          "why_retrieved": [
+            "matches luxury interest",
+            "matches nature interest",
+            "in requested region: Aqaba Governorate"
+          ],
+          "facts": {
+            "category": "Hotel",
+            "subcategory": "",
+            "star_rating": null,
+            "room_types": [],
+            "amenities": [],
+            "view_types": [],
+            "best_for": [],
+            "average_price_per_night": 215,
+            "currency": "JOD",
+            "pricing_level": "High",
+            "suitable_for": [
+              "Couples",
+              "Honeymoon",
+              "Family",
+              "Business"
+            ],
+            "check_in": "15:00",
+            "check_out": "12:00",
+            "notes": ""
+          }
+        },
+        {
+          "id": "hotel_000098",
+          "entity_type": "hotel",
+          "name": "Kempinski Hotel Aqaba",
+          "role": "",
+          "region": "Aqaba Governorate",
+          "city": "",
+          "district": "",
+          "address": "",
+          "latitude": 29.53205,
+          "longitude": 34.997273,
+          "why_retrieved": [
+            "in requested region: Aqaba Governorate"
+          ],
+          "facts": {
+            "category": "Hotel",
+            "subcategory": "",
+            "star_rating": null,
+            "room_types": [],
+            "amenities": [],
+            "view_types": [],
+            "best_for": [],
+            "average_price_per_night": 200,
+            "currency": "JOD",
+            "pricing_level": "High",
+            "suitable_for": [
+              "Family",
+              "Couples",
+              "Business",
+              "Children"
+            ],
+            "check_in": "15:00",
+            "check_out": "12:00",
+            "notes": ""
+          }
+        },
+        {
+          "id": "hotel_000149",
+          "entity_type": "hotel",
+          "name": "Cedar Hotel",
+          "role": "",
+          "region": "Aqaba Governorate",
+          "city": "",
+          "district": "",
+          "address": "",
+          "latitude": 29.530559,
+          "longitude": 35.00582,
+          "why_retrieved": [
+            "in requested region: Aqaba Governorate"
+          ],
+          "facts": {
+            "category": "Hotel",
+            "subcategory": "",
+            "star_rating": null,
+            "room_types": [],
+            "amenities": [],
+            "view_types": [],
+            "best_for": [],
+            "average_price_per_night": 34,
+            "currency": "JOD",
+            "pricing_level": "Low",
+            "suitable_for": [
+              "Couples",
+              "Solo",
+              "Family",
+              "Friends"
+            ],
+            "check_in": "14:00",
+            "check_out": "12:00",
+            "notes": ""
+          }
+        },
+        {
+          "id": "hotel_000152",
+          "entity_type": "hotel",
+          "name": "Sea View Hotel",
+          "role": "",
+          "region": "Aqaba Governorate",
+          "city": "",
+          "district": "",
+          "address": "",
+          "latitude": 29.524942,
+          "longitude": 35.002408,
+          "why_retrieved": [
+            "in requested region: Aqaba Governorate"
+          ],
+          "facts": {
+            "category": "Hotel",
+            "subcategory": "",
+            "star_rating": null,
+            "room_types": [],
+            "amenities": [],
+            "view_types": [],
+            "best_for": [],
+            "average_price_per_night": 31,
+            "currency": "JOD",
+            "pricing_level": "Low",
+            "suitable_for": [
+              "Couples",
+              "Solo",
+              "Family"
+            ],
+            "check_in": "14:00",
+            "check_out": "11:30",
+            "notes": ""
+          }
+        }
+      ],
+      "events": [
+        {
+          "id": "event_000098",
+          "entity_type": "event",
+          "name": "Golden Triangle Festival",
+          "role": "",
+          "region": "Aqaba",
+          "city": "",
+          "district": "",
+          "address": "",
+          "latitude": 0.0,
+          "longitude": 0.0,
+          "why_retrieved": [
+            "in requested region: Aqaba"
+          ],
+          "facts": {
+            "category": "Festival",
+            "subcategory": "",
+            "themes": [],
+            "typical_months": [],
+            "typical_seasons": [],
+            "recurrence": "Annual",
+            "duration_minutes": null,
+            "ticket_cost": null,
+            "currency": [],
+            "pricing_level": null,
+            "indoor_outdoor": "",
+            "highlights": [],
+            "languages": [],
+            "minimum_age": null,
+            "suitable_for": [
+              "Families",
+              "Local Visitors",
+              "Tourists"
+            ]
+          }
+        },
+        {
+          "id": "event_000106",
+          "entity_type": "event",
+          "name": "Aesthetics of Aqaba and Aqabawi Heritage Seminar",
+          "role": "",
+          "region": "Aqaba",
+          "city": "",
+          "district": "",
+          "address": "",
+          "latitude": 0.0,
+          "longitude": 0.0,
+          "why_retrieved": [
+            "in requested region: Aqaba"
+          ],
+          "facts": {
+            "category": "Cultural Event",
+            "subcategory": "",
+            "themes": [],
+            "typical_months": [],
+            "typical_seasons": [],
+            "recurrence": null,
+            "duration_minutes": null,
+            "ticket_cost": null,
+            "currency": [],
+            "pricing_level": null,
+            "indoor_outdoor": "",
+            "highlights": [],
+            "languages": [],
+            "minimum_age": null,
+            "suitable_for": [
+              "Local Visitors",
+              "Tourists"
+            ]
+          }
+        },
+        {
+          "id": "event_000103",
+          "entity_type": "event",
+          "name": "Aqaba International Poetry Evening",
+          "role": "",
+          "region": "Aqaba",
+          "city": "",
+          "district": "",
+          "address": "",
+          "latitude": 0.0,
+          "longitude": 0.0,
+          "why_retrieved": [
+            "in requested region: Aqaba"
+          ],
+          "facts": {
+            "category": "Cultural Event",
+            "subcategory": "",
+            "themes": [],
+            "typical_months": [],
+            "typical_seasons": [],
+            "recurrence": null,
+            "duration_minutes": null,
+            "ticket_cost": null,
+            "currency": [],
+            "pricing_level": null,
+            "indoor_outdoor": "",
+            "highlights": [],
+            "languages": [],
+            "minimum_age": null,
+            "suitable_for": [
+              "Local Visitors",
+              "Tourists"
+            ]
+          }
+        }
+      ],
+      "summary": "Aqaba Governorate: 4 anchor + 1 discovery POIs; 8 restaurants; 4 hotels; 3 events."
+    },
+    {
+      "cluster_id": 1,
+      "theme": "Ma'an Governorate · nature, history",
+      "pois": [
+        {
+          "poi": {
+            "id": "poi_002032",
+            "entity_type": "poi",
+            "name": "Red Sand Dunes of Wadi Rum",
+            "role": "anchor",
+            "region": "Ma'an Governorate",
+            "city": "",
+            "district": "",
+            "address": "",
+            "latitude": 29.585278,
+            "longitude": 35.433611,
+            "why_retrieved": [
+              "matches nature interest"
+            ],
+            "facts": {
+              "category": "Nature",
+              "subcategory": "",
+              "themes": [],
+              "opening_hours": "",
+              "closing_hours": "",
+              "closed_days": [],
+              "average_visit_minutes": 45,
+              "booking_required": null,
+              "best_visit_time": [],
+              "activity_level": "",
+              "indoor_outdoor": "",
+              "entry_fee": 5.0,
+              "currency": "JOD",
+              "pricing_level": "Low",
+              "highlights": [],
+              "notes": "",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Children",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_007074",
+              "entity_type": "restaurant",
+              "name": "Captain's Desert Camp Restaurant Wadi Rum",
+              "role": "",
+              "region": "Ma'an Governorate",
+              "city": "",
+              "district": "",
+              "address": "",
+              "latitude": 29.6105,
+              "longitude": 35.4352,
+              "why_retrieved": [
+                "matches history interest",
+                "~2.8 km away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "",
+                "cuisine_types": [],
+                "meal_types": [],
+                "signature_dishes": [],
+                "service_style": "",
+                "atmosphere": "",
+                "best_visit_time": [],
+                "average_cost_per_person": 15.0,
+                "currency": "JOD",
+                "pricing_level": "Medium-High",
+                "dietary_options": [],
+                "occasion_suitability": [],
+                "suitable_for": [
+                  "Tourists",
+                  "Groups",
+                  "Couples",
+                  "Families"
+                ],
+                "opening_hours": "07:00",
+                "closing_hours": "22:00",
+                "notes": ""
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_002037",
+              "km": 1.7
+            },
+            {
+              "poi_id": "poi_002036",
+              "km": 1.7
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_002008",
+            "entity_type": "poi",
+            "name": "Wadi Rum Visitor Center",
+            "role": "anchor",
+            "region": "Ma'an Governorate",
+            "city": "",
+            "district": "",
+            "address": "",
+            "latitude": 29.6385,
+            "longitude": 35.434639,
+            "why_retrieved": [
+              "matches nature interest"
+            ],
+            "facts": {
+              "category": "Nature",
+              "subcategory": "",
+              "themes": [],
+              "opening_hours": "08:00",
+              "closing_hours": "17:00",
+              "closed_days": [],
+              "average_visit_minutes": 30,
+              "booking_required": false,
+              "best_visit_time": [],
+              "activity_level": "",
+              "indoor_outdoor": "",
+              "entry_fee": 5.0,
+              "currency": "JOD",
+              "pricing_level": "Low",
+              "highlights": [],
+              "notes": "",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Seniors",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_002046",
+              "entity_type": "restaurant",
+              "name": "Sun City Camp Dining Tent",
+              "role": "",
+              "region": "Ma'an Governorate",
+              "city": "",
+              "district": "",
+              "address": "",
+              "latitude": 29.6231,
+              "longitude": 35.4382,
+              "why_retrieved": [
+                "~1.7 km away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "",
+                "cuisine_types": [],
+                "meal_types": [],
+                "signature_dishes": [],
+                "service_style": "",
+                "atmosphere": "",
+                "best_visit_time": [],
+                "average_cost_per_person": 18.0,
+                "currency": "JOD",
+                "pricing_level": "High",
+                "dietary_options": [],
+                "occasion_suitability": [],
+                "suitable_for": [
+                  "Couples",
+                  "Family",
+                  "Groups"
+                ],
+                "opening_hours": "07:00",
+                "closing_hours": "22:00",
+                "notes": ""
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_002032",
+              "km": 5.9
+            },
+            {
+              "poi_id": "poi_002036",
+              "km": 7.0
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_002038",
+            "entity_type": "poi",
+            "name": "French Fortress Ruins (Wadi Rum)",
+            "role": "anchor",
+            "region": "Ma'an Governorate",
+            "city": "",
+            "district": "",
+            "address": "",
+            "latitude": 29.516111,
+            "longitude": 35.518611,
+            "why_retrieved": [],
+            "facts": {
+              "category": "Entertainment",
+              "subcategory": "",
+              "themes": [],
+              "opening_hours": "",
+              "closing_hours": "",
+              "closed_days": [],
+              "average_visit_minutes": 25,
+              "booking_required": null,
+              "best_visit_time": [],
+              "activity_level": "",
+              "indoor_outdoor": "",
+              "entry_fee": 5.0,
+              "currency": "JOD",
+              "pricing_level": "Low",
+              "highlights": [],
+              "notes": "",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_003014",
+              "entity_type": "restaurant",
+              "name": "Rum Magic Restaurant",
+              "role": "",
+              "region": "Aqaba Governorate",
+              "city": "",
+              "district": "",
+              "address": "",
+              "latitude": 29.57512,
+              "longitude": 35.41823,
+              "why_retrieved": [
+                "in requested region: Aqaba Governorate",
+                "~11.7 km away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "",
+                "cuisine_types": [],
+                "meal_types": [],
+                "signature_dishes": [],
+                "service_style": "",
+                "atmosphere": "",
+                "best_visit_time": [],
+                "average_cost_per_person": 15.0,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [],
+                "occasion_suitability": [],
+                "suitable_for": [
+                  "Family",
+                  "Couples",
+                  "Friends",
+                  "Groups",
+                  "Seniors"
+                ],
+                "opening_hours": "12:00",
+                "closing_hours": "22:00",
+                "notes": ""
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_002031",
+              "km": 8.2
+            },
+            {
+              "poi_id": "poi_002011",
+              "km": 9.8
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_002037",
+            "entity_type": "poi",
+            "name": "Desert Police Station & Fort (Wadi Rum)",
+            "role": "anchor",
+            "region": "Ma'an Governorate",
+            "city": "",
+            "district": "",
+            "address": "",
+            "latitude": 29.576389,
+            "longitude": 35.419444,
+            "why_retrieved": [],
+            "facts": {
+              "category": "Heritage",
+              "subcategory": "",
+              "themes": [],
+              "opening_hours": "00:00",
+              "closing_hours": "23:59",
+              "closed_days": [],
+              "average_visit_minutes": 15,
+              "booking_required": false,
+              "best_visit_time": [],
+              "activity_level": "",
+              "indoor_outdoor": "",
+              "entry_fee": 0.0,
+              "currency": "JOD",
+              "pricing_level": "Free",
+              "highlights": [],
+              "notes": "",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Seniors",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_002057",
+              "entity_type": "restaurant",
+              "name": "Rahayeb Desert Camp Restaurant",
+              "role": "",
+              "region": "Ma'an Governorate",
+              "city": "",
+              "district": "",
+              "address": "",
+              "latitude": 29.542,
+              "longitude": 35.431,
+              "why_retrieved": [
+                "~4.0 km away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "",
+                "cuisine_types": [],
+                "meal_types": [],
+                "signature_dishes": [],
+                "service_style": "",
+                "atmosphere": "",
+                "best_visit_time": [],
+                "average_cost_per_person": 11.0,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [],
+                "occasion_suitability": [],
+                "suitable_for": [
+                  "Groups",
+                  "Family",
+                  "Couples",
+                  "Solo"
+                ],
+                "opening_hours": "07:00",
+                "closing_hours": "21:30",
+                "notes": ""
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_002036",
+              "km": 0.1
+            },
+            {
+              "poi_id": "poi_002032",
+              "km": 1.7
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_002040",
+            "entity_type": "poi",
+            "name": "Maan Historic Souq",
+            "role": "discovery",
+            "region": "Ma'an Governorate",
+            "city": "",
+            "district": "",
+            "address": "",
+            "latitude": 30.193611,
+            "longitude": 35.733333,
+            "why_retrieved": [
+              "matches history interest"
+            ],
+            "facts": {
+              "category": "Shopping",
+              "subcategory": "",
+              "themes": [],
+              "opening_hours": "08:30",
+              "closing_hours": "20:00",
+              "closed_days": [
+                "Friday"
+              ],
+              "average_visit_minutes": 45,
+              "booking_required": false,
+              "best_visit_time": [],
+              "activity_level": "",
+              "indoor_outdoor": "",
+              "entry_fee": 0.0,
+              "currency": "JOD",
+              "pricing_level": "Free",
+              "highlights": [],
+              "notes": "",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Seniors",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_002034",
+              "entity_type": "restaurant",
+              "name": "Al-Pasha Sweets & Bakery Ma'an",
+              "role": "",
+              "region": "Ma'an Governorate",
+              "city": "",
+              "district": "",
+              "address": "",
+              "latitude": 30.1948,
+              "longitude": 35.7341,
+              "why_retrieved": [
+                "~151 m away"
+              ],
+              "facts": {
+                "category": "Bakery/Dessert",
+                "subcategory": "",
+                "cuisine_types": [],
+                "meal_types": [],
+                "signature_dishes": [],
+                "service_style": "",
+                "atmosphere": "",
+                "best_visit_time": [],
+                "average_cost_per_person": 2.0,
+                "currency": "JOD",
+                "pricing_level": "Low",
+                "dietary_options": [],
+                "occasion_suitability": [],
+                "suitable_for": [
+                  "Family",
+                  "Solo",
+                  "Friends",
+                  "Children"
+                ],
+                "opening_hours": "08:30",
+                "closing_hours": "23:00",
+                "notes": ""
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_002007",
+              "km": 33.4
+            },
+            {
+              "poi_id": "poi_002022",
+              "km": 33.8
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_002011",
+            "entity_type": "poi",
+            "name": "Um Frouth Rock Bridge",
+            "role": "discovery",
+            "region": "Ma'an Governorate",
+            "city": "",
+            "district": "",
+            "address": "",
+            "latitude": 29.462778,
+            "longitude": 35.437778,
+            "why_retrieved": [
+              "matches nature interest"
+            ],
+            "facts": {
+              "category": "Nature",
+              "subcategory": "",
+              "themes": [],
+              "opening_hours": "",
+              "closing_hours": "",
+              "closed_days": [],
+              "average_visit_minutes": 40,
+              "booking_required": null,
+              "best_visit_time": [],
+              "activity_level": "",
+              "indoor_outdoor": "",
+              "entry_fee": 5.0,
+              "currency": "JOD",
+              "pricing_level": "Low",
+              "highlights": [],
+              "notes": "",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_002042",
+              "entity_type": "restaurant",
+              "name": "Wadi Rum Rest House Restaurant",
+              "role": "",
+              "region": "Ma'an Governorate",
+              "city": "",
+              "district": "",
+              "address": "",
+              "latitude": 29.5772,
+              "longitude": 35.4194,
+              "why_retrieved": [
+                "~12.8 km away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "",
+                "cuisine_types": [],
+                "meal_types": [],
+                "signature_dishes": [],
+                "service_style": "",
+                "atmosphere": "",
+                "best_visit_time": [],
+                "average_cost_per_person": 7.0,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [],
+                "occasion_suitability": [],
+                "suitable_for": [
+                  "Groups",
+                  "Solo",
+                  "Family",
+                  "Friends"
+                ],
+                "opening_hours": "07:00",
+                "closing_hours": "21:00",
+                "notes": ""
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_002038",
+              "km": 9.8
+            },
+            {
+              "poi_id": "poi_002037",
+              "km": 12.8
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_002031",
+            "entity_type": "poi",
+            "name": "Barrah Canyon",
+            "role": "discovery",
+            "region": "Ma'an Governorate",
+            "city": "",
+            "district": "",
+            "address": "",
+            "latitude": 29.583333,
+            "longitude": 35.483333,
+            "why_retrieved": [
+              "matches nature interest"
+            ],
+            "facts": {
+              "category": "Nature",
+              "subcategory": "",
+              "themes": [],
+              "opening_hours": "",
+              "closing_hours": "",
+              "closed_days": [],
+              "average_visit_minutes": 150,
+              "booking_required": null,
+              "best_visit_time": [],
+              "activity_level": "",
+              "indoor_outdoor": "",
+              "entry_fee": 5.0,
+              "currency": "JOD",
+              "pricing_level": "Low",
+              "highlights": [],
+              "notes": "",
+              "suitable_for": [
+                "Couples",
+                "Solo",
+                "Friends",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_007075",
+              "entity_type": "restaurant",
+              "name": "Wadi Rum Visitor Center Rest House",
+              "role": "",
+              "region": "Ma'an Governorate",
+              "city": "",
+              "district": "",
+              "address": "",
+              "latitude": 29.5778,
+              "longitude": 35.419,
+              "why_retrieved": [
+                "~6.3 km away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "",
+                "cuisine_types": [],
+                "meal_types": [],
+                "signature_dishes": [],
+                "service_style": "",
+                "atmosphere": "",
+                "best_visit_time": [],
+                "average_cost_per_person": 7.0,
+                "currency": "JOD",
+                "pricing_level": "Low-Medium",
+                "dietary_options": [],
+                "occasion_suitability": [],
+                "suitable_for": [
+                  "Climbers",
+                  "Hikers",
+                  "Backpackers",
+                  "Tourists"
+                ],
+                "opening_hours": "07:30",
+                "closing_hours": "20:00",
+                "notes": ""
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_002032",
+              "km": 4.8
+            },
+            {
+              "poi_id": "poi_002037",
+              "km": 6.2
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_002036",
+            "entity_type": "poi",
+            "name": "Rum Village Bedouin Oasis",
+            "role": "discovery",
+            "region": "Ma'an Governorate",
+            "city": "",
+            "district": "",
+            "address": "",
+            "latitude": 29.577222,
+            "longitude": 35.418889,
+            "why_retrieved": [],
+            "facts": {
+              "category": "Other",
+              "subcategory": "",
+              "themes": [],
+              "opening_hours": "00:00",
+              "closing_hours": "23:59",
+              "closed_days": [],
+              "average_visit_minutes": 30,
+              "booking_required": false,
+              "best_visit_time": [],
+              "activity_level": "",
+              "indoor_outdoor": "",
+              "entry_fee": 5.0,
+              "currency": "JOD",
+              "pricing_level": "Low",
+              "highlights": [],
+              "notes": "",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Seniors",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_002037",
+              "km": 0.1
+            },
+            {
+              "poi_id": "poi_002032",
+              "km": 1.7
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_002022",
+            "entity_type": "poi",
+            "name": "Neolithic Village of Beidha",
+            "role": "discovery",
+            "region": "Ma'an Governorate",
+            "city": "",
+            "district": "",
+            "address": "",
+            "latitude": 30.377222,
+            "longitude": 35.452222,
+            "why_retrieved": [],
+            "facts": {
+              "category": "Heritage",
+              "subcategory": "",
+              "themes": [],
+              "opening_hours": "06:00",
+              "closing_hours": "18:00",
+              "closed_days": [],
+              "average_visit_minutes": 45,
+              "booking_required": false,
+              "best_visit_time": [],
+              "activity_level": "",
+              "indoor_outdoor": "",
+              "entry_fee": 0.0,
+              "currency": "JOD",
+              "pricing_level": "Free",
+              "highlights": [],
+              "notes": "",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_002053",
+              "entity_type": "restaurant",
+              "name": "Rock Camp Restaurant Little Petra",
+              "role": "",
+              "region": "Ma'an Governorate",
+              "city": "",
+              "district": "",
+              "address": "",
+              "latitude": 30.3751,
+              "longitude": 35.4518,
+              "why_retrieved": [
+                "~239 m away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "",
+                "cuisine_types": [],
+                "meal_types": [],
+                "signature_dishes": [],
+                "service_style": "",
+                "atmosphere": "",
+                "best_visit_time": [],
+                "average_cost_per_person": 11.0,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [],
+                "occasion_suitability": [],
+                "suitable_for": [
+                  "Groups",
+                  "Family",
+                  "Couples",
+                  "Solo"
+                ],
+                "opening_hours": "07:00",
+                "closing_hours": "22:00",
+                "notes": ""
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_002007",
+              "km": 0.5
+            },
+            {
+              "poi_id": "poi_002040",
+              "km": 33.8
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_002007",
+            "entity_type": "poi",
+            "name": "Little Petra (Siq al-Barid)",
+            "role": "discovery",
+            "region": "Ma'an Governorate",
+            "city": "",
+            "district": "",
+            "address": "",
+            "latitude": 30.375361,
+            "longitude": 35.456639,
+            "why_retrieved": [],
+            "facts": {
+              "category": "Heritage",
+              "subcategory": "",
+              "themes": [],
+              "opening_hours": "06:00",
+              "closing_hours": "18:00",
+              "closed_days": [],
+              "average_visit_minutes": 60,
+              "booking_required": false,
+              "best_visit_time": [],
+              "activity_level": "",
+              "indoor_outdoor": "",
+              "entry_fee": 0.0,
+              "currency": "JOD",
+              "pricing_level": "Free",
+              "highlights": [],
+              "notes": "",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Seniors",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_002022",
+              "km": 0.5
+            },
+            {
+              "poi_id": "poi_002040",
+              "km": 33.4
+            }
+          ]
+        }
+      ],
+      "hotels": [
+        {
+          "id": "hotel_000163",
+          "entity_type": "hotel",
+          "name": "Petra Moon Luxury Hotel",
+          "role": "",
+          "region": "Ma'an Governorate",
+          "city": "",
+          "district": "",
+          "address": "",
+          "latitude": 30.326832,
+          "longitude": 35.468998,
+          "why_retrieved": [
+            "matches luxury interest"
+          ],
+          "facts": {
+            "category": "Hotel",
+            "subcategory": "",
+            "star_rating": null,
+            "room_types": [],
+            "amenities": [],
+            "view_types": [],
+            "best_for": [],
+            "average_price_per_night": 85,
+            "currency": "JOD",
+            "pricing_level": "Medium",
+            "suitable_for": [
+              "Couples",
+              "Family",
+              "Honeymoon",
+              "Business",
+              "Children"
+            ],
+            "check_in": "15:00",
+            "check_out": "12:00",
+            "notes": ""
+          }
+        },
+        {
+          "id": "hotel_000184",
+          "entity_type": "hotel",
+          "name": "Cleopetra Hotel",
+          "role": "",
+          "region": "Ma'an Governorate",
+          "city": "",
+          "district": "",
+          "address": "",
+          "latitude": 30.318934,
+          "longitude": 35.481653,
+          "why_retrieved": [],
+          "facts": {
+            "category": "Hotel",
+            "subcategory": "",
+            "star_rating": null,
+            "room_types": [],
+            "amenities": [],
+            "view_types": [],
+            "best_for": [],
+            "average_price_per_night": 50,
+            "currency": "JOD",
+            "pricing_level": "Medium",
+            "suitable_for": [
+              "Solo",
+              "Couples",
+              "Friends",
+              "Students",
+              "Family"
+            ],
+            "check_in": "14:00",
+            "check_out": "12:00",
+            "notes": ""
+          }
+        },
+        {
+          "id": "hotel_000182",
+          "entity_type": "hotel",
+          "name": "Rocky Mountain Hotel",
+          "role": "",
+          "region": "Ma'an Governorate",
+          "city": "",
+          "district": "",
+          "address": "",
+          "latitude": 30.321395,
+          "longitude": 35.482995,
+          "why_retrieved": [],
+          "facts": {
+            "category": "Hotel",
+            "subcategory": "",
+            "star_rating": null,
+            "room_types": [],
+            "amenities": [],
+            "view_types": [],
+            "best_for": [],
+            "average_price_per_night": null,
+            "currency": "JOD",
+            "pricing_level": "Low",
+            "suitable_for": [
+              "Solo",
+              "Friends",
+              "Couples",
+              "Groups",
+              "Students"
+            ],
+            "check_in": "14:00",
+            "check_out": "12:00",
+            "notes": ""
+          }
+        },
+        {
+          "id": "hotel_000183",
+          "entity_type": "hotel",
+          "name": "Valentine Inn",
+          "role": "",
+          "region": "Ma'an Governorate",
+          "city": "",
+          "district": "",
+          "address": "",
+          "latitude": 30.322571,
+          "longitude": 35.480665,
+          "why_retrieved": [],
+          "facts": {
+            "category": "Hotel",
+            "subcategory": "",
+            "star_rating": null,
+            "room_types": [],
+            "amenities": [],
+            "view_types": [],
+            "best_for": [],
+            "average_price_per_night": 15,
+            "currency": "JOD",
+            "pricing_level": "Low",
+            "suitable_for": [
+              "Solo",
+              "Friends",
+              "Students",
+              "Groups",
+              "Couples"
+            ],
+            "check_in": "7:00",
+            "check_out": "11:00",
+            "notes": ""
+          }
+        }
+      ],
+      "events": [
+        {
+          "id": "event_000153",
+          "entity_type": "event",
+          "name": "Jordan Summer Festival - Ma'an",
+          "role": "",
+          "region": "Ma'an",
+          "city": "",
+          "district": "",
+          "address": "",
+          "latitude": 0.0,
+          "longitude": 0.0,
+          "why_retrieved": [],
+          "facts": {
+            "category": "Cultural Event",
+            "subcategory": "",
+            "themes": [],
+            "typical_months": [],
+            "typical_seasons": [],
+            "recurrence": "Annual",
+            "duration_minutes": null,
+            "ticket_cost": null,
+            "currency": [],
+            "pricing_level": null,
+            "indoor_outdoor": "",
+            "highlights": [],
+            "languages": [],
+            "minimum_age": null,
+            "suitable_for": [
+              "Families",
+              "Local Visitors",
+              "Tourists"
+            ]
+          }
+        },
+        {
+          "id": "event_000156",
+          "entity_type": "event",
+          "name": "Ma'an Cultural Days",
+          "role": "",
+          "region": "Ma'an",
+          "city": "",
+          "district": "",
+          "address": "",
+          "latitude": 0.0,
+          "longitude": 0.0,
+          "why_retrieved": [],
+          "facts": {
+            "category": "Cultural Event",
+            "subcategory": "",
+            "themes": [],
+            "typical_months": [],
+            "typical_seasons": [],
+            "recurrence": null,
+            "duration_minutes": null,
+            "ticket_cost": null,
+            "currency": [],
+            "pricing_level": null,
+            "indoor_outdoor": "",
+            "highlights": [],
+            "languages": [],
+            "minimum_age": null,
+            "suitable_for": [
+              "Local Visitors",
+              "Tourists"
+            ]
+          }
+        },
+        {
+          "id": "event_000159",
+          "entity_type": "event",
+          "name": "Petra Heritage Fashion and Local Products Exhibition",
+          "role": "",
+          "region": "Ma'an",
+          "city": "",
+          "district": "",
+          "address": "",
+          "latitude": 0.0,
+          "longitude": 0.0,
+          "why_retrieved": [],
+          "facts": {
+            "category": "Cultural Event",
+            "subcategory": "",
+            "themes": [],
+            "typical_months": [],
+            "typical_seasons": [],
+            "recurrence": null,
+            "duration_minutes": null,
+            "ticket_cost": null,
+            "currency": [],
+            "pricing_level": null,
+            "indoor_outdoor": "",
+            "highlights": [],
+            "languages": [],
+            "minimum_age": null,
+            "suitable_for": [
+              "Local Visitors",
+              "Tourists"
+            ]
+          }
+        }
+      ],
+      "summary": "Ma'an Governorate: 4 anchor + 6 discovery POIs; 8 restaurants; 4 hotels; 3 events."
+    },
+    {
+      "cluster_id": 2,
+      "theme": "Aqaba Governorate · nature",
+      "pois": [
+        {
+          "poi": {
+            "id": "poi_003011",
+            "entity_type": "poi",
+            "name": "Japanese Garden Dive Site",
+            "role": "anchor",
+            "region": "Aqaba Governorate",
+            "city": "",
+            "district": "",
+            "address": "",
+            "latitude": 29.4215,
+            "longitude": 34.9733,
+            "why_retrieved": [
+              "matches nature interest",
+              "in requested region: Aqaba Governorate"
+            ],
+            "facts": {
+              "category": "Nature",
+              "subcategory": "",
+              "themes": [],
+              "opening_hours": "06:00",
+              "closing_hours": "18:00",
+              "closed_days": [],
+              "average_visit_minutes": 90,
+              "booking_required": false,
+              "best_visit_time": [],
+              "activity_level": "",
+              "indoor_outdoor": "",
+              "entry_fee": 0,
+              "currency": "JOD",
+              "pricing_level": "Free",
+              "highlights": [],
+              "notes": "",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Children",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_007079",
+              "entity_type": "restaurant",
+              "name": "Royal Yacht Club Restaurant Aqaba",
+              "role": "",
+              "region": "Aqaba Governorate",
+              "city": "",
+              "district": "",
+              "address": "",
+              "latitude": 29.5248,
+              "longitude": 35.0002,
+              "why_retrieved": [
+                "in requested region: Aqaba Governorate",
+                "~11.8 km away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "",
+                "cuisine_types": [],
+                "meal_types": [],
+                "signature_dishes": [],
+                "service_style": "",
+                "atmosphere": "",
+                "best_visit_time": [],
+                "average_cost_per_person": 22.0,
+                "currency": "JOD",
+                "pricing_level": "High",
+                "dietary_options": [],
+                "occasion_suitability": [],
+                "suitable_for": [
+                  "Couples",
+                  "Business Travelers",
+                  "Fine Dining Enthusiasts",
+                  "Groups"
+                ],
+                "opening_hours": "12:00",
+                "closing_hours": "00:00",
+                "notes": ""
+              }
+            },
+            {
+              "id": "restaurant_003045",
+              "entity_type": "restaurant",
+              "name": "Suzana Restaurant & Cafe",
+              "role": "",
+              "region": "Aqaba Governorate",
+              "city": "",
+              "district": "",
+              "address": "",
+              "latitude": 29.40781,
+              "longitude": 34.9752,
+              "why_retrieved": [
+                "in requested region: Aqaba Governorate",
+                "~1.5 km away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "",
+                "cuisine_types": [],
+                "meal_types": [],
+                "signature_dishes": [],
+                "service_style": "",
+                "atmosphere": "",
+                "best_visit_time": [],
+                "average_cost_per_person": 18.0,
+                "currency": "JOD",
+                "pricing_level": "High",
+                "dietary_options": [],
+                "occasion_suitability": [],
+                "suitable_for": [
+                  "Family",
+                  "Couples",
+                  "Friends",
+                  "Honeymoon",
+                  "Seniors"
+                ],
+                "opening_hours": "12:00",
+                "closing_hours": "23:30",
+                "notes": ""
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_003012",
+              "km": 11.9
+            },
+            {
+              "poi_id": "poi_003015",
+              "km": 12.2
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_003006",
+            "entity_type": "poi",
+            "name": "Aqaba Bird Observatory",
+            "role": "anchor",
+            "region": "Aqaba Governorate",
+            "city": "",
+            "district": "",
+            "address": "",
+            "latitude": 29.552683,
+            "longitude": 34.977464,
+            "why_retrieved": [
+              "matches nature interest",
+              "in requested region: Aqaba Governorate"
+            ],
+            "facts": {
+              "category": "Nature",
+              "subcategory": "",
+              "themes": [],
+              "opening_hours": "08:00",
+              "closing_hours": "15:00",
+              "closed_days": [
+                "Friday"
+              ],
+              "average_visit_minutes": 75,
+              "booking_required": false,
+              "best_visit_time": [],
+              "activity_level": "",
+              "indoor_outdoor": "",
+              "entry_fee": 7,
+              "currency": "JOD",
+              "pricing_level": "Low",
+              "highlights": [],
+              "notes": "",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Seniors",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_003020",
+              "entity_type": "restaurant",
+              "name": "Pave Restaurant & Cafe",
+              "role": "",
+              "region": "Aqaba Governorate",
+              "city": "",
+              "district": "",
+              "address": "",
+              "latitude": 29.54812,
+              "longitude": 34.98634,
+              "why_retrieved": [
+                "in requested region: Aqaba Governorate",
+                "~997 m away"
+              ],
+              "facts": {
+                "category": "Cafe",
+                "subcategory": "",
+                "cuisine_types": [],
+                "meal_types": [],
+                "signature_dishes": [],
+                "service_style": "",
+                "atmosphere": "",
+                "best_visit_time": [],
+                "average_cost_per_person": 8.0,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [],
+                "occasion_suitability": [],
+                "suitable_for": [
+                  "Couples",
+                  "Solo",
+                  "Friends",
+                  "Business",
+                  "Students"
+                ],
+                "opening_hours": "08:00",
+                "closing_hours": "23:00",
+                "notes": ""
+              }
+            },
+            {
+              "id": "restaurant_003040",
+              "entity_type": "restaurant",
+              "name": "Ayla Golf Club Restaurant",
+              "role": "",
+              "region": "Aqaba Governorate",
+              "city": "",
+              "district": "",
+              "address": "",
+              "latitude": 29.55521,
+              "longitude": 34.98112,
+              "why_retrieved": [
+                "in requested region: Aqaba Governorate",
+                "~452 m away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "",
+                "cuisine_types": [],
+                "meal_types": [],
+                "signature_dishes": [],
+                "service_style": "",
+                "atmosphere": "",
+                "best_visit_time": [],
+                "average_cost_per_person": 22.0,
+                "currency": "JOD",
+                "pricing_level": "High",
+                "dietary_options": [],
+                "occasion_suitability": [],
+                "suitable_for": [
+                  "Business",
+                  "Couples",
+                  "Friends",
+                  "Seniors"
+                ],
+                "opening_hours": "07:00",
+                "closing_hours": "22:00",
+                "notes": ""
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_003020",
+              "km": 3.7
+            },
+            {
+              "poi_id": "poi_003015",
+              "km": 3.7
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_003012",
+            "entity_type": "poi",
+            "name": "Souq By The Sea",
+            "role": "anchor",
+            "region": "Aqaba Governorate",
+            "city": "",
+            "district": "",
+            "address": "",
+            "latitude": 29.5255,
+            "longitude": 35.0008,
+            "why_retrieved": [
+              "in requested region: Aqaba Governorate"
+            ],
+            "facts": {
+              "category": "Shopping",
+              "subcategory": "",
+              "themes": [],
+              "opening_hours": "18:00",
+              "closing_hours": "23:00",
+              "closed_days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Saturday",
+                "Sunday"
+              ],
+              "average_visit_minutes": 60,
+              "booking_required": false,
+              "best_visit_time": [],
+              "activity_level": "",
+              "indoor_outdoor": "",
+              "entry_fee": 0,
+              "currency": "JOD",
+              "pricing_level": "Free",
+              "highlights": [],
+              "notes": "",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Seniors",
+                "Children"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_003058",
+              "entity_type": "restaurant",
+              "name": "Deera Cafe & Restaurant",
+              "role": "",
+              "region": "Aqaba Governorate",
+              "city": "",
+              "district": "",
+              "address": "",
+              "latitude": 29.5261,
+              "longitude": 35.0008,
+              "why_retrieved": [
+                "in requested region: Aqaba Governorate",
+                "~67 m away"
+              ],
+              "facts": {
+                "category": "Cafe",
+                "subcategory": "",
+                "cuisine_types": [],
+                "meal_types": [],
+                "signature_dishes": [],
+                "service_style": "",
+                "atmosphere": "",
+                "best_visit_time": [],
+                "average_cost_per_person": 9.0,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [],
+                "occasion_suitability": [],
+                "suitable_for": [
+                  "Friends",
+                  "Couples",
+                  "Solo",
+                  "Students"
+                ],
+                "opening_hours": "12:00",
+                "closing_hours": "02:00",
+                "notes": ""
+              }
+            },
+            {
+              "id": "restaurant_003017",
+              "entity_type": "restaurant",
+              "name": "Al Kufa Cafe & Restaurant",
+              "role": "",
+              "region": "Aqaba Governorate",
+              "city": "",
+              "district": "",
+              "address": "",
+              "latitude": 29.52554,
+              "longitude": 35.00112,
+              "why_retrieved": [
+                "in requested region: Aqaba Governorate",
+                "~31 m away"
+              ],
+              "facts": {
+                "category": "Cafe",
+                "subcategory": "",
+                "cuisine_types": [],
+                "meal_types": [],
+                "signature_dishes": [],
+                "service_style": "",
+                "atmosphere": "",
+                "best_visit_time": [],
+                "average_cost_per_person": 6.0,
+                "currency": "JOD",
+                "pricing_level": "Low",
+                "dietary_options": [],
+                "occasion_suitability": [],
+                "suitable_for": [
+                  "Friends",
+                  "Couples",
+                  "Solo",
+                  "Students",
+                  "Family"
+                ],
+                "opening_hours": "08:00",
+                "closing_hours": "02:00",
+                "notes": ""
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_003015",
+              "km": 0.4
+            },
+            {
+              "poi_id": "poi_003020",
+              "km": 0.8
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_003020",
+            "entity_type": "poi",
+            "name": "Princess Salma Park",
+            "role": "anchor",
+            "region": "Aqaba Governorate",
+            "city": "",
+            "district": "",
+            "address": "",
+            "latitude": 29.530556,
+            "longitude": 35.006111,
+            "why_retrieved": [
+              "in requested region: Aqaba Governorate"
+            ],
+            "facts": {
+              "category": "Park",
+              "subcategory": "",
+              "themes": [],
+              "opening_hours": "08:00",
+              "closing_hours": "23:00",
+              "closed_days": [],
+              "average_visit_minutes": 45,
+              "booking_required": false,
+              "best_visit_time": [],
+              "activity_level": "",
+              "indoor_outdoor": "",
+              "entry_fee": 0,
+              "currency": "JOD",
+              "pricing_level": "Free",
+              "highlights": [],
+              "notes": "",
+              "suitable_for": [
+                "Family",
+                "Children",
+                "Seniors",
+                "Solo",
+                "Couples",
+                "Friends"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_003056",
+              "entity_type": "restaurant",
+              "name": "Papaya Restaurant & Cafe",
+              "role": "",
+              "region": "Aqaba Governorate",
+              "city": "",
+              "district": "",
+              "address": "",
+              "latitude": 29.5292,
+              "longitude": 35.0045,
+              "why_retrieved": [
+                "in requested region: Aqaba Governorate",
+                "~217 m away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "",
+                "cuisine_types": [],
+                "meal_types": [],
+                "signature_dishes": [],
+                "service_style": "",
+                "atmosphere": "",
+                "best_visit_time": [],
+                "average_cost_per_person": 12.0,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [],
+                "occasion_suitability": [],
+                "suitable_for": [
+                  "Friends",
+                  "Couples",
+                  "Family",
+                  "Solo"
+                ],
+                "opening_hours": "10:00",
+                "closing_hours": "01:00",
+                "notes": ""
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_003015",
+              "km": 0.3
+            },
+            {
+              "poi_id": "poi_003012",
+              "km": 0.8
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_003015",
+            "entity_type": "poi",
+            "name": "Aqaba Spice Souq",
+            "role": "discovery",
+            "region": "Aqaba Governorate",
+            "city": "",
+            "district": "",
+            "address": "",
+            "latitude": 29.528333,
+            "longitude": 35.003611,
+            "why_retrieved": [
+              "in requested region: Aqaba Governorate"
+            ],
+            "facts": {
+              "category": "Shopping",
+              "subcategory": "",
+              "themes": [],
+              "opening_hours": "09:00",
+              "closing_hours": "22:00",
+              "closed_days": [],
+              "average_visit_minutes": 45,
+              "booking_required": false,
+              "best_visit_time": [],
+              "activity_level": "",
+              "indoor_outdoor": "",
+              "entry_fee": 0,
+              "currency": "JOD",
+              "pricing_level": "Free",
+              "highlights": [],
+              "notes": "",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Seniors"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_003015",
+              "entity_type": "restaurant",
+              "name": "Syriano Shawarma",
+              "role": "",
+              "region": "Aqaba Governorate",
+              "city": "",
+              "district": "",
+              "address": "",
+              "latitude": 29.528711,
+              "longitude": 35.003882,
+              "why_retrieved": [
+                "in requested region: Aqaba Governorate",
+                "~50 m away"
+              ],
+              "facts": {
+                "category": "Fast Food",
+                "subcategory": "",
+                "cuisine_types": [],
+                "meal_types": [],
+                "signature_dishes": [],
+                "service_style": "",
+                "atmosphere": "",
+                "best_visit_time": [],
+                "average_cost_per_person": 4.0,
+                "currency": "JOD",
+                "pricing_level": "Low",
+                "dietary_options": [],
+                "occasion_suitability": [],
+                "suitable_for": [
+                  "Solo",
+                  "Friends",
+                  "Students",
+                  "Family"
+                ],
+                "opening_hours": "11:00",
+                "closing_hours": "02:30",
+                "notes": ""
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_003020",
+              "km": 0.3
+            },
+            {
+              "poi_id": "poi_003012",
+              "km": 0.4
+            }
+          ]
+        }
+      ],
+      "hotels": [
+        {
+          "id": "hotel_000096",
+          "entity_type": "hotel",
+          "name": "Al Manara, a Luxury Collection Hotel, Aqaba",
+          "role": "",
+          "region": "Aqaba Governorate",
+          "city": "",
+          "district": "",
+          "address": "",
+          "latitude": 29.534927,
+          "longitude": 34.994854,
+          "why_retrieved": [
+            "matches luxury interest",
+            "matches nature interest",
+            "in requested region: Aqaba Governorate"
+          ],
+          "facts": {
+            "category": "Hotel",
+            "subcategory": "",
+            "star_rating": null,
+            "room_types": [],
+            "amenities": [],
+            "view_types": [],
+            "best_for": [],
+            "average_price_per_night": 215,
+            "currency": "JOD",
+            "pricing_level": "High",
+            "suitable_for": [
+              "Couples",
+              "Honeymoon",
+              "Family",
+              "Business"
+            ],
+            "check_in": "15:00",
+            "check_out": "12:00",
+            "notes": ""
+          }
+        },
+        {
+          "id": "hotel_000098",
+          "entity_type": "hotel",
+          "name": "Kempinski Hotel Aqaba",
+          "role": "",
+          "region": "Aqaba Governorate",
+          "city": "",
+          "district": "",
+          "address": "",
+          "latitude": 29.53205,
+          "longitude": 34.997273,
+          "why_retrieved": [
+            "in requested region: Aqaba Governorate"
+          ],
+          "facts": {
+            "category": "Hotel",
+            "subcategory": "",
+            "star_rating": null,
+            "room_types": [],
+            "amenities": [],
+            "view_types": [],
+            "best_for": [],
+            "average_price_per_night": 200,
+            "currency": "JOD",
+            "pricing_level": "High",
+            "suitable_for": [
+              "Family",
+              "Couples",
+              "Business",
+              "Children"
+            ],
+            "check_in": "15:00",
+            "check_out": "12:00",
+            "notes": ""
+          }
+        },
+        {
+          "id": "hotel_000149",
+          "entity_type": "hotel",
+          "name": "Cedar Hotel",
+          "role": "",
+          "region": "Aqaba Governorate",
+          "city": "",
+          "district": "",
+          "address": "",
+          "latitude": 29.530559,
+          "longitude": 35.00582,
+          "why_retrieved": [
+            "in requested region: Aqaba Governorate"
+          ],
+          "facts": {
+            "category": "Hotel",
+            "subcategory": "",
+            "star_rating": null,
+            "room_types": [],
+            "amenities": [],
+            "view_types": [],
+            "best_for": [],
+            "average_price_per_night": 34,
+            "currency": "JOD",
+            "pricing_level": "Low",
+            "suitable_for": [
+              "Couples",
+              "Solo",
+              "Family",
+              "Friends"
+            ],
+            "check_in": "14:00",
+            "check_out": "12:00",
+            "notes": ""
+          }
+        },
+        {
+          "id": "hotel_000152",
+          "entity_type": "hotel",
+          "name": "Sea View Hotel",
+          "role": "",
+          "region": "Aqaba Governorate",
+          "city": "",
+          "district": "",
+          "address": "",
+          "latitude": 29.524942,
+          "longitude": 35.002408,
+          "why_retrieved": [
+            "in requested region: Aqaba Governorate"
+          ],
+          "facts": {
+            "category": "Hotel",
+            "subcategory": "",
+            "star_rating": null,
+            "room_types": [],
+            "amenities": [],
+            "view_types": [],
+            "best_for": [],
+            "average_price_per_night": 31,
+            "currency": "JOD",
+            "pricing_level": "Low",
+            "suitable_for": [
+              "Couples",
+              "Solo",
+              "Family"
+            ],
+            "check_in": "14:00",
+            "check_out": "11:30",
+            "notes": ""
+          }
+        }
+      ],
+      "events": [
+        {
+          "id": "event_000098",
+          "entity_type": "event",
+          "name": "Golden Triangle Festival",
+          "role": "",
+          "region": "Aqaba",
+          "city": "",
+          "district": "",
+          "address": "",
+          "latitude": 0.0,
+          "longitude": 0.0,
+          "why_retrieved": [
+            "in requested region: Aqaba"
+          ],
+          "facts": {
+            "category": "Festival",
+            "subcategory": "",
+            "themes": [],
+            "typical_months": [],
+            "typical_seasons": [],
+            "recurrence": "Annual",
+            "duration_minutes": null,
+            "ticket_cost": null,
+            "currency": [],
+            "pricing_level": null,
+            "indoor_outdoor": "",
+            "highlights": [],
+            "languages": [],
+            "minimum_age": null,
+            "suitable_for": [
+              "Families",
+              "Local Visitors",
+              "Tourists"
+            ]
+          }
+        },
+        {
+          "id": "event_000106",
+          "entity_type": "event",
+          "name": "Aesthetics of Aqaba and Aqabawi Heritage Seminar",
+          "role": "",
+          "region": "Aqaba",
+          "city": "",
+          "district": "",
+          "address": "",
+          "latitude": 0.0,
+          "longitude": 0.0,
+          "why_retrieved": [
+            "in requested region: Aqaba"
+          ],
+          "facts": {
+            "category": "Cultural Event",
+            "subcategory": "",
+            "themes": [],
+            "typical_months": [],
+            "typical_seasons": [],
+            "recurrence": null,
+            "duration_minutes": null,
+            "ticket_cost": null,
+            "currency": [],
+            "pricing_level": null,
+            "indoor_outdoor": "",
+            "highlights": [],
+            "languages": [],
+            "minimum_age": null,
+            "suitable_for": [
+              "Local Visitors",
+              "Tourists"
+            ]
+          }
+        },
+        {
+          "id": "event_000103",
+          "entity_type": "event",
+          "name": "Aqaba International Poetry Evening",
+          "role": "",
+          "region": "Aqaba",
+          "city": "",
+          "district": "",
+          "address": "",
+          "latitude": 0.0,
+          "longitude": 0.0,
+          "why_retrieved": [
+            "in requested region: Aqaba"
+          ],
+          "facts": {
+            "category": "Cultural Event",
+            "subcategory": "",
+            "themes": [],
+            "typical_months": [],
+            "typical_seasons": [],
+            "recurrence": null,
+            "duration_minutes": null,
+            "ticket_cost": null,
+            "currency": [],
+            "pricing_level": null,
+            "indoor_outdoor": "",
+            "highlights": [],
+            "languages": [],
+            "minimum_age": null,
+            "suitable_for": [
+              "Local Visitors",
+              "Tourists"
+            ]
+          }
+        }
+      ],
+      "summary": "Aqaba Governorate: 4 anchor + 1 discovery POIs; 8 restaurants; 4 hotels; 3 events."
+    }
+  ],
+  "meta": {
+    "unsupported": [],
+    "places_to_avoid": "",
+    "deferred": {
+      "preferredLanguage": "English",
+      "smePreferences": []
+    },
+    "rag_status": "ok",
+    "source": "retriever",
+    "compacted": false,
+    "planning_lock": "PLANNING LOCK (hard — plan OVER clusters, then write JSON):\n- Fill ALL 3 days (nights≈2). No empty/partial days.\n- Mandatory destinations (preferredRegions + mustVisit): Wadi Rum, Aqaba\n- Destination→cluster map: Wadi Rum→cluster 1 (Ma'an Governorate · nature, history); Aqaba→cluster 0 (Aqaba Governorate · nature, history)\n- Day→cluster route: D1:C1/Wadi Rum → D2:C1/Wadi Rum → D3:C0/Aqaba\n- mustVisit entity lock: Wadi Rum→Red Sand Dunes of Wadi Rum (cluster 1)\n- Each day uses entities primarily from its mapped cluster (meals/hotels from that cluster).\n- Do not invent a parallel trip from random clusters; unused clusters are alternatives only.\n- Lodging: rating=4 star, type=hotel. Reuse base hotel(s) across consecutive nights: Al Manara, a Luxury Collection Hotel, Aqaba, Petra Moon Luxury Hotel. One hotel per overnight base — do not rotate hotels daily in the same area.\n- Selection bias: aiPriority=budget; SME=(none). Prefer matching why_retrieved/facts among retrieved options.\n- Budget target ≈ 900.0 JOD when facts allow.\n- Names/prices/hours: EntityCards only. If not in evidence, skip — never invent."
+  }
+}

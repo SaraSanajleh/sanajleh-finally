@@ -1,0 +1,440 @@
+{
+  "metadata": {
+    "model": "gpt-oss:20b-cloud",
+    "provider": "ollama",
+    "mode": "build",
+    "latencyMs": 23437.51,
+    "retries": 0,
+    "caseId": null,
+    "rag": {
+      "status": "ok",
+      "source": "retriever",
+      "duration_days": 3,
+      "cluster_count": 3,
+      "clusters": [
+        {
+          "cluster_id": 0,
+          "theme": "Jerash Governorate · culture, history, nature",
+          "poi_count": 4,
+          "hotel_count": 4,
+          "event_count": 3,
+          "poi_names": [
+            "Jerash Heritage Souk",
+            "Hippodrome of Jerash",
+            "Suf Village Heritage Center",
+            "Al-Kittah Village and Springs"
+          ],
+          "hotel_names": [
+            "The Olive Branch Hotel",
+            "Celestia Boutique Inn",
+            "Jerash Hotel",
+            "Dream House Hotel Apartments"
+          ],
+          "sample_restaurants": [
+            "Jerash Oasis Grill",
+            "Jerash Gate Restaurant",
+            "Roman Bridge Restaurant",
+            "Al-Khaimeh Restaurant",
+            "Jerash Canyon Restaurant",
+            "Jerash Pine Forest Restaurant"
+          ],
+          "event_names": [
+            "National Celebrations Programme - Jerash",
+            "Jerash Festival for Culture and Arts",
+            "Jordan Summer Festival - Jerash"
+          ]
+        },
+        {
+          "cluster_id": 1,
+          "theme": "Jerash Governorate · nature",
+          "poi_count": 4,
+          "hotel_count": 4,
+          "event_count": 3,
+          "poi_names": [
+            "Al-Mustaba Eco-Park",
+            "Al-Karakhouf Waterfall",
+            "Dibbeen Forest Reserve",
+            "Propylaea of Jerash"
+          ],
+          "hotel_names": [
+            "The Olive Branch Hotel",
+            "Celestia Boutique Inn",
+            "Jerash Hotel",
+            "Dream House Hotel Apartments"
+          ],
+          "sample_restaurants": [
+            "Jerash Olive Grove Grill",
+            "Al Ghabah Restaurant",
+            "Anjara Olive Heritage Cafe",
+            "Anjara Heritage Kitchen",
+            "The Lebanese House Jerash",
+            "Al-Roummanah Restaurant"
+          ],
+          "event_names": [
+            "National Celebrations Programme - Jerash",
+            "Jerash Festival for Culture and Arts",
+            "Jordan Summer Festival - Jerash"
+          ]
+        },
+        {
+          "cluster_id": 2,
+          "theme": "Ajloun Governorate · nature, history, culture",
+          "poi_count": 8,
+          "hotel_count": 4,
+          "event_count": 3,
+          "poi_names": [
+            "Wadi Rayyan",
+            "Ajloun Great Mosque",
+            "Orjan Soap House Trailhead",
+            "Ajloun Forest Reserve",
+            "Mar Elias Trailhead",
+            "Wadi Shamali Viewpoint",
+            "Al-Karakah Nature Trail",
+            "Rasoon Village Heritage Area"
+          ],
+          "hotel_names": [
+            "Al-Jabal Castle Hotel - Ajloun",
+            "Ajloun Hotel",
+            "Al Ghazal Villas",
+            "Ajloun Forest Reserve"
+          ],
+          "sample_restaurants": [
+            "Rasoun Heritage House Restaurant",
+            "Ajloun Castle Restaurant",
+            "Ajloun Forest Reserve Restaurant",
+            "Ajloun Reserve Restaurant",
+            "Orjan Village Farm Breakfast & House",
+            "Al Rayyan Valley Cafe & Restaurant"
+          ],
+          "event_names": [
+            "National Celebrations Programme - Ajloun",
+            "Ajloun Ramadan Family and Children Carnival",
+            "Jordan Summer Festival - Ajloun"
+          ]
+        }
+      ]
+    }
+  },
+  "package": {
+    "welcome_message": "Welcome to your personalized Jordan adventure!",
+    "why_you_will_love_this": {
+      "highlights": [
+        "Hippodrome of Jerash",
+        "Jerash Heritage Souk",
+        "Propylaea of Jerash"
+      ],
+      "special_touches": [
+        "Family-friendly dining at Jerash Oasis Grill",
+        "Historic Roman Bridge Restaurant for dinner"
+      ]
+    },
+    "trip_title": "Jerash & Ajloun Family Journey",
+    "trip_description": {
+      "overview": "Three days exploring Jerash's ancient heritage and Ajloun's natural beauty, with family-friendly meals and comfortable 3-star lodging.",
+      "included": [
+        "Jerash Heritage Souk lunch",
+        "Jerash Oasis Grill lunch",
+        "Roman Bridge Restaurant dinner",
+        "Jerash Heritage Souk entry",
+        "Hippodrome entry",
+        "Propylaea entry",
+        "The Olive Branch Hotel nights"
+      ],
+      "not_included": [
+        "Transport",
+        "Guided tours",
+        "Travel insurance"
+      ]
+    },
+    "trip_details": {
+      "duration": {
+        "days": "3",
+        "nights": "2"
+      },
+      "trip_type": [
+        "couple",
+        "history",
+        "culture",
+        "nature"
+      ],
+      "number_of_travelers": "2",
+      "budget": {
+        "amount": "900",
+        "currency": "JOD"
+      }
+    },
+    "daily_itinerary": [
+      {
+        "day_number": "1",
+        "day_title": "Jerash Ancient Wonders",
+        "day_summary": "Explore Jerash's Roman ruins and enjoy local Jordanian cuisine, staying at The Olive Branch Hotel.",
+        "activities": [
+          {
+            "start_time": "09:00",
+            "end_time": "09:30",
+            "activity_title": "Hippodrome of Jerash",
+            "description": "Visit the ancient arena and its reconstructed gates.",
+            "location": "Jerash",
+            "estimated_cost": "20 JOD",
+            "smart_tip": "Entry 10 JOD per person x 2 travellers"
+          },
+          {
+            "start_time": "10:00",
+            "end_time": "11:00",
+            "activity_title": "Jerash Heritage Souk",
+            "description": "Stroll through the traditional market and taste local crafts.",
+            "location": "Jerash",
+            "estimated_cost": "Free",
+            "smart_tip": "Free entry"
+          },
+          {
+            "start_time": "12:00",
+            "end_time": "13:00",
+            "activity_title": "Jerash Oasis Grill lunch",
+            "description": "Enjoy Levantine dishes in a scenic setting.",
+            "location": "Jerash",
+            "estimated_cost": "28 JOD",
+            "smart_tip": "14 JOD per person x 2 travellers"
+          },
+          {
+            "start_time": "13:30",
+            "end_time": "14:00",
+            "activity_title": "Propylaea of Jerash",
+            "description": "See the iconic gateway to the ancient city.",
+            "location": "Jerash",
+            "estimated_cost": "Included in the same-site ticket",
+            "smart_tip": "Inside the same site as Hippodrome of Jerash, on the ticket already paid"
+          },
+          {
+            "start_time": "14:30",
+            "end_time": "15:45",
+            "activity_title": "Suf Village Heritage Center",
+            "description": "Visit to this culture.",
+            "location": "Jerash",
+            "estimated_cost": "Not Available",
+            "smart_tip": "No entry fee is recorded for this stop"
+          },
+          {
+            "start_time": "16:15",
+            "end_time": "17:15",
+            "activity_title": "Al-Kittah Village and Springs",
+            "description": "Visit to this nature.",
+            "location": "Jerash",
+            "estimated_cost": "Not Available",
+            "smart_tip": "No entry fee is recorded for this stop"
+          },
+          {
+            "start_time": "18:30",
+            "end_time": "20:00",
+            "activity_title": "Roman Bridge Restaurant dinner",
+            "description": "Dine by the historic Roman bridge with local specialties.",
+            "location": "Jerash",
+            "estimated_cost": "28 JOD",
+            "smart_tip": "14 JOD per person x 2 travellers"
+          }
+        ],
+        "activity_alternatives": [
+          {
+            "original_activity": "Propylaea of Jerash",
+            "alternative_activity": "Roman Bridge Restaurant (sight)",
+            "reason": "If closed, visit the Roman Bridge as a historic site"
+          }
+        ]
+      },
+      {
+        "day_number": "2",
+        "day_title": "Jerash Cultural Depth",
+        "day_summary": "Continue exploring Jerash's heritage and enjoy a different local meal, staying again at The Olive Branch Hotel.",
+        "activities": [
+          {
+            "start_time": "09:00",
+            "end_time": "09:30",
+            "activity_title": "Hippodrome of Jerash",
+            "description": "Revisit the arena for a deeper look.",
+            "location": "Jerash",
+            "estimated_cost": "Included in the same-site ticket",
+            "smart_tip": "Inside the same site as Hippodrome of Jerash, on the ticket already paid"
+          },
+          {
+            "start_time": "10:00",
+            "end_time": "11:00",
+            "activity_title": "Jerash Heritage Souk",
+            "description": "Explore more stalls and local crafts.",
+            "location": "Jerash",
+            "estimated_cost": "Free",
+            "smart_tip": "Free entry"
+          },
+          {
+            "start_time": "12:00",
+            "end_time": "13:00",
+            "activity_title": "Jerash Gate Restaurant lunch",
+            "description": "Sample Jordanian buffet in a historic setting.",
+            "location": "Jerash",
+            "estimated_cost": "28 JOD",
+            "smart_tip": "14 JOD per person x 2 travellers"
+          },
+          {
+            "start_time": "13:30",
+            "end_time": "14:00",
+            "activity_title": "Propylaea of Jerash",
+            "description": "Short revisit of the gateway.",
+            "location": "Jerash",
+            "estimated_cost": "Included in the same-site ticket",
+            "smart_tip": "Inside the same site as Hippodrome of Jerash, on the ticket already paid"
+          },
+          {
+            "start_time": "14:30",
+            "end_time": "17:00",
+            "activity_title": "Dibbeen Forest Reserve",
+            "description": "Visit to this nature.",
+            "location": "Jerash",
+            "estimated_cost": "6 JOD",
+            "smart_tip": "3 JOD per person x 2 travellers"
+          },
+          {
+            "start_time": "18:30",
+            "end_time": "20:00",
+            "activity_title": "Jerash Oasis Grill dinner",
+            "description": "Enjoy a relaxed dinner with local flavors.",
+            "location": "Jerash",
+            "estimated_cost": "28 JOD",
+            "smart_tip": "14 JOD per person x 2 travellers"
+          }
+        ],
+        "activity_alternatives": []
+      },
+      {
+        "day_number": "3",
+        "day_title": "Ajloun Nature & Culture",
+        "day_summary": "Discover Ajloun's natural reserves and historic sites, staying at Al-Jabal Castle Hotel.",
+        "activities": [
+          {
+            "start_time": "09:00",
+            "end_time": "10:30",
+            "activity_title": "Wadi Rayyan",
+            "description": "Hike the scenic valley with historic watermills.",
+            "location": "Ajloun",
+            "estimated_cost": "Free",
+            "smart_tip": "Free entry"
+          },
+          {
+            "start_time": "11:00",
+            "end_time": "12:30",
+            "activity_title": "Ajloun Forest Reserve",
+            "description": "Explore pine forests and wildlife trails.",
+            "location": "Ajloun",
+            "estimated_cost": "10 JOD",
+            "smart_tip": "Entry 5 JOD per person x 2 travellers"
+          },
+          {
+            "start_time": "12:00",
+            "end_time": "13:00",
+            "activity_title": "Lunch at Rasoun Heritage House Restaurant",
+            "description": "Taste traditional Jordanian dishes in a village setting.",
+            "location": "Ajloun",
+            "estimated_cost": "24 JOD",
+            "smart_tip": "12 JOD per person x 2 travellers"
+          },
+          {
+            "start_time": "13:30",
+            "end_time": "14:00",
+            "activity_title": "Ajloun Great Mosque",
+            "description": "Visit the historic Ayyubid mosque.",
+            "location": "Ajloun",
+            "estimated_cost": "Free",
+            "smart_tip": "Free entry"
+          },
+          {
+            "start_time": "14:30",
+            "end_time": "15:30",
+            "activity_title": "Rasoon Village Heritage Area",
+            "description": "Visit to this heritage.",
+            "location": "Rasoon",
+            "estimated_cost": "Not Available",
+            "smart_tip": "No entry fee is recorded for this stop"
+          },
+          {
+            "start_time": "16:00",
+            "end_time": "16:45",
+            "activity_title": "Al-Karakah Nature Trail",
+            "description": "Visit to this adventure.",
+            "location": "Ajloun",
+            "estimated_cost": "Not Available",
+            "smart_tip": "No entry fee is recorded for this stop"
+          },
+          {
+            "start_time": "17:15",
+            "end_time": "17:45",
+            "activity_title": "Wadi Shamali Viewpoint",
+            "description": "Visit to this viewpoint.",
+            "location": "Baoun",
+            "estimated_cost": "Not Available",
+            "smart_tip": "No entry fee is recorded for this stop"
+          },
+          {
+            "start_time": "18:30",
+            "end_time": "20:00",
+            "activity_title": "Ajloun Castle Restaurant dinner",
+            "description": "Dine with panoramic views of Ajloun Castle.",
+            "location": "Ajloun",
+            "estimated_cost": "22 JOD",
+            "smart_tip": "11 JOD per person x 2 travellers"
+          }
+        ],
+        "activity_alternatives": []
+      }
+    ],
+    "budget_summary": {
+      "items": [
+        {
+          "category": "Accommodation",
+          "estimated_cost": "90 JOD",
+          "notes": "2 night(s) requested as a 3 star hotel — as priced in the plan"
+        },
+        {
+          "category": "Meals",
+          "estimated_cost": "158 JOD",
+          "notes": "Sum of the meals scheduled in the itinerary"
+        },
+        {
+          "category": "Activities & Entry Fees",
+          "estimated_cost": "36 JOD",
+          "notes": "Sum of the entry fees scheduled in the itinerary"
+        },
+        {
+          "category": "Unallocated Budget (before accommodation and transport)",
+          "estimated_cost": "616 JOD",
+          "notes": "What is left of the 900 JOD ceiling once the lines above are counted. Transport between areas is not priced in this plan"
+        }
+      ],
+      "total_estimated_cost": "284 JOD"
+    },
+    "essential_travel_tips": [
+      {
+        "category": "Dining",
+        "tips": [
+          "Choose lunch at Jerash Oasis Grill for fresh local flavors",
+          "Opt for dinner at Roman Bridge Restaurant for a historic ambiance"
+        ]
+      },
+      {
+        "category": "Pacing",
+        "tips": [
+          "Allow at least 30 minutes between sites for rest",
+          "Plan early lunch to avoid peak crowds"
+        ]
+      },
+      {
+        "category": "Accessibility",
+        "tips": [
+          "All selected sites are suitable for couples with moderate activity level",
+          "No special accessibility features required"
+        ]
+      }
+    ],
+    "explanations": {
+      "trip_planning_reason": "The itinerary follows the traveler's must-visit Jerash and Ajloun regions, using anchor POIs and family-friendly restaurants while staying within a 3-day, balanced pace. Nights are booked at The Olive Branch Hotel to meet the 3-star rating requirement.",
+      "selection_reason": "POIs and restaurants were chosen for their cultural, historical, and natural appeal, family suitability, and local authenticity, ensuring each day offers three sights and two meals without repetition."
+    }
+  }
+}

@@ -1,0 +1,692 @@
+[
+  {
+    "sme_id": "SME-000001",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Ahmad Al-Omari",
+      "description": "Licensed freelance tourist guide specializing in the Roman and Nabatean archaeological sites and heritage of the Mafraq governorate, including Umm al-Jimal.",
+      "experience_years": 9,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Archaeology", "Culture"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962791234567",
+      "mobile": "+962791234567",
+      "email": "ahmad.omari.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962791234567"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Mafraq",
+      "region": "Mafraq Governorate",
+      "address": "Main Street, Mafraq, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Umm al-Jimal", "Mafraq City", "Rehab", "Al-Fudain"],
+      "preferred_destinations": "Umm al-Jimal Archaeological Site"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "German"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Custom Itineraries", "Private Tours", "Group Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Local Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "per_day",
+      "min_price": 60,
+      "max_price": 100,
+      "notes": "Rates vary based on group size and tour duration."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 14,
+      "source": "Direct Independent Tours",
+      "last_updated": "2026-03-01"
+    }
+  },
+  {
+    "sme_id": "SME-000002",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Fatima Al-Shorofat",
+      "description": "Independent local community guide passionate about the rural heritage, traditional food, and historical landmarks of the northern Badia and Mafraq region.",
+      "experience_years": 5,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Culture", "Local Experiences", "History"],
+      "target_customer_types": ["Families", "Solo Travelers", "Couples"]
+    },
+    "contact": {
+      "phone": "+962782345678",
+      "mobile": "+962782345678",
+      "email": "fatima.badia.guide@yahoo.com",
+      "website": null,
+      "whatsapp": "+962782345678"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Mafraq",
+      "region": "Mafraq Governorate",
+      "address": "Badia Road, Mafraq, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Mafraq", "Badia villages", "Sub-districts of Mafraq"],
+      "preferred_destinations": "Local heritage sites and villages"
+    },
+    "languages": {
+      "spoken": ["Arabic", "French"],
+      "preferred_language": "French"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
+      "working_hours": "09:00 - 16:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "per_day",
+      "min_price": 50,
+      "max_price": 80,
+      "notes": "Custom rates for individual travelers."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Local Experiences", "Community Tourism", "History & Culture"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 9,
+      "source": "Local Tourism Initiative",
+      "last_updated": "2026-02-15"
+    }
+  },
+  {
+    "sme_id": "SME-000003",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Yousef Al-Hazimeh",
+      "description": "Professional tourist guide with extensive knowledge of the Byzantine churches, mosaics, and archaeological remnants scattered across Mafraq and its outskirts.",
+      "experience_years": 12,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Archaeology", "Religious Sites"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962773456789",
+      "mobile": "+962773456789",
+      "email": "yousef.hazimeh.guide@outlook.com",
+      "website": null,
+      "whatsapp": "+962773456789"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Mafraq",
+      "region": "Mafraq Governorate",
+      "address": "University Street, Mafraq, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Umm al-Jimal", "Rehab", "Mafraq", "Al-Mafraq surroundings"],
+      "preferred_destinations": "Rehab Byzantine Churches"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Italian"],
+      "preferred_language": "Italian"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Tour Planning & Itinerary Design", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Professional Guides", "Licensed Tourist Guides"]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "08:30 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 30,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "per_day",
+      "min_price": 75,
+      "max_price": 120,
+      "notes": "Includes guiding and coordination."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Religious Tourism", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 4.7,
+      "review_count": 22,
+      "source": "Independent Guide Registry",
+      "last_updated": "2026-01-20"
+    }
+  },
+  {
+    "sme_id": "SME-000004",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Mariam Al-Khaldi",
+      "description": "Freelance local guide focusing on nature walks, desert landscapes, and flora/fauna exploration in the eastern Badia regions of Mafraq.",
+      "experience_years": 4,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Nature", "Desert", "Hiking"],
+      "target_customer_types": ["Solo Travelers", "Families", "Couples"]
+    },
+    "contact": {
+      "phone": "+962794567890",
+      "mobile": "+962794567890",
+      "email": "mariam.khaldi.nature@gmail.com",
+      "website": null,
+      "whatsapp": "+962794567890"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Mafraq",
+      "region": "Mafraq Governorate",
+      "address": "Eastern Badia Highway, Mafraq, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Eastern Badia", "Mafraq Desert Outskirts", "Burqu Nature Reserve area"],
+      "preferred_destinations": "Badia Desert Trails"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Spanish"],
+      "preferred_language": "Spanish"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Adventure Activities", "Custom Itineraries", "Local Experiences"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "07:00 - 15:00"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 12,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "per_day",
+      "min_price": 55,
+      "max_price": 90,
+      "notes": "Special rates for small hiking groups."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Nature", "Soft Adventure", "Desert Experiences", "Hiking & Trekking"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 11,
+      "source": "Eco-Tourism Network",
+      "last_updated": "2026-02-10"
+    }
+  },
+  {
+    "sme_id": "SME-000005",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Khaled Al-Naimat",
+      "description": "Independent heritage guide providing deep historical insights into the Roman fortresses, milestones, and desert castles within Mafraq governorate.",
+      "experience_years": 8,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Archaeology", "Photography"],
+      "target_customer_types": ["Couples", "Solo Travelers", "Families"]
+    },
+    "contact": {
+      "phone": "+962785678901",
+      "mobile": "+962785678901",
+      "email": "khaled.naimat.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962785678901"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Mafraq",
+      "region": "Mafraq Governorate",
+      "address": "Qasabat Mafraq, Mafraq, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Mafraq", "Umm al-Jimal", "Qasr al-Hallabat area", "Desert Castles periphery"],
+      "preferred_destinations": "Qasr al-Hallabat and surrounding ruins"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "German"],
+      "preferred_language": "German"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Private Tours", "Special Interest Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Professional Guides", "Licensed Tourist Guides"]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 20,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "per_day",
+      "min_price": 70,
+      "max_price": 110,
+      "notes": "Transport inclusion negotiable."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 4.6,
+      "review_count": 18,
+      "source": "Independent Heritage Platform",
+      "last_updated": "2026-03-05"
+    }
+  },
+  {
+    "sme_id": "SME-000006",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Nour Al-Suroor",
+      "description": "Freelance cultural and community guide focusing on traditional Bedouin lifestyles, handicrafts, and local gastronomy across Mafraq governorate.",
+      "experience_years": 6,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Food", "Culture", "Local Experiences"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962776789012",
+      "mobile": "+962776789012",
+      "email": "nour.suroor.tours@gmail.com",
+      "website": null,
+      "whatsapp": "+962776789012"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Mafraq",
+      "region": "Mafraq Governorate",
+      "address": "North Mafraq District, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Mafraq City", "Rural Mafraq villages", "Badia settlements"],
+      "preferred_destinations": "Local artisan communities and heritage homes"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Russian"],
+      "preferred_language": "Russian"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Food & Culinary"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "09:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 10,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "per_day",
+      "min_price": 50,
+      "max_price": 85,
+      "notes": "Food tasting sessions can be included upon request."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Food & Culinary", "Local Experiences", "Community Tourism"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 15,
+      "source": "Cultural Guide Association",
+      "last_updated": "2026-02-28"
+    }
+  },
+  {
+    "sme_id": "SME-000007",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Ibrahim Al-Mashaqbeh",
+      "description": "Licensed tourist guide specializing in architectural history and landmark heritage tours throughout the towns and historical sites of Mafraq.",
+      "experience_years": 10,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Architecture", "Archaeology"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962797890123",
+      "mobile": "+962797890123",
+      "email": "ibrahim.mashaqbeh.guide@hotmail.com",
+      "website": null,
+      "whatsapp": "+962797890123"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Mafraq",
+      "region": "Mafraq Governorate",
+      "address": "Al-Mafraq Central District, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Umm al-Jimal", "Mafraq", "Bal'ama", "Al-Mafraq Governorate sites"],
+      "preferred_destinations": "Umm al-Jimal basaltic architecture"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Italian"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Custom Itineraries", "Private Tours", "Group Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Professional Guides", "Licensed Tourist Guides"]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 35,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "per_day",
+      "min_price": 70,
+      "max_price": 115,
+      "notes": "Group discounts available for larger parties."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 27,
+      "source": "Jordan Guide Network",
+      "last_updated": "2026-03-02"
+    }
+  },
+  {
+    "sme_id": "SME-000008",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Rania Al-Shdaifat",
+      "description": "Independent local guide offering specialized interpretive tours focusing on the archaeological history, stone structures, and folklore of Umm al-Jimal.",
+      "experience_years": 7,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Culture", "Archaeology"],
+      "target_customer_types": ["Families", "Solo Travelers", "Couples"]
+    },
+    "contact": {
+      "phone": "+962788901234",
+      "mobile": "+962788901234",
+      "email": "rania.shdaifat.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962788901234"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Umm al-Jimal",
+      "region": "Mafraq Governorate",
+      "address": "Umm al-Jimal Village, Mafraq, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Umm al-Jimal Site", "Umm al-Jimal Museum", "Surrounding ruins"],
+      "preferred_destinations": "Umm al-Jimal Ancient Town"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Spanish"],
+      "preferred_language": "Spanish"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Private Tours", "Cultural Experiences"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "working_hours": "08:30 - 16:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 20,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "per_day",
+      "min_price": 55,
+      "max_price": 90,
+      "notes": "Hourly rates also available for short site walkthroughs."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 20,
+      "source": "Umm al-Jimal Visitors Center Feedback",
+      "last_updated": "2026-02-20"
+    }
+  },
+  {
+    "sme_id": "SME-000009",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Sami Al-Sarhan",
+      "description": "Professional freelance guide offering customized historical and sightseeing tours across Mafraq governorate and northern transport corridors.",
+      "experience_years": 11,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Photography", "Culture"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962779012345",
+      "mobile": "+962779012345",
+      "email": "sami.sarhan.guide@yahoo.com",
+      "website": null,
+      "whatsapp": "+962779012345"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Mafraq",
+      "region": "Mafraq Governorate",
+      "address": "Baghdad Highway, Mafraq, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Mafraq", "Umm al-Jimal", "Mafraq countryside"],
+      "preferred_destinations": "Mafraq historical landmarks"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "German"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Tour Planning & Itinerary Design", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Professional Guides", "Licensed Tourist Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 30,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "per_day",
+      "min_price": 80,
+      "max_price": 130,
+      "notes": "Full day guiding with private transport option."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Family Experiences"]
+    },
+    "reviews": {
+      "rating": 4.7,
+      "review_count": 25,
+      "source": "Jordan Tourism Directory",
+      "last_updated": "2026-01-15"
+    }
+  },
+  {
+    "sme_id": "SME-000010",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Amal Al-Oimat",
+      "description": "Independent community guide specializing in traditional crafts, village life, and cultural storytelling in the rural zones of Mafraq.",
+      "experience_years": 5,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Culture", "Local Experiences", "Shopping"],
+      "target_customer_types": ["Families", "Solo Travelers", "Couples"]
+    },
+    "contact": {
+      "phone": "+962790123456",
+      "mobile": "+962790123456",
+      "email": "amal.oimat.crafts@gmail.com",
+      "website": null,
+      "whatsapp": "+962790123456"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Mafraq",
+      "region": "Mafraq Governorate",
+      "address": "Rural Mafraq Road, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Mafraq villages", "Local craft centers", "Community hubs"],
+      "preferred_destinations": "Mafraq rural craft markets"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "French"],
+      "preferred_language": "French"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "09:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 12,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "per_day",
+      "min_price": 45,
+      "max_price": 75,
+      "notes": "Tailored for authentic community immersion."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Local Experiences", "Community Tourism", "History & Culture"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 13,
+      "source": "Community Tourism Portal",
+      "last_updated": "2026-02-22"
+    }
+  }
+]

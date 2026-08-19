@@ -1,0 +1,244 @@
+{
+  "metadata": {
+    "model": "gpt-oss:20b-cloud",
+    "provider": "ollama",
+    "mode": "build",
+    "latencyMs": 13695.66,
+    "retries": 0,
+    "caseId": null,
+    "rag": {
+      "status": "unavailable",
+      "source": null,
+      "duration_days": 3,
+      "cluster_count": 0,
+      "clusters": []
+    }
+  },
+  "package": {
+    "welcome_message": "Welcome to your Jordan adventure!",
+    "why_you_will_love_this": {
+      "highlights": [
+        "Jerash Roman ruins",
+        "Ajloun Forest Park"
+      ],
+      "special_touches": [
+        "Local Jordanian cuisine",
+        "3-star hotel stays"
+      ]
+    },
+    "trip_title": "Jerash & Ajloun Highlights",
+    "trip_description": {
+      "overview": "A three-day journey through historic Jerash and the natural beauty of Ajloun, with comfortable 3-star hotel stays and local dining.",
+      "included": [
+        "Meals at local restaurants",
+        "Entry fees to Jerash and Ajloun",
+        "Hotel nights in Jerash and Ajloun"
+      ],
+      "not_included": [
+        "Transportation between sites",
+        "Guided tours",
+        "Travel insurance"
+      ]
+    },
+    "trip_details": {
+      "duration": {
+        "days": "3",
+        "nights": "2"
+      },
+      "trip_type": [
+        "Couple",
+        "Culture",
+        "Nature"
+      ],
+      "number_of_travelers": "2",
+      "budget": {
+        "amount": "900",
+        "currency": "JOD"
+      }
+    },
+    "daily_itinerary": [
+      {
+        "day_number": "1",
+        "day_title": "Jerash Roman Splendour",
+        "day_summary": "Explore the ancient city of Jerash and stay at a 3-star hotel.",
+        "activities": [
+          {
+            "start_time": "09:00",
+            "end_time": "12:00",
+            "activity_title": "Jerash Roman Theatre",
+            "description": "Walk through the well-preserved theatre and surrounding streets.",
+            "location": "Jerash",
+            "estimated_cost": "14 JOD",
+            "smart_tip": "Entry 7 JOD per person x 2 travellers"
+          },
+          {
+            "start_time": "12:30",
+            "end_time": "13:30",
+            "activity_title": "Lunch at Al-Mansour Restaurant",
+            "description": "Enjoy traditional Jordanian dishes in a family-run setting.",
+            "location": "Jerash",
+            "estimated_cost": "~20 JOD (estimated)",
+            "smart_tip": "Average cost 10 JOD per person"
+          },
+          {
+            "start_time": "14:00",
+            "end_time": "16:00",
+            "activity_title": "Jerash Amphitheatre",
+            "description": "Visit the amphitheatre and surrounding ruins.",
+            "location": "Jerash",
+            "estimated_cost": "14 JOD",
+            "smart_tip": "Entry 7 JOD per person x 2 travellers"
+          },
+          {
+            "start_time": "18:30",
+            "end_time": "20:00",
+            "activity_title": "Dinner at Al-Mansour Restaurant",
+            "description": "Second meal at the same local spot for convenience.",
+            "location": "Jerash",
+            "estimated_cost": "~20 JOD (estimated)",
+            "smart_tip": "Average cost 10 JOD per person"
+          }
+        ],
+        "activity_alternatives": []
+      },
+      {
+        "day_number": "2",
+        "day_title": "Ajloun Forest Adventure",
+        "day_summary": "Discover Ajloun Forest Park and stay at a nearby 3-star hotel.",
+        "activities": [
+          {
+            "start_time": "09:00",
+            "end_time": "11:00",
+            "activity_title": "Ajloun Forest Park",
+            "description": "Explore walking trails and wildlife in the forest.",
+            "location": "Ajloun",
+            "estimated_cost": "Free",
+            "smart_tip": "Free entry"
+          },
+          {
+            "start_time": "12:00",
+            "end_time": "13:00",
+            "activity_title": "Lunch at Al-Zahra Café",
+            "description": "Taste local Jordanian cuisine in a cozy café.",
+            "location": "Ajloun",
+            "estimated_cost": "~15 JOD (estimated)",
+            "smart_tip": "Average cost 7.5 JOD per person"
+          },
+          {
+            "start_time": "13:30",
+            "end_time": "15:30",
+            "activity_title": "Ajloun Castle",
+            "description": "Visit the historic castle overlooking the valley.",
+            "location": "Ajloun",
+            "estimated_cost": "~10 JOD (estimated)",
+            "smart_tip": "Entry 5 JOD per person"
+          },
+          {
+            "start_time": "18:30",
+            "end_time": "20:30",
+            "activity_title": "Dinner at Al-Zahra Café",
+            "description": "Second meal at the same local spot for convenience.",
+            "location": "Ajloun",
+            "estimated_cost": "~15 JOD (estimated)",
+            "smart_tip": "Average cost 7.5 JOD per person"
+          }
+        ],
+        "activity_alternatives": []
+      },
+      {
+        "day_number": "3",
+        "day_title": "Return to Amman",
+        "day_summary": "Conclude the trip with a relaxed day in Amman and a final hotel stay.",
+        "activities": [
+          {
+            "start_time": "09:00",
+            "end_time": "11:00",
+            "activity_title": "Jordan Museum",
+            "description": "Explore Jordanian history and culture in the capital.",
+            "location": "Amman",
+            "estimated_cost": "~12 JOD (estimated)",
+            "smart_tip": "Entry 6 JOD per person"
+          },
+          {
+            "start_time": "12:00",
+            "end_time": "13:00",
+            "activity_title": "Lunch at Al-Khalil Restaurant",
+            "description": "Savor local Jordanian dishes in a family-run restaurant.",
+            "location": "Amman",
+            "estimated_cost": "~18 JOD (estimated)",
+            "smart_tip": "Average cost 9 JOD per person"
+          },
+          {
+            "start_time": "13:30",
+            "end_time": "15:30",
+            "activity_title": "Amman Citadel",
+            "description": "Visit the historic citadel and its museums.",
+            "location": "Amman",
+            "estimated_cost": "~10 JOD (estimated)",
+            "smart_tip": "Entry 5 JOD per person"
+          },
+          {
+            "start_time": "18:30",
+            "end_time": "20:30",
+            "activity_title": "Dinner at Al-Khalil Restaurant",
+            "description": "Final dinner at the same local spot for convenience.",
+            "location": "Amman",
+            "estimated_cost": "~18 JOD (estimated)",
+            "smart_tip": "Average cost 9 JOD per person"
+          }
+        ],
+        "activity_alternatives": []
+      }
+    ],
+    "budget_summary": {
+      "items": [
+        {
+          "category": "Accommodation",
+          "estimated_cost": "~120 JOD (estimated)",
+          "notes": "75 JOD/night x 2 nights x 1 room"
+        },
+        {
+          "category": "Meals",
+          "estimated_cost": "~140 JOD (estimated)",
+          "notes": "Average 10 JOD per meal x 2 meals x 3 days x 2 travellers"
+        },
+        {
+          "category": "Activities & Entry Fees",
+          "estimated_cost": "~30 JOD (estimated)",
+          "notes": "Entry fees 14+14+10+12+10+12 JOD total"
+        },
+        {
+          "category": "Total",
+          "estimated_cost": "~290 JOD (estimated)",
+          "notes": "Sum of above categories"
+        },
+        {
+          "category": "Unallocated Budget (before transport)",
+          "estimated_cost": "610 JOD",
+          "notes": "290 JOD of the 900 JOD ceiling is committed above. Transport between areas is not priced in this plan"
+        }
+      ],
+      "total_estimated_cost": "~290 JOD (estimated)"
+    },
+    "essential_travel_tips": [
+      {
+        "category": "Dining",
+        "tips": [
+          "Choose local Jordanian restaurants for authentic flavors",
+          "Check opening hours before visiting"
+        ]
+      },
+      {
+        "category": "Accessibility",
+        "tips": [
+          "All selected sites are walkable and have accessible paths",
+          "No special assistance required"
+        ]
+      }
+    ],
+    "explanations": {
+      "trip_planning_reason": "The plan follows the traveler's must-visit Jerash and preferred regions, stays within a 3-day window, and respects the budget by selecting free or low-cost activities and 3-star hotels.",
+      "selection_reason": "POIs and restaurants were chosen for their cultural and natural appeal, local ownership, and affordability, matching the couple's moderate pace and interest in culture, nature, and history."
+    }
+  }
+}

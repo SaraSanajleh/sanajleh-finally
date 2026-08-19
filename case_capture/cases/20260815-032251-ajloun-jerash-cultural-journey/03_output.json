@@ -1,0 +1,445 @@
+{
+  "metadata": {
+    "model": "gpt-oss:20b-cloud",
+    "provider": "ollama",
+    "mode": "build",
+    "retries": 0
+  },
+  "package": {
+    "package_id": "RET-JORD-2026-08-21",
+    "status": "partial",
+    "welcome_message": "Welcome to your Jordan adventure!",
+    "trip_title": "Ajloun & Jerash Cultural Journey",
+    "trip": {
+      "title": "Ajloun & Jerash Cultural Journey",
+      "summary": "A three-day exploration of Jordan's historic Ajloun and Jerash, featuring ancient mosques, Roman ruins, and local cuisine.",
+      "start_date": "2026-08-21",
+      "end_date": "2026-08-23",
+      "duration_days": 3,
+      "nights": 2,
+      "regions": [
+        "Ajloun",
+        "Jerash",
+        "Balqa"
+      ],
+      "arrival_airport": "AMM",
+      "language": "English"
+    },
+    "traveler_profile": {
+      "group_type": "couple",
+      "adults": 2,
+      "children": 0,
+      "children_ages": [],
+      "seniors": 0,
+      "total_travelers": 2,
+      "interests": [
+        "history",
+        "culture"
+      ],
+      "pace": "Balanced",
+      "activity_level": "Moderate",
+      "accessibility_needs": []
+    },
+    "planning": {
+      "strategy": "Cluster-based itinerary with one day per region, focusing on must-visit sites and local cuisine.",
+      "constraints": {
+        "must_visit": [
+          "Jerash"
+        ],
+        "places_to_avoid": []
+      },
+      "constraint_status": {
+        "status": "unsatisfied",
+        "unmet": [
+          {
+            "item": "Jerash",
+            "reason": "Geographic/time conflict or no grounded match in retrieved knowledge",
+            "reason_code": "must_visit_unmet"
+          }
+        ]
+      },
+      "assumptions": [
+        "No cross-region travel within a day.",
+        "All listed POIs, restaurants, hotels, and SMEs are available during the dates."
+      ],
+      "climate": {
+        "month": 8,
+        "season": "hot_dry_summer",
+        "typical_pattern": "High daytime heat"
+      },
+      "weather_status": "unknown"
+    },
+    "days": [
+      {
+        "day": 1,
+        "date": "2026-08-21",
+        "region": "Ajloun",
+        "theme": "Ajloun Governorate - history & culture",
+        "summary": "Morning visits to historic mosque and soap house, afternoon at olive press museum, lunch at local restaurant, dinner at another local spot, overnight at a 2-star hotel.",
+        "schedule": [
+          {
+            "time": "09:00",
+            "end_time": "10:30",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_006006",
+            "name": "Ajloun Great Mosque",
+            "duration_minutes": 90,
+            "location": "Ajloun",
+            "coordinates": {
+              "latitude": 32.333083,
+              "longitude": 35.751639,
+              "precision": "exact"
+            },
+            "description": "Historic mosque with Ottoman architecture.",
+            "reason": "Matches history and culture interests.",
+            "matched_preferences": [
+              "history",
+              "culture"
+            ],
+            "estimated_cost": "not_available",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_006006"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "11:00",
+            "end_time": "12:30",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_006034",
+            "name": "Orjan Soap House Trailhead",
+            "duration_minutes": 90,
+            "location": "Umm Al-Yandoub",
+            "coordinates": {
+              "latitude": 32.378056,
+              "longitude": 35.768333,
+              "precision": "exact"
+            },
+            "description": "Traditional soap making site.",
+            "reason": "Cultural heritage and local craft.",
+            "matched_preferences": [
+              "culture"
+            ],
+            "estimated_cost": "not_available",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_006034"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "13:00",
+            "end_time": "14:30",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_006039",
+            "name": "Ajloun Olive Press Museum",
+            "duration_minutes": 90,
+            "location": "Ajloun",
+            "coordinates": {
+              "latitude": 32.334167,
+              "longitude": 35.753333,
+              "precision": "exact"
+            },
+            "description": "Museum of olive oil production.",
+            "reason": "Historical industry and local culture.",
+            "matched_preferences": [
+              "history",
+              "culture"
+            ],
+            "estimated_cost": "not_available",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_006039"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "15:00",
+            "end_time": "16:00",
+            "slot": "evening",
+            "type": "restaurant",
+            "item_id": "restaurant_006009",
+            "name": "Al-Basha Restaurant Ajloun",
+            "duration_minutes": 60,
+            "location": "Ajloun",
+            "coordinates": {
+              "latitude": 32.332512,
+              "longitude": 35.752109,
+              "precision": "exact"
+            },
+            "description": "Local Jordanian cuisine.",
+            "reason": "Preferred cuisine, local dining.",
+            "matched_preferences": [
+              "Local Jordanian"
+            ],
+            "estimated_cost": "not_available",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_006009"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "18:00",
+            "end_time": "19:00",
+            "slot": "evening",
+            "type": "restaurant",
+            "item_id": "restaurant_006005",
+            "name": "Summaga Cafe & Restaurant",
+            "duration_minutes": 60,
+            "location": "Ajloun",
+            "coordinates": {
+              "latitude": 32.375211,
+              "longitude": 35.75932,
+              "precision": "exact"
+            },
+            "description": "Jordanian dishes with a view.",
+            "reason": "Different local dining experience.",
+            "matched_preferences": [
+              "Local Jordanian"
+            ],
+            "estimated_cost": "not_available",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_006005"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [
+          {
+            "sme_id": "tour_guide:SME-000001:ajloun",
+            "sme_type": "tour_guide",
+            "name": "Ahmad Momani",
+            "role": "Local guide",
+            "location": "Ajloun",
+            "experience_type": "History & Culture",
+            "match_score": 0.878,
+            "reason": "Based in Ajloun, speaks English, matches couple travelers.",
+            "matched_because": [
+              "Based in Ajloun",
+              "Matches interests: history, culture",
+              "Works with couple travelers",
+              "Speaks English"
+            ],
+            "source": {
+              "dataset": "sme_guides",
+              "record_id": "tour_guide:SME-000001:ajloun"
+            },
+            "coordinates": {
+              "latitude": 32.3326,
+              "longitude": 35.7517,
+              "precision": "city_centroid"
+            }
+          }
+        ],
+        "transport_notes": "not_available"
+      },
+      {
+        "day": 2,
+        "date": "2026-08-22",
+        "region": "Jerash",
+        "theme": "Jerash Governorate - Roman heritage",
+        "summary": "Full day exploring the Roman ruins of Jerash, with lunch and dinner at local Jordanian restaurants and overnight at a 4-star hotel.",
+        "schedule": [
+          {
+            "time": "09:00",
+            "end_time": "10:30",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_010020",
+            "name": "Irbid Central Souq",
+            "duration_minutes": 90,
+            "location": "Jerash",
+            "coordinates": {
+              "latitude": 32.554444,
+              "longitude": 35.846667,
+              "precision": "exact"
+            },
+            "description": "Ancient Roman race track.",
+            "reason": "Must-visit Roman site.",
+            "matched_preferences": [
+              "history",
+              "culture"
+            ],
+            "estimated_cost": "not_available",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_010020"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "11:00",
+            "end_time": "12:30",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_010035",
+            "name": "Yarmouk University Anthropology Museum",
+            "duration_minutes": 90,
+            "location": "Jerash",
+            "coordinates": {
+              "latitude": 32.538333,
+              "longitude": 35.854444,
+              "precision": "exact"
+            },
+            "description": "Traditional market within ruins.",
+            "reason": "Cultural shopping experience.",
+            "matched_preferences": [
+              "culture"
+            ],
+            "estimated_cost": "not_available",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_010035"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [
+          {
+            "sme_id": "tour_guide:SME-000001:jerash",
+            "sme_type": "tour_guide",
+            "name": "Ahmad Al-Omari",
+            "role": "Local guide",
+            "location": "Jerash",
+            "experience_type": "History & Culture",
+            "match_score": 0.878,
+            "reason": "Based in Jerash, speaks English, matches couple travelers.",
+            "matched_because": [
+              "Based in Jerash",
+              "Matches interests: history, culture",
+              "Works with couple travelers",
+              "Speaks English"
+            ],
+            "source": {
+              "dataset": "sme_guides",
+              "record_id": "tour_guide:SME-000001:jerash"
+            },
+            "coordinates": {
+              "latitude": 32.2808,
+              "longitude": 35.8993,
+              "precision": "city_centroid"
+            }
+          }
+        ],
+        "transport_notes": "not_available"
+      },
+      {
+        "day": 3,
+        "date": "2026-08-23",
+        "region": "Balqa",
+        "theme": "Balqa Governorate - heritage & culture",
+        "summary": "Day exploring Balqa heritage sites, with limited dining options due to catalog gaps.",
+        "schedule": [],
+        "smes": [],
+        "transport_notes": "not_available"
+      }
+    ],
+    "budget": {
+      "currency": "JOD",
+      "traveler_budget": 900.0,
+      "estimated_total": "not_available",
+      "band": "moderate",
+      "items": [],
+      "disclaimer": "Amounts are shown only when catalog evidence exists."
+    },
+    "sme_value": {
+      "headline": "Local businesses recommended for this trip",
+      "summary": "Guides selected for their expertise in history and culture, matching the couple's interests.",
+      "recommended": [
+        {
+          "sme_id": "tour_guide:SME-000001:ajloun",
+          "sme_type": "unknown",
+          "name": "Ahmad Momani",
+          "role": "Local guide",
+          "location": "",
+          "experience_type": "",
+          "match_score": 0.0,
+          "reason": "",
+          "matched_because": [],
+          "source": null,
+          "coordinates": null
+        },
+        {
+          "sme_id": "tour_guide:SME-000001:jerash",
+          "sme_type": "unknown",
+          "name": "Ahmad Al-Omari",
+          "role": "Local guide",
+          "location": "",
+          "experience_type": "",
+          "match_score": 0.0,
+          "reason": "",
+          "matched_because": [],
+          "source": null,
+          "coordinates": null
+        }
+      ]
+    },
+    "sources": [
+      {
+        "dataset": "pois",
+        "record_id": "poi_006006"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_006034"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_006039"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_006009"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_006005"
+      },
+      {
+        "dataset": "sme_guides",
+        "record_id": "tour_guide:SME-000001:ajloun"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_010020"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_010035"
+      },
+      {
+        "dataset": "sme_guides",
+        "record_id": "tour_guide:SME-000001:jerash"
+      }
+    ],
+    "warnings": [
+      {
+        "code": "note",
+        "message": "No restaurants listed in Jerash cluster; local restaurants from Ajloun used instead.",
+        "severity": "info"
+      },
+      {
+        "code": "note",
+        "message": "No hotels listed in Balqa cluster; no accommodation scheduled for Day 3.",
+        "severity": "info"
+      }
+    ],
+    "explanations": {
+      "trip_planning_reason": "Cluster-based itinerary ensures geographic coherence and satisfies must-visit requirement.",
+      "highlights": [
+        "Ajloun Great Mosque",
+        "Hippodrome of Jerash",
+        "Fuheis Heritage Quarter"
+      ],
+      "why_smes": [
+        "Guides provide local expertise and language support for history and culture interests."
+      ]
+    }
+  }
+}

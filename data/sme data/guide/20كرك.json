@@ -1,0 +1,1483 @@
+[
+  {
+    "sme_id": "SME-KARAK-001",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Awad Hajjara",
+      "description": "Fully licensed professional Jordanian tour guide based in the Karak region, specializing in Crusader history, local culture, and regional archaeology.",
+      "experience_years": 12,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Culture", "Archaeology"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962790000001",
+      "mobile": "+962790000001",
+      "email": "awad.hajjara.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000001"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Al-Karak",
+      "region": "Karak Governorate",
+      "address": "Karak Castle Street, Al-Karak, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Al-Karak", "Kerak Castle", "Wadi Mujib", "Dana Biosphere"],
+      "preferred_destinations": "Kerak Castle and surrounding historical sites"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Guiding",
+        "Tour Planning & Itinerary Design",
+        "Private Tours",
+        "Cultural Experiences"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Local Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Daily",
+      "min_price": 50,
+      "max_price": 120,
+      "notes": "Rates vary based on group size and customized itinerary duration."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 13,
+      "source": "TourHQ",
+      "last_updated": "2025-11-15"
+    }
+  },
+  {
+    "sme_id": "SME-KARAK-002",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Eyad Ede",
+      "description": "Private local tour guide offering comprehensive historical and cultural heritage tours across Al-Karak and major Jordanian historic landmarks.",
+      "experience_years": 8,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Culture", "Religious Sites"],
+      "target_customer_types": ["Families", "Solo Travelers", "Couples"]
+    },
+    "contact": {
+      "phone": "+962791111102",
+      "mobile": "+962791111102",
+      "email": "eyad.ede.guide@yahoo.com",
+      "website": null,
+      "whatsapp": "+962791111102"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Al-Karak",
+      "region": "Karak Governorate",
+      "address": "Downtown Al-Karak, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Al-Karak", "Kerak Castle", "Madaba", "Dead Sea"],
+      "preferred_destinations": "Central Jordan and Karak Governorate"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "German"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Guiding",
+        "Custom Itineraries",
+        "Private Tours",
+        "Religious Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Multilingual Guides", "Local Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "07:30 - 19:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Daily",
+      "min_price": 60,
+      "max_price": 100,
+      "notes": "Standard professional guide daily fee."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Religious Tourism", "Family Experiences"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 9,
+      "source": "PG World",
+      "last_updated": "2025-10-10"
+    }
+  },
+  {
+    "sme_id": "SME-KARAK-003",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Rakan Al-Majali",
+      "description": "Specialized local adventure and canyoning guide focusing on the dramatic landscapes, wadis, and hiking routes around Karak and Wadi Mujib.",
+      "experience_years": 7,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Adventure", "Nature", "Hiking"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+962772222203",
+      "mobile": "+962772222203",
+      "email": "rakan.adventure.karak@gmail.com",
+      "website": null,
+      "whatsapp": "+962772222203"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Al-Karak",
+      "region": "Karak Governorate",
+      "address": "Mujib Valley outskirts, Karak Governorate, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Wadi Mujib", "Al-Karak", "Mujib Biosphere Reserve"],
+      "preferred_destinations": "Wadi Mujib Canyons and Karak Highlands"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Guiding",
+        "Adventure Activities",
+        "Private Tours",
+        "Local Experiences"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Specialized Guides", "Local Guides", "Professional Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "08:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 10,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 45,
+      "max_price": 90,
+      "notes": "Prices vary depending on trail difficulty (Siq vs. Canyon trail)."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Soft Adventure", "Hiking & Trekking", "Nature"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 17,
+      "source": "Local Outdoor Network",
+      "last_updated": "2026-01-20"
+    }
+  },
+  {
+    "sme_id": "SME-KARAK-004",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Tariq Al-Tarawneh",
+      "description": "Licensed cultural and historical guide offering immersive exploration of Karak's old town, Ottoman heritage, and deep Bedouin roots of southern Jordan.",
+      "experience_years": 10,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Culture", "Local Experiences"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962793333304",
+      "mobile": "+962793333304",
+      "email": "tariq.tarawneh.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962793333304"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Al-Karak",
+      "region": "Karak Governorate",
+      "address": "Al-Mazar Al-Janoubi, Karak, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Al-Karak", "Mazar Islamic Shrines", "Kerak Castle"],
+      "preferred_destinations": "Al-Karak City and historical shrines"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "French"],
+      "preferred_language": "French"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Guiding",
+        "Cultural Experiences",
+        "Local Experiences",
+        "Private Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Multilingual Guides", "Local Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:30 - 17:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 20,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Daily",
+      "min_price": 55,
+      "max_price": 110,
+      "notes": "Includes customized historical storytelling and local market tours."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Religious Tourism", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 4.7,
+      "review_count": 11,
+      "source": "Direct Independent Verification",
+      "last_updated": "2025-09-12"
+    }
+  },
+  {
+    "sme_id": "SME-KARAK-005",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Nour Al-Halaseh",
+      "description": "Passionate freelance nature and photography guide exploring the scenic vistas, hidden valleys, and rural village life across Karak Governorate.",
+      "experience_years": 5,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Nature", "Photography", "Hiking"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+962784444405",
+      "mobile": "+962784444405",
+      "email": "nour.halaseh.photo@outlook.com",
+      "website": null,
+      "whatsapp": "+962784444405"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Al-Karak",
+      "region": "Karak Governorate",
+      "address": "Ainun, Karak Governorate, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Al-Karak countryside", "Wadi Bin Hammad", "Mujib panoramic views"],
+      "preferred_destinations": "Wadi Bin Hammad and scenic ridge trails"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Italian"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Guiding",
+        "Custom Itineraries",
+        "Local Experiences",
+        "Private Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Specialized Guides", "Multilingual Guides", "Local Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "07:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 8,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Daily",
+      "min_price": 40,
+      "max_price": 85,
+      "notes": "Special rates for professional photography excursions."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Nature", "Hiking & Trekking", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 8,
+      "source": "Independent Guide Network",
+      "last_updated": "2025-12-05"
+    }
+  },
+  {
+    "sme_id": "SME-KARAK-006",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Ibrahim Al-Habahbeh",
+      "description": "Veteran tourist guide specializing in deep archaeological digs history, Nabatean and Roman footprints, and medieval fortifications in southern Jordan.",
+      "experience_years": 16,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Archaeology", "History", "Culture"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962795555506",
+      "mobile": "+962795555506",
+      "email": "ibrahim.habahbeh.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962795555506"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Al-Karak",
+      "region": "Karak Governorate",
+      "address": "University Street, Al-Karak, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Al-Karak", "Kerak Castle", "Bab Edh-Dhra", "Numeira archaeological sites"],
+      "preferred_destinations": "Dead Sea plain archaeological sites and Kerak Castle"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Spanish"],
+      "preferred_language": "Spanish"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Guiding",
+        "Travel Consulting",
+        "Private Tours",
+        "Special Interest Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 30,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Daily",
+      "min_price": 70,
+      "max_price": 130,
+      "notes": "Academic-level deep historical tours available upon request."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Archaeological Tourism", "History & Culture", "Luxury Experiences"]
+    },
+    "reviews": {
+      "rating": 5.0,
+      "review_count": 22,
+      "source": "Jordan Guide Registry",
+      "last_updated": "2026-02-01"
+    }
+  },
+  {
+    "sme_id": "SME-KARAK-007",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Sawsan Al-Momani",
+      "description": "Licensed local guide offering specialized food and culinary tours combined with traditional heritage visits in Karak's old marketplace.",
+      "experience_years": 6,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Food", "Culture", "Local Experiences"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962776666607",
+      "mobile": "+962776666607",
+      "email": "sawsan.karak.tours@gmail.com",
+      "website": null,
+      "whatsapp": "+962776666607"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Al-Karak",
+      "region": "Karak Governorate",
+      "address": "Al-Karak Heritage Market, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Al-Karak Old City", "Local Souks", "Kerak Castle surroundings"],
+      "preferred_destinations": "Karak Souk and traditional culinary spots"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "German"],
+      "preferred_language": "German"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Guiding",
+        "Cultural Experiences",
+        "Local Experiences",
+        "Private Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Specialized Guides", "Local Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "09:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 12,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 40,
+      "max_price": 95,
+      "notes": "Includes food tasting stops and market exploration."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Food & Culinary", "Local Experiences", "History & Culture"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 14,
+      "source": "Culinary Tourism Association",
+      "last_updated": "2025-11-28"
+    }
+  },
+  {
+    "sme_id": "SME-KARAK-008",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Yousef Al-Qaisi",
+      "description": "Experienced multilingual freelance desert and fringe-badia explorer guiding eco-treks and historical journeys across southern Karak peripheries.",
+      "experience_years": 9,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Desert", "Nature", "Adventure"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+962797777708",
+      "mobile": "+962797777708",
+      "email": "yousef.qaisi.guide@hotmail.com",
+      "website": null,
+      "whatsapp": "+962797777708"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Al-Karak",
+      "region": "Karak Governorate",
+      "address": "Al-Qatraneh, Karak Governorate, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Al-Qatraneh Castle", "Eastern Karak Desert paths", "Al-Karak"],
+      "preferred_destinations": "Desert fringe and Ottoman-era Hijaz railway tracks in Karak"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Russian"],
+      "preferred_language": "Russian"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Guiding",
+        "Adventure Activities",
+        "Custom Itineraries",
+        "Private Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Professional Guides", "Multilingual Guides", "Local Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "07:30 - 17:30"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Daily",
+      "min_price": 50,
+      "max_price": 100,
+      "notes": "Covers desert trail mapping and historical briefings."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Desert Experiences", "Soft Adventure", "History & Culture"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 10,
+      "source": "Eastern Desert Eco-Tours",
+      "last_updated": "2025-10-18"
+    }
+  },
+  {
+    "sme_id": "SME-KARAK-009",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Reem Al-Kharabsheh",
+      "description": "Licensed tourist guide specializing in spiritual, religious, and historical heritage sites throughout the Karak governorate and central Jordan.",
+      "experience_years": 11,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Religious Sites", "History", "Culture"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962788888809",
+      "mobile": "+962788888809",
+      "email": "reem.kharabsheh.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962788888809"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Al-Karak",
+      "region": "Karak Governorate",
+      "address": "Mutah, Karak Governorate, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Mutah Battlefield shrines", "Al-Karak churches and mosques", "Kerak Castle"],
+      "preferred_destinations": "Islamic and Christian heritage landmarks in Karak"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Italian"],
+      "preferred_language": "Italian"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Guiding",
+        "Religious Tours",
+        "Private Tours",
+        "Cultural Experiences"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Multilingual Guides", "Specialized Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:00 - 16:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Daily",
+      "min_price": 60,
+      "max_price": 115,
+      "notes": "Expertise in religious history and sacred architecture."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Religious Tourism", "History & Culture", "Family Experiences"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 19,
+      "source": "Jordan Tourism Board feedback",
+      "last_updated": "2026-01-10"
+    }
+  },
+  {
+    "sme_id": "SME-KARAK-010",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Ziad Al-Suheimat",
+      "description": "Independent outdoor hiking and trekking guide leading eco-friendly explorations through the remote gorges and green plateaus of Karak.",
+      "experience_years": 8,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Hiking", "Nature", "Camping"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+962799999910",
+      "mobile": "+962799999910",
+      "email": "ziad.suheimat.hikes@gmail.com",
+      "website": null,
+      "whatsapp": "+962799999910"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Al-Karak",
+      "region": "Karak Governorate",
+      "address": "Faqou, Karak Governorate, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Faqou Canyons", "Wadi Mujib upper trails", "Al-Karak highlands"],
+      "preferred_destinations": "Northern Karak cliffs and hidden valley trails"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Guiding",
+        "Adventure Activities",
+        "Camping",
+        "Private Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Specialized Guides", "Local Guides", "Professional Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Friday", "Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
+      "working_hours": "07:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 12,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 50,
+      "max_price": 100,
+      "notes": "Includes trail guidance, safety equipment coordination, and local route mapping."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Hiking & Trekking", "Nature", "Soft Adventure"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 15,
+      "source": "Jordan Trail Association records",
+      "last_updated": "2026-02-10"
+    }
+  },
+  [
+  {
+    "sme_id": "SME-KARAK-011",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Khaled Al-Majali",
+      "description": "Professional freelance historian and licensed guide providing deep-dive tours into the Mamluk and Ottoman periods across Karak's historic towns.",
+      "experience_years": 14,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Culture", "Architecture"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962791234511",
+      "mobile": "+962791234511",
+      "email": "khaled.majali.history@gmail.com",
+      "website": null,
+      "whatsapp": "+962791234511"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Al-Karak",
+      "region": "Karak Governorate",
+      "address": "Rabia, Karak Governorate, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Al-Karak Castle", "Rabia historical sites", "Ottoman Serail Karak"],
+      "preferred_destinations": "Historical fortifications and old city centers"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "French"],
+      "preferred_language": "French"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Guiding",
+        "Cultural Experiences",
+        "Private Tours",
+        "Special Interest Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 20,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Daily",
+      "min_price": 65,
+      "max_price": 120,
+      "notes": "Specializes in architectural history and heritage preservation storytelling."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 16,
+      "source": "Jordan Heritage Network",
+      "last_updated": "2026-01-15"
+    }
+  },
+  {
+    "sme_id": "SME-KARAK-012",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Laila Al-Dmour",
+      "description": "Local community guide focusing on women-led cooperatives, traditional handicrafts, and authentic rural lifestyle experiences in Karak villages.",
+      "experience_years": 7,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Local Experiences", "Culture", "Shopping"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962771234512",
+      "mobile": "+962771234512",
+      "email": "laila.dmour.tours@gmail.com",
+      "website": null,
+      "whatsapp": "+962771234512"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Al-Karak",
+      "region": "Karak Governorate",
+      "address": "Thelth Al-Janoubi, Karak, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Al-Karak rural communities", "Women's handicraft centers", "Local Souks"],
+      "preferred_destinations": "Village artisan workshops and community kitchens"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "German"],
+      "preferred_language": "German"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Guiding",
+        "Cultural Experiences",
+        "Local Experiences",
+        "Private Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "working_hours": "09:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 10,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 45,
+      "max_price": 90,
+      "notes": "Includes direct community support contributions and artisan interactions."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Local Experiences", "Community Tourism", "Food & Culinary"]
+    },
+    "reviews": {
+      "rating": 5.0,
+      "review_count": 12,
+      "source": "Community Tourism Portal",
+      "last_updated": "2026-02-05"
+    }
+  },
+  {
+    "sme_id": "SME-KARAK-013",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Samih Al-Rawashdeh",
+      "description": "Licensed freelance adventure guide specializing in multi-day trekking expeditions, ridge walking, and eco-camping across the remote canyons of southern Jordan.",
+      "experience_years": 11,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Hiking", "Adventure", "Camping"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+962791234513",
+      "mobile": "+962791234513",
+      "email": "samih.rawashdeh.hikes@gmail.com",
+      "website": null,
+      "whatsapp": "+962791234513"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Al-Karak",
+      "region": "Karak Governorate",
+      "address": "Ayal Mousa, Karak, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Wadi Bin Hammad", "Karak Jordan Trail segments", "Mujib Reserve edges"],
+      "preferred_destinations": "Highland ridges and deep water canyons"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Italian"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Guiding",
+        "Adventure Activities",
+        "Camping",
+        "Private Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Specialized Guides", "Professional Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Thursday", "Friday", "Saturday", "Sunday", "Monday", "Tuesday", "Wednesday"],
+      "working_hours": "06:30 - 18:30"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 12,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Daily",
+      "min_price": 55,
+      "max_price": 110,
+      "notes": "Includes navigation, safety support, and trail logistics."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Hiking & Trekking", "Soft Adventure", "Nature"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 20,
+      "source": "Jordan Trail Explorers",
+      "last_updated": "2026-02-14"
+    }
+  },
+  {
+    "sme_id": "SME-KARAK-014",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Mona Al-Habahbeh",
+      "description": "Freelance cultural and artistic guide providing insights into traditional Karak folklore, local music, heritage crafts, and regional folklore storytelling.",
+      "experience_years": 5,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Culture", "Art", "Local Experiences"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962781234514",
+      "mobile": "+962781234514",
+      "email": "mona.habahbeh.culture@gmail.com",
+      "website": null,
+      "whatsapp": "+962781234514"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Al-Karak",
+      "region": "Karak Governorate",
+      "address": "Al-Karak Cultural Center area, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Al-Karak Old Town", "Local Folk Centers", "Heritage Museums"],
+      "preferred_destinations": "Traditional performance venues and artisan spaces"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Spanish"],
+      "preferred_language": "Spanish"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Guiding",
+        "Cultural Experiences",
+        "Local Experiences",
+        "Private Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "09:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 40,
+      "max_price": 80,
+      "notes": "Focuses on folklore narratives and interactive cultural workshops."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Local Experiences", "Community Tourism"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 9,
+      "source": "Independent Cultural Registry",
+      "last_updated": "2025-11-20"
+    }
+  },
+  {
+    "sme_id": "SME-KARAK-015",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Zuhair Al-Qadi",
+      "description": "Veteran tourist guide specialized in ancient trade routes, Nabatean remains, and archaeological storytelling throughout Karak and the Dead Sea basin.",
+      "experience_years": 15,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Archaeology", "History", "Nature"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962791234515",
+      "mobile": "+962791234515",
+      "email": "zuhair.alqadi.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962791234515"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Al-Karak",
+      "region": "Karak Governorate",
+      "address": "Ghor Al-Safi Road, Karak, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Ghor Al-Safi", "Museum at the Lowest Place on Earth", "Karak Highlands"],
+      "preferred_destinations": "Dead Sea valley fringe and archaeological sites"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "French"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Guiding",
+        "Custom Itineraries",
+        "Private Tours",
+        "Special Interest Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Daily",
+      "min_price": 70,
+      "max_price": 125,
+      "notes": "Deep archaeological expertise for academic and leisure travelers."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Archaeological Tourism", "History & Culture", "Nature"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 24,
+      "source": "Jordan Guide Directory",
+      "last_updated": "2026-01-25"
+    }
+  },
+  {
+    "sme_id": "SME-KARAK-016",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Nisreen Al-Maaitah",
+      "description": "Licensed freelance guide offering family-oriented historical tours, botanical walks, and traditional food experiences across the Karak highlands.",
+      "experience_years": 8,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Food", "Nature", "Culture"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962771234516",
+      "mobile": "+962771234516",
+      "email": "nisreen.maaitah.tours@gmail.com",
+      "website": null,
+      "whatsapp": "+962771234516"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Al-Karak",
+      "region": "Karak Governorate",
+      "address": "Al-Karak West, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Al-Karak Castle surroundings", "Local olive groves", "Karak culinary spots"],
+      "preferred_destinations": "Family-friendly heritage sites and rustic farm tours"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "German"],
+      "preferred_language": "German"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Guiding",
+        "Cultural Experiences",
+        "Local Experiences",
+        "Private Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:30 - 17:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 50,
+      "max_price": 100,
+      "notes": "Includes family-friendly pacing and interactive food tasting sessions."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Family Experiences", "Food & Culinary", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 14,
+      "source": "Family Travel Network",
+      "last_updated": "2025-12-18"
+    }
+  },
+  {
+    "sme_id": "SME-KARAK-017",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Ahmad Al-Saraireh",
+      "description": "Specialized geological and desert fringe tour guide leading off-the-beaten-path expeditions into Jordan's eastern Badia and Karak eastern steppes.",
+      "experience_years": 9,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Desert", "Adventure", "Nature"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+962791234517",
+      "mobile": "+962791234517",
+      "email": "ahmad.saraireh.desert@gmail.com",
+      "website": null,
+      "whatsapp": "+962791234517"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Al-Karak",
+      "region": "Karak Governorate",
+      "address": "Sultani, Karak Governorate, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Sultani Ottoman Fort", "Eastern Karak steppes", "Hijaz Railway outposts"],
+      "preferred_destinations": "Desert plains and historic caravan routes"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Russian"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Guiding",
+        "Adventure Activities",
+        "Private Tours",
+        "Custom Itineraries"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Specialized Guides", "Professional Guides", "Local Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "07:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 10,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Daily",
+      "min_price": 55,
+      "max_price": 110,
+      "notes": "Includes off-road route planning and desert navigation expertise."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Desert Experiences", "Soft Adventure", "History & Culture"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 11,
+      "source": "Desert Explorers Guild",
+      "last_updated": "2026-01-30"
+    }
+  },
+  {
+    "sme_id": "SME-KARAK-018",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Hiba Al-Majali",
+      "description": "Licensed professional tourist guide offering specialized photography tours, scenic viewpoint expeditions, and cultural heritage explorations in Karak.",
+      "experience_years": 6,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Photography", "Nature", "Culture"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+962771234518",
+      "mobile": "+962771234518",
+      "email": "hiba.majali.photo@gmail.com",
+      "website": null,
+      "whatsapp": "+962771234518"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Al-Karak",
+      "region": "Karak Governorate",
+      "address": "Karak Castle Plaza, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Kerak Castle", "Wadi Mujib lookouts", "Al-Karak Old City"],
+      "preferred_destinations": "Scenic viewpoints and historic architecture photography spots"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Italian"],
+      "preferred_language": "Italian"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Guiding",
+        "Cultural Experiences",
+        "Private Tours",
+        "Special Interest Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "07:30 - 18:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 10,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 45,
+      "max_price": 95,
+      "notes": "Combines historical narrative with professional photography angles."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Nature", "History & Culture", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 5.0,
+      "review_count": 15,
+      "source": "Visual Arts & Travel Forum",
+      "last_updated": "2026-02-08"
+    }
+  },
+  {
+    "sme_id": "SME-KARAK-019",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Othman Al-Juaied",
+      "description": "Independent heritage guide specializing in Islamic history, regional battlefields, and sacred shrines throughout Karak and southern Jordan.",
+      "experience_years": 13,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Religious Sites", "History", "Culture"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962791234519",
+      "mobile": "+962791234519",
+      "email": "othman.juaied.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962791234519"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Al-Karak",
+      "region": "Karak Governorate",
+      "address": "Mutah Shrine District, Karak, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Mutah Battle Shrines", "Ja'far bin Abi Talib Shrine", "Al-Karak historic mosques"],
+      "preferred_destinations": "Islamic heritage monuments and historical landmarks"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Turkish"],
+      "preferred_language": "Turkish"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Guiding",
+        "Religious Tours",
+        "Private Tours",
+        "Cultural Experiences"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 30,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Daily",
+      "min_price": 60,
+      "max_price": 115,
+      "notes": "Expertise in Islamic heritage tours and historical context briefing."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Religious Tourism", "History & Culture"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 21,
+      "source": "Religious Tourism Council",
+      "last_updated": "2026-01-12"
+    }
+  },
+  {
+    "sme_id": "SME-KARAK-020",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Yasmin Al-Tarawneh",
+      "description": "Local eco-tourism and wellness guide organizing peaceful nature walks, meditation retreats, and countryside herb-foraging tours in Karak highlands.",
+      "experience_years": 5,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Wellness", "Nature", "Local Experiences"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+962771234520",
+      "mobile": "+962771234520",
+      "email": "yasmin.tarawneh.wellness@gmail.com",
+      "website": null,
+      "whatsapp": "+962771234520"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Al-Karak",
+      "region": "Karak Governorate",
+      "address": "Ain Khneizir area, Karak, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Karak natural springs", "Highland green hills", "Rural retreat spaces"],
+      "preferred_destinations": "Quiet natural spots and medicinal plant trails"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "German"],
+      "preferred_language": "German"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Guiding",
+        "Cultural Experiences",
+        "Local Experiences",
+        "Private Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Specialized Guides", "Local Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "08:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 10,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 45,
+      "max_price": 90,
+      "notes": "Includes wellness itinerary coordination and local herbal workshop."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Wellness", "Nature", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 10,
+      "source": "Holistic Travel Directory",
+      "last_updated": "2026-02-01"
+    }
+  }
+]]

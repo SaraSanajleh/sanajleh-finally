@@ -1,0 +1,3800 @@
+{
+  "duration_days": 3,
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "theme": "Madaba Governorate · nature, photography",
+      "pois": [
+        {
+          "poi": {
+            "id": "poi_004006",
+            "entity_type": "poi",
+            "name": "Ma'in Hot Springs",
+            "role": "anchor",
+            "region": "Madaba Governorate",
+            "city": "Ma'in",
+            "district": "Dead Sea Escarpment",
+            "address": "Ma'in Hot Springs Road, Madaba Governorate, Jordan",
+            "latitude": 31.608333,
+            "longitude": 35.610278,
+            "why_retrieved": [
+              "matches nature interest",
+              "matches photography interest"
+            ],
+            "facts": {
+              "category": "Nature",
+              "subcategory": "Thermal Springs & Spa",
+              "themes": [
+                "Wellness",
+                "Thermal Springs",
+                "Geography",
+                "Relaxation"
+              ],
+              "opening_hours": "09:00",
+              "closing_hours": "21:00",
+              "closed_days": [],
+              "average_visit_minutes": 180,
+              "booking_required": false,
+              "best_visit_time": [
+                "Morning",
+                "Afternoon",
+                "Evening"
+              ],
+              "activity_level": "Medium",
+              "indoor_outdoor": "Outdoor",
+              "entry_fee": 15.0,
+              "currency": "JOD",
+              "pricing_level": "Medium",
+              "highlights": [
+                "Natural hot mineral water cascaded directly over volcanic rocks",
+                "Steamy natural rock cave saunas",
+                "Stunning canyon landscape below sea level",
+                "Public and private resort thermal pool access"
+              ],
+              "notes": "Public entrance and hotel day-pass options have separate pricing structure. Bathing suits required.",
+              "suitable_for": [
+                "Couples",
+                "Solo",
+                "Friends",
+                "Seniors",
+                "Family"
+              ]
+            }
+          },
+          "restaurants": [],
+          "dining_available": false,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_004029",
+              "km": 4.3
+            },
+            {
+              "poi_id": "poi_004018",
+              "km": 19.1
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_004016",
+            "entity_type": "poi",
+            "name": "Al-Faisaliyah Viewpoint",
+            "role": "anchor",
+            "region": "Madaba Governorate",
+            "city": "Faisaliyah",
+            "district": "Faisaliyah Heights",
+            "address": "Mount Nebo Highway, Faisaliyah, Jordan",
+            "latitude": 31.751389,
+            "longitude": 35.759444,
+            "why_retrieved": [
+              "matches photography interest"
+            ],
+            "facts": {
+              "category": "Viewpoint",
+              "subcategory": "Scenic Lookout",
+              "themes": [
+                "Panoramas",
+                "Sunsets",
+                "Landscape Photography"
+              ],
+              "opening_hours": "",
+              "closing_hours": "",
+              "closed_days": [],
+              "average_visit_minutes": 20,
+              "booking_required": false,
+              "best_visit_time": [
+                "Afternoon",
+                "Evening"
+              ],
+              "activity_level": "Low",
+              "indoor_outdoor": "Outdoor",
+              "entry_fee": 0,
+              "currency": "JOD",
+              "pricing_level": "Free",
+              "highlights": [
+                "Unobstructed views over the Great Rift Valley landscape",
+                "Prime location for photographing sunsets over the Dead Sea",
+                "Convenient roadside stopping area with tea stalls"
+              ],
+              "notes": "Informal roadside viewpoint accessible anytime.",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Seniors"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_004003",
+              "entity_type": "restaurant",
+              "name": "Carob House",
+              "role": "",
+              "region": "Madaba Governorate",
+              "city": "Madaba",
+              "district": "City Center",
+              "address": "Al-Serb Street, Madaba",
+              "latitude": 31.718012,
+              "longitude": 35.791544,
+              "why_retrieved": [
+                "matches photography interest",
+                "serves preferred cuisine: Jordanian",
+                "~4.8 km away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Farm-to-Table / Sustainable",
+                "cuisine_types": [
+                  "Jordanian",
+                  "Levantine",
+                  "Vegetarian/Vegan"
+                ],
+                "meal_types": [
+                  "Breakfast",
+                  "Brunch",
+                  "Lunch",
+                  "Dinner",
+                  "Coffee/Tea"
+                ],
+                "signature_dishes": [
+                  "Seasonal Farm Salad",
+                  "Herbal Infusions",
+                  "Artisanal Flatbreads"
+                ],
+                "service_style": "Casual Dining",
+                "atmosphere": "Quiet/Relaxed",
+                "best_visit_time": [
+                  "Morning",
+                  "Afternoon"
+                ],
+                "average_cost_per_person": 15.0,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian",
+                  "Vegan",
+                  "Gluten-Free"
+                ],
+                "occasion_suitability": [
+                  "Casual Hangout",
+                  "Date Night",
+                  "Family Gathering"
+                ],
+                "suitable_for": [
+                  "Family",
+                  "Couples",
+                  "Solo",
+                  "Friends",
+                  "Business",
+                  "Students"
+                ],
+                "opening_hours": "09:00",
+                "closing_hours": "22:00",
+                "average_dining_minutes": 80,
+                "notes": "Seasonal menu changes frequently based on local farm harvests."
+              }
+            },
+            {
+              "id": "restaurant_004020",
+              "entity_type": "restaurant",
+              "name": "Mount Nebo Rest Area Restaurant",
+              "role": "",
+              "region": "Madaba Governorate",
+              "city": "Madaba",
+              "district": "Mount Nebo Area",
+              "address": "Mount Nebo Visitor Complex, Madaba Governorate",
+              "latitude": 31.768102,
+              "longitude": 35.725514,
+              "why_retrieved": [
+                "~3.7 km away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Tourist Stop & Levantine Dining",
+                "cuisine_types": [
+                  "Levantine",
+                  "International"
+                ],
+                "meal_types": [
+                  "Breakfast",
+                  "Lunch",
+                  "Coffee/Tea"
+                ],
+                "signature_dishes": [
+                  "Fresh Fruit Juices",
+                  "Grilled Chicken Sandwich",
+                  "Arabic Coffee"
+                ],
+                "service_style": "Casual Dining",
+                "atmosphere": "Casual",
+                "best_visit_time": [
+                  "Morning",
+                  "Afternoon"
+                ],
+                "average_cost_per_person": 8.0,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Casual Hangout"
+                ],
+                "suitable_for": [
+                  "Family",
+                  "Groups",
+                  "Solo",
+                  "Seniors"
+                ],
+                "opening_hours": "08:00",
+                "closing_hours": "18:00",
+                "average_dining_minutes": 45,
+                "notes": "Directly accessible from the Mount Nebo ticket lobby and souvenir plaza."
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_004024",
+              "km": 3.4
+            },
+            {
+              "poi_id": "poi_004034",
+              "km": 5.1
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_004018",
+            "entity_type": "poi",
+            "name": "Wadi Wala Dam",
+            "role": "anchor",
+            "region": "Madaba Governorate",
+            "city": "Wala",
+            "district": "South Madaba Countryside",
+            "address": "King's Highway Route 35, Madaba Governorate, Jordan",
+            "latitude": 31.564722,
+            "longitude": 35.805278,
+            "why_retrieved": [
+              "matches nature interest"
+            ],
+            "facts": {
+              "category": "Nature",
+              "subcategory": "Reservoir & Wetland",
+              "themes": [
+                "Wetlands",
+                "Water Resources",
+                "Picnicking",
+                "Nature"
+              ],
+              "opening_hours": "",
+              "closing_hours": "",
+              "closed_days": [],
+              "average_visit_minutes": 60,
+              "booking_required": false,
+              "best_visit_time": [
+                "Morning",
+                "Afternoon"
+              ],
+              "activity_level": "Low",
+              "indoor_outdoor": "Outdoor",
+              "entry_fee": 0,
+              "currency": "JOD",
+              "pricing_level": "Free",
+              "highlights": [
+                "Vast freshwater lake set against arid desert hills",
+                "Lush green valley ecosystem supported by perennial water flow",
+                "Birdwatching opportunities during spring and autumn migrations"
+              ],
+              "notes": "Swimming in the reservoir is strictly prohibited for safety reasons.",
+              "suitable_for": [
+                "Family",
+                "Friends",
+                "Solo",
+                "Couples"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_004014",
+              "entity_type": "restaurant",
+              "name": "Al-Bustan Restaurant",
+              "role": "",
+              "region": "Madaba Governorate",
+              "city": "Madaba",
+              "district": "Outer City",
+              "address": "Main Ring Road, Madaba",
+              "latitude": 31.708892,
+              "longitude": 35.788541,
+              "why_retrieved": [
+                "serves preferred cuisine: Jordanian",
+                "~16.1 km away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Levantine Garden & Grill",
+                "cuisine_types": [
+                  "Jordanian",
+                  "Levantine",
+                  "Middle Eastern"
+                ],
+                "meal_types": [
+                  "Lunch",
+                  "Dinner"
+                ],
+                "signature_dishes": [
+                  "Mixed Grill Skewers",
+                  "Fattoush",
+                  "Grilled Shish Taouk"
+                ],
+                "service_style": "Casual Dining",
+                "atmosphere": "Scenic/Outdoor",
+                "best_visit_time": [
+                  "Afternoon",
+                  "Evening"
+                ],
+                "average_cost_per_person": 12.0,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Family Gathering",
+                  "Celebration/Group Event"
+                ],
+                "suitable_for": [
+                  "Family",
+                  "Groups",
+                  "Friends",
+                  "Children"
+                ],
+                "opening_hours": "12:00",
+                "closing_hours": "23:30",
+                "average_dining_minutes": 85,
+                "notes": ""
+              }
+            },
+            {
+              "id": "restaurant_004026",
+              "entity_type": "restaurant",
+              "name": "Al-Bustan Restaurant Madaba",
+              "role": "",
+              "region": "Madaba Governorate",
+              "city": "Madaba",
+              "district": "City Center",
+              "address": "Al-Jaish Street, Madaba",
+              "latitude": 31.711802,
+              "longitude": 35.795211,
+              "why_retrieved": [
+                "serves preferred cuisine: Jordanian",
+                "~16.4 km away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Middle Eastern & Garden Dining",
+                "cuisine_types": [
+                  "Jordanian",
+                  "Levantine",
+                  "Middle Eastern"
+                ],
+                "meal_types": [
+                  "Lunch",
+                  "Dinner"
+                ],
+                "signature_dishes": [
+                  "Mixed Grill Platter",
+                  "Hummus Beiruti",
+                  "Lamb Fukhara"
+                ],
+                "service_style": "Casual Dining",
+                "atmosphere": "Traditional",
+                "best_visit_time": [
+                  "Afternoon",
+                  "Evening"
+                ],
+                "average_cost_per_person": 12.0,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Family Gathering",
+                  "Celebration/Group Event"
+                ],
+                "suitable_for": [
+                  "Family",
+                  "Groups",
+                  "Friends",
+                  "Seniors"
+                ],
+                "opening_hours": "12:00",
+                "closing_hours": "23:30",
+                "average_dining_minutes": 75,
+                "notes": ""
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_004039",
+              "km": 16.2
+            },
+            {
+              "poi_id": "poi_004026",
+              "km": 16.6
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_004024",
+            "entity_type": "poi",
+            "name": "Moses Spring (Ayn Musa)",
+            "role": "anchor",
+            "region": "Madaba Governorate",
+            "city": "Faisaliyah",
+            "district": "Wadi Ayn Musa",
+            "address": "Wadi Ayn Musa Road, Madaba Governorate, Jordan",
+            "latitude": 31.776111,
+            "longitude": 35.738889,
+            "why_retrieved": [
+              "matches nature interest"
+            ],
+            "facts": {
+              "category": "Religious",
+              "subcategory": "Holy Spring & Valley",
+              "themes": [
+                "Biblical Traditions",
+                "Natural Springs",
+                "Monasticism"
+              ],
+              "opening_hours": "",
+              "closing_hours": "",
+              "closed_days": [],
+              "average_visit_minutes": 45,
+              "booking_required": false,
+              "best_visit_time": [
+                "Morning",
+                "Afternoon"
+              ],
+              "activity_level": "Low",
+              "indoor_outdoor": "Outdoor",
+              "entry_fee": 0,
+              "currency": "JOD",
+              "pricing_level": "Free",
+              "highlights": [
+                "Natural freshwater spring emerging from limestone rock",
+                "Ancient Byzantine monastic church ruins alongside stream",
+                "Terraced olive and fig groves in a scenic mountain gorge"
+              ],
+              "notes": "Located on the winding descent road past Mount Nebo toward the Dead Sea.",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Seniors"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_004045",
+              "entity_type": "restaurant",
+              "name": "Mt. Nebo Sunset Terrace Cafe",
+              "role": "",
+              "region": "Madaba Governorate",
+              "city": "Madaba",
+              "district": "Mount Nebo Area",
+              "address": "Mount Nebo Main Road, Madaba Governorate",
+              "latitude": 31.765012,
+              "longitude": 35.731201,
+              "why_retrieved": [
+                "~1.4 km away"
+              ],
+              "facts": {
+                "category": "Cafe",
+                "subcategory": "Scenic Terrace & Cafe",
+                "cuisine_types": [
+                  "Cafe/Desserts"
+                ],
+                "meal_types": [
+                  "Snacks",
+                  "Coffee/Tea"
+                ],
+                "signature_dishes": [
+                  "Bedouin Cardamom Tea",
+                  "Fresh Orange Juice",
+                  "Baklava Plate"
+                ],
+                "service_style": "Cafe",
+                "atmosphere": "Quiet/Relaxed",
+                "best_visit_time": [
+                  "Afternoon",
+                  "Evening"
+                ],
+                "average_cost_per_person": 5.0,
+                "currency": "JOD",
+                "pricing_level": "Low",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Casual Hangout",
+                  "Date Night"
+                ],
+                "suitable_for": [
+                  "Couples",
+                  "Family",
+                  "Solo",
+                  "Friends",
+                  "Seniors"
+                ],
+                "opening_hours": "09:00",
+                "closing_hours": "20:00",
+                "average_dining_minutes": 45,
+                "notes": "Best visited 1 hour prior to sunset for optimal lighting and scenery."
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_004016",
+              "km": 3.4
+            },
+            {
+              "poi_id": "poi_004034",
+              "km": 8.5
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_004029",
+            "entity_type": "poi",
+            "name": "Dead Sea Panorama Complex (Madaba Overlook)",
+            "role": "anchor",
+            "region": "Madaba Governorate",
+            "city": "Ma'in",
+            "district": "Dead Sea Escarpment",
+            "address": "Panorama Complex Road, Off Ma'in Road, Madaba Governorate, Jordan",
+            "latitude": 31.646944,
+            "longitude": 35.608889,
+            "why_retrieved": [],
+            "facts": {
+              "category": "Viewpoint",
+              "subcategory": "Scenic Complex & Museum",
+              "themes": [
+                "Panoramas",
+                "Geology",
+                "Dead Sea Views",
+                "Eco-Tourism"
+              ],
+              "opening_hours": "09:00",
+              "closing_hours": "18:00",
+              "closed_days": [],
+              "average_visit_minutes": 90,
+              "booking_required": false,
+              "best_visit_time": [
+                "Afternoon",
+                "Evening"
+              ],
+              "activity_level": "Low",
+              "indoor_outdoor": "Mixed",
+              "entry_fee": 2.0,
+              "currency": "JOD",
+              "pricing_level": "Low",
+              "highlights": [
+                "Unrivaled cliff-edge viewpoint looking down over the entire Dead Sea basin",
+                "Exhibits detailing the formation and environmental conservation of the Dead Sea",
+                "Cliff-edge sunset viewing terrace and botanical walk",
+                "Spectacular photography opportunities"
+              ],
+              "notes": "Excellent sunset stop when traveling between Madaba and the Dead Sea resorts.",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Seniors",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [],
+          "dining_available": false,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_004006",
+              "km": 4.3
+            },
+            {
+              "poi_id": "poi_004016",
+              "km": 18.4
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_004026",
+            "entity_type": "poi",
+            "name": "Sayyidat al-Jabal (Our Lady of the Mount) Church",
+            "role": "discovery",
+            "region": "Madaba Governorate",
+            "city": "Madaba",
+            "district": "Downtown Madaba",
+            "address": "Al-Jabal Street, Madaba, Jordan",
+            "latitude": 31.713889,
+            "longitude": 35.794444,
+            "why_retrieved": [],
+            "facts": {
+              "category": "Religious",
+              "subcategory": "Christian Shrine",
+              "themes": [
+                "Christian Heritage",
+                "Modern Mosaics",
+                "Pilgrimage"
+              ],
+              "opening_hours": "08:30",
+              "closing_hours": "18:00",
+              "closed_days": [],
+              "average_visit_minutes": 35,
+              "booking_required": false,
+              "best_visit_time": [
+                "Morning",
+                "Afternoon"
+              ],
+              "activity_level": "Low",
+              "indoor_outdoor": "Indoor",
+              "entry_fee": 0,
+              "currency": "JOD",
+              "pricing_level": "Free",
+              "highlights": [
+                "Contemporary Jordanian mosaic artwork installed across sanctuary walls",
+                "Peaceful devotional atmosphere and prayer chapel",
+                "Active parish life showcasing Madaba's contemporary Christian culture"
+              ],
+              "notes": "Active church; visitors should refrain from photography during liturgical services.",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Seniors"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_004004",
+              "entity_type": "restaurant",
+              "name": "Jaw Zaman",
+              "role": "",
+              "region": "Madaba Governorate",
+              "city": "Madaba",
+              "district": "City Center",
+              "address": "Palestine Street, Madaba",
+              "latitude": 31.714821,
+              "longitude": 35.795112,
+              "why_retrieved": [
+                "serves preferred cuisine: Jordanian",
+                "~121 m away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Levantine Grill & Cafe",
+                "cuisine_types": [
+                  "Jordanian",
+                  "Levantine",
+                  "Middle Eastern"
+                ],
+                "meal_types": [
+                  "Breakfast",
+                  "Lunch",
+                  "Dinner",
+                  "Coffee/Tea"
+                ],
+                "signature_dishes": [
+                  "Mixed Grill Platter",
+                  "Hummus with Meat",
+                  "Arayes"
+                ],
+                "service_style": "Casual Dining",
+                "atmosphere": "Lively/Social",
+                "best_visit_time": [
+                  "Afternoon",
+                  "Evening"
+                ],
+                "average_cost_per_person": 10.0,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Casual Hangout",
+                  "Family Gathering",
+                  "Celebration/Group Event"
+                ],
+                "suitable_for": [
+                  "Family",
+                  "Friends",
+                  "Groups",
+                  "Students"
+                ],
+                "opening_hours": "08:00",
+                "closing_hours": "00:00",
+                "average_dining_minutes": 70,
+                "notes": ""
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_004034",
+              "km": 0.2
+            },
+            {
+              "poi_id": "poi_004039",
+              "km": 5.2
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_004034",
+            "entity_type": "poi",
+            "name": "Madaba Art Space & Gallery",
+            "role": "discovery",
+            "region": "Madaba Governorate",
+            "city": "Madaba",
+            "district": "Downtown Madaba",
+            "address": "King Hussein Street, Madaba, Jordan",
+            "latitude": 31.716111,
+            "longitude": 35.794167,
+            "why_retrieved": [],
+            "facts": {
+              "category": "Entertainment",
+              "subcategory": "Art Gallery & Cultural Center",
+              "themes": [
+                "Contemporary Art",
+                "Culture",
+                "Heritage Buildings",
+                "Local Community"
+              ],
+              "opening_hours": "10:00",
+              "closing_hours": "19:00",
+              "closed_days": [
+                "Sunday"
+              ],
+              "average_visit_minutes": 40,
+              "booking_required": false,
+              "best_visit_time": [
+                "Afternoon",
+                "Evening"
+              ],
+              "activity_level": "Low",
+              "indoor_outdoor": "Indoor",
+              "entry_fee": 0,
+              "currency": "JOD",
+              "pricing_level": "Free",
+              "highlights": [
+                "Exhibitions featuring contemporary Jordanian painters and sculptors",
+                "Historic heritage house atmosphere with central stone courtyard",
+                "Opportunity to purchase original art pieces and artisan prints"
+              ],
+              "notes": "Free public admission; gallery sales support local working artists.",
+              "suitable_for": [
+                "Couples",
+                "Solo",
+                "Friends",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_004019",
+              "entity_type": "restaurant",
+              "name": "Shawarma Al-Reem Madaba",
+              "role": "",
+              "region": "Madaba Governorate",
+              "city": "Madaba",
+              "district": "City Center",
+              "address": "Palestine Street, Madaba",
+              "latitude": 31.716104,
+              "longitude": 35.79482,
+              "why_retrieved": [
+                "matches food interest",
+                "~62 m away"
+              ],
+              "facts": {
+                "category": "Fast Food",
+                "subcategory": "Levantine Shawarma & Fast Food",
+                "cuisine_types": [
+                  "Fast Food",
+                  "Levantine"
+                ],
+                "meal_types": [
+                  "Lunch",
+                  "Dinner",
+                  "Snacks"
+                ],
+                "signature_dishes": [
+                  "Chicken Shawarma Saj Wrap",
+                  "Beef Shawarma Platter",
+                  "Garlic Fries"
+                ],
+                "service_style": "Fast Food",
+                "atmosphere": "Lively/Social",
+                "best_visit_time": [
+                  "Afternoon",
+                  "Evening",
+                  "Night"
+                ],
+                "average_cost_per_person": 3.5,
+                "currency": "JOD",
+                "pricing_level": "Low",
+                "dietary_options": [
+                  "Halal"
+                ],
+                "occasion_suitability": [
+                  "Casual Hangout"
+                ],
+                "suitable_for": [
+                  "Solo",
+                  "Students",
+                  "Friends",
+                  "Family"
+                ],
+                "opening_hours": "11:00",
+                "closing_hours": "01:00",
+                "average_dining_minutes": 25,
+                "notes": ""
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_004026",
+              "km": 0.2
+            },
+            {
+              "poi_id": "poi_004016",
+              "km": 5.1
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_004039",
+            "entity_type": "poi",
+            "name": "Al-Lajjun / East Madaba Desert Border Viewpoint",
+            "role": "discovery",
+            "region": "Madaba Governorate",
+            "city": "Madaba",
+            "district": "Eastern Plateau",
+            "address": "East Madaba Ring Road, Madaba Governorate, Jordan",
+            "latitude": 31.705278,
+            "longitude": 35.848889,
+            "why_retrieved": [],
+            "facts": {
+              "category": "Viewpoint",
+              "subcategory": "Desert Edge Vista",
+              "themes": [
+                "Geography",
+                "Panoramas",
+                "Desert Landscapes"
+              ],
+              "opening_hours": "",
+              "closing_hours": "",
+              "closed_days": [],
+              "average_visit_minutes": 20,
+              "booking_required": false,
+              "best_visit_time": [
+                "Afternoon",
+                "Evening"
+              ],
+              "activity_level": "Low",
+              "indoor_outdoor": "Outdoor",
+              "entry_fee": 0,
+              "currency": "JOD",
+              "pricing_level": "Free",
+              "highlights": [
+                "Unobstructed views over vast desert steppe landscapes",
+                "Geographic border transition zone from green fields to desert",
+                "Quiet rural location ideal for landscape photography"
+              ],
+              "notes": "Informal roadside viewpoint accessible via car.",
+              "suitable_for": [
+                "Solo",
+                "Couples",
+                "Friends"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_004022",
+              "entity_type": "restaurant",
+              "name": "Al-Naimat Grill & Seafood",
+              "role": "",
+              "region": "Madaba Governorate",
+              "city": "Madaba",
+              "district": "City Center",
+              "address": "Al-Jaish Street, Madaba",
+              "latitude": 31.712501,
+              "longitude": 35.796102,
+              "why_retrieved": [
+                "matches food interest",
+                "~5.1 km away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Charcoal Grills & Seafood",
+                "cuisine_types": [
+                  "Levantine",
+                  "Seafood",
+                  "Middle Eastern"
+                ],
+                "meal_types": [
+                  "Lunch",
+                  "Dinner"
+                ],
+                "signature_dishes": [
+                  "Fried Sea Bass",
+                  "Kebab Halabi",
+                  "Grilled Bream"
+                ],
+                "service_style": "Casual Dining",
+                "atmosphere": "Casual",
+                "best_visit_time": [
+                  "Afternoon",
+                  "Evening"
+                ],
+                "average_cost_per_person": 10.0,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [
+                  "Halal"
+                ],
+                "occasion_suitability": [
+                  "Family Gathering",
+                  "Casual Hangout"
+                ],
+                "suitable_for": [
+                  "Family",
+                  "Friends",
+                  "Groups"
+                ],
+                "opening_hours": "12:00",
+                "closing_hours": "23:00",
+                "average_dining_minutes": 65,
+                "notes": ""
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_004026",
+              "km": 5.2
+            },
+            {
+              "poi_id": "poi_004034",
+              "km": 5.3
+            }
+          ]
+        }
+      ],
+      "hotels": [
+        {
+          "id": "hotel_000074",
+          "entity_type": "hotel",
+          "name": "Rumman Hotel",
+          "role": "",
+          "region": "Madaba Governorate",
+          "city": "Madaba",
+          "district": "Aisha Umm Al Mu'mineen Street",
+          "address": "Aisha Umm Al Mu'mineen St., Madaba 17110, Jordan",
+          "latitude": 31.725229,
+          "longitude": 35.795522,
+          "why_retrieved": [],
+          "facts": {
+            "category": "Boutique Hotel",
+            "subcategory": "Small Family-Run Boutique Hotel",
+            "star_rating": null,
+            "room_types": [
+              "Single",
+              "Double",
+              "Triple",
+              "Suite",
+              "Family Room"
+            ],
+            "amenities": [
+              "WiFi",
+              "Air Conditioning",
+              "Breakfast Included",
+              "Room Service"
+            ],
+            "view_types": [],
+            "best_for": [
+              "Family Vacations",
+              "Romantic Getaways"
+            ],
+            "average_price_per_night": 28,
+            "currency": "JOD",
+            "pricing_level": "Low",
+            "suitable_for": [
+              "Family",
+              "Couples",
+              "Solo",
+              "Friends"
+            ],
+            "check_in": "14:00",
+            "check_out": "10:30",
+            "notes": "Twenty-two rooms including a deluxe family room and a two-bedroom apartment with living room and sofa beds. Check-in is accepted between 14:00 and 21:00. Free public parking includes electric vehicle charging. Telephone +962 5 325 2555."
+          }
+        },
+        {
+          "id": "hotel_000072",
+          "entity_type": "hotel",
+          "name": "Moab Land Hotel",
+          "role": "",
+          "region": "Madaba Governorate",
+          "city": "Madaba",
+          "district": "King Talal Street, city centre",
+          "address": "King Talal Street, opposite the Mosaic Map Church, Madaba, Jordan",
+          "latitude": 31.717714,
+          "longitude": 35.793554,
+          "why_retrieved": [],
+          "facts": {
+            "category": "Hotel",
+            "subcategory": "Budget City Hotel",
+            "star_rating": 2,
+            "room_types": [
+              "Double",
+              "Single",
+              "Triple"
+            ],
+            "amenities": [
+              "WiFi",
+              "Breakfast Included",
+              "Balcony/Terrace"
+            ],
+            "view_types": [
+              "City View"
+            ],
+            "best_for": [
+              "Backpackers",
+              "Adventure Travelers"
+            ],
+            "average_price_per_night": 18,
+            "currency": "JOD",
+            "pricing_level": "Low",
+            "suitable_for": [
+              "Couples",
+              "Solo",
+              "Friends",
+              "Students"
+            ],
+            "check_in": "15:00",
+            "check_out": "11:30",
+            "notes": "Fifteen rooms. Breakfast is a simple continental service with afternoon refreshments, not a full buffet. Airport pickup is available at extra cost and requires flight details in advance. Non-smoking rooms and public areas throughout."
+          }
+        },
+        {
+          "id": "hotel_000069",
+          "entity_type": "hotel",
+          "name": "Saint John Hotel",
+          "role": "",
+          "region": "Madaba Governorate",
+          "city": "Madaba",
+          "district": "Madaba Acropolis, King Talal Street",
+          "address": "King Talal Street, City Acropolis, Madaba, Jordan",
+          "latitude": 31.71527,
+          "longitude": 35.793685,
+          "why_retrieved": [],
+          "facts": {
+            "category": "Hotel",
+            "subcategory": "Family-Run Eco-Friendly Hotel",
+            "star_rating": 3,
+            "room_types": [],
+            "amenities": [
+              "WiFi",
+              "Gym",
+              "Breakfast Included",
+              "TV",
+              "Balcony/Terrace"
+            ],
+            "view_types": [
+              "City View"
+            ],
+            "best_for": [
+              "Family Vacations",
+              "Groups",
+              "Backpackers"
+            ],
+            "average_price_per_night": 25,
+            "currency": "JOD",
+            "pricing_level": "Low",
+            "suitable_for": [
+              "Family",
+              "Couples",
+              "Solo",
+              "Groups",
+              "Seniors"
+            ],
+            "check_in": "13:00",
+            "check_out": "12:00",
+            "notes": "Twenty-two rooms. Built on the Madaba acropolis, the highest point in the town. A guest kitchen is available in addition to the rooftop restaurant and sky bar. Express check-in and check-out are offered."
+          }
+        },
+        {
+          "id": "hotel_000068",
+          "entity_type": "hotel",
+          "name": "Mosaic City Hotel",
+          "role": "",
+          "region": "Madaba Governorate",
+          "city": "Madaba",
+          "district": "Al Yarmouk Street",
+          "address": "21 Al Yarmouk Street, P.O. Box 962, Madaba 17110, Jordan",
+          "latitude": 31.721096,
+          "longitude": 35.792603,
+          "why_retrieved": [],
+          "facts": {
+            "category": "Hotel",
+            "subcategory": "City Hotel",
+            "star_rating": 3,
+            "room_types": [
+              "Single",
+              "Double",
+              "Twin",
+              "Triple",
+              "Family Room"
+            ],
+            "amenities": [
+              "WiFi",
+              "Air Conditioning",
+              "Breakfast Included",
+              "Minibar",
+              "Balcony/Terrace"
+            ],
+            "view_types": [
+              "City View",
+              "Garden View"
+            ],
+            "best_for": [
+              "Family Vacations",
+              "Groups"
+            ],
+            "average_price_per_night": 50,
+            "currency": "JOD",
+            "pricing_level": "Medium",
+            "suitable_for": [
+              "Family",
+              "Couples",
+              "Solo",
+              "Groups"
+            ],
+            "check_in": "14:00",
+            "check_out": "12:00",
+            "notes": "Fifty rooms, all en suite. Reception is staffed 24 hours by multilingual staff and can be reached on +962 5 3251313. Buffet breakfast is included in the rate. Lunch and dinner are served on request rather than to a fixed schedule."
+          }
+        }
+      ],
+      "events": [
+        {
+          "id": "event_000167",
+          "entity_type": "event",
+          "name": "National Celebrations Programme - Madaba",
+          "role": "",
+          "region": "Madaba",
+          "city": "Madaba",
+          "district": "Madaba",
+          "address": "Madaba Visitor Center, Madaba, Jordan",
+          "latitude": 0.0,
+          "longitude": 0.0,
+          "why_retrieved": [],
+          "facts": {
+            "category": "Cultural Event",
+            "subcategory": null,
+            "themes": [
+              "National and Family Activities"
+            ],
+            "typical_months": [],
+            "typical_seasons": [],
+            "recurrence": "Annual",
+            "duration_minutes": null,
+            "ticket_cost": null,
+            "currency": [],
+            "pricing_level": null,
+            "indoor_outdoor": null,
+            "highlights": [
+              "National and Family Activities",
+              "Community activities"
+            ],
+            "languages": [
+              "Arabic"
+            ],
+            "minimum_age": null,
+            "suitable_for": [
+              "Families",
+              "Local Visitors",
+              "Tourists"
+            ]
+          }
+        },
+        {
+          "id": "event_000164",
+          "entity_type": "event",
+          "name": "Eid Joy Celebration - Madaba",
+          "role": "",
+          "region": "Madaba",
+          "city": "Madaba",
+          "district": "Madaba",
+          "address": "Zaha Cultural Center, Ma'in, Madaba, Jordan",
+          "latitude": 0.0,
+          "longitude": 0.0,
+          "why_retrieved": [],
+          "facts": {
+            "category": "Cultural Event",
+            "subcategory": null,
+            "themes": [
+              "Eid and Family"
+            ],
+            "typical_months": [],
+            "typical_seasons": [],
+            "recurrence": "Annual",
+            "duration_minutes": null,
+            "ticket_cost": null,
+            "currency": [],
+            "pricing_level": null,
+            "indoor_outdoor": null,
+            "highlights": [
+              "Eid and Family",
+              "Community activities"
+            ],
+            "languages": [
+              "Arabic"
+            ],
+            "minimum_age": null,
+            "suitable_for": [
+              "Families",
+              "Local Visitors",
+              "Tourists"
+            ]
+          }
+        },
+        {
+          "id": "event_000168",
+          "entity_type": "event",
+          "name": "Aesthetics of Place Cultural Programme - Madaba",
+          "role": "",
+          "region": "Madaba",
+          "city": "Madaba",
+          "district": "Madaba",
+          "address": "Madaba Municipality Hall, Madaba, Jordan",
+          "latitude": 0.0,
+          "longitude": 0.0,
+          "why_retrieved": [],
+          "facts": {
+            "category": "Cultural Event",
+            "subcategory": null,
+            "themes": [
+              "Literature and Local Heritage"
+            ],
+            "typical_months": [],
+            "typical_seasons": [],
+            "recurrence": "Annual",
+            "duration_minutes": null,
+            "ticket_cost": null,
+            "currency": [],
+            "pricing_level": null,
+            "indoor_outdoor": null,
+            "highlights": [
+              "Literature and Local Heritage",
+              "Community activities"
+            ],
+            "languages": [
+              "Arabic"
+            ],
+            "minimum_age": null,
+            "suitable_for": [
+              "Families",
+              "Local Visitors",
+              "Tourists"
+            ]
+          }
+        }
+      ],
+      "summary": "Madaba Governorate: 5 anchor + 3 discovery POIs; 8 restaurants; 4 hotels; 3 events."
+    },
+    {
+      "cluster_id": 1,
+      "theme": "Madaba Governorate · nature",
+      "pois": [
+        {
+          "poi": {
+            "id": "poi_004025",
+            "entity_type": "poi",
+            "name": "Wadi Hidan Canyon",
+            "role": "anchor",
+            "region": "Madaba Governorate",
+            "city": "Dhiban",
+            "district": "Wadi Hidan Area",
+            "address": "Wadi Hidan Access Road, Dhiban District, Jordan",
+            "latitude": 31.488889,
+            "longitude": 35.719444,
+            "why_retrieved": [
+              "matches nature interest"
+            ],
+            "facts": {
+              "category": "Nature",
+              "subcategory": "Canyon & River Trail",
+              "themes": [
+                "Canyoning",
+                "Eco-Adventure",
+                "Basalt Formations",
+                "Nature"
+              ],
+              "opening_hours": "08:00",
+              "closing_hours": "16:00",
+              "closed_days": [],
+              "average_visit_minutes": 240,
+              "booking_required": null,
+              "best_visit_time": [
+                "Morning"
+              ],
+              "activity_level": "High",
+              "indoor_outdoor": "Outdoor",
+              "entry_fee": 7.0,
+              "currency": "JOD",
+              "pricing_level": "Low",
+              "highlights": [
+                "Swinging and swimming through deep black basalt canyon pools",
+                "Natural freshwater waterfalls flowing year-round",
+                "Guided eco-adventure water trekking trails"
+              ],
+              "notes": "Operations subject to seasonal weather; closed during heavy winter rains due to flash flood safety.",
+              "suitable_for": [
+                "Friends",
+                "Solo",
+                "Couples"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_004014",
+              "entity_type": "restaurant",
+              "name": "Al-Bustan Restaurant",
+              "role": "",
+              "region": "Madaba Governorate",
+              "city": "Madaba",
+              "district": "Outer City",
+              "address": "Main Ring Road, Madaba",
+              "latitude": 31.708892,
+              "longitude": 35.788541,
+              "why_retrieved": [
+                "serves preferred cuisine: Jordanian",
+                "~25.3 km away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Levantine Garden & Grill",
+                "cuisine_types": [
+                  "Jordanian",
+                  "Levantine",
+                  "Middle Eastern"
+                ],
+                "meal_types": [
+                  "Lunch",
+                  "Dinner"
+                ],
+                "signature_dishes": [
+                  "Mixed Grill Skewers",
+                  "Fattoush",
+                  "Grilled Shish Taouk"
+                ],
+                "service_style": "Casual Dining",
+                "atmosphere": "Scenic/Outdoor",
+                "best_visit_time": [
+                  "Afternoon",
+                  "Evening"
+                ],
+                "average_cost_per_person": 12.0,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Family Gathering",
+                  "Celebration/Group Event"
+                ],
+                "suitable_for": [
+                  "Family",
+                  "Groups",
+                  "Friends",
+                  "Children"
+                ],
+                "opening_hours": "12:00",
+                "closing_hours": "23:30",
+                "average_dining_minutes": 85,
+                "notes": ""
+              }
+            },
+            {
+              "id": "restaurant_004026",
+              "entity_type": "restaurant",
+              "name": "Al-Bustan Restaurant Madaba",
+              "role": "",
+              "region": "Madaba Governorate",
+              "city": "Madaba",
+              "district": "City Center",
+              "address": "Al-Jaish Street, Madaba",
+              "latitude": 31.711802,
+              "longitude": 35.795211,
+              "why_retrieved": [
+                "serves preferred cuisine: Jordanian",
+                "~25.8 km away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Middle Eastern & Garden Dining",
+                "cuisine_types": [
+                  "Jordanian",
+                  "Levantine",
+                  "Middle Eastern"
+                ],
+                "meal_types": [
+                  "Lunch",
+                  "Dinner"
+                ],
+                "signature_dishes": [
+                  "Mixed Grill Platter",
+                  "Hummus Beiruti",
+                  "Lamb Fukhara"
+                ],
+                "service_style": "Casual Dining",
+                "atmosphere": "Traditional",
+                "best_visit_time": [
+                  "Afternoon",
+                  "Evening"
+                ],
+                "average_cost_per_person": 12.0,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Family Gathering",
+                  "Celebration/Group Event"
+                ],
+                "suitable_for": [
+                  "Family",
+                  "Groups",
+                  "Friends",
+                  "Seniors"
+                ],
+                "opening_hours": "12:00",
+                "closing_hours": "23:30",
+                "average_dining_minutes": 75,
+                "notes": ""
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_004010",
+              "km": 14.0
+            },
+            {
+              "poi_id": "poi_004004",
+              "km": 26.1
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_004010",
+            "entity_type": "poi",
+            "name": "Wadi Mujib Biosphere Reserve (Madaba Approach)",
+            "role": "anchor",
+            "region": "Madaba Governorate",
+            "city": "Mujib",
+            "district": "Dead Sea Highway",
+            "address": "Dead Sea Highway, Madaba Governorate, Jordan",
+            "latitude": 31.466944,
+            "longitude": 35.573611,
+            "why_retrieved": [
+              "matches nature interest"
+            ],
+            "facts": {
+              "category": "Nature",
+              "subcategory": "Nature Reserve & Canyon",
+              "themes": [
+                "Canyoning",
+                "Biodiversity",
+                "River Hikes",
+                "Eco-Tourism"
+              ],
+              "opening_hours": "08:00",
+              "closing_hours": "15:00",
+              "closed_days": [],
+              "average_visit_minutes": 240,
+              "booking_required": false,
+              "best_visit_time": [
+                "Morning"
+              ],
+              "activity_level": "High",
+              "indoor_outdoor": "Outdoor",
+              "entry_fee": 21.0,
+              "currency": "JOD",
+              "pricing_level": "High",
+              "highlights": [
+                "Water-hiking through deep, dramatic sandstone Siq gorge",
+                "Climbing up natural waterfalls using ropes and metal ladders",
+                "Unique flora and fauna in the lowest altitude nature reserve in the world",
+                "Swimming in natural river plunge pools"
+              ],
+              "notes": "Closed in winter season (November to March) due to flash flood risk. Ability to swim mandatory.",
+              "suitable_for": [
+                "Friends",
+                "Solo",
+                "Couples"
+              ]
+            }
+          },
+          "restaurants": [],
+          "dining_available": false,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_004025",
+              "km": 14.0
+            },
+            {
+              "poi_id": "poi_004004",
+              "km": 34.5
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_004031",
+            "entity_type": "poi",
+            "name": "King Hussein Public Park Madaba",
+            "role": "anchor",
+            "region": "Madaba Governorate",
+            "city": "Madaba",
+            "district": "Madaba City",
+            "address": "King Hussein Street, Madaba, Jordan",
+            "latitude": 31.725833,
+            "longitude": 35.798611,
+            "why_retrieved": [],
+            "facts": {
+              "category": "Park",
+              "subcategory": "Urban Community Park",
+              "themes": [
+                "Urban Green Space",
+                "Family Recreation",
+                "Local Life"
+              ],
+              "opening_hours": "08:00",
+              "closing_hours": "22:00",
+              "closed_days": [],
+              "average_visit_minutes": 45,
+              "booking_required": false,
+              "best_visit_time": [
+                "Afternoon",
+                "Evening"
+              ],
+              "activity_level": "Low",
+              "indoor_outdoor": "Outdoor",
+              "entry_fee": 0,
+              "currency": "JOD",
+              "pricing_level": "Free",
+              "highlights": [
+                "Shaded family seating areas and landscaped olive gardens",
+                "Safe enclosed children's playground equipment",
+                "Walking and jogging paths away from central traffic"
+              ],
+              "notes": "Family-friendly environment; busiest on Friday and Saturday afternoons.",
+              "suitable_for": [
+                "Family",
+                "Children",
+                "Seniors",
+                "Solo",
+                "Friends"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_004038",
+              "entity_type": "restaurant",
+              "name": "Abu Ali Broasted & Seafood",
+              "role": "",
+              "region": "Madaba Governorate",
+              "city": "Madaba",
+              "district": "City Center",
+              "address": "Al-Salt Street, Madaba",
+              "latitude": 31.718012,
+              "longitude": 35.794911,
+              "why_retrieved": [
+                "matches food interest",
+                "~937 m away"
+              ],
+              "facts": {
+                "category": "Fast Food",
+                "subcategory": "Broasted Chicken & Fried Fish",
+                "cuisine_types": [
+                  "Fast Food",
+                  "Seafood"
+                ],
+                "meal_types": [
+                  "Lunch",
+                  "Dinner"
+                ],
+                "signature_dishes": [
+                  "Spicy Broasted Chicken Combo",
+                  "Crispy Fried Fish Fillet Platter",
+                  "Garlic Fries"
+                ],
+                "service_style": "Fast Food",
+                "atmosphere": "Casual",
+                "best_visit_time": [
+                  "Afternoon",
+                  "Evening",
+                  "Night"
+                ],
+                "average_cost_per_person": 4.5,
+                "currency": "JOD",
+                "pricing_level": "Low",
+                "dietary_options": [
+                  "Halal"
+                ],
+                "occasion_suitability": [
+                  "Casual Hangout"
+                ],
+                "suitable_for": [
+                  "Solo",
+                  "Students",
+                  "Family",
+                  "Friends"
+                ],
+                "opening_hours": "11:00",
+                "closing_hours": "01:00",
+                "average_dining_minutes": 30,
+                "notes": ""
+              }
+            },
+            {
+              "id": "restaurant_004023",
+              "entity_type": "restaurant",
+              "name": "Al-Ashaer Broasted Chicken",
+              "role": "",
+              "region": "Madaba Governorate",
+              "city": "Madaba",
+              "district": "City Center",
+              "address": "Mecca Street, Madaba",
+              "latitude": 31.716982,
+              "longitude": 35.796812,
+              "why_retrieved": [
+                "matches food interest",
+                "~999 m away"
+              ],
+              "facts": {
+                "category": "Fast Food",
+                "subcategory": "Broasted Chicken & Fast Food",
+                "cuisine_types": [
+                  "Fast Food"
+                ],
+                "meal_types": [
+                  "Lunch",
+                  "Dinner"
+                ],
+                "signature_dishes": [
+                  "4-Piece Broasted Chicken Meal",
+                  "Garlic Paste Dip",
+                  "Spicy Crispy Strips"
+                ],
+                "service_style": "Fast Food",
+                "atmosphere": "Casual",
+                "best_visit_time": [
+                  "Afternoon",
+                  "Evening",
+                  "Night"
+                ],
+                "average_cost_per_person": 4.5,
+                "currency": "JOD",
+                "pricing_level": "Low",
+                "dietary_options": [
+                  "Halal"
+                ],
+                "occasion_suitability": [
+                  "Casual Hangout"
+                ],
+                "suitable_for": [
+                  "Family",
+                  "Solo",
+                  "Friends",
+                  "Students",
+                  "Children"
+                ],
+                "opening_hours": "11:30",
+                "closing_hours": "01:30",
+                "average_dining_minutes": 35,
+                "notes": ""
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_004004",
+              "km": 1.3
+            },
+            {
+              "poi_id": "poi_004025",
+              "km": 27.4
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_004004",
+            "entity_type": "poi",
+            "name": "Madaba Museum",
+            "role": "anchor",
+            "region": "Madaba Governorate",
+            "city": "Madaba",
+            "district": "Downtown Madaba",
+            "address": "Off Palestine Street, Madaba, Jordan",
+            "latitude": 31.715422,
+            "longitude": 35.792489,
+            "why_retrieved": [],
+            "facts": {
+              "category": "Museum",
+              "subcategory": "History & Archaeology Museum",
+              "themes": [
+                "Ethnography",
+                "Byzantine Art",
+                "Bedouin Heritage",
+                "Archaeology"
+              ],
+              "opening_hours": "08:00",
+              "closing_hours": "16:00",
+              "closed_days": [],
+              "average_visit_minutes": 45,
+              "booking_required": false,
+              "best_visit_time": [
+                "Morning",
+                "Afternoon"
+              ],
+              "activity_level": "Low",
+              "indoor_outdoor": "Mixed",
+              "entry_fee": 3.0,
+              "currency": "JOD",
+              "pricing_level": "Low",
+              "highlights": [
+                "Mosaic of Paradise depicting lions, gazelles, and flora",
+                "Collection of traditional 19th and 20th-century Jordanian attire",
+                "Ancient bronze tools, coins, and Roman pottery",
+                "Exhibits hosted within historic Ottoman-era stone courtyard buildings"
+              ],
+              "notes": "Covered by standard Jordan Pass admission.",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Students",
+                "Seniors"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_004024",
+              "entity_type": "restaurant",
+              "name": "Bait Mosaic Restaurant",
+              "role": "",
+              "region": "Madaba Governorate",
+              "city": "Madaba",
+              "district": "City Center",
+              "address": "Al-Hashimi St., near Madaba Museum, Madaba",
+              "latitude": 31.715801,
+              "longitude": 35.79192,
+              "why_retrieved": [
+                "serves preferred cuisine: Jordanian",
+                "~68 m away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Levantine & Traditional Crafts",
+                "cuisine_types": [
+                  "Jordanian",
+                  "Levantine",
+                  "Middle Eastern"
+                ],
+                "meal_types": [
+                  "Lunch",
+                  "Dinner"
+                ],
+                "signature_dishes": [
+                  "Cold Mezze Platter",
+                  "Shish Taouk",
+                  "Moutabal"
+                ],
+                "service_style": "Casual Dining",
+                "atmosphere": "Traditional",
+                "best_visit_time": [
+                  "Afternoon",
+                  "Evening"
+                ],
+                "average_cost_per_person": 13.0,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian",
+                  "Vegan"
+                ],
+                "occasion_suitability": [
+                  "Casual Hangout",
+                  "Family Gathering"
+                ],
+                "suitable_for": [
+                  "Family",
+                  "Couples",
+                  "Solo",
+                  "Friends",
+                  "Seniors"
+                ],
+                "opening_hours": "10:00",
+                "closing_hours": "22:00",
+                "average_dining_minutes": 70,
+                "notes": ""
+              }
+            },
+            {
+              "id": "restaurant_004007",
+              "entity_type": "restaurant",
+              "name": "Bawabit Madaba",
+              "role": "",
+              "region": "Madaba Governorate",
+              "city": "Madaba",
+              "district": "City Center",
+              "address": "Near Archaeological Park, Madaba",
+              "latitude": 31.71534,
+              "longitude": 35.792102,
+              "why_retrieved": [
+                "serves preferred cuisine: Jordanian",
+                "~38 m away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Levantine Buffet & A La Carte",
+                "cuisine_types": [
+                  "Jordanian",
+                  "Levantine",
+                  "Middle Eastern"
+                ],
+                "meal_types": [
+                  "Lunch",
+                  "Dinner"
+                ],
+                "signature_dishes": [
+                  "Jordanian Mansaf",
+                  "Oriental Buffet Spread",
+                  "Mixed Grill"
+                ],
+                "service_style": "Buffet",
+                "atmosphere": "Traditional",
+                "best_visit_time": [
+                  "Afternoon"
+                ],
+                "average_cost_per_person": 12.0,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Celebration/Group Event",
+                  "Family Gathering"
+                ],
+                "suitable_for": [
+                  "Family",
+                  "Groups",
+                  "Seniors",
+                  "Friends"
+                ],
+                "opening_hours": "11:30",
+                "closing_hours": "22:30",
+                "average_dining_minutes": 75,
+                "notes": ""
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_004031",
+              "km": 1.3
+            },
+            {
+              "poi_id": "poi_004025",
+              "km": 26.1
+            }
+          ]
+        }
+      ],
+      "hotels": [
+        {
+          "id": "hotel_000074",
+          "entity_type": "hotel",
+          "name": "Rumman Hotel",
+          "role": "",
+          "region": "Madaba Governorate",
+          "city": "Madaba",
+          "district": "Aisha Umm Al Mu'mineen Street",
+          "address": "Aisha Umm Al Mu'mineen St., Madaba 17110, Jordan",
+          "latitude": 31.725229,
+          "longitude": 35.795522,
+          "why_retrieved": [],
+          "facts": {
+            "category": "Boutique Hotel",
+            "subcategory": "Small Family-Run Boutique Hotel",
+            "star_rating": null,
+            "room_types": [
+              "Single",
+              "Double",
+              "Triple",
+              "Suite",
+              "Family Room"
+            ],
+            "amenities": [
+              "WiFi",
+              "Air Conditioning",
+              "Breakfast Included",
+              "Room Service"
+            ],
+            "view_types": [],
+            "best_for": [
+              "Family Vacations",
+              "Romantic Getaways"
+            ],
+            "average_price_per_night": 28,
+            "currency": "JOD",
+            "pricing_level": "Low",
+            "suitable_for": [
+              "Family",
+              "Couples",
+              "Solo",
+              "Friends"
+            ],
+            "check_in": "14:00",
+            "check_out": "10:30",
+            "notes": "Twenty-two rooms including a deluxe family room and a two-bedroom apartment with living room and sofa beds. Check-in is accepted between 14:00 and 21:00. Free public parking includes electric vehicle charging. Telephone +962 5 325 2555."
+          }
+        },
+        {
+          "id": "hotel_000072",
+          "entity_type": "hotel",
+          "name": "Moab Land Hotel",
+          "role": "",
+          "region": "Madaba Governorate",
+          "city": "Madaba",
+          "district": "King Talal Street, city centre",
+          "address": "King Talal Street, opposite the Mosaic Map Church, Madaba, Jordan",
+          "latitude": 31.717714,
+          "longitude": 35.793554,
+          "why_retrieved": [],
+          "facts": {
+            "category": "Hotel",
+            "subcategory": "Budget City Hotel",
+            "star_rating": 2,
+            "room_types": [
+              "Double",
+              "Single",
+              "Triple"
+            ],
+            "amenities": [
+              "WiFi",
+              "Breakfast Included",
+              "Balcony/Terrace"
+            ],
+            "view_types": [
+              "City View"
+            ],
+            "best_for": [
+              "Backpackers",
+              "Adventure Travelers"
+            ],
+            "average_price_per_night": 18,
+            "currency": "JOD",
+            "pricing_level": "Low",
+            "suitable_for": [
+              "Couples",
+              "Solo",
+              "Friends",
+              "Students"
+            ],
+            "check_in": "15:00",
+            "check_out": "11:30",
+            "notes": "Fifteen rooms. Breakfast is a simple continental service with afternoon refreshments, not a full buffet. Airport pickup is available at extra cost and requires flight details in advance. Non-smoking rooms and public areas throughout."
+          }
+        },
+        {
+          "id": "hotel_000069",
+          "entity_type": "hotel",
+          "name": "Saint John Hotel",
+          "role": "",
+          "region": "Madaba Governorate",
+          "city": "Madaba",
+          "district": "Madaba Acropolis, King Talal Street",
+          "address": "King Talal Street, City Acropolis, Madaba, Jordan",
+          "latitude": 31.71527,
+          "longitude": 35.793685,
+          "why_retrieved": [],
+          "facts": {
+            "category": "Hotel",
+            "subcategory": "Family-Run Eco-Friendly Hotel",
+            "star_rating": 3,
+            "room_types": [],
+            "amenities": [
+              "WiFi",
+              "Gym",
+              "Breakfast Included",
+              "TV",
+              "Balcony/Terrace"
+            ],
+            "view_types": [
+              "City View"
+            ],
+            "best_for": [
+              "Family Vacations",
+              "Groups",
+              "Backpackers"
+            ],
+            "average_price_per_night": 25,
+            "currency": "JOD",
+            "pricing_level": "Low",
+            "suitable_for": [
+              "Family",
+              "Couples",
+              "Solo",
+              "Groups",
+              "Seniors"
+            ],
+            "check_in": "13:00",
+            "check_out": "12:00",
+            "notes": "Twenty-two rooms. Built on the Madaba acropolis, the highest point in the town. A guest kitchen is available in addition to the rooftop restaurant and sky bar. Express check-in and check-out are offered."
+          }
+        },
+        {
+          "id": "hotel_000068",
+          "entity_type": "hotel",
+          "name": "Mosaic City Hotel",
+          "role": "",
+          "region": "Madaba Governorate",
+          "city": "Madaba",
+          "district": "Al Yarmouk Street",
+          "address": "21 Al Yarmouk Street, P.O. Box 962, Madaba 17110, Jordan",
+          "latitude": 31.721096,
+          "longitude": 35.792603,
+          "why_retrieved": [],
+          "facts": {
+            "category": "Hotel",
+            "subcategory": "City Hotel",
+            "star_rating": 3,
+            "room_types": [
+              "Single",
+              "Double",
+              "Twin",
+              "Triple",
+              "Family Room"
+            ],
+            "amenities": [
+              "WiFi",
+              "Air Conditioning",
+              "Breakfast Included",
+              "Minibar",
+              "Balcony/Terrace"
+            ],
+            "view_types": [
+              "City View",
+              "Garden View"
+            ],
+            "best_for": [
+              "Family Vacations",
+              "Groups"
+            ],
+            "average_price_per_night": 50,
+            "currency": "JOD",
+            "pricing_level": "Medium",
+            "suitable_for": [
+              "Family",
+              "Couples",
+              "Solo",
+              "Groups"
+            ],
+            "check_in": "14:00",
+            "check_out": "12:00",
+            "notes": "Fifty rooms, all en suite. Reception is staffed 24 hours by multilingual staff and can be reached on +962 5 3251313. Buffet breakfast is included in the rate. Lunch and dinner are served on request rather than to a fixed schedule."
+          }
+        }
+      ],
+      "events": [
+        {
+          "id": "event_000167",
+          "entity_type": "event",
+          "name": "National Celebrations Programme - Madaba",
+          "role": "",
+          "region": "Madaba",
+          "city": "Madaba",
+          "district": "Madaba",
+          "address": "Madaba Visitor Center, Madaba, Jordan",
+          "latitude": 0.0,
+          "longitude": 0.0,
+          "why_retrieved": [],
+          "facts": {
+            "category": "Cultural Event",
+            "subcategory": null,
+            "themes": [
+              "National and Family Activities"
+            ],
+            "typical_months": [],
+            "typical_seasons": [],
+            "recurrence": "Annual",
+            "duration_minutes": null,
+            "ticket_cost": null,
+            "currency": [],
+            "pricing_level": null,
+            "indoor_outdoor": null,
+            "highlights": [
+              "National and Family Activities",
+              "Community activities"
+            ],
+            "languages": [
+              "Arabic"
+            ],
+            "minimum_age": null,
+            "suitable_for": [
+              "Families",
+              "Local Visitors",
+              "Tourists"
+            ]
+          }
+        },
+        {
+          "id": "event_000164",
+          "entity_type": "event",
+          "name": "Eid Joy Celebration - Madaba",
+          "role": "",
+          "region": "Madaba",
+          "city": "Madaba",
+          "district": "Madaba",
+          "address": "Zaha Cultural Center, Ma'in, Madaba, Jordan",
+          "latitude": 0.0,
+          "longitude": 0.0,
+          "why_retrieved": [],
+          "facts": {
+            "category": "Cultural Event",
+            "subcategory": null,
+            "themes": [
+              "Eid and Family"
+            ],
+            "typical_months": [],
+            "typical_seasons": [],
+            "recurrence": "Annual",
+            "duration_minutes": null,
+            "ticket_cost": null,
+            "currency": [],
+            "pricing_level": null,
+            "indoor_outdoor": null,
+            "highlights": [
+              "Eid and Family",
+              "Community activities"
+            ],
+            "languages": [
+              "Arabic"
+            ],
+            "minimum_age": null,
+            "suitable_for": [
+              "Families",
+              "Local Visitors",
+              "Tourists"
+            ]
+          }
+        },
+        {
+          "id": "event_000168",
+          "entity_type": "event",
+          "name": "Aesthetics of Place Cultural Programme - Madaba",
+          "role": "",
+          "region": "Madaba",
+          "city": "Madaba",
+          "district": "Madaba",
+          "address": "Madaba Municipality Hall, Madaba, Jordan",
+          "latitude": 0.0,
+          "longitude": 0.0,
+          "why_retrieved": [],
+          "facts": {
+            "category": "Cultural Event",
+            "subcategory": null,
+            "themes": [
+              "Literature and Local Heritage"
+            ],
+            "typical_months": [],
+            "typical_seasons": [],
+            "recurrence": "Annual",
+            "duration_minutes": null,
+            "ticket_cost": null,
+            "currency": [],
+            "pricing_level": null,
+            "indoor_outdoor": null,
+            "highlights": [
+              "Literature and Local Heritage",
+              "Community activities"
+            ],
+            "languages": [
+              "Arabic"
+            ],
+            "minimum_age": null,
+            "suitable_for": [
+              "Families",
+              "Local Visitors",
+              "Tourists"
+            ]
+          }
+        }
+      ],
+      "summary": "Madaba Governorate: 4 anchor + 0 discovery POIs; 6 restaurants; 4 hotels; 3 events."
+    },
+    {
+      "cluster_id": 2,
+      "theme": "Madaba Governorate · nature",
+      "pois": [
+        {
+          "poi": {
+            "id": "poi_004014",
+            "entity_type": "poi",
+            "name": "Wadi Zerqa Ma'in Gorge",
+            "role": "anchor",
+            "region": "Madaba Governorate",
+            "city": "Ma'in",
+            "district": "Ma'in Canyon Valley",
+            "address": "Ma'in Rural Highway, Madaba Governorate, Jordan",
+            "latitude": 31.621389,
+            "longitude": 35.655833,
+            "why_retrieved": [
+              "matches nature interest"
+            ],
+            "facts": {
+              "category": "Nature",
+              "subcategory": "Canyon & Stream",
+              "themes": [
+                "Hiking",
+                "Canyons",
+                "Freshwater Springs",
+                "Nature"
+              ],
+              "opening_hours": "",
+              "closing_hours": "",
+              "closed_days": [],
+              "average_visit_minutes": 180,
+              "booking_required": false,
+              "best_visit_time": [
+                "Morning"
+              ],
+              "activity_level": "High",
+              "indoor_outdoor": "Outdoor",
+              "entry_fee": 0,
+              "currency": "JOD",
+              "pricing_level": "Free",
+              "highlights": [
+                "Fresh water stream walking surrounded by volcanic rock cliffs",
+                "Natural thermal stream waterfalls and wadeable pools",
+                "Abundant native vegetation including wild palm trees and oleanders"
+              ],
+              "notes": "Unmanaged natural wilderness area. Check weather forecasts prior to entering due to flash flood risks.",
+              "suitable_for": [
+                "Friends",
+                "Solo",
+                "Adventure seekers"
+              ]
+            }
+          },
+          "restaurants": [],
+          "dining_available": false,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_004022",
+              "km": 16.7
+            },
+            {
+              "poi_id": "poi_004019",
+              "km": 16.8
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_004019",
+            "entity_type": "poi",
+            "name": "Madaba Visitor Center",
+            "role": "anchor",
+            "region": "Madaba Governorate",
+            "city": "Madaba",
+            "district": "Downtown Madaba",
+            "address": "Palestine Street, Madaba, Jordan",
+            "latitude": 31.716512,
+            "longitude": 35.793601,
+            "why_retrieved": [],
+            "facts": {
+              "category": "Other",
+              "subcategory": "Tourist Information Office",
+              "themes": [
+                "Tourism Information",
+                "Ottoman Architecture",
+                "Heritage Conservation"
+              ],
+              "opening_hours": "08:00",
+              "closing_hours": "17:00",
+              "closed_days": [],
+              "average_visit_minutes": 25,
+              "booking_required": false,
+              "best_visit_time": [
+                "Morning"
+              ],
+              "activity_level": "Low",
+              "indoor_outdoor": "Mixed",
+              "entry_fee": 0,
+              "currency": "JOD",
+              "pricing_level": "Free",
+              "highlights": [
+                "Free tourism maps and regional travel guides",
+                "Restored 19th-century Ottoman domestic architectural courtyard",
+                "Official Ministry of Tourism staff assistance and guide booking"
+              ],
+              "notes": "Ideal first stop upon arriving in Madaba to collect self-guided walking maps.",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Seniors",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_004002",
+              "entity_type": "restaurant",
+              "name": "Hikayet Sitti",
+              "role": "",
+              "region": "Madaba Governorate",
+              "city": "Madaba",
+              "district": "Old City",
+              "address": "Saint George Street, Madaba",
+              "latitude": 31.716654,
+              "longitude": 35.793288,
+              "why_retrieved": [
+                "serves preferred cuisine: Jordanian",
+                "~34 m away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Home-Style Jordanian",
+                "cuisine_types": [
+                  "Jordanian",
+                  "Levantine"
+                ],
+                "meal_types": [
+                  "Lunch",
+                  "Dinner"
+                ],
+                "signature_dishes": [
+                  "Home-style Mansaf",
+                  "Musakhan",
+                  "Maglouba"
+                ],
+                "service_style": "Casual Dining",
+                "atmosphere": "Traditional",
+                "best_visit_time": [
+                  "Afternoon",
+                  "Evening"
+                ],
+                "average_cost_per_person": 12.0,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Casual Hangout",
+                  "Family Gathering"
+                ],
+                "suitable_for": [
+                  "Family",
+                  "Couples",
+                  "Solo",
+                  "Friends",
+                  "Students",
+                  "Seniors"
+                ],
+                "opening_hours": "10:00",
+                "closing_hours": "22:00",
+                "average_dining_minutes": 75,
+                "notes": "Also offers mosaic art workshops and locally produced traditional crafts."
+              }
+            },
+            {
+              "id": "restaurant_004001",
+              "entity_type": "restaurant",
+              "name": "Haret Jdoudna",
+              "role": "",
+              "region": "Madaba Governorate",
+              "city": "Madaba",
+              "district": "City Center",
+              "address": "K. Talal St., Madaba",
+              "latitude": 31.716182,
+              "longitude": 35.793751,
+              "why_retrieved": [
+                "serves preferred cuisine: Jordanian",
+                "~39 m away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Traditional Jordanian & Levantine",
+                "cuisine_types": [
+                  "Jordanian",
+                  "Levantine",
+                  "Middle Eastern"
+                ],
+                "meal_types": [
+                  "Lunch",
+                  "Dinner"
+                ],
+                "signature_dishes": [
+                  "Sawani (Oven Trays)",
+                  "Fresh Saj Bread",
+                  "Mezze Selection",
+                  "Mixed Grill"
+                ],
+                "service_style": "Casual Dining",
+                "atmosphere": "Traditional",
+                "best_visit_time": [
+                  "Afternoon",
+                  "Evening"
+                ],
+                "average_cost_per_person": 18.0,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian",
+                  "Vegan"
+                ],
+                "occasion_suitability": [
+                  "Casual Hangout",
+                  "Family Gathering",
+                  "Celebration/Group Event",
+                  "Date Night"
+                ],
+                "suitable_for": [
+                  "Family",
+                  "Couples",
+                  "Solo",
+                  "Friends",
+                  "Groups",
+                  "Business",
+                  "Seniors"
+                ],
+                "opening_hours": "12:00",
+                "closing_hours": "23:00",
+                "average_dining_minutes": 90,
+                "notes": "Features local artisan workshops and souvenir stalls on site."
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_004022",
+              "km": 0.1
+            },
+            {
+              "poi_id": "poi_004012",
+              "km": 6.4
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_004022",
+            "entity_type": "poi",
+            "name": "Burnt Palace of Madaba",
+            "role": "anchor",
+            "region": "Madaba Governorate",
+            "city": "Madaba",
+            "district": "Downtown Madaba",
+            "address": "Palestine Street, Madaba, Jordan",
+            "latitude": 31.716389,
+            "longitude": 35.7925,
+            "why_retrieved": [],
+            "facts": {
+              "category": "Heritage",
+              "subcategory": "Archaeological Residence",
+              "themes": [
+                "Byzantine Art",
+                "Archaeology",
+                "Domestic Architecture",
+                "Mosaics"
+              ],
+              "opening_hours": "08:00",
+              "closing_hours": "17:00",
+              "closed_days": [],
+              "average_visit_minutes": 35,
+              "booking_required": false,
+              "best_visit_time": [
+                "Morning",
+                "Afternoon"
+              ],
+              "activity_level": "Low",
+              "indoor_outdoor": "Mixed",
+              "entry_fee": 3.0,
+              "currency": "JOD",
+              "pricing_level": "Low",
+              "highlights": [
+                "Vivid 6th-century mosaic floor featuring hunting scenes and wild animals",
+                "Preserved architectural layout of an elite Byzantine townhouse",
+                "Raised walkway structure providing full aerial perspective of mosaics"
+              ],
+              "notes": "Included in the main Madaba Archaeological Ticket and covered by the Jordan Pass.",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Seniors",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_004028",
+              "entity_type": "restaurant",
+              "name": "Grandfather's House Bakery",
+              "role": "",
+              "region": "Madaba Governorate",
+              "city": "Madaba",
+              "district": "Old City",
+              "address": "Saint George Street, Madaba",
+              "latitude": 31.71618,
+              "longitude": 35.793102,
+              "why_retrieved": [
+                "~62 m away"
+              ],
+              "facts": {
+                "category": "Bakery/Dessert",
+                "subcategory": "Heritage Bakery & Traditional Cafe",
+                "cuisine_types": [
+                  "Levantine",
+                  "Cafe/Desserts"
+                ],
+                "meal_types": [
+                  "Breakfast",
+                  "Dessert",
+                  "Snacks"
+                ],
+                "signature_dishes": [
+                  "Fresh Taboon Bread with Za'atar",
+                  "Freshly Baked Knafeh Nabulsieh",
+                  "Arabic Cardamom Coffee"
+                ],
+                "service_style": "Cafe",
+                "atmosphere": "Traditional",
+                "best_visit_time": [
+                  "Morning",
+                  "Afternoon"
+                ],
+                "average_cost_per_person": 3.5,
+                "currency": "JOD",
+                "pricing_level": "Low",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Casual Hangout"
+                ],
+                "suitable_for": [
+                  "Solo",
+                  "Couples",
+                  "Family",
+                  "Seniors"
+                ],
+                "opening_hours": "07:30",
+                "closing_hours": "21:00",
+                "average_dining_minutes": 35,
+                "notes": ""
+              }
+            },
+            {
+              "id": "restaurant_004027",
+              "entity_type": "restaurant",
+              "name": "Mosaic Resto-Bar",
+              "role": "",
+              "region": "Madaba Governorate",
+              "city": "Madaba",
+              "district": "City Center",
+              "address": "King Talal Street, Madaba",
+              "latitude": 31.717015,
+              "longitude": 35.792504,
+              "why_retrieved": [
+                "~70 m away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "International & Local Lounge",
+                "cuisine_types": [
+                  "International",
+                  "Mediterranean"
+                ],
+                "meal_types": [
+                  "Lunch",
+                  "Dinner"
+                ],
+                "signature_dishes": [
+                  "Truffle Mushroom Burger",
+                  "Penne Arrabbiata",
+                  "Grilled Beef Tenderloin"
+                ],
+                "service_style": "Casual Dining",
+                "atmosphere": "Trendy/Modern",
+                "best_visit_time": [
+                  "Evening",
+                  "Night"
+                ],
+                "average_cost_per_person": 15.0,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Date Night",
+                  "Casual Hangout",
+                  "Celebration/Group Event"
+                ],
+                "suitable_for": [
+                  "Couples",
+                  "Friends",
+                  "Solo",
+                  "Groups"
+                ],
+                "opening_hours": "12:00",
+                "closing_hours": "00:00",
+                "average_dining_minutes": 80,
+                "notes": ""
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_004019",
+              "km": 0.1
+            },
+            {
+              "poi_id": "poi_004012",
+              "km": 6.3
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_004012",
+            "entity_type": "poi",
+            "name": "La Storica Mosaics (Mosaic Handicrafts Center)",
+            "role": "anchor",
+            "region": "Madaba Governorate",
+            "city": "Faisaliyah",
+            "district": "Mount Nebo Highway",
+            "address": "Mount Nebo Road, Madaba Governorate, Jordan",
+            "latitude": 31.758912,
+            "longitude": 35.748301,
+            "why_retrieved": [],
+            "facts": {
+              "category": "Shopping",
+              "subcategory": "Artisanal Craft Workshop",
+              "themes": [
+                "Handicrafts",
+                "Mosaic Art",
+                "Local Economy",
+                "Shopping"
+              ],
+              "opening_hours": "08:00",
+              "closing_hours": "18:00",
+              "closed_days": [],
+              "average_visit_minutes": 45,
+              "booking_required": false,
+              "best_visit_time": [
+                "Morning",
+                "Afternoon"
+              ],
+              "activity_level": "Low",
+              "indoor_outdoor": "Indoor",
+              "entry_fee": 0,
+              "currency": "JOD",
+              "pricing_level": "Free",
+              "highlights": [
+                "Live demonstration of manual stone-cutting and mosaic construction",
+                "Large gallery of natural stone mosaic art available for purchase",
+                "Custom mosaic order services with global shipping options",
+                "Opportunity to try placing mosaic tiles"
+              ],
+              "notes": "Free entry for visitors; prices vary for mosaic products.",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Seniors"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_004003",
+              "entity_type": "restaurant",
+              "name": "Carob House",
+              "role": "",
+              "region": "Madaba Governorate",
+              "city": "Madaba",
+              "district": "City Center",
+              "address": "Al-Serb Street, Madaba",
+              "latitude": 31.718012,
+              "longitude": 35.791544,
+              "why_retrieved": [
+                "matches photography interest",
+                "serves preferred cuisine: Jordanian",
+                "~6.1 km away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Farm-to-Table / Sustainable",
+                "cuisine_types": [
+                  "Jordanian",
+                  "Levantine",
+                  "Vegetarian/Vegan"
+                ],
+                "meal_types": [
+                  "Breakfast",
+                  "Brunch",
+                  "Lunch",
+                  "Dinner",
+                  "Coffee/Tea"
+                ],
+                "signature_dishes": [
+                  "Seasonal Farm Salad",
+                  "Herbal Infusions",
+                  "Artisanal Flatbreads"
+                ],
+                "service_style": "Casual Dining",
+                "atmosphere": "Quiet/Relaxed",
+                "best_visit_time": [
+                  "Morning",
+                  "Afternoon"
+                ],
+                "average_cost_per_person": 15.0,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian",
+                  "Vegan",
+                  "Gluten-Free"
+                ],
+                "occasion_suitability": [
+                  "Casual Hangout",
+                  "Date Night",
+                  "Family Gathering"
+                ],
+                "suitable_for": [
+                  "Family",
+                  "Couples",
+                  "Solo",
+                  "Friends",
+                  "Business",
+                  "Students"
+                ],
+                "opening_hours": "09:00",
+                "closing_hours": "22:00",
+                "average_dining_minutes": 80,
+                "notes": "Seasonal menu changes frequently based on local farm harvests."
+              }
+            },
+            {
+              "id": "restaurant_004045",
+              "entity_type": "restaurant",
+              "name": "Mt. Nebo Sunset Terrace Cafe",
+              "role": "",
+              "region": "Madaba Governorate",
+              "city": "Madaba",
+              "district": "Mount Nebo Area",
+              "address": "Mount Nebo Main Road, Madaba Governorate",
+              "latitude": 31.765012,
+              "longitude": 35.731201,
+              "why_retrieved": [
+                "~1.8 km away"
+              ],
+              "facts": {
+                "category": "Cafe",
+                "subcategory": "Scenic Terrace & Cafe",
+                "cuisine_types": [
+                  "Cafe/Desserts"
+                ],
+                "meal_types": [
+                  "Snacks",
+                  "Coffee/Tea"
+                ],
+                "signature_dishes": [
+                  "Bedouin Cardamom Tea",
+                  "Fresh Orange Juice",
+                  "Baklava Plate"
+                ],
+                "service_style": "Cafe",
+                "atmosphere": "Quiet/Relaxed",
+                "best_visit_time": [
+                  "Afternoon",
+                  "Evening"
+                ],
+                "average_cost_per_person": 5.0,
+                "currency": "JOD",
+                "pricing_level": "Low",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Casual Hangout",
+                  "Date Night"
+                ],
+                "suitable_for": [
+                  "Couples",
+                  "Family",
+                  "Solo",
+                  "Friends",
+                  "Seniors"
+                ],
+                "opening_hours": "09:00",
+                "closing_hours": "20:00",
+                "average_dining_minutes": 45,
+                "notes": "Best visited 1 hour prior to sunset for optimal lighting and scenery."
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_004022",
+              "km": 6.3
+            },
+            {
+              "poi_id": "poi_004019",
+              "km": 6.4
+            }
+          ]
+        }
+      ],
+      "hotels": [
+        {
+          "id": "hotel_000074",
+          "entity_type": "hotel",
+          "name": "Rumman Hotel",
+          "role": "",
+          "region": "Madaba Governorate",
+          "city": "Madaba",
+          "district": "Aisha Umm Al Mu'mineen Street",
+          "address": "Aisha Umm Al Mu'mineen St., Madaba 17110, Jordan",
+          "latitude": 31.725229,
+          "longitude": 35.795522,
+          "why_retrieved": [],
+          "facts": {
+            "category": "Boutique Hotel",
+            "subcategory": "Small Family-Run Boutique Hotel",
+            "star_rating": null,
+            "room_types": [
+              "Single",
+              "Double",
+              "Triple",
+              "Suite",
+              "Family Room"
+            ],
+            "amenities": [
+              "WiFi",
+              "Air Conditioning",
+              "Breakfast Included",
+              "Room Service"
+            ],
+            "view_types": [],
+            "best_for": [
+              "Family Vacations",
+              "Romantic Getaways"
+            ],
+            "average_price_per_night": 28,
+            "currency": "JOD",
+            "pricing_level": "Low",
+            "suitable_for": [
+              "Family",
+              "Couples",
+              "Solo",
+              "Friends"
+            ],
+            "check_in": "14:00",
+            "check_out": "10:30",
+            "notes": "Twenty-two rooms including a deluxe family room and a two-bedroom apartment with living room and sofa beds. Check-in is accepted between 14:00 and 21:00. Free public parking includes electric vehicle charging. Telephone +962 5 325 2555."
+          }
+        },
+        {
+          "id": "hotel_000072",
+          "entity_type": "hotel",
+          "name": "Moab Land Hotel",
+          "role": "",
+          "region": "Madaba Governorate",
+          "city": "Madaba",
+          "district": "King Talal Street, city centre",
+          "address": "King Talal Street, opposite the Mosaic Map Church, Madaba, Jordan",
+          "latitude": 31.717714,
+          "longitude": 35.793554,
+          "why_retrieved": [],
+          "facts": {
+            "category": "Hotel",
+            "subcategory": "Budget City Hotel",
+            "star_rating": 2,
+            "room_types": [
+              "Double",
+              "Single",
+              "Triple"
+            ],
+            "amenities": [
+              "WiFi",
+              "Breakfast Included",
+              "Balcony/Terrace"
+            ],
+            "view_types": [
+              "City View"
+            ],
+            "best_for": [
+              "Backpackers",
+              "Adventure Travelers"
+            ],
+            "average_price_per_night": 18,
+            "currency": "JOD",
+            "pricing_level": "Low",
+            "suitable_for": [
+              "Couples",
+              "Solo",
+              "Friends",
+              "Students"
+            ],
+            "check_in": "15:00",
+            "check_out": "11:30",
+            "notes": "Fifteen rooms. Breakfast is a simple continental service with afternoon refreshments, not a full buffet. Airport pickup is available at extra cost and requires flight details in advance. Non-smoking rooms and public areas throughout."
+          }
+        },
+        {
+          "id": "hotel_000069",
+          "entity_type": "hotel",
+          "name": "Saint John Hotel",
+          "role": "",
+          "region": "Madaba Governorate",
+          "city": "Madaba",
+          "district": "Madaba Acropolis, King Talal Street",
+          "address": "King Talal Street, City Acropolis, Madaba, Jordan",
+          "latitude": 31.71527,
+          "longitude": 35.793685,
+          "why_retrieved": [],
+          "facts": {
+            "category": "Hotel",
+            "subcategory": "Family-Run Eco-Friendly Hotel",
+            "star_rating": 3,
+            "room_types": [],
+            "amenities": [
+              "WiFi",
+              "Gym",
+              "Breakfast Included",
+              "TV",
+              "Balcony/Terrace"
+            ],
+            "view_types": [
+              "City View"
+            ],
+            "best_for": [
+              "Family Vacations",
+              "Groups",
+              "Backpackers"
+            ],
+            "average_price_per_night": 25,
+            "currency": "JOD",
+            "pricing_level": "Low",
+            "suitable_for": [
+              "Family",
+              "Couples",
+              "Solo",
+              "Groups",
+              "Seniors"
+            ],
+            "check_in": "13:00",
+            "check_out": "12:00",
+            "notes": "Twenty-two rooms. Built on the Madaba acropolis, the highest point in the town. A guest kitchen is available in addition to the rooftop restaurant and sky bar. Express check-in and check-out are offered."
+          }
+        },
+        {
+          "id": "hotel_000068",
+          "entity_type": "hotel",
+          "name": "Mosaic City Hotel",
+          "role": "",
+          "region": "Madaba Governorate",
+          "city": "Madaba",
+          "district": "Al Yarmouk Street",
+          "address": "21 Al Yarmouk Street, P.O. Box 962, Madaba 17110, Jordan",
+          "latitude": 31.721096,
+          "longitude": 35.792603,
+          "why_retrieved": [],
+          "facts": {
+            "category": "Hotel",
+            "subcategory": "City Hotel",
+            "star_rating": 3,
+            "room_types": [
+              "Single",
+              "Double",
+              "Twin",
+              "Triple",
+              "Family Room"
+            ],
+            "amenities": [
+              "WiFi",
+              "Air Conditioning",
+              "Breakfast Included",
+              "Minibar",
+              "Balcony/Terrace"
+            ],
+            "view_types": [
+              "City View",
+              "Garden View"
+            ],
+            "best_for": [
+              "Family Vacations",
+              "Groups"
+            ],
+            "average_price_per_night": 50,
+            "currency": "JOD",
+            "pricing_level": "Medium",
+            "suitable_for": [
+              "Family",
+              "Couples",
+              "Solo",
+              "Groups"
+            ],
+            "check_in": "14:00",
+            "check_out": "12:00",
+            "notes": "Fifty rooms, all en suite. Reception is staffed 24 hours by multilingual staff and can be reached on +962 5 3251313. Buffet breakfast is included in the rate. Lunch and dinner are served on request rather than to a fixed schedule."
+          }
+        }
+      ],
+      "events": [
+        {
+          "id": "event_000167",
+          "entity_type": "event",
+          "name": "National Celebrations Programme - Madaba",
+          "role": "",
+          "region": "Madaba",
+          "city": "Madaba",
+          "district": "Madaba",
+          "address": "Madaba Visitor Center, Madaba, Jordan",
+          "latitude": 0.0,
+          "longitude": 0.0,
+          "why_retrieved": [],
+          "facts": {
+            "category": "Cultural Event",
+            "subcategory": null,
+            "themes": [
+              "National and Family Activities"
+            ],
+            "typical_months": [],
+            "typical_seasons": [],
+            "recurrence": "Annual",
+            "duration_minutes": null,
+            "ticket_cost": null,
+            "currency": [],
+            "pricing_level": null,
+            "indoor_outdoor": null,
+            "highlights": [
+              "National and Family Activities",
+              "Community activities"
+            ],
+            "languages": [
+              "Arabic"
+            ],
+            "minimum_age": null,
+            "suitable_for": [
+              "Families",
+              "Local Visitors",
+              "Tourists"
+            ]
+          }
+        },
+        {
+          "id": "event_000164",
+          "entity_type": "event",
+          "name": "Eid Joy Celebration - Madaba",
+          "role": "",
+          "region": "Madaba",
+          "city": "Madaba",
+          "district": "Madaba",
+          "address": "Zaha Cultural Center, Ma'in, Madaba, Jordan",
+          "latitude": 0.0,
+          "longitude": 0.0,
+          "why_retrieved": [],
+          "facts": {
+            "category": "Cultural Event",
+            "subcategory": null,
+            "themes": [
+              "Eid and Family"
+            ],
+            "typical_months": [],
+            "typical_seasons": [],
+            "recurrence": "Annual",
+            "duration_minutes": null,
+            "ticket_cost": null,
+            "currency": [],
+            "pricing_level": null,
+            "indoor_outdoor": null,
+            "highlights": [
+              "Eid and Family",
+              "Community activities"
+            ],
+            "languages": [
+              "Arabic"
+            ],
+            "minimum_age": null,
+            "suitable_for": [
+              "Families",
+              "Local Visitors",
+              "Tourists"
+            ]
+          }
+        },
+        {
+          "id": "event_000168",
+          "entity_type": "event",
+          "name": "Aesthetics of Place Cultural Programme - Madaba",
+          "role": "",
+          "region": "Madaba",
+          "city": "Madaba",
+          "district": "Madaba",
+          "address": "Madaba Municipality Hall, Madaba, Jordan",
+          "latitude": 0.0,
+          "longitude": 0.0,
+          "why_retrieved": [],
+          "facts": {
+            "category": "Cultural Event",
+            "subcategory": null,
+            "themes": [
+              "Literature and Local Heritage"
+            ],
+            "typical_months": [],
+            "typical_seasons": [],
+            "recurrence": "Annual",
+            "duration_minutes": null,
+            "ticket_cost": null,
+            "currency": [],
+            "pricing_level": null,
+            "indoor_outdoor": null,
+            "highlights": [
+              "Literature and Local Heritage",
+              "Community activities"
+            ],
+            "languages": [
+              "Arabic"
+            ],
+            "minimum_age": null,
+            "suitable_for": [
+              "Families",
+              "Local Visitors",
+              "Tourists"
+            ]
+          }
+        }
+      ],
+      "summary": "Madaba Governorate: 4 anchor + 0 discovery POIs; 6 restaurants; 4 hotels; 3 events."
+    }
+  ],
+  "meta": {
+    "unsupported": [],
+    "places_to_avoid": "",
+    "deferred": {
+      "preferredLanguage": "English",
+      "smePreferences": []
+    },
+    "rag_status": "ok",
+    "source": "retriever",
+    "compacted": false,
+    "planning_lock": "PLANNING LOCK (hard — plan OVER clusters, then write JSON):\n- Fill ALL 3 days (nights=2). No empty/partial days.\n- Mandatory destinations (preferredRegions + mustVisit): Dead Sea. Plan ONLY in these areas — any other cluster is reference material, not a day.\n- Destination→cluster map: Dead Sea→cluster 0 (Madaba Governorate · nature, photography)\n- Day→cluster route (one day per cluster, in this order): D1:C0/Dead Sea part 1 → D2:C1/Dead Sea part 2 → D3:C2/Madaba Governorate · nature\n- mustVisit entity lock: (none)\n- Each day draws its POIs, meals and hotel from ITS OWN cluster.\n- No entity twice in the whole trip: a POI or restaurant used on one day cannot reappear on another, and lunch and dinner are different places. Two days in the same city are two different clusters — use each cluster's own entities.\n- Each day: 3 sights + lunch + dinner (5 entries, 6 max). Two sights only when the cluster has no third worth visiting, and say so. No gap over 90 minutes, no site under 45 minutes, at least 4 hours of sightseeing per full day.\n- activity_alternatives come from that cluster's UNUSED entities: never an entity scheduled elsewhere in the trip, and never two scheduled stops as each other's swap.\n- One visit, one fee (POIs within 600 m are parts of one site): C0: Sayyidat al-Jabal (Our Lady of the Mount) Church + Madaba Art Space & Gallery; C2: Madaba Visitor Center + Burnt Palace of Madaba\n- Lodging requested: rating=4 star, type=hotel. Per-night base (night N = where day N ends): N1(C0): Rumman Hotel [unrated] (rating absent from card — claim no rating); N2(C1): Rumman Hotel [unrated] (rating absent from card — claim no rating)\n- Money: 900 JOD covers 4 traveller(s) for 3 days (≈300 JOD/day for the whole party). Lodging = nightly rate x 2 night(s) x ~2 room(s), arithmetic shown in the notes. aiPriority= → keep picks proportionate to the stated budget. SME=(none).\n- Entry fees are the last thing to cut: never skip a named destination's main ticketed site to save money, and state what is left of the budget.\n- Names/hours/fees: EntityCards only. If a card does not carry a fact (rating, booking requirement, closing day), do not state it.\n- Prices: use the card value as-is, multiplied by the party size, and show the arithmetic in the tip (\"10 JOD x 4\"). If a card has no price, estimate from pricing_level and label it \"~N JOD (estimated)\".\n- Events are reference only: never schedule them in the itinerary or budget."
+  },
+  "sme_candidates": [
+    {
+      "sme_id": "tour_guide:SME-AQ-006:aqaba",
+      "sme_type": "tour_guide",
+      "name": "Tariq Al-Momani",
+      "description": "Professional adventure and hiking guide specializing in ridge trails, coastal treks, and outdoor excursions around the Red Sea mountains.",
+      "known_for": [
+        "Professional adventure and hiking guide specializing in ridge trails, coastal treks, and outdoor excursions around the Red Sea mountains",
+        "Takes travelers to Aqaba Mountains, Wadi Aradah, Red Sea Coastal Ridges",
+        "Also offers Adventure Activities, Custom Itineraries, Private Tours",
+        "Private groups available",
+        "Can arrange transportation"
+      ],
+      "specs": [
+        {
+          "label": "Specializations",
+          "value": "Adventure, Hiking, Nature, Camping, Photography"
+        },
+        {
+          "label": "Experience",
+          "value": "10 years"
+        },
+        {
+          "label": "Languages",
+          "value": "Arabic, English, Spanish"
+        },
+        {
+          "label": "Best for",
+          "value": "Solo Travelers, Families, Couples"
+        },
+        {
+          "label": "Group size",
+          "value": "2–10"
+        },
+        {
+          "label": "From",
+          "value": "80–160 JOD"
+        },
+        {
+          "label": "Hours",
+          "value": "06:00 - 18:00"
+        },
+        {
+          "label": "Rating",
+          "value": "4.8 (27 reviews)"
+        }
+      ],
+      "specializations": [
+        "Adventure",
+        "Hiking",
+        "Nature",
+        "Camping",
+        "Photography"
+      ],
+      "target_customer_types": [
+        "Solo Travelers",
+        "Families",
+        "Couples"
+      ],
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "destinations_covered": [
+        "Aqaba Mountains",
+        "Wadi Aradah",
+        "Red Sea Coastal Ridges"
+      ],
+      "languages": [
+        "Arabic",
+        "English",
+        "Spanish"
+      ],
+      "service_categories": [
+        "Tour Guiding",
+        "Adventure Activities",
+        "Custom Itineraries",
+        "Private Tours",
+        "Group Tours"
+      ],
+      "preferred_experience_types": [
+        "Hiking & Trekking",
+        "Soft Adventure",
+        "Nature"
+      ],
+      "transportation_available": true,
+      "min_group": 2,
+      "max_group": 10,
+      "pricing_model": "Per Day",
+      "min_price": 80.0,
+      "max_price": 160.0,
+      "currency": "JOD",
+      "rating": 4.8,
+      "review_count": 27,
+      "subscribed": false,
+      "match_score": 0.753,
+      "match_reasons": [
+        "Fits what you asked for: nature, photography",
+        "Covers aqaba",
+        "Based in Aqaba",
+        "Works with family travelers",
+        "Speaks English"
+      ],
+      "suggested_role": "Trip guide",
+      "package_role": "guide",
+      "covers_regions": [
+        "aqaba"
+      ]
+    },
+    {
+      "sme_id": "tour_operator:SME-000019:aqaba",
+      "sme_type": "tour_operator",
+      "name": "Aqaba Panorama Tours",
+      "description": "Incoming tour operator offering scenic sightseeing tours, multi-day Jordan itinerary planning, and full destination management support based in Aqaba.",
+      "known_for": [
+        "Incoming tour operator offering scenic sightseeing tours, multi-day Jordan itinerary planning, and full destination management support based in Aqaba",
+        "Takes travelers to Aqaba, Petra, Wadi Rum, Dead Sea",
+        "Also offers Transportation, Airport Transfers, Hotel / Accommodation Booking",
+        "Private groups available",
+        "Can arrange transportation"
+      ],
+      "specs": [
+        {
+          "label": "Specializations",
+          "value": "History, Culture, Nature, Desert"
+        },
+        {
+          "label": "Experience",
+          "value": "15 years"
+        },
+        {
+          "label": "Languages",
+          "value": "English, Arabic, German"
+        },
+        {
+          "label": "Best for",
+          "value": "Families, Couples, Solo Travelers"
+        },
+        {
+          "label": "Group size",
+          "value": "1–40"
+        },
+        {
+          "label": "From",
+          "value": "70–500 JOD"
+        },
+        {
+          "label": "Hours",
+          "value": "08:30–17:30"
+        },
+        {
+          "label": "Rating",
+          "value": "4.8 (66 reviews)"
+        }
+      ],
+      "specializations": [
+        "History",
+        "Culture",
+        "Nature",
+        "Desert"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples",
+        "Solo Travelers"
+      ],
+      "city": "Aqaba",
+      "region": "Aqaba Governorate",
+      "destinations_covered": [
+        "Aqaba",
+        "Petra",
+        "Wadi Rum",
+        "Dead Sea",
+        "Amman"
+      ],
+      "languages": [
+        "English",
+        "Arabic",
+        "German"
+      ],
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Transportation",
+        "Airport Transfers",
+        "Hotel / Accommodation Booking",
+        "Private Tours",
+        "Group Tours"
+      ],
+      "preferred_experience_types": [
+        "History & Culture",
+        "Desert Experiences",
+        "Family Experiences"
+      ],
+      "transportation_available": true,
+      "min_group": 1,
+      "max_group": 40,
+      "pricing_model": "Per Package",
+      "min_price": 70.0,
+      "max_price": 500.0,
+      "currency": "JOD",
+      "rating": 4.8,
+      "review_count": 66,
+      "subscribed": false,
+      "match_score": 0.836,
+      "match_reasons": [
+        "Fits what you asked for: nature, photography",
+        "Covers aqaba, dead sea",
+        "Based in Aqaba",
+        "Works with family travelers",
+        "Speaks English",
+        "Transportation across the itinerary"
+      ],
+      "suggested_role": "Trip operator",
+      "package_role": "operator",
+      "covers_regions": [
+        "aqaba",
+        "dead sea"
+      ]
+    }
+  ],
+  "context": {
+    "trip_window": {
+      "start_date": "2026-08-20",
+      "end_date": "2026-08-23",
+      "duration_days": 4,
+      "exploration_days": 3,
+      "nights": 3,
+      "arrival_airport": "AQJ",
+      "arrival_time": "15:58",
+      "language": "English"
+    },
+    "geographic": {
+      "arrival_airport": "AQJ",
+      "preferred_regions": [
+        "Dead Sea"
+      ],
+      "region_keys": [
+        "balqa",
+        "dead sea",
+        "karak",
+        "madaba"
+      ],
+      "must_visit": [],
+      "places_to_avoid": [],
+      "clustering_rule": "Keep each day geographically coherent. Avoid unnecessary cross-country hops."
+    },
+    "traveler": {
+      "group_type": "family",
+      "adults": 4,
+      "children": 0,
+      "children_ages": [],
+      "seniors": 0,
+      "total_travelers": 4,
+      "accessibility_needs": [],
+      "limited_mobility": false,
+      "family_mode": true
+    },
+    "pace": {
+      "trip_pace": "Relaxed",
+      "activity_level": "Moderate",
+      "sights_per_day": 2,
+      "meals_per_day": 3,
+      "max_schedule_items": 6
+    },
+    "budget": {
+      "total": 900.0,
+      "currency": "JOD",
+      "band": "comfort",
+      "per_day": 225.0,
+      "guidance": "Comfort-oriented stays and dining when listed places exist."
+    },
+    "climate": {
+      "month": 8,
+      "season": "hot_dry_summer",
+      "typical_pattern": "High daytime heat, especially in the Jordan Valley and desert.",
+      "outdoor_guidance": "Walk outdoors in the morning. Keep the afternoon for shade, meals, or indoor visits.",
+      "heat_risk": "high"
+    },
+    "weather": [
+      {
+        "date": "2026-08-20",
+        "t_min_c": 22.1,
+        "t_max_c": 35.8,
+        "precipitation_probability": 0.0,
+        "condition": "hot",
+        "source": "open-meteo"
+      },
+      {
+        "date": "2026-08-21",
+        "t_min_c": 22.2,
+        "t_max_c": 36.5,
+        "precipitation_probability": 0.0,
+        "condition": "very_hot",
+        "source": "open-meteo"
+      },
+      {
+        "date": "2026-08-22",
+        "t_min_c": 20.4,
+        "t_max_c": 33.3,
+        "precipitation_probability": 0.0,
+        "condition": "hot",
+        "source": "open-meteo"
+      },
+      {
+        "date": "2026-08-23",
+        "t_min_c": 21.0,
+        "t_max_c": 31.5,
+        "precipitation_probability": 0.0,
+        "condition": "hot",
+        "source": "open-meteo"
+      }
+    ],
+    "weather_status": "ok",
+    "decisions": [
+      {
+        "code": "day_route",
+        "title": "Each exploring day stays in one area",
+        "why": "Mixing far-apart cities in one day makes the trip exhausting.",
+        "effect": "After arrival, the days run Dead Sea (3 days)."
+      },
+      {
+        "code": "arrival_stay",
+        "title": "Night one is near the airport",
+        "why": "You land at AQJ at 15:58.",
+        "effect": "Sleep in Aqaba on arrival night. The exploring days start the next morning."
+      },
+      {
+        "code": "arrival_relocate",
+        "title": "You land in the south, then move north",
+        "why": "King Hussein / Aqaba is the arrival airport, but the trip is for North or Central Jordan.",
+        "effect": "Sleep in Aqaba on night one, then relocate before the main exploring days."
+      },
+      {
+        "code": "arrival_pace",
+        "title": "Settle in this evening",
+        "why": "You land at 15:58.",
+        "effect": "Food and rest first. A nearby stop only if enough evening remains, then back to the hotel."
+      },
+      {
+        "code": "hotel_move",
+        "title": "Then you move closer to the places you came for",
+        "why": "Sleeping in the same city you visit beats a long commute every morning.",
+        "effect": "After the arrival night, nearby days share one hotel. You only move when the next area is too far for a day trip."
+      },
+      {
+        "code": "heat",
+        "title": "Mornings for the outdoors",
+        "why": "High daytime heat, especially in the Jordan Valley and desert.",
+        "effect": "Walk heritage and nature in the morning. Save museums, meals, and shade for the afternoon."
+      },
+      {
+        "code": "pace",
+        "title": "A relaxed pace",
+        "why": "family group, Moderate activity.",
+        "effect": "On exploring days, plan on about 2 visits and 3 meals. Arrival follows the time left after food and rest."
+      },
+      {
+        "code": "stay_tier",
+        "title": "4 star stays",
+        "why": "You asked for 4 star hotels.",
+        "effect": "Hotels are taken from listings at that star level when the city has them. If it does not, we use the closest listed tier and say so."
+      },
+      {
+        "code": "budget",
+        "title": "A comfort budget",
+        "why": "900 JOD for 4 days.",
+        "effect": "We lean toward more comfortable stays and dining when those places exist."
+      },
+      {
+        "code": "interests",
+        "title": "Chosen around what you care about",
+        "why": "nature, food, and photography",
+        "effect": "Stops follow nature, food, and photography. Unrelated places stay off the list."
+      }
+    ],
+    "day_intents": [
+      {
+        "day": 1,
+        "date": "2026-08-20",
+        "region": "Aqaba",
+        "region_key": "aqaba",
+        "theme": "Arrival in Aqaba",
+        "is_must_visit": false,
+        "stay_index": 0,
+        "outdoor_window": "morning",
+        "indoor_window": "afternoon",
+        "sights": 1,
+        "meals": 1,
+        "heat_note": "Walk outdoors in the morning. Keep the afternoon for shade, meals, or indoor visits.",
+        "overnight_key": "aqaba",
+        "overnight_region": "Aqaba",
+        "is_arrival_day": true,
+        "stay_style": "arrival",
+        "rest_hours": 3,
+        "allow_arrival_activities": true,
+        "arrival_time": "15:58",
+        "paired_key": ""
+      },
+      {
+        "day": 2,
+        "date": "2026-08-21",
+        "region": "Dead Sea",
+        "region_key": "dead sea",
+        "theme": "Dead Sea",
+        "is_must_visit": false,
+        "stay_index": 0,
+        "outdoor_window": "morning",
+        "indoor_window": "afternoon",
+        "sights": 2,
+        "meals": 3,
+        "heat_note": "Walk outdoors in the morning. Keep the afternoon for shade, meals, or indoor visits.",
+        "overnight_key": "dead sea",
+        "overnight_region": "Dead Sea",
+        "is_arrival_day": false,
+        "stay_style": "in_region",
+        "rest_hours": 0,
+        "allow_arrival_activities": true,
+        "arrival_time": "",
+        "paired_key": ""
+      },
+      {
+        "day": 3,
+        "date": "2026-08-22",
+        "region": "Dead Sea",
+        "region_key": "dead sea",
+        "theme": "More time in Dead Sea",
+        "is_must_visit": false,
+        "stay_index": 1,
+        "outdoor_window": "morning",
+        "indoor_window": "afternoon",
+        "sights": 2,
+        "meals": 3,
+        "heat_note": "Walk outdoors in the morning. Keep the afternoon for shade, meals, or indoor visits.",
+        "overnight_key": "dead sea",
+        "overnight_region": "Dead Sea",
+        "is_arrival_day": false,
+        "stay_style": "in_region",
+        "rest_hours": 0,
+        "allow_arrival_activities": true,
+        "arrival_time": "",
+        "paired_key": ""
+      },
+      {
+        "day": 4,
+        "date": "2026-08-23",
+        "region": "Dead Sea",
+        "region_key": "dead sea",
+        "theme": "More time in Dead Sea",
+        "is_must_visit": false,
+        "stay_index": 2,
+        "outdoor_window": "morning",
+        "indoor_window": "afternoon",
+        "sights": 2,
+        "meals": 3,
+        "heat_note": "Walk outdoors in the morning. Keep the afternoon for shade, meals, or indoor visits.",
+        "overnight_key": "dead sea",
+        "overnight_region": "Dead Sea",
+        "is_arrival_day": false,
+        "stay_style": "in_region",
+        "rest_hours": 0,
+        "allow_arrival_activities": true,
+        "arrival_time": "",
+        "paired_key": ""
+      }
+    ],
+    "decision_rules": [
+      "Never invent POIs, hotels, restaurants, SMEs, prices, hours, or coordinates.",
+      "Use only retrieved catalog IDs. If a needed item is missing, leave it unknown and warn.",
+      "Must-visit destinations are hard constraints unless impossible.",
+      "Honor places_to_avoid as a hard exclusion.",
+      "Keep each day geographically coherent.",
+      "Day 1 is the arrival phase, not an exploration day. Wizard duration is the exploring days after arrival.",
+      "Target about 2 sights and 3 meals per exploring day for a Relaxed pace.",
+      "Recommend at most one tour guide and one tour operator for the whole package, not per day.",
+      "Tourist relevance always outranks commercial promotion.",
+      "Avoid stacking outdoor sites in peak afternoon heat."
+    ],
+    "assumptions": [
+      "Travel times between cities are estimated qualitatively, not as exact minutes, unless evidence exists.",
+      "Opening hours are used only when present on the catalog record."
+    ],
+    "unknowns": []
+  },
+  "trace": {
+    "stages": [
+      "normalize",
+      "knowledge",
+      "context",
+      "sme",
+      "plan",
+      "validate"
+    ],
+    "profile": {
+      "duration_days": 4,
+      "regions": [
+        "Dead Sea"
+      ],
+      "interests": [
+        "nature",
+        "food",
+        "photography"
+      ]
+    },
+    "context": {},
+    "knowledge_counts": {
+      "pois": 13,
+      "restaurants": 9,
+      "hotels": 16,
+      "status": 1
+    },
+    "sme_counts": {
+      "catalog": 495,
+      "matched": 2,
+      "guides": 1,
+      "operators": 1
+    },
+    "validation": {
+      "status": "complete",
+      "days": 4,
+      "warnings": 0,
+      "constraint_status": "satisfied"
+    },
+    "prompt_chars": 126259
+  }
+}

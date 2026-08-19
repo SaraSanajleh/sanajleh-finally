@@ -1,0 +1,124 @@
+{
+  "caseId": "20260815-153934-amman-wadi-rum-aqaba",
+  "createdAt": "2026-08-15T15:39:34.442242+00:00",
+  "trip_title": "Amman · Wadi Rum · Aqaba",
+  "rag": {
+    "status": "ok",
+    "source": "retriever",
+    "duration_days": 3,
+    "cluster_count": 3,
+    "clusters": [
+      {
+        "cluster_id": 0,
+        "theme": "Aqaba Governorate · history",
+        "poi_count": 6,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "Aqaba Heritage House",
+          "Aqaba Archaeological Museum",
+          "Ancient Aqaba Church",
+          "Aqaba Gateway Shopping Complex",
+          "Princess Salma Park",
+          "Ayla Oasis Marina"
+        ],
+        "hotel_names": [
+          "Cedar Hotel",
+          "Sea View Hotel",
+          "Aqaba Coast Hotel",
+          "TAJ Hotel"
+        ],
+        "sample_restaurants": [
+          "Royal Yacht Club Restaurant Aqaba",
+          "Baba Gafer Restaurant",
+          "Deera Cafe & Restaurant",
+          "Al Kufa Cafe & Restaurant",
+          "Palm Court Restaurant",
+          "Ocean Unfresh Seafood"
+        ],
+        "event_names": [
+          "Aqaba International Poetry Evening",
+          "Eid Evenings - Aqaba",
+          "Aqaba Recycling Art Workshops"
+        ]
+      },
+      {
+        "cluster_id": 1,
+        "theme": "Ma'an Governorate · history",
+        "poi_count": 5,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "Maan Historic Souq",
+          "Petra Museum",
+          "Lawrence's Spring",
+          "French Fortress Ruins (Wadi Rum)",
+          "Neolithic Village of Beidha"
+        ],
+        "hotel_names": [
+          "Cleopetra Hotel",
+          "Valentine Inn",
+          "Petra Sky Hotel",
+          "Nomads Hotel Petra"
+        ],
+        "sample_restaurants": [
+          "Al-Khalil Fast Food & Falafel",
+          "Al-Taqwa Restaurant",
+          "Bait Al-Karam Restaurant",
+          "My Mom's Recipe Restaurant",
+          "Rahayeb Desert Camp Restaurant",
+          "Wadi Rum Visitor Center Rest House"
+        ],
+        "event_names": [
+          "Knafeh Making Experience in Petra",
+          "Petra Kitchen Workshop",
+          "Ma'an Cultural Days"
+        ]
+      },
+      {
+        "cluster_id": 2,
+        "theme": "Madaba Governorate · history",
+        "poi_count": 10,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "King's Highway Madaba Segment",
+          "Um al-Walid Archaeological Site",
+          "St. George's Church and the Mosaic Map",
+          "Al-Lajjun / East Madaba Desert Border Viewpoint",
+          "Dead Sea Panorama Complex (Madaba Overlook)",
+          "Madaba Visitor Center",
+          "La Storica Mosaics (Mosaic Handicrafts Center)",
+          "Madaba Art Space & Gallery",
+          "Madaba Spice and Grain Souk",
+          "Madaba Museum"
+        ],
+        "hotel_names": [
+          "Saint John Hotel",
+          "Mount Nebo Hotel & Restaurant Madaba City Center",
+          "Moab Land Hotel",
+          "Mosaic City Hotel"
+        ],
+        "sample_restaurants": [
+          "Al-Bustan Restaurant",
+          "Al-Bustan Restaurant Madaba",
+          "Abu Nuwas Falafel & Hummus",
+          "Al-Ittihad Restaurant",
+          "Haret Jdoudna",
+          "Carob House"
+        ],
+        "event_names": [
+          "National Celebrations Programme - Madaba",
+          "Aesthetics of Place Cultural Programme - Madaba",
+          "Jordan Summer Festival - Madaba"
+        ]
+      }
+    ]
+  },
+  "paths": {
+    "input": "01_input.json",
+    "knowledge": "02_retriever.json",
+    "knowledge_preview": "02_retriever_preview.json",
+    "output": "03_output.json"
+  }
+}

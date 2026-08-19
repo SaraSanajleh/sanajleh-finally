@@ -1,0 +1,270 @@
+{
+  "metadata": {
+    "model": "gpt-oss:20b-cloud",
+    "provider": "ollama",
+    "mode": "build",
+    "latencyMs": 125666.51,
+    "retries": 0,
+    "caseId": null,
+    "rag": {
+      "status": "unavailable",
+      "source": null,
+      "duration_days": 3,
+      "cluster_count": 0,
+      "clusters": []
+    }
+  },
+  "package": {
+    "welcome_message": "Welcome to your Jordan adventure!",
+    "why_you_will_love_this": {
+      "highlights": [
+        "Petra's ancient rock-cut architecture",
+        "Wadi Rum's desert landscapes",
+        "Aqaba's Red Sea beaches"
+      ],
+      "special_touches": [
+        "Local Jordanian cuisine"
+      ]
+    },
+    "trip_title": "Jordan Highlights: Petra, Wadi Rum & Aqaba",
+    "trip_description": {
+      "overview": "A 3-day balanced journey exploring Petra, Wadi Rum, and Aqaba, with local Jordanian cuisine and scenic landscapes.",
+      "included": [
+        "Accommodation",
+        "Meals",
+        "Sightseeing"
+      ],
+      "not_included": [
+        "Transportation",
+        "Guided tours",
+        "Events"
+      ]
+    },
+    "trip_details": {
+      "duration": {
+        "days": "3",
+        "nights": "2"
+      },
+      "trip_type": [
+        "Couple",
+        "Balanced"
+      ],
+      "number_of_travelers": "2",
+      "budget": {
+        "amount": "800.0",
+        "currency": "JOD"
+      }
+    },
+    "daily_itinerary": [
+      {
+        "day_number": "1",
+        "day_title": "Petra Exploration",
+        "day_summary": "Morning visit to Petra, lunch at a local spot, afternoon stroll, and dinner at a nearby restaurant.",
+        "activities": [
+          {
+            "start_time": "09:00",
+            "end_time": "11:00",
+            "activity_title": "Petra Morning Visit",
+            "description": "Explore the ancient city of Petra.",
+            "location": "Petra",
+            "estimated_cost": "Not Available",
+            "smart_tip": "Enjoy the sunrise over the Siq."
+          },
+          {
+            "start_time": "12:30",
+            "end_time": "13:30",
+            "activity_title": "Lunch at Local Restaurant",
+            "description": "Taste traditional Jordanian dishes.",
+            "location": "Petra",
+            "estimated_cost": "Not Available",
+            "smart_tip": "Try the local hummus and falafel."
+          },
+          {
+            "start_time": "15:00",
+            "end_time": "17:00",
+            "activity_title": "Afternoon Petra Walk",
+            "description": "Continue exploring Petra's highlights.",
+            "location": "Petra",
+            "estimated_cost": "Not Available",
+            "smart_tip": "Wear comfortable shoes for the uneven terrain."
+          },
+          {
+            "start_time": "19:00",
+            "end_time": "20:30",
+            "activity_title": "Dinner at Petra Restaurant",
+            "description": "Enjoy a relaxed dinner after a day of exploration.",
+            "location": "Petra",
+            "estimated_cost": "Not Available",
+            "smart_tip": "Ask for a table with a view of the Treasury."
+          }
+        ],
+        "activity_alternatives": [
+          {
+            "original_activity": "Petra Morning Visit",
+            "alternative_activity": "Petra Afternoon Visit",
+            "reason": "Different lighting and fewer crowds"
+          }
+        ]
+      },
+      {
+        "day_number": "2",
+        "day_title": "Wadi Rum Adventure",
+        "day_summary": "Morning desert tour, lunch in the dunes, afternoon camel ride, and dinner by the camp.",
+        "activities": [
+          {
+            "start_time": "09:00",
+            "end_time": "11:00",
+            "activity_title": "Wadi Rum Morning Tour",
+            "description": "Explore the red desert landscapes.",
+            "location": "Wadi Rum",
+            "estimated_cost": "Not Available",
+            "smart_tip": "Bring a hat and sunscreen."
+          },
+          {
+            "start_time": "12:30",
+            "end_time": "13:30",
+            "activity_title": "Lunch in the Dunes",
+            "description": "Enjoy a meal in the desert setting.",
+            "location": "Wadi Rum",
+            "estimated_cost": "Not Available",
+            "smart_tip": "Stay hydrated and enjoy the quiet."
+          },
+          {
+            "start_time": "15:00",
+            "end_time": "17:00",
+            "activity_title": "Afternoon Camel Ride",
+            "description": "Ride camels through the dunes.",
+            "location": "Wadi Rum",
+            "estimated_cost": "Not Available",
+            "smart_tip": "Wear light clothing and comfortable shoes."
+          },
+          {
+            "start_time": "19:00",
+            "end_time": "20:30",
+            "activity_title": "Dinner at Desert Camp",
+            "description": "Relax with a meal under the stars.",
+            "location": "Wadi Rum",
+            "estimated_cost": "Not Available",
+            "smart_tip": "Try the local grilled meats."
+          }
+        ],
+        "activity_alternatives": [
+          {
+            "original_activity": "Wadi Rum Morning Tour",
+            "alternative_activity": "Wadi Rum Sunset Tour",
+            "reason": "Experience the desert at sunset"
+          }
+        ]
+      },
+      {
+        "day_number": "3",
+        "day_title": "Aqaba Beach Day",
+        "day_summary": "Morning beach time, lunch by the sea, afternoon water activities, and dinner at a seaside restaurant.",
+        "activities": [
+          {
+            "start_time": "09:00",
+            "end_time": "11:00",
+            "activity_title": "Aqaba Beach Morning",
+            "description": "Relax on the Red Sea beach.",
+            "location": "Aqaba",
+            "estimated_cost": "Not Available",
+            "smart_tip": "Use reef-safe sunscreen."
+          },
+          {
+            "start_time": "12:30",
+            "end_time": "13:30",
+            "activity_title": "Lunch by the Sea",
+            "description": "Enjoy fresh seafood and local dishes.",
+            "location": "Aqaba",
+            "estimated_cost": "Not Available",
+            "smart_tip": "Try the grilled fish."
+          },
+          {
+            "start_time": "15:00",
+            "end_time": "17:00",
+            "activity_title": "Afternoon Water Activities",
+            "description": "Try snorkeling or a boat tour.",
+            "location": "Aqaba",
+            "estimated_cost": "Not Available",
+            "smart_tip": "Check the weather before heading out."
+          },
+          {
+            "start_time": "19:00",
+            "end_time": "20:30",
+            "activity_title": "Dinner at Seaside Restaurant",
+            "description": "Finish the day with a seaside dinner.",
+            "location": "Aqaba",
+            "estimated_cost": "Not Available",
+            "smart_tip": "Ask for a table with a sea view."
+          }
+        ],
+        "activity_alternatives": [
+          {
+            "original_activity": "Aqaba Beach Morning",
+            "alternative_activity": "Aqaba Sunset Beach",
+            "reason": "Enjoy sunset views"
+          }
+        ]
+      }
+    ],
+    "budget_summary": {
+      "items": [
+        {
+          "category": "Accommodation",
+          "estimated_cost": "Not Available",
+          "notes": "No hotel data available."
+        },
+        {
+          "category": "Meals",
+          "estimated_cost": "Not Available",
+          "notes": "No restaurant cost data available."
+        },
+        {
+          "category": "Activities & Entry Fees",
+          "estimated_cost": "Not Available",
+          "notes": "No attraction cost data available."
+        },
+        {
+          "category": "Total",
+          "estimated_cost": "Not Available",
+          "notes": "Total cost could not be calculated due to missing data."
+        }
+      ],
+      "total_estimated_cost": "Not Available"
+    },
+    "essential_travel_tips": [
+      {
+        "category": "Travel Logistics",
+        "tips": [
+          "Carry local currency for small purchases",
+          "Check opening hours before visiting sites"
+        ]
+      },
+      {
+        "category": "Safety",
+        "tips": [
+          "Stay hydrated in the desert",
+          "Avoid walking alone at night"
+        ]
+      },
+      {
+        "category": "Cultural Etiquette",
+        "tips": [
+          "Dress modestly when visiting religious sites",
+          "Respect local customs"
+        ]
+      },
+      {
+        "category": "Health & Wellness",
+        "tips": [
+          "Use sunscreen and wear a hat",
+          "Stay hydrated during outdoor activities"
+        ]
+      }
+    ],
+    "explanations": {
+      "trip_planning_reason": "The itinerary follows the requested regions and interests, but due to limited data, a generic outline was created.",
+      "selection_reason": "The selection reflects the traveler's preferences for history, nature, and luxury within a balanced pace, and respects the requested 5-star accommodation."
+    }
+  }
+}

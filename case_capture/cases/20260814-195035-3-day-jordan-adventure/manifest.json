@@ -1,0 +1,18 @@
+{
+  "caseId": "20260814-195035-3-day-jordan-adventure",
+  "createdAt": "2026-08-14T19:50:35.236619+00:00",
+  "trip_title": "3-Day Jordan Adventure",
+  "rag": {
+    "status": "unavailable",
+    "source": null,
+    "duration_days": 3,
+    "cluster_count": 0,
+    "clusters": []
+  },
+  "paths": {
+    "input": "01_input.json",
+    "knowledge": "02_retriever.json",
+    "knowledge_preview": "02_retriever_preview.json",
+    "output": "03_output.json"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "status": "ok",
+  "source": "retriever",
+  "duration_days": 3,
+  "cluster_count": 3,
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "theme": "Ma'an Governorate · history, nature, photography",
+      "poi_count": 10,
+      "hotel_count": 4,
+      "event_count": 3,
+      "poi_names": [
+        "Petra Museum",
+        "Um Frouth Rock Bridge",
+        "French Fortress Ruins (Wadi Rum)",
+        "Lawrence's Spring",
+        "Red Sand Dunes of Wadi Rum",
+        "Neolithic Village of Beidha",
+        "Royal Tombs",
+        "Ad-Deir (The Monastery)",
+        "Al-Mu'aysrah Temple Trail",
+        "Jabal Burdah Rock Bridge"
+      ],
+      "hotel_names": [
+        "Petra Panorama Hotel",
+        "Petra Sky Hotel",
+        "Petra Boutique Hotel",
+        "Petra Aretas Hotel"
+      ],
+      "sample_restaurants": [
+        "My Mom's Recipe Restaurant",
+        "Rahayeb Desert Camp Restaurant",
+        "Bedouin Night Camp Restaurant",
+        "Wadi Rum Visitor Center Rest House",
+        "Mani Zarb & Bedouin Camp Restaurant",
+        "Rock Camp Restaurant Little Petra"
+      ],
+      "event_names": [
+        "Petra Heritage Fashion and Local Products Exhibition",
+        "Caravans of Petra Documentary Screening",
+        "Ma'an Cultural Days"
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "theme": "Ma'an Governorate · history, nature, photography",
+      "poi_count": 5,
+      "hotel_count": 4,
+      "event_count": 3,
+      "poi_names": [
+        "Petra Church (Byzantine Church)",
+        "Little Petra (Siq al-Barid)",
+        "Wadi Rum Visitor Center",
+        "Al-Khazneh Viewpoint (Jabal al-Khubtha Trail)",
+        "Al-Maddras Trail & High Viewpoint"
+      ],
+      "hotel_names": [
+        "Petra Panorama Hotel",
+        "Petra Sky Hotel",
+        "Petra Boutique Hotel",
+        "Petra Aretas Hotel"
+      ],
+      "sample_restaurants": [
+        "The Basin Restaurant Petra",
+        "Bedouin Cave Cafe",
+        "Rock Camp Restaurant Little Petra",
+        "Little Petra Bedouin Camp Restaurant",
+        "Sun City Camp Dining Tent",
+        "Mani Zarb & Bedouin Camp Restaurant"
+      ],
+      "event_names": [
+        "Petra Heritage Fashion and Local Products Exhibition",
+        "Caravans of Petra Documentary Screening",
+        "Ma'an Cultural Days"
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "theme": "Ma'an Governorate · nature, history, photography",
+      "poi_count": 6,
+      "hotel_count": 4,
+      "event_count": 3,
+      "poi_names": [
+        "Barrah Canyon",
+        "Maan Historic Souq",
+        "The Siq",
+        "Great Temple of Petra",
+        "Seven Pillars of Wisdom Mountain",
+        "Khazali Canyon"
+      ],
+      "hotel_names": [
+        "Petra Panorama Hotel",
+        "Petra Sky Hotel",
+        "Petra Boutique Hotel",
+        "Petra Aretas Hotel"
+      ],
+      "sample_restaurants": [
+        "Sun City Camp Dining Tent",
+        "Captain's Desert Camp Restaurant Wadi Rum",
+        "Al-Taqwa Restaurant",
+        "Al-Khalil Fast Food & Falafel",
+        "Mövenpick Al Iwan Restaurant",
+        "The Basin Restaurant Petra"
+      ],
+      "event_names": [
+        "Petra Heritage Fashion and Local Products Exhibition",
+        "Caravans of Petra Documentary Screening",
+        "Ma'an Cultural Days"
+      ]
+    }
+  ]
+}

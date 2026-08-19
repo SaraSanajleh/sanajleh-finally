@@ -1,0 +1,1325 @@
+{
+  "metadata": {
+    "model": "gpt-oss:20b-cloud",
+    "provider": "ollama",
+    "mode": "build",
+    "retries": 0
+  },
+  "package": {
+    "package_id": "pkg-a0e9ce85d2fb",
+    "status": "complete",
+    "welcome_message": "Welcome to a 4-day family adventure through Amman, Jerash, and Madaba - curated with authentic Jordanian sites and local hosts.",
+    "trip_title": "Amman · Jerash · Madaba",
+    "trip": {
+      "title": "Amman · Jerash · Madaba",
+      "summary": "Four days of cultural discovery across Amman, Jerash, and Madaba. Each day stays within one region, with outdoor exploration in the morning and museums or shaded activities in the afternoon. The itinerary balances historic sites, religious landmarks, and local cuisine for a relaxed family pace.",
+      "start_date": "2026-08-20",
+      "end_date": "2026-08-23",
+      "duration_days": 4,
+      "nights": 3,
+      "regions": [
+        "Amman",
+        "Jerash",
+        "Madaba"
+      ],
+      "arrival_airport": "AMM",
+      "language": "English"
+    },
+    "traveler_profile": {
+      "group_type": "family",
+      "adults": 5,
+      "children": 0,
+      "children_ages": [],
+      "seniors": 0,
+      "total_travelers": 5,
+      "interests": [
+        "religious_sites",
+        "museums"
+      ],
+      "pace": "Balanced",
+      "activity_level": "Moderate",
+      "accessibility_needs": []
+    },
+    "planning": {
+      "strategy": "Each day stays in one area: Jerash, Amman, then Madaba. Walk heritage and nature in the morning. Save museums, meals, and shade for the afternoon. About 3 places to visit and 3 meals on exploring days. The arrival day follows the time that remains after food and rest.",
+      "constraints": {
+        "must_visit": [],
+        "places_to_avoid": []
+      },
+      "constraint_status": {
+        "status": "satisfied",
+        "unmet": []
+      },
+      "assumptions": [
+        "Travel times between cities are estimated qualitatively, not as exact minutes, unless evidence exists.",
+        "Opening hours are used only when present on the catalog record."
+      ],
+      "climate": {
+        "month": 8,
+        "season": "hot_dry_summer",
+        "typical_pattern": "High daytime heat, especially in the Jordan Valley and desert.",
+        "outdoor_guidance": "Walk outdoors in the morning. Keep the afternoon for shade, meals, or indoor visits.",
+        "heat_risk": "high"
+      },
+      "weather_status": "ok",
+      "decisions": [
+        {
+          "code": "day_route",
+          "title": "Each day stays in one area",
+          "why": "Mixing far-apart cities in one day makes the trip exhausting and confusing.",
+          "effect": "Your days follow Jerash, Amman, then Madaba."
+        },
+        {
+          "code": "open_explore",
+          "title": "A route built around your interests",
+          "why": "You didn't pick regions, so the days follow religious_sites, museums.",
+          "effect": "Instead of staying only in the arrival city, the journey goes to Jerash, Amman, then Madaba."
+        },
+        {
+          "code": "arrival_stay",
+          "title": "Your first night is near the airport",
+          "why": "You land at AMM at 10:40.",
+          "effect": "Night one is a hotel in Amman. Exploring starts from there the next day."
+        },
+        {
+          "code": "arrival_pace",
+          "title": "Arrive, rest, then a short same-city plan",
+          "why": "You arrive at 10:40.",
+          "effect": "About an hour for food, several hours of rest, then whatever daylight is left nearby — not a long drive."
+        },
+        {
+          "code": "day_trips",
+          "title": "Day trips from one hotel",
+          "why": "These places are close enough to visit and return the same day.",
+          "effect": "You keep the same hotel in Amman and come back there to sleep."
+        },
+        {
+          "code": "heat",
+          "title": "Mornings for the outdoors",
+          "why": "High daytime heat, especially in the Jordan Valley and desert.",
+          "effect": "Walk heritage and nature in the morning. Save museums, meals, and shade for the afternoon."
+        },
+        {
+          "code": "pace",
+          "title": "A balanced pace",
+          "why": "family group, Moderate activity.",
+          "effect": "About 3 places to visit and 3 meals on exploring days. The arrival day follows the time that remains after food and rest."
+        },
+        {
+          "code": "stay_tier",
+          "title": "4 star stays",
+          "why": "You asked for 4 star hotels.",
+          "effect": "Hotels are taken from listings at that star level when the city has them. If it does not, we use the closest listed tier and say so."
+        },
+        {
+          "code": "budget",
+          "title": "A moderate budget",
+          "why": "700 JOD for 4 days.",
+          "effect": "A mix of comfortable and good-value stays and meals, with listed prices only."
+        },
+        {
+          "code": "interests",
+          "title": "Chosen around what you care about",
+          "why": "religious_sites, museums",
+          "effect": "Sights, meals, and local hosts are matched to these. Unrelated places stay out."
+        }
+      ]
+    },
+    "days": [
+      {
+        "day": 1,
+        "date": "2026-08-20",
+        "region": "Amman",
+        "theme": "Arrival in Amman",
+        "summary": "Arrival in Amman: food, rest, then whatever daylight is left nearby. Then a short same-city plan: Amman Citadel Flagpole, Jordan Archaeological Museum, Jordan Folklore Museum.",
+        "schedule": [
+          {
+            "time": "11:25",
+            "end_time": "12:10",
+            "slot": "lunch",
+            "type": "restaurant",
+            "item_id": "restaurant_001001",
+            "name": "Hashem Restaurant",
+            "duration_minutes": 45,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.951564,
+              "longitude": 35.938342,
+              "precision": "exact"
+            },
+            "description": "An iconic, legendary open-air street-level eatery in downtown Amman serving traditional Jordanian breakfast staples.",
+            "reason": "About an hour for lunch after landing, then rest at the hotel.",
+            "matched_preferences": [
+              "In Amman",
+              "Matches preferred cuisine",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "4 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_001001"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "12:25",
+            "end_time": "15:25",
+            "slot": "overnight",
+            "type": "hotel",
+            "item_id": "hotel_000020",
+            "name": "Amman Rotana",
+            "duration_minutes": null,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.965028,
+              "longitude": 35.903111,
+              "precision": "exact"
+            },
+            "description": "Jordan's tallest building at 188 metres, this five-star Abdali tower hotel holds 412 rooms and suites across 50 floors, with several restaurants, a seasonal outdoor pool, a 24-hour gym and a full-service spa.",
+            "reason": "Check in, eat nearby, and rest 3–5 hours. Remaining light is for a short same-city plan. 5-star stay, as requested",
+            "matched_preferences": [
+              "5-star stay, as requested",
+              "In Amman",
+              "5-star, as requested",
+              "Matches hotel"
+            ],
+            "estimated_cost": "130 JOD / night",
+            "source": {
+              "dataset": "hotels",
+              "record_id": "hotel_000020"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "15:25",
+            "end_time": "15:40",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_000052",
+            "name": "Amman Citadel Flagpole",
+            "duration_minutes": 15,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.956944,
+              "longitude": 35.942778,
+              "precision": "exact"
+            },
+            "description": "Massive national flagpole visible across Amman, located on the Royal Palace compound near the Citadel.",
+            "reason": "Time remains after rest, so the arrival day continues nearby — not a long drive.",
+            "matched_preferences": [
+              "In Amman",
+              "local_tourism_catalog",
+              "A must-see in Amman"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_000052"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "15:55",
+            "end_time": "16:40",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_000024",
+            "name": "Jordan Archaeological Museum",
+            "duration_minutes": 45,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.954806,
+              "longitude": 35.935194,
+              "precision": "exact"
+            },
+            "description": "Historic archaeological museum situated atop Citadel Hill housing ancient regional artifacts.",
+            "reason": "Time remains after rest, so the arrival day continues nearby — not a long drive.",
+            "matched_preferences": [
+              "In Amman",
+              "local_tourism_catalog",
+              "A must-see in Amman",
+              "Matches museums",
+              "Indoor option on a hot day"
+            ],
+            "estimated_cost": "3 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_000024"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "16:55",
+            "end_time": "17:40",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_000023",
+            "name": "Jordan Folklore Museum",
+            "duration_minutes": 45,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.951667,
+              "longitude": 35.939722,
+              "precision": "exact"
+            },
+            "description": "Museum in the eastern vaults of the Roman Theatre illustrating traditional Bedouin and village life.",
+            "reason": "Time remains after rest, so the arrival day continues nearby — not a long drive.",
+            "matched_preferences": [
+              "In Amman",
+              "local_tourism_catalog",
+              "Matches museums",
+              "Indoor option on a hot day",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "2 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_000023"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "17:55",
+            "end_time": "18:15",
+            "slot": "overnight",
+            "type": "hotel",
+            "item_id": "hotel_000020",
+            "name": "Amman Rotana",
+            "duration_minutes": null,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.965028,
+              "longitude": 35.903111,
+              "precision": "exact"
+            },
+            "description": "Jordan's tallest building at 188 metres, this five-star Abdali tower hotel holds 412 rooms and suites across 50 floors, with several restaurants, a seasonal outdoor pool, a 24-hour gym and a full-service spa.",
+            "reason": "Back to your arrival hotel for the night.",
+            "matched_preferences": [
+              "5-star stay, as requested",
+              "In Amman",
+              "5-star, as requested",
+              "Matches hotel"
+            ],
+            "estimated_cost": "130 JOD / night",
+            "source": {
+              "dataset": "hotels",
+              "record_id": "hotel_000020"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "You land at 10:40. The drive from Queen Alia to Amman is about 45 minutes. Times below start after that transfer."
+      },
+      {
+        "day": 2,
+        "date": "2026-08-21",
+        "region": "Jerash",
+        "theme": "Jerash: religious_sites, museums",
+        "summary": "Jerash day: explore the Greco-Roman ruins, visit a shrine, and see an ancient reservoir before returning to Amman.",
+        "schedule": [
+          {
+            "time": "08:00",
+            "end_time": "09:00",
+            "slot": "morning",
+            "type": "restaurant",
+            "item_id": "restaurant_005001",
+            "name": "Artemis Restaurant",
+            "duration_minutes": 60,
+            "location": "Jerash",
+            "coordinates": {
+              "latitude": 32.278912,
+              "longitude": 35.890145,
+              "precision": "exact"
+            },
+            "description": "Popular tourist-oriented restaurant near the Jerash archaeological site, serving traditional Jordanian and Levantine dishes.",
+            "reason": "Breakfast before the morning tour.",
+            "matched_preferences": [
+              "In Jerash",
+              "A must-see in Jerash",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "15 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_005001"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "09:15",
+            "end_time": "12:15",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_005001",
+            "name": "Jerash Archaeological Site",
+            "duration_minutes": 180,
+            "location": "Jerash",
+            "coordinates": {
+              "latitude": 32.280012,
+              "longitude": 35.891245,
+              "precision": "exact"
+            },
+            "description": "One of the best-preserved Greco-Roman cities in the world, featuring colonnaded streets, temples, and large theaters.",
+            "reason": "Main highlight of the day.",
+            "matched_preferences": [
+              "In Jerash",
+              "local_tourism_catalog",
+              "A must-see in Jerash",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "10 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_005001"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "13:00",
+            "end_time": "14:00",
+            "slot": "afternoon",
+            "type": "restaurant",
+            "item_id": "restaurant_005051",
+            "name": "Jerash Roman Arch Restaurant",
+            "duration_minutes": 60,
+            "location": "Jerash",
+            "coordinates": {
+              "latitude": 32.27312,
+              "longitude": 35.89412,
+              "precision": "exact"
+            },
+            "description": "Traditional restaurant near Hadrian's Arch, featuring charcoal grills and local meze.",
+            "reason": "Lunch after the morning tour.",
+            "matched_preferences": [
+              "In Jerash",
+              "A must-see in Jerash",
+              "Matches preferred cuisine",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "13 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_005051"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "14:15",
+            "end_time": "14:50",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_005036",
+            "name": "Nabi Hud Shrine",
+            "duration_minutes": 35,
+            "location": "Jerash",
+            "coordinates": {
+              "latitude": 32.27111,
+              "longitude": 35.93889,
+              "precision": "exact"
+            },
+            "description": "A religious shrine and hilltop mosque dedicated to Prophet Hud, located on a mountain east of Jerash.",
+            "reason": "A short visit to a nearby shrine.",
+            "matched_preferences": [
+              "In Jerash",
+              "local_tourism_catalog",
+              "Matches religious_sites"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_005036"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "15:05",
+            "end_time": "15:35",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_005014",
+            "name": "Al-Birketein Archaeological Site",
+            "duration_minutes": 30,
+            "location": "Jerash",
+            "coordinates": {
+              "latitude": 32.29611,
+              "longitude": 35.89889,
+              "precision": "exact"
+            },
+            "description": "Roman spring-fed reservoir complex north of Jerash that hosted water festivals in antiquity.",
+            "reason": "Another brief outdoor stop.",
+            "matched_preferences": [
+              "In Jerash",
+              "local_tourism_catalog"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_005014"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "15:50",
+            "end_time": "16:10",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_005017",
+            "name": "Al-Husseini Mosque Jerash",
+            "duration_minutes": 20,
+            "location": "Jerash",
+            "coordinates": {
+              "latitude": 32.2785,
+              "longitude": 35.8972,
+              "precision": "exact"
+            },
+            "description": "Main historic downtown mosque of Jerash built during the Hashemite era.",
+            "reason": "Indoor stop to finish the day.",
+            "matched_preferences": [
+              "In Jerash",
+              "local_tourism_catalog",
+              "Matches religious_sites",
+              "Indoor option on a hot day",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_005017"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "18:00",
+            "end_time": "19:00",
+            "slot": "evening",
+            "type": "restaurant",
+            "item_id": "restaurant_001076",
+            "name": "Dardasha Weibdeh",
+            "duration_minutes": 60,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.95512,
+              "longitude": 35.91451,
+              "precision": "exact"
+            },
+            "description": "Eclectic art cafe in Jabal Weibdeh celebrating local creativity, coffee, and community conversations.",
+            "reason": "Dinner after returning to Amman.",
+            "matched_preferences": [
+              "In Amman",
+              "Matches preferred cuisine",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "8 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_001076"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "Come back to your hotel in Amman to sleep."
+      },
+      {
+        "day": 3,
+        "date": "2026-08-22",
+        "region": "Amman",
+        "theme": "Amman: religious_sites, museums",
+        "summary": "Amman day: visit the mosque, national museum, military museum, and art gallery before a relaxed dinner.",
+        "schedule": [
+          {
+            "time": "08:00",
+            "end_time": "08:45",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_000004",
+            "name": "King Abdullah I Mosque",
+            "duration_minutes": 45,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.961311,
+              "longitude": 35.914275,
+              "precision": "exact"
+            },
+            "description": "Distinctive blue-domed landmark mosque open to non-Muslim visitors in the Al-Abdali district.",
+            "reason": "Morning highlight of the day.",
+            "matched_preferences": [
+              "In Amman",
+              "local_tourism_catalog",
+              "Matches religious_sites"
+            ],
+            "estimated_cost": "2 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_000004"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "09:00",
+            "end_time": "10:30",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_000003",
+            "name": "The Jordan Museum",
+            "duration_minutes": 90,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.94825,
+              "longitude": 35.92723,
+              "precision": "exact"
+            },
+            "description": "Jordan's national archaeological and cultural museum located in the Ras Al-Ain district.",
+            "reason": "Key museum visit.",
+            "matched_preferences": [
+              "In Amman",
+              "local_tourism_catalog",
+              "A must-see in Amman",
+              "Matches museums",
+              "Indoor option on a hot day"
+            ],
+            "estimated_cost": "5 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_000003"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "10:45",
+            "end_time": "11:15",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_000019",
+            "name": "Jordan Military Museum",
+            "duration_minutes": 30,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.954167,
+              "longitude": 35.935556,
+              "precision": "exact"
+            },
+            "description": "Historic museum within the Citadel complex showcasing Jordan's military traditions.",
+            "reason": "Short indoor stop.",
+            "matched_preferences": [
+              "In Amman",
+              "local_tourism_catalog",
+              "A must-see in Amman",
+              "Matches museums",
+              "Indoor option on a hot day"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_000019"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "12:00",
+            "end_time": "12:45",
+            "slot": "afternoon",
+            "type": "restaurant",
+            "item_id": "restaurant_001024",
+            "name": "Qanat Khair Restaurant",
+            "duration_minutes": 45,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.95912,
+              "longitude": 35.87941,
+              "precision": "exact"
+            },
+            "description": "Traditional local eatery known for home-style Jordanian comfort foods, daily stews, and grilled meats.",
+            "reason": "Lunch after the morning museums.",
+            "matched_preferences": [
+              "In Amman",
+              "Matches preferred cuisine",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "10 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_001024"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "13:00",
+            "end_time": "14:00",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_000012",
+            "name": "Jordan National Gallery of Fine Arts",
+            "duration_minutes": 60,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.958333,
+              "longitude": 35.9225,
+              "precision": "exact"
+            },
+            "description": "Major contemporary art museum showcasing works from Asia, Africa, and the developing world in Jabal Lweibdeh.",
+            "reason": "Another museum highlight.",
+            "matched_preferences": [
+              "In Amman",
+              "local_tourism_catalog",
+              "Matches museums",
+              "Indoor option on a hot day",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "3 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_000012"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "14:15",
+            "end_time": "15:00",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_000032",
+            "name": "Prophet Mohammad Museum",
+            "duration_minutes": 45,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.985833,
+              "longitude": 35.832222,
+              "precision": "exact"
+            },
+            "description": "Islamic museum exhibiting relics and historical displays inside the King Hussein Mosque complex.",
+            "reason": "Final museum stop before dinner.",
+            "matched_preferences": [
+              "In Amman",
+              "local_tourism_catalog",
+              "Matches religious_sites, museums",
+              "Indoor option on a hot day",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_000032"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "18:00",
+            "end_time": "19:30",
+            "slot": "evening",
+            "type": "restaurant",
+            "item_id": "restaurant_001071",
+            "name": "Sufra",
+            "duration_minutes": 90,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.94821,
+              "longitude": 35.92543,
+              "precision": "exact"
+            },
+            "description": "Award-winning traditional Jordanian restaurant on Rainbow Street set in a historic villa with lush garden dining.",
+            "reason": "Dinner after a full day of museums.",
+            "matched_preferences": [
+              "In Amman",
+              "A must-see in Amman",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "22 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_001071"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "Stay overnight in Amman."
+      },
+      {
+        "day": 4,
+        "date": "2026-08-23",
+        "region": "Madaba",
+        "theme": "Madaba: religious_sites, museums",
+        "summary": "Madaba day: explore the archaeological park, a historic highway, and a desert viewpoint before a garden dinner.",
+        "schedule": [
+          {
+            "time": "08:00",
+            "end_time": "09:00",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_004002",
+            "name": "Madaba Archaeological Park",
+            "duration_minutes": 60,
+            "location": "Madaba",
+            "coordinates": {
+              "latitude": 31.716181,
+              "longitude": 35.793264,
+              "precision": "exact"
+            },
+            "description": "Open-air archaeological complex featuring Roman roads, Byzantine churches, and exquisite floor mosaics.",
+            "reason": "Morning highlight of the day.",
+            "matched_preferences": [
+              "In Madaba",
+              "local_tourism_catalog",
+              "Matches religious_sites",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "3 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_004002"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "09:15",
+            "end_time": "10:45",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_004017",
+            "name": "King's Highway Madaba Segment",
+            "duration_minutes": 90,
+            "location": "Madaba",
+            "coordinates": {
+              "latitude": 31.683333,
+              "longitude": 35.783333,
+              "precision": "exact"
+            },
+            "description": "Ancient trade and pilgrimage highway passing through Madaba's agricultural plateau and dramatic canyons.",
+            "reason": "Scenic drive and short stops.",
+            "matched_preferences": [
+              "In Madaba",
+              "local_tourism_catalog"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_004017"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "12:00",
+            "end_time": "13:30",
+            "slot": "afternoon",
+            "type": "restaurant",
+            "item_id": "restaurant_004012",
+            "name": "Mount Nebo Panorama Restaurant",
+            "duration_minutes": 90,
+            "location": "Madaba",
+            "coordinates": {
+              "latitude": 31.765123,
+              "longitude": 35.727045,
+              "precision": "exact"
+            },
+            "description": "Cliffside restaurant near Mount Nebo offering panoramic views of the Jordan Valley and Dead Sea with international dining.",
+            "reason": "Lunch with a view.",
+            "matched_preferences": [
+              "In Madaba",
+              "A must-see in Madaba",
+              "Matches religious_sites",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "22 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_004012"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "13:45",
+            "end_time": "14:05",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_004039",
+            "name": "Al-Lajjun / East Madaba Desert Border Viewpoint",
+            "duration_minutes": 20,
+            "location": "Madaba",
+            "coordinates": {
+              "latitude": 31.705278,
+              "longitude": 35.848889,
+              "precision": "exact"
+            },
+            "description": "Panoramic viewpoint marking the transition between fertile grain plateau and eastern desert steppes.",
+            "reason": "Quick scenic stop.",
+            "matched_preferences": [
+              "In Madaba",
+              "local_tourism_catalog"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_004039"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "14:20",
+            "end_time": "14:55",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_004040",
+            "name": "Qasr az-Za'afaran",
+            "duration_minutes": 35,
+            "location": "Madaba",
+            "coordinates": {
+              "latitude": 31.748056,
+              "longitude": 35.834167,
+              "precision": "exact"
+            },
+            "description": "Historic hilltop stone watchtower site dating to the Iron Age and re-used by Romans to guard desert borders.",
+            "reason": "Historical stop before the final site.",
+            "matched_preferences": [
+              "In Madaba",
+              "local_tourism_catalog"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_004040"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "15:10",
+            "end_time": "15:40",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_004005",
+            "name": "Church of the Apostles",
+            "duration_minutes": 30,
+            "location": "Madaba",
+            "coordinates": {
+              "latitude": 31.711833,
+              "longitude": 35.795722,
+              "precision": "exact"
+            },
+            "description": "Byzantine church ruins featuring a massive, well-preserved mosaic floor dedicated to the Twelve Apostles.",
+            "reason": "Final religious site before dinner.",
+            "matched_preferences": [
+              "In Madaba",
+              "local_tourism_catalog",
+              "Matches religious_sites",
+              "Indoor option on a hot day"
+            ],
+            "estimated_cost": "3 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_004005"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "18:00",
+            "end_time": "19:30",
+            "slot": "evening",
+            "type": "restaurant",
+            "item_id": "restaurant_001003",
+            "name": "Sufra Restaurant",
+            "duration_minutes": 90,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.94721,
+              "longitude": 35.92652,
+              "precision": "exact"
+            },
+            "description": "Upscale garden restaurant on Rainbow Street offering refined traditional Jordanian and Levantine dishes.",
+            "reason": "Dinner after a full day of exploration.",
+            "matched_preferences": [
+              "In Amman",
+              "A must-see in Amman",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "25 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_001003"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "Come back to your hotel in Amman to sleep."
+      }
+    ],
+    "budget": {
+      "currency": "JOD",
+      "traveler_budget": 700.0,
+      "estimated_total": "1280 JOD",
+      "band": "moderate",
+      "items": [
+        {
+          "category": "Stays",
+          "estimated_cost": "390 JOD",
+          "notes": "Amman Rotana: 130 JOD × 3 night(s)",
+          "confidence": "medium"
+        },
+        {
+          "category": "Meals on the plan",
+          "estimated_cost": "595 JOD",
+          "notes": "8 listed meal(s) × 5 traveler(s).",
+          "confidence": "medium"
+        },
+        {
+          "category": "Entry tickets",
+          "estimated_cost": "155 JOD",
+          "notes": "17 listed site(s) × 5 traveler(s).",
+          "confidence": "medium"
+        },
+        {
+          "category": "Trip guide",
+          "estimated_cost": "70 JOD",
+          "notes": "Listed from 70 JOD (up to 120 JOD listed)",
+          "confidence": "medium"
+        },
+        {
+          "category": "Trip operator",
+          "estimated_cost": "70 JOD",
+          "notes": "Listed from 70 JOD (up to 1100 JOD listed)",
+          "confidence": "medium"
+        },
+        {
+          "category": "Left vs your ceiling",
+          "estimated_cost": "-580 JOD",
+          "notes": "Your ceiling is 700 JOD. Listed pieces add up to 1280 JOD.",
+          "confidence": "medium"
+        }
+      ],
+      "disclaimer": "Amounts come from catalog listings. This is a planning estimate, not a final invoice. Missing prices stay unknown — we do not invent them."
+    },
+    "sme_value": {
+      "headline": "Your guide and operator for this journey",
+      "summary": "One local guide and one tour operator for the whole trip — not a new face every day.",
+      "recommended": [
+        {
+          "sme_id": "tour_guide:SME-000001:amman",
+          "sme_type": "tour_guide",
+          "name": "Ibrahim Al-Zubi",
+          "role": "Trip guide",
+          "location": "Amman",
+          "experience_type": "History, Culture, Archaeology",
+          "match_score": 0.859,
+          "reason": "Fits what you asked for: religious_sites, museums",
+          "matched_because": [
+            "Fits what you asked for: religious_sites, museums",
+            "Covers amman, jerash",
+            "Based in Amman",
+            "Works with family travelers",
+            "Speaks English"
+          ],
+          "known_for": [
+            "Licensed freelance professional tour guide specializing in the rich history, Roman ruins, and cultural heritage of Amman and its surrounding archaeological sites",
+            "Takes travelers to Amman Citadel, Roman Theater, Downtown Amman, Umm Al-Jimal",
+            "Also offers Custom Itineraries, Private Tours, Group Tours",
+            "Private groups available"
+          ],
+          "specializations": [
+            "History",
+            "Culture",
+            "Archaeology",
+            "Religious Sites"
+          ],
+          "languages": [
+            "Arabic",
+            "English"
+          ],
+          "experience_years": 12,
+          "destinations_covered": [
+            "Amman Citadel",
+            "Roman Theater",
+            "Downtown Amman",
+            "Umm Al-Jimal",
+            "Jerash"
+          ],
+          "covers_regions": [
+            "amman",
+            "jerash"
+          ],
+          "package_role": "guide",
+          "specs": [
+            {
+              "label": "Specializations",
+              "value": "History, Culture, Archaeology, Religious Sites"
+            },
+            {
+              "label": "Experience",
+              "value": "12 years"
+            },
+            {
+              "label": "Languages",
+              "value": "Arabic, English"
+            },
+            {
+              "label": "Best for",
+              "value": "Couples, Families, Solo Travelers"
+            },
+            {
+              "label": "Group size",
+              "value": "1–25"
+            },
+            {
+              "label": "From",
+              "value": "70–120 JOD"
+            },
+            {
+              "label": "Hours",
+              "value": "08:00 - 18:00"
+            },
+            {
+              "label": "Rating",
+              "value": "4.9 (42 reviews)"
+            }
+          ],
+          "source": {
+            "dataset": "sme_guides",
+            "record_id": "tour_guide:SME-000001:amman"
+          },
+          "coordinates": {
+            "latitude": 31.9454,
+            "longitude": 35.9284,
+            "precision": "city_centroid"
+          }
+        },
+        {
+          "sme_id": "tour_operator:SME-000005:amman",
+          "sme_type": "tour_operator",
+          "name": "Jordan Horizons Tours",
+          "role": "Trip operator",
+          "location": "Amman",
+          "experience_type": "History, Nature, Archaeology",
+          "match_score": 0.946,
+          "reason": "Fits what you asked for: religious_sites, museums",
+          "matched_because": [
+            "Fits what you asked for: religious_sites, museums",
+            "Covers amman, jerash, madaba",
+            "Based in Amman",
+            "Works with family travelers",
+            "Speaks English",
+            "Transportation across the itinerary"
+          ],
+          "known_for": [
+            "Full-service incoming tour operator offering customized tour packages, ticketing, ground transportation, and guided excursions across all major Jordanian destinations",
+            "Takes travelers to Amman, Petra, Wadi Rum, Dead Sea",
+            "Also offers Transportation, Custom Itineraries, Private Tours",
+            "Private groups available",
+            "Can arrange transportation"
+          ],
+          "specializations": [
+            "History",
+            "Nature",
+            "Archaeology",
+            "Religious Sites"
+          ],
+          "languages": [
+            "English",
+            "Arabic",
+            "Spanish"
+          ],
+          "experience_years": 15,
+          "destinations_covered": [
+            "Amman",
+            "Petra",
+            "Wadi Rum",
+            "Dead Sea",
+            "Jerash",
+            "Madaba",
+            "Mount Nebo"
+          ],
+          "covers_regions": [
+            "amman",
+            "jerash",
+            "madaba"
+          ],
+          "package_role": "operator",
+          "specs": [
+            {
+              "label": "Specializations",
+              "value": "History, Nature, Archaeology, Religious Sites"
+            },
+            {
+              "label": "Experience",
+              "value": "15 years"
+            },
+            {
+              "label": "Languages",
+              "value": "English, Arabic, Spanish"
+            },
+            {
+              "label": "Best for",
+              "value": "Families, Couples, Solo Travelers"
+            },
+            {
+              "label": "Group size",
+              "value": "1–40"
+            },
+            {
+              "label": "From",
+              "value": "70–1100 JOD"
+            },
+            {
+              "label": "Hours",
+              "value": "08:30-17:30"
+            },
+            {
+              "label": "Rating",
+              "value": "4.7 (95 reviews)"
+            }
+          ],
+          "source": {
+            "dataset": "sme_operators",
+            "record_id": "tour_operator:SME-000005:amman"
+          },
+          "coordinates": {
+            "latitude": 31.9454,
+            "longitude": 35.9284,
+            "precision": "city_centroid"
+          }
+        }
+      ]
+    },
+    "sources": [
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_001001"
+      },
+      {
+        "dataset": "hotels",
+        "record_id": "hotel_000020"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_000052"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_000024"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_000023"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_005001"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_005001"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_005051"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_005036"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_005014"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_005017"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_001076"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_000004"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_000003"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_000019"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_001024"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_000012"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_000032"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_001071"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_004002"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_004017"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_004012"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_004039"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_004040"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_004005"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_001003"
+      },
+      {
+        "dataset": "sme_guides",
+        "record_id": "tour_guide:SME-000001:amman"
+      },
+      {
+        "dataset": "sme_operators",
+        "record_id": "tour_operator:SME-000005:amman"
+      }
+    ],
+    "warnings": [],
+    "explanations": {
+      "trip_planning_reason": "Each day stays in one area: Jerash, Amman, then Madaba. Walk heritage and nature in the morning. Save museums, meals, and shade for the afternoon. About 3 places to visit and 3 meals on exploring days. The arrival day follows the time that remains after food and rest.",
+      "highlights": [
+        "Amman Citadel Flagpole",
+        "Jordan Archaeological Museum",
+        "Jordan Folklore Museum",
+        "Jerash Archaeological Site",
+        "Nabi Hud Shrine",
+        "Al-Birketein Archaeological Site"
+      ],
+      "why_smes": [
+        "Ibrahim Al-Zubi: Fits what you asked for: religious_sites, museums",
+        "Jordan Horizons Tours: Fits what you asked for: religious_sites, museums"
+      ],
+      "context_benefits": [
+        "Each day stays in one area: Your days follow Jerash, Amman, then Madaba.",
+        "A route built around your interests: Instead of staying only in the arrival city, the journey goes to Jerash, Amman, then Madaba.",
+        "Your first night is near the airport: Night one is a hotel in Amman. Exploring starts from there the next day.",
+        "Arrive, rest, then a short same-city plan: About an hour for food, several hours of rest, then whatever daylight is left nearby — not a long drive.",
+        "Day trips from one hotel: You keep the same hotel in Amman and come back there to sleep.",
+        "Mornings for the outdoors: Walk heritage and nature in the morning. Save museums, meals, and shade for the afternoon.",
+        "A balanced pace: About 3 places to visit and 3 meals on exploring days. The arrival day follows the time that remains after food and rest.",
+        "4 star stays: Hotels are taken from listings at that star level when the city has them. If it does not, we use the closest listed tier and say so.",
+        "A moderate budget: A mix of comfortable and good-value stays and meals, with listed prices only.",
+        "Chosen around what you care about: Sights, meals, and local hosts are matched to these. Unrelated places stay out."
+      ]
+    }
+  }
+}

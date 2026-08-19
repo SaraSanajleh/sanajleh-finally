@@ -1,0 +1,808 @@
+{
+  "metadata": {
+    "model": "gpt-oss:20b-cloud",
+    "provider": "ollama",
+    "mode": "build",
+    "retries": 0
+  },
+  "package": {
+    "package_id": "pkg-a7d0767ac645",
+    "status": "complete",
+    "welcome_message": "Welcome to a 3-day Jordan adventure through Amman, Karak, and Tafilah - curated with authentic local experiences and expert guides.",
+    "trip_title": "Amman · Karak · Tafilah",
+    "trip": {
+      "title": "Amman · Karak · Tafilah",
+      "summary": "Three days of history, nature, and adventure, each day centered in a single region. Start with a relaxed evening in Amman, explore the historic heart of Karak, and finish with canyon trekking and hot springs in Tafilah.",
+      "start_date": "2026-08-20",
+      "end_date": "2026-08-22",
+      "duration_days": 3,
+      "nights": 2,
+      "regions": [
+        "Amman",
+        "Karak",
+        "Tafilah"
+      ],
+      "arrival_airport": "AMM",
+      "language": "English"
+    },
+    "traveler_profile": {
+      "group_type": "couple",
+      "adults": 2,
+      "children": 0,
+      "children_ages": [],
+      "seniors": 0,
+      "total_travelers": 2,
+      "interests": [
+        "history",
+        "nature",
+        "adventure"
+      ],
+      "pace": "Relaxed",
+      "activity_level": "Moderate",
+      "accessibility_needs": []
+    },
+    "planning": {
+      "strategy": "Each day stays in one area: Amman, Karak, then Tafilah. Walk heritage and nature in the morning. Save museums, meals, and shade for the afternoon. About 2 places to visit and 2 meals each day.",
+      "constraints": {
+        "must_visit": [],
+        "places_to_avoid": []
+      },
+      "constraint_status": {
+        "status": "satisfied",
+        "unmet": []
+      },
+      "assumptions": [
+        "Travel times between cities are estimated qualitatively, not as exact minutes, unless evidence exists.",
+        "Opening hours are used only when present on the catalog record."
+      ],
+      "climate": {
+        "month": 8,
+        "season": "hot_dry_summer",
+        "typical_pattern": "High daytime heat, especially in the Jordan Valley and desert.",
+        "outdoor_guidance": "Walk outdoors in the morning. Keep the afternoon for shade, meals, or indoor visits.",
+        "heat_risk": "high"
+      },
+      "weather_status": "ok",
+      "decisions": [
+        {
+          "code": "day_route",
+          "title": "Each day stays in one area",
+          "why": "Mixing far-apart cities in one day makes the trip exhausting and confusing.",
+          "effect": "Your days follow Amman, Karak, then Tafilah."
+        },
+        {
+          "code": "open_explore",
+          "title": "A route built around your interests",
+          "why": "You didn't pick regions, so the days follow history, nature, adventure.",
+          "effect": "Instead of staying only in the arrival city, the journey goes to Amman, Karak, then Tafilah."
+        },
+        {
+          "code": "one_half",
+          "title": "This trip stays in one part of Jordan",
+          "why": "3 days is too short for both the north and the south.",
+          "effect": "So this journey focuses on the south, and those places get proper time."
+        },
+        {
+          "code": "arrival_stay",
+          "title": "Your first night is near the airport",
+          "why": "You land at AMM at 18:34.",
+          "effect": "Night one is a hotel in Amman, as close to the airport as the listings allow."
+        },
+        {
+          "code": "arrival_pace",
+          "title": "Settle in this evening",
+          "why": "You land at 18:34.",
+          "effect": "Dinner near the hotel, then rest. No sightseeing after a late-day flight."
+        },
+        {
+          "code": "day_trips",
+          "title": "Day trips from one hotel",
+          "why": "These places are close enough to visit and return the same day.",
+          "effect": "You keep the same hotel in Karak and come back there to sleep."
+        },
+        {
+          "code": "hotel_move",
+          "title": "Then you move closer to the places you came for",
+          "why": "Sleeping in the same city you visit beats a long commute every morning.",
+          "effect": "After the arrival night, nearby days share one hotel. You only move when the next area is too far for a day trip."
+        },
+        {
+          "code": "heat",
+          "title": "Mornings for the outdoors",
+          "why": "High daytime heat, especially in the Jordan Valley and desert.",
+          "effect": "Walk heritage and nature in the morning. Save museums, meals, and shade for the afternoon."
+        },
+        {
+          "code": "pace",
+          "title": "A relaxed pace",
+          "why": "couple group, Moderate activity.",
+          "effect": "About 2 places to visit and 2 meals each day."
+        },
+        {
+          "code": "stay_tier",
+          "title": "4 star stays",
+          "why": "You asked for 4 star hotels.",
+          "effect": "Hotels are taken from listings at that star level when the city has them. If it does not, we use the closest listed tier and say so."
+        },
+        {
+          "code": "budget",
+          "title": "A comfort budget",
+          "why": "900 JOD for 3 days.",
+          "effect": "We lean toward more comfortable stays and dining when those places exist."
+        },
+        {
+          "code": "interests",
+          "title": "Chosen around what you care about",
+          "why": "history, nature, adventure",
+          "effect": "Sights, meals, and local hosts are matched to these. Unrelated places stay out."
+        }
+      ]
+    },
+    "days": [
+      {
+        "day": 1,
+        "date": "2026-08-20",
+        "region": "Amman",
+        "theme": "Arrival in Amman",
+        "summary": "Evening arrival in Amman: eat if you can, then sleep. Visiting starts tomorrow.",
+        "schedule": [
+          {
+            "time": "19:19",
+            "end_time": "20:49",
+            "slot": "dinner",
+            "type": "restaurant",
+            "item_id": "restaurant_001038",
+            "name": "Cantaloupe Gastro Pub",
+            "duration_minutes": 90,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.94789,
+              "longitude": 35.92512,
+              "precision": "exact"
+            },
+            "description": "A sophisticated rooftop gastro pub in Jabal Amman offering innovative cocktails, international fusion cuisine, and citadel views.",
+            "reason": "Dinner near the hotel. Nothing more tonight.",
+            "matched_preferences": [
+              "In Amman",
+              "A must-see in Amman",
+              "Matches nature",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "30 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_001038"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "21:04",
+            "end_time": "07:45",
+            "slot": "overnight",
+            "type": "hotel",
+            "item_id": "hotel_000022",
+            "name": "InterContinental Jordan",
+            "duration_minutes": null,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.953689,
+              "longitude": 35.913879,
+              "precision": "exact"
+            },
+            "description": "Long-established five-star IHG hotel on Islamic College Street in Jabal Amman, between the Second and Third Circles, with six restaurants, indoor and outdoor pools, a spa and a 24-hour reception.",
+            "reason": "Check in and sleep. Sightseeing starts tomorrow. 5-star stay, as requested",
+            "matched_preferences": [
+              "5-star stay, as requested",
+              "In Amman",
+              "Matches history",
+              "5-star, as requested",
+              "Matches hotel"
+            ],
+            "estimated_cost": "165 JOD / night",
+            "source": {
+              "dataset": "hotels",
+              "record_id": "hotel_000022"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "You land at 18:34. The drive from Queen Alia to Amman is about 45 minutes. Times below start after that transfer."
+      },
+      {
+        "day": 2,
+        "date": "2026-08-21",
+        "region": "Karak",
+        "theme": "Karak: history, nature",
+        "summary": "Explore the green oasis of Jannat Al-Karak Park and the historic Al-Karak Plaza Park, then enjoy local cuisine at two Karak restaurants.",
+        "schedule": [
+          {
+            "time": "10:00",
+            "end_time": "11:00",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_008033",
+            "name": "Jannat Al-Karak Park",
+            "duration_minutes": 60,
+            "location": "Karak",
+            "coordinates": {
+              "latitude": 31.195,
+              "longitude": 35.718,
+              "precision": "exact"
+            },
+            "description": "Family recreational park featuring shaded lawns and children's play areas near Al-Karak.",
+            "reason": "In Karak; local_tourism_catalog",
+            "matched_preferences": [
+              "In Karak",
+              "local_tourism_catalog"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_008033"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "11:15",
+            "end_time": "12:00",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_008009",
+            "name": "Al-Karak Plaza Park",
+            "duration_minutes": 45,
+            "location": "Karak",
+            "coordinates": {
+              "latitude": 31.187,
+              "longitude": 35.708,
+              "precision": "exact"
+            },
+            "description": "Public recreational park space providing green areas and views near Karak.",
+            "reason": "In Karak; local_tourism_catalog; Matches nature; One visit covering the nearby monuments",
+            "matched_preferences": [
+              "In Karak",
+              "local_tourism_catalog",
+              "Matches nature",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_008009"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "12:15",
+            "end_time": "13:35",
+            "slot": "midday",
+            "type": "restaurant",
+            "item_id": "restaurant_008003",
+            "name": "Kings Castle Restaurant",
+            "duration_minutes": 80,
+            "location": "Karak",
+            "coordinates": {
+              "latitude": 31.182352,
+              "longitude": 35.700812,
+              "precision": "exact"
+            },
+            "description": "A comfortable dining venue offering panoramic views of Karak city and a mix of traditional Middle Eastern dishes.",
+            "reason": "In Karak; Matches history, nature; Matches preferred cuisine; One visit covering the nearby monuments",
+            "matched_preferences": [
+              "In Karak",
+              "Matches history, nature",
+              "Matches preferred cuisine",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "9 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_008003"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "18:30",
+            "end_time": "19:45",
+            "slot": "evening",
+            "type": "restaurant",
+            "item_id": "restaurant_008047",
+            "name": "Rabiet Al-Karak Restaurant",
+            "duration_minutes": 75,
+            "location": "Karak",
+            "coordinates": {
+              "latitude": 31.1765,
+              "longitude": 35.7182,
+              "precision": "exact"
+            },
+            "description": "Hilltop restaurant offering classic Karaki home cooking, baked clay pot dishes, and panoramic valley views.",
+            "reason": "In Karak; Matches history, nature; One visit covering the nearby monuments",
+            "matched_preferences": [
+              "In Karak",
+              "Matches history, nature",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "9 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_008047"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "20:30",
+            "end_time": "21:00",
+            "slot": "overnight",
+            "type": "hotel",
+            "item_id": "hotel_000077",
+            "name": "Alqalah Restotel",
+            "duration_minutes": null,
+            "location": "Al-Karak",
+            "coordinates": {
+              "latitude": 31.182435,
+              "longitude": 35.702608,
+              "precision": "exact"
+            },
+            "description": "Two-star, 16-room hotel and restaurant standing beside the entrance to Karak Castle, with a traditional Jordanian kitchen, a rooftop lounge, meeting rooms and valley views from many of the rooms.",
+            "reason": "Overnight stay in Karak. This is your hotel, not an activity. No 4-star listing here — closest listed is 3-star",
+            "matched_preferences": [
+              "No 4-star listing here — closest listed is 3-star",
+              "In Karak",
+              "Matches history, nature",
+              "3-star listing",
+              "Matches hotel"
+            ],
+            "estimated_cost": "39 JOD / night",
+            "source": {
+              "dataset": "hotels",
+              "record_id": "hotel_000077"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "This evening you check in to your hotel in Karak."
+      },
+      {
+        "day": 3,
+        "date": "2026-08-22",
+        "region": "Tafilah",
+        "theme": "Tafilah: history, nature",
+        "summary": "Begin with canyon trekking at Wadi Afra, relax in the hot springs, then enjoy a scenic dinner in Tafilah city.",
+        "schedule": [
+          {
+            "time": "08:30",
+            "end_time": "10:30",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_009033",
+            "name": "Wadi Afra Canyon Trailhead",
+            "duration_minutes": 120,
+            "location": "Tafilah",
+            "coordinates": {
+              "latitude": 30.912,
+              "longitude": 35.615,
+              "precision": "exact"
+            },
+            "description": "Starting point for canyon walks and exploration along the thermal stream valley of Wadi Afra.",
+            "reason": "In Tafilah; matches nature interest; Matches nature, adventure; One visit covering the nearby monuments",
+            "matched_preferences": [
+              "In Tafilah",
+              "matches nature interest",
+              "Matches nature, adventure",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_009033"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "10:45",
+            "end_time": "12:15",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_009007",
+            "name": "Burbeita Hot Springs",
+            "duration_minutes": 90,
+            "location": "Tafilah",
+            "coordinates": {
+              "latitude": 30.9333,
+              "longitude": 35.6333,
+              "precision": "exact"
+            },
+            "description": "Picturesque thermal water springs flowing alongside a stream valley surrounded by greenery and palm trees.",
+            "reason": "In Tafilah; matches nature interest; Matches nature",
+            "matched_preferences": [
+              "In Tafilah",
+              "matches nature interest",
+              "Matches nature"
+            ],
+            "estimated_cost": "not_available",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_009007"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "12:30",
+            "end_time": "13:05",
+            "slot": "midday",
+            "type": "restaurant",
+            "item_id": "restaurant_009038",
+            "name": "Kings Highway Panoramic Rest Stop",
+            "duration_minutes": 35,
+            "location": "Tafilah",
+            "coordinates": {
+              "latitude": 30.885,
+              "longitude": 35.618,
+              "precision": "exact"
+            },
+            "description": "Mountain-ridge rest stop along Route 35 providing panoramic valley views, quick meals, and tea for road-trippers.",
+            "reason": "In Tafilah; Matches nature",
+            "matched_preferences": [
+              "In Tafilah",
+              "Matches nature"
+            ],
+            "estimated_cost": "5 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_009038"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "18:30",
+            "end_time": "19:30",
+            "slot": "evening",
+            "type": "restaurant",
+            "item_id": "restaurant_007066",
+            "name": "Al-Ayn Heritage Restaurant Tafilah",
+            "duration_minutes": 60,
+            "location": "Tafilah",
+            "coordinates": {
+              "latitude": 30.8385,
+              "longitude": 35.6042,
+              "precision": "exact"
+            },
+            "description": "Traditional hilltop restaurant in Tafilah city offering sweeping views of the surrounding olive valleys and classic southern Jordanian dishes.",
+            "reason": "In Tafilah; Matches history, nature; Matches preferred cuisine; One visit covering the nearby monuments",
+            "matched_preferences": [
+              "In Tafilah",
+              "Matches history, nature",
+              "Matches preferred cuisine",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "8.5 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_007066"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "Come back to your hotel in Karak to sleep."
+      }
+    ],
+    "budget": {
+      "currency": "JOD",
+      "traveler_budget": 900.0,
+      "estimated_total": "402 JOD",
+      "band": "comfort",
+      "items": [
+        {
+          "category": "Stays",
+          "estimated_cost": "204 JOD",
+          "notes": "InterContinental Jordan: 165 JOD × 1 night(s); Alqalah Restotel: 39 JOD × 1 night(s)",
+          "confidence": "medium"
+        },
+        {
+          "category": "Meals on the plan",
+          "estimated_cost": "123 JOD",
+          "notes": "5 listed meal(s) × 2 traveler(s).",
+          "confidence": "medium"
+        },
+        {
+          "category": "Entry tickets",
+          "estimated_cost": "0 JOD",
+          "notes": "3 listed site(s) × 2 traveler(s). 1 site(s) have no listed entry fee.",
+          "confidence": "medium"
+        },
+        {
+          "category": "Trip guide",
+          "estimated_cost": "50 JOD",
+          "notes": "Listed from 50 JOD (up to 120 JOD listed)",
+          "confidence": "medium"
+        },
+        {
+          "category": "Trip operator",
+          "estimated_cost": "25 JOD",
+          "notes": "Listed from 25 JOD (up to 140 JOD listed)",
+          "confidence": "medium"
+        },
+        {
+          "category": "Left vs your ceiling",
+          "estimated_cost": "498 JOD",
+          "notes": "Your ceiling is 900 JOD. Listed pieces add up to 402 JOD.",
+          "confidence": "medium"
+        }
+      ],
+      "disclaimer": "Amounts come from catalog listings. This is a planning estimate, not a final invoice. Missing prices stay unknown — we do not invent them."
+    },
+    "sme_value": {
+      "headline": "Your guide and operator for this journey",
+      "summary": "One local guide and one tour operator for the whole trip — not a new face every day.",
+      "recommended": [
+        {
+          "sme_id": "tour_guide:SME-000001:tafilah",
+          "sme_type": "tour_guide",
+          "name": "Ibrahim Al-Rfoou",
+          "role": "Trip guide",
+          "location": "Tafilah",
+          "experience_type": "History, Nature, Archaeology",
+          "match_score": 0.805,
+          "reason": "Fits what you asked for: history, nature, adventure",
+          "matched_because": [
+            "Fits what you asked for: history, nature, adventure",
+            "Covers tafilah",
+            "Based in Tafilah",
+            "Works with couple travelers",
+            "Speaks English"
+          ],
+          "known_for": [
+            "Licensed independent tourist and nature guide specializing in the Dana Biosphere Reserve, Wadi Ghuweir, and historical Edomite sites across Tafilah Governorate",
+            "Takes travelers to Dana Biosphere Reserve, Wadi Ghuweir, Tafilah City, Khirbet edh-Dharih",
+            "Also offers Custom Itineraries, Private Tours, Group Tours",
+            "Private groups available"
+          ],
+          "specializations": [
+            "History",
+            "Nature",
+            "Archaeology",
+            "Hiking",
+            "Camping"
+          ],
+          "languages": [
+            "Arabic",
+            "English"
+          ],
+          "experience_years": 9,
+          "destinations_covered": [
+            "Dana Biosphere Reserve",
+            "Wadi Ghuweir",
+            "Tafilah City",
+            "Khirbet edh-Dharih"
+          ],
+          "covers_regions": [
+            "tafilah"
+          ],
+          "package_role": "guide",
+          "specs": [
+            {
+              "label": "Specializations",
+              "value": "History, Nature, Archaeology, Hiking, Camping"
+            },
+            {
+              "label": "Experience",
+              "value": "9 years"
+            },
+            {
+              "label": "Languages",
+              "value": "Arabic, English"
+            },
+            {
+              "label": "Best for",
+              "value": "Couples, Families, Solo Travelers"
+            },
+            {
+              "label": "Group size",
+              "value": "1–12"
+            },
+            {
+              "label": "From",
+              "value": "50–120 JOD"
+            },
+            {
+              "label": "Hours",
+              "value": "07:00 - 18:00"
+            },
+            {
+              "label": "Rating",
+              "value": "4.8 (34 reviews)"
+            }
+          ],
+          "source": {
+            "dataset": "sme_guides",
+            "record_id": "tour_guide:SME-000001:tafilah"
+          },
+          "coordinates": {
+            "latitude": 30.8375,
+            "longitude": 35.6042,
+            "precision": "city_centroid"
+          }
+        },
+        {
+          "sme_id": "tour_operator:SME-000020:karak",
+          "sme_type": "tour_operator",
+          "name": "Karak Panorama Travel & Tours",
+          "role": "Trip operator",
+          "location": "Al-Karak",
+          "experience_type": "History, Culture, Nature",
+          "match_score": 0.808,
+          "reason": "Fits what you asked for: history, nature",
+          "matched_because": [
+            "Fits what you asked for: history, nature",
+            "Covers amman, karak",
+            "Based in Al-Karak",
+            "Works with couple travelers",
+            "Speaks English",
+            "Transportation across the itinerary"
+          ],
+          "known_for": [
+            "Full-service tour operator offering itinerary planning, transport coordination, and guided sightseeing tours throughout Karak Governorate and Jordan",
+            "Takes travelers to Al-Karak, Dead Sea, Amman, Petra",
+            "Also offers Transportation, Custom Itineraries, Private Tours",
+            "Private groups available",
+            "Can arrange transportation"
+          ],
+          "specializations": [
+            "History",
+            "Culture",
+            "Nature"
+          ],
+          "languages": [
+            "Arabic",
+            "English"
+          ],
+          "experience_years": 14,
+          "destinations_covered": [
+            "Al-Karak",
+            "Dead Sea",
+            "Amman",
+            "Petra"
+          ],
+          "covers_regions": [
+            "amman",
+            "karak"
+          ],
+          "package_role": "operator",
+          "specs": [
+            {
+              "label": "Specializations",
+              "value": "History, Culture, Nature"
+            },
+            {
+              "label": "Experience",
+              "value": "14 years"
+            },
+            {
+              "label": "Languages",
+              "value": "Arabic, English"
+            },
+            {
+              "label": "Best for",
+              "value": "Families, Couples, Solo Travelers"
+            },
+            {
+              "label": "Group size",
+              "value": "1–35"
+            },
+            {
+              "label": "From",
+              "value": "25–140 JOD"
+            },
+            {
+              "label": "Hours",
+              "value": "09:00-17:00"
+            },
+            {
+              "label": "Rating",
+              "value": "4.7 (72 reviews)"
+            }
+          ],
+          "source": {
+            "dataset": "sme_operators",
+            "record_id": "tour_operator:SME-000020:karak"
+          },
+          "coordinates": {
+            "latitude": 31.1853,
+            "longitude": 35.7047,
+            "precision": "city_centroid"
+          }
+        }
+      ]
+    },
+    "sources": [
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_001038"
+      },
+      {
+        "dataset": "hotels",
+        "record_id": "hotel_000022"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_008033"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_008009"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_008003"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_008047"
+      },
+      {
+        "dataset": "hotels",
+        "record_id": "hotel_000077"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_009033"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_009007"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_009038"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_007066"
+      },
+      {
+        "dataset": "sme_guides",
+        "record_id": "tour_guide:SME-000001:tafilah"
+      },
+      {
+        "dataset": "sme_operators",
+        "record_id": "tour_operator:SME-000020:karak"
+      }
+    ],
+    "warnings": [
+      {
+        "code": "note",
+        "message": "No 4-star hotel is listed in Karak; using 3-star Alqalah Restotel.",
+        "severity": "info"
+      }
+    ],
+    "explanations": {
+      "trip_planning_reason": "Each day stays in one area: Amman, Karak, then Tafilah. Walk heritage and nature in the morning. Save museums, meals, and shade for the afternoon. About 2 places to visit and 2 meals each day.",
+      "highlights": [
+        "Jannat Al-Karak Park",
+        "Al-Karak Plaza Park",
+        "Wadi Afra Canyon Trailhead",
+        "Burbeita Hot Springs"
+      ],
+      "why_smes": [
+        "Ibrahim Al-Rfoou: Fits what you asked for: history, nature, adventure",
+        "Karak Panorama Travel & Tours: Fits what you asked for: history, nature"
+      ],
+      "context_benefits": [
+        "Each day stays in one area: Your days follow Amman, Karak, then Tafilah.",
+        "A route built around your interests: Instead of staying only in the arrival city, the journey goes to Amman, Karak, then Tafilah.",
+        "This trip stays in one part of Jordan: So this journey focuses on the south, and those places get proper time.",
+        "Your first night is near the airport: Night one is a hotel in Amman, as close to the airport as the listings allow.",
+        "Settle in this evening: Dinner near the hotel, then rest. No sightseeing after a late-day flight.",
+        "Day trips from one hotel: You keep the same hotel in Karak and come back there to sleep.",
+        "Then you move closer to the places you came for: After the arrival night, nearby days share one hotel. You only move when the next area is too far for a day trip.",
+        "Mornings for the outdoors: Walk heritage and nature in the morning. Save museums, meals, and shade for the afternoon.",
+        "A relaxed pace: About 2 places to visit and 2 meals each day.",
+        "4 star stays: Hotels are taken from listings at that star level when the city has them. If it does not, we use the closest listed tier and say so.",
+        "A comfort budget: We lean toward more comfortable stays and dining when those places exist.",
+        "Chosen around what you care about: Sights, meals, and local hosts are matched to these. Unrelated places stay out."
+      ]
+    }
+  }
+}

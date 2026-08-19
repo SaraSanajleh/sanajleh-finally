@@ -1,0 +1,4237 @@
+{
+  "duration_days": 3,
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "theme": "Ma'an Governorate · history, nature",
+      "pois": [
+        {
+          "poi": {
+            "id": "poi_002005",
+            "entity_type": "poi",
+            "name": "Petra Museum",
+            "role": "anchor",
+            "region": "Ma'an Governorate",
+            "city": "Wadi Musa",
+            "district": "Petra Region",
+            "address": "Main Entrance, Petra Visitor Center, Wadi Musa",
+            "latitude": 30.32525,
+            "longitude": 35.468222,
+            "why_retrieved": [
+              "matches history interest"
+            ],
+            "facts": {
+              "category": "Museum",
+              "subcategory": "Archaeological Museum",
+              "themes": [
+                "Archaeology",
+                "Nabataean Culture",
+                "History",
+                "Education"
+              ],
+              "opening_hours": "08:30",
+              "closing_hours": "18:30",
+              "closed_days": [],
+              "average_visit_minutes": 60,
+              "booking_required": false,
+              "best_visit_time": [
+                "Morning",
+                "Afternoon",
+                "Evening"
+              ],
+              "activity_level": "Low",
+              "indoor_outdoor": "Indoor",
+              "entry_fee": 0.0,
+              "currency": "JOD",
+              "pricing_level": "Free",
+              "highlights": [
+                "Over 280 original archaeological artifacts on display",
+                "Interactive touchscreen maps and historical videos",
+                "Air-conditioned modern facility at Park entrance"
+              ],
+              "notes": "Admission is free for all visitors entering the Petra Visitor Center complex.",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Seniors",
+                "Children",
+                "Students",
+                "Business"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_002012",
+              "entity_type": "restaurant",
+              "name": "Mövenpick Al Iwan Restaurant",
+              "role": "",
+              "region": "Ma'an Governorate",
+              "city": "Wadi Musa",
+              "district": "Petra District",
+              "address": "Mövenpick Resort Petra, Tourism Street, Wadi Musa",
+              "latitude": 30.3251,
+              "longitude": 35.4678,
+              "why_retrieved": [
+                "matches luxury interest",
+                "~44 m away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Fine Dining Hotel Restaurant",
+                "cuisine_types": [
+                  "Mediterranean",
+                  "Levantine",
+                  "International"
+                ],
+                "meal_types": [
+                  "Dinner"
+                ],
+                "signature_dishes": [
+                  "Rack of Lamb",
+                  "Gourmet Mezze Selection",
+                  "Seafood Trio"
+                ],
+                "service_style": "Fine Dining",
+                "atmosphere": "Luxury",
+                "best_visit_time": [
+                  "Evening"
+                ],
+                "average_cost_per_person": 30.0,
+                "currency": "JOD",
+                "pricing_level": "High",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian",
+                  "Gluten-Free"
+                ],
+                "occasion_suitability": [
+                  "Date Night",
+                  "Anniversary",
+                  "Celebration/Group Event"
+                ],
+                "suitable_for": [
+                  "Couples",
+                  "Business",
+                  "Honeymoon",
+                  "Groups"
+                ],
+                "opening_hours": "18:30",
+                "closing_hours": "22:30",
+                "notes": "Located inside Mövenpick Resort Petra; advance reservation strongly advised."
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_002003",
+              "km": 1.0
+            },
+            {
+              "poi_id": "poi_002027",
+              "km": 1.0
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_002018",
+            "entity_type": "poi",
+            "name": "Petra Church (Byzantine Church)",
+            "role": "anchor",
+            "region": "Ma'an Governorate",
+            "city": "Wadi Musa",
+            "district": "Petra Region",
+            "address": "North Ridge, Petra Archaeological Park",
+            "latitude": 30.330278,
+            "longitude": 35.444444,
+            "why_retrieved": [
+              "matches history interest"
+            ],
+            "facts": {
+              "category": "Heritage",
+              "subcategory": "Byzantine Basilica",
+              "themes": [
+                "Byzantine Mosaics",
+                "Christian History",
+                "Petra Papyri",
+                "Archaeology"
+              ],
+              "opening_hours": "06:00",
+              "closing_hours": "18:00",
+              "closed_days": [],
+              "average_visit_minutes": 40,
+              "booking_required": false,
+              "best_visit_time": [
+                "Morning",
+                "Afternoon"
+              ],
+              "activity_level": "Low",
+              "indoor_outdoor": "Mixed",
+              "entry_fee": 50.0,
+              "currency": "JOD",
+              "pricing_level": "High",
+              "highlights": [
+                "Vibrant 5th-century geometric and animal floor mosaics",
+                "Discovery site of the carbonized Petra Papyri archive",
+                "Protective modern shelter canopy over preserved aisle mosaics"
+              ],
+              "notes": "Protected under a permanent protective shelter structure erected by ACOR.",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Seniors",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_007071",
+              "entity_type": "restaurant",
+              "name": "The Basin Restaurant Petra",
+              "role": "",
+              "region": "Ma'an Governorate",
+              "city": "Wadi Musa",
+              "district": "Petra Archaeological Park",
+              "address": "Petra Archaeological Park (End of Colonnaded Street), Wadi Musa, Jordan",
+              "latitude": 30.3289,
+              "longitude": 35.4412,
+              "why_retrieved": [
+                "serves preferred cuisine: Jordanian",
+                "~347 m away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "In-Site Archaeological Park Restaurant",
+                "cuisine_types": [
+                  "Jordanian",
+                  "International",
+                  "Levantine"
+                ],
+                "meal_types": [
+                  "Lunch"
+                ],
+                "signature_dishes": [
+                  "Levantine Mezze Buffet",
+                  "Grilled Chicken Kebab",
+                  "Fresh Fruit Platter"
+                ],
+                "service_style": "Buffet",
+                "atmosphere": "Bustling",
+                "best_visit_time": [
+                  "Midday"
+                ],
+                "average_cost_per_person": 18.0,
+                "currency": "JOD",
+                "pricing_level": "Medium-High",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Mid-Hike Rest",
+                  "Sightseeing Buffet Lunch"
+                ],
+                "suitable_for": [
+                  "Tourists",
+                  "Groups",
+                  "Families",
+                  "Hikers"
+                ],
+                "opening_hours": "11:30",
+                "closing_hours": "16:00",
+                "notes": "Located inside the paid archaeological park; requires a valid Petra entry ticket to reach."
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_002006",
+              "km": 0.7
+            },
+            {
+              "poi_id": "poi_002035",
+              "km": 0.7
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_002007",
+            "entity_type": "poi",
+            "name": "Little Petra (Siq al-Barid)",
+            "role": "anchor",
+            "region": "Ma'an Governorate",
+            "city": "Wadi Musa",
+            "district": "Petra Region",
+            "address": "Beidha, North of Wadi Musa",
+            "latitude": 30.375361,
+            "longitude": 35.456639,
+            "why_retrieved": [],
+            "facts": {
+              "category": "Heritage",
+              "subcategory": "Archaeological Site",
+              "themes": [
+                "Nabataean",
+                "Archaeology",
+                "Ancient Trade",
+                "Frescoes"
+              ],
+              "opening_hours": "06:00",
+              "closing_hours": "18:00",
+              "closed_days": [],
+              "average_visit_minutes": 60,
+              "booking_required": false,
+              "best_visit_time": [
+                "Morning",
+                "Afternoon"
+              ],
+              "activity_level": "Low",
+              "indoor_outdoor": "Mixed",
+              "entry_fee": 0.0,
+              "currency": "JOD",
+              "pricing_level": "Free",
+              "highlights": [
+                "Rare 2,000-year-old painted Nabataean wall ceiling frescoes",
+                "Narrow mini-canyon atmospheric walkway",
+                "Ancient rock-carved dining chambers"
+              ],
+              "notes": "Free entry; does not require the main Petra Park entrance ticket.",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Seniors",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_002053",
+              "entity_type": "restaurant",
+              "name": "Rock Camp Restaurant Little Petra",
+              "role": "",
+              "region": "Ma'an Governorate",
+              "city": "Wadi Musa",
+              "district": "Petra District",
+              "address": "Siq al-Barid Road, Little Petra Area",
+              "latitude": 30.3751,
+              "longitude": 35.4518,
+              "why_retrieved": [
+                "serves preferred cuisine: Jordanian",
+                "~465 m away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Bedouin Camp Restaurant",
+                "cuisine_types": [
+                  "Jordanian",
+                  "Middle Eastern"
+                ],
+                "meal_types": [
+                  "Breakfast",
+                  "Dinner"
+                ],
+                "signature_dishes": [
+                  "Bedouin Style Chicken Zarb",
+                  "Lentil Soup",
+                  "Bedouin Herbal Tea"
+                ],
+                "service_style": "Buffet",
+                "atmosphere": "Rustic",
+                "best_visit_time": [
+                  "Evening"
+                ],
+                "average_cost_per_person": 11.0,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Casual Hangout",
+                  "Celebration/Group Event"
+                ],
+                "suitable_for": [
+                  "Groups",
+                  "Family",
+                  "Couples",
+                  "Solo"
+                ],
+                "opening_hours": "07:00",
+                "closing_hours": "22:00",
+                "notes": "Reservations strongly recommended for non-camp guests."
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_002022",
+              "km": 0.5
+            },
+            {
+              "poi_id": "poi_002002",
+              "km": 4.3
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_002003",
+            "entity_type": "poi",
+            "name": "The Siq",
+            "role": "anchor",
+            "region": "Ma'an Governorate",
+            "city": "Wadi Musa",
+            "district": "Petra Region",
+            "address": "Petra Archaeological Park, Wadi Musa",
+            "latitude": 30.324566,
+            "longitude": 35.457814,
+            "why_retrieved": [
+              "matches nature interest"
+            ],
+            "facts": {
+              "category": "UNESCO",
+              "subcategory": "Geological Formation",
+              "themes": [
+                "Geology",
+                "Nature",
+                "Nabataean",
+                "Ancient Water Systems"
+              ],
+              "opening_hours": "06:00",
+              "closing_hours": "18:00",
+              "closed_days": [],
+              "average_visit_minutes": 45,
+              "booking_required": false,
+              "best_visit_time": [
+                "Morning",
+                "Afternoon"
+              ],
+              "activity_level": "Medium",
+              "indoor_outdoor": "Outdoor",
+              "entry_fee": 50.0,
+              "currency": "JOD",
+              "pricing_level": "High",
+              "highlights": [
+                "Winding 1.2 km natural sandstone gorge",
+                "Original Nabataean rock-cut water channels",
+                "Dramatic reveal of Al-Khazneh at the end"
+              ],
+              "notes": "Subject to temporary closure during rare flash flood warnings for safety.",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Seniors",
+                "Children",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_002001",
+              "entity_type": "restaurant",
+              "name": "The Cave Bar",
+              "role": "",
+              "region": "Ma'an Governorate",
+              "city": "Wadi Musa",
+              "district": "Petra District",
+              "address": "Petra Guest House Resort, Main Gate Area, Wadi Musa",
+              "latitude": 30.32535,
+              "longitude": 35.46742,
+              "why_retrieved": [
+                "matches history interest",
+                "~926 m away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Resto-Bar & Lounge",
+                "cuisine_types": [
+                  "Middle Eastern",
+                  "International"
+                ],
+                "meal_types": [
+                  "Dinner",
+                  "Snacks",
+                  "Coffee/Tea"
+                ],
+                "signature_dishes": [
+                  "Petra Craft Beers",
+                  "Mezze Platter"
+                ],
+                "service_style": "Casual Dining",
+                "atmosphere": "Unique/Historic",
+                "best_visit_time": [
+                  "Evening",
+                  "Night"
+                ],
+                "average_cost_per_person": 18.0,
+                "currency": "JOD",
+                "pricing_level": "High",
+                "dietary_options": [
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Casual Hangout",
+                  "Date Night"
+                ],
+                "suitable_for": [
+                  "Couples",
+                  "Solo",
+                  "Friends",
+                  "Groups"
+                ],
+                "opening_hours": "15:00",
+                "closing_hours": "00:00",
+                "notes": "Alcoholic beverages are served here, making it one of the few licensed establishments near the site gate."
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_002030",
+              "km": 0.5
+            },
+            {
+              "poi_id": "poi_002027",
+              "km": 0.5
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_002022",
+            "entity_type": "poi",
+            "name": "Neolithic Village of Beidha",
+            "role": "discovery",
+            "region": "Ma'an Governorate",
+            "city": "Wadi Musa",
+            "district": "Petra Region",
+            "address": "Beidha Area, North of Wadi Musa",
+            "latitude": 30.377222,
+            "longitude": 35.452222,
+            "why_retrieved": [
+              "matches history interest"
+            ],
+            "facts": {
+              "category": "Heritage",
+              "subcategory": "Prehistoric Settlement",
+              "themes": [
+                "Prehistory",
+                "Neolithic",
+                "Archaeology",
+                "Human Evolution"
+              ],
+              "opening_hours": "06:00",
+              "closing_hours": "18:00",
+              "closed_days": [],
+              "average_visit_minutes": 45,
+              "booking_required": false,
+              "best_visit_time": [
+                "Morning",
+                "Afternoon"
+              ],
+              "activity_level": "Low",
+              "indoor_outdoor": "Outdoor",
+              "entry_fee": 0.0,
+              "currency": "JOD",
+              "pricing_level": "Free",
+              "highlights": [
+                "Excavated stone wall foundations over 9,000 years old",
+                "Experimental life-size reconstructed Stone Age houses",
+                "Information panels explaining early Levant agricultural development"
+              ],
+              "notes": "Located a short 10-minute walk west from the entrance of Little Petra.",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_007073",
+              "entity_type": "restaurant",
+              "name": "Little Petra Bedouin Camp Restaurant",
+              "role": "",
+              "region": "Ma'an Governorate",
+              "city": "Wadi Musa",
+              "district": "Little Petra (Siq al-Barid)",
+              "address": "Siq al-Barid Access Road, Little Petra, Wadi Musa, Jordan",
+              "latitude": 30.3752,
+              "longitude": 35.4528,
+              "why_retrieved": [
+                "serves preferred cuisine: Jordanian",
+                "~232 m away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Bedouin Desert Camp Restaurant",
+                "cuisine_types": [
+                  "Bedouin",
+                  "Jordanian"
+                ],
+                "meal_types": [
+                  "Dinner"
+                ],
+                "signature_dishes": [
+                  "Underground Earth-Oven Zarb",
+                  "Smoky Moutabal",
+                  "Bedouin Cardamom Tea"
+                ],
+                "service_style": "Buffet",
+                "atmosphere": "Traditional",
+                "best_visit_time": [
+                  "Evening"
+                ],
+                "average_cost_per_person": 13.0,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Stargazing Dinner",
+                  "Cultural Immersion",
+                  "Group Gathering"
+                ],
+                "suitable_for": [
+                  "Tourists",
+                  "Couples",
+                  "Groups",
+                  "Adventure Seekers"
+                ],
+                "opening_hours": "12:00",
+                "closing_hours": "22:00",
+                "notes": "Unearthing of the underground Zarb oven usually takes place around sunset."
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_002007",
+              "km": 0.5
+            },
+            {
+              "poi_id": "poi_002002",
+              "km": 4.5
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_002006",
+            "entity_type": "poi",
+            "name": "Royal Tombs",
+            "role": "discovery",
+            "region": "Ma'an Governorate",
+            "city": "Wadi Musa",
+            "district": "Petra Region",
+            "address": "Petra Archaeological Park, Wadi Musa",
+            "latitude": 30.325556,
+            "longitude": 35.449444,
+            "why_retrieved": [],
+            "facts": {
+              "category": "UNESCO",
+              "subcategory": "Rock-cut Architecture",
+              "themes": [
+                "Nabataean",
+                "Tombs",
+                "Archaeology",
+                "Architecture"
+              ],
+              "opening_hours": "06:00",
+              "closing_hours": "18:00",
+              "closed_days": [],
+              "average_visit_minutes": 90,
+              "booking_required": false,
+              "best_visit_time": [
+                "Afternoon"
+              ],
+              "activity_level": "Medium",
+              "indoor_outdoor": "Outdoor",
+              "entry_fee": 50.0,
+              "currency": "JOD",
+              "pricing_level": "High",
+              "highlights": [
+                "Massive multi-story Palace Tomb facade",
+                "Vibrant natural sandstone colors of the Silk Tomb",
+                "Byzantine vaulted terrace at the Urn Tomb"
+              ],
+              "notes": "Late afternoon light illuminates the rock face with rich golden and red hues.",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Seniors",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_002064",
+              "entity_type": "restaurant",
+              "name": "Crowne Plaza Petra Basin Restaurant",
+              "role": "",
+              "region": "Ma'an Governorate",
+              "city": "Wadi Musa",
+              "district": "Petra District",
+              "address": "Inside Petra Archaeological Park, Base of Monastery Trail",
+              "latitude": 30.3288,
+              "longitude": 35.4435,
+              "why_retrieved": [
+                "serves preferred cuisine: Jordanian",
+                "~675 m away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "In-Site Archaeological Park Dining",
+                "cuisine_types": [
+                  "Jordanian",
+                  "International",
+                  "Levantine"
+                ],
+                "meal_types": [
+                  "Lunch"
+                ],
+                "signature_dishes": [
+                  "International Buffet Spread",
+                  "Grilled Chicken",
+                  "Fresh Salad Bar"
+                ],
+                "service_style": "Buffet",
+                "atmosphere": "Casual",
+                "best_visit_time": [
+                  "Afternoon"
+                ],
+                "average_cost_per_person": 18.0,
+                "currency": "JOD",
+                "pricing_level": "High",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian",
+                  "Gluten-Free"
+                ],
+                "occasion_suitability": [
+                  "Casual Hangout"
+                ],
+                "suitable_for": [
+                  "Groups",
+                  "Family",
+                  "Couples",
+                  "Solo"
+                ],
+                "opening_hours": "11:00",
+                "closing_hours": "16:00",
+                "notes": "Located inside the ancient site; requires a valid Petra entry ticket to access."
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_002030",
+              "km": 0.4
+            },
+            {
+              "poi_id": "poi_002018",
+              "km": 0.7
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_002030",
+            "entity_type": "poi",
+            "name": "Al-Khazneh Viewpoint (Jabal al-Khubtha Trail)",
+            "role": "discovery",
+            "region": "Ma'an Governorate",
+            "city": "Wadi Musa",
+            "district": "Petra Region",
+            "address": "Jabal al-Khubtha, Petra Archaeological Park",
+            "latitude": 30.322778,
+            "longitude": 35.4525,
+            "why_retrieved": [],
+            "facts": {
+              "category": "Viewpoint",
+              "subcategory": "Cliff Lookout",
+              "themes": [
+                "Panoramas",
+                "Viewpoint",
+                "Photography",
+                "Hiking"
+              ],
+              "opening_hours": "06:00",
+              "closing_hours": "17:30",
+              "closed_days": [],
+              "average_visit_minutes": 120,
+              "booking_required": false,
+              "best_visit_time": [
+                "Morning"
+              ],
+              "activity_level": "High",
+              "indoor_outdoor": "Outdoor",
+              "entry_fee": 50.0,
+              "currency": "JOD",
+              "pricing_level": "High",
+              "highlights": [
+                "Direct overhead photo perspective of Al-Khazneh facade",
+                "Scenic hike along the plateau of Jabal al-Khubtha",
+                "Panoramic views across the Petra central basin"
+              ],
+              "notes": "Requires climbing steep stairs near the Royal Tombs; steep drops at the summit edge.",
+              "suitable_for": [
+                "Couples",
+                "Solo",
+                "Friends",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_002028",
+              "entity_type": "restaurant",
+              "name": "Bedouin Cave Cafe",
+              "role": "",
+              "region": "Ma'an Governorate",
+              "city": "Wadi Musa",
+              "district": "Petra District",
+              "address": "Inside Petra Archaeological Park, High Place / Treasury Overlook Trail",
+              "latitude": 30.3231,
+              "longitude": 35.4519,
+              "why_retrieved": [
+                "~68 m away"
+              ],
+              "facts": {
+                "category": "Cafe",
+                "subcategory": "Traditional Bedouin Teahouse",
+                "cuisine_types": [
+                  "Cafe/Desserts"
+                ],
+                "meal_types": [
+                  "Coffee/Tea",
+                  "Snacks"
+                ],
+                "signature_dishes": [
+                  "Bedouin Sweet Tea with Sage",
+                  "Cardamom Arabic Coffee"
+                ],
+                "service_style": "Cafe",
+                "atmosphere": "Traditional",
+                "best_visit_time": [
+                  "Morning",
+                  "Afternoon"
+                ],
+                "average_cost_per_person": 3.0,
+                "currency": "JOD",
+                "pricing_level": "Low",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian",
+                  "Vegan"
+                ],
+                "occasion_suitability": [
+                  "Casual Hangout"
+                ],
+                "suitable_for": [
+                  "Solo",
+                  "Friends",
+                  "Couples",
+                  "Students"
+                ],
+                "opening_hours": "07:00",
+                "closing_hours": "18:00",
+                "notes": "Located inside Petra Archaeological Park along the hiking trails; cash only."
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_002006",
+              "km": 0.4
+            },
+            {
+              "poi_id": "poi_002003",
+              "km": 0.5
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_002002",
+            "entity_type": "poi",
+            "name": "Ad-Deir (The Monastery)",
+            "role": "discovery",
+            "region": "Ma'an Governorate",
+            "city": "Wadi Musa",
+            "district": "Petra Region",
+            "address": "Petra Archaeological Park, Wadi Musa",
+            "latitude": 30.337722,
+            "longitude": 35.444389,
+            "why_retrieved": [],
+            "facts": {
+              "category": "UNESCO",
+              "subcategory": "Rock-cut Architecture",
+              "themes": [
+                "Nabataean",
+                "Archaeology",
+                "Hiking",
+                "Ancient Architecture"
+              ],
+              "opening_hours": "06:00",
+              "closing_hours": "18:00",
+              "closed_days": [],
+              "average_visit_minutes": 150,
+              "booking_required": false,
+              "best_visit_time": [
+                "Afternoon"
+              ],
+              "activity_level": "High",
+              "indoor_outdoor": "Outdoor",
+              "entry_fee": 50.0,
+              "currency": "JOD",
+              "pricing_level": "High",
+              "highlights": [
+                "50-meter-wide ancient carved sandstone facade",
+                "Panoramic views of Wadi Araba from nearby viewpoints",
+                "Challenging 800-step stair climb path"
+              ],
+              "notes": "Access requires a significant uphill hike from the Petra city center area.",
+              "suitable_for": [
+                "Couples",
+                "Solo",
+                "Friends",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_002066",
+              "entity_type": "restaurant",
+              "name": "Bait Al-Badul Snack Bar",
+              "role": "",
+              "region": "Ma'an Governorate",
+              "city": "Wadi Musa",
+              "district": "Petra District",
+              "address": "High Place of Sacrifice Trail, Petra Archaeological Park",
+              "latitude": 30.3225,
+              "longitude": 35.447,
+              "why_retrieved": [
+                "~1.7 km away"
+              ],
+              "facts": {
+                "category": "Cafe",
+                "subcategory": "Desert Cave Snack Bar",
+                "cuisine_types": [
+                  "Cafe/Desserts",
+                  "Middle Eastern"
+                ],
+                "meal_types": [
+                  "Coffee/Tea",
+                  "Snacks"
+                ],
+                "signature_dishes": [
+                  "Bedouin Sage Tea",
+                  "Cardamom Coffee",
+                  "Fresh Pomegranate Juice"
+                ],
+                "service_style": "Street Food",
+                "atmosphere": "Rustic",
+                "best_visit_time": [
+                  "Morning",
+                  "Afternoon"
+                ],
+                "average_cost_per_person": 3.0,
+                "currency": "JOD",
+                "pricing_level": "Low",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian",
+                  "Vegan"
+                ],
+                "occasion_suitability": [
+                  "Casual Hangout"
+                ],
+                "suitable_for": [
+                  "Solo",
+                  "Friends",
+                  "Couples"
+                ],
+                "opening_hours": "07:00",
+                "closing_hours": "18:00",
+                "notes": "Cash-only venue inside the park. Operating hours depend on daylight hours."
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_002035",
+              "km": 0.6
+            },
+            {
+              "poi_id": "poi_002018",
+              "km": 0.8
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_002035",
+            "entity_type": "poi",
+            "name": "Al-Mu'aysrah Temple Trail",
+            "role": "discovery",
+            "region": "Ma'an Governorate",
+            "city": "Wadi Musa",
+            "district": "Petra Region",
+            "address": "Northwestern Sector, Petra Archaeological Park",
+            "latitude": 30.334444,
+            "longitude": 35.438889,
+            "why_retrieved": [],
+            "facts": {
+              "category": "Heritage",
+              "subcategory": "Archaeological Trail",
+              "themes": [
+                "Nabataean Suburbs",
+                "Quarries",
+                "Archaeology",
+                "Off-the-beaten-track"
+              ],
+              "opening_hours": "06:00",
+              "closing_hours": "18:00",
+              "closed_days": [],
+              "average_visit_minutes": 90,
+              "booking_required": false,
+              "best_visit_time": [
+                "Morning"
+              ],
+              "activity_level": "Medium",
+              "indoor_outdoor": "Outdoor",
+              "entry_fee": 50.0,
+              "currency": "JOD",
+              "pricing_level": "High",
+              "highlights": [
+                "Ancient Nabataean stone quarry sites",
+                "Quiet residential and sanctuary rock carvings",
+                "Panoramic views of the northern Petra mountains"
+              ],
+              "notes": "Unpaved mountain path; suitable for experienced walkers.",
+              "suitable_for": [
+                "Solo",
+                "Friends",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_002002",
+              "km": 0.6
+            },
+            {
+              "poi_id": "poi_002018",
+              "km": 0.7
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_002027",
+            "entity_type": "poi",
+            "name": "Al-Maddras Trail & High Viewpoint",
+            "role": "discovery",
+            "region": "Ma'an Governorate",
+            "city": "Wadi Musa",
+            "district": "Petra Region",
+            "address": "South of Bab as-Siq, Petra Archaeological Park",
+            "latitude": 30.320556,
+            "longitude": 35.459444,
+            "why_retrieved": [],
+            "facts": {
+              "category": "Adventure",
+              "subcategory": "Hiking Trail & Ruins",
+              "themes": [
+                "Hiking",
+                "Nabataean Agriculture",
+                "Alternative Trails",
+                "Viewpoints"
+              ],
+              "opening_hours": "06:00",
+              "closing_hours": "18:00",
+              "closed_days": [],
+              "average_visit_minutes": 120,
+              "booking_required": false,
+              "best_visit_time": [
+                "Morning"
+              ],
+              "activity_level": "High",
+              "indoor_outdoor": "Outdoor",
+              "entry_fee": 50.0,
+              "currency": "JOD",
+              "pricing_level": "High",
+              "highlights": [
+                "Rock-carved ancient olive and wine presses",
+                "Quiet trail away from standard tourist crowds",
+                "Elevated views overlooking the main Siq gorge entrance"
+              ],
+              "notes": "Guide recommended as trail markings can be subtle across open rock faces.",
+              "suitable_for": [
+                "Solo",
+                "Friends",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_002003",
+              "km": 0.5
+            },
+            {
+              "poi_id": "poi_002030",
+              "km": 0.7
+            }
+          ]
+        }
+      ],
+      "hotels": [
+        {
+          "id": "hotel_000156",
+          "entity_type": "hotel",
+          "name": "Mövenpick Resort Petra",
+          "role": "",
+          "region": "Ma'an Governorate",
+          "city": "Wadi Musa",
+          "district": "Tourism Street",
+          "address": "Tourism Street, P.O. Box 214, Wadi Musa 71810, Jordan",
+          "latitude": 30.32543,
+          "longitude": 35.469292,
+          "why_retrieved": [
+            "matches luxury interest"
+          ],
+          "facts": {
+            "category": "Resort",
+            "subcategory": "Gateway Resort at the Petra Entrance",
+            "star_rating": 5,
+            "room_types": [
+              "Classic Room (King,Twin)",
+              "Superior Room (King,Twin)",
+              "Junior Suite(Twin, King)",
+              "King Suite",
+              "Royal King Suite"
+            ],
+            "amenities": [
+              "WiFi",
+              "Air Conditioning",
+              "Swimming Pool",
+              "Gym",
+              "Spa",
+              "Room Service",
+              "Minibar",
+              "TV",
+              "Balcony/Terrace"
+            ],
+            "view_types": [
+              "Mountain View"
+            ],
+            "best_for": [
+              "Family Vacations",
+              "Romantic Getaways",
+              "Business Trips",
+              "Groups"
+            ],
+            "average_price_per_night": 97,
+            "currency": "JOD",
+            "pricing_level": "High",
+            "suitable_for": [
+              "Couples",
+              "Family",
+              "Groups",
+              "Business",
+              "Honeymoon"
+            ],
+            "check_in": "15:00",
+            "check_out": "12:00",
+            "notes": "Buffet breakfast is charged separately at approximately JOD 12 per adult and JOD 6 per child. Early check-in or late check-out is JOD 30 and a rollaway bed is JOD 35. The outdoor pool is seasonal."
+          }
+        },
+        {
+          "id": "hotel_000158",
+          "entity_type": "hotel",
+          "name": "Petra Marriott Hotel",
+          "role": "",
+          "region": "Ma'an Governorate",
+          "city": "Wadi Musa",
+          "district": "Queen Rania Al Abdallah Street",
+          "address": "Queen Rania Al Abdallah Street, Wadi Musa, Jordan",
+          "latitude": 30.304607,
+          "longitude": 35.46362,
+          "why_retrieved": [
+            "matches luxury interest"
+          ],
+          "facts": {
+            "category": "Hotel",
+            "subcategory": "Cliff-Edge Valley View Hotel",
+            "star_rating": 5,
+            "room_types": [
+              "Double",
+              "Twin",
+              "Suite"
+            ],
+            "amenities": [
+              "WiFi",
+              "Air Conditioning",
+              "Swimming Pool",
+              "Gym",
+              "Spa",
+              "Room Service",
+              "Minibar",
+              "TV"
+            ],
+            "view_types": [
+              "Mountain View",
+              "Garden View"
+            ],
+            "best_for": [
+              "Romantic Getaways",
+              "Family Vacations",
+              "Business Trips",
+              "Wellness Retreats"
+            ],
+            "average_price_per_night": 94,
+            "currency": "JOD",
+            "pricing_level": "High",
+            "suitable_for": [
+              "Couples",
+              "Family",
+              "Business",
+              "Honeymoon",
+              "Groups"
+            ],
+            "check_in": "15:00",
+            "check_out": "12:00",
+            "notes": "Continental breakfast is charged separately at approximately JOD 13 per person. The outdoor pool is seasonal. Airport shuttle is available for a surcharge of roughly JOD 120 round trip."
+          }
+        },
+        {
+          "id": "hotel_000157",
+          "entity_type": "hotel",
+          "name": "Grand Mercure Petra",
+          "role": "",
+          "region": "Ma'an Governorate",
+          "city": "Wadi Musa",
+          "district": "Queen Rania Street",
+          "address": "Kings Highway, Queen Rania Street (road to Taybeh), P.O. Box 184, Wadi Musa 71811, Jordan",
+          "latitude": 30.288498,
+          "longitude": 35.456519,
+          "why_retrieved": [],
+          "facts": {
+            "category": "Hotel",
+            "subcategory": "Hillside Castle-Style Hotel",
+            "star_rating": 5,
+            "room_types": [
+              "Single",
+              "Twin",
+              "Double",
+              "Suite",
+              "Accessible Superior Room"
+            ],
+            "amenities": [
+              "WiFi",
+              "Air Conditioning",
+              "Swimming Pool",
+              "Gym",
+              "Room Service",
+              "Minibar",
+              "TV",
+              "Balcony/Terrace"
+            ],
+            "view_types": [
+              "Mountain View"
+            ],
+            "best_for": [
+              "Romantic Getaways",
+              "Family Vacations",
+              "Business Trips"
+            ],
+            "average_price_per_night": 90,
+            "currency": "JOD",
+            "pricing_level": "Medium",
+            "suitable_for": [
+              "Couples",
+              "Family",
+              "Groups",
+              "Honeymoon",
+              "Seniors"
+            ],
+            "check_in": "15:00",
+            "check_out": "12:00",
+            "notes": "Rebranded from Mövenpick Nabatean Castle Hotel in January 2024; the former name is still used by some booking channels. Opened 1995, rooms and suites renovated 2018. The swimming pool is indoor. Minibar contents are complimentary."
+          }
+        },
+        {
+          "id": "hotel_000161",
+          "entity_type": "hotel",
+          "name": "The Old Village Hotel & Resort",
+          "role": "",
+          "region": "Ma'an Governorate",
+          "city": "Wadi Musa",
+          "district": "Nawafleh",
+          "address": "Al Nawafleh Street, Tourism Street 28, Wadi Musa, Jordan",
+          "latitude": 30.326805,
+          "longitude": 35.487072,
+          "why_retrieved": [
+            "matches luxury interest"
+          ],
+          "facts": {
+            "category": "Resort",
+            "subcategory": "Restored Stone Village Resort",
+            "star_rating": 5,
+            "room_types": [
+              "Double",
+              "Twin",
+              "Triple",
+              "Suite",
+              "Family Room"
+            ],
+            "amenities": [
+              "WiFi",
+              "Air Conditioning",
+              "Swimming Pool",
+              "Gym",
+              "Spa",
+              "Room Service",
+              "Minibar",
+              "TV"
+            ],
+            "view_types": [
+              "Mountain View",
+              "Pool View"
+            ],
+            "best_for": [
+              "Family Vacations",
+              "Romantic Getaways",
+              "Groups",
+              "Wellness Retreats"
+            ],
+            "average_price_per_night": 75,
+            "currency": "JOD",
+            "pricing_level": "High",
+            "suitable_for": [
+              "Couples",
+              "Family",
+              "Groups",
+              "Honeymoon",
+              "Business"
+            ],
+            "check_in": "14:00",
+            "check_out": "12:00",
+            "notes": "Coordinates come from a single distribution listing and have not been cross-confirmed; an OpenStreetMap lodging node about fifteen metres away carries a different hotel name, and no source confirms a rename. Reported room counts vary widely across sources and are not loaded. Guests report the property does not serve alcohol."
+          }
+        }
+      ],
+      "events": [
+        {
+          "id": "event_000159",
+          "entity_type": "event",
+          "name": "Petra Heritage Fashion and Local Products Exhibition",
+          "role": "",
+          "region": "Ma'an",
+          "city": "Wadi Musa",
+          "district": "Wadi Musa",
+          "address": "Petra, Ma'an, Jordan",
+          "latitude": 0.0,
+          "longitude": 0.0,
+          "why_retrieved": [],
+          "facts": {
+            "category": "Cultural Event",
+            "subcategory": "Heritage and Handicrafts",
+            "themes": [
+              "Heritage and Handicrafts"
+            ],
+            "typical_months": [],
+            "typical_seasons": [],
+            "recurrence": null,
+            "duration_minutes": null,
+            "ticket_cost": null,
+            "currency": [],
+            "pricing_level": null,
+            "indoor_outdoor": null,
+            "highlights": [
+              "Heritage and Handicrafts"
+            ],
+            "languages": [
+              "Arabic"
+            ],
+            "minimum_age": null,
+            "suitable_for": [
+              "Local Visitors",
+              "Tourists"
+            ]
+          }
+        },
+        {
+          "id": "event_000153",
+          "entity_type": "event",
+          "name": "Jordan Summer Festival - Ma'an",
+          "role": "",
+          "region": "Ma'an",
+          "city": "Ma'an",
+          "district": "Ma'an",
+          "address": "Princess Haya Sports Complex, Ma'an, Jordan",
+          "latitude": 0.0,
+          "longitude": 0.0,
+          "why_retrieved": [],
+          "facts": {
+            "category": "Cultural Event",
+            "subcategory": null,
+            "themes": [
+              "Summer Culture"
+            ],
+            "typical_months": [],
+            "typical_seasons": [],
+            "recurrence": "Annual",
+            "duration_minutes": null,
+            "ticket_cost": null,
+            "currency": [],
+            "pricing_level": null,
+            "indoor_outdoor": null,
+            "highlights": [
+              "Summer Culture",
+              "Community activities"
+            ],
+            "languages": [
+              "Arabic"
+            ],
+            "minimum_age": null,
+            "suitable_for": [
+              "Families",
+              "Local Visitors",
+              "Tourists"
+            ]
+          }
+        },
+        {
+          "id": "event_000156",
+          "entity_type": "event",
+          "name": "Ma'an Cultural Days",
+          "role": "",
+          "region": "Ma'an",
+          "city": "Ma'an",
+          "district": "Ma'an",
+          "address": "Ma'an, Ma'an, Jordan",
+          "latitude": 0.0,
+          "longitude": 0.0,
+          "why_retrieved": [],
+          "facts": {
+            "category": "Cultural Event",
+            "subcategory": "Culture and Heritage",
+            "themes": [
+              "Culture and Heritage"
+            ],
+            "typical_months": [],
+            "typical_seasons": [],
+            "recurrence": null,
+            "duration_minutes": null,
+            "ticket_cost": null,
+            "currency": [],
+            "pricing_level": null,
+            "indoor_outdoor": null,
+            "highlights": [
+              "Culture and Heritage"
+            ],
+            "languages": [
+              "Arabic"
+            ],
+            "minimum_age": null,
+            "suitable_for": [
+              "Local Visitors",
+              "Tourists"
+            ]
+          }
+        }
+      ],
+      "summary": "Ma'an Governorate: 4 anchor + 6 discovery POIs; 8 restaurants; 4 hotels; 3 events."
+    },
+    {
+      "cluster_id": 1,
+      "theme": "Ma'an Governorate · nature, history",
+      "pois": [
+        {
+          "poi": {
+            "id": "poi_002032",
+            "entity_type": "poi",
+            "name": "Red Sand Dunes of Wadi Rum",
+            "role": "anchor",
+            "region": "Ma'an Governorate",
+            "city": "Wadi Rum",
+            "district": "Quweira District",
+            "address": "Jebel Um Ishrin base, Wadi Rum Protected Area",
+            "latitude": 29.585278,
+            "longitude": 35.433611,
+            "why_retrieved": [
+              "matches nature interest"
+            ],
+            "facts": {
+              "category": "Nature",
+              "subcategory": "Sand Dune",
+              "themes": [
+                "Sand Dunes",
+                "Desert Landscape",
+                "Geology",
+                "Nature"
+              ],
+              "opening_hours": "",
+              "closing_hours": "",
+              "closed_days": [],
+              "average_visit_minutes": 45,
+              "booking_required": null,
+              "best_visit_time": [
+                "Morning",
+                "Afternoon"
+              ],
+              "activity_level": "Medium",
+              "indoor_outdoor": "Outdoor",
+              "entry_fee": 5.0,
+              "currency": "JOD",
+              "pricing_level": "Low",
+              "highlights": [
+                "Vibrant deep red sand dune accumulation against rock face",
+                "Fun dune climb with expansive desert views from top",
+                "Popular sandboarding and sunset photo location"
+              ],
+              "notes": "Sand can become extremely hot under direct midday summer sun.",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Children",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_007074",
+              "entity_type": "restaurant",
+              "name": "Captain's Desert Camp Restaurant Wadi Rum",
+              "role": "",
+              "region": "Ma'an Governorate",
+              "city": "Wadi Rum",
+              "district": "Wadi Rum Protected Area",
+              "address": "Disi Area / Main Valley Entrance, Wadi Rum, Ma'an Governorate, Jordan",
+              "latitude": 29.6105,
+              "longitude": 35.4352,
+              "why_retrieved": [
+                "matches history interest",
+                "serves preferred cuisine: Jordanian",
+                "~2.8 km away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Desert Oasis Camp Restaurant",
+                "cuisine_types": [
+                  "Bedouin",
+                  "Jordanian"
+                ],
+                "meal_types": [
+                  "Lunch",
+                  "Dinner"
+                ],
+                "signature_dishes": [
+                  "Bedouin Lamb & Chicken Zarb",
+                  "Hummus & Fresh Flatbread",
+                  "Bedouin Sage Tea"
+                ],
+                "service_style": "Buffet",
+                "atmosphere": "Traditional",
+                "best_visit_time": [
+                  "Evening"
+                ],
+                "average_cost_per_person": 15.0,
+                "currency": "JOD",
+                "pricing_level": "Medium-High",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Desert Safari Lunch",
+                  "Stargazing Dinner",
+                  "Group Event"
+                ],
+                "suitable_for": [
+                  "Tourists",
+                  "Groups",
+                  "Couples",
+                  "Families"
+                ],
+                "opening_hours": "07:00",
+                "closing_hours": "22:00",
+                "notes": "Desert safari 4x4 transfers to the camp can be arranged via the visitor center."
+              }
+            },
+            {
+              "id": "restaurant_003031",
+              "entity_type": "restaurant",
+              "name": "Mani Zarb & Bedouin Camp Restaurant",
+              "role": "",
+              "region": "Aqaba Governorate",
+              "city": "Wadi Rum",
+              "district": "Disi Area",
+              "address": "Disi Desert Road, Aqaba Governorate",
+              "latitude": 29.62145,
+              "longitude": 35.4312,
+              "why_retrieved": [
+                "in requested region: Aqaba Governorate",
+                "serves preferred cuisine: Jordanian",
+                "~4.0 km away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Desert Zarb & Bedouin Buffet",
+                "cuisine_types": [
+                  "Jordanian",
+                  "Middle Eastern"
+                ],
+                "meal_types": [
+                  "Lunch",
+                  "Dinner"
+                ],
+                "signature_dishes": [
+                  "Underground Zarb Chicken",
+                  "Bedouin Spiced Rice",
+                  "Sage Desert Tea"
+                ],
+                "service_style": "Buffet",
+                "atmosphere": "Traditional",
+                "best_visit_time": [
+                  "Afternoon",
+                  "Evening"
+                ],
+                "average_cost_per_person": 14.0,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [
+                  "Halal",
+                  "Gluten-Free"
+                ],
+                "occasion_suitability": [
+                  "Family Gathering",
+                  "Celebration/Group Event"
+                ],
+                "suitable_for": [
+                  "Family",
+                  "Couples",
+                  "Friends",
+                  "Groups",
+                  "Seniors"
+                ],
+                "opening_hours": "12:00",
+                "closing_hours": "21:30",
+                "notes": "Authentic desert setting; advance booking required for non-camp guests."
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_002037",
+              "km": 1.7
+            },
+            {
+              "poi_id": "poi_002036",
+              "km": 1.7
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_002008",
+            "entity_type": "poi",
+            "name": "Wadi Rum Visitor Center",
+            "role": "anchor",
+            "region": "Ma'an Governorate",
+            "city": "Wadi Rum",
+            "district": "Quweira District",
+            "address": "Wadi Rum Protected Area Road",
+            "latitude": 29.6385,
+            "longitude": 35.434639,
+            "why_retrieved": [
+              "matches nature interest"
+            ],
+            "facts": {
+              "category": "Nature",
+              "subcategory": "Protected Area Headquarters",
+              "themes": [
+                "Desert",
+                "Visitor Services",
+                "Bedouin Culture",
+                "Conservation"
+              ],
+              "opening_hours": "08:00",
+              "closing_hours": "17:00",
+              "closed_days": [],
+              "average_visit_minutes": 30,
+              "booking_required": false,
+              "best_visit_time": [
+                "Morning",
+                "Afternoon"
+              ],
+              "activity_level": "Low",
+              "indoor_outdoor": "Mixed",
+              "entry_fee": 5.0,
+              "currency": "JOD",
+              "pricing_level": "Low",
+              "highlights": [
+                "Official entry processing point for Wadi Rum Protected Area",
+                "Educational maps and desert geology displays",
+                "Official tour guide and 4x4 driver registry"
+              ],
+              "notes": "Entry fee covered under the Jordan Pass for international visitors.",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Seniors",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_002046",
+              "entity_type": "restaurant",
+              "name": "Sun City Camp Dining Tent",
+              "role": "",
+              "region": "Ma'an Governorate",
+              "city": "Wadi Rum",
+              "district": "Quweira District",
+              "address": "Disah Valley, Wadi Rum Protected Area",
+              "latitude": 29.6231,
+              "longitude": 35.4382,
+              "why_retrieved": [
+                "matches luxury interest",
+                "serves preferred cuisine: Jordanian",
+                "~1.7 km away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Desert Luxury Camp Restaurant",
+                "cuisine_types": [
+                  "Jordanian",
+                  "Middle Eastern",
+                  "International"
+                ],
+                "meal_types": [
+                  "Breakfast",
+                  "Dinner"
+                ],
+                "signature_dishes": [
+                  "Underground Roasted Zarb",
+                  "Arabic Salads Bar",
+                  "Bedouin Tea"
+                ],
+                "service_style": "Buffet",
+                "atmosphere": "Scenic/Outdoor",
+                "best_visit_time": [
+                  "Evening"
+                ],
+                "average_cost_per_person": 18.0,
+                "currency": "JOD",
+                "pricing_level": "High",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian",
+                  "Gluten-Free"
+                ],
+                "occasion_suitability": [
+                  "Date Night",
+                  "Celebration/Group Event",
+                  "Family Gathering"
+                ],
+                "suitable_for": [
+                  "Couples",
+                  "Family",
+                  "Groups"
+                ],
+                "opening_hours": "07:00",
+                "closing_hours": "22:00",
+                "notes": "Advance reservation mandatory for non-resident guests."
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_002032",
+              "km": 5.9
+            },
+            {
+              "poi_id": "poi_002036",
+              "km": 7.0
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_002038",
+            "entity_type": "poi",
+            "name": "French Fortress Ruins (Wadi Rum)",
+            "role": "anchor",
+            "region": "Ma'an Governorate",
+            "city": "Wadi Rum",
+            "district": "Quweira District",
+            "address": "Eastern Sector, Wadi Rum Protected Area",
+            "latitude": 29.516111,
+            "longitude": 35.518611,
+            "why_retrieved": [
+              "matches history interest"
+            ],
+            "facts": {
+              "category": "Entertainment",
+              "subcategory": "Film Set & Ruins",
+              "themes": [
+                "Cinema History",
+                "Film Sets",
+                "Desert Ruins",
+                "Photography"
+              ],
+              "opening_hours": "",
+              "closing_hours": "",
+              "closed_days": [],
+              "average_visit_minutes": 25,
+              "booking_required": null,
+              "best_visit_time": [
+                "Morning",
+                "Afternoon"
+              ],
+              "activity_level": "Low",
+              "indoor_outdoor": "Outdoor",
+              "entry_fee": 5.0,
+              "currency": "JOD",
+              "pricing_level": "Low",
+              "highlights": [
+                "Surviving desert fort constructed for film production",
+                "Panoramic views of surrounding eastern sand plains",
+                "Quiet scenic stop off standard main tourist circuits"
+              ],
+              "notes": "Visited via extended full-day 4x4 desert tours.",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_007075",
+              "entity_type": "restaurant",
+              "name": "Wadi Rum Visitor Center Rest House",
+              "role": "",
+              "region": "Ma'an Governorate",
+              "city": "Wadi Rum",
+              "district": "Rum Village",
+              "address": "Rum Village Main Entrance, Wadi Rum, Jordan",
+              "latitude": 29.5778,
+              "longitude": 35.419,
+              "why_retrieved": [
+                "matches history interest",
+                "serves preferred cuisine: Jordanian",
+                "~11.8 km away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Desert Gateway Rest House",
+                "cuisine_types": [
+                  "Jordanian",
+                  "Casual Cafe"
+                ],
+                "meal_types": [
+                  "Breakfast",
+                  "Lunch",
+                  "Snacks"
+                ],
+                "signature_dishes": [
+                  "Gallayet Bandora",
+                  "Fresh Falafel Plate",
+                  "Mint Cardamom Tea"
+                ],
+                "service_style": "Casual Dining",
+                "atmosphere": "Relaxed",
+                "best_visit_time": [
+                  "Morning",
+                  "Afternoon"
+                ],
+                "average_cost_per_person": 7.0,
+                "currency": "JOD",
+                "pricing_level": "Low-Medium",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Pre-Tour Breakfast",
+                  "Trail Stop",
+                  "Casual Lunch"
+                ],
+                "suitable_for": [
+                  "Climbers",
+                  "Hikers",
+                  "Backpackers",
+                  "Tourists"
+                ],
+                "opening_hours": "07:30",
+                "closing_hours": "20:00",
+                "notes": "Hub location where local guides and 4x4 drivers assemble before safari departures."
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_002010",
+              "km": 6.6
+            },
+            {
+              "poi_id": "poi_002031",
+              "km": 8.2
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_002037",
+            "entity_type": "poi",
+            "name": "Desert Police Station & Fort (Wadi Rum)",
+            "role": "anchor",
+            "region": "Ma'an Governorate",
+            "city": "Wadi Rum",
+            "district": "Quweira District",
+            "address": "Rum Village, Wadi Rum",
+            "latitude": 29.576389,
+            "longitude": 35.419444,
+            "why_retrieved": [],
+            "facts": {
+              "category": "Heritage",
+              "subcategory": "Historical Fort & Police Post",
+              "themes": [
+                "Desert Patrol",
+                "Jordan Heritage",
+                "Fortress",
+                "Cultural Identity"
+              ],
+              "opening_hours": "00:00",
+              "closing_hours": "23:59",
+              "closed_days": [],
+              "average_visit_minutes": 15,
+              "booking_required": false,
+              "best_visit_time": [
+                "Morning",
+                "Afternoon"
+              ],
+              "activity_level": "Low",
+              "indoor_outdoor": "Outdoor",
+              "entry_fee": 0.0,
+              "currency": "JOD",
+              "pricing_level": "Free",
+              "highlights": [
+                "1930s traditional stone desert fort architecture",
+                "Jordanian Desert Patrol officers in traditional military attire",
+                "Desert patrol mounts and camel stables exterior view"
+              ],
+              "notes": "Active police station; exterior photography permitted.",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Seniors",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_002042",
+              "entity_type": "restaurant",
+              "name": "Wadi Rum Rest House Restaurant",
+              "role": "",
+              "region": "Ma'an Governorate",
+              "city": "Wadi Rum",
+              "district": "Quweira District",
+              "address": "Wadi Rum Village Main Square",
+              "latitude": 29.5772,
+              "longitude": 35.4194,
+              "why_retrieved": [
+                "serves preferred cuisine: Jordanian",
+                "~90 m away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Desert Rest Stop & Diner",
+                "cuisine_types": [
+                  "Jordanian",
+                  "Middle Eastern"
+                ],
+                "meal_types": [
+                  "Breakfast",
+                  "Lunch",
+                  "Dinner",
+                  "Coffee/Tea"
+                ],
+                "signature_dishes": [
+                  "Chicken Kabsa",
+                  "Hummus & Pita",
+                  "Sweet Bedouin Tea"
+                ],
+                "service_style": "Buffet",
+                "atmosphere": "Casual",
+                "best_visit_time": [
+                  "Morning",
+                  "Afternoon"
+                ],
+                "average_cost_per_person": 7.0,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Casual Hangout"
+                ],
+                "suitable_for": [
+                  "Groups",
+                  "Solo",
+                  "Family",
+                  "Friends"
+                ],
+                "opening_hours": "07:00",
+                "closing_hours": "21:00",
+                "notes": "Cash payments are strongly preferred due to limited desert connectivity."
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_002036",
+              "km": 0.1
+            },
+            {
+              "poi_id": "poi_002032",
+              "km": 1.7
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_002011",
+            "entity_type": "poi",
+            "name": "Um Frouth Rock Bridge",
+            "role": "discovery",
+            "region": "Ma'an Governorate",
+            "city": "Wadi Rum",
+            "district": "Quweira District",
+            "address": "Wadi Rum Protected Area",
+            "latitude": 29.462778,
+            "longitude": 35.437778,
+            "why_retrieved": [
+              "matches nature interest"
+            ],
+            "facts": {
+              "category": "Nature",
+              "subcategory": "Natural Arch",
+              "themes": [
+                "Geology",
+                "Natural Arch",
+                "Desert",
+                "Photography"
+              ],
+              "opening_hours": "",
+              "closing_hours": "",
+              "closed_days": [],
+              "average_visit_minutes": 40,
+              "booking_required": null,
+              "best_visit_time": [
+                "Morning",
+                "Afternoon"
+              ],
+              "activity_level": "Medium",
+              "indoor_outdoor": "Outdoor",
+              "entry_fee": 5.0,
+              "currency": "JOD",
+              "pricing_level": "Low",
+              "highlights": [
+                "20-meter high natural sandstone bridge",
+                "Accessible scramble to top of the arch",
+                "Striking photo background"
+              ],
+              "notes": "Rock surface can be slippery; caution needed when scrambling up.",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_003014",
+              "entity_type": "restaurant",
+              "name": "Rum Magic Restaurant",
+              "role": "",
+              "region": "Aqaba Governorate",
+              "city": "Wadi Rum",
+              "district": "Wadi Rum Visitor Area",
+              "address": "Wadi Rum Village Road, Aqaba Governorate",
+              "latitude": 29.57512,
+              "longitude": 35.41823,
+              "why_retrieved": [
+                "in requested region: Aqaba Governorate",
+                "serves preferred cuisine: Jordanian",
+                "~12.6 km away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Traditional Bedouin Zarb & Desert Buffet",
+                "cuisine_types": [
+                  "Jordanian",
+                  "Middle Eastern"
+                ],
+                "meal_types": [
+                  "Lunch",
+                  "Dinner"
+                ],
+                "signature_dishes": [
+                  "Traditional Bedouin Zarb",
+                  "Jordanian Mansaf",
+                  "Bedouin Sage Tea"
+                ],
+                "service_style": "Buffet",
+                "atmosphere": "Traditional",
+                "best_visit_time": [
+                  "Afternoon",
+                  "Evening"
+                ],
+                "average_cost_per_person": 15.0,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [
+                  "Halal",
+                  "Gluten-Free"
+                ],
+                "occasion_suitability": [
+                  "Celebration/Group Event",
+                  "Family Gathering"
+                ],
+                "suitable_for": [
+                  "Family",
+                  "Couples",
+                  "Friends",
+                  "Groups",
+                  "Seniors"
+                ],
+                "opening_hours": "12:00",
+                "closing_hours": "22:00",
+                "notes": "Features live dramatic unearthing of the underground Zarb oven before meal service."
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_002010",
+              "km": 3.7
+            },
+            {
+              "poi_id": "poi_002038",
+              "km": 9.8
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_002031",
+            "entity_type": "poi",
+            "name": "Barrah Canyon",
+            "role": "discovery",
+            "region": "Ma'an Governorate",
+            "city": "Wadi Rum",
+            "district": "Quweira District",
+            "address": "Northeast Sector, Wadi Rum Protected Area",
+            "latitude": 29.583333,
+            "longitude": 35.483333,
+            "why_retrieved": [
+              "matches nature interest"
+            ],
+            "facts": {
+              "category": "Nature",
+              "subcategory": "Desert Canyon",
+              "themes": [
+                "Canyon",
+                "Rock Climbing",
+                "Trekking",
+                "Desert Nature"
+              ],
+              "opening_hours": "",
+              "closing_hours": "",
+              "closed_days": [],
+              "average_visit_minutes": 150,
+              "booking_required": null,
+              "best_visit_time": [
+                "Morning",
+                "Afternoon"
+              ],
+              "activity_level": "Medium",
+              "indoor_outdoor": "Outdoor",
+              "entry_fee": 5.0,
+              "currency": "JOD",
+              "pricing_level": "Low",
+              "highlights": [
+                "5 km scenic sandstone desert gorge",
+                "World-renowned traditional rock climbing routes",
+                "Peaceful hiking corridor away from high jeep traffic"
+              ],
+              "notes": "Accessed via 4x4 transport to the canyon entrance.",
+              "suitable_for": [
+                "Couples",
+                "Solo",
+                "Friends",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_002032",
+              "km": 4.8
+            },
+            {
+              "poi_id": "poi_002037",
+              "km": 6.2
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_002036",
+            "entity_type": "poi",
+            "name": "Rum Village Bedouin Oasis",
+            "role": "discovery",
+            "region": "Ma'an Governorate",
+            "city": "Wadi Rum",
+            "district": "Quweira District",
+            "address": "Rum Village, Wadi Rum Protected Area",
+            "latitude": 29.577222,
+            "longitude": 35.418889,
+            "why_retrieved": [],
+            "facts": {
+              "category": "Other",
+              "subcategory": "Bedouin Settlement",
+              "themes": [
+                "Bedouin Culture",
+                "Desert Hub",
+                "Local Life",
+                "Tourism Gateway"
+              ],
+              "opening_hours": "00:00",
+              "closing_hours": "23:59",
+              "closed_days": [],
+              "average_visit_minutes": 30,
+              "booking_required": false,
+              "best_visit_time": [
+                "Morning",
+                "Afternoon"
+              ],
+              "activity_level": "Low",
+              "indoor_outdoor": "Mixed",
+              "entry_fee": 5.0,
+              "currency": "JOD",
+              "pricing_level": "Low",
+              "highlights": [
+                "Cultural interaction with indigenous Bedouin community",
+                "Departure hub for 4x4 desert tours and camel rides",
+                "Picturesque position right beneath Jebel Rum cliff walls"
+              ],
+              "notes": "Main road paved all the way from Desert Highway to Rum Village.",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Seniors",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_002057",
+              "entity_type": "restaurant",
+              "name": "Rahayeb Desert Camp Restaurant",
+              "role": "",
+              "region": "Ma'an Governorate",
+              "city": "Wadi Rum",
+              "district": "Quweira District",
+              "address": "Rahayeb Canyon Area, Wadi Rum Protected Area",
+              "latitude": 29.542,
+              "longitude": 35.431,
+              "why_retrieved": [
+                "serves preferred cuisine: Jordanian",
+                "~4.1 km away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Traditional Desert Camp Restaurant",
+                "cuisine_types": [
+                  "Jordanian",
+                  "Middle Eastern"
+                ],
+                "meal_types": [
+                  "Breakfast",
+                  "Dinner"
+                ],
+                "signature_dishes": [
+                  "Bedouin Underground Zarb",
+                  "Lentil Soup",
+                  "Bedouin Tea with Sage"
+                ],
+                "service_style": "Buffet",
+                "atmosphere": "Traditional",
+                "best_visit_time": [
+                  "Evening"
+                ],
+                "average_cost_per_person": 11.0,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Casual Hangout",
+                  "Celebration/Group Event"
+                ],
+                "suitable_for": [
+                  "Groups",
+                  "Family",
+                  "Couples",
+                  "Solo"
+                ],
+                "opening_hours": "07:00",
+                "closing_hours": "21:30",
+                "notes": "Accessible via 4x4 transport from Wadi Rum Visitor Center."
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_002037",
+              "km": 0.1
+            },
+            {
+              "poi_id": "poi_002032",
+              "km": 1.7
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_002010",
+            "entity_type": "poi",
+            "name": "Jabal Burdah Rock Bridge",
+            "role": "discovery",
+            "region": "Ma'an Governorate",
+            "city": "Wadi Rum",
+            "district": "Quweira District",
+            "address": "Southern Sector, Wadi Rum Protected Area",
+            "latitude": 29.471389,
+            "longitude": 35.474167,
+            "why_retrieved": [],
+            "facts": {
+              "category": "Adventure",
+              "subcategory": "Natural Arch",
+              "themes": [
+                "Rock Bridge",
+                "Scrambling",
+                "Desert Hiking",
+                "Geology"
+              ],
+              "opening_hours": "",
+              "closing_hours": "",
+              "closed_days": [],
+              "average_visit_minutes": 180,
+              "booking_required": null,
+              "best_visit_time": [
+                "Morning"
+              ],
+              "activity_level": "High",
+              "indoor_outdoor": "Outdoor",
+              "entry_fee": 5.0,
+              "currency": "JOD",
+              "pricing_level": "Low",
+              "highlights": [
+                "Highest natural rock bridge formation in Wadi Rum",
+                "Challenging guided rock scramble climb",
+                "Panoramic view of desert landscape"
+              ],
+              "notes": "Accompanying Bedouin guide is strongly recommended for navigation and safety.",
+              "suitable_for": [
+                "Solo",
+                "Friends",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_002068",
+              "entity_type": "restaurant",
+              "name": "Bedouin Night Camp Restaurant",
+              "role": "",
+              "region": "Ma'an Governorate",
+              "city": "Wadi Rum",
+              "district": "Quweira District",
+              "address": "Sunset Area, Wadi Rum Protected Area",
+              "latitude": 29.5315,
+              "longitude": 35.421,
+              "why_retrieved": [
+                "serves preferred cuisine: Jordanian",
+                "~8.4 km away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Desert Camp Dining Tent",
+                "cuisine_types": [
+                  "Jordanian",
+                  "Middle Eastern"
+                ],
+                "meal_types": [
+                  "Breakfast",
+                  "Dinner"
+                ],
+                "signature_dishes": [
+                  "Bedouin Zarb Feast",
+                  "Mutabbal Eggplant Dip",
+                  "Herbal Sage Tea"
+                ],
+                "service_style": "Buffet",
+                "atmosphere": "Traditional",
+                "best_visit_time": [
+                  "Evening"
+                ],
+                "average_cost_per_person": 10.0,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Casual Hangout",
+                  "Date Night"
+                ],
+                "suitable_for": [
+                  "Couples",
+                  "Solo",
+                  "Groups",
+                  "Friends"
+                ],
+                "opening_hours": "07:30",
+                "closing_hours": "21:30",
+                "notes": "Advance booking mandatory; transportation into camp usually organized from Wadi Rum Village."
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_002011",
+              "km": 3.7
+            },
+            {
+              "poi_id": "poi_002038",
+              "km": 6.6
+            }
+          ]
+        }
+      ],
+      "hotels": [
+        {
+          "id": "hotel_000156",
+          "entity_type": "hotel",
+          "name": "Mövenpick Resort Petra",
+          "role": "",
+          "region": "Ma'an Governorate",
+          "city": "Wadi Musa",
+          "district": "Tourism Street",
+          "address": "Tourism Street, P.O. Box 214, Wadi Musa 71810, Jordan",
+          "latitude": 30.32543,
+          "longitude": 35.469292,
+          "why_retrieved": [
+            "matches luxury interest"
+          ],
+          "facts": {
+            "category": "Resort",
+            "subcategory": "Gateway Resort at the Petra Entrance",
+            "star_rating": 5,
+            "room_types": [
+              "Classic Room (King,Twin)",
+              "Superior Room (King,Twin)",
+              "Junior Suite(Twin, King)",
+              "King Suite",
+              "Royal King Suite"
+            ],
+            "amenities": [
+              "WiFi",
+              "Air Conditioning",
+              "Swimming Pool",
+              "Gym",
+              "Spa",
+              "Room Service",
+              "Minibar",
+              "TV",
+              "Balcony/Terrace"
+            ],
+            "view_types": [
+              "Mountain View"
+            ],
+            "best_for": [
+              "Family Vacations",
+              "Romantic Getaways",
+              "Business Trips",
+              "Groups"
+            ],
+            "average_price_per_night": 97,
+            "currency": "JOD",
+            "pricing_level": "High",
+            "suitable_for": [
+              "Couples",
+              "Family",
+              "Groups",
+              "Business",
+              "Honeymoon"
+            ],
+            "check_in": "15:00",
+            "check_out": "12:00",
+            "notes": "Buffet breakfast is charged separately at approximately JOD 12 per adult and JOD 6 per child. Early check-in or late check-out is JOD 30 and a rollaway bed is JOD 35. The outdoor pool is seasonal."
+          }
+        },
+        {
+          "id": "hotel_000158",
+          "entity_type": "hotel",
+          "name": "Petra Marriott Hotel",
+          "role": "",
+          "region": "Ma'an Governorate",
+          "city": "Wadi Musa",
+          "district": "Queen Rania Al Abdallah Street",
+          "address": "Queen Rania Al Abdallah Street, Wadi Musa, Jordan",
+          "latitude": 30.304607,
+          "longitude": 35.46362,
+          "why_retrieved": [
+            "matches luxury interest"
+          ],
+          "facts": {
+            "category": "Hotel",
+            "subcategory": "Cliff-Edge Valley View Hotel",
+            "star_rating": 5,
+            "room_types": [
+              "Double",
+              "Twin",
+              "Suite"
+            ],
+            "amenities": [
+              "WiFi",
+              "Air Conditioning",
+              "Swimming Pool",
+              "Gym",
+              "Spa",
+              "Room Service",
+              "Minibar",
+              "TV"
+            ],
+            "view_types": [
+              "Mountain View",
+              "Garden View"
+            ],
+            "best_for": [
+              "Romantic Getaways",
+              "Family Vacations",
+              "Business Trips",
+              "Wellness Retreats"
+            ],
+            "average_price_per_night": 94,
+            "currency": "JOD",
+            "pricing_level": "High",
+            "suitable_for": [
+              "Couples",
+              "Family",
+              "Business",
+              "Honeymoon",
+              "Groups"
+            ],
+            "check_in": "15:00",
+            "check_out": "12:00",
+            "notes": "Continental breakfast is charged separately at approximately JOD 13 per person. The outdoor pool is seasonal. Airport shuttle is available for a surcharge of roughly JOD 120 round trip."
+          }
+        },
+        {
+          "id": "hotel_000192",
+          "entity_type": "hotel",
+          "name": "Petra Bubble Luxotel",
+          "role": "",
+          "region": "Ma'an Governorate",
+          "city": "Al Beidha",
+          "district": "Shobak Qasabah District",
+          "address": "Little Petra, Al-Baydha, Shobak Qasabah District, Ma'an 71882, Jordan",
+          "latitude": 30.38432,
+          "longitude": 35.482756,
+          "why_retrieved": [
+            "matches luxury interest"
+          ],
+          "facts": {
+            "category": "Camp/Glamping",
+            "subcategory": "Bubble-Suite Glamping Resort",
+            "star_rating": 5,
+            "room_types": [
+              "Tent/Camp Room",
+              "Suite",
+              "Twin"
+            ],
+            "amenities": [
+              "WiFi",
+              "Minibar",
+              "Balcony/Terrace"
+            ],
+            "view_types": [
+              "Mountain View",
+              "Desert View"
+            ],
+            "best_for": [
+              "Romantic Getaways",
+              "Adventure Travelers"
+            ],
+            "average_price_per_night": null,
+            "currency": "JOD",
+            "pricing_level": "High",
+            "suitable_for": [
+              "Couples",
+              "Honeymoon"
+            ],
+            "check_in": "13:00",
+            "check_out": "11:00",
+            "notes": "Adults only; children are not permitted to stay. Despite a marketing address in Wadi Musa, the mapped position falls administratively within Shobak Qasabah District. Published marketing distances to the Petra main gate are inconsistent with the mapped position and should not be relied on. Check-out time is not loaded because sources conflict."
+          }
+        },
+        {
+          "id": "hotel_000160",
+          "entity_type": "hotel",
+          "name": "Hayat Zaman Hotel & Resort Petra",
+          "role": "",
+          "region": "Ma'an Governorate",
+          "city": "Taybeh",
+          "district": "Taybeh Village",
+          "address": "Petra–Wadi Mousa Street, Taybeh Village, Wadi Mousa 71873, Jordan",
+          "latitude": 30.254831,
+          "longitude": 35.459866,
+          "why_retrieved": [],
+          "facts": {
+            "category": "Resort",
+            "subcategory": "Restored Ottoman Village Resort",
+            "star_rating": 5,
+            "room_types": [
+              "Single",
+              "Double",
+              "Twin",
+              "Triple",
+              "Suite"
+            ],
+            "amenities": [
+              "WiFi",
+              "Air Conditioning",
+              "Heating",
+              "Swimming Pool",
+              "Gym",
+              "Spa",
+              "Breakfast Included",
+              "Minibar",
+              "TV"
+            ],
+            "view_types": [
+              "Mountain View",
+              "Garden View"
+            ],
+            "best_for": [
+              "Romantic Getaways",
+              "Family Vacations",
+              "Wellness Retreats",
+              "Groups"
+            ],
+            "average_price_per_night": 95,
+            "currency": "JOD",
+            "pricing_level": "High",
+            "suitable_for": [
+              "Couples",
+              "Family",
+              "Honeymoon",
+              "Groups",
+              "Seniors"
+            ],
+            "check_in": "14:00",
+            "check_out": "12:30",
+            "notes": "Formerly branded Taybet Zaman Hotel & Resort. Reported room counts differ between sources, with the operator citing 125 and distribution channels 111. Central heating is noted for suites."
+          }
+        }
+      ],
+      "events": [
+        {
+          "id": "event_000159",
+          "entity_type": "event",
+          "name": "Petra Heritage Fashion and Local Products Exhibition",
+          "role": "",
+          "region": "Ma'an",
+          "city": "Wadi Musa",
+          "district": "Wadi Musa",
+          "address": "Petra, Ma'an, Jordan",
+          "latitude": 0.0,
+          "longitude": 0.0,
+          "why_retrieved": [],
+          "facts": {
+            "category": "Cultural Event",
+            "subcategory": "Heritage and Handicrafts",
+            "themes": [
+              "Heritage and Handicrafts"
+            ],
+            "typical_months": [],
+            "typical_seasons": [],
+            "recurrence": null,
+            "duration_minutes": null,
+            "ticket_cost": null,
+            "currency": [],
+            "pricing_level": null,
+            "indoor_outdoor": null,
+            "highlights": [
+              "Heritage and Handicrafts"
+            ],
+            "languages": [
+              "Arabic"
+            ],
+            "minimum_age": null,
+            "suitable_for": [
+              "Local Visitors",
+              "Tourists"
+            ]
+          }
+        },
+        {
+          "id": "event_000153",
+          "entity_type": "event",
+          "name": "Jordan Summer Festival - Ma'an",
+          "role": "",
+          "region": "Ma'an",
+          "city": "Ma'an",
+          "district": "Ma'an",
+          "address": "Princess Haya Sports Complex, Ma'an, Jordan",
+          "latitude": 0.0,
+          "longitude": 0.0,
+          "why_retrieved": [],
+          "facts": {
+            "category": "Cultural Event",
+            "subcategory": null,
+            "themes": [
+              "Summer Culture"
+            ],
+            "typical_months": [],
+            "typical_seasons": [],
+            "recurrence": "Annual",
+            "duration_minutes": null,
+            "ticket_cost": null,
+            "currency": [],
+            "pricing_level": null,
+            "indoor_outdoor": null,
+            "highlights": [
+              "Summer Culture",
+              "Community activities"
+            ],
+            "languages": [
+              "Arabic"
+            ],
+            "minimum_age": null,
+            "suitable_for": [
+              "Families",
+              "Local Visitors",
+              "Tourists"
+            ]
+          }
+        },
+        {
+          "id": "event_000156",
+          "entity_type": "event",
+          "name": "Ma'an Cultural Days",
+          "role": "",
+          "region": "Ma'an",
+          "city": "Ma'an",
+          "district": "Ma'an",
+          "address": "Ma'an, Ma'an, Jordan",
+          "latitude": 0.0,
+          "longitude": 0.0,
+          "why_retrieved": [],
+          "facts": {
+            "category": "Cultural Event",
+            "subcategory": "Culture and Heritage",
+            "themes": [
+              "Culture and Heritage"
+            ],
+            "typical_months": [],
+            "typical_seasons": [],
+            "recurrence": null,
+            "duration_minutes": null,
+            "ticket_cost": null,
+            "currency": [],
+            "pricing_level": null,
+            "indoor_outdoor": null,
+            "highlights": [
+              "Culture and Heritage"
+            ],
+            "languages": [
+              "Arabic"
+            ],
+            "minimum_age": null,
+            "suitable_for": [
+              "Local Visitors",
+              "Tourists"
+            ]
+          }
+        }
+      ],
+      "summary": "Ma'an Governorate: 4 anchor + 4 discovery POIs; 8 restaurants; 4 hotels; 3 events."
+    },
+    {
+      "cluster_id": 2,
+      "theme": "Aqaba Governorate · history, nature",
+      "pois": [
+        {
+          "poi": {
+            "id": "poi_003026",
+            "entity_type": "poi",
+            "name": "Aqaba Heritage House",
+            "role": "anchor",
+            "region": "Aqaba Governorate",
+            "city": "Aqaba",
+            "district": "Old Town",
+            "address": "Al-Manara District, Old Town, Aqaba",
+            "latitude": 29.522222,
+            "longitude": 35.001389,
+            "why_retrieved": [
+              "matches history interest",
+              "in requested region: Aqaba Governorate"
+            ],
+            "facts": {
+              "category": "Heritage",
+              "subcategory": "Cultural Center",
+              "themes": [
+                "Aqabawi Culture",
+                "Maritime Traditions",
+                "Handicraft Workshops",
+                "Historic Restoration"
+              ],
+              "opening_hours": "09:00",
+              "closing_hours": "17:00",
+              "closed_days": [
+                "Friday"
+              ],
+              "average_visit_minutes": 40,
+              "booking_required": false,
+              "best_visit_time": [
+                "Morning",
+                "Afternoon"
+              ],
+              "activity_level": "Low",
+              "indoor_outdoor": "Indoor",
+              "entry_fee": 1,
+              "currency": "JOD",
+              "pricing_level": "Low",
+              "highlights": [
+                "Authentically restored early 20th-century coastal stone residence",
+                "Exhibits showcasing traditional Aqabawi fishing and coastal life",
+                "Live craft demonstrations including palm weaving and sand art",
+                "Authentic handmade souvenirs crafted by local residents"
+              ],
+              "notes": "Small intimate cultural museum located within easy walking distance of Aqaba Fort.",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Seniors",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_007079",
+              "entity_type": "restaurant",
+              "name": "Royal Yacht Club Restaurant Aqaba",
+              "role": "",
+              "region": "Aqaba Governorate",
+              "city": "Aqaba",
+              "district": "Marina District",
+              "address": "King Hussein Street, Royal Yacht Club Complex, Aqaba, Jordan",
+              "latitude": 29.5248,
+              "longitude": 35.0002,
+              "why_retrieved": [
+                "in requested region: Aqaba Governorate",
+                "~309 m away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Marina Waterfront Fine Dining",
+                "cuisine_types": [
+                  "Mediterranean",
+                  "Seafood",
+                  "International"
+                ],
+                "meal_types": [
+                  "Lunch",
+                  "Dinner"
+                ],
+                "signature_dishes": [
+                  "Grilled Lobster Tail",
+                  "Seafood Risotto",
+                  "Ribeye Steak"
+                ],
+                "service_style": "Fine Dining",
+                "atmosphere": "Upscale/Elegant",
+                "best_visit_time": [
+                  "Sunset",
+                  "Evening"
+                ],
+                "average_cost_per_person": 22.0,
+                "currency": "JOD",
+                "pricing_level": "High",
+                "dietary_options": [
+                  "Halal",
+                  "Seafood",
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Romantic Dinner",
+                  "Sunset Cocktails",
+                  "Special Celebration"
+                ],
+                "suitable_for": [
+                  "Couples",
+                  "Business Travelers",
+                  "Fine Dining Enthusiasts",
+                  "Groups"
+                ],
+                "opening_hours": "12:00",
+                "closing_hours": "00:00",
+                "notes": "Excellent front-row seat for watching sunsets over the Red Sea."
+              }
+            },
+            {
+              "id": "restaurant_003017",
+              "entity_type": "restaurant",
+              "name": "Al Kufa Cafe & Restaurant",
+              "role": "",
+              "region": "Aqaba Governorate",
+              "city": "Aqaba",
+              "district": "Corniche Area",
+              "address": "King Hussein Street, Corniche, Aqaba",
+              "latitude": 29.52554,
+              "longitude": 35.00112,
+              "why_retrieved": [
+                "in requested region: Aqaba Governorate",
+                "~370 m away"
+              ],
+              "facts": {
+                "category": "Cafe",
+                "subcategory": "Traditional Seaside Cafe & Shisha Lounge",
+                "cuisine_types": [
+                  "Cafe/Desserts",
+                  "Middle Eastern",
+                  "Fast Food"
+                ],
+                "meal_types": [
+                  "Breakfast",
+                  "Lunch",
+                  "Dinner",
+                  "Coffee/Tea",
+                  "Snacks"
+                ],
+                "signature_dishes": [
+                  "Turkish Coffee",
+                  "Fresh Mint Lemonade",
+                  "Halloumi Sandwich"
+                ],
+                "service_style": "Cafe",
+                "atmosphere": "Scenic/Outdoor",
+                "best_visit_time": [
+                  "Morning",
+                  "Evening",
+                  "Night"
+                ],
+                "average_cost_per_person": 6.0,
+                "currency": "JOD",
+                "pricing_level": "Low",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Casual Hangout"
+                ],
+                "suitable_for": [
+                  "Friends",
+                  "Couples",
+                  "Solo",
+                  "Students",
+                  "Family"
+                ],
+                "opening_hours": "08:00",
+                "closing_hours": "02:00",
+                "notes": "Prime sunset watching location right along the public corniche promenade."
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_003002",
+              "km": 0.1
+            },
+            {
+              "poi_id": "poi_003025",
+              "km": 0.6
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_003004",
+            "entity_type": "poi",
+            "name": "Aqaba Marine Park",
+            "role": "anchor",
+            "region": "Aqaba Governorate",
+            "city": "Aqaba",
+            "district": "South Beach",
+            "address": "South Beach Highway, Aqaba",
+            "latitude": 29.434722,
+            "longitude": 34.975278,
+            "why_retrieved": [
+              "matches nature interest",
+              "in requested region: Aqaba Governorate"
+            ],
+            "facts": {
+              "category": "Nature",
+              "subcategory": "Marine Reserve",
+              "themes": [
+                "Coral Reefs",
+                "Red Sea Marine Life",
+                "Scuba Diving",
+                "Snorkeling",
+                "Conservation"
+              ],
+              "opening_hours": "06:00",
+              "closing_hours": "19:00",
+              "closed_days": [],
+              "average_visit_minutes": 180,
+              "booking_required": false,
+              "best_visit_time": [
+                "Morning",
+                "Afternoon"
+              ],
+              "activity_level": "Medium",
+              "indoor_outdoor": "Outdoor",
+              "entry_fee": 0,
+              "currency": "JOD",
+              "pricing_level": "Free",
+              "highlights": [
+                "Shallow fringing coral reefs accessible directly from shore",
+                "Home to over 500 species of marine fish and invertebrates",
+                "Access point for Cedar Pride shipwreck and artificial reef dive sites",
+                "Clean managed public beaches with designated swimming areas"
+              ],
+              "notes": "Touching or stepping on corals is strictly prohibited by law.",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Children",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_007080",
+              "entity_type": "restaurant",
+              "name": "Berenice Beach Club Restaurant Aqaba",
+              "role": "",
+              "region": "Aqaba Governorate",
+              "city": "Aqaba",
+              "district": "South Beach (Marine Park)",
+              "address": "South Beach Highway, Aqaba Marine Park, Aqaba, Jordan",
+              "latitude": 29.4312,
+              "longitude": 34.9754,
+              "why_retrieved": [
+                "in requested region: Aqaba Governorate",
+                "~392 m away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Beach Resort & Marine Dining",
+                "cuisine_types": [
+                  "Italian",
+                  "Mediterranean",
+                  "Casual Beach Food"
+                ],
+                "meal_types": [
+                  "Breakfast",
+                  "Lunch",
+                  "Snacks"
+                ],
+                "signature_dishes": [
+                  "Wood-fired Margherita Pizza",
+                  "Grilled Chicken Club Sandwich",
+                  "Cold Tropical Smoothies"
+                ],
+                "service_style": "Casual Dining",
+                "atmosphere": "Relaxed",
+                "best_visit_time": [
+                  "Midday",
+                  "Late Afternoon"
+                ],
+                "average_cost_per_person": 13.0,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Beach Break Lunch",
+                  "Day Trip Relax",
+                  "Sunset Drinks"
+                ],
+                "suitable_for": [
+                  "Divers",
+                  "Families",
+                  "Beachgoers",
+                  "Couples"
+                ],
+                "opening_hours": "09:00",
+                "closing_hours": "19:30",
+                "notes": "Located inside Berenice Beach Resort; ideal combination with snorkeling and diving trips."
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_003002",
+              "km": 9.9
+            },
+            {
+              "poi_id": "poi_003026",
+              "km": 10.1
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_003006",
+            "entity_type": "poi",
+            "name": "Aqaba Bird Observatory",
+            "role": "anchor",
+            "region": "Aqaba Governorate",
+            "city": "Aqaba",
+            "district": "Northern Border Area",
+            "address": "Peace Road, near Wadi Araba Border Crossing, Aqaba",
+            "latitude": 29.552683,
+            "longitude": 34.977464,
+            "why_retrieved": [
+              "matches nature interest",
+              "in requested region: Aqaba Governorate"
+            ],
+            "facts": {
+              "category": "Nature",
+              "subcategory": "Bird Sanctuary",
+              "themes": [
+                "Birdwatching",
+                "Migratory Birds",
+                "RSCN Sanctuary",
+                "Wetland Conservation",
+                "Eco-tourism"
+              ],
+              "opening_hours": "08:00",
+              "closing_hours": "15:00",
+              "closed_days": [
+                "Friday"
+              ],
+              "average_visit_minutes": 75,
+              "booking_required": false,
+              "best_visit_time": [
+                "Morning"
+              ],
+              "activity_level": "Low",
+              "indoor_outdoor": "Outdoor",
+              "entry_fee": 7,
+              "currency": "JOD",
+              "pricing_level": "Low",
+              "highlights": [
+                "Located on the world's second-largest avian migratory corridor",
+                "Over 270 recorded species of migratory and resident birds",
+                "Observation hides and walking trails tailored for birdwatching",
+                "Sustained through eco-friendly wastewater recycling"
+              ],
+              "notes": "Peak bird activity occurs during spring (March–May) and autumn (September–November) migrations.",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Seniors",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_003040",
+              "entity_type": "restaurant",
+              "name": "Ayla Golf Club Restaurant",
+              "role": "",
+              "region": "Aqaba Governorate",
+              "city": "Aqaba",
+              "district": "Ayla Oasis",
+              "address": "Ayla Golf Club, Ayla Oasis, Aqaba",
+              "latitude": 29.55521,
+              "longitude": 34.98112,
+              "why_retrieved": [
+                "matches luxury interest",
+                "in requested region: Aqaba Governorate",
+                "~452 m away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Upscale Golf Clubhouse Bistro",
+                "cuisine_types": [
+                  "International",
+                  "European"
+                ],
+                "meal_types": [
+                  "Breakfast",
+                  "Brunch",
+                  "Lunch",
+                  "Dinner"
+                ],
+                "signature_dishes": [
+                  "Clubhouse Angus Steak Burger",
+                  "Pan-Roasted Salmon",
+                  "Gourmet Eggs Benedict"
+                ],
+                "service_style": "Casual Dining",
+                "atmosphere": "Quiet/Relaxed",
+                "best_visit_time": [
+                  "Morning",
+                  "Afternoon",
+                  "Evening"
+                ],
+                "average_cost_per_person": 22.0,
+                "currency": "JOD",
+                "pricing_level": "High",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian",
+                  "Gluten-Free"
+                ],
+                "occasion_suitability": [
+                  "Business Meeting",
+                  "Date Night",
+                  "Casual Hangout"
+                ],
+                "suitable_for": [
+                  "Business",
+                  "Couples",
+                  "Friends",
+                  "Seniors"
+                ],
+                "opening_hours": "07:00",
+                "closing_hours": "22:00",
+                "notes": "Spacious outdoor terrace directly facing the 18th hole."
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_003017",
+              "km": 1.2
+            },
+            {
+              "poi_id": "poi_003025",
+              "km": 3.6
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_003002",
+            "entity_type": "poi",
+            "name": "Aqaba Archaeological Museum",
+            "role": "anchor",
+            "region": "Aqaba Governorate",
+            "city": "Aqaba",
+            "district": "Al-Manara",
+            "address": "Next to Aqaba Fort, King Hussein Street, Aqaba",
+            "latitude": 29.521191,
+            "longitude": 35.000958,
+            "why_retrieved": [
+              "matches history interest",
+              "in requested region: Aqaba Governorate"
+            ],
+            "facts": {
+              "category": "Museum",
+              "subcategory": "Archaeology Museum",
+              "themes": [
+                "Archaeology",
+                "Islamic Heritage",
+                "Ayla Artifacts",
+                "Sharifian History",
+                "Southern Jordan Antiquities"
+              ],
+              "opening_hours": "08:00",
+              "closing_hours": "16:00",
+              "closed_days": [
+                "Tuesday"
+              ],
+              "average_visit_minutes": 45,
+              "booking_required": false,
+              "best_visit_time": [
+                "Morning",
+                "Afternoon"
+              ],
+              "activity_level": "Low",
+              "indoor_outdoor": "Indoor",
+              "entry_fee": 1,
+              "currency": "JOD",
+              "pricing_level": "Low",
+              "highlights": [
+                "Located in the historic 1917 residence of Sherif Hussein bin Ali",
+                "Artifacts from ancient Ayla dating to the Umayyad and Abbasid eras",
+                "Exhibits from Tell el-Kheleifeh and Iron Age sites",
+                "Collection of medieval Islamic coinage and ceramics"
+              ],
+              "notes": "Indoor air-conditioned environment. Small venue easily combined with Aqaba Fort.",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Seniors",
+                "Students"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_003058",
+              "entity_type": "restaurant",
+              "name": "Deera Cafe & Restaurant",
+              "role": "",
+              "region": "Aqaba Governorate",
+              "city": "Aqaba",
+              "district": "Downtown Aqaba",
+              "address": "Corniche Street, Aqaba",
+              "latitude": 29.5261,
+              "longitude": 35.0008,
+              "why_retrieved": [
+                "in requested region: Aqaba Governorate",
+                "serves preferred cuisine: Jordanian",
+                "~546 m away"
+              ],
+              "facts": {
+                "category": "Cafe",
+                "subcategory": "Rooftop Cafe & Traditional Grill",
+                "cuisine_types": [
+                  "Middle Eastern",
+                  "Jordanian",
+                  "Cafe/Desserts"
+                ],
+                "meal_types": [
+                  "Lunch",
+                  "Dinner",
+                  "Coffee/Tea",
+                  "Snacks"
+                ],
+                "signature_dishes": [
+                  "Deera Chicken Kebab Platter",
+                  "Grape & Mint Shisha",
+                  "Fresh Lemonade with Mint"
+                ],
+                "service_style": "Casual Dining",
+                "atmosphere": "Scenic/Outdoor",
+                "best_visit_time": [
+                  "Evening",
+                  "Night"
+                ],
+                "average_cost_per_person": 9.0,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Casual Hangout",
+                  "Date Night"
+                ],
+                "suitable_for": [
+                  "Friends",
+                  "Couples",
+                  "Solo",
+                  "Students"
+                ],
+                "opening_hours": "12:00",
+                "closing_hours": "02:00",
+                "notes": "Rooftop breezes make it pleasant during warm evenings."
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_003026",
+              "km": 0.1
+            },
+            {
+              "poi_id": "poi_003025",
+              "km": 0.8
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_003020",
+            "entity_type": "poi",
+            "name": "Princess Salma Park",
+            "role": "discovery",
+            "region": "Aqaba Governorate",
+            "city": "Aqaba",
+            "district": "Al-Markaz",
+            "address": "Al-Farabi Street, Aqaba",
+            "latitude": 29.530556,
+            "longitude": 35.006111,
+            "why_retrieved": [
+              "in requested region: Aqaba Governorate"
+            ],
+            "facts": {
+              "category": "Park",
+              "subcategory": "City Park",
+              "themes": [
+                "Urban Green Space",
+                "Community Park",
+                "Family Recreation",
+                "Aqaba Municipal Parks"
+              ],
+              "opening_hours": "08:00",
+              "closing_hours": "23:00",
+              "closed_days": [],
+              "average_visit_minutes": 45,
+              "booking_required": false,
+              "best_visit_time": [
+                "Afternoon",
+                "Evening"
+              ],
+              "activity_level": "Low",
+              "indoor_outdoor": "Outdoor",
+              "entry_fee": 0,
+              "currency": "JOD",
+              "pricing_level": "Free",
+              "highlights": [
+                "Lush municipal green space with shade palm trees and lawns",
+                "Dedicated children's play equipment and safe paved paths",
+                "Quiet recreational venue popular with local residents",
+                "Conveniently located near downtown Aqaba residential neighborhoods"
+              ],
+              "notes": "Free public park ideal for evening relaxation or family picnics.",
+              "suitable_for": [
+                "Family",
+                "Children",
+                "Seniors",
+                "Solo",
+                "Couples",
+                "Friends"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_007078",
+              "entity_type": "restaurant",
+              "name": "Al-Shami Restaurant Aqaba",
+              "role": "",
+              "region": "Aqaba Governorate",
+              "city": "Aqaba",
+              "district": "City Center",
+              "address": "King Hussein Street, City Center, Aqaba, Jordan",
+              "latitude": 29.5312,
+              "longitude": 35.0064,
+              "why_retrieved": [
+                "in requested region: Aqaba Governorate",
+                "~77 m away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Levantine & Coastal Grill",
+                "cuisine_types": [
+                  "Levantine",
+                  "Syrian",
+                  "Seafood"
+                ],
+                "meal_types": [
+                  "Breakfast",
+                  "Lunch",
+                  "Dinner"
+                ],
+                "signature_dishes": [
+                  "Shami Mixed Grill",
+                  "Hummus Beiruti",
+                  "Grilled Sultan Ibrahim Fish"
+                ],
+                "service_style": "Casual Dining",
+                "atmosphere": "Bustling",
+                "best_visit_time": [
+                  "Afternoon",
+                  "Late Evening"
+                ],
+                "average_cost_per_person": 9.5,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Late Night Dining",
+                  "Family Lunch",
+                  "Casual Hangout"
+                ],
+                "suitable_for": [
+                  "Families",
+                  "Groups",
+                  "Large Parties",
+                  "Budget Travelers"
+                ],
+                "opening_hours": "08:00",
+                "closing_hours": "01:00",
+                "notes": "Generous complimentary appetizer pickles and fresh hot bread served automatically."
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_003025",
+              "km": 0.5
+            },
+            {
+              "poi_id": "poi_003026",
+              "km": 1.0
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_003025",
+            "entity_type": "poi",
+            "name": "Aqaba Gateway Shopping Complex",
+            "role": "discovery",
+            "region": "Aqaba Governorate",
+            "city": "Aqaba",
+            "district": "Hotel District",
+            "address": "King Hussein Street, near Royal Yacht Club, Aqaba",
+            "latitude": 29.528056,
+            "longitude": 35.001667,
+            "why_retrieved": [
+              "in requested region: Aqaba Governorate"
+            ],
+            "facts": {
+              "category": "Shopping",
+              "subcategory": "Shopping Center",
+              "themes": [
+                "Retail Shopping",
+                "Dining Plaza",
+                "Commercial Center",
+                "Tourist Amenities"
+              ],
+              "opening_hours": "10:00",
+              "closing_hours": "23:00",
+              "closed_days": [],
+              "average_visit_minutes": 45,
+              "booking_required": false,
+              "best_visit_time": [
+                "Afternoon",
+                "Evening"
+              ],
+              "activity_level": "Low",
+              "indoor_outdoor": "Mixed",
+              "entry_fee": 0,
+              "currency": "JOD",
+              "pricing_level": "Free",
+              "highlights": [
+                "Open-air stone plaza with boutique shops and craft stores",
+                "Variety of international and local casual dining restaurants",
+                "Convenient location walking distance from waterfront hotels",
+                "Shaded courtyard seating and travel service providers"
+              ],
+              "notes": "Pedestrian-friendly complex with multiple food and retail options.",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Business",
+                "Seniors"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_003001",
+              "entity_type": "restaurant",
+              "name": "Ali Baba Restaurant",
+              "role": "",
+              "region": "Aqaba Governorate",
+              "city": "Aqaba",
+              "district": "Downtown Aqaba",
+              "address": "Raghadan Street, Commercial District, Aqaba",
+              "latitude": 29.527814,
+              "longitude": 35.002211,
+              "why_retrieved": [
+                "in requested region: Aqaba Governorate",
+                "serves preferred cuisine: Jordanian",
+                "~59 m away"
+              ],
+              "facts": {
+                "category": "Restaurant",
+                "subcategory": "Traditional Jordanian & Seafood Restaurant",
+                "cuisine_types": [
+                  "Jordanian",
+                  "Levantine",
+                  "Seafood"
+                ],
+                "meal_types": [
+                  "Breakfast",
+                  "Lunch",
+                  "Dinner"
+                ],
+                "signature_dishes": [
+                  "Sayadieh",
+                  "Mixed Grill",
+                  "Fresh Red Sea Fish"
+                ],
+                "service_style": "Casual Dining",
+                "atmosphere": "Traditional",
+                "best_visit_time": [
+                  "Afternoon",
+                  "Evening"
+                ],
+                "average_cost_per_person": 12.0,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Casual Hangout",
+                  "Family Gathering"
+                ],
+                "suitable_for": [
+                  "Family",
+                  "Couples",
+                  "Solo",
+                  "Friends",
+                  "Groups",
+                  "Seniors"
+                ],
+                "opening_hours": "08:00",
+                "closing_hours": "00:00",
+                "notes": "Centrally located near commercial markets and major downtown hotels."
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_003020",
+              "km": 0.5
+            },
+            {
+              "poi_id": "poi_003026",
+              "km": 0.6
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "poi_003017",
+            "entity_type": "poi",
+            "name": "Ayla Oasis Marina",
+            "role": "discovery",
+            "region": "Aqaba Governorate",
+            "city": "Aqaba",
+            "district": "Ayla Oasis",
+            "address": "Ayla Oasis Development, Peace Road, Aqaba",
+            "latitude": 29.551111,
+            "longitude": 34.989444,
+            "why_retrieved": [
+              "in requested region: Aqaba Governorate"
+            ],
+            "facts": {
+              "category": "Entertainment",
+              "subcategory": "Marina / Waterfront",
+              "themes": [
+                "Modern Waterfront",
+                "Yacht Marina",
+                "Dining & Leisure",
+                "Lagoon Resort",
+                "Contemporary Architecture"
+              ],
+              "opening_hours": "08:00",
+              "closing_hours": "23:00",
+              "closed_days": [],
+              "average_visit_minutes": 120,
+              "booking_required": false,
+              "best_visit_time": [
+                "Afternoon",
+                "Evening",
+                "Night"
+              ],
+              "activity_level": "Low",
+              "indoor_outdoor": "Mixed",
+              "entry_fee": 0,
+              "currency": "JOD",
+              "pricing_level": "Medium",
+              "highlights": [
+                "State-of-the-art marina harboring yachts on engineered Red Sea lagoons",
+                "Pedestrian Marina Village with waterfront dining and cafes",
+                "Modern architectural design seamlessly blended with desert landscape",
+                "Regular venue for live music, art exhibitions, and artisan markets"
+              ],
+              "notes": "Public access to the Marina Village dining and promenade area is permitted; specific beach clubs inside Ayla require day pass fees.",
+              "suitable_for": [
+                "Family",
+                "Couples",
+                "Solo",
+                "Friends",
+                "Business",
+                "Seniors"
+              ]
+            }
+          },
+          "restaurants": [
+            {
+              "id": "restaurant_003020",
+              "entity_type": "restaurant",
+              "name": "Pave Restaurant & Cafe",
+              "role": "",
+              "region": "Aqaba Governorate",
+              "city": "Aqaba",
+              "district": "Ayla Oasis",
+              "address": "Marina Village Promenade, Ayla Oasis, Aqaba",
+              "latitude": 29.54812,
+              "longitude": 34.98634,
+              "why_retrieved": [
+                "in requested region: Aqaba Governorate",
+                "~448 m away"
+              ],
+              "facts": {
+                "category": "Cafe",
+                "subcategory": "Modern European Cafe & Bakery",
+                "cuisine_types": [
+                  "Cafe/Desserts",
+                  "International"
+                ],
+                "meal_types": [
+                  "Breakfast",
+                  "Brunch",
+                  "Lunch",
+                  "Coffee/Tea",
+                  "Dessert"
+                ],
+                "signature_dishes": [
+                  "Spanish Latte",
+                  "Avocado & Poached Egg Toast",
+                  "Fresh Almond Croissant"
+                ],
+                "service_style": "Cafe",
+                "atmosphere": "Quiet/Relaxed",
+                "best_visit_time": [
+                  "Morning",
+                  "Afternoon"
+                ],
+                "average_cost_per_person": 8.0,
+                "currency": "JOD",
+                "pricing_level": "Medium",
+                "dietary_options": [
+                  "Halal",
+                  "Vegetarian"
+                ],
+                "occasion_suitability": [
+                  "Casual Hangout",
+                  "Business Meeting"
+                ],
+                "suitable_for": [
+                  "Couples",
+                  "Solo",
+                  "Friends",
+                  "Business",
+                  "Students"
+                ],
+                "opening_hours": "08:00",
+                "closing_hours": "23:00",
+                "notes": "Great spot for remote laptop work or relaxed breakfast by the marina."
+              }
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "poi_003006",
+              "km": 1.2
+            },
+            {
+              "poi_id": "poi_003020",
+              "km": 2.8
+            }
+          ]
+        }
+      ],
+      "hotels": [
+        {
+          "id": "hotel_000096",
+          "entity_type": "hotel",
+          "name": "Al Manara, a Luxury Collection Hotel, Aqaba",
+          "role": "",
+          "region": "Aqaba Governorate",
+          "city": "Aqaba",
+          "district": "Saraya Aqaba",
+          "address": "Al-Hashemi Street, Saraya Aqaba, Aqaba 77110, Jordan",
+          "latitude": 29.534927,
+          "longitude": 34.994854,
+          "why_retrieved": [
+            "matches nature interest",
+            "matches luxury interest",
+            "in requested region: Aqaba Governorate"
+          ],
+          "facts": {
+            "category": "Hotel",
+            "subcategory": "Luxury Beachfront Hotel",
+            "star_rating": 5,
+            "room_types": [
+              "Family",
+              "Couples",
+              "Business",
+              "Children"
+            ],
+            "amenities": [
+              "Free Wifi",
+              "Air Conditioning",
+              "Swimming Pool",
+              "Gym",
+              "Spa",
+              "Room Service",
+              "Minibar",
+              "TV",
+              "Balcony/Terrace",
+              "Tea/Coffee Maker in All Rooms",
+              "Bar",
+              "Private beach area"
+            ],
+            "view_types": [
+              "Sea View"
+            ],
+            "best_for": [
+              "Romantic Getaways",
+              "Wellness Retreats",
+              "Family Vacations"
+            ],
+            "average_price_per_night": 215,
+            "currency": "JOD",
+            "pricing_level": "High",
+            "suitable_for": [
+              "Couples",
+              "Honeymoon",
+              "Family",
+              "Business"
+            ],
+            "check_in": "15:00",
+            "check_out": "12:00",
+            "notes": "Buffet breakfast is charged separately (approximately JOD 15 per person). Self parking and valet parking are complimentary."
+          }
+        },
+        {
+          "id": "hotel_000098",
+          "entity_type": "hotel",
+          "name": "Kempinski Hotel Aqaba",
+          "role": "",
+          "region": "Aqaba Governorate",
+          "city": "Aqaba",
+          "district": "City Centre",
+          "address": "King Hussein Street, P.O. Box 1441, Aqaba 77110, Jordan",
+          "latitude": 29.53205,
+          "longitude": 34.997273,
+          "why_retrieved": [
+            "matches luxury interest",
+            "in requested region: Aqaba Governorate"
+          ],
+          "facts": {
+            "category": "Hotel",
+            "subcategory": "Luxury Beachfront Hotel",
+            "star_rating": 5,
+            "room_types": [
+              "Single",
+              "Double",
+              "Suite",
+              "Family"
+            ],
+            "amenities": [
+              "Free WiFi",
+              "Air Conditioning",
+              "Swimming Pool",
+              "Gym",
+              "Spa",
+              "Room Service",
+              "Minibar",
+              "TV",
+              "Balcony/Terrace"
+            ],
+            "view_types": [
+              "Sea View",
+              "Garden View"
+            ],
+            "best_for": [
+              "Family Vacations",
+              "Business Trips",
+              "Wellness Retreats"
+            ],
+            "average_price_per_night": 200,
+            "currency": "JOD",
+            "pricing_level": "High",
+            "suitable_for": [
+              "Family",
+              "Couples",
+              "Business",
+              "Children"
+            ],
+            "check_in": "15:00",
+            "check_out": "12:00",
+            "notes": "Buffet breakfast is served 07:00-11:00 for a fee. Rollaway beds are charged separately. Outside food is not permitted on the premises."
+          }
+        },
+        {
+          "id": "hotel_000103",
+          "entity_type": "hotel",
+          "name": "Oryx Hotel Aqaba",
+          "role": "",
+          "region": "Aqaba Governorate",
+          "city": "Aqaba",
+          "district": "",
+          "address": "Al Sharif Shakir Bin Zayd Street, Aqaba 77110, Jordan",
+          "latitude": 29.54011,
+          "longitude": 34.99938,
+          "why_retrieved": [
+            "in requested region: Aqaba Governorate"
+          ],
+          "facts": {
+            "category": "Hotel",
+            "subcategory": "City Hotel",
+            "star_rating": 5,
+            "room_types": [
+              "Double",
+              "Twin",
+              "Suite"
+            ],
+            "amenities": [
+              "WiFi",
+              "Air Conditioning",
+              "Swimming Pool",
+              "Gym",
+              "Spa",
+              "Room Service",
+              "Minibar",
+              "TV",
+              "Balcony/Terrace"
+            ],
+            "view_types": [
+              "City View",
+              "Pool View"
+            ],
+            "best_for": [
+              "Business Trips",
+              "Family Vacations"
+            ],
+            "average_price_per_night": 99,
+            "currency": "JOD",
+            "pricing_level": "Medium",
+            "suitable_for": [
+              "Business",
+              "Family",
+              "Couples",
+              "Groups"
+            ],
+            "check_in": "15:00",
+            "check_out": "12:00",
+            "notes": "Formerly operated as Swiss-Belhotel Aqaba City. The hotel is set inland from the shoreline and does not have a private beach. Sub-district of Aqaba could not be confirmed to a high enough confidence."
+          }
+        },
+        {
+          "id": "hotel_000097",
+          "entity_type": "hotel",
+          "name": "The Westin Saraya Aqaba Resort & Spa",
+          "role": "",
+          "region": "Aqaba Governorate",
+          "city": "Aqaba",
+          "district": "Saraya Aqaba",
+          "address": "Al-Hashemi Street, Saraya Aqaba, Aqaba 77110, Jordan",
+          "latitude": 29.535401,
+          "longitude": 34.995813,
+          "why_retrieved": [
+            "in requested region: Aqaba Governorate"
+          ],
+          "facts": {
+            "category": "Resort",
+            "subcategory": "Beach Resort",
+            "star_rating": 5,
+            "room_types": [
+              "Family",
+              "Couples",
+              "Business",
+              "Children"
+            ],
+            "amenities": [
+              "Free WiFi",
+              "Air Conditioning",
+              "Swimming Pool",
+              "Gym",
+              "Spa",
+              "Room Service",
+              "Minibar",
+              "Balcony/Terrace"
+            ],
+            "view_types": [
+              "Sea View",
+              "Pool View",
+              "Garden View"
+            ],
+            "best_for": [
+              "Family Vacations",
+              "Wellness Retreats",
+              "Romantic Getaways"
+            ],
+            "average_price_per_night": 143,
+            "currency": "JOD",
+            "pricing_level": "High",
+            "suitable_for": [
+              "Family",
+              "Couples",
+              "Honeymoon",
+              "Children",
+              "Groups"
+            ],
+            "check_in": "15:00",
+            "check_out": "12:00",
+            "notes": "Pets accepted by prior arrangement with a surcharge of about JOD 35 per pet; service animals are exempt. Airport shuttle is available at extra charge. Buffet breakfast is charged separately."
+          }
+        }
+      ],
+      "events": [
+        {
+          "id": "event_000106",
+          "entity_type": "event",
+          "name": "Aesthetics of Aqaba and Aqabawi Heritage Seminar",
+          "role": "",
+          "region": "Aqaba",
+          "city": "Aqaba",
+          "district": "Aqaba",
+          "address": "Aqaba, Aqaba, Jordan",
+          "latitude": 0.0,
+          "longitude": 0.0,
+          "why_retrieved": [
+            "in requested region: Aqaba"
+          ],
+          "facts": {
+            "category": "Cultural Event",
+            "subcategory": "Local Heritage",
+            "themes": [
+              "Local Heritage"
+            ],
+            "typical_months": [],
+            "typical_seasons": [],
+            "recurrence": null,
+            "duration_minutes": null,
+            "ticket_cost": null,
+            "currency": [],
+            "pricing_level": null,
+            "indoor_outdoor": null,
+            "highlights": [
+              "Local Heritage"
+            ],
+            "languages": [
+              "Arabic"
+            ],
+            "minimum_age": null,
+            "suitable_for": [
+              "Local Visitors",
+              "Tourists"
+            ]
+          }
+        },
+        {
+          "id": "event_000103",
+          "entity_type": "event",
+          "name": "Aqaba International Poetry Evening",
+          "role": "",
+          "region": "Aqaba",
+          "city": "Aqaba",
+          "district": "Aqaba",
+          "address": "Great Arab Revolt Square, Aqaba, Jordan",
+          "latitude": 0.0,
+          "longitude": 0.0,
+          "why_retrieved": [
+            "in requested region: Aqaba"
+          ],
+          "facts": {
+            "category": "Cultural Event",
+            "subcategory": "Poetry",
+            "themes": [
+              "Poetry"
+            ],
+            "typical_months": [],
+            "typical_seasons": [],
+            "recurrence": null,
+            "duration_minutes": null,
+            "ticket_cost": null,
+            "currency": [],
+            "pricing_level": null,
+            "indoor_outdoor": null,
+            "highlights": [
+              "Poetry"
+            ],
+            "languages": [
+              "Arabic"
+            ],
+            "minimum_age": null,
+            "suitable_for": [
+              "Local Visitors",
+              "Tourists"
+            ]
+          }
+        },
+        {
+          "id": "event_000095",
+          "entity_type": "event",
+          "name": "Eid Evenings - Aqaba",
+          "role": "",
+          "region": "Aqaba",
+          "city": "Aqaba",
+          "district": "Aqaba",
+          "address": "Prince Rashid Club, Aqaba, Jordan",
+          "latitude": 0.0,
+          "longitude": 0.0,
+          "why_retrieved": [
+            "in requested region: Aqaba"
+          ],
+          "facts": {
+            "category": "Cultural Event",
+            "subcategory": null,
+            "themes": [
+              "Eid"
+            ],
+            "typical_months": [],
+            "typical_seasons": [],
+            "recurrence": "Annual",
+            "duration_minutes": null,
+            "ticket_cost": null,
+            "currency": [],
+            "pricing_level": null,
+            "indoor_outdoor": null,
+            "highlights": [
+              "Eid",
+              "Community activities"
+            ],
+            "languages": [
+              "Arabic"
+            ],
+            "minimum_age": null,
+            "suitable_for": [
+              "Families",
+              "Local Visitors",
+              "Tourists"
+            ]
+          }
+        }
+      ],
+      "summary": "Aqaba Governorate: 4 anchor + 3 discovery POIs; 8 restaurants; 4 hotels; 3 events."
+    }
+  ],
+  "meta": {
+    "unsupported": [],
+    "places_to_avoid": "",
+    "deferred": {
+      "preferredLanguage": "English",
+      "smePreferences": []
+    },
+    "rag_status": "ok",
+    "source": "retriever",
+    "compacted": false,
+    "planning_lock": "PLANNING LOCK (hard — plan OVER clusters, then write JSON):\n- Fill ALL 3 days (nights≈2). No empty/partial days.\n- Mandatory destinations (preferredRegions + mustVisit): Petra, Wadi Rum, Aqaba\n- Destination→cluster map: Petra→cluster 0 (Ma'an Governorate · history, nature); Wadi Rum→cluster 1 (Ma'an Governorate · nature, history); Aqaba→cluster 2 (Aqaba Governorate · history, nature)\n- Day→cluster route: D1:C0/Petra → D2:C1/Wadi Rum → D3:C2/Aqaba\n- mustVisit entity lock: Wadi Rum→lead with Red Sand Dunes of Wadi Rum (cluster 1); Petra→lead with Petra Church (Byzantine Church) (cluster 0); Aqaba→lead with Aqaba Bird Observatory (cluster 2)\n- Each day uses entities primarily from its mapped cluster (meals/hotels from that cluster).\n- Do not invent a parallel trip from random clusters; unused clusters are alternatives only.\n- Lodging: rating=5 star, type=hotel. Reuse base hotel(s) across consecutive nights: Petra Marriott Hotel, Al Manara, a Luxury Collection Hotel, Aqaba. One hotel per overnight base — do not rotate hotels daily in the same area.\n- Selection bias: aiPriority=budget; SME=(none). Prefer matching why_retrieved/facts among retrieved options.\n- Budget target ≈ 900.0 JOD when facts allow.\n- Names/hours: EntityCards only. If not in evidence, skip — never invent.\n- Prices: use the card value as-is; if missing, estimate from pricing_level and label it \"~N JOD (estimated)\".\n- Events are reference only: never schedule them in the itinerary or budget."
+  }
+}

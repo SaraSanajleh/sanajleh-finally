@@ -1,0 +1,127 @@
+{
+  "caseId": "20260815-232015-dead-sea-petra-wadi-rum",
+  "createdAt": "2026-08-15T23:20:15.568633+00:00",
+  "trip_title": "Dead Sea · Petra · Wadi Rum",
+  "rag": {
+    "status": "ok",
+    "source": "retriever",
+    "duration_days": 3,
+    "cluster_count": 3,
+    "clusters": [
+      {
+        "cluster_id": 0,
+        "theme": "Amman Governorate · nature, culture",
+        "poi_count": 4,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "Wild Jordan Center",
+          "Zaha Cultural Center",
+          "Wild Jordan Center",
+          "Souk Jara Market"
+        ],
+        "hotel_names": [
+          "Corp Amman Hotel",
+          "Canary Boutique Hotel",
+          "Four Seasons Hotel Amman",
+          "The Sydney Hotel"
+        ],
+        "sample_restaurants": [
+          "Wild Jordan Center",
+          "Habibah Sweets",
+          "Dardasha Kitchen",
+          "Reem Al Bawadi",
+          "Hashem Restaurant",
+          "Jafra Restaurant"
+        ],
+        "event_names": [
+          "Shabib Festival for Arts and Culture",
+          "Souk JARA",
+          "Jaret Al Qalaa Heritage Market"
+        ]
+      },
+      {
+        "cluster_id": 1,
+        "theme": "Ma'an Governorate · culture, nature",
+        "poi_count": 10,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "Wadi Rum Visitor Center",
+          "Maan Historic Souq",
+          "Rum Village Bedouin Oasis",
+          "Petra Museum",
+          "Red Sand Dunes of Wadi Rum",
+          "Neolithic Village of Beidha",
+          "Barrah Canyon",
+          "Al-Mu'aysrah Temple Trail",
+          "Jabal Burdah Rock Bridge",
+          "Al-Maddras Trail & High Viewpoint"
+        ],
+        "hotel_names": [
+          "Petra Aretas Hotel",
+          "P Quattro Relax Hotel",
+          "Petra Panorama Hotel",
+          "Petra Moon Luxury Hotel"
+        ],
+        "sample_restaurants": [
+          "Sun City Camp Dining Tent",
+          "Al-Taqwa Restaurant",
+          "Rahayeb Desert Camp Restaurant",
+          "Bait Al-Karam Restaurant",
+          "Wadi Rum Rest House Restaurant",
+          "Nabataean Tent Restaurant"
+        ],
+        "event_names": [
+          "Ma'an Family and Children Ramadan Carnival",
+          "Jordan Summer Festival - Ma'an",
+          "Dinner in Front of the Treasury"
+        ]
+      },
+      {
+        "cluster_id": 2,
+        "theme": "Madaba Governorate · nature, culture",
+        "poi_count": 10,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "Ma'in Hot Springs",
+          "Wadi Wala Dam",
+          "Madaba Crafts Souk",
+          "Moses Spring (Ayn Musa)",
+          "Dead Sea Panorama Complex (Madaba Overlook)",
+          "King Hussein Public Park Madaba",
+          "Madaba Visitor Center",
+          "Madaba Art Space & Gallery",
+          "Wadi Hidan Canyon",
+          "Madaba Museum"
+        ],
+        "hotel_names": [
+          "Saint John Hotel",
+          "Black Iris Hotel",
+          "Salome Hotel",
+          "Mariam Hotel"
+        ],
+        "sample_restaurants": [
+          "Al-Bustan Restaurant",
+          "Ayola Restaurant",
+          "Carob House",
+          "Al-Ashaer Broasted Chicken",
+          "Hikayet Sitti",
+          "Black Iris Cafe"
+        ],
+        "event_names": [
+          "National Celebrations Programme - Madaba",
+          "Eid Joy Celebration - Madaba",
+          "Jordan Summer Festival - Madaba"
+        ]
+      }
+    ]
+  },
+  "paths": {
+    "input": "01_input.json",
+    "knowledge": "02_retriever.json",
+    "knowledge_preview": "02_retriever_preview.json",
+    "output": "03_output.json"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "caseId": "20260819-161716-petra-wadi-rum",
+  "createdAt": "2026-08-19T16:17:16.580032+00:00",
+  "trip_title": "Petra · Wadi Rum",
+  "rag": {
+    "status": "ok",
+    "source": "retriever",
+    "duration_days": 3,
+    "cluster_count": 3,
+    "clusters": [
+      {
+        "cluster_id": 0,
+        "theme": "Ma'an Governorate · culture, history",
+        "poi_count": 4,
+        "hotel_count": 0,
+        "event_count": 1,
+        "poi_names": [
+          "Wadi Rum Visitor Center",
+          "French Fortress Ruins (Wadi Rum)",
+          "Rum Village Bedouin Oasis",
+          "Desert Police Station & Fort (Wadi Rum)"
+        ],
+        "hotel_names": [],
+        "sample_restaurants": [
+          "Captain's Desert Camp Restaurant Wadi Rum",
+          "Wadi Rum Rest House Restaurant",
+          "Wadi Rum Visitor Center Rest House"
+        ],
+        "event_names": [
+          "Wadi Rum Endurance Race"
+        ]
+      },
+      {
+        "cluster_id": 1,
+        "theme": "Ma'an Governorate · culture, history",
+        "poi_count": 4,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "Petra Museum",
+          "Petra Church (Byzantine Church)",
+          "Al-Khazneh (The Treasury)",
+          "Little Petra (Siq al-Barid)"
+        ],
+        "hotel_names": [
+          "Petra Aretas Hotel",
+          "Petra Panorama Hotel",
+          "Cleopetra Hotel",
+          "Little Petra Bedouin Camp"
+        ],
+        "sample_restaurants": [
+          "Crowne Plaza Petra Basin Restaurant",
+          "The Basin Restaurant Petra",
+          "Rock Camp Restaurant Little Petra",
+          "Little Petra Bedouin Camp Restaurant"
+        ],
+        "event_names": [
+          "Petra Heritage Fashion and Local Products Exhibition",
+          "Dinner in Front of the Treasury",
+          "Caravans of Petra Documentary Screening"
+        ]
+      },
+      {
+        "cluster_id": 2,
+        "theme": "Ma'an Governorate · culture, history",
+        "poi_count": 2,
+        "hotel_count": 0,
+        "event_count": 1,
+        "poi_names": [
+          "Red Sand Dunes of Wadi Rum",
+          "Nabataean Temple of Wadi Rum"
+        ],
+        "hotel_names": [],
+        "sample_restaurants": [
+          "Wadi Rum Rest House Restaurant",
+          "Wadi Rum Visitor Center Rest House",
+          "Captain's Desert Camp Restaurant Wadi Rum"
+        ],
+        "event_names": [
+          "Wadi Rum Endurance Race"
+        ]
+      }
+    ]
+  },
+  "paths": {
+    "input": "01_input.json",
+    "knowledge": "02_retriever.json",
+    "knowledge_preview": "02_retriever_preview.json",
+    "output": "03_output.json"
+  }
+}

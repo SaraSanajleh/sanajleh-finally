@@ -1,0 +1,692 @@
+[
+  {
+    "sme_id": "SME-000001",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Ziyad Al-Abbadi",
+      "description": "Licensed freelance tourist guide specializing in the rich historical and archaeological heritage of Al-Balqa governorate, featuring deep insights into As-Salt's architectural heritage and Roman remains.",
+      "experience_years": 12,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Architecture", "Culture", "Archaeology"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962795123456",
+      "mobile": "+962795123456",
+      "email": "ziyad.guide.salt@gmail.com",
+      "website": null,
+      "whatsapp": "+962795123456"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "As-Salt",
+      "region": "Al-Balqa",
+      "address": "Al-Balqa, As-Salt Historic Old Town"
+    },
+    "service_area": {
+      "destinations_covered": ["As-Salt", "Tell Al-Jazirat", "Zarqa River Valley", "Fuheis"],
+      "preferred_destinations": "As-Salt UNESCO Heritage Sites"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "French"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Custom Itineraries", "Cultural Experiences", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Daily",
+      "min_price": 70.0,
+      "max_price": 120.0,
+      "notes": "Rates vary based on group size and customized route requirements."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 38,
+      "source": "Jordan Tourist Guides Association records",
+      "last_updated": "2026-03-01"
+    }
+  },
+  {
+    "sme_id": "SME-000002",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Rania Al-Nsour",
+      "description": "Multilingual specialized guide offering immersive community and heritage tours across As-Salt and Al-Balqa villages, emphasizing local traditions, heritage trails, and historical narrative.",
+      "experience_years": 9,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Culture", "Local Experiences", "History", "Photography"],
+      "target_customer_types": ["Families", "Solo Travelers", "Couples"]
+    },
+    "contact": {
+      "phone": "+962787654321",
+      "mobile": "+962787654321",
+      "email": "rania.nsour.guide@yahoo.com",
+      "website": null,
+      "whatsapp": "+962787654321"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "As-Salt",
+      "region": "Al-Balqa",
+      "address": "As-Salt Downtown, Al-Balqa"
+    },
+    "service_area": {
+      "destinations_covered": ["As-Salt", "Zai National Park", "Fuheis Old Quarter"],
+      "preferred_destinations": "As-Salt Heritage Trail"
+    },
+    "languages": {
+      "spoken": ["Arabic", "German", "English"],
+      "preferred_language": "German"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Special Interest Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "09:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Daily",
+      "min_price": 80.0,
+      "max_price": 130.0,
+      "notes": "Special rates for academic and photography-focused groups."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Local Experiences", "Community Tourism"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 29,
+      "source": "Direct client feedback / Regional registry",
+      "last_updated": "2026-02-15"
+    }
+  },
+  {
+    "sme_id": "SME-000003",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Khaled Al-Awamleh",
+      "description": "Professional nature and adventure trekking guide focusing on the scenic valleys, hills, and ecological tracks across the Al-Balqa region, including Zai and Wadi Shueib.",
+      "experience_years": 15,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Nature", "Hiking", "Adventure", "Camping"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+962779876543",
+      "mobile": "+962779876543",
+      "email": "khaled.trekking.balqa@gmail.com",
+      "website": null,
+      "whatsapp": "+962779876543"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "As-Salt",
+      "region": "Al-Balqa",
+      "address": "Wadi Shueib Road, Al-Balqa"
+    },
+    "service_area": {
+      "destinations_covered": ["Wadi Shueib", "Zai Reserve", "Al-Balqa Hills"],
+      "preferred_destinations": "Wadi Shueib Hiking Trails"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Spanish"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Adventure Activities", "Custom Itineraries", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Specialized Guides", "Professional Guides"]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "07:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 20,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Daily",
+      "min_price": 65.0,
+      "max_price": 110.0,
+      "notes": "Includes safety briefing and basic trekking support equipment."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Nature", "Soft Adventure", "Hiking & Trekking"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 45,
+      "source": "Local Eco-Tourism Directory",
+      "last_updated": "2026-03-10"
+    }
+  },
+  {
+    "sme_id": "SME-000004",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Maria Hayek",
+      "description": "Independent Italian and English-speaking tour guide based in Al-Balqa, specializing in historical walking tours of As-Salt's multi-confessional heritage and Ottoman architecture.",
+      "experience_years": 8,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Culture", "Religious Sites", "Art"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962791122334",
+      "mobile": "+962791122334",
+      "email": "maria.hayek.guide@outlook.com",
+      "website": null,
+      "whatsapp": "+962791122334"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Fuheis",
+      "region": "Al-Balqa",
+      "address": "Fuheis Old Town, Al-Balqa"
+    },
+    "service_area": {
+      "destinations_covered": ["Fuheis", "As-Salt", "Ain Al-Basha"],
+      "preferred_destinations": "Fuheis and As-Salt Cultural Routes"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Italian"],
+      "preferred_language": "Italian"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Religious Tours", "Cultural Experiences", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "08:30 - 16:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 12,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Daily",
+      "min_price": 75.0,
+      "max_price": 120.0,
+      "notes": "Specialized in private museum and heritage home visits."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Religious Tourism", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 4.7,
+      "review_count": 22,
+      "source": "Ministry of Tourism and Antiquities registry",
+      "last_updated": "2026-01-20"
+    }
+  },
+  {
+    "sme_id": "SME-000005",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Dr. Ahmad Al-Qudah",
+      "description": "Expert archaeological and historical tour guide holding a degree in Near Eastern antiquities, offering deeply detailed educational and cultural tours across Al-Balqa's ancient tells.",
+      "experience_years": 18,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Archaeology", "History", "Culture", "Religious Sites"],
+      "target_customer_types": ["Solo Travelers", "Families", "Couples"]
+    },
+    "contact": {
+      "phone": "+962796543210",
+      "mobile": "+962796543210",
+      "email": "ahmad.qudah.arch@gmail.com",
+      "website": null,
+      "whatsapp": "+962796543210"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "As-Salt",
+      "region": "Al-Balqa",
+      "address": "University Street area, As-Salt"
+    },
+    "service_area": {
+      "destinations_covered": ["As-Salt", "Tell Zira'a context", "Al-Balqa Archaeological Sites"],
+      "preferred_destinations": "As-Salt Historical Museum & Citadel"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "German"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Travel Consulting", "Special Interest Tours", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Specialized Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
+      "working_hours": "09:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 30,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Daily",
+      "min_price": 90.0,
+      "max_price": 150.0,
+      "notes": "Ideal for university groups, historians, and deep archaeological expeditions."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 5.0,
+      "review_count": 51,
+      "source": "Academic Tour Guide Network",
+      "last_updated": "2026-02-28"
+    }
+  },
+  {
+    "sme_id": "SME-000006",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Yousef Al-Khatib",
+      "description": "Dynamic freelance tour guide specializing in culinary heritage, local farm experiences, and nature walks throughout the agricultural hills of Al-Balqa.",
+      "experience_years": 7,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Food", "Nature", "Local Experiences", "Hiking"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962785544332",
+      "mobile": "+962785544332",
+      "email": "yousef.khatib.tours@gmail.com",
+      "website": null,
+      "whatsapp": "+962785544332"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ain Al-Basha",
+      "region": "Al-Balqa",
+      "address": "Ain Al-Basha, Al-Balqa Governorate"
+    },
+    "service_area": {
+      "destinations_covered": ["Ain Al-Basha", "Wadi Shueib", "As-Salt outskirts"],
+      "preferred_destinations": "Balqa Agricultural Valleys"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Russian"],
+      "preferred_language": "Russian"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Local Experiences", "Cultural Experiences", "Custom Itineraries"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "08:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Daily",
+      "min_price": 70.0,
+      "max_price": 110.0,
+      "notes": "Includes guiding through regional farm trails and traditional food spots."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Food & Culinary", "Local Experiences", "Nature"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 19,
+      "source": "Balqa Community Tourism Project",
+      "last_updated": "2026-03-05"
+    }
+  },
+  {
+    "sme_id": "SME-000007",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Nour Al-Damour",
+      "description": "Professional licensed tourist guide focusing on historical walking tours, architectural heritage of yellow limestone houses, and cultural storytelling in As-Salt.",
+      "experience_years": 10,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Culture", "Photography", "Shopping"],
+      "target_customer_types": ["Couples", "Solo Travelers", "Families"]
+    },
+    "contact": {
+      "phone": "+962772233445",
+      "mobile": "+962772233445",
+      "email": "nour.aldamour.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962772233445"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "As-Salt",
+      "region": "Al-Balqa",
+      "address": "Al-Balqa, As-Salt Heritage Zone"
+    },
+    "service_area": {
+      "destinations_covered": ["As-Salt Old Town", "Al-Hammam Street", "Sharica Museum"],
+      "preferred_destinations": "As-Salt Harmony Trail"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Dutch"],
+      "preferred_language": "Dutch"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Private Tours", "Custom Itineraries", "Cultural Experiences"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:30 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 20,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Daily",
+      "min_price": 75.0,
+      "max_price": 125.0,
+      "notes": "Customized rates for half-day walking tours available."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 33,
+      "source": "Jordan Tourism Board verified feedback",
+      "last_updated": "2026-02-10"
+    }
+  },
+  {
+    "sme_id": "SME-000008",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Ibrahim Al-Fauri",
+      "description": "Experienced independent guide leading expeditions across the rugged terrain, historical landmarks, and pastoral vistas of the broader Al-Balqa governorate.",
+      "experience_years": 11,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Nature", "History", "Hiking", "Adventure"],
+      "target_customer_types": ["Families", "Solo Travelers", "Couples"]
+    },
+    "contact": {
+      "phone": "+962798877665",
+      "mobile": "+962798877665",
+      "email": "ibrahim.fauri.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962798877665"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "As-Salt",
+      "region": "Al-Balqa",
+      "address": "Al-Balqa Countryside, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["As-Salt", "Wadi Shoaib", "Deir Alla hills"],
+      "preferred_destinations": "Deir Alla & Al-Balqa Valleys"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Adventure Activities", "Private Tours", "Custom Itineraries"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Professional Guides", "Licensed Tourist Guides"]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "working_hours": "07:30 - 17:30"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 18,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Daily",
+      "min_price": 70.0,
+      "max_price": 115.0,
+      "notes": "Includes field navigation and local site interpretations."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Soft Adventure", "Hiking & Trekking", "Nature"]
+    },
+    "reviews": {
+      "rating": 4.7,
+      "review_count": 25,
+      "source": "Freelance Guides Jordan Portal",
+      "last_updated": "2026-01-15"
+    }
+  },
+  {
+    "sme_id": "SME-000009",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Lina Abu-Jaber",
+      "description": "Specialized cultural and artistic heritage guide providing detailed insights into local crafts, traditional pottery, and architectural preservation projects in As-Salt.",
+      "experience_years": 6,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Art", "Culture", "Shopping", "History"],
+      "target_customer_types": ["Couples", "Solo Travelers", "Families"]
+    },
+    "contact": {
+      "phone": "+962781199887",
+      "mobile": "+962781199887",
+      "email": "lina.abujaber.art@gmail.com",
+      "website": null,
+      "whatsapp": "+962781199887"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "As-Salt",
+      "region": "Al-Balqa",
+      "address": "As-Salt Heritage Quarter, Al-Balqa"
+    },
+    "service_area": {
+      "destinations_covered": ["As-Salt", "Abu Jaber Museum area", "Al-Balqa Craft Hubs"],
+      "preferred_destinations": "As-Salt Historic Souq & Artisanal Centers"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Mandarin"],
+      "preferred_language": "Mandarin"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "09:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 10,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Daily",
+      "min_price": 85.0,
+      "max_price": 140.0,
+      "notes": "Focused on boutique art walks and artisanal encounters."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 27,
+      "source": "As-Salt Cultural Heritage Register",
+      "last_updated": "2026-02-20"
+    }
+  },
+  {
+    "sme_id": "SME-000010",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Samir Al-Dabbas",
+      "description": "Veteran freelance tourist guide with extensive knowledge of Al-Balqa's religious landmarks, historical trails, and cross-cultural sites connecting As-Salt to the Jordan Valley.",
+      "experience_years": 20,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Religious Sites", "Archaeology", "Culture"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962794433221",
+      "mobile": "+962794433221",
+      "email": "samir.dabbas.guide@yahoo.com",
+      "website": null,
+      "whatsapp": "+962794433221"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "As-Salt",
+      "region": "Al-Balqa",
+      "address": "As-Salt Center, Al-Balqa Governorate"
+    },
+    "service_area": {
+      "destinations_covered": ["As-Salt", "Deir Alla", "Tomb of Prophet Yusha'a", "Jordan Valley fringes"],
+      "preferred_destinations": "Prophet Yusha'a Shrine & As-Salt Historic Town"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Japanese"],
+      "preferred_language": "Japanese"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Religious Tours", "Custom Itineraries", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "08:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 35,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Daily",
+      "min_price": 95.0,
+      "max_price": 160.0,
+      "notes": "Senior licensed guide rates apply for major tour delegations and special delegations."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Religious Tourism", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 5.0,
+      "review_count": 64,
+      "source": "Jordan Guides Syndicate records",
+      "last_updated": "2026-03-12"
+    }
+  }
+]

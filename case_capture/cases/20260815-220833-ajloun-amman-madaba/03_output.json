@@ -1,0 +1,1174 @@
+{
+  "metadata": {
+    "model": "gpt-oss:20b-cloud",
+    "provider": "ollama",
+    "mode": "build",
+    "retries": 0
+  },
+  "package": {
+    "package_id": "pkg-7bf0f8249a9c",
+    "status": "complete",
+    "welcome_message": "Land in Amman, then 3 exploring days through Ajloun, Amman, then Madaba.",
+    "trip_title": "Ajloun · Amman · Madaba",
+    "trip": {
+      "title": "Ajloun · Amman · Madaba",
+      "summary": "Arrival, then Ajloun, Amman, then Madaba. Walk outdoors in the morning. Keep the afternoon for shade, meals, or indoor visits.",
+      "start_date": "2026-08-25",
+      "end_date": "2026-08-28",
+      "duration_days": 4,
+      "nights": 3,
+      "regions": [
+        "Amman",
+        "Ajloun",
+        "Madaba"
+      ],
+      "arrival_airport": "AMM",
+      "language": "English"
+    },
+    "traveler_profile": {
+      "group_type": "couple",
+      "adults": 2,
+      "children": 0,
+      "children_ages": [],
+      "seniors": 0,
+      "total_travelers": 2,
+      "interests": [
+        "history",
+        "nature",
+        "food"
+      ],
+      "pace": "Balanced",
+      "activity_level": "Moderate",
+      "accessibility_needs": []
+    },
+    "planning": {
+      "strategy": "You land at 20:48, so arrival night stays in Amman — hotel, a meal, rest. The touring days start the next morning. After that the days stay on a short loop: Ajloun, Amman, then Madaba. It's a hot month, so the outdoor sites go before midday.",
+      "constraints": {
+        "must_visit": [],
+        "places_to_avoid": []
+      },
+      "constraint_status": {
+        "status": "satisfied",
+        "unmet": []
+      },
+      "assumptions": [
+        "Travel times between cities are estimated qualitatively, not as exact minutes, unless evidence exists.",
+        "Opening hours are used only when present on the catalog record."
+      ],
+      "climate": {
+        "month": 8,
+        "season": "hot_dry_summer",
+        "typical_pattern": "High daytime heat, especially in the Jordan Valley and desert.",
+        "outdoor_guidance": "Walk outdoors in the morning. Keep the afternoon for shade, meals, or indoor visits.",
+        "heat_risk": "high"
+      },
+      "weather_status": "ok",
+      "decisions": [
+        {
+          "code": "day_route",
+          "title": "Each exploring day stays in one area",
+          "why": "Mixing far-apart cities in one day makes the trip exhausting.",
+          "effect": "After arrival, the days run Ajloun, Amman, then Madaba."
+        },
+        {
+          "code": "open_explore",
+          "title": "A route from what you like",
+          "why": "No cities were named, so the days follow history, nature, and food.",
+          "effect": "I kept the exploring days close together around Ajloun, Amman, then Madaba."
+        },
+        {
+          "code": "arrival_stay",
+          "title": "Night one is near the airport",
+          "why": "You land at AMM at 20:48.",
+          "effect": "Sleep in Amman on arrival night. The exploring days start the next morning."
+        },
+        {
+          "code": "arrival_pace",
+          "title": "A quiet first night",
+          "why": "You land at 20:48.",
+          "effect": "Transfer, a simple dinner if kitchens are open, then sleep. Exploring starts tomorrow."
+        },
+        {
+          "code": "day_trips",
+          "title": "Day trips from one hotel",
+          "why": "These places are close enough to visit and return the same day.",
+          "effect": "You keep the same hotel in Amman and come back there to sleep."
+        },
+        {
+          "code": "heat",
+          "title": "Mornings for the outdoors",
+          "why": "High daytime heat, especially in the Jordan Valley and desert.",
+          "effect": "Walk heritage and nature in the morning. Save museums, meals, and shade for the afternoon."
+        },
+        {
+          "code": "pace",
+          "title": "A balanced pace",
+          "why": "couple group, Moderate activity.",
+          "effect": "On exploring days, plan on about 5 visits and 3 meals. Arrival follows the time left after food and rest."
+        },
+        {
+          "code": "stay_tier",
+          "title": "4 star stays",
+          "why": "You asked for 4 star hotels.",
+          "effect": "Hotels are taken from listings at that star level when the city has them. If it does not, we use the closest listed tier and say so."
+        },
+        {
+          "code": "budget",
+          "title": "A comfort budget",
+          "why": "900 JOD for 4 days.",
+          "effect": "We lean toward more comfortable stays and dining when those places exist."
+        },
+        {
+          "code": "interests",
+          "title": "Chosen around what you care about",
+          "why": "history, nature, and food",
+          "effect": "Stops follow history, nature, and food. Unrelated places stay off the list."
+        }
+      ]
+    },
+    "days": [
+      {
+        "day": 1,
+        "date": "2026-08-25",
+        "region": "Amman",
+        "theme": "Arrival in Amman",
+        "summary": "Late arrival in Amman: eat if you can, then sleep. Exploring starts tomorrow.",
+        "is_arrival_day": true,
+        "schedule": [
+          {
+            "time": "22:33",
+            "end_time": "07:00",
+            "slot": "overnight",
+            "type": "hotel",
+            "item_id": "hotel_000022",
+            "name": "InterContinental Jordan",
+            "duration_minutes": null,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.953689,
+              "longitude": 35.913879,
+              "precision": "exact"
+            },
+            "description": "Long-established five-star IHG hotel on Islamic College Street in Jabal Amman, between the Second and Third Circles, with six restaurants, indoor and outdoor pools, a spa and a 24-hour reception.",
+            "reason": "Check in and sleep. Sightseeing starts tomorrow. 5-star stay, as requested",
+            "matched_preferences": [
+              "5-star stay, as requested",
+              "In Amman",
+              "Matches history, food",
+              "5-star, as requested",
+              "Matches hotel"
+            ],
+            "estimated_cost": "165 JOD / night",
+            "source": {
+              "dataset": "hotels",
+              "record_id": "hotel_000022"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "You land at 20:48. The drive from Queen Alia to Amman is about 45 minutes. Times below start after that transfer."
+      },
+      {
+        "day": 2,
+        "date": "2026-08-26",
+        "region": "Ajloun",
+        "theme": "Ajloun",
+        "summary": "Morning transfer from Amman to Ajloun, visits Al-Karakah Nature Trail, Ajloun Castle, Ajloun Forest Reserve, with breakfast, lunch, and dinner on the clock.",
+        "is_arrival_day": false,
+        "schedule": [
+          {
+            "time": "07:30",
+            "end_time": "08:15",
+            "slot": "morning",
+            "type": "restaurant",
+            "item_id": "restaurant_001001",
+            "name": "Hashem Restaurant",
+            "duration_minutes": 45,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.951564,
+              "longitude": 35.938342,
+              "precision": "exact"
+            },
+            "description": "An iconic, legendary open-air street-level eatery in downtown Amman serving traditional Jordanian breakfast staples.",
+            "reason": "Breakfast in the morning, before visiting.",
+            "matched_preferences": [
+              "In Amman",
+              "Matches history, food",
+              "Matches preferred cuisine",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "4 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_001001"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "08:30",
+            "end_time": "09:35",
+            "slot": "morning",
+            "type": "transfer",
+            "item_id": "transfer:amman:ajloun:08:30",
+            "name": "Drive to Ajloun",
+            "duration_minutes": 65,
+            "location": "Amman → Ajloun",
+            "coordinates": null,
+            "description": "Travel from Amman to Ajloun.",
+            "reason": "You woke up in a different place than today's sights.",
+            "matched_preferences": [],
+            "estimated_cost": "not_available",
+            "source": {
+              "dataset": "planning",
+              "record_id": "transfer:amman:ajloun"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "09:35",
+            "end_time": "10:20",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_006037",
+            "name": "Al-Karakah Nature Trail",
+            "duration_minutes": 45,
+            "location": "Ajloun",
+            "coordinates": {
+              "latitude": 32.328889,
+              "longitude": 35.731944,
+              "precision": "exact"
+            },
+            "description": "A peaceful municipal forest walking path running through pine and oak woods near Ajloun Castle.",
+            "reason": "In Ajloun; local_tourism_catalog; A must-see in Ajloun; Matches history, nature",
+            "matched_preferences": [
+              "In Ajloun",
+              "local_tourism_catalog",
+              "A must-see in Ajloun",
+              "Matches history, nature"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_006037"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "10:35",
+            "end_time": "12:05",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_006001",
+            "name": "Ajloun Castle",
+            "duration_minutes": 90,
+            "location": "Ajloun",
+            "coordinates": {
+              "latitude": 32.332611,
+              "longitude": 35.727333,
+              "precision": "exact"
+            },
+            "description": "A 12th-century Muslim castle built by the Ayyubids to guard against Crusader incursions and protect local iron mines.",
+            "reason": "In Ajloun; local_tourism_catalog; A must-see in Ajloun; Matches history; One visit covering the nearby monuments",
+            "matched_preferences": [
+              "In Ajloun",
+              "local_tourism_catalog",
+              "A must-see in Ajloun",
+              "Matches history",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "3 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_006001"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "12:20",
+            "end_time": "13:20",
+            "slot": "afternoon",
+            "type": "restaurant",
+            "item_id": "restaurant_006001",
+            "name": "Ajloun Castle Restaurant",
+            "duration_minutes": 60,
+            "location": "Ajloun",
+            "coordinates": {
+              "latitude": 32.325514,
+              "longitude": 35.728144,
+              "precision": "exact"
+            },
+            "description": "Panoramic restaurant located near Ajloun Castle serving traditional local Jordanian dishes and mezze with scenic views of the forest and hills.",
+            "reason": "Lunch in the afternoon.",
+            "matched_preferences": [
+              "In Ajloun",
+              "A must-see in Ajloun",
+              "Matches history, nature, food",
+              "Matches preferred cuisine",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "12 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_006001"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "13:35",
+            "end_time": "16:35",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_006002",
+            "name": "Ajloun Forest Reserve",
+            "duration_minutes": 180,
+            "location": "Umm Al-Yandoub",
+            "coordinates": {
+              "latitude": 32.378944,
+              "longitude": 35.767361,
+              "precision": "exact"
+            },
+            "description": "A protected oak woodland reserve established by the RSCN in the northern highlands of Ajloun.",
+            "reason": "In Ajloun; local_tourism_catalog; A must-see in Ajloun; Matches nature; One visit covering the nearby monuments",
+            "matched_preferences": [
+              "In Ajloun",
+              "local_tourism_catalog",
+              "A must-see in Ajloun",
+              "Matches nature",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "5 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_006002"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "16:50",
+            "end_time": "17:55",
+            "slot": "afternoon",
+            "type": "transfer",
+            "item_id": "transfer:ajloun:amman:16:50",
+            "name": "Return to Amman",
+            "duration_minutes": 65,
+            "location": "Ajloun → Amman",
+            "coordinates": null,
+            "description": "Travel from Ajloun to Amman.",
+            "reason": "Back to tonight's hotel before dinner.",
+            "matched_preferences": [],
+            "estimated_cost": "not_available",
+            "source": {
+              "dataset": "planning",
+              "record_id": "transfer:ajloun:amman"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "18:00",
+            "end_time": "19:00",
+            "slot": "evening",
+            "type": "restaurant",
+            "item_id": "restaurant_001026",
+            "name": "Dat Ras Restaurant",
+            "duration_minutes": 60,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.98642,
+              "longitude": 35.86711,
+              "precision": "exact"
+            },
+            "description": "An authentic local restaurant specializing in traditional Southern Jordanian dishes and slow-cooked lamb specialties.",
+            "reason": "Dinner in the evening.",
+            "matched_preferences": [
+              "In Amman",
+              "Matches history, food",
+              "Matches preferred cuisine"
+            ],
+            "estimated_cost": "14 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_001026"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "Come back to your hotel in Amman to sleep."
+      },
+      {
+        "day": 3,
+        "date": "2026-08-27",
+        "region": "Amman",
+        "theme": "Amman",
+        "summary": "Visits Rainbow Street, Amman Citadel, Amman Citadel Flagpole, with breakfast, lunch, and dinner on the clock.",
+        "is_arrival_day": false,
+        "schedule": [
+          {
+            "time": "08:30",
+            "end_time": "10:00",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_000005",
+            "name": "Rainbow Street",
+            "duration_minutes": 90,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.951111,
+              "longitude": 35.928889,
+              "precision": "exact"
+            },
+            "description": "Historic cobblestone street in Jabal Amman lined with cafes, artisan shops, and heritage houses.",
+            "reason": "In Amman; local_tourism_catalog; A must-see in Amman; Matches history, food; One visit covering the nearby monuments",
+            "matched_preferences": [
+              "In Amman",
+              "local_tourism_catalog",
+              "A must-see in Amman",
+              "Matches history, food",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_000005"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "10:15",
+            "end_time": "12:15",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_000001",
+            "name": "Amman Citadel",
+            "duration_minutes": 120,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.954605,
+              "longitude": 35.934891,
+              "precision": "exact"
+            },
+            "description": "Historic national site situated on a hill in central Amman featuring ancient ruins from the Bronze Age through the Islamic era.",
+            "reason": "In Amman; local_tourism_catalog; A must-see in Amman; Matches history; One visit covering the nearby monuments",
+            "matched_preferences": [
+              "In Amman",
+              "local_tourism_catalog",
+              "A must-see in Amman",
+              "Matches history",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "3 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_000001"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "14:15",
+            "end_time": "14:30",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_000052",
+            "name": "Amman Citadel Flagpole",
+            "duration_minutes": 15,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.956944,
+              "longitude": 35.942778,
+              "precision": "exact"
+            },
+            "description": "Massive national flagpole visible across Amman, located on the Royal Palace compound near the Citadel.",
+            "reason": "In Amman; local_tourism_catalog; A must-see in Amman; Matches history",
+            "matched_preferences": [
+              "In Amman",
+              "local_tourism_catalog",
+              "A must-see in Amman",
+              "Matches history"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_000052"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "14:45",
+            "end_time": "15:15",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_000031",
+            "name": "Al-Baq'a Church Ruins",
+            "duration_minutes": 30,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 32.072222,
+              "longitude": 35.850556,
+              "precision": "exact"
+            },
+            "description": "Byzantine church remains featuring partially preserved mosaic floors north of central Amman.",
+            "reason": "In Amman; local_tourism_catalog; Matches history, nature",
+            "matched_preferences": [
+              "In Amman",
+              "local_tourism_catalog",
+              "Matches history, nature"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_000031"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "15:30",
+            "end_time": "17:00",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_000047",
+            "name": "The Royal Automobile Museum",
+            "duration_minutes": 90,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.984722,
+              "longitude": 35.835278,
+              "precision": "exact"
+            },
+            "description": "Museum showcasing King Hussein's extensive private collection of rare historical cars and motorcycles.",
+            "reason": "In Amman; local_tourism_catalog; Matches history; Indoor option on a hot day; One visit covering the nearby monuments",
+            "matched_preferences": [
+              "In Amman",
+              "local_tourism_catalog",
+              "Matches history",
+              "Indoor option on a hot day",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "3 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_000047"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "17:15",
+            "end_time": "18:00",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_000023",
+            "name": "Jordan Folklore Museum",
+            "duration_minutes": 45,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.951667,
+              "longitude": 35.939722,
+              "precision": "exact"
+            },
+            "description": "Museum in the eastern vaults of the Roman Theatre illustrating traditional Bedouin and village life.",
+            "reason": "In Amman; local_tourism_catalog; Matches history; Indoor option on a hot day; One visit covering the nearby monuments",
+            "matched_preferences": [
+              "In Amman",
+              "local_tourism_catalog",
+              "Matches history",
+              "Indoor option on a hot day",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "2 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_000023"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "18:15",
+            "end_time": "19:15",
+            "slot": "evening",
+            "type": "restaurant",
+            "item_id": "restaurant_001004",
+            "name": "Fakhr El-Din",
+            "duration_minutes": 60,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.95123,
+              "longitude": 35.92211,
+              "precision": "exact"
+            },
+            "description": "An award-winning fine dining Lebanese restaurant set inside a historic stone mansion in Jabal Amman.",
+            "reason": "Dinner in the evening.",
+            "matched_preferences": [
+              "In Amman",
+              "Matches food",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "40 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_001004"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "Stay overnight in Amman."
+      },
+      {
+        "day": 4,
+        "date": "2026-08-28",
+        "region": "Madaba",
+        "theme": "Madaba",
+        "summary": "Morning transfer from Amman to Madaba, visits Moses Spring (Ayn Musa), King's Highway Madaba Segment, Al-Lajjun / East Madaba Desert Border Viewpoint, with breakfast, lunch, and dinner on the clock.",
+        "is_arrival_day": false,
+        "schedule": [
+          {
+            "time": "08:30",
+            "end_time": "09:16",
+            "slot": "morning",
+            "type": "transfer",
+            "item_id": "transfer:amman:madaba:08:30",
+            "name": "Drive to Madaba",
+            "duration_minutes": 46,
+            "location": "Amman → Madaba",
+            "coordinates": null,
+            "description": "Travel from Amman to Madaba.",
+            "reason": "You woke up in a different place than today's sights.",
+            "matched_preferences": [],
+            "estimated_cost": "not_available",
+            "source": {
+              "dataset": "planning",
+              "record_id": "transfer:amman:madaba"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "09:16",
+            "end_time": "10:01",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_004024",
+            "name": "Moses Spring (Ayn Musa)",
+            "duration_minutes": 45,
+            "location": "Faisaliyah",
+            "coordinates": {
+              "latitude": 31.776111,
+              "longitude": 35.738889,
+              "precision": "exact"
+            },
+            "description": "Historic freshwater spring tradition links to Moses striking the rock, set in a lush terraced valley below Mount Nebo.",
+            "reason": "In Madaba; matches nature interest; A must-see in Madaba; Matches nature",
+            "matched_preferences": [
+              "In Madaba",
+              "matches nature interest",
+              "A must-see in Madaba",
+              "Matches nature"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_004024"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "10:16",
+            "end_time": "11:46",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_004017",
+            "name": "King's Highway Madaba Segment",
+            "duration_minutes": 90,
+            "location": "Madaba",
+            "coordinates": {
+              "latitude": 31.683333,
+              "longitude": 35.783333,
+              "precision": "exact"
+            },
+            "description": "Ancient trade and pilgrimage highway passing through Madaba's agricultural plateau and dramatic canyons.",
+            "reason": "In Madaba; matches history interest; Matches history, nature",
+            "matched_preferences": [
+              "In Madaba",
+              "matches history interest",
+              "Matches history, nature"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_004017"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "12:01",
+            "end_time": "12:21",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_004039",
+            "name": "Al-Lajjun / East Madaba Desert Border Viewpoint",
+            "duration_minutes": 20,
+            "location": "Madaba",
+            "coordinates": {
+              "latitude": 31.705278,
+              "longitude": 35.848889,
+              "precision": "exact"
+            },
+            "description": "Panoramic viewpoint marking the transition between fertile grain plateau and eastern desert steppes.",
+            "reason": "In Madaba; local_tourism_catalog; Matches nature",
+            "matched_preferences": [
+              "In Madaba",
+              "local_tourism_catalog",
+              "Matches nature"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_004039"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "13:00",
+            "end_time": "14:00",
+            "slot": "afternoon",
+            "type": "restaurant",
+            "item_id": "restaurant_004014",
+            "name": "Al-Bustan Restaurant",
+            "duration_minutes": 60,
+            "location": "Madaba",
+            "coordinates": {
+              "latitude": 31.708892,
+              "longitude": 35.788541,
+              "precision": "exact"
+            },
+            "description": "A garden restaurant on the outskirts of Madaba serving fresh grills and local starters under olive trees.",
+            "reason": "Lunch in the afternoon.",
+            "matched_preferences": [
+              "In Madaba",
+              "Matches food",
+              "Matches preferred cuisine"
+            ],
+            "estimated_cost": "12 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_004014"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "14:15",
+            "end_time": "15:15",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_004018",
+            "name": "Wadi Wala Dam",
+            "duration_minutes": 60,
+            "location": "Wala",
+            "coordinates": {
+              "latitude": 31.564722,
+              "longitude": 35.805278,
+              "precision": "exact"
+            },
+            "description": "Water reservoir dam surrounded by green wetland valley, attracting seasonal migratory birds and local picnickers.",
+            "reason": "In Madaba; matches nature interest",
+            "matched_preferences": [
+              "In Madaba",
+              "matches nature interest"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_004018"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "15:30",
+            "end_time": "16:15",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_004012",
+            "name": "La Storica Mosaics (Mosaic Handicrafts Center)",
+            "duration_minutes": 45,
+            "location": "Faisaliyah",
+            "coordinates": {
+              "latitude": 31.758912,
+              "longitude": 35.748301,
+              "precision": "exact"
+            },
+            "description": "Craft center showcasing traditional stone mosaic production and regional handmade art.",
+            "reason": "In Madaba; local_tourism_catalog; Indoor option on a hot day",
+            "matched_preferences": [
+              "In Madaba",
+              "local_tourism_catalog",
+              "Indoor option on a hot day"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_004012"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "16:30",
+            "end_time": "17:16",
+            "slot": "afternoon",
+            "type": "transfer",
+            "item_id": "transfer:madaba:amman:16:30",
+            "name": "Return to Amman",
+            "duration_minutes": 46,
+            "location": "Madaba → Amman",
+            "coordinates": null,
+            "description": "Travel from Madaba to Amman.",
+            "reason": "Back to tonight's hotel before dinner.",
+            "matched_preferences": [],
+            "estimated_cost": "not_available",
+            "source": {
+              "dataset": "planning",
+              "record_id": "transfer:madaba:amman"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "Come back to your hotel in Amman to sleep."
+      }
+    ],
+    "budget": {
+      "currency": "JOD",
+      "traveler_budget": 900.0,
+      "estimated_total": "863 JOD",
+      "band": "comfort",
+      "items": [
+        {
+          "category": "Stays",
+          "estimated_cost": "495 JOD",
+          "notes": "InterContinental Jordan: 165 JOD × 3 night(s)",
+          "confidence": "medium"
+        },
+        {
+          "category": "Meals on the plan",
+          "estimated_cost": "236 JOD",
+          "notes": "9 listed meal(s) × 2 traveler(s).",
+          "confidence": "medium"
+        },
+        {
+          "category": "Entry tickets",
+          "estimated_cost": "32 JOD",
+          "notes": "14 listed site(s) × 2 traveler(s).",
+          "confidence": "medium"
+        },
+        {
+          "category": "Trip guide",
+          "estimated_cost": "60 JOD",
+          "notes": "Listed from 60 JOD (up to 120 JOD listed)",
+          "confidence": "medium"
+        },
+        {
+          "category": "Trip operator",
+          "estimated_cost": "40 JOD",
+          "notes": "Listed from 40 JOD (up to 150 JOD listed)",
+          "confidence": "medium"
+        },
+        {
+          "category": "Left vs your ceiling",
+          "estimated_cost": "37 JOD",
+          "notes": "Your ceiling is 900 JOD. Listed pieces add up to 863 JOD.",
+          "confidence": "medium"
+        }
+      ],
+      "disclaimer": "Amounts come from catalog listings. This is a planning estimate, not a final invoice. Missing prices stay unknown — we do not invent them."
+    },
+    "sme_value": {
+      "headline": "Your guide and operator for this journey",
+      "summary": "One local guide and one tour operator for the whole trip — not a new face every day.",
+      "recommended": [
+        {
+          "sme_id": "tour_guide:SME-000003:madaba",
+          "sme_type": "tour_guide",
+          "name": "Ibrahim Al-Shawaheen",
+          "role": "Trip guide",
+          "location": "Madaba",
+          "experience_type": "Nature, Hiking, Adventure",
+          "match_score": 0.726,
+          "reason": "Fits what you asked for: history, nature",
+          "matched_because": [
+            "Fits what you asked for: history, nature",
+            "Covers madaba",
+            "Based in Madaba",
+            "Works with couple travelers",
+            "Speaks English"
+          ],
+          "known_for": [
+            "Experienced outdoor and adventure guide leading hiking trails and historical site explorations across the Madaba region and Wadi Mujib buffers",
+            "Takes travelers to Wadi Mujib Biosphere Reserve surrounds, Machaerus, Mukawir Trails, Mount Nebo trails",
+            "Also offers Adventure Activities, Custom Itineraries, Private Tours",
+            "Private groups available",
+            "Can arrange transportation"
+          ],
+          "specializations": [
+            "Nature",
+            "Hiking",
+            "Adventure",
+            "History"
+          ],
+          "languages": [
+            "Arabic",
+            "English"
+          ],
+          "experience_years": 10,
+          "destinations_covered": [
+            "Wadi Mujib Biosphere Reserve surrounds",
+            "Machaerus",
+            "Mukawir Trails",
+            "Mount Nebo trails"
+          ],
+          "covers_regions": [
+            "madaba"
+          ],
+          "package_role": "guide",
+          "specs": [
+            {
+              "label": "Specializations",
+              "value": "Nature, Hiking, Adventure, History"
+            },
+            {
+              "label": "Experience",
+              "value": "10 years"
+            },
+            {
+              "label": "Languages",
+              "value": "Arabic, English"
+            },
+            {
+              "label": "Best for",
+              "value": "Solo Travelers, Couples, Families"
+            },
+            {
+              "label": "Group size",
+              "value": "2–12"
+            },
+            {
+              "label": "From",
+              "value": "60–120 JOD"
+            },
+            {
+              "label": "Hours",
+              "value": "07:00 - 17:00"
+            },
+            {
+              "label": "Rating",
+              "value": "4.7 (31 reviews)"
+            }
+          ],
+          "source": {
+            "dataset": "sme_guides",
+            "record_id": "tour_guide:SME-000003:madaba"
+          },
+          "coordinates": {
+            "latitude": 31.716,
+            "longitude": 35.794,
+            "precision": "city_centroid"
+          }
+        },
+        {
+          "sme_id": "tour_operator:SME-000005:ajloun",
+          "sme_type": "tour_operator",
+          "name": "North Ridge Travel & Transport Ajloun",
+          "role": "Trip operator",
+          "location": "Ajloun",
+          "experience_type": "History, Nature",
+          "match_score": 0.808,
+          "reason": "Fits what you asked for: history, nature",
+          "matched_because": [
+            "Fits what you asked for: history, nature",
+            "Covers ajloun, amman",
+            "Based in Ajloun",
+            "Works with couple travelers",
+            "Speaks English",
+            "Transportation across the itinerary"
+          ],
+          "known_for": [
+            "Travel and tour coordination agency providing private vehicle transport services, airport transfers, and tailored sightseeing packages spanning Ajloun and northern cities",
+            "Takes travelers to Ajloun, Jerash, Amman, Irbid",
+            "Also offers Transportation, Airport Transfers, Private Tours",
+            "Private groups available",
+            "Can arrange transportation"
+          ],
+          "specializations": [
+            "History",
+            "Nature"
+          ],
+          "languages": [
+            "Arabic",
+            "English",
+            "French"
+          ],
+          "experience_years": 11,
+          "destinations_covered": [
+            "Ajloun",
+            "Jerash",
+            "Amman",
+            "Irbid"
+          ],
+          "covers_regions": [
+            "ajloun",
+            "amman"
+          ],
+          "package_role": "operator",
+          "specs": [
+            {
+              "label": "Specializations",
+              "value": "History, Nature"
+            },
+            {
+              "label": "Experience",
+              "value": "11 years"
+            },
+            {
+              "label": "Languages",
+              "value": "Arabic, English, French"
+            },
+            {
+              "label": "Best for",
+              "value": "Families, Couples"
+            },
+            {
+              "label": "Group size",
+              "value": "1–30"
+            },
+            {
+              "label": "From",
+              "value": "40–150 JOD"
+            },
+            {
+              "label": "Hours",
+              "value": "08:30–18:00"
+            },
+            {
+              "label": "Rating",
+              "value": "4.5 (50 reviews)"
+            }
+          ],
+          "source": {
+            "dataset": "sme_operators",
+            "record_id": "tour_operator:SME-000005:ajloun"
+          },
+          "coordinates": {
+            "latitude": 32.3326,
+            "longitude": 35.7517,
+            "precision": "city_centroid"
+          }
+        }
+      ]
+    },
+    "sources": [
+      {
+        "dataset": "hotels",
+        "record_id": "hotel_000022"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_001001"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_006037"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_006001"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_006001"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_006002"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_001026"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_000005"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_000001"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_000052"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_000031"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_000047"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_000023"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_001004"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_004024"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_004017"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_004039"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_004014"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_004018"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_004012"
+      },
+      {
+        "dataset": "sme_guides",
+        "record_id": "tour_guide:SME-000003:madaba"
+      },
+      {
+        "dataset": "sme_operators",
+        "record_id": "tour_operator:SME-000005:ajloun"
+      }
+    ],
+    "warnings": [],
+    "explanations": {
+      "trip_planning_reason": "You land at 20:48, so arrival night stays in Amman — hotel, a meal, rest. The touring days start the next morning. After that the days stay on a short loop: Ajloun, Amman, then Madaba. It's a hot month, so the outdoor sites go before midday.",
+      "highlights": [
+        "Al-Karakah Nature Trail",
+        "Ajloun Castle",
+        "Ajloun Forest Reserve",
+        "Rainbow Street",
+        "Amman Citadel",
+        "Amman Citadel Flagpole"
+      ],
+      "why_smes": [
+        "Ibrahim Al-Shawaheen: Fits what you asked for: history, nature",
+        "North Ridge Travel & Transport Ajloun: Fits what you asked for: history, nature"
+      ],
+      "context_benefits": []
+    }
+  }
+}

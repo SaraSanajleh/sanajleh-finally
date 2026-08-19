@@ -1,0 +1,3457 @@
+[
+  {
+    "sme_id": "SME-000001",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Ahmad Al-Omari",
+      "description": "Licensed professional tourist guide specializing in the rich historical and archaeological sites of Northern Jordan, including Umm Qais and Pella.",
+      "experience_years": 8,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Archaeology", "Culture"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962791234567",
+      "mobile": "+962791234567",
+      "email": "ahmad.omari.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962791234567"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Irbid City Center"
+    },
+    "service_area": {
+      "destinations_covered": ["Umm Qais", "Pella (Tabaqat Fahl)", "Irbid City", "Beit Ras"],
+      "preferred_destinations": "Umm Qais & Pella Archaeological Sites"
+    },
+    "languages": {
+      "spoken": ["Arabic", "French", "German", "Russian"],
+      "preferred_language": "French"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Custom Itineraries", "Private Tours", "Group Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 70,
+      "max_price": 120,
+      "notes": "Rates vary based on group size and specific itinerary."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 34,
+      "source": "Direct Tourist Feedback",
+      "last_updated": "2026-05-10"
+    }
+  },
+  {
+    "sme_id": "SME-000002",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Yasmin Al-Naser",
+      "description": "Passionate local community and nature guide focusing on eco-hiking trails, local agricultural heritage, and rural experiences in the Ajloun and Irbid hill country.",
+      "experience_years": 5,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Nature", "Hiking", "Local Experiences"],
+      "target_customer_types": ["Families", "Solo Travelers", "Couples"]
+    },
+    "contact": {
+      "phone": "+962782345678",
+      "mobile": "+962782345678",
+      "email": "yasmin.naser.guide@yahoo.com",
+      "website": null,
+      "whatsapp": "+962782345678"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Al-Mazar Al-Shamali"
+    },
+    "service_area": {
+      "destinations_covered": ["Al-Mazar Al-Shamali", "Dayr Abi Sa'id", "Irbid Rural Hills", "Umm Qais Nature Trails"],
+      "preferred_destinations": "Northern Jordan Hiking Trails"
+    },
+    "languages": {
+      "spoken": ["Arabic", "Spanish", "Italian", "Japanese"],
+      "preferred_language": "Spanish"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Local Experiences", "Cultural Experiences"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Thursday", "Friday", "Saturday", "Sunday"],
+      "working_hours": "07:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 50,
+      "max_price": 90,
+      "notes": "Includes trail guidance and local community coordination."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Nature", "Hiking & Trekking", "Local Experiences", "Community Tourism"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 21,
+      "source": "Local Eco-Tourism Networks",
+      "last_updated": "2026-04-15"
+    }
+  },
+  {
+    "sme_id": "SME-000003",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Tariq Bataineh",
+      "description": "Experienced licensed tourist guide specializing in classical antiquity, Greco-Roman ruins, and religious heritage routes across Irbid and northern Jordan.",
+      "experience_years": 12,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Archaeology", "Religious Sites"],
+      "target_customer_types": ["Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+962773456789",
+      "mobile": "+962773456789",
+      "email": "tariq.bataineh.guide@outlook.com",
+      "website": null,
+      "whatsapp": "+962773456789"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "University Street, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": ["Umm Qais", "Abila", "Irbid Archaeological Museum", "Tell Irbid"],
+      "preferred_destinations": "Decapolis Cities in Northern Jordan"
+    },
+    "languages": {
+      "spoken": ["Arabic", "Italian", "Turkish", "Dutch"],
+      "preferred_language": "Italian"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Special Interest Tours", "Religious Tours", "Tour Planning & Itinerary Design"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
+      "working_hours": "08:30 - 17:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 30,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 90,
+      "max_price": 150,
+      "notes": "Multilingual specialized guiding with transport option available."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism", "Religious Tourism"]
+    },
+    "reviews": {
+      "rating": 5.0,
+      "review_count": 45,
+      "source": "Independent Guide Registry",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000004",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Rania Qudah",
+      "description": "Food and cultural heritage guide offering immersive culinary tours, traditional marketplace walks, and artisan workshops in Irbid.",
+      "experience_years": 6,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Food", "Culture", "Shopping"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+962794567890",
+      "mobile": "+962794567890",
+      "email": "rania.qudah.tours@gmail.com",
+      "website": null,
+      "whatsapp": "+962794567890"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Old Souk, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": ["Irbid Old Souk", "Tal Al-Husn", "Local Family Kitchens in Irbid", "Hawwarah"],
+      "preferred_destinations": "Irbid Traditional Markets and Culinary Spots"
+    },
+    "languages": {
+      "spoken": ["Arabic", "Chinese", "Korean", "Swedish"],
+      "preferred_language": "Chinese"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Local Experiences", "Cultural Experiences", "Restaurant Booking"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "10:00 - 20:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 10,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 40,
+      "max_price": 80,
+      "notes": "Food tastings included in tour packages."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Food & Culinary", "Local Experiences", "History & Culture"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 28,
+      "source": "Culinary Tourism Feedback",
+      "last_updated": "2026-03-20"
+    }
+  },
+  {
+    "sme_id": "SME-000005",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Sami Smadi",
+      "description": "Professional freelance tourist guide specialized in photography tours, scenic viewpoints, and historical landscape documentation in Northern Jordan.",
+      "experience_years": 7,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Photography", "Nature", "History"],
+      "target_customer_types": ["Solo Travelers", "Couples"]
+    },
+    "contact": {
+      "phone": "+962785678901",
+      "mobile": "+962785678901",
+      "email": "sami.smadi.photo@gmail.com",
+      "website": null,
+      "whatsapp": "+962785678901"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Baghdad Street, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": ["Yarmouk Gorge", "Umm Qais Sunset Points", "Irbid Countryside", "Wadi Arab"],
+      "preferred_destinations": "Yarmouk River Valley & Umm Qais Panoramas"
+    },
+    "languages": {
+      "spoken": ["Arabic", "Japanese", "Portuguese", "Russian"],
+      "preferred_language": "Japanese"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Special Interest Tours", "Private Tours", "Custom Itineraries"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "working_hours": "06:00 - 19:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 6,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 80,
+      "max_price": 130,
+      "notes": "Includes photography spot scouting and transport."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Nature", "History & Culture", "Soft Adventure"]
+    },
+    "reviews": {
+      "rating": 4.7,
+      "review_count": 19,
+      "source": "Traveler Testimonials",
+      "last_updated": "2026-05-28"
+    }
+  },
+  {
+    "sme_id": "SME-000006",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Lina Khrais",
+      "description": "Licensed multilingual guide specializing in educational tours, museum collections, and cultural heritage sites throughout Irbid governorate.",
+      "experience_years": 9,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Culture", "Art"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962776789012",
+      "mobile": "+962776789012",
+      "email": "lina.khrais.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962776789012"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "near Yarmouk University, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": ["Museum of Jordanian Heritage", "Dar Al-Saraya Museum", "Umm Qais", "Irbid City Landmarks"],
+      "preferred_destinations": "Irbid Museums and Heritage Centers"
+    },
+    "languages": {
+      "spoken": ["Arabic", "Dutch", "German", "Greek"],
+      "preferred_language": "Dutch"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Tour Planning & Itinerary Design", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
+      "working_hours": "09:00 - 16:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 20,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 75,
+      "max_price": 110,
+      "notes": "Special rates for academic and school groups."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 31,
+      "source": "Academic & Cultural Tours",
+      "last_updated": "2026-06-10"
+    }
+  },
+  {
+    "sme_id": "SME-000007",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Ziad Bani Hani",
+      "description": "Adventure and trekking guide specializing in rugged nature trails, valley crossings, and outdoor camping excursions around Irbid and the Jordan Valley rim.",
+      "experience_years": 10,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Adventure", "Hiking", "Camping", "Nature"],
+      "target_customer_types": ["Solo Travelers", "Families", "Couples"]
+    },
+    "contact": {
+      "phone": "+962797890123",
+      "mobile": "+962797890123",
+      "email": "ziad.banihani.adv@gmail.com",
+      "website": null,
+      "whatsapp": "+962797890123"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Al-Kourah District, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": ["Wadi Rayyan", "Wadi Al-Yabis", "Kourah Valleys", "Northern Ridges"],
+      "preferred_destinations": "Wadi Rayyan and Kourah Valley Trails"
+    },
+    "languages": {
+      "spoken": ["Arabic", "Russian", "Spanish", "Turkish"],
+      "preferred_language": "Russian"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Adventure Activities", "Custom Itineraries", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": ["Thursday", "Friday", "Saturday", "Sunday"],
+      "working_hours": "06:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 12,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 65,
+      "max_price": 120,
+      "notes": "Includes safety equipment and trail leadership."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Nature", "Hiking & Trekking", "Soft Adventure"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 27,
+      "source": "Adventure Group Records",
+      "last_updated": "2026-05-02"
+    }
+  },
+  {
+    "sme_id": "SME-000008",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Nour Al-Jammal",
+      "description": "Independent community guide offering immersive local cultural experiences, craft workshops coordination, and historical walks in Bani Kinana district.",
+      "experience_years": 4,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Culture", "Local Experiences", "History"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962788901234",
+      "mobile": "+962788901234",
+      "email": "nour.jammal.tours@gmail.com",
+      "website": null,
+      "whatsapp": "+962788901234"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Bani Kinana, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": ["Abella (Abil Qamh)", "Samma", "Harta", "Bani Kinana Villages"],
+      "preferred_destinations": "Bani Kinana Heritage Villages"
+    },
+    "languages": {
+      "spoken": ["Arabic", "Portuguese", "French", "Korean"],
+      "preferred_language": "Portuguese"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Local Experiences", "Cultural Experiences", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Tuesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "09:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 45,
+      "max_price": 85,
+      "notes": "Focuses on village life and community-based tourism."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Local Experiences", "Community Tourism", "History & Culture"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 18,
+      "source": "Community Tourism Project",
+      "last_updated": "2026-04-29"
+    }
+  },
+  {
+    "sme_id": "SME-000009",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Ibrahim Zoubi",
+      "description": "Licensed senior tourist guide specializing in deep archaeological research tours, Greco-Roman history, and biblical sites across northern Jordan.",
+      "experience_years": 15,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Archaeology", "Religious Sites"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962779012345",
+      "mobile": "+962779012345",
+      "email": "ibrahim.zoubi.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962779012345"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Al-Sareeh, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": ["Umm Qais", "Pella", "Capitolias (Beit Ras)", "Irbid Governorate Sites"],
+      "preferred_destinations": "Umm Qais and Capitolias Ruins"
+    },
+    "languages": {
+      "spoken": ["Arabic", "Chinese", "Italian", "German"],
+      "preferred_language": "Chinese"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Special Interest Tours", "Religious Tours", "Tour Planning & Itinerary Design"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 35,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 100,
+      "max_price": 180,
+      "notes": "Expert-level guiding for historical delegations and individual VIPs."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism", "Religious Tourism"]
+    },
+    "reviews": {
+      "rating": 5.0,
+      "review_count": 52,
+      "source": "International Heritage Societies",
+      "last_updated": "2026-06-08"
+    }
+  },
+  {
+    "sme_id": "SME-000010",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Hiba Malkawi",
+      "description": "Freelance local guide offering bespoke family tours, educational school excursions, and cultural heritage exploration in Irbid city and surrounding towns.",
+      "experience_years": 5,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Culture", "History", "Local Experiences"],
+      "target_customer_types": ["Families", "Couples"]
+    },
+    "contact": {
+      "phone": "+962790123456",
+      "mobile": "+962790123456",
+      "email": "hiba.malkawi.tours@outlook.com",
+      "website": null,
+      "whatsapp": "+962790123456"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Hakama Street, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": ["Irbid Downtown", "Dar Al-Saraya", "Al-Huson", "Malkah"],
+      "preferred_destinations": "Irbid City Heritage and Local Landmarks"
+    },
+    "languages": {
+      "spoken": ["Arabic", "Korean", "Spanish", "French"],
+      "preferred_language": "Korean"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Custom Itineraries", "Private Tours", "Cultural Experiences"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "09:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 20,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 55,
+      "max_price": 95,
+      "notes": "Tailored programs for families and children friendly pacing."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Family Experiences", "History & Culture", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 22,
+      "source": "Family Travel Feedback",
+      "last_updated": "2026-05-18"
+    }
+  },
+
+  {
+    "sme_id": "SME-000011",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Murad Obeidat",
+      "description": "Licensed cultural and historical guide offering in-depth explorations of ancient tells, Roman ruins, and heritage trails across the northern highlands.",
+      "experience_years": 9,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Archaeology", "Culture"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+962791122334",
+      "mobile": "+962791122334",
+      "email": "murad.obeidat.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962791122334"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Al-Kharaj, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": ["Abila", "Umm Qais", "Al-Kharaj Heritage Sites", "Northern Jordan Valleys"],
+      "preferred_destinations": "Abila Archaeological Site"
+    },
+    "languages": {
+      "spoken": ["Arabic", "German", "Spanish", "Japanese"],
+      "preferred_language": "German"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Special Interest Tours", "Private Tours", "Custom Itineraries"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
+      "working_hours": "08:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 85,
+      "max_price": 140,
+      "notes": "Includes historical document materials and field maps."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 39,
+      "source": "Historical Heritage Network",
+      "last_updated": "2026-06-02"
+    }
+  },
+  {
+    "sme_id": "SME-000012",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Deema Jarrah",
+      "description": "Eco-tourism and botanical guide specializing in seasonal wildflowers, nature reserves, and village craft workshops in the hills of Irbid.",
+      "experience_years": 6,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Nature", "Local Experiences", "Culture"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962782233445",
+      "mobile": "+962782233445",
+      "email": "deema.jarrah.eco@gmail.com",
+      "website": null,
+      "whatsapp": "+962782233445"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Ash-Shajarah, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": ["Ash-Shajarah Hills", "Wadi Yarmouk Slopes", "Local Farm Cooperatives", "Bani Kinana Nature Spots"],
+      "preferred_destinations": "Yarmouk Valley Slopes & Wildflower Trails"
+    },
+    "languages": {
+      "spoken": ["Arabic", "French", "Italian", "Dutch"],
+      "preferred_language": "French"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Local Experiences", "Cultural Experiences"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "working_hours": "07:30 - 17:30"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 50,
+      "max_price": 95,
+      "notes": "Includes organic snack tastings and workshop access fees."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Nature", "Community Tourism", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 26,
+      "source": "Eco-Traveler Feedback",
+      "last_updated": "2026-05-22"
+    }
+  },
+  {
+    "sme_id": "SME-000013",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Kamil Tarawneh",
+      "description": "Veteran tour guide specializing in multi-day overland heritage routes, Greco-Roman city planning, and cross-regional historical tours originating from Irbid.",
+      "experience_years": 14,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Architecture", "Archaeology"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962773344556",
+      "mobile": "+962773344556",
+      "email": "kamil.tarawneh.tours@yahoo.com",
+      "website": null,
+      "whatsapp": "+962773344556"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Baghdad Road, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": ["Umm Qais", "Capitolias", "Pella", "Jerash and Northern Decapolis"],
+      "preferred_destinations": "Northern Decapolis Network"
+    },
+    "languages": {
+      "spoken": ["Arabic", "Spanish", "Chinese", "Portuguese"],
+      "preferred_language": "Spanish"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Private Tours", "Tour Planning & Itinerary Design", "Special Interest Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 30,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 110,
+      "max_price": 175,
+      "notes": "Full vehicle support and specialized lecture handouts included."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 5.0,
+      "review_count": 61,
+      "source": "Global Heritage Guide Union",
+      "last_updated": "2026-06-05"
+    }
+  },
+  {
+    "sme_id": "SME-000014",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Suha Maaytah",
+      "description": "Culinary arts and traditional folklore guide focusing on northern Jordanian heritage baking, local village cuisine, and traditional textile crafts in Irbid.",
+      "experience_years": 7,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Food", "Culture", "Local Experiences"],
+      "target_customer_types": ["Families", "Solo Travelers", "Couples"]
+    },
+    "contact": {
+      "phone": "+962794455667",
+      "mobile": "+962794455667",
+      "email": "suha.maaytah.culinary@gmail.com",
+      "website": null,
+      "whatsapp": "+962794455667"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Al-Hashimi Street, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": ["Irbid Central Souk", "Al-Mazar Rural Kitchens", "Artisan Weaving Centers", "Dayr Yusuf"],
+      "preferred_destinations": "Irbid Food Markets and Artisan Hubs"
+    },
+    "languages": {
+      "spoken": ["Arabic", "Italian", "Russian", "Korean"],
+      "preferred_language": "Italian"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Local Experiences", "Cultural Experiences", "Restaurant Booking"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "10:00 - 19:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 12,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 55,
+      "max_price": 95,
+      "notes": "Hands-on cooking class and ingredient sourcing included."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Food & Culinary", "Local Experiences", "Community Tourism"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 34,
+      "source": "Gastronomy Travelers Feedback",
+      "last_updated": "2026-05-12"
+    }
+  },
+  {
+    "sme_id": "SME-000015",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Laith Haddad",
+      "description": "Adventure trekking and canyoning guide specializing in hidden ravines, waterfall trails, and wilderness expeditions in the northern Jordan rift valley.",
+      "experience_years": 8,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Adventure", "Hiking", "Nature"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+962785566778",
+      "mobile": "+962785566778",
+      "email": "laith.haddad.adventure@gmail.com",
+      "website": null,
+      "whatsapp": "+962785566778"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Tebna, Kourah District"
+    },
+    "service_area": {
+      "destinations_covered": ["Wadi Rayyan Canyons", "Tebna Historic Village", "Zabdah Trails", "Northern Rift Escarpment"],
+      "preferred_destinations": "Wadi Rayyan Canyoning Routes"
+    },
+    "languages": {
+      "spoken": ["Arabic", "German", "Turkish", "Japanese"],
+      "preferred_language": "German"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Adventure Activities", "Private Tours", "Custom Itineraries"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": ["Thursday", "Friday", "Saturday", "Sunday"],
+      "working_hours": "06:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 10,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 75,
+      "max_price": 130,
+      "notes": "Professional safety rigging and waterproof gear provided."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Nature", "Hiking & Trekking", "Soft Adventure"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 29,
+      "source": "Outdoor Adventure Club",
+      "last_updated": "2026-05-30"
+    }
+  },
+  {
+    "sme_id": "SME-000016",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Reem Khasawneh",
+      "description": "Licensed museum curator and educational guide providing specialized historical tours focusing on Islamic architecture, manuscripts, and regional artifacts in Irbid.",
+      "experience_years": 11,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Culture", "Art"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962776677889",
+      "mobile": "+962776677889",
+      "email": "reem.khasawneh.guide@outlook.com",
+      "website": null,
+      "whatsapp": "+962776677889"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "near Yarmouk University Campus, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": ["Museum of Jordanian Heritage", "Dar Al-Saraya", "Historic Irbid Mosques", "Umm Qais Museum"],
+      "preferred_destinations": "Museum of Jordanian Heritage & Regional Exhibits"
+    },
+    "languages": {
+      "spoken": ["Arabic", "Dutch", "Portuguese", "Chinese"],
+      "preferred_language": "Dutch"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Tour Planning & Itinerary Design", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
+      "working_hours": "09:00 - 16:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 80,
+      "max_price": 125,
+      "notes": "Includes academic gallery briefing and institutional booking assistance."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 42,
+      "source": "Academic Cultural Registry",
+      "last_updated": "2026-06-04"
+    }
+  },
+  {
+    "sme_id": "SME-000017",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Nizar Freij",
+      "description": "Freelance nature and landscape photography guide offering targeted excursions to capture panoramic vistas of the Jordan Valley, Yarmouk riverbanks, and ancient ruins.",
+      "experience_years": 6,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Photography", "Nature", "History"],
+      "target_customer_types": ["Solo Travelers", "Couples"]
+    },
+    "contact": {
+      "phone": "+962797788990",
+      "mobile": "+962797788990",
+      "email": "nizar.freij.photo@gmail.com",
+      "website": null,
+      "whatsapp": "+96279789990"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Al-Husn Road, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": ["Umm Qais Overlook", "Yarmouk Gorge Ridges", "Al-Huson Countryside", "Wadi Arab Viewpoints"],
+      "preferred_destinations": "Umm Qais Sunset & Valley Overlooks"
+    },
+    "languages": {
+      "spoken": ["Arabic", "Russian", "Spanish", "Korean"],
+      "preferred_language": "Russian"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Special Interest Tours", "Private Tours", "Custom Itineraries"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "working_hours": "05:30 - 19:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 5,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 85,
+      "max_price": 135,
+      "notes": "Includes optimal lighting schedule planning and ground transport."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Nature", "History & Culture", "Soft Adventure"]
+    },
+    "reviews": {
+      "rating": 4.7,
+      "review_count": 22,
+      "source": "Visual Artist Guild",
+      "last_updated": "2026-05-19"
+    }
+  },
+  {
+    "sme_id": "SME-000018",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Amal Gharaibeh",
+      "description": "Community-based heritage guide specializing in traditional village life, olive oil harvest experiences, and handicraft markets across Bani Kinana.",
+      "experience_years": 5,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Culture", "Local Experiences", "History"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962788899001",
+      "mobile": "+962788899001",
+      "email": "amal.gharaibeh.tours@gmail.com",
+      "website": null,
+      "whatsapp": "+962788899001"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Samma Village, Bani Kinana"
+    },
+    "service_area": {
+      "destinations_covered": ["Samma Historic Core", "Harta Village", "Malkah Olive Groves", "Bani Kinana Local Cooperatives"],
+      "preferred_destinations": "Samma & Bani Kinana Heritage Villages"
+    },
+    "languages": {
+      "spoken": ["Arabic", "Portuguese", "French", "Turkish"],
+      "preferred_language": "Portuguese"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Local Experiences", "Cultural Experiences", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Tuesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "09:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 45,
+      "max_price": 85,
+      "notes": "Direct support for local rural artisans and family enterprises."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Local Experiences", "Community Tourism", "History & Culture"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 24,
+      "source": "Rural Tourism Network",
+      "last_updated": "2026-04-26"
+    }
+  },
+  {
+    "sme_id": "SME-000019",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Zuhair Momani",
+      "description": "Senior licensed archaeological guide focusing on classical ruins, ancient water management systems, and historical monuments throughout northern Jordan.",
+      "experience_years": 16,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Archaeology", "Architecture"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962779900112",
+      "mobile": "+962779900112",
+      "email": "zuhair.momani.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962779900112"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Al-Naimah, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": ["Umm Qais", "Capitolias (Beit Ras)", "Abila", "Irbid Region Archaeological Sites"],
+      "preferred_destinations": "Capitolias & Umm Qais Ruins"
+    },
+    "languages": {
+      "spoken": ["Arabic", "Chinese", "Italian", "German"],
+      "preferred_language": "Chinese"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Special Interest Tours", "Private Tours", "Tour Planning & Itinerary Design"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 35,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 105,
+      "max_price": 190,
+      "notes": "Comprehensive academic briefings and private air-conditioned transport."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 5.0,
+      "review_count": 58,
+      "source": "Archaeological Heritage Board",
+      "last_updated": "2026-06-07"
+    }
+  },
+  {
+    "sme_id": "SME-000020",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Nadia Rousan",
+      "description": "Bespoke family and school tour coordinator providing engaging, child-friendly heritage walks and interactive educational activities in Irbid.",
+      "experience_years": 5,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Culture", "History", "Local Experiences"],
+      "target_customer_types": ["Families", "Couples"]
+    },
+    "contact": {
+      "phone": "+962790011223",
+      "mobile": "+962790011223",
+      "email": "nadia.rousan.tours@outlook.com",
+      "website": null,
+      "whatsapp": "+962790011223"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "University Street, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": ["Irbid City Center", "Dar Al-Saraya Museum", "Al-Huson Heritage Park", "Local Craft Corners"],
+      "preferred_destinations": "Irbid Family Parks and Heritage Sites"
+    },
+    "languages": {
+      "spoken": ["Arabic", "Korean", "Spanish", "French"],
+      "preferred_language": "Korean"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Custom Itineraries", "Private Tours", "Cultural Experiences"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "09:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 20,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 55,
+      "max_price": 95,
+      "notes": "Customized pacing designed for families with children."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Family Experiences", "History & Culture", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 25,
+      "source": "Family Vacation Advisory",
+      "last_updated": "2026-05-15"
+    }
+  },  
+  {
+    "sme_id": "SME-000021",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Iyad Al-Khatib",
+      "description": "Licensed heritage guide specializing in ancient trade routes, Nabataean influences, and historical crossroads across northern Jordan.",
+      "experience_years": 10,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Archaeology", "Culture"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962791112233",
+      "mobile": "+962791112233",
+      "email": "iyad.khatib.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962791112233"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Al-Mazar Al-Janubi Road, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": ["Umm Qais", "Abila", "Irbid Historic Routes", "Wadi Al-Arab"],
+      "preferred_destinations": "Ancient Trade Route Landmarks"
+    },
+    "languages": {
+      "spoken": ["Arabic", "German", "Spanish", "Japanese"],
+      "preferred_language": "German"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Special Interest Tours", "Private Tours", "Custom Itineraries"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
+      "working_hours": "08:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 90,
+      "max_price": 145,
+      "notes": "Includes detailed historical maps and private transport."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 36,
+      "source": "Heritage Explorers Club",
+      "last_updated": "2026-06-03"
+    }
+  },
+  {
+    "sme_id": "SME-000022",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Sawsan Baker",
+      "description": "Botanical and eco-trail guide offering immersive explorations of local flora, seasonal harvests, and traditional village crafts in Irbid hills.",
+      "experience_years": 5,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Nature", "Local Experiences", "Culture"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962782223344",
+      "mobile": "+962782223344",
+      "email": "sawsan.baker.eco@gmail.com",
+      "website": null,
+      "whatsapp": "+962782223344"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Dayr Yusuf, Kourah"
+    },
+    "service_area": {
+      "destinations_covered": ["Dayr Yusuf Valleys", "Kourah Agricultural Terraces", "Local Craft Cooperatives", "Wadi Al-Yabis Slopes"],
+      "preferred_destinations": "Kourah Agricultural Terraces"
+    },
+    "languages": {
+      "spoken": ["Arabic", "French", "Italian", "Dutch"],
+      "preferred_language": "French"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Local Experiences", "Cultural Experiences"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "working_hours": "07:30 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 45,
+      "max_price": 85,
+      "notes": "Includes organic herbal tea tastings and workshop entry."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Nature", "Community Tourism", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 23,
+      "source": "Rural Eco-Tours",
+      "last_updated": "2026-05-20"
+    }
+  },
+  {
+    "sme_id": "SME-000023",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Bassam Shawabkeh",
+      "description": "Senior tour guide specializing in multi-destination regional itineraries, classical architecture, and comprehensive historical overview tours.",
+      "experience_years": 15,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Architecture", "Archaeology"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962773334455",
+      "mobile": "+962773334455",
+      "email": "bassam.shawabkeh.tours@yahoo.com",
+      "website": null,
+      "whatsapp": "+962773334455"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Baghdad Highway, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": ["Umm Qais", "Capitolias", "Pella", "Jerash Northern Loop"],
+      "preferred_destinations": "Northern Decapolis Loop"
+    },
+    "languages": {
+      "spoken": ["Arabic", "Spanish", "Chinese", "Portuguese"],
+      "preferred_language": "Spanish"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Private Tours", "Tour Planning & Itinerary Design", "Special Interest Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 30,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 115,
+      "max_price": 185,
+      "notes": "Includes full vehicle coordination and exclusive lecture guides."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 5.0,
+      "review_count": 64,
+      "source": "International Guide Council",
+      "last_updated": "2026-06-06"
+    }
+  },
+  {
+    "sme_id": "SME-000024",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Manal Hajjaj",
+      "description": "Culinary heritage guide offering traditional cooking masterclasses, spice market walks, and artisan food experiences in Irbid.",
+      "experience_years": 6,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Food", "Culture", "Local Experiences"],
+      "target_customer_types": ["Families", "Solo Travelers", "Couples"]
+    },
+    "contact": {
+      "phone": "+962794445566",
+      "mobile": "+962794445566",
+      "email": "manal.hajjaj.kitchen@gmail.com",
+      "website": null,
+      "whatsapp": "+962794445566"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Old Municipality Street, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": ["Irbid Old Souk", "Tal Al-Husn Food Markets", "Traditional Home Kitchens", "Hawwarah Bakery Hubs"],
+      "preferred_destinations": "Traditional Souks & Home Kitchens"
+    },
+    "languages": {
+      "spoken": ["Arabic", "Italian", "Russian", "Korean"],
+      "preferred_language": "Italian"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Local Experiences", "Cultural Experiences", "Restaurant Booking"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "10:00 - 20:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 12,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 50,
+      "max_price": 90,
+      "notes": "Includes full meal preparation, ingredients, and recipe cards."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Food & Culinary", "Local Experiences", "Community Tourism"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 32,
+      "source": "Gastronomy Guide Reviews",
+      "last_updated": "2026-05-14"
+    }
+  },
+  {
+    "sme_id": "SME-000025",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Tamer Zoubi",
+      "description": "Adventure trekking and ridge exploration guide specializing in hidden gorges, rocky outcrops, and scenic trails across northern Jordan.",
+      "experience_years": 7,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Adventure", "Hiking", "Nature"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+962785556677",
+      "mobile": "+962785556677",
+      "email": "tamer.zoubi.treks@gmail.com",
+      "website": null,
+      "whatsapp": "+962785556677"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Al-Kourah Valley Edge, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": ["Wadi Rayyan", "Kourah Ridges", "Zabdah Trails", "Northern Escarpment"],
+      "preferred_destinations": "Kourah Ridge Trails"
+    },
+    "languages": {
+      "spoken": ["Arabic", "German", "Turkish", "Japanese"],
+      "preferred_language": "German"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Adventure Activities", "Private Tours", "Custom Itineraries"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": ["Thursday", "Friday", "Saturday", "Sunday"],
+      "working_hours": "06:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 10,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 70,
+      "max_price": 125,
+      "notes": "Includes navigation gear and safety briefing equipment."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Nature", "Hiking & Trekking", "Soft Adventure"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 25,
+      "source": "Trekking Association",
+      "last_updated": "2026-05-25"
+    }
+  },
+  {
+    "sme_id": "SME-000026",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Rula Majali",
+      "description": "Licensed museum educator and heritage guide providing specialized tours centered on regional archaeology, ancient pottery, and historical artifacts.",
+      "experience_years": 10,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Culture", "Art"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962776667788",
+      "mobile": "+962776667788",
+      "email": "rula.majali.guide@outlook.com",
+      "website": null,
+      "whatsapp": "+962776667788"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Yarmouk University District, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": ["Museum of Jordanian Heritage", "Dar Al-Saraya", "Umm Qais Museum", "Tell Irbid"],
+      "preferred_destinations": "Museum of Jordanian Heritage Collections"
+    },
+    "languages": {
+      "spoken": ["Arabic", "Dutch", "Portuguese", "Chinese"],
+      "preferred_language": "Dutch"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Tour Planning & Itinerary Design", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
+      "working_hours": "09:00 - 16:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 75,
+      "max_price": 120,
+      "notes": "Includes gallery lecture notes and museum entry coordination."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 38,
+      "source": "Cultural Heritage Registry",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000027",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Ziyad Qasim",
+      "description": "Landscape and golden-hour photography guide offering tailored excursions across the dramatic overlooks of northern Jordan.",
+      "experience_years": 6,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Photography", "Nature", "History"],
+      "target_customer_types": ["Solo Travelers", "Couples"]
+    },
+    "contact": {
+      "phone": "+962797778899",
+      "mobile": "+962797778899",
+      "email": "ziyad.qasim.photo@gmail.com",
+      "website": null,
+      "whatsapp": "+962797778899"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Baghdad Street, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": ["Umm Qais Sunset Points", "Yarmouk Gorge", "Al-Huson Vistas", "Wadi Arab"],
+      "preferred_destinations": "Yarmouk Gorge & Umm Qais Vistas"
+    },
+    "languages": {
+      "spoken": ["Arabic", "Russian", "Spanish", "Korean"],
+      "preferred_language": "Russian"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Special Interest Tours", "Private Tours", "Custom Itineraries"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "working_hours": "05:30 - 19:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 5,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 80,
+      "max_price": 130,
+      "notes": "Includes customized light tracking schedule and transport."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Nature", "History & Culture", "Soft Adventure"]
+    },
+    "reviews": {
+      "rating": 4.7,
+      "review_count": 20,
+      "source": "Independent Photographers Union",
+      "last_updated": "2026-05-17"
+    }
+  },
+  {
+    "sme_id": "SME-000028",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Wafa Oun",
+      "description": "Rural community guide specializing in traditional agricultural practices, olive heritage, and village handicraft workshops in Bani Kinana.",
+      "experience_years": 5,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Culture", "Local Experiences", "History"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962788889900",
+      "mobile": "+962788889900",
+      "email": "wafa.oun.tours@gmail.com",
+      "website": null,
+      "whatsapp": "+962788889900"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Harta Village, Bani Kinana"
+    },
+    "service_area": {
+      "destinations_covered": ["Harta Village", "Samma Heritage Core", "Malkah Olive Groves", "Bani Kinana Local Cooperatives"],
+      "preferred_destinations": "Harta & Bani Kinana Villages"
+    },
+    "languages": {
+      "spoken": ["Arabic", "Portuguese", "French", "Turkish"],
+      "preferred_language": "Portuguese"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Local Experiences", "Cultural Experiences", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Tuesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "09:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 40,
+      "max_price": 80,
+      "notes": "Directly supports local women-led cooperatives and artisans."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Local Experiences", "Community Tourism", "History & Culture"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 22,
+      "source": "Community Tourism Coalition",
+      "last_updated": "2026-04-24"
+    }
+  },
+  {
+    "sme_id": "SME-000029",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Khaled Zoubi",
+      "description": "Senior licensed archaeological guide focusing on classical antiquity, Roman theater architecture, and ancient water systems across northern Jordan.",
+      "experience_years": 16,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Archaeology", "Architecture"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962779990011",
+      "mobile": "+962779990011",
+      "email": "khaled.zoubi.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962779990011"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Al-Sareeh Road, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": ["Umm Qais", "Capitolias (Beit Ras)", "Abila", "Irbid Region Heritage Sites"],
+      "preferred_destinations": "Umm Qais & Capitolias Archaeological Sites"
+    },
+    "languages": {
+      "spoken": ["Arabic", "Chinese", "Italian", "German"],
+      "preferred_language": "Chinese"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Special Interest Tours", "Private Tours", "Tour Planning & Itinerary Design"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 35,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 100,
+      "max_price": 185,
+      "notes": "Includes academic-level briefings and private transport."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 5.0,
+      "review_count": 55,
+      "source": "Archaeological Guide Association",
+      "last_updated": "2026-06-05"
+    }
+  },
+  {
+    "sme_id": "SME-000030",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Lama Nsour",
+      "description": "Bespoke family tour coordinator offering engaging, child-friendly heritage walks, interactive museum visits, and crafts in Irbid city.",
+      "experience_years": 5,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Culture", "History", "Local Experiences"],
+      "target_customer_types": ["Families", "Couples"]
+    },
+    "contact": {
+      "phone": "+962790001122",
+      "mobile": "+962790001122",
+      "email": "lama.nsour.tours@outlook.com",
+      "website": null,
+      "whatsapp": "+962790001122"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Hakama Road, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": ["Irbid Downtown", "Dar Al-Saraya Museum", "Al-Huson Park", "Local Heritage Corners"],
+      "preferred_destinations": "Irbid Family Heritage Centers"
+    },
+    "languages": {
+      "spoken": ["Arabic", "Korean", "Spanish", "French"],
+      "preferred_language": "Korean"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Custom Itineraries", "Private Tours", "Cultural Experiences"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "09:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 20,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 50,
+      "max_price": 90,
+      "notes": "Customized pacing tailored for families with children."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Family Experiences", "History & Culture", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 21,
+      "source": "Family Travel Advisory",
+      "last_updated": "2026-05-12"
+    }
+  },
+  
+  {
+    "sme_id": "SME-000031",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Ziad Al-Omari",
+      "description": "Licensed cultural and historical guide specializing in northern Jordan's Byzantine heritage, ancient tells, and rural heritage trails.",
+      "experience_years": 8,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Archaeology", "Culture"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+962791234567",
+      "mobile": "+962791234567",
+      "email": "ziad.omari.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962791234567"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Al-Mazar Al-Shamali, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": ["Umm Qais", "Abila", "Tell Irbid", "Al-Mazar Heritage Sites"],
+      "preferred_destinations": "Tell Irbid & Al-Mazar Trails"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "German", "Italian"],
+      "preferred_language": "German"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Special Interest Tours", "Private Tours", "Custom Itineraries"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
+      "working_hours": "08:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 20,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 80,
+      "max_price": 130,
+      "notes": "Includes historical handouts and field transport."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 31,
+      "source": "Jordan Heritage Union",
+      "last_updated": "2026-06-08"
+    }
+  },
+  {
+    "sme_id": "SME-000032",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Heba Zoubi",
+      "description": "Eco-tourism and agricultural heritage guide focusing on rural cooperatives, traditional farming techniques, and wild herbs of the northern highlands.",
+      "experience_years": 6,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Nature", "Local Experiences", "Culture"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962782345678",
+      "mobile": "+962782345678",
+      "email": "heba.zoubi.eco@gmail.com",
+      "website": null,
+      "whatsapp": "+962782345678"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Al-Taybeh, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": ["Al-Taybeh Slopes", "Wadi Al-Arab Farms", "Local Herbal Cooperatives", "Northern Valley Terraces"],
+      "preferred_destinations": "Al-Taybeh Agricultural Valleys"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "French", "Spanish"],
+      "preferred_language": "French"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Local Experiences", "Cultural Experiences"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "working_hours": "08:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 45,
+      "max_price": 85,
+      "notes": "Includes organic farm tastings and workshop materials."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Nature", "Community Tourism", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 28,
+      "source": "Eco-Jordan Network",
+      "last_updated": "2026-05-28"
+    }
+  },
+  {
+    "sme_id": "SME-000033",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Mustafa Rousan",
+      "description": "Veteran specialist in Greco-Roman monuments, Decapolis city networks, and extensive cross-regional archaeological tours.",
+      "experience_years": 13,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Architecture", "Archaeology"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962773456789",
+      "mobile": "+962773456789",
+      "email": "mustafa.rousan.tours@gmail.com",
+      "website": null,
+      "whatsapp": "+962773456789"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Baghdad Street, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": ["Umm Qais", "Capitolias", "Pella", "Jerash Ruins"],
+      "preferred_destinations": "Umm Qais & Pella Complex"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Spanish", "German"],
+      "preferred_language": "Spanish"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Private Tours", "Tour Planning & Itinerary Design", "Special Interest Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 30,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 100,
+      "max_price": 170,
+      "notes": "Includes private vehicle and specialized archaeological handouts."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 5.0,
+      "review_count": 52,
+      "source": "Historical Guide Bureau",
+      "last_updated": "2026-06-09"
+    }
+  },
+  {
+    "sme_id": "SME-000034",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Rania Jarrah",
+      "description": "Traditional gastronomy guide focusing on authentic northern Jordanian dishes, heritage baking, and spice market explorations in Irbid.",
+      "experience_years": 7,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Food", "Culture", "Local Experiences"],
+      "target_customer_types": ["Families", "Solo Travelers", "Couples"]
+    },
+    "contact": {
+      "phone": "+962794567890",
+      "mobile": "+962794567890",
+      "email": "rania.jarrah.kitchen@gmail.com",
+      "website": null,
+      "whatsapp": "+962794567890"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Al-Hashimi Street, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": ["Irbid Central Souk", "Al-Mazar Rural Kitchens", "Traditional Home Bakeries", "Hawwarah Villages"],
+      "preferred_destinations": "Irbid Souk & Traditional Kitchens"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Italian", "French"],
+      "preferred_language": "Italian"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Local Experiences", "Cultural Experiences", "Restaurant Booking"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "10:00 - 19:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 12,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 50,
+      "max_price": 95,
+      "notes": "Includes hands-on cooking session and ingredients."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Food & Culinary", "Local Experiences", "Community Tourism"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 39,
+      "source": "Culinary Travel Association",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000035",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Faris Qudah",
+      "description": "Adventure and canyoning specialist leading expeditions through rugged gorges, seasonal streams, and remote wilderness trails in northern Jordan.",
+      "experience_years": 9,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Adventure", "Hiking", "Nature"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+962785678901",
+      "mobile": "+962785678901",
+      "email": "faris.qudah.adventure@gmail.com",
+      "website": null,
+      "whatsapp": "+962785678901"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Kourah District, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": ["Wadi Rayyan", "Wadi Al-Yabis", "Kourah Canyons", "Northern Escarpment Trails"],
+      "preferred_destinations": "Wadi Rayyan Canyons"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "German", "Dutch"],
+      "preferred_language": "German"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Adventure Activities", "Private Tours", "Custom Itineraries"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": ["Thursday", "Friday", "Saturday", "Sunday"],
+      "working_hours": "06:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 10,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 80,
+      "max_price": 140,
+      "notes": "Includes safety gear, ropes, and professional navigation."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Nature", "Hiking & Trekking", "Soft Adventure"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 33,
+      "source": "Adventure Jordan Club",
+      "last_updated": "2026-05-25"
+    }
+  },
+  {
+    "sme_id": "SME-000036",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Dina Maaytah",
+      "description": "Museum curator and educational guide providing detailed explorations of regional artifacts, Islamic history, and archaeological displays.",
+      "experience_years": 10,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Culture", "Art"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962776789012",
+      "mobile": "+962776789012",
+      "email": "dina.maaytah.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962776789012"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Yarmouk University Area, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": ["Museum of Jordanian Heritage", "Dar Al-Saraya Museum", "Umm Qais Museum", "Historic Irbid Buildings"],
+      "preferred_destinations": "Museum of Jordanian Heritage"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "French", "Dutch"],
+      "preferred_language": "Dutch"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Tour Planning & Itinerary Design", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
+      "working_hours": "09:00 - 16:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 75,
+      "max_price": 125,
+      "notes": "Includes gallery tour coordination and lecture handouts."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 35,
+      "source": "Cultural Heritage Association",
+      "last_updated": "2026-06-04"
+    }
+  },
+  {
+    "sme_id": "SME-000037",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Samir Naser",
+      "description": "Landscape and sunrise photography guide offering specialized excursions across the scenic valleys and Roman ruins of northern Jordan.",
+      "experience_years": 7,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Photography", "Nature", "History"],
+      "target_customer_types": ["Solo Travelers", "Couples"]
+    },
+    "contact": {
+      "phone": "+962797890123",
+      "mobile": "+962797890123",
+      "email": "samir.naser.photo@gmail.com",
+      "website": null,
+      "whatsapp": "+962797890123"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Al-Husn Road, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": ["Umm Qais Overlooks", "Yarmouk Valley Vistas", "Al-Huson Countryside", "Wadi Arab"],
+      "preferred_destinations": "Umm Qais Overlooks"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Russian", "Spanish"],
+      "preferred_language": "Russian"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Special Interest Tours", "Private Tours", "Custom Itineraries"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "working_hours": "05:00 - 19:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 5,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 90,
+      "max_price": 140,
+      "notes": "Includes lighting schedule planning and transport."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Nature", "History & Culture", "Soft Adventure"]
+    },
+    "reviews": {
+      "rating": 4.7,
+      "review_count": 24,
+      "source": "Photographers Guild",
+      "last_updated": "2026-05-20"
+    }
+  },
+  {
+    "sme_id": "SME-000038",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Nour Khasawneh",
+      "description": "Rural community guide specializing in traditional village life, olive oil harvest experiences, and local handicraft workshops in Bani Kinana.",
+      "experience_years": 6,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Culture", "Local Experiences", "History"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962788901234",
+      "mobile": "+962788901234",
+      "email": "nour.khasawneh.tours@gmail.com",
+      "website": null,
+      "whatsapp": "+962788901234"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Samma Village, Bani Kinana"
+    },
+    "service_area": {
+      "destinations_covered": ["Samma Historic Core", "Harta Village", "Malkah Olive Groves", "Bani Kinana Cooperatives"],
+      "preferred_destinations": "Samma Village Heritage"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "French", "Portuguese"],
+      "preferred_language": "Portuguese"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Local Experiences", "Cultural Experiences", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Tuesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "09:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 45,
+      "max_price": 85,
+      "notes": "Directly supports local rural artisans and family businesses."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Local Experiences", "Community Tourism", "History & Culture"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 27,
+      "source": "Community Tourism Network",
+      "last_updated": "2026-05-10"
+    }
+  },
+  {
+    "sme_id": "SME-000039",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Yousef Bataineh",
+      "description": "Senior archaeological guide specializing in classical ruins, ancient water systems, and historical monuments throughout northern Jordan.",
+      "experience_years": 15,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Archaeology", "Architecture"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962779012345",
+      "mobile": "+962779012345",
+      "email": "yousef.bataineh.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962779012345"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Al-Naimah, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": ["Umm Qais", "Capitolias", "Abila", "Irbid Region Sites"],
+      "preferred_destinations": "Umm Qais & Capitolias"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "German", "Chinese"],
+      "preferred_language": "Chinese"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Special Interest Tours", "Private Tours", "Tour Planning & Itinerary Design"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 35,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 110,
+      "max_price": 190,
+      "notes": "Includes academic-level briefings and private vehicle transport."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 5.0,
+      "review_count": 60,
+      "source": "Archaeological Board",
+      "last_updated": "2026-06-08"
+    }
+  },
+  {
+    "sme_id": "SME-000040",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Yasmin Obeidat",
+      "description": "Bespoke family and school tour coordinator providing child-friendly heritage walks, interactive museum visits, and crafts in Irbid.",
+      "experience_years": 5,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Culture", "History", "Local Experiences"],
+      "target_customer_types": ["Families", "Couples"]
+    },
+    "contact": {
+      "phone": "+962790123456",
+      "mobile": "+962790123456",
+      "email": "yasmin.obeidat.tours@gmail.com",
+      "website": null,
+      "whatsapp": "+962790123456"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "University Street, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": ["Irbid City Center", "Dar Al-Saraya Museum", "Al-Huson Heritage Park", "Local Craft Corners"],
+      "preferred_destinations": "Irbid Heritage Park & Museum"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "French", "Korean"],
+      "preferred_language": "Korean"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Custom Itineraries", "Private Tours", "Cultural Experiences"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "09:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 20,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 50,
+      "max_price": 95,
+      "notes": "Customized pacing tailored for families with children."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Family Experiences", "History & Culture", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 24,
+      "source": "Family Travel Advisory",
+      "last_updated": "2026-05-18"
+    }
+  },
+  [
+  {
+    "sme_id": "SME-000041",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Tariq Al-Naser",
+      "description": "Licensed cultural and historical guide specializing in northern Jordan's ancient tells, Roman remains, and archaeological heritage routes.",
+      "experience_years": 9,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Archaeology", "Culture"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+962791357924",
+      "mobile": "+962791357924",
+      "email": "tariq.naser.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962791357924"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Al-Kharaj, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": ["Abila", "Umm Qais", "Al-Kharaj Heritage Sites", "Northern Jordan Valleys"],
+      "preferred_destinations": "Abila Archaeological Site"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "German", "Japanese"],
+      "preferred_language": "German"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Special Interest Tours", "Private Tours", "Custom Itineraries"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
+      "working_hours": "08:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 90,
+      "max_price": 140,
+      "notes": "Includes historical document materials and field maps."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 41,
+      "source": "Historical Heritage Network",
+      "last_updated": "2026-06-10"
+    }
+  },
+  {
+    "sme_id": "SME-000042",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Laila Shwayat",
+      "description": "Eco-tourism and botanical guide specializing in seasonal wildflowers, nature reserves, and village craft workshops across Irbid hills.",
+      "experience_years": 6,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Nature", "Local Experiences", "Culture"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962782468135",
+      "mobile": "+962782468135",
+      "email": "laila.shwayat.eco@gmail.com",
+      "website": null,
+      "whatsapp": "+962782468135"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Ash-Shajarah, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": ["Ash-Shajarah Hills", "Wadi Yarmouk Slopes", "Local Farm Cooperatives", "Bani Kinana Nature Spots"],
+      "preferred_destinations": "Yarmouk Valley Slopes & Wildflower Trails"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "French", "Italian"],
+      "preferred_language": "French"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Local Experiences", "Cultural Experiences"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "working_hours": "07:30 - 17:30"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 50,
+      "max_price": 95,
+      "notes": "Includes organic snack tastings and workshop access fees."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Nature", "Community Tourism", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 29,
+      "source": "Eco-Traveler Feedback",
+      "last_updated": "2026-06-02"
+    }
+  },
+  {
+    "sme_id": "SME-000043",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Ibrahim Maani",
+      "description": "Veteran tour guide specializing in multi-day overland heritage routes, Greco-Roman city planning, and cross-regional historical tours.",
+      "experience_years": 14,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Architecture", "Archaeology"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962773579135",
+      "mobile": "+962773579135",
+      "email": "ibrahim.maani.tours@gmail.com",
+      "website": null,
+      "whatsapp": "+962773579135"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Baghdad Road, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": ["Umm Qais", "Capitolias", "Pella", "Jerash and Northern Decapolis"],
+      "preferred_destinations": "Northern Decapolis Network"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Spanish", "Chinese"],
+      "preferred_language": "Spanish"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Private Tours", "Tour Planning & Itinerary Design", "Special Interest Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 30,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 110,
+      "max_price": 175,
+      "notes": "Full vehicle support and specialized lecture handouts included."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 5.0,
+      "review_count": 63,
+      "source": "Global Heritage Guide Union",
+      "last_updated": "2026-06-11"
+    }
+  },
+  {
+    "sme_id": "SME-000044",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Maha Smadi",
+      "description": "Culinary arts and traditional folklore guide focusing on northern Jordanian heritage baking, local village cuisine, and traditional textile crafts.",
+      "experience_years": 7,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Food", "Culture", "Local Experiences"],
+      "target_customer_types": ["Families", "Solo Travelers", "Couples"]
+    },
+    "contact": {
+      "phone": "+962794681357",
+      "mobile": "+962794681357",
+      "email": "maha.smadi.culinary@gmail.com",
+      "website": null,
+      "whatsapp": "+962794681357"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Al-Hashimi Street, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": ["Irbid Central Souk", "Al-Mazar Rural Kitchens", "Artisan Weaving Centers", "Dayr Yusuf"],
+      "preferred_destinations": "Irbid Food Markets and Artisan Hubs"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Italian", "Russian"],
+      "preferred_language": "Italian"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Local Experiences", "Cultural Experiences", "Restaurant Booking"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "10:00 - 19:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 12,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 55,
+      "max_price": 95,
+      "notes": "Hands-on cooking class and ingredient sourcing included."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Food & Culinary", "Local Experiences", "Community Tourism"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 37,
+      "source": "Gastronomy Travelers Feedback",
+      "last_updated": "2026-06-03"
+    }
+  },
+  {
+    "sme_id": "SME-000045",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Zaidoun Khatib",
+      "description": "Adventure trekking and canyoning guide specializing in hidden ravines, waterfall trails, and wilderness expeditions in the northern Jordan rift valley.",
+      "experience_years": 8,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Adventure", "Hiking", "Nature"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+962785791357",
+      "mobile": "+962785791357",
+      "email": "zaidoun.khatib.adventure@gmail.com",
+      "website": null,
+      "whatsapp": "+962785791357"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Tebna, Kourah District"
+    },
+    "service_area": {
+      "destinations_covered": ["Wadi Rayyan Canyons", "Tebna Historic Village", "Zabdah Trails", "Northern Rift Escarpment"],
+      "preferred_destinations": "Wadi Rayyan Canyoning Routes"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "German", "Turkish"],
+      "preferred_language": "German"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Adventure Activities", "Private Tours", "Custom Itineraries"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": ["Thursday", "Friday", "Saturday", "Sunday"],
+      "working_hours": "06:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 10,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 75,
+      "max_price": 130,
+      "notes": "Professional safety rigging and waterproof gear provided."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Nature", "Hiking & Trekking", "Soft Adventure"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 31,
+      "source": "Outdoor Adventure Club",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000046",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Riham Rousan",
+      "description": "Licensed museum curator and educational guide providing specialized historical tours focusing on Islamic architecture, manuscripts, and regional artifacts.",
+      "experience_years": 11,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Culture", "Art"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962776813579",
+      "mobile": "+962776813579",
+      "email": "riham.rousan.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962776813579"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "near Yarmouk University Campus, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": ["Museum of Jordanian Heritage", "Dar Al-Saraya", "Historic Irbid Mosques", "Umm Qais Museum"],
+      "preferred_destinations": "Museum of Jordanian Heritage & Regional Exhibits"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Dutch", "Portuguese"],
+      "preferred_language": "Dutch"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Tour Planning & Itinerary Design", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
+      "working_hours": "09:00 - 16:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 80,
+      "max_price": 125,
+      "notes": "Includes academic gallery briefing and institutional booking assistance."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 45,
+      "source": "Academic Cultural Registry",
+      "last_updated": "2026-06-08"
+    }
+  },
+  {
+    "sme_id": "SME-000047",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Munir Qasim",
+      "description": "Freelance nature and landscape photography guide offering targeted excursions to capture panoramic vistas of the Jordan Valley and Yarmouk riverbanks.",
+      "experience_years": 6,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Photography", "Nature", "History"],
+      "target_customer_types": ["Solo Travelers", "Couples"]
+    },
+    "contact": {
+      "phone": "+962797924681",
+      "mobile": "+962797924681",
+      "email": "munir.qasim.photo@gmail.com",
+      "website": null,
+      "whatsapp": "+962797924681"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Al-Husn Road, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": ["Umm Qais Overlook", "Yarmouk Gorge Ridges", "Al-Huson Countryside", "Wadi Arab Viewpoints"],
+      "preferred_destinations": "Umm Qais Sunset & Valley Overlooks"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Russian", "Spanish"],
+      "preferred_language": "Russian"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Special Interest Tours", "Private Tours", "Custom Itineraries"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "working_hours": "05:30 - 19:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 5,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 85,
+      "max_price": 135,
+      "notes": "Includes optimal lighting schedule planning and ground transport."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Nature", "History & Culture", "Soft Adventure"]
+    },
+    "reviews": {
+      "rating": 4.7,
+      "review_count": 25,
+      "source": "Visual Artist Guild",
+      "last_updated": "2026-05-25"
+    }
+  },
+  {
+    "sme_id": "SME-000048",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Suhair Gharaibeh",
+      "description": "Community-based heritage guide specializing in traditional village life, olive oil harvest experiences, and handicraft markets across Bani Kinana.",
+      "experience_years": 5,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Culture", "Local Experiences", "History"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962788036925",
+      "mobile": "+962788036925",
+      "email": "suhair.gharaibeh.tours@gmail.com",
+      "website": null,
+      "whatsapp": "+962788036925"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Samma Village, Bani Kinana"
+    },
+    "service_area": {
+      "destinations_covered": ["Samma Historic Core", "Harta Village", "Malkah Olive Groves", "Bani Kinana Local Cooperatives"],
+      "preferred_destinations": "Samma & Bani Kinana Heritage Villages"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Portuguese", "French"],
+      "preferred_language": "Portuguese"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Local Experiences", "Cultural Experiences", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Tuesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "09:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 45,
+      "max_price": 85,
+      "notes": "Direct support for local rural artisans and family enterprises."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Local Experiences", "Community Tourism", "History & Culture"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 28,
+      "source": "Rural Tourism Network",
+      "last_updated": "2026-05-02"
+    }
+  },
+  {
+    "sme_id": "SME-000049",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Nawzat Momani",
+      "description": "Senior licensed archaeological guide focusing on classical ruins, ancient water management systems, and historical monuments throughout northern Jordan.",
+      "experience_years": 16,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Archaeology", "Architecture"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962779147036",
+      "mobile": "+962779147036",
+      "email": "nawzat.momani.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962779147036"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Al-Naimah, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": ["Umm Qais", "Capitolias (Beit Ras)", "Abila", "Irbid Region Archaeological Sites"],
+      "preferred_destinations": "Capitolias & Umm Qais Ruins"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Chinese", "Italian"],
+      "preferred_language": "Chinese"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Special Interest Tours", "Private Tours", "Tour Planning & Itinerary Design"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 35,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 105,
+      "max_price": 190,
+      "notes": "Comprehensive academic briefings and private air-conditioned transport."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 5.0,
+      "review_count": 62,
+      "source": "Archaeological Heritage Board",
+      "last_updated": "2026-06-12"
+    }
+  },
+  {
+    "sme_id": "SME-000050",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Basma Rousan",
+      "description": "Bespoke family and school tour coordinator providing engaging, child-friendly heritage walks and interactive educational activities in Irbid.",
+      "experience_years": 5,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Culture", "History", "Local Experiences"],
+      "target_customer_types": ["Families", "Couples"]
+    },
+    "contact": {
+      "phone": "+962790258147",
+      "mobile": "+962790258147",
+      "email": "basma.rousan.tours@gmail.com",
+      "website": null,
+      "whatsapp": "+962790258147"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "University Street, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": ["Irbid City Center", "Dar Al-Saraya Museum", "Al-Huson Heritage Park", "Local Craft Corners"],
+      "preferred_destinations": "Irbid Family Parks and Heritage Sites"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Korean", "Spanish"],
+      "preferred_language": "Korean"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Custom Itineraries", "Private Tours", "Cultural Experiences"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "09:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 20,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 55,
+      "max_price": 95,
+      "notes": "Customized pacing designed for families with children."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Family Experiences", "History & Culture", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 27,
+      "source": "Family Vacation Advisory",
+      "last_updated": "2026-05-20"
+    }
+  }
+  ]]
+
+

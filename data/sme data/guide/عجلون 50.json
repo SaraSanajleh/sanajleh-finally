@@ -1,0 +1,3459 @@
+[
+{
+"sme_id": "SME-000001",
+"sme_type": "tour_guide",
+"business_profile": {
+"name": "Ahmad Momani",
+"description": "Licensed freelance tourist guide specializing in the historical and natural landmarks of Ajloun, including Ajloun Castle and the Ajloun Forest Reserve.",
+"experience_years": 7,
+"business_type": ["Tour Guide"],
+"specializations": ["History", "Nature", "Archaeology", "Hiking"],
+"target_customer_types": ["Couples", "Families", "Solo Travelers"]
+},
+"contact": {
+"phone": "+962790000001",
+"mobile": "+962790000001",
+"email": "ahmad.momani.guide@gmail.com",
+"website": null,
+"whatsapp": "+962790000001"
+},
+"location": {
+"country": "Jordan",
+"city": "Ajloun",
+"region": "Ajloun Governorate",
+"address": "Ain Janna, Ajloun, Jordan"
+},
+"service_area": {
+"destinations_covered": ["Ajloun Castle", "Ajloun Forest Reserve", "Mar Elias", "Anjara"],
+"preferred_destinations": "Ajloun and Northern Jordan"
+},
+"languages": {
+"spoken": ["Arabic", "English"],
+"preferred_language": "Arabic"
+},
+"services": {
+"service_categories": ["Tour Guiding", "Custom Itineraries", "Private Tours", "Hiking & Trekking"]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": ["Licensed Tourist Guides", "Local Guides"]
+},
+"transportation": {
+"available": false
+},
+"availability": {
+"working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+"working_hours": "08:00 - 18:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 25,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Day",
+"min_price": 50,
+"max_price": 100,
+"notes": "Rates vary based on group size and tour duration."
+},
+"preferences": {
+"preferred_experience_types": ["History & Culture", "Nature", "Hiking & Trekking", "Archaeological Tourism"]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 14,
+"source": "Local Tourism Directory",
+"last_updated": "2026-05-10"
+}
+},
+{
+"sme_id": "SME-000002",
+"sme_type": "tour_guide",
+"business_profile": {
+"name": "Yousef Freihat",
+"description": "Professional freelance tour guide offering immersive historical and ecological walking tours across Ajloun's forests and heritage sites.",
+"experience_years": 5,
+"business_type": ["Tour Guide"],
+"specializations": ["History", "Nature", "Local Experiences", "Hiking"],
+"target_customer_types": ["Couples", "Families", "Solo Travelers"]
+},
+"contact": {
+"phone": "+962780000002",
+"mobile": "+962780000002",
+"email": "yousef.freihat.guide@gmail.com",
+"website": null,
+"whatsapp": "+962780000002"
+},
+"location": {
+"country": "Jordan",
+"city": "Ajloun",
+"region": "Ajloun Governorate",
+"address": "Ajloun City Center, Jordan"
+},
+"service_area": {
+"destinations_covered": ["Ajloun Castle", "Ajloun Forest Reserve", "Soap House", "Calligraphy House"],
+"preferred_destinations": "Ajloun Governorate"
+},
+"languages": {
+"spoken": ["Arabic", "English"],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": ["Tour Guiding", "Local Experiences", "Private Tours", "Hiking & Trekking"]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": ["Licensed Tourist Guides", "Local Guides"]
+},
+"transportation": {
+"available": false
+},
+"availability": {
+"working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+"working_hours": "08:30 - 17:30"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 20,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Day",
+"min_price": 45,
+"max_price": 90,
+"notes": "Custom rates available for multi-day itineraries."
+},
+"preferences": {
+"preferred_experience_types": ["History & Culture", "Nature", "Local Experiences", "Hiking & Trekking"]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 9,
+"source": "Independent Guide Network",
+"last_updated": "2026-04-18"
+}
+},
+{
+"sme_id": "SME-000003",
+"sme_type": "tour_guide",
+"business_profile": {
+"name": "Rania Qudah",
+"description": "Certified cultural and heritage tour guide specializing in community-based tourism, local traditions, and historical sites in Ajloun.",
+"experience_years": 6,
+"business_type": ["Tour Guide"],
+"specializations": ["Culture", "History", "Local Experiences", "Food"],
+"target_customer_types": ["Couples", "Families", "Solo Travelers"]
+},
+"contact": {
+"phone": "+962770000003",
+"mobile": "+962770000003",
+"email": "rania.qudah.guide@gmail.com",
+"website": null,
+"whatsapp": "+962770000003"
+},
+"location": {
+"country": "Jordan",
+"city": "Ajloun",
+"region": "Ajloun Governorate",
+"address": "Kufranjah, Ajloun, Jordan"
+},
+"service_area": {
+"destinations_covered": ["Kufranjah Valley", "Ajloun Castle", "Local Heritage Houses"],
+"preferred_destinations": "Ajloun and surrounding villages"
+},
+"languages": {
+"spoken": ["Arabic", "English", "French"],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Private Tours"]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": ["Licensed Tourist Guides", "Multilingual Guides"]
+},
+"transportation": {
+"available": false
+},
+"availability": {
+"working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+"working_hours": "09:00 - 17:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 15,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Day",
+"min_price": 50,
+"max_price": 95,
+"notes": "Includes culinary tour coordination upon request."
+},
+"preferences": {
+"preferred_experience_types": ["History & Culture", "Local Experiences", "Food & Culinary", "Community Tourism"]
+},
+"reviews": {
+"rating": 5.0,
+"review_count": 12,
+"source": "Regional Tourism Platform",
+"last_updated": "2026-06-01"
+}
+},
+{
+"sme_id": "SME-000004",
+"sme_type": "tour_guide",
+"business_profile": {
+"name": "Ibrahim Smadi",
+"description": "Independent adventure and eco-tourism guide with extensive knowledge of Ajloun's hiking trails, nature reserves, and historical ruins.",
+"experience_years": 8,
+"business_type": ["Tour Guide"],
+"specializations": ["Nature", "Adventure", "Hiking", "Camping"],
+"target_customer_types": ["Couples", "Families", "Solo Travelers"]
+},
+"contact": {
+"phone": "+962790000004",
+"mobile": "+962790000004",
+"email": "ibrahim.smadi.guide@gmail.com",
+"website": null,
+"whatsapp": "+962790000004"
+},
+"location": {
+"country": "Jordan",
+"city": "Ajloun",
+"region": "Ajloun Governorate",
+"address": "Orjan, Ajloun, Jordan"
+},
+"service_area": {
+"destinations_covered": ["Orjan Trail", "Rasoun", "Ajloun Forest Reserve", "Soap House"],
+"preferred_destinations": "Ajloun Mountains and Valleys"
+},
+"languages": {
+"spoken": ["Arabic", "English"],
+"preferred_language": "Arabic"
+},
+"services": {
+"service_categories": ["Tour Guiding", "Adventure Activities", "Hiking & Trekking", "Private Tours"]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": ["Professional Guides", "Specialized Guides"]
+},
+"transportation": {
+"available": false
+},
+"availability": {
+"working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+"working_hours": "07:00 - 17:00"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 30,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Day",
+"min_price": 60,
+"max_price": 120,
+"notes": "Special rates for overnight camping hikes."
+},
+"preferences": {
+"preferred_experience_types": ["Nature", "Soft Adventure", "Hiking & Trekking"]
+},
+"reviews": {
+"rating": 4.7,
+"review_count": 19,
+"source": "Eco-Tourism Jordan",
+"last_updated": "2026-03-22"
+}
+},
+{
+"sme_id": "SME-000005",
+"sme_type": "tour_guide",
+"business_profile": {
+"name": "Nour Zghoul",
+"description": "Freelance local guide specializing in architectural history, archaeological tours, and photography walks throughout Ajloun.",
+"experience_years": 4,
+"business_type": ["Tour Guide"],
+"specializations": ["History", "Archaeology", "Photography", "Culture"],
+"target_customer_types": ["Couples", "Families", "Solo Travelers"]
+},
+"contact": {
+"phone": "+962780000005",
+"mobile": "+962780000005",
+"email": "nour.zghoul.guide@gmail.com",
+"website": null,
+"whatsapp": "+962780000005"
+},
+"location": {
+"country": "Jordan",
+"city": "Ajloun",
+"region": "Ajloun Governorate",
+"address": "Ajloun Castle Area, Jordan"
+},
+"service_area": {
+"destinations_covered": ["Ajloun Castle", "Tell Mar Elias", "Ajloun Old City"],
+"preferred_destinations": "Ajloun Historical Landmarks"
+},
+"languages": {
+"spoken": ["Arabic", "English"],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": ["Tour Guiding", "Custom Itineraries", "Private Tours", "Special Interest Tours"]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": ["Licensed Tourist Guides", "Local Guides"]
+},
+"transportation": {
+"available": false
+},
+"availability": {
+"working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+"working_hours": "09:00 - 17:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 12,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Day",
+"min_price": 40,
+"max_price": 80,
+"notes": "Hourly rate options available for short castle visits."
+},
+"preferences": {
+"preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 8,
+"source": "Local Heritage Network",
+"last_updated": "2026-05-30"
+}
+},
+{
+"sme_id": "SME-000006",
+"sme_type": "tour_guide",
+"business_profile": {
+"name": "Khaled Momani",
+"description": "Professional mountain and nature guide leading trekking excursions across the Ajloun highlands and reserve paths.",
+"experience_years": 9,
+"business_type": ["Tour Guide"],
+"specializations": ["Nature", "Hiking", "Adventure", "Camping"],
+"target_customer_types": ["Couples", "Families", "Solo Travelers"]
+},
+"contact": {
+"phone": "+962770000006",
+"mobile": "+962770000006",
+"email": "khaled.momani.guide@gmail.com",
+"website": null,
+"whatsapp": "+962770000006"
+},
+"location": {
+"country": "Jordan",
+"city": "Ajloun",
+"region": "Ajloun Governorate",
+"address": "Rasoun, Ajloun, Jordan"
+},
+"service_area": {
+"destinations_covered": ["Rasoun Trail", "Ajloun Forest Reserve", "Wadi Al-Rayyan"],
+"preferred_destinations": "Ajloun Forests and Trails"
+},
+"languages": {
+"spoken": ["Arabic", "English"],
+"preferred_language": "Arabic"
+},
+"services": {
+"service_categories": ["Tour Guiding", "Hiking & Trekking", "Adventure Activities", "Private Tours"]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": ["Professional Guides", "Specialized Guides"]
+},
+"transportation": {
+"available": false
+},
+"availability": {
+"working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+"working_hours": "07:30 - 17:30"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 25,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Day",
+"min_price": 55,
+"max_price": 110,
+"notes": "Certified wilderness first aid responder."
+},
+"preferences": {
+"preferred_experience_types": ["Nature", "Soft Adventure", "Hiking & Trekking"]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 21,
+"source": "Hiking Jordan Association",
+"last_updated": "2026-06-11"
+}
+},
+{
+"sme_id": "SME-000007",
+"sme_type": "tour_guide",
+"business_profile": {
+"name": "Abeer Khatatbeh",
+"description": "Licensed tourist guide providing customized cultural, historical, and culinary day tours throughout Ajloun and northern governorates.",
+"experience_years": 5,
+"business_type": ["Tour Guide"],
+"specializations": ["Culture", "Food", "History", "Local Experiences"],
+"target_customer_types": ["Couples", "Families", "Solo Travelers"]
+},
+"contact": {
+"phone": "+962790000007",
+"mobile": "+962790000007",
+"email": "abeer.khatatbeh.guide@gmail.com",
+"website": null,
+"whatsapp": "+962790000007"
+},
+"location": {
+"country": "Jordan",
+"city": "Ajloun",
+"region": "Ajloun Governorate",
+"address": "Anjara, Ajloun, Jordan"
+},
+"service_area": {
+"destinations_covered": ["Anjara", "Ajloun Castle", "Local Craft Workshops"],
+"preferred_destinations": "Ajloun and Irbid region"
+},
+"languages": {
+"spoken": ["Arabic", "English", "German"],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": ["Tour Guiding", "Tour Planning & Itinerary Design", "Cultural Experiences", "Local Experiences"]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": ["Licensed Tourist Guides", "MultilingualGuides"]
+},
+"transportation": {
+"available": false
+},
+"availability": {
+"working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+"working_hours": "08:30 - 17:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 18,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Day",
+"min_price": 50,
+"max_price": 100,
+"notes": "Specializes in authentic local food experiences."
+},
+"preferences": {
+"preferred_experience_types": ["History & Culture", "Local Experiences", "Food & Culinary"]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 15,
+"source": "Jordan Guide Registry",
+"last_updated": "2026-05-04"
+}
+},
+{
+"sme_id": "SME-000008",
+"sme_type": "tour_guide",
+"business_profile": {
+"name": "Mahmoud Shwayat",
+"description": "Independent freelance guide focusing on historical sites, ancient ruins, and religious landmarks in Ajloun.",
+"experience_years": 7,
+"business_type": ["Tour Guide"],
+"specializations": ["History", "Archaeology", "Religious Sites"],
+"target_customer_types": ["Couples", "Families", "Solo Travelers"]
+},
+"contact": {
+"phone": "+962780000008",
+"mobile": "+962780000008",
+"email": "mahmoud.shwayat.guide@gmail.com",
+"website": null,
+"whatsapp": "+962780000008"
+},
+"location": {
+"country": "Jordan",
+"city": "Ajloun",
+"region": "Ajloun Governorate",
+"address": "Sakhra, Ajloun, Jordan"
+},
+"service_area": {
+"destinations_covered": ["Ajloun Castle", "Mar Elias", "Sakhra Historical Sites"],
+"preferred_destinations": "Ajloun Governorate"
+},
+"languages": {
+"spoken": ["Arabic", "English"],
+"preferred_language": "Arabic"
+},
+"services": {
+"service_categories": ["Tour Guiding", "Private Tours", "Religious Tours", "Special Interest Tours"]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": ["Licensed Tourist Guides", "Local Guides"]
+},
+"transportation": {
+"available": false
+},
+"availability": {
+"working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+"working_hours": "08:00 - 17:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 20,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Day",
+"min_price": 45,
+"max_price": 90,
+"notes": "Flexible scheduling for half-day or full-day tours."
+},
+"preferences": {
+"preferred_experience_types": ["History & Culture", "Religious Tourism", "Archaeological Tourism"]
+},
+"reviews": {
+"rating": 4.6,
+"review_count": 11,
+"source": "Local Tourism Platform",
+"last_updated": "2026-02-14"
+}
+},
+{
+"sme_id": "SME-000009",
+"sme_type": "tour_guide",
+"business_profile": {
+"name": "Sawsan Fashho",
+"description": "Professional tourist guide specializing in eco-tours, botanical walks, and nature photography throughout the Ajloun Reserve.",
+"experience_years": 5,
+"business_type": ["Tour Guide"],
+"specializations": ["Nature", "Photography", "Hiking", "Local Experiences"],
+"target_customer_types": ["Couples", "Families", "Solo Travelers"]
+},
+"contact": {
+"phone": "+962770000009",
+"mobile": "+962770000009",
+"email": "sawsan.fashho.guide@gmail.com",
+"website": null,
+"whatsapp": "+962770000009"
+},
+"location": {
+"country": "Jordan",
+"city": "Ajloun",
+"region": "Ajloun Governorate",
+"address": "Ajloun Forest Reserve Area, Jordan"
+},
+"service_area": {
+"destinations_covered": ["Ajloun Forest Reserve", "Roe Deer Trail", "Eyoun Al-Ghazal"],
+"preferred_destinations": "Ajloun Protected Areas"
+},
+"languages": {
+"spoken": ["Arabic", "English"],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": ["Tour Guiding", "Custom Itineraries", "Private Tours", "Hiking & Trekking"]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": ["Licensed Tourist Guides", "Specialized Guides"]
+},
+"transportation": {
+"available": false
+},
+"availability": {
+"working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+"working_hours": "08:00 - 16:30"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 15,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Day",
+"min_price": 50,
+"max_price": 90,
+"notes": "Includes botanical briefing and wildlife tracking insights."
+},
+"preferences": {
+"preferred_experience_types": ["Nature", "Hiking & Trekking", "Local Experiences"]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 13,
+"source": "Royal Society for the Conservation of Nature (RSCN) Collaborator",
+"last_updated": "2026-06-05"
+}
+},
+{
+"sme_id": "SME-000010",
+"sme_type": "tour_guide",
+"business_profile": {
+"name": "Tariq Bani Amer",
+"description": "Independent heritage guide offering comprehensive historical tours of Ajloun Castle and surrounding ancient towns.",
+"experience_years": 10,
+"business_type": ["Tour Guide"],
+"specializations": ["History", "Archaeology", "Culture"],
+"target_customer_types": ["Couples", "Families", "Solo Travelers"]
+},
+"contact": {
+"phone": "+962790000010",
+"mobile": "+962790000010",
+"email": "tariq.baniamer.guide@gmail.com",
+"website": null,
+"whatsapp": "+962790000010"
+},
+"location": {
+"country": "Jordan",
+"city": "Ajloun",
+"region": "Ajloun Governorate",
+"address": "Ain Janna, Ajloun, Jordan"
+},
+"service_area": {
+"destinations_covered": ["Ajloun Castle", "Tell Mar Elias", "Ajloun Museum"],
+"preferred_destinations": "Ajloun and Northern Governorates"
+},
+"languages": {
+"spoken": ["Arabic", "English"],
+"preferred_language": "Arabic"
+},
+"services": {
+"service_categories": ["Tour Guiding", "Private Tours", "Special Interest Tours", "Cultural Experiences"]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": ["Licensed Tourist Guides", "Professional Guides"]
+},
+"transportation": {
+"available": false
+},
+"availability": {
+"working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+"working_hours": "08:30 - 17:30"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 25,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Day",
+"min_price": 50,
+"max_price": 100,
+"notes": "Experienced with academic and institutional tour groups."
+},
+"preferences": {
+"preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 27,
+"source": "Jordan Tourism Board Registry",
+"last_updated": "2026-05-19"
+}
+},
+
+  {
+    "sme_id": "SME-000011",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Moatasem Al-Qudah",
+      "description": "Independent freelance tour guide specializing in off-the-beaten-path trails, village life, and agricultural heritage tours in Ajloun.",
+      "experience_years": 6,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Local Experiences", "Hiking", "Nature", "Culture"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962790000011",
+      "mobile": "+962790000011",
+      "email": "moatasem.qudah.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000011"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Baoun, Ajloun, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Baoun Valley", "Ajloun Forest Reserve", "Local Olive Groves"],
+      "preferred_destinations": "Northern Ajloun Villages"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English"],
+      "preferred_language": "Arabic"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Local Experiences", "Cultural Experiences", "Hiking & Trekking"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Local Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 45,
+      "max_price": 90,
+      "notes": "Includes seasonal olive harvest walk experiences."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Local Experiences", "Community Tourism", "Nature"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 14,
+      "source": "Jordan Village Tourism Network",
+      "last_updated": "2026-05-12"
+    }
+  },
+  {
+    "sme_id": "SME-000012",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Hadeel Mubaideen",
+      "description": "Certified freelance guide focusing on wellness-oriented nature retreats, meditative forest walks, and holistic heritage tours in Ajloun.",
+      "experience_years": 5,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Wellness", "Nature", "Culture", "Local Experiences"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962780000012",
+      "mobile": "+962780000012",
+      "email": "hadeel.mubaideen.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962780000012"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Ajloun Heights, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Ajloun Forest Reserve", "Orjan Hills", "Quiet Valley Trails"],
+      "preferred_destinations": "Ajloun Nature Reserves"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "French"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Specialized Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:30 - 16:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 10,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 55,
+      "max_price": 100,
+      "notes": "Specializes in slow-paced wellness and nature immersion."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Wellness", "Nature", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 16,
+      "source": "Eco-Wellness Jordan",
+      "last_updated": "2026-06-02"
+    }
+  },
+  {
+    "sme_id": "SME-000013",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Ziad Rababah",
+      "description": "Independent local guide offering deep historical insights into regional folklore, Islamic architecture, and old Ottoman structures in Ajloun.",
+      "experience_years": 11,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Culture", "Architecture", "Religious Sites"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962770000013",
+      "mobile": "+962770000013",
+      "email": "ziad.rababah.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962770000013"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Kufranjah, Ajloun, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Ajloun Castle", "Historical Village Mosques", "Old Kufranjah"],
+      "preferred_destinations": "Ajloun Heritage Centers"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English"],
+      "preferred_language": "Arabic"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Religious Tours", "Special Interest Tours", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:00 - 17:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 50,
+      "max_price": 100,
+      "notes": "Extensive expertise in medieval Islamic history."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Religious Tourism", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 4.7,
+      "review_count": 22,
+      "source": "Jordan Heritage Board",
+      "last_updated": "2026-04-20"
+    }
+  },
+  {
+    "sme_id": "SME-000014",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Lina Freihat",
+      "description": "Professional freelance tour guide specializing in family-friendly cultural tours, traditional handicraft workshops coordination, and local cuisine experiences.",
+      "experience_years": 6,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Culture", "Food", "Shopping", "Local Experiences"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962790000014",
+      "mobile": "+962790000014",
+      "email": "lina.freihat.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000014"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Ajloun Town, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Ajloun Soap House", "Calligraphy House", "Local Women Product Cooperatives"],
+      "preferred_destinations": "Ajloun Artisan Hubs"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Tour Planning & Itinerary Design"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Local Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "09:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 20,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 45,
+      "max_price": 90,
+      "notes": "Includes hands-on craft demonstration arrangements."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Local Experiences", "Food & Culinary", "Family Experiences"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 18,
+      "source": "Jordan Handicrafts Directory",
+      "last_updated": "2026-05-25"
+    }
+  },
+  {
+    "sme_id": "SME-000015",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Sameer Omari",
+      "description": "Independent adventure specialist leading challenging ridge hikes, night camping expeditions, and tracking tours across the Ajloun mountains.",
+      "experience_years": 9,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Adventure", "Hiking", "Camping", "Nature"],
+      "target_customer_types": ["Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962780000015",
+      "mobile": "+962780000015",
+      "email": "sameer.omari.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962780000015"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Rasoun, Ajloun, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Rasoun Ridge Trail", "Ajloun Forest Reserve backcountry", "Wadi Al-Yabis borders"],
+      "preferred_destinations": "Ajloun Wilderness Zones"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English"],
+      "preferred_language": "Arabic"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Adventure Activities", "Hiking & Trekking", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Professional Guides", "Specialized Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "06:30 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 12,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 65,
+      "max_price": 130,
+      "notes": "Equipped with professional navigation and wilderness safety gear."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Nature", "Soft Adventure", "Hiking & Trekking"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 24,
+      "source": "Adventure Jordan Hub",
+      "last_updated": "2026-06-10"
+    }
+  },
+  {
+    "sme_id": "SME-000016",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Nisreen Qteishat",
+      "description": "Freelance cultural and artistic heritage guide organizing painting-in-nature walks, photography tours, and historical storytelling in Ajloun.",
+      "experience_years": 4,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Art", "Photography", "Culture", "History"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962770000016",
+      "mobile": "+962770000016",
+      "email": "nisreen.qteishat.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962770000016"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Anjara, Ajloun, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Anjara Valley viewpoints", "Ajloun Castle scenic spots", "Old Stone Villages"],
+      "preferred_destinations": "Ajloun Scenic Landscapes"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Spanish"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Special Interest Tours", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "09:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 12,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 50,
+      "max_price": 95,
+      "notes": "Customized for creative workshops and photography enthusiasts."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Local Experiences", "Nature"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 11,
+      "source": "Art & Travel Jordan",
+      "last_updated": "2026-05-18"
+    }
+  },
+  {
+    "sme_id": "SME-000017",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Faris Bani Nasser",
+      "description": "Independent local tour guide specialized in archaeological mapping, Roman-Byzantine ruins exploration, and historical education tours in Ajloun.",
+      "experience_years": 8,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Archaeology", "History", "Culture"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962790000017",
+      "mobile": "+962790000017",
+      "email": "faris.baninasser.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000017"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Ain Janna, Ajloun, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Tell Mar Elias", "Khirbet Al-Wahadneh", "Ajloun Castle ruins"],
+      "preferred_destinations": "Ajloun Archaeological Sites"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Private Tours", "Special Interest Tours", "Cultural Experiences"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Specialized Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:30 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 20,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 50,
+      "max_price": 100,
+      "notes": "Collaborates frequently with history researchers and students."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 20,
+      "source": "Jordan Archaeological Society",
+      "last_updated": "2026-03-15"
+    }
+  },
+  {
+    "sme_id": "SME-000018",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Reem Momani",
+      "description": "Certified community tourist guide specializing in traditional culinary experiences, farm-to-table food tours, and rural lifestyle immersion in Ajloun.",
+      "experience_years": 6,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Food", "Culture", "Local Experiences", "Shopping"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962780000018",
+      "mobile": "+962780000018",
+      "email": "reem.momani.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962780000018"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Orjan, Ajloun, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Orjan Village farms", "Local Community Kitchens", "Ajloun Markets"],
+      "preferred_destinations": "Ajloun Agricultural Valleys"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English"],
+      "preferred_language": "Arabic"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Local Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "09:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 50,
+      "max_price": 95,
+      "notes": "Includes home-cooked traditional meal coordination."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Local Experiences", "Food & Culinary", "Community Tourism"]
+    },
+    "reviews": {
+      "rating": 5.0,
+      "review_count": 23,
+      "source": "Jordan Food & Heritage Trails",
+      "last_updated": "2026-06-08"
+    }
+  },
+  {
+    "sme_id": "SME-000019",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Anas Khateeb",
+      "description": "Independent freelance hiking and nature guide specializing in seasonal flora exploration, bird watching, and eco-trails in Ajloun.",
+      "experience_years": 7,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Nature", "Hiking", "Camping", "Photography"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962770000019",
+      "mobile": "+962770000019",
+      "email": "anas.khateeb.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962770000019"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Ajloun Forest Reserve Zone, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Ajloun Forest Reserve trails", "North Forest Hills", "Bird Watching Stations"],
+      "preferred_destinations": "Ajloun Protected Forests"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Adventure Activities", "Hiking & Trekking", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Specialized Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "07:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 20,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 45,
+      "max_price": 90,
+      "notes": "Expert in regional ecology and local wildlife."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Nature", "Soft Adventure", "Hiking & Trekking"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 17,
+      "source": "Jordan Eco-Guides Registry",
+      "last_updated": "2026-05-28"
+    }
+  },
+  {
+    "sme_id": "SME-000020",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Bayan Al-Smadi",
+      "description": "Professional freelance cultural tour guide providing comprehensive heritage and historical itineraries across Ajloun's prominent landmarks.",
+      "experience_years": 5,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Culture", "Local Experiences"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962790000020",
+      "mobile": "+962790000020",
+      "email": "bayan.alsmadi.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000020"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Ajloun City, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Ajloun Castle", "Ajloun Museum", "Old Town Heritage Sites"],
+      "preferred_destinations": "Ajloun Urban and Historical Sites"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Italian"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Custom Itineraries", "Private Tours", "Cultural Experiences"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:30 - 17:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 50,
+      "max_price": 95,
+      "notes": "Multilingual guiding available upon advance request."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 15,
+      "source": "Northern Tourism Guide Hub",
+      "last_updated": "2026-06-04"
+    }
+  },
+  
+  {
+    "sme_id": "SME-000021",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Hamza Al-Zghoul",
+      "description": "Independent freelance tour guide offering immersive trekking routes, historical explorations, and cultural exchanges in the villages of Ajloun.",
+      "experience_years": 6,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Hiking", "History", "Culture", "Local Experiences"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962790000021",
+      "mobile": "+962790000021",
+      "email": "hamza.zghoul.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000021"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Rajeb, Ajloun, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Rajeb Valley", "Ajloun Castle", "Local Watermills"],
+      "preferred_destinations": "Rajeb and Southern Ajloun Valleys"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English"],
+      "preferred_language": "Arabic"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Hiking & Trekking", "Local Experiences", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Local Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 20,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 45,
+      "max_price": 90,
+      "notes": "Specializes in river valley and water spring hiking routes."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Nature", "Hiking & Trekking", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 13,
+      "source": "Jordan Valleys Trail Network",
+      "last_updated": "2026-05-20"
+    }
+  },
+  {
+    "sme_id": "SME-000022",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Dima Qudah",
+      "description": "Professional freelance heritage guide focusing on women-led artisan initiatives, traditional soap making tours, and culinary workshops in Ajloun.",
+      "experience_years": 5,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Culture", "Food", "Shopping", "Local Experiences"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962780000022",
+      "mobile": "+962780000022",
+      "email": "dima.qudah.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962780000022"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Kufranjah, Ajloun, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Ajloun Soap House", "Local Artisan Cooperatives", "Kufranjah Heritage Centers"],
+      "preferred_destinations": "Ajloun Craft Centers"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Special Interest Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Local Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "09:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 50,
+      "max_price": 95,
+      "notes": "Includes interactive craft workshop bookings."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Local Experiences", "Food & Culinary", "Community Tourism"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 19,
+      "source": "Jordan Artisan Trails",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000023",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Basel Momani",
+      "description": "Independent freelance adventure guide specializing in high-altitude mountain trekking, ridge crossings, and remote camping in Ajloun.",
+      "experience_years": 8,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Adventure", "Hiking", "Camping", "Nature"],
+      "target_customer_types": ["Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962770000023",
+      "mobile": "+962770000023",
+      "email": "basel.momani.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962770000023"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Orjan, Ajloun, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Orjan Ridges", "Ajloun High Trails", "Wadi Al-Rayyan peaks"],
+      "preferred_destinations": "Ajloun Mountain Heights"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English"],
+      "preferred_language": "Arabic"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Adventure Activities", "Hiking & Trekking", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Professional Guides", "Specialized Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "06:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 10,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 60,
+      "max_price": 120,
+      "notes": "Certified mountaineering and trekking leader."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Nature", "Soft Adventure", "Hiking & Trekking"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 21,
+      "source": "Jordan Trail Association",
+      "last_updated": "2026-06-12"
+    }
+  },
+  {
+    "sme_id": "SME-000024",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Maram Freihat",
+      "description": "Certified freelance tourist guide specializing in historical narrative tours, religious landmarks, and architectural heritage of Ajloun.",
+      "experience_years": 7,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Religious Sites", "Culture", "Archaeology"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962790000024",
+      "mobile": "+962790000024",
+      "email": "maram.freihat.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000024"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Anjara, Ajloun, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Our Lady of the Mountain Shrine", "Ajloun Castle", "Historical Mosques and Churches"],
+      "preferred_destinations": "Ajloun Religious and Heritage Sites"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "French"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Religious Tours", "Cultural Experiences", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:30 - 17:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 50,
+      "max_price": 100,
+      "notes": "Extensive experience with interfaith pilgrimage groups."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Religious Tourism", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 26,
+      "source": "Jordan Pilgrimage Registry",
+      "last_updated": "2026-05-15"
+    }
+  },
+  {
+    "sme_id": "SME-000025",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Zaid Al-Smadi",
+      "description": "Independent nature and wildlife guide offering specialized eco-walks, botanical identification tours, and bird watching expeditions in Ajloun.",
+      "experience_years": 5,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Nature", "Photography", "Hiking", "Local Experiences"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962780000025",
+      "mobile": "+962780000025",
+      "email": "zaid.alsmadi.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962780000025"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Rasoun, Ajloun, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Ajloun Forest Reserve", "Rasoun Woodlands", "Local Nature Reserves"],
+      "preferred_destinations": "Ajloun Ecological Zones"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Adventure Activities", "Hiking & Trekking", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Specialized Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "07:30 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 45,
+      "max_price": 90,
+      "notes": "Collaborates with environmental conservation initiatives."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Nature", "Hiking & Trekking", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 14,
+      "source": "Jordan Wildlife & Nature Hub",
+      "last_updated": "2026-04-10"
+    }
+  },
+  {
+    "sme_id": "SME-000026",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Suhaib Rababah",
+      "description": "Independent freelance heritage guide specializing in archaeological excavations history, ancient castle architecture, and cultural storytelling in Ajloun.",
+      "experience_years": 9,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Archaeology", "Culture"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962770000026",
+      "mobile": "+962770000026",
+      "email": "suhaib.rababah.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962770000026"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Ain Janna, Ajloun, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Ajloun Castle", "Tell Mar Elias", "Regional Archaeological Mounds"],
+      "preferred_destinations": "Ajloun Historical District"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English"],
+      "preferred_language": "Arabic"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Private Tours", "Special Interest Tours", "Cultural Experiences"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:30 - 17:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 50,
+      "max_price": 100,
+      "notes": "Deep academic background in Levantine history."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 28,
+      "source": "Jordan Heritage Board",
+      "last_updated": "2026-05-22"
+    }
+  },
+  {
+    "sme_id": "SME-000027",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Kholoud Bani Amer",
+      "description": "Professional freelance cultural guide offering authentic rural home visits, traditional cooking masterclasses, and village exploration in Ajloun.",
+      "experience_years": 6,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Food", "Culture", "Local Experiences", "Shopping"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962790000027",
+      "mobile": "+962790000027",
+      "email": "kholoud.baniamer.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000027"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Kufranjah, Ajloun, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Kufranjah Village kitchens", "Local agricultural cooperatives", "Ajloun traditional markets"],
+      "preferred_destinations": "Ajloun Village Communities"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Local Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "09:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 12,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 50,
+      "max_price": 95,
+      "notes": "Specializes in authentic farm-to-table culinary tours."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Local Experiences", "Food & Culinary", "Community Tourism"]
+    },
+    "reviews": {
+      "rating": 5.0,
+      "review_count": 22,
+      "source": "Jordan Community Tourism Network",
+      "last_updated": "2026-06-07"
+    }
+  },
+  {
+    "sme_id": "SME-000028",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Tamer Al-Momani",
+      "description": "Independent freelance adventure and hiking guide leading backcountry trails, ridge traverses, and photography expeditions across Ajloun.",
+      "experience_years": 7,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Adventure", "Hiking", "Photography", "Nature"],
+      "target_customer_types": ["Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962780000028",
+      "mobile": "+962780000028",
+      "email": "tamer.momani.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962780000028"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Rasoun, Ajloun, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Rasoun Escarpment", "Ajloun Forest Reserve tracks", "Orjan Valley paths"],
+      "preferred_destinations": "Ajloun Highlands"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English"],
+      "preferred_language": "Arabic"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Adventure Activities", "Hiking & Trekking", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Professional Guides", "Specialized Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "07:00 - 17:30"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 55,
+      "max_price": 110,
+      "notes": "Expert in scenic landscape photography spots."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Nature", "Soft Adventure", "Hiking & Trekking"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 18,
+      "source": "Jordan Photographers & Hikers",
+      "last_updated": "2026-05-08"
+    }
+  },
+  {
+    "sme_id": "SME-000029",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Nadine Qteishat",
+      "description": "Certified freelance guide specializing in slow-paced wellness walks, nature therapy sessions, and meditative heritage tours in Ajloun.",
+      "experience_years": 5,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Wellness", "Nature", "Culture", "Local Experiences"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962770000029",
+      "mobile": "+962770000029",
+      "email": "nadine.qteishat.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962770000029"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Ajloun Forest Reserve, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Ajloun Forest Reserve trails", "Quiet Oak Groves", "Canopy Walk areas"],
+      "preferred_destinations": "Ajloun Forest Sanctuary"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "German"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Specialized Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:30 - 16:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 10,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 55,
+      "max_price": 105,
+      "notes": "Certified in forest bathing and mindfulness guiding."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Wellness", "Nature", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 15,
+      "source": "Holistic Jordan Network",
+      "last_updated": "2026-06-03"
+    }
+  },
+  {
+    "sme_id": "SME-000030",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Iyad Bani Nasser",
+      "description": "Independent freelance tour guide offering comprehensive historical circuits, fortress explorations, and educational heritage tours in Ajloun.",
+      "experience_years": 8,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Culture", "Archaeology"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962790000030",
+      "mobile": "+962790000030",
+      "email": "iyad.baninasser.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000030"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Ain Janna, Ajloun, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Ajloun Castle", "Tell Mar Elias", "Ajloun Museum"],
+      "preferred_destinations": "Ajloun Historical Landmarks"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English"],
+      "preferred_language": "Arabic"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Private Tours", "Special Interest Tours", "Cultural Experiences"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:30 - 17:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 50,
+      "max_price": 100,
+      "notes": "Specialized in school and university academic groups."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 24,
+      "source": "Jordan Educational Tourism Registry",
+      "last_updated": "2026-05-14"
+    }
+  },
+  
+  {
+    "sme_id": "SME-000031",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Murad Qudah",
+      "description": "Multilingual licensed tourist guide specializing in European delegations, architectural heritage, and historical narration across Ajloun.",
+      "experience_years": 9,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Culture", "Architecture", "Archaeology"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962790000031",
+      "mobile": "+962790000031",
+      "email": "murad.qudah.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000031"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Kufranjah, Ajloun, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Ajloun Castle", "Tell Mar Elias", "Historical Sites"],
+      "preferred_destinations": "Ajloun Governorate"
+    },
+    "languages": {
+      "spoken": ["Arabic", "French", "Italian"],
+      "preferred_language": "French"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Private Tours", "Special Interest Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:30 - 17:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 55,
+      "max_price": 110,
+      "notes": "Fluent in French and Italian for international visitor groups."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 25,
+      "source": "International Guide Registry Jordan",
+      "last_updated": "2026-06-02"
+    }
+  },
+  {
+    "sme_id": "SME-000032",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Ola Momani",
+      "description": "Independent eco-tourism and nature guide specializing in botanical tours, handicraft workshops, and farm-to-table experiences in Ajloun.",
+      "experience_years": 5,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Nature", "Food", "Shopping", "Local Experiences"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962780000032",
+      "mobile": "+962780000032",
+      "email": "ola.momani.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962780000032"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Orjan, Ajloun, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Orjan Valley", "Ajloun Soap House", "Local Farm Cooperatives"],
+      "preferred_destinations": "Ajloun Valleys and Craft Houses"
+    },
+    "languages": {
+      "spoken": ["Arabic", "German", "English"],
+      "preferred_language": "German"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "09:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 50,
+      "max_price": 95,
+      "notes": "Specializes in hosting German-speaking eco-tourists."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Local Experiences", "Food & Culinary", "Nature"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 16,
+      "source": "German-Jordanian Tourism Exchange",
+      "last_updated": "2026-05-19"
+    }
+  },
+  {
+    "sme_id": "SME-000033",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Rami Freihat",
+      "description": "Professional adventure and extreme hiking guide offering rugged mountain expeditions, canyoning routes, and wilderness survival camps.",
+      "experience_years": 8,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Adventure", "Hiking", "Camping", "Nature"],
+      "target_customer_types": ["Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962770000033",
+      "mobile": "+962770000033",
+      "email": "rami.freihat.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962770000033"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Rasoun, Ajloun, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Rasoun Escarpments", "Deep Canyon Trails", "Ajloun Backcountry"],
+      "preferred_destinations": "Ajloun Rugged Terrain"
+    },
+    "languages": {
+      "spoken": ["Arabic", "Spanish", "English"],
+      "preferred_language": "Spanish"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Adventure Activities", "Hiking & Trekking", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Professional Guides", "Specialized Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "06:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 12,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 60,
+      "max_price": 120,
+      "notes": "Certified adventure leader fluent in Spanish."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Nature", "Soft Adventure", "Hiking & Trekking"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 22,
+      "source": "Adventure Jordan Directory",
+      "last_updated": "2026-06-11"
+    }
+  },
+  {
+    "sme_id": "SME-000034",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Saja Zghoul",
+      "description": "Certified cultural heritage and art guide offering creative sketching walks, photography tours, and folklore storytelling sessions.",
+      "experience_years": 4,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Art", "Photography", "Culture", "Local Experiences"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962790000034",
+      "mobile": "+962790000034",
+      "email": "saja.zghoul.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000034"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Ain Janna, Ajloun, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Ain Janna orchards", "Ajloun Castle view points", "Heritage Stone Houses"],
+      "preferred_destinations": "Ajloun Visual Arts Spots"
+    },
+    "languages": {
+      "spoken": ["Arabic", "Russian", "English"],
+      "preferred_language": "Russian"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Special Interest Tours", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "09:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 10,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 50,
+      "max_price": 95,
+      "notes": "Multilingual guide offering tailored arts and photography experiences."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 12,
+      "source": "Creative Tourism Jordan",
+      "last_updated": "2026-05-05"
+    }
+  },
+  {
+    "sme_id": "SME-000035",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Zuhair Rababah",
+      "description": "Specialized religious and historical tour guide focusing on Islamic heritage, regional sanctuaries, and ancient medieval history in Ajloun.",
+      "experience_years": 10,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Religious Sites", "History", "Culture", "Architecture"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962780000035",
+      "mobile": "+962780000035",
+      "email": "zuhair.rababah.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962780000035"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Kufranjah, Ajloun, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Ajloun Castle Mosques", "Historical Shrines", "Old Town Madrasas"],
+      "preferred_destinations": "Ajloun Religious Landmarks"
+    },
+    "languages": {
+      "spoken": ["Arabic", "Turkish", "English"],
+      "preferred_language": "Turkish"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Religious Tours", "Cultural Experiences", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:00 - 17:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 30,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 50,
+      "max_price": 100,
+      "notes": "Expert in Ottoman-era history and Turkish-speaking delegations."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Religious Tourism"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 27,
+      "source": "Middle Eastern Heritage Foundation",
+      "last_updated": "2026-04-28"
+    }
+  },
+  {
+    "sme_id": "SME-000036",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Nouran Al-Smadi",
+      "description": "Freelance wellness guide providing holistic forest therapy walks, yoga-in-nature sessions, and quiet meditative retreats in Ajloun reserves.",
+      "experience_years": 5,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Wellness", "Nature", "Local Experiences", "Camping"],
+      "target_customer_types": ["Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962770000036",
+      "mobile": "+962770000036",
+      "email": "nouran.alsmadi.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962770000036"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Ajloun Forest Reserve, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Ajloun Forest Reserve Sanctuary", " secluded Oak Valleys"],
+      "preferred_destinations": "Ajloun Reserve Wellness Paths"
+    },
+    "languages": {
+      "spoken": ["Arabic", "French", "English"],
+      "preferred_language": "French"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Specialized Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:30 - 16:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 10,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 55,
+      "max_price": 105,
+      "notes": "Certified wellness practitioner fluent in French."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Wellness", "Nature", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 5.0,
+      "review_count": 14,
+      "source": "Holistic Travel Jordan",
+      "last_updated": "2026-06-06"
+    }
+  },
+  {
+    "sme_id": "SME-000037",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Ihsan Bani Amer",
+      "description": "Independent culinary and agri-tourism guide providing traditional cooking masterclasses, olive harvest tours, and village heritage walks.",
+      "experience_years": 7,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Food", "Culture", "Local Experiences", "Shopping"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962790000037",
+      "mobile": "+962790000037",
+      "email": "ihsan.baniamer.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000037"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Mar Elias Area, Ajloun, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Mar Elias villages", "Local Olive Presses", "Traditional Kitchens"],
+      "preferred_destinations": "Ajloun Agricultural Communities"
+    },
+    "languages": {
+      "spoken": ["Arabic", "German", "English"],
+      "preferred_language": "German"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Local Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "09:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 50,
+      "max_price": 95,
+      "notes": "Specializes in farm-to-table culinary sessions for German and English speakers."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Local Experiences", "Food & Culinary", "Community Tourism"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 21,
+      "source": "Jordan Food Trails",
+      "last_updated": "2026-06-01"
+    }
+  },
+  {
+    "sme_id": "SME-000038",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Wael Momani",
+      "description": "Professional archaeological and historical guide specializing in ancient Roman and Byzantine ruins across northern Jordan and Ajloun.",
+      "experience_years": 11,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Archaeology", "History", "Culture"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962780000038",
+      "mobile": "+962780000038",
+      "email": "wael.momani.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962780000038"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Ain Janna, Ajloun, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Tell Mar Elias", "Ajloun Castle", "Khirbet Al-Wahadneh"],
+      "preferred_destinations": "Ajloun & Northern Governorates"
+    },
+    "languages": {
+      "spoken": ["Arabic", "Italian", "English"],
+      "preferred_language": "Italian"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Private Tours", "Special Interest Tours", "Cultural Experiences"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:30 - 17:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 55,
+      "max_price": 110,
+      "notes": "Expert archaeologist fluent in Italian."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 29,
+      "source": "Italian-Jordanian Archaeological Mission",
+      "last_updated": "2026-05-24"
+    }
+  },
+  {
+    "sme_id": "SME-000039",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Lamees Qudah",
+      "description": "Independent freelance hiking and nature guide specializing in seasonal flower tracking, bird watching expeditions, and eco-tours.",
+      "experience_years": 6,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Nature", "Hiking", "Photography", "Local Experiences"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962770000039",
+      "mobile": "+962770000039",
+      "email": "lamees.qudah.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962770000039"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Rasoun, Ajloun, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Rasoun Woodlands", "Ajloun Forest Reserve trails", "Spring Water Streams"],
+      "preferred_destinations": "Ajloun Nature Sanctuaries"
+    },
+    "languages": {
+      "spoken": ["Arabic", "Spanish", "English"],
+      "preferred_language": "Spanish"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Adventure Activities", "Hiking & Trekking", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Specialized Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "07:30 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 50,
+      "max_price": 95,
+      "notes": "Specializes in eco-hiking tours with Spanish interpretation."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Nature", "Hiking & Trekking", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 17,
+      "source": "Eco-Trails Spain-Jordan",
+      "last_updated": "2026-05-10"
+    }
+  },
+  {
+    "sme_id": "SME-000040",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Khaldoun Al-Smadi",
+      "description": "Professional freelance cultural and historical guide offering immersive heritage itineraries and castle tours in Ajloun.",
+      "experience_years": 8,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Culture", "Local Experiences"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962790000040",
+      "mobile": "+962790000040",
+      "email": "khaldoun.alsmadi.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000040"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Ajloun City, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Ajloun Castle", "Ajloun Museum", "Old Village Quarters"],
+      "preferred_destinations": "Ajloun Cultural Hubs"
+    },
+    "languages": {
+      "spoken": ["Arabic", "Russian", "English"],
+      "preferred_language": "Russian"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Custom Itineraries", "Private Tours", "Cultural Experiences"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:30 - 17:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 50,
+      "max_price": 100,
+      "notes": "Experienced in guiding Russian and international tourist groups."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Local Experiences"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 23,
+      "source": "Jordan Tourism Board Network",
+      "last_updated": "2026-06-03"
+    }
+  },
+  {
+    "sme_id": "SME-000041",
+    "sme_type": "handicrafts_artisan",
+    "business_profile": {
+      "name": "Fatima Mubaideen",
+      "description": "Traditional ceramic and pottery studio creating hand-thrown terracotta pieces, glazed kitchenware, and custom mosaic tiles inspired by ancient Jordanian motifs.",
+      "experience_years": 12,
+      "business_type": ["Handicrafts & Artisan"],
+      "specializations": ["Art", "Shopping", "Culture", "Local Experiences"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962791111041",
+      "mobile": "+962791111041",
+      "email": "fatima.ceramics@gmail.com",
+      "website": null,
+      "whatsapp": "+962791111041"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Anjara, Ajloun, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Anjara Workshop", "Local Craft Markets"],
+      "preferred_destinations": "Ajloun Craft Centers"
+    },
+    "languages": {
+      "spoken": ["Arabic", "German", "English"],
+      "preferred_language": "German"
+    },
+    "services": {
+      "service_categories": ["Pottery Workshops", "Custom Art Pieces", "Retail Craft Sales", "Cultural Experiences"]
+    },
+    "guides": {
+      "provides_guides": false,
+      "guide_types": []
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "09:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 10,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Workshop",
+      "min_price": 25,
+      "max_price": 60,
+      "notes": "Offers hands-on pottery throwing classes; speaks fluent German."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Local Experiences", "Art & Craft", "Shopping"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 31,
+      "source": "Jordan Artisan Guild",
+      "last_updated": "2026-06-10"
+    }
+  },
+  {
+    "sme_id": "SME-000042",
+    "sme_type": "transport_provider",
+    "business_profile": {
+      "name": "Yousef Al-Khatib",
+      "description": "Private eco-transport and 4x4 safari service specializing in off-road mountain transfers, reserve excursions, and airport pick-ups across northern Jordan.",
+      "experience_years": 9,
+      "business_type": ["Transport Provider"],
+      "specializations": ["Adventure", "Nature", "Transportation"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962782222042",
+      "mobile": "+962782222042",
+      "email": "yousef.safaritransit@gmail.com",
+      "website": null,
+      "whatsapp": "+962782222042"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Ajloun Main Street, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Ajloun Forest Reserve", "Orjan Valley", "Amman Airport", "Jerash"],
+      "preferred_destinations": "Northern Jordan Routes & Off-road Trails"
+    },
+    "languages": {
+      "spoken": ["Arabic", "French", "English"],
+      "preferred_language": "French"
+    },
+    "services": {
+      "service_categories": ["Private Transfers", "4x4 Mountain Tours", "Airport Shuttles", "Driver Services"]
+    },
+    "guides": {
+      "provides_guides": false,
+      "guide_types": []
+    },
+    "transportation": {
+      "available": true,
+      "vehicle_types": ["4x4 SUV", "Passenger Van", "Sedan"],
+      "fleet_size": 4
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "06:00 - 22:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 7,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 70,
+      "max_price": 140,
+      "notes": "Reliable 4x4 transport provider with conversational French skills."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Private Transport", "Soft Adventure"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 24,
+      "source": "Jordan Transit Association",
+      "last_updated": "2026-06-04"
+    }
+  },
+  {
+    "sme_id": "SME-000043",
+    "sme_type": "eco_lodge",
+    "business_profile": {
+      "name": "Barakat Al-Zawahreh",
+      "description": "Rustic mountainside eco-camp offering traditional Bedouin-style goat-hair tents, campfire stargazing evenings, and organic breakfast experiences.",
+      "experience_years": 6,
+      "business_type": ["Accommodation", "Eco Lodge"],
+      "specializations": ["Nature", "Camping", "Food", "Local Experiences"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962773333043",
+      "mobile": "+962773333043",
+      "email": "barakat.mountaincamp@gmail.com",
+      "website": null,
+      "whatsapp": "+962773333043"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Rasoun Heights, Ajloun, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Rasoun Campgrounds", "Valley Overlooks"],
+      "preferred_destinations": "Rasoun Escarpment"
+    },
+    "languages": {
+      "spoken": ["Arabic", "Spanish", "English"],
+      "preferred_language": "Spanish"
+    },
+    "services": {
+      "service_categories": ["Overnight Camping", "Traditional Dining", "Campfire Evenings", "Stargazing Tours"]
+    },
+    "guides": {
+      "provides_guides": false,
+      "guide_types": []
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "24 Hours"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 30,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Night",
+      "min_price": 40,
+      "max_price": 90,
+      "notes": "Includes overnight tent stay and breakfast; Spanish spoken."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Eco-Tourism", "Camping & Stargazing"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 38,
+      "source": "Middle East Campgrounds Network",
+      "last_updated": "2026-06-12"
+    }
+  },
+  {
+    "sme_id": "SME-000044",
+    "sme_type": "handicrafts_artisan",
+    "business_profile": {
+      "name": "Khitam Freihat",
+      "description": "Women's cooperative workshop specializing in traditional olive-oil soap manufacturing, organic herbal balms, and natural loofah crafts.",
+      "experience_years": 8,
+      "business_type": ["Handicrafts & Artisan"],
+      "specializations": ["Shopping", "Wellness", "Local Experiences", "Culture"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962794444044",
+      "mobile": "+962794444044",
+      "email": "khitam.soaphouse@gmail.com",
+      "website": null,
+      "whatsapp": "+962794444044"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Kufranjah, Ajloun, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Kufranjah Cooperative", "Local Olive Groves"],
+      "preferred_destinations": "Kufranjah Valley Workshops"
+    },
+    "languages": {
+      "spoken": ["Arabic", "Turkish", "English"],
+      "preferred_language": "Turkish"
+    },
+    "services": {
+      "service_categories": ["Soap Making Demonstrations", "Artisanal Retail", "Herb Harvesting Workshops"]
+    },
+    "guides": {
+      "provides_guides": false,
+      "guide_types": []
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "09:00 - 16:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 20,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 15,
+      "max_price": 35,
+      "notes": "Interactive soap-cutting and natural skincare workshops; Turkish spoken."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Shopping", "Local Craft", "Wellness"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 42,
+      "source": "Jordanian Rural Heritage Board",
+      "last_updated": "2026-05-30"
+    }
+  },
+  {
+    "sme_id": "SME-000045",
+    "sme_type": "restaurant",
+    "business_profile": {
+      "name": "Nawal Qudah",
+      "description": "Farm-to-table family kitchen offering authentic northern Jordanian dishes including Saj bread, wild thyme pastries, and slow-cooked local stews.",
+      "experience_years": 7,
+      "business_type": ["Restaurant", "Food Experience"],
+      "specializations": ["Food", "Culture", "Local Experiences"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962785555045",
+      "mobile": "+962785555045",
+      "email": "nawal.countrykitchen@gmail.com",
+      "website": null,
+      "whatsapp": "+962785555045"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Orjan, Ajloun, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Orjan Stream Gardens", "Village Dining Terrace"],
+      "preferred_destinations": "Orjan Village Dining"
+    },
+    "languages": {
+      "spoken": ["Arabic", "Russian", "English"],
+      "preferred_language": "Russian"
+    },
+    "services": {
+      "service_categories": ["Traditional Dining", "Cooking Masterclasses", "Family Lunches", "Catering"]
+    },
+    "guides": {
+      "provides_guides": false,
+      "guide_types": []
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "10:00 - 19:00"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 40,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Meal",
+      "min_price": 12,
+      "max_price": 30,
+      "notes": "Authentic rural dining experience with Russian language support."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Food & Culinary", "Local Community"]
+    },
+    "reviews": {
+      "rating": 5.0,
+      "review_count": 55,
+      "source": "Taste of Jordan Directory",
+      "last_updated": "2026-06-08"
+    }
+  },
+  {
+    "sme_id": "SME-000046",
+    "sme_type": "handicrafts_artisan",
+    "business_profile": {
+      "name": "Ibrahim Momani",
+      "description": "Master olive-wood carver and carpenter crafting custom kitchen utensils, decorative bowls, and traditional backgammon boards from aged local olive trees.",
+      "experience_years": 15,
+      "business_type": ["Handicrafts & Artisan"],
+      "specializations": ["Art", "Shopping", "Culture"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962776666046",
+      "mobile": "+962776666046",
+      "email": "ibrahim.woodcraft@gmail.com",
+      "website": null,
+      "whatsapp": "+962776666046"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Ain Janna, Ajloun, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Ain Janna Carpentry Shop", "Artisan Markets"],
+      "preferred_destinations": "Ain Janna Craft Quarter"
+    },
+    "languages": {
+      "spoken": ["Arabic", "Italian", "English"],
+      "preferred_language": "Italian"
+    },
+    "services": {
+      "service_categories": ["Woodcarving Demonstrations", "Custom Woodwork", "Retail Craft Sales"]
+    },
+    "guides": {
+      "provides_guides": false,
+      "guide_types": []
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "08:30 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 12,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Item",
+      "min_price": 10,
+      "max_price": 85,
+      "notes": "Handcrafted olive-wood goods with Italian communication available."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Shopping", "Art & Craft"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 27,
+      "source": "Mediterranean Craft Guild",
+      "last_updated": "2026-05-20"
+    }
+  },
+  {
+    "sme_id": "SME-000047",
+    "sme_type": "adventure_provider",
+    "business_profile": {
+      "name": "Tariq Bani Nasser",
+      "description": "Zipline, rope course, and outdoor adventure park operator offering family-friendly adrenaline activities nestled within the Ajloun pine canopy.",
+      "experience_years": 5,
+      "business_type": ["Adventure Provider"],
+      "specializations": ["Adventure", "Nature", "Hiking"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962797777047",
+      "mobile": "+962797777047",
+      "email": "tariq.canopyadventure@gmail.com",
+      "website": null,
+      "whatsapp": "+962797777047"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Ajloun Forest Reserve Park, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Ajloun Canopy Zipline Course", "Reserve Adventure Hub"],
+      "preferred_destinations": "Forest Adventure Zones"
+    },
+    "languages": {
+      "spoken": ["Arabic", "German", "English"],
+      "preferred_language": "German"
+    },
+    "services": {
+      "service_categories": ["Zipline Rides", "Rope Course Activities", "Safety Briefings", "Group Adventure Packages"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Adventure Instructors"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "09:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 50,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Activity",
+      "min_price": 15,
+      "max_price": 35,
+      "notes": "High-safety zipline and rope adventures with German-speaking staff."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Adventure", "Family Activities"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 64,
+      "source": "Jordan Adventure Sports Federation",
+      "last_updated": "2026-06-11"
+    }
+  },
+  {
+    "sme_id": "SME-000048",
+    "sme_type": "farm_cooperative",
+    "business_profile": {
+      "name": "Maysa Rababah",
+      "description": "Organic honey producer and beekeeping cooperative offering instructional apiary tours, honey tasting masterclasses, and pure forest honey retail.",
+      "experience_years": 8,
+      "business_type": ["Farm Cooperative", "Local Producer"],
+      "specializations": ["Food", "Nature", "Shopping", "Local Experiences"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962788888048",
+      "mobile": "+962788888048",
+      "email": "maysa.foresthoney@gmail.com",
+      "website": null,
+      "whatsapp": "+962788888048"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Kufranjah Hills, Ajloun, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Kufranjah Apiaries", "Wildflower Meadows"],
+      "preferred_destinations": "Kufranjah Beekeeping Trails"
+    },
+    "languages": {
+      "spoken": ["Arabic", "French", "English"],
+      "preferred_language": "French"
+    },
+    "services": {
+      "service_categories": ["Beekeeping Tours", "Honey Tasting", "Organic Product Sales", "Educational Workshops"]
+    },
+    "guides": {
+      "provides_guides": false,
+      "guide_types": []
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "09:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 10,
+      "max_price": 25,
+      "notes": "Immersive beekeeping tours with French language assistance."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Agri-Tourism", "Local Food Experiences"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 29,
+      "source": "Jordan Beekeepers Syndicate",
+      "last_updated": "2026-05-28"
+    }
+  },
+  {
+    "sme_id": "SME-000049",
+    "sme_type": "handicrafts_artisan",
+    "business_profile": {
+      "name": "Randa Al-Smadi",
+      "description": "Traditional handloom weaving and embroidery studio producing colorful rugs, decorative cushions, and shawls made from local wool and cotton.",
+      "experience_years": 10,
+      "business_type": ["Handicrafts & Artisan"],
+      "specializations": ["Art", "Shopping", "Culture", "Local Experiences"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962779999049",
+      "mobile": "+962779999049",
+      "email": "randa.weavingstudio@gmail.com",
+      "website": null,
+      "whatsapp": "+962779999049"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Mar Elias, Ajloun, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Mar Elias Weaving House", "Heritage Displays"],
+      "preferred_destinations": "Mar Elias Artisan Hub"
+    },
+    "languages": {
+      "spoken": ["Arabic", "Spanish", "English"],
+      "preferred_language": "Spanish"
+    },
+    "services": {
+      "service_categories": ["Weaving Demonstrations", "Handloom Workshops", "Textile Retail", "Cultural Sharing"]
+    },
+    "guides": {
+      "provides_guides": false,
+      "guide_types": []
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "working_hours": "09:00 - 16:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 12,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Session",
+      "min_price": 20,
+      "max_price": 45,
+      "notes": "Traditional pedal-loom weaving workshops; Spanish spoken."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Local Craft", "Shopping & Culture"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 22,
+      "source": "Jordan Folklore Heritage Center",
+      "last_updated": "2026-06-03"
+    }
+  },
+  {
+    "sme_id": "SME-000050",
+    "sme_type": "event_organizer",
+    "business_profile": {
+      "name": "Ziad Momani",
+      "description": "Cultural event and outdoor festival coordinator specializing in folk music performances, storytelling nights around the campfire, and village heritage tours.",
+      "experience_years": 8,
+      "business_type": ["Event Organizer", "Cultural Experience"],
+      "specializations": ["Culture", "Local Experiences", "Entertainment"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+962790000050",
+      "mobile": "+962790000050",
+      "email": "ziad.culturalevents@gmail.com",
+      "website": null,
+      "whatsapp": "+962790000050"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Ajloun City Center, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Ajloun Castle Courtyard", "Village Community Spaces"],
+      "preferred_destinations": "Ajloun Event Venues"
+    },
+    "languages": {
+      "spoken": ["Arabic", "Turkish", "English"],
+      "preferred_language": "Turkish"
+    },
+    "services": {
+      "service_categories": ["Cultural Event Planning", "Music & Folklore Evenings", "Group Entertainment", "Private Gatherings"]
+    },
+    "guides": {
+      "provides_guides": false,
+      "guide_types": []
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "09:00 - 21:00"
+    },
+    "capacity": {
+      "minimum_group_size": 5,
+      "maximum_group_size": 100,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Event",
+      "min_price": 100,
+      "max_price": 350,
+      "notes": "Curator of traditional music and cultural evenings; Turkish spoken."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Cultural Events", "Local Entertainment"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 35,
+      "source": "Northern Jordan Cultural Association",
+      "last_updated": "2026-06-07"
+    }
+  }
+
+
+]

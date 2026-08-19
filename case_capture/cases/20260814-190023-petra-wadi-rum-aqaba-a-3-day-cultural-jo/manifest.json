@@ -1,0 +1,121 @@
+{
+  "caseId": "20260814-190023-petra-wadi-rum-aqaba-a-3-day-cultural-jo",
+  "createdAt": "2026-08-14T19:00:23.238699+00:00",
+  "trip_title": "Petra, Wadi Rum & Aqaba: A 3-Day Cultural Journey",
+  "rag": {
+    "status": "ok",
+    "source": "retriever",
+    "duration_days": 3,
+    "cluster_count": 3,
+    "clusters": [
+      {
+        "cluster_id": 0,
+        "theme": "Aqaba Governorate · history, culture",
+        "poi_count": 4,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "Aqaba Heritage House",
+          "Ayla Oasis Marina",
+          "Souq By The Sea",
+          "Princess Salma Park"
+        ],
+        "hotel_names": [
+          "Cedar Hotel",
+          "Marina Plaza Hotel Tala Bay",
+          "Luciana Hotel by FHM",
+          "Jazeerat Qubtan Hotel"
+        ],
+        "sample_restaurants": [
+          "Royal Yacht Club Restaurant Aqaba",
+          "Al Kufa Cafe & Restaurant",
+          "Pave Restaurant & Cafe",
+          "Ayla Beach Club Restaurant",
+          "Deera Cafe & Restaurant",
+          "Formosa Chinese Restaurant"
+        ],
+        "event_names": [
+          "Eid Evenings - Aqaba",
+          "Aesthetics of Aqaba and Aqabawi Heritage Seminar",
+          "Aqaba International Poetry Evening"
+        ]
+      },
+      {
+        "cluster_id": 1,
+        "theme": "Ma'an Governorate · history",
+        "poi_count": 10,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "Red Sand Dunes of Wadi Rum",
+          "Wadi Rum Visitor Center",
+          "French Fortress Ruins (Wadi Rum)",
+          "Desert Police Station & Fort (Wadi Rum)",
+          "Petra Museum",
+          "Maan Historic Souq",
+          "Little Petra (Siq al-Barid)",
+          "Rum Village Bedouin Oasis",
+          "Great Temple of Petra",
+          "Neolithic Village of Beidha"
+        ],
+        "hotel_names": [
+          "Petra Aretas Hotel",
+          "Cleopetra Hotel",
+          "Petra Sky Hotel",
+          "Nomads Hotel Petra"
+        ],
+        "sample_restaurants": [
+          "Captain's Desert Camp Restaurant Wadi Rum",
+          "Sun City Camp Dining Tent",
+          "Wadi Rum Rest House Restaurant",
+          "Rum Magic Restaurant",
+          "Bait Al-Karam Restaurant",
+          "Bawabat Baghdad Restaurant"
+        ],
+        "event_names": [
+          "Jordan Summer Festival - Ma'an",
+          "Petra Heritage Fashion and Local Products Exhibition",
+          "Ma'an Cultural Days"
+        ]
+      },
+      {
+        "cluster_id": 2,
+        "theme": "Aqaba Governorate · history, culture",
+        "poi_count": 4,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "Aqaba Gateway Shopping Complex",
+          "Aqaba Marine Park",
+          "Islamic Ayla Ruins",
+          "Al-Hafayer Park and Beach"
+        ],
+        "hotel_names": [
+          "Marina Plaza Hotel Tala Bay",
+          "Cedar Hotel",
+          "Luciana Hotel by FHM",
+          "Jazeerat Qubtan Hotel"
+        ],
+        "sample_restaurants": [
+          "Syrian Palace Restaurant",
+          "Ali Baba Restaurant",
+          "Suzana Restaurant & Cafe",
+          "Casalingo",
+          "Papaya Restaurant & Cafe",
+          "Red Sea Grill"
+        ],
+        "event_names": [
+          "Eid Evenings - Aqaba",
+          "Aesthetics of Aqaba and Aqabawi Heritage Seminar",
+          "Aqaba International Poetry Evening"
+        ]
+      }
+    ]
+  },
+  "paths": {
+    "input": "01_input.json",
+    "knowledge": "02_retriever.json",
+    "knowledge_preview": "02_retriever_preview.json",
+    "output": "03_output.json"
+  }
+}

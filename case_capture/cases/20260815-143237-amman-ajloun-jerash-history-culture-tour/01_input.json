@@ -1,0 +1,49 @@
+{
+  "mode": "build",
+  "requestedAt": "2026-08-15T14:31:38.738000Z",
+  "trip": {
+    "startDate": "2026-08-20",
+    "duration": "3",
+    "arrivalAirport": "AMM",
+    "arrivalTime": "15:50",
+    "totalBudget": 800.0,
+    "preferredLanguage": "English",
+    "preferredRegions": [
+      "Jerash",
+      "Ajloun"
+    ]
+  },
+  "travelers": {
+    "adults": 4,
+    "children": 0,
+    "childrenAges": [],
+    "seniors": 0,
+    "groupType": "family",
+    "accessibilityNeeds": []
+  },
+  "preferences": {
+    "interests": [
+      "history",
+      "culture"
+    ],
+    "tripPace": "Balanced",
+    "activityLevel": "Easy",
+    "mustVisit": [],
+    "placesToAvoid": ""
+  },
+  "accommodation": {
+    "type": "hotel",
+    "rating": "4 star"
+  },
+  "dining": {
+    "cuisine": [
+      "Local Jordanian"
+    ]
+  },
+  "extras": {
+    "specialOccasion": "None",
+    "smePreferences": [],
+    "aiPriority": "budget",
+    "freeText": ""
+  }
+}

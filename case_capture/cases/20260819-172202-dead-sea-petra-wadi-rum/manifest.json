@@ -1,0 +1,95 @@
+{
+  "caseId": "20260819-172202-dead-sea-petra-wadi-rum",
+  "createdAt": "2026-08-19T17:22:02.678648+00:00",
+  "trip_title": "Dead Sea · Petra · Wadi Rum",
+  "rag": {
+    "status": "ok",
+    "source": "retriever",
+    "duration_days": 3,
+    "cluster_count": 3,
+    "clusters": [
+      {
+        "cluster_id": 0,
+        "theme": "Ma'an Governorate · culture, history",
+        "poi_count": 5,
+        "hotel_count": 0,
+        "event_count": 1,
+        "poi_names": [
+          "Wadi Rum Visitor Center",
+          "Rum Village Bedouin Oasis",
+          "French Fortress Ruins (Wadi Rum)",
+          "Desert Police Station & Fort (Wadi Rum)",
+          "Red Sand Dunes of Wadi Rum"
+        ],
+        "hotel_names": [],
+        "sample_restaurants": [
+          "Captain's Desert Camp Restaurant Wadi Rum",
+          "Wadi Rum Visitor Center Rest House",
+          "Wadi Rum Rest House Restaurant"
+        ],
+        "event_names": [
+          "Wadi Rum Endurance Race"
+        ]
+      },
+      {
+        "cluster_id": 1,
+        "theme": "Karak Governorate · history, culture",
+        "poi_count": 2,
+        "hotel_count": 4,
+        "event_count": 0,
+        "poi_names": [
+          "Al-Karak Panorama Viewpoint",
+          "Dead Sea Panorama Complex (Madaba Overlook)"
+        ],
+        "hotel_names": [
+          "Grand East Hotel Resort & Spa Dead Sea",
+          "Ramada Resort by Wyndham Dead Sea",
+          "Holiday Inn Resort Dead Sea",
+          "Dead Sea Spa Hotel"
+        ],
+        "sample_restaurants": [
+          "Dead Sea Panorama Restaurant",
+          "Ocean Fresh Fish Sweimeh"
+        ],
+        "event_names": []
+      },
+      {
+        "cluster_id": 2,
+        "theme": "Ma'an Governorate · history, culture",
+        "poi_count": 5,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "Petra Museum",
+          "Petra Church (Byzantine Church)",
+          "Little Petra (Siq al-Barid)",
+          "Al-Khazneh (The Treasury)",
+          "Al-Khazneh Viewpoint (Jabal al-Khubtha Trail)"
+        ],
+        "hotel_names": [
+          "Petra Aretas Hotel",
+          "Petra Moon Luxury Hotel",
+          "Little Petra Bedouin Camp",
+          "Cleopetra Hotel"
+        ],
+        "sample_restaurants": [
+          "The Basin Restaurant Petra",
+          "Rock Camp Restaurant Little Petra",
+          "Little Petra Bedouin Camp Restaurant",
+          "Crowne Plaza Petra Basin Restaurant"
+        ],
+        "event_names": [
+          "Petra Heritage Fashion and Local Products Exhibition",
+          "Petra by Night",
+          "Dinner in Front of the Treasury"
+        ]
+      }
+    ]
+  },
+  "paths": {
+    "input": "01_input.json",
+    "knowledge": "02_retriever.json",
+    "knowledge_preview": "02_retriever_preview.json",
+    "output": "03_output.json"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "caseId": "20260815-221344-wadi-rum-cultural-escape",
+  "createdAt": "2026-08-15T22:13:44.677557+00:00",
+  "trip_title": "Wadi Rum Cultural Escape",
+  "rag": {
+    "status": "ok",
+    "source": "retriever",
+    "duration_days": 2,
+    "cluster_count": 2,
+    "clusters": [
+      {
+        "cluster_id": 0,
+        "theme": "Ma'an Governorate · culture",
+        "poi_count": 10,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "Petra Museum",
+          "Maan Historic Souq",
+          "Rum Village Bedouin Oasis",
+          "Wadi Rum Visitor Center",
+          "Neolithic Village of Beidha",
+          "Little Petra (Siq al-Barid)",
+          "Red Sand Dunes of Wadi Rum",
+          "Al-Mu'aysrah Temple Trail",
+          "Jabal Burdah Rock Bridge",
+          "Al-Maddras Trail & High Viewpoint"
+        ],
+        "hotel_names": [
+          "Petra Aretas Hotel",
+          "Valentine Inn",
+          "Cleopetra Hotel",
+          "Ammarin Bedouin Camp"
+        ],
+        "sample_restaurants": [
+          "Bait Al-Karam Restaurant",
+          "Bawabat Baghdad Restaurant",
+          "Rahayeb Desert Camp Restaurant",
+          "Sun City Camp Dining Tent",
+          "Nabataean Tent Restaurant",
+          "Little Petra Bedouin Camp Restaurant"
+        ],
+        "event_names": [
+          "Jordan Summer Festival - Ma'an",
+          "Ma'an Cultural Days",
+          "Petra Heritage Fashion and Local Products Exhibition"
+        ]
+      },
+      {
+        "cluster_id": 1,
+        "theme": "Ma'an Governorate · culture",
+        "poi_count": 9,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "Anfeeshiah Inscriptions",
+          "Desert Police Station & Fort (Wadi Rum)",
+          "Barrah Canyon",
+          "Um Frouth Rock Bridge",
+          "The Siq",
+          "Nabataean Theater",
+          "Tombs of the Soldier & Garden Triclinium",
+          "Ad-Deir (The Monastery)",
+          "Al-Jafr Castle"
+        ],
+        "hotel_names": [
+          "Petra Aretas Hotel",
+          "Valentine Inn",
+          "Cleopetra Hotel",
+          "Ammarin Bedouin Camp"
+        ],
+        "sample_restaurants": [
+          "Rahayeb Desert Camp Restaurant",
+          "Captain's Desert Camp Restaurant Wadi Rum",
+          "Sun City Camp Dining Tent",
+          "Bedouin Night Camp Restaurant",
+          "Movenpick Roof Garden Restaurant",
+          "Bedouin Cave Cafe"
+        ],
+        "event_names": [
+          "Jordan Summer Festival - Ma'an",
+          "Ma'an Cultural Days",
+          "Petra Heritage Fashion and Local Products Exhibition"
+        ]
+      }
+    ]
+  },
+  "paths": {
+    "input": "01_input.json",
+    "knowledge": "02_retriever.json",
+    "knowledge_preview": "02_retriever_preview.json",
+    "output": "03_output.json"
+  }
+}

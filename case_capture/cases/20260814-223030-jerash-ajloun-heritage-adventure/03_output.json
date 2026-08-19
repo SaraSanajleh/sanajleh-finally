@@ -1,0 +1,429 @@
+{
+  "metadata": {
+    "model": "gpt-oss:20b-cloud",
+    "provider": "ollama",
+    "mode": "build",
+    "latencyMs": 86826.39,
+    "retries": 0,
+    "caseId": null,
+    "rag": {
+      "status": "ok",
+      "source": "retriever",
+      "duration_days": 3,
+      "cluster_count": 3,
+      "clusters": [
+        {
+          "cluster_id": 0,
+          "theme": "Balqa Governorate · history, culture",
+          "poi_count": 10,
+          "hotel_count": 4,
+          "event_count": 3,
+          "poi_names": [
+            "Al-Fuheis Heritage Quarter",
+            "Fuheis Heritage Quarter (Al-Fuheis Old Town)",
+            "Fuheis Cultural Centre",
+            "Mahes Pine Forest Park",
+            "Abu Jaber Museum",
+            "Zaha Cultural Center",
+            "As-Salt Heritage Trail Starting Point",
+            "Zain Al-Sharaf Nature Reserve",
+            "Mahes Ancient Village and Springs",
+            "Al-Jubeiha to Balqa Agricultural Terraces Viewpoint"
+          ],
+          "hotel_names": [
+            "Al Hummar Restaurant and Hotel",
+            "Mountain Breeze Lodge & Resort",
+            "Grand East Hotel Resort & Spa Dead Sea",
+            "Holiday Inn Resort Dead Sea"
+          ],
+          "sample_restaurants": [
+            "Baladna Restaurant",
+            "Carob House Fuheis",
+            "Kababish Fuheis",
+            "Obidos Cafe & Restaurant",
+            "Jordan Heritage Restaurant Salt",
+            "Dardasha Kitchen"
+          ],
+          "event_names": [
+            "Fuheis Festival",
+            "Jordan Summer Festival - Balqa",
+            "Eid Evenings - Balqa"
+          ]
+        },
+        {
+          "cluster_id": 1,
+          "theme": "Jerash Governorate · culture, history",
+          "poi_count": 10,
+          "hotel_count": 4,
+          "event_count": 3,
+          "poi_names": [
+            "Jerash Heritage Souk",
+            "Hippodrome of Jerash",
+            "Suf Village Heritage Center",
+            "North Theater of Jerash",
+            "Zarqa River Bridge Historic Site",
+            "Ain Al-Basha Public Park",
+            "Ain Al-Basha Old Marketplace",
+            "Tell Johfiyeh",
+            "Ain Al-Basha Public Library and Cultural Hub",
+            "King Abdullah II Park"
+          ],
+          "hotel_names": [
+            "Celestia Boutique Inn",
+            "Jerash Hotel",
+            "The Olive Branch Hotel",
+            "Dream House Hotel Apartments"
+          ],
+          "sample_restaurants": [
+            "Jerash Gate Restaurant",
+            "Roman Bridge Restaurant",
+            "Jerash Canyon Restaurant",
+            "Green Jerash Restaurant",
+            "Al Deyafa Tourist Restaurant",
+            "Al Ghabah Restaurant"
+          ],
+          "event_names": [
+            "Jerash Festival for Culture and Arts",
+            "National Celebrations Programme - Jerash",
+            "Jordan Summer Festival - Jerash"
+          ]
+        },
+        {
+          "cluster_id": 2,
+          "theme": "Ajloun Governorate · culture, history",
+          "poi_count": 10,
+          "hotel_count": 4,
+          "event_count": 3,
+          "poi_names": [
+            "Ajloun Olive Press Museum",
+            "Ajloun Biscuit House",
+            "Wadi Rayyan",
+            "Baoun Historic Village",
+            "Al-Husun Traditional Pottery Studio",
+            "Tell Johfiyeh",
+            "Mazar Al-Shamali Forest Reserve",
+            "Wadi Jirim",
+            "Pella Archaeological Site",
+            "Wadi Al-Arayan"
+          ],
+          "hotel_names": [
+            "Ajloun Hotel",
+            "Al-Jabal Castle Hotel - Ajloun",
+            "Al Ghazal Villas",
+            "Ajloun Forest Reserve"
+          ],
+          "sample_restaurants": [
+            "Al-Manara Grill & Restaurant",
+            "Ajloun Forest Reserve Restaurant",
+            "Rasoun Heritage House Restaurant",
+            "Orjan Village Farm Breakfast & House",
+            "Al-Kanz Restaurant",
+            "Tawaheen Al-Hawa Irbid"
+          ],
+          "event_names": [
+            "National Celebrations Programme - Ajloun",
+            "Ajloun Ramadan Family and Children Carnival",
+            "Jordan Summer Festival - Ajloun"
+          ]
+        }
+      ]
+    }
+  },
+  "package": {
+    "welcome_message": "Welcome to your personalized Jordan adventure, where history and culture come alive in Jerash and Ajloun!",
+    "why_you_will_love_this": {
+      "highlights": [
+        "Al-Fuheis Heritage Quarter",
+        "Mahes Pine Forest Park",
+        "Hippodrome of Jerash",
+        "Jerash Heritage Souk",
+        "Ajloun Olive Press Museum",
+        "Ajloun Biscuit House"
+      ],
+      "special_touches": [
+        "Budget-friendly itinerary",
+        "Family-friendly experiences",
+        "Authentic Jordanian cuisine"
+      ]
+    },
+    "trip_title": "Jerash & Ajloun Heritage Adventure",
+    "trip_description": {
+      "overview": "A 3-day journey through Jordan's rich heritage, exploring historic sites in Balqa, the iconic ruins of Jerash, and the natural beauty of Ajloun, all while enjoying local Jordanian cuisine and comfortable 4-star accommodations.",
+      "included": [
+        "Historic site visits",
+        "Local Jordanian meals",
+        "4-star hotel stays",
+        "Entry fees",
+        "Guided walking tours"
+      ],
+      "not_included": [
+        "Transportation between regions",
+        "Travel insurance",
+        "Personal guide fees"
+      ]
+    },
+    "trip_details": {
+      "duration": {
+        "days": "3",
+        "nights": "2"
+      },
+      "trip_type": [
+        "family",
+        "history",
+        "culture"
+      ],
+      "number_of_travelers": "4",
+      "budget": {
+        "amount": "900",
+        "currency": "JOD"
+      }
+    },
+    "daily_itinerary": [
+      {
+        "day_number": "1",
+        "day_title": "Balqa Heritage Day",
+        "day_summary": "Explore the historic Al-Fuheis Heritage Quarter and the tranquil Mahes Pine Forest Park, with local Jordanian meals.",
+        "activities": [
+          {
+            "start_time": "09:00",
+            "end_time": "10:30",
+            "activity_title": "Al-Fuheis Heritage Quarter",
+            "description": "Traditional 19th-century stone courtyard architecture and narrow hillside alleyways.",
+            "location": "Al-Fuheis Heritage Quarter",
+            "estimated_cost": "0 JOD",
+            "smart_tip": "Entry 0 JOD per person x 4 travellers"
+          },
+          {
+            "start_time": "12:00",
+            "end_time": "13:30",
+            "activity_title": "Lunch at Baladna Restaurant",
+            "description": "Mixed charcoal grill and saj bread spread in a lively family-friendly setting.",
+            "location": "Baladna Restaurant",
+            "estimated_cost": "56 JOD",
+            "smart_tip": "Meal 14 JOD per person x 4 travellers = 56 JOD"
+          },
+          {
+            "start_time": "14:00",
+            "end_time": "15:00",
+            "activity_title": "Mahes Pine Forest Park",
+            "description": "Shaded pine tree canopies and scenic valley views.",
+            "location": "Mahes Pine Forest Park",
+            "estimated_cost": "0 JOD",
+            "smart_tip": "Entry 0 JOD per person x 4 travellers"
+          },
+          {
+            "start_time": "19:00",
+            "end_time": "20:30",
+            "activity_title": "Dinner at Carob House",
+            "description": "Fresh goat cheese and fig salad with a relaxed ambience.",
+            "location": "Carob House",
+            "estimated_cost": "60 JOD",
+            "smart_tip": "Meal 15 JOD per person x 4 travellers = 60 JOD"
+          }
+        ],
+        "activity_alternatives": [
+          {
+            "original_activity": "Al-Fuheis Heritage Quarter",
+            "alternative_activity": "Fuheis Heritage Quarter (Al-Fuheis Old Town)",
+            "reason": "Similar historic quarter with traditional stone houses."
+          },
+          {
+            "original_activity": "Lunch at Baladna Restaurant",
+            "alternative_activity": "Obidos Cafe & Restaurant",
+            "reason": "Offers a relaxed cafe atmosphere and local dishes."
+          },
+          {
+            "original_activity": "Mahes Pine Forest Park",
+            "alternative_activity": "Al-Fuheis Cultural Centre",
+            "reason": "Cultural centre with local art exhibitions."
+          },
+          {
+            "original_activity": "Dinner at Carob House",
+            "alternative_activity": "Baladna Restaurant",
+            "reason": "Same local Jordanian cuisine, different ambience."
+          }
+        ]
+      },
+      {
+        "day_number": "2",
+        "day_title": "Jerash Ancient Ruins",
+        "day_summary": "Discover the Hippodrome and the bustling Jerash Heritage Souk, complemented by authentic Jordanian dining.",
+        "activities": [
+          {
+            "start_time": "09:00",
+            "end_time": "09:30",
+            "activity_title": "Hippodrome of Jerash",
+            "description": "Massive 245-meter seating arena track and reconstructed starting gates.",
+            "location": "Hippodrome of Jerash",
+            "estimated_cost": "40 JOD",
+            "smart_tip": "Entry 10 JOD per person x 4 travellers = 40 JOD"
+          },
+          {
+            "start_time": "12:00",
+            "end_time": "13:30",
+            "activity_title": "Lunch at Jerash Gate Restaurant",
+            "description": "Mixed grill platter and oriental rice in a casual setting.",
+            "location": "Jerash Gate Restaurant",
+            "estimated_cost": "56 JOD",
+            "smart_tip": "Meal 14 JOD per person x 4 travellers = 56 JOD"
+          },
+          {
+            "start_time": "14:00",
+            "end_time": "15:00",
+            "activity_title": "Jerash Heritage Souk",
+            "description": "Authentic local market with olive oil and soap stalls.",
+            "location": "Jerash Heritage Souk",
+            "estimated_cost": "0 JOD",
+            "smart_tip": "Entry 0 JOD per person x 4 travellers"
+          },
+          {
+            "start_time": "19:00",
+            "end_time": "20:30",
+            "activity_title": "Dinner at Roman Bridge Restaurant",
+            "description": "Grilled lamb skewers and stuffed vine leaves in a scenic outdoor setting.",
+            "location": "Roman Bridge Restaurant",
+            "estimated_cost": "56 JOD",
+            "smart_tip": "Meal 14 JOD per person x 4 travellers = 56 JOD"
+          }
+        ],
+        "activity_alternatives": [
+          {
+            "original_activity": "Hippodrome of Jerash",
+            "alternative_activity": "Suf Village Heritage Center",
+            "reason": "Historic Roman site with similar heritage."
+          },
+          {
+            "original_activity": "Lunch at Jerash Gate Restaurant",
+            "alternative_activity": "Roman Bridge Restaurant",
+            "reason": "Same local cuisine, different setting."
+          },
+          {
+            "original_activity": "Jerash Heritage Souk",
+            "alternative_activity": "Suf Village Heritage Center",
+            "reason": "Traditional market atmosphere."
+          },
+          {
+            "original_activity": "Dinner at Roman Bridge Restaurant",
+            "alternative_activity": "Jerash Gate Restaurant",
+            "reason": "Same local cuisine, different ambience."
+          }
+        ]
+      },
+      {
+        "day_number": "3",
+        "day_title": "Ajloun Cultural & Natural Highlights",
+        "day_summary": "Visit the Ajloun Olive Press Museum and the charming Ajloun Biscuit House, ending with a scenic dinner.",
+        "activities": [
+          {
+            "start_time": "09:00",
+            "end_time": "09:40",
+            "activity_title": "Ajloun Olive Press Museum",
+            "description": "Authentic basalt olive mill and tasting area.",
+            "location": "Ajloun Olive Press Museum",
+            "estimated_cost": "4 JOD",
+            "smart_tip": "Entry 1 JOD per person x 4 travellers = 4 JOD"
+          },
+          {
+            "start_time": "12:00",
+            "end_time": "13:30",
+            "activity_title": "Lunch at Al-Manara Grill & Restaurant",
+            "description": "Mixed charcoal grill and za'atar manaqeesh in a casual setting.",
+            "location": "Al-Manara Grill & Restaurant",
+            "estimated_cost": "28 JOD",
+            "smart_tip": "Meal 7 JOD per person x 4 travellers = 28 JOD"
+          },
+          {
+            "start_time": "14:00",
+            "end_time": "14:30",
+            "activity_title": "Ajloun Biscuit House",
+            "description": "Traditional olive oil and herb biscuits with local crafts.",
+            "location": "Ajloun Biscuit House",
+            "estimated_cost": "0 JOD",
+            "smart_tip": "Entry 0 JOD per person x 4 travellers"
+          },
+          {
+            "start_time": "19:00",
+            "end_time": "20:30",
+            "activity_title": "Dinner at Ajloun Forest Reserve Restaurant",
+            "description": "Ajloun wild herb tea and local goat cheese spread in a relaxed ambience.",
+            "location": "Ajloun Forest Reserve Restaurant",
+            "estimated_cost": "54 JOD",
+            "smart_tip": "Meal 13.5 JOD per person x 4 travellers = 54 JOD"
+          }
+        ],
+        "activity_alternatives": [
+          {
+            "original_activity": "Ajloun Olive Press Museum",
+            "alternative_activity": "Ajloun Biscuit House",
+            "reason": "Both showcase local heritage crafts."
+          },
+          {
+            "original_activity": "Lunch at Al-Manara Grill & Restaurant",
+            "alternative_activity": "Ajloun Forest Reserve Restaurant",
+            "reason": "Same local cuisine, different setting."
+          },
+          {
+            "original_activity": "Ajloun Biscuit House",
+            "alternative_activity": "Ajloun Olive Press Museum",
+            "reason": "Both showcase local heritage crafts."
+          },
+          {
+            "original_activity": "Dinner at Ajloun Forest Reserve Restaurant",
+            "alternative_activity": "Al-Manara Grill & Restaurant",
+            "reason": "Same local cuisine, different ambience."
+          }
+        ]
+      }
+    ],
+    "budget_summary": {
+      "items": [
+        {
+          "category": "Accommodation",
+          "estimated_cost": "162 JOD",
+          "notes": "Includes 2 rooms at Grand East Hotel Resort & Spa Dead Sea and 1 family room at Celestia Boutique Inn"
+        },
+        {
+          "category": "Meals",
+          "estimated_cost": "310 JOD",
+          "notes": ""
+        },
+        {
+          "category": "Activities & Entry Fees",
+          "estimated_cost": "44 JOD",
+          "notes": ""
+        }
+      ],
+      "total_estimated_cost": "516 JOD"
+    },
+    "essential_travel_tips": [
+      {
+        "category": "Dining",
+        "tips": [
+          "Enjoy local Jordanian dishes at each restaurant",
+          "Try the signature dishes like Saj Bread at Baladna",
+          "Ask for vegetarian options if needed"
+        ]
+      },
+      {
+        "category": "Pacing",
+        "tips": [
+          "Take breaks between visits to avoid fatigue",
+          "Plan for a relaxed pace with ample free time",
+          "Adjust meal times if needed for children"
+        ]
+      },
+      {
+        "category": "Safety",
+        "tips": [
+          "Stay hydrated during outdoor visits",
+          "Wear comfortable shoes for walking",
+          "Check weather forecasts before outdoor activities"
+        ]
+      }
+    ],
+    "explanations": {
+      "trip_planning_reason": "The itinerary follows the traveler's preferred regions of Jerash and Ajloun, with a day in Balqa as a scenic introduction. Each day stays within a single cluster to avoid back-tracking, and overnight stays are at 4-star hotels that meet the requested rating. The schedule balances historic sites and local cuisine while keeping the pace relaxed for a family with a child.",
+      "selection_reason": "Al-Fuheis Heritage Quarter and Mahes Pine Forest Park offer free entry and a mix of cultural and natural experiences. The Hippodrome of Jerash and Jerash Heritage Souk provide iconic Roman heritage and market life. Ajloun Olive Press Museum and Ajloun Biscuit House showcase local olive culture and culinary traditions. Restaurants were chosen for their local Jordanian cuisine, suitable for families, and within the meal windows. Lodging was selected to meet the 4-star requirement and to keep costs within the budget. All choices are grounded in the evidence and respect the traveler's preferences for history, culture, and budget."
+    }
+  }
+}

@@ -1,0 +1,2798 @@
+[
+{
+"sme_id": "SME-000001",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Salt Tours and Adventures",
+"description": "A specialized local tour operator based in As-Salt, offering heritage walks, cultural immersion, and historical excursions highlighting the architectural and historical significance of the Balqa governorate.",
+"experience_years": 8,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Heritage-related experiences",
+"Local Experiences"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": null,
+"mobile": "+96253551234",
+"email": "info@salttours.example",
+"website": "[https://www.salttours.example](https://www.salttours.example)",
+"whatsapp": "+96253551234"
+},
+"location": {
+"country": "Jordan",
+"city": "As-Salt",
+"region": "Balqa Governorate",
+"address": "Al-Hammam Street, As-Salt, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"As-Salt",
+"Zarqa Main",
+"Iraq Al-Amir"
+],
+"preferred_destinations": [
+"As-Salt",
+"Iraq Al-Amir"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Tour Planning & Itinerary Design",
+"Cultural Experiences",
+"Local Experiences",
+"Walking Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Licensed Tourist Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00–17:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 15,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person / Per Tour",
+"min_price": 25.0,
+"max_price": 120.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Local Experiences",
+"Community Tourism"
+]
+},
+"reviews": {
+"rating": 4.7,
+"review_count": 34,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000002",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Balqa Heritage Journeys",
+"description": "Incoming tour operator focusing on authentic community-based tourism, historical trails, and countryside exploration across the Balqa governorate.",
+"experience_years": 6,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Culture",
+"History",
+"Local Experiences",
+"Hiking"
+],
+"target_customer_types": [
+"Families",
+"Solo Travelers",
+"Couples"
+]
+},
+"contact": {
+"phone": null,
+"mobile": "+96253559876",
+"email": "contact@balqaheritage.example",
+"website": "[https://www.balqaheritage.example](https://www.balqaheritage.example)",
+"whatsapp": "+96253559876"
+},
+"location": {
+"country": "Jordan",
+"city": "As-Salt",
+"region": "Balqa Governorate",
+"address": "Main Street, As-Salt, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"As-Salt",
+"Fuheis",
+"Mahis"
+],
+"preferred_destinations": [
+"As-Salt",
+"Fuheis"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Planning & Itinerary Design",
+"Cultural Experiences",
+"Local Experiences",
+"Private Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Professional Guides",
+"Local Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "08:30–16:30"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 20,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Tour",
+"min_price": 30.0,
+"max_price": 150.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Local Experiences"
+]
+},
+"reviews": {
+"rating": 4.5,
+"review_count": 19,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000003",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Zai Valley Eco-Tours",
+"description": "Nature-focused tour agency operating out of the Balqa region, providing eco-tours, nature walks, and outdoor adventure experiences near the Zai reserve area.",
+"experience_years": 5,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Nature",
+"Hiking",
+"Camping",
+"Adventure"
+],
+"target_customer_types": [
+"Solo Travelers",
+"Couples",
+"Families"
+]
+},
+"contact": {
+"phone": null,
+"mobile": "+96253441122",
+"email": "info@zaivalleytours.example",
+"website": "[https://www.zaivalleytours.example](https://www.zaivalleytours.example)",
+"whatsapp": "+96253441122"
+},
+"location": {
+"country": "Jordan",
+"city": "As-Salt",
+"region": "Balqa Governorate",
+"address": "Zai District, As-Salt, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Zai National Park",
+"As-Salt",
+"Jordan Valley Slopes"
+],
+"preferred_destinations": [
+"Zai National Park"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Adventure Activities",
+"Tour Guiding",
+"Transportation",
+"Special Interest Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Specialized Guides",
+"Local Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "08:00–18:00"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 12,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 20.0,
+"max_price": 95.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Nature",
+"Soft Adventure",
+"Hiking & Trekking"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 27,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000004",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Fuheis Wine and Culture Expeditions",
+"description": "Niche tour operator organizing local vineyard tours, culinary experiences, and cultural excursions centered around Fuheis and surrounding Balqa towns.",
+"experience_years": 4,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Food",
+"Culture",
+"Local Experiences"
+],
+"target_customer_types": [
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": null,
+"mobile": "+96253223344",
+"email": "booking@fuheiscultural.example",
+"website": "[https://www.fuheiscultural.example](https://www.fuheiscultural.example)",
+"whatsapp": "+96253223344"
+},
+"location": {
+"country": "Jordan",
+"city": "Fuheis",
+"region": "Balqa Governorate",
+"address": "Church Street, Fuheis, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Fuheis",
+"Mahis",
+"As-Salt"
+],
+"preferred_destinations": [
+"Fuheis"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Cultural Experiences",
+"Local Experiences",
+"Special Interest Tours",
+"Restaurant Booking"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": false
+},
+"availability": {
+"working_days": [
+"Thursday",
+"Friday",
+"Saturday",
+"Sunday"
+],
+"working_hours": "10:00–19:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 10,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 35.0,
+"max_price": 110.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Food & Culinary",
+"Local Experiences",
+"History & Culture"
+]
+},
+"reviews": {
+"rating": 4.6,
+"review_count": 15,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000005",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Balqa Panorama Travel",
+"description": "General incoming tour and travel services provider offering customized regional itineraries, airport transfers, and day tours across the Balqa governorate and Jordan.",
+"experience_years": 10,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Nature"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": null,
+"mobile": "+96253554455",
+"email": "info@balqapanorama.example",
+"website": "[https://www.balqapanorama.example](https://www.balqapanorama.example)",
+"whatsapp": "+96253554455"
+},
+"location": {
+"country": "Jordan",
+"city": "As-Salt",
+"region": "Balqa Governorate",
+"address": "Al-Rased Street, As-Salt, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"As-Salt",
+"Amman",
+"Dead Sea",
+"Jerash"
+],
+"preferred_destinations": [
+"As-Salt",
+"Dead Sea"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Custom Itineraries",
+"Private Tours",
+"Airport Transfers"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Licensed Tourist Guides",
+"Professional Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00–18:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 25,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Day / Per Tour",
+"min_price": 50.0,
+"max_price": 200.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Nature",
+"Family Experiences"
+]
+},
+"reviews": {
+"rating": 4.4,
+"review_count": 42,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000006",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Jordan Valley Explorers (Balqa Branch)",
+"description": "Regional tour operator specializing in agricultural tourism, lower Jordan valley excursions, and outdoor trekking across the Balqa valley terrain.",
+"experience_years": 7,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Nature",
+"Adventure",
+"Local Experiences",
+"Hiking"
+],
+"target_customer_types": [
+"Solo Travelers",
+"Families",
+"Couples"
+]
+},
+"contact": {
+"phone": null,
+"mobile": "+96253587788",
+"email": "support@jvexplorers.example",
+"website": "[https://www.jvexplorers.example](https://www.jvexplorers.example)",
+"whatsapp": "+96253587788"
+},
+"location": {
+"country": "Jordan",
+"city": "Deir Alla",
+"region": "Balqa Governorate",
+"address": "Valley Road, Deir Alla, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Deir Alla",
+"Jordan Valley",
+"Karameh"
+],
+"preferred_destinations": [
+"Jordan Valley",
+"Deir Alla"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Adventure Activities",
+"Local Experiences",
+"Transportation"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "08:00–16:00"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 15,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 25.0,
+"max_price": 85.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Nature",
+"Soft Adventure",
+"Local Experiences"
+]
+},
+"reviews": {
+"rating": 4.5,
+"review_count": 21,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000007",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "As-Salt Heritage Walkers",
+"description": "Boutique tour group provider focused exclusively on guided walking tours through the historical heritage trail of As-Salt old town.",
+"experience_years": 5,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Archaeology",
+"Local Experiences"
+],
+"target_customer_types": [
+"Couples",
+"Solo Travelers",
+"Families"
+]
+},
+"contact": {
+"phone": null,
+"mobile": "+96253556677",
+"email": "walkers@saltheritage.example",
+"website": "[https://www.saltheritage.example](https://www.saltheritage.example)",
+"whatsapp": "+96253556677"
+},
+"location": {
+"country": "Jordan",
+"city": "As-Salt",
+"region": "Balqa Governorate",
+"address": "Al-Jdoh Quarter, As-Salt, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"As-Salt"
+],
+"preferred_destinations": [
+"As-Salt"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Cultural Experiences",
+"Walking Tours",
+"Private Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Licensed Tourist Guides"
+]
+},
+"transportation": {
+"available": false
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "09:00–17:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 12,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 15.0,
+"max_price": 45.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Archaeological Tourism",
+"Local Experiences"
+]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 53,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000008",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Damia Travel and Tourism",
+"description": "Local incoming agency operating near the Jordan Valley and Balqa area, arranging historical site visits, local transportation, and customized day itineraries.",
+"experience_years": 9,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Religious Sites",
+"Culture"
+],
+"target_customer_types": [
+"Families",
+"Couples"
+]
+},
+"contact": {
+"phone": null,
+"mobile": "+96253553322",
+"email": "contact@damiatravel.example",
+"website": "[https://www.damiatravel.example](https://www.damiatravel.example)",
+"whatsapp": "+96253553322"
+},
+"location": {
+"country": "Jordan",
+"city": "As-Salt",
+"region": "Balqa Governorate",
+"address": "Salt Downtown, As-Salt, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"As-Salt",
+"Baptism Site (Bethany Beyond the Jordan)",
+"Dead Sea"
+],
+"preferred_destinations": [
+"Baptism Site (Bethany Beyond the Jordan)",
+"As-Salt"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Religious Tours",
+"Private Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Licensed Tourist Guides",
+"Professional Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "08:30–17:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 30,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Day",
+"min_price": 40.0,
+"max_price": 180.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Religious Tourism",
+"History & Culture"
+]
+},
+"reviews": {
+"rating": 4.3,
+"review_count": 18,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000009",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Ain Al-Basha Leisure Tours",
+"description": "Regional tour provider offering budget-friendly group outings, local countryside tours, and picnic excursions across northern Balqa and surrounding hills.",
+"experience_years": 4,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Nature",
+"Local Experiences",
+"Family Experiences"
+],
+"target_customer_types": [
+"Families",
+"Couples"
+]
+},
+"contact": {
+"phone": null,
+"mobile": "+96253991100",
+"email": "info@ainalbashatours.example",
+"website": "[https://www.ainalbashatours.example](https://www.ainalbashatours.example)",
+"whatsapp": "+96253991100"
+},
+"location": {
+"country": "Jordan",
+"city": "Ain Al-Basha",
+"region": "Balqa Governorate",
+"address": "Main Commercial Street, Ain Al-Basha, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Ain Al-Basha",
+"As-Salt",
+"Jerash Hills"
+],
+"preferred_destinations": [
+"Ain Al-Basha",
+"As-Salt"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "Arabic"
+},
+"services": {
+"service_categories": [
+"Group Tours",
+"Transportation",
+"Local Experiences"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00–17:00"
+},
+"capacity": {
+"minimum_group_size": 4,
+"maximum_group_size": 25,
+"private_groups": false,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 15.0,
+"max_price": 60.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Family Experiences",
+"Local Experiences",
+"Nature"
+]
+},
+"reviews": {
+"rating": 4.2,
+"review_count": 12,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000010",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Mahis Cultural Adventures",
+"description": "Specialist tour company based in Mahis focusing on rural heritage trails, local farming traditions, and scenic walking tracks in the Balqa hills.",
+"experience_years": 6,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Culture",
+"Nature",
+"Local Experiences",
+"Hiking"
+],
+"target_customer_types": [
+"Solo Travelers",
+"Couples",
+"Families"
+]
+},
+"contact": {
+"phone": null,
+"mobile": "+96253445566",
+"email": "explore@mahiscultural.example",
+"website": "[https://www.mahiscultural.example](https://www.mahiscultural.example)",
+"whatsapp": "+96253445566"
+},
+"location": {
+"country": "Jordan",
+"city": "Mahis",
+"region": "Balqa Governorate",
+"address": "Spring Road, Mahis, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Mahis",
+"Fuheis",
+"As-Salt"
+],
+"preferred_destinations": [
+"Mahis",
+"Fuheis"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Cultural Experiences",
+"Local Experiences",
+"Walking Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": false
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00–17:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 12,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 20.0,
+"max_price": 75.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Local Experiences",
+"Hiking & Trekking",
+"History & Culture"
+]
+},
+"reviews": {
+"rating": 4.7,
+"review_count": 22,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+}
+]
+
+[
+{
+"sme_id": "SME-000011",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Balqa Trails & Horizons",
+"description": "Incoming tour organizer providing comprehensive trekking packages and historical site tours across the highlands and valleys of the Balqa governorate.",
+"experience_years": 7,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Nature",
+"Hiking",
+"History",
+"Culture"
+],
+"target_customer_types": [
+"Solo Travelers",
+"Couples",
+"Families"
+]
+},
+"contact": {
+"phone": null,
+"mobile": "+96253557799",
+"email": "info@balqatrails.example",
+"website": "[https://www.balqatrails.example](https://www.balqatrails.example)",
+"whatsapp": "+96253557799"
+},
+"location": {
+"country": "Jordan",
+"city": "As-Salt",
+"region": "Balqa Governorate",
+"address": "Al-Bqa'a Road, As-Salt, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"As-Salt",
+"Zai",
+"Jordan Valley"
+],
+"preferred_destinations": [
+"As-Salt",
+"Zai"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Adventure Activities",
+"Custom Itineraries",
+"Private Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Professional Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "08:30–17:30"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 18,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 30.0,
+"max_price": 130.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Hiking & Trekking",
+"Nature",
+"History & Culture"
+]
+},
+"reviews": {
+"rating": 4.6,
+"review_count": 31,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000012",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Iraq Al-Amir Heritage Expeditions",
+"description": "Specialist tour agency operating around the historical Qasr el-Abd and Iraq Al-Amir village, offering craft workshops, heritage tours, and rural exploration.",
+"experience_years": 6,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Archaeology",
+"Culture",
+"Local Experiences"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": null,
+"mobile": "+96253582233",
+"email": "contact@iraqalamirtours.example",
+"website": "[https://www.iraqalamirtours.example](https://www.iraqalamirtours.example)",
+"whatsapp": "+96253582233"
+},
+"location": {
+"country": "Jordan",
+"city": "Iraq Al-Amir",
+"region": "Balqa Governorate",
+"address": "Village Center, Iraq Al-Amir, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Iraq Al-Amir",
+"As-Salt",
+"Wadi Seer"
+],
+"preferred_destinations": [
+"Iraq Al-Amir"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Cultural Experiences",
+"Local Experiences",
+"Tour Guiding",
+"Special Interest Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Licensed Tourist Guides"
+]
+},
+"transportation": {
+"available": false
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00–16:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 15,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 20.0,
+"max_price": 65.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Archaeological Tourism",
+"Local Experiences",
+"History & Culture"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 39,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000013",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Shouneh Northern Valley Tours",
+"description": "Local tour operator providing agricultural tours, valley excursions, and outdoor winter getaways across South Shouneh and the Jordan Valley portion of Balqa.",
+"experience_years": 5,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Nature",
+"Local Experiences",
+"Desert Experiences"
+],
+"target_customer_types": [
+"Families",
+"Couples"
+]
+},
+"contact": {
+"phone": null,
+"mobile": "+96253549900",
+"email": "info@shounehtours.example",
+"website": "[https://www.shounehtours.example](https://www.shounehtours.example)",
+"whatsapp": "+96253549900"
+},
+"location": {
+"country": "Jordan",
+"city": "South Shouneh",
+"region": "Balqa Governorate",
+"address": "Main Valley Highway, South Shouneh, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"South Shouneh",
+"Dead Sea",
+"Jordan Valley"
+],
+"preferred_destinations": [
+"South Shouneh",
+"Dead Sea"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "Arabic"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Transportation",
+"Local Experiences",
+"Group Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "08:00–17:00"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 20,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 25.0,
+"max_price": 90.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Local Experiences",
+"Nature",
+"Family Experiences"
+]
+},
+"reviews": {
+"rating": 4.3,
+"review_count": 14,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000014",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Dead Sea Ridge Adventures",
+"description": "Adventure tour operator specializing in cliffside hiking, canyoning support, and eco-tours along the escarpments overlooking the Dead Sea in Balqa governorate.",
+"experience_years": 8,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Adventure",
+"Hiking",
+"Nature"
+],
+"target_customer_types": [
+"Solo Travelers",
+"Couples"
+]
+},
+"contact": {
+"phone": null,
+"mobile": "+96253493311",
+"email": "explore@deadsearidge.example",
+"website": "[https://www.deadsearidge.example](https://www.deadsearidge.example)",
+"whatsapp": "+96253493311"
+},
+"location": {
+"country": "Jordan",
+"city": "Sweimeh",
+"region": "Balqa Governorate",
+"address": "Dead Sea Panorama Road, Sweimeh, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Sweimeh",
+"Dead Sea Escarpments",
+"Wadi Mujib Vicinity"
+],
+"preferred_destinations": [
+"Sweimeh",
+"Dead Sea Escarpments"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Adventure Activities",
+"Tour Guiding",
+"Transportation",
+"Special Interest Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Specialized Guides",
+"Professional Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "07:30–18:00"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 12,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 45.0,
+"max_price": 160.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Soft Adventure",
+"Hiking & Trekking",
+"Nature"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 45,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000015",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Balqa Discovery & Transfer Services",
+"description": "Incoming tour agency offering reliable ground transportation, airport connections, and curated historical day trips originating from As-Salt and Balqa.",
+"experience_years": 11,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": null,
+"mobile": "+96253558800",
+"email": "booking@balqatransfers.example",
+"website": "[https://www.balqatransfers.example](https://www.balqatransfers.example)",
+"whatsapp": "+96253558800"
+},
+"location": {
+"country": "Jordan",
+"city": "As-Salt",
+"region": "Balqa Governorate",
+"address": "King Hussein Street, As-Salt, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"As-Salt",
+"Amman",
+"Queen Alia International Airport",
+"Dead Sea"
+],
+"preferred_destinations": [
+"As-Salt",
+"Queen Alia International Airport"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Transportation",
+"Airport Transfers",
+"Tour Planning & Itinerary Design",
+"Private Tours",
+"Meet & Greet / Airport Assistance"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Professional Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "07:00–21:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 35,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Transfer / Per Day",
+"min_price": 35.0,
+"max_price": 190.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Family Experiences"
+]
+},
+"reviews": {
+"rating": 4.5,
+"review_count": 58,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000016",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Zarqa Ma'in & Balqa Wellness Tours",
+"description": "Wellness and relaxation tour operator offering therapeutic tours, hot spring visits, and scenic leisure trips across the southern Balqa and hot spring corridors.",
+"experience_years": 6,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Wellness",
+"Nature",
+"Local Experiences"
+],
+"target_customer_types": [
+"Couples",
+"Families"
+]
+},
+"contact": {
+"phone": null,
+"mobile": "+96253481122",
+"email": "relax@balqawellness.example",
+"website": "[https://www.balqawellness.example](https://www.balqawellness.example)",
+"whatsapp": "+96253481122"
+},
+"location": {
+"country": "Jordan",
+"city": "Sweimeh",
+"region": "Balqa Governorate",
+"address": "Resort District, Sweimeh, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Sweimeh",
+"Dead Sea",
+"Zarqa Ma'in Vicinity"
+],
+"preferred_destinations": [
+"Dead Sea",
+"Sweimeh"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Activity & Excursion Booking",
+"Hotel / Accommodation Booking"
+]
+},
+"guides": {
+"provides_guides": false,
+"guide_types": []
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "09:00–18:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 20,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Package",
+"min_price": 50.0,
+"max_price": 220.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Wellness",
+"Luxury Experiences",
+"Nature"
+]
+},
+"reviews": {
+"rating": 4.7,
+"review_count": 33,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+}
+]
+[
+{
+"sme_id": "SME-000017",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "As-Salt Craft and Culture Pathways",
+"description": "Artisanal tour operator specializing in craft workshops, traditional pottery, basket weaving, and cultural heritage exploration in As-Salt.",
+"experience_years": 5,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Culture",
+"Art",
+"Local Experiences",
+"History"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": null,
+"mobile": "+96253554433",
+"email": "workshops@saltcraftpath.example",
+"website": "[https://www.saltcraftpath.example](https://www.saltcraftpath.example)",
+"whatsapp": "+96253554433"
+},
+"location": {
+"country": "Jordan",
+"city": "As-Salt",
+"region": "Balqa Governorate",
+"address": "Craft District, As-Salt, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"As-Salt",
+"Iraq Al-Amir"
+],
+"preferred_destinations": [
+"As-Salt"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Cultural Experiences",
+"Local Experiences",
+"Special Interest Tours",
+"Tour Guiding"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": false
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00–17:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 10,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 20.0,
+"max_price": 60.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Local Experiences",
+"History & Culture",
+"Community Tourism"
+]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 28,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000018",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Jordan Valley Agri-Tours",
+"description": "Agritourism operator organizing citrus orchard visits, farm-to-table culinary experiences, and educational tours in the central Jordan Valley region of Balqa.",
+"experience_years": 4,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Food",
+"Local Experiences",
+"Nature"
+],
+"target_customer_types": [
+"Families",
+"Couples"
+]
+},
+"contact": {
+"phone": null,
+"mobile": "+96253578899",
+"email": "info@jvagritours.example",
+"website": "[https://www.jvagritours.example](https://www.jvagritours.example)",
+"whatsapp": "+96253578899"
+},
+"location": {
+"country": "Jordan",
+"city": "Deir Alla",
+"region": "Balqa Governorate",
+"address": "Agricultural Road, Deir Alla, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Deir Alla",
+"Jordan Valley",
+"South Shouneh"
+],
+"preferred_destinations": [
+"Deir Alla",
+"Jordan Valley"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "Arabic"
+},
+"services": {
+"service_categories": [
+"Local Experiences",
+"Cultural Experiences",
+"Group Tours",
+"Restaurant Booking"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "08:00–16:00"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 20,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 25.0,
+"max_price": 70.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Food & Culinary",
+"Local Experiences",
+"Family Experiences"
+]
+},
+"reviews": {
+"rating": 4.4,
+"review_count": 16,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000019",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Balqa Historical Odyssey",
+"description": "Comprehensive tour company focusing on deep historical and archaeological explorations across As-Salt, Zai, and ancient Roman-era sites in Balqa.",
+"experience_years": 9,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Archaeology",
+"Culture"
+],
+"target_customer_types": [
+"Solo Travelers",
+"Couples",
+"Families"
+]
+},
+"contact": {
+"phone": null,
+"mobile": "+96253552211",
+"email": "tours@balqaodyssey.example",
+"website": "[https://www.balqaodyssey.example](https://www.balqaodyssey.example)",
+"whatsapp": "+96253552211"
+},
+"location": {
+"country": "Jordan",
+"city": "As-Salt",
+"region": "Balqa Governorate",
+"address": "Castle Hill Area, As-Salt, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"As-Salt",
+"Iraq Al-Amir",
+"Zai"
+],
+"preferred_destinations": [
+"As-Salt",
+"Iraq Al-Amir"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Tour Planning & Itinerary Design",
+"Custom Itineraries",
+"Private Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Licensed Tourist Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "08:30–17:30"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 25,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person / Per Tour",
+"min_price": 40.0,
+"max_price": 160.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Archaeological Tourism"
+]
+},
+"reviews": {
+"rating": 4.7,
+"review_count": 41,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000020",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Sweimeh Shoreline Excursions",
+"description": "Coastal and resort tour operator offering beach access arrangements, water activity bookings, and leisure trips around the Sweimeh and Dead Sea strip.",
+"experience_years": 7,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Beaches",
+"Nature",
+"Wellness"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": null,
+"mobile": "+96253496655",
+"email": "booking@sweimehshore.example",
+"website": "[https://www.sweimehshore.example](https://www.sweimehshore.example)",
+"whatsapp": "+96253496655"
+},
+"location": {
+"country": "Jordan",
+"city": "Sweimeh",
+"region": "Balqa Governorate",
+"address": "Dead Sea Highway, Sweimeh, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Sweimeh",
+"Dead Sea"
+],
+"preferred_destinations": [
+"Sweimeh",
+"Dead Sea"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Activity & Excursion Booking",
+"Hotel / Accommodation Booking",
+"Transportation",
+"Private Tours"
+]
+},
+"guides": {
+"provides_guides": false,
+"guide_types": []
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "08:00–19:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 30,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Package",
+"min_price": 45.0,
+"max_price": 180.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Beach Experiences",
+"Luxury Experiences",
+"Wellness"
+]
+},
+"reviews": {
+"rating": 4.6,
+"review_count": 48,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+}
+]
+[
+{
+"sme_id": "SME-000021",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Fuheis Heritage and Hills Walking Tours",
+"description": "Specialist tour provider organizing community walks, historical church visits, and scenic hill trails around Fuheis and surrounding Balqa villages.",
+"experience_years": 5,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Culture",
+"History",
+"Local Experiences",
+"Hiking"
+],
+"target_customer_types": [
+"Couples",
+"Solo Travelers",
+"Families"
+]
+},
+"contact": {
+"phone": null,
+"mobile": "+96253227788",
+"email": "info@fuheishills.example",
+"website": "[https://www.fuheishills.example](https://www.fuheishills.example)",
+"whatsapp": "+96253227788"
+},
+"location": {
+"country": "Jordan",
+"city": "Fuheis",
+"region": "Balqa Governorate",
+"address": "Old Fuheis Quarter, Fuheis, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Fuheis",
+"Mahis",
+"As-Salt"
+],
+"preferred_destinations": [
+"Fuheis",
+"Mahis"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Cultural Experiences",
+"Local Experiences",
+"Walking Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": false
+},
+"availability": {
+"working_days": [
+"Thursday",
+"Friday",
+"Saturday",
+"Sunday"
+],
+"working_hours": "09:00–17:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 12,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 20.0,
+"max_price": 65.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Local Experiences",
+"Hiking & Trekking"
+]
+},
+"reviews": {
+"rating": 4.7,
+"review_count": 24,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000022",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Zai Escarpment Trekking Club",
+"description": "Outdoor adventure operator specializing in guided wilderness treks, nature camping, and ridge hiking across the Zai and Balqa mountains.",
+"experience_years": 7,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Adventure",
+"Hiking",
+"Nature",
+"Camping"
+],
+"target_customer_types": [
+"Solo Travelers",
+"Couples"
+]
+},
+"contact": {
+"phone": null,
+"mobile": "+96253443355",
+"email": "treks@zairescarpment.example",
+"website": "[https://www.zairescarpment.example](https://www.zairescarpment.example)",
+"whatsapp": "+96253443355"
+},
+"location": {
+"country": "Jordan",
+"city": "As-Salt",
+"region": "Balqa Governorate",
+"address": "Zai Heights, As-Salt, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Zai National Park",
+"As-Salt",
+"Balqa Highlands"
+],
+"preferred_destinations": [
+"Zai National Park",
+"Balqa Highlands"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Adventure Activities",
+"Tour Guiding",
+"Transportation",
+"Special Interest Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Specialized Guides",
+"Professional Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "07:00–18:00"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 15,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 35.0,
+"max_price": 120.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Hiking & Trekking",
+"Soft Adventure",
+"Nature"
+]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 36,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000023",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Deir Alla Rural Heritage Expeditions",
+"description": "Local tour agency focused on educational and community-based tours around archaeological mounds and traditional rural life in Deir Alla.",
+"experience_years": 4,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Archaeology",
+"Culture",
+"Local Experiences"
+],
+"target_customer_types": [
+"Families",
+"Solo Travelers",
+"Couples"
+]
+},
+"contact": {
+"phone": null,
+"mobile": "+96253584422",
+"email": "contact@deirallatours.example",
+"website": "[https://www.deirallatours.example](https://www.deirallatours.example)",
+"whatsapp": "+96253584422"
+},
+"location": {
+"country": "Jordan",
+"city": "Deir Alla",
+"region": "Balqa Governorate",
+"address": "Tell Deir Alla Road, Deir Alla, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Deir Alla",
+"Jordan Valley"
+],
+"preferred_destinations": [
+"Deir Alla"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Cultural Experiences",
+"Local Experiences",
+"Special Interest Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": false
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "08:30–16:30"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 15,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 20.0,
+"max_price": 60.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Archaeological Tourism",
+"Local Experiences",
+"History & Culture"
+]
+},
+"reviews": {
+"rating": 4.5,
+"review_count": 17,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000024",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Balqa VIP Chauffeur & Tour Service",
+"description": "Executive transportation and customized private touring agency serving business and leisure travelers across As-Salt, Sweimeh, and the Balqa region.",
+"experience_years": 9,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": null,
+"mobile": "+96253559944",
+"email": "vip@balqachauffeur.example",
+"website": "[https://www.balqachauffeur.example](https://www.balqachauffeur.example)",
+"whatsapp": "+96253559944"
+},
+"location": {
+"country": "Jordan",
+"city": "As-Salt",
+"region": "Balqa Governorate",
+"address": "Main Boulevard, As-Salt, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"As-Salt",
+"Sweimeh",
+"Amman",
+"Queen Alia International Airport"
+],
+"preferred_destinations": [
+"As-Salt",
+"Sweimeh"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Transportation",
+"VIP Services",
+"Airport Transfers",
+"Private Tours",
+"Custom Itineraries"
+]
+},
+"guides": {
+"provides_guides": false,
+"guide_types": []
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "07:00–22:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 8,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Day",
+"min_price": 70.0,
+"max_price": 250.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Luxury Experiences",
+"History & Culture"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 51,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000025",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Iraq Al-Amir Valley Trails",
+"description": "Specialist hiking and nature tour provider organizing guided valley walks, historical cave explorations, and trail excursions around Iraq Al-Amir.",
+"experience_years": 5,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Nature",
+"Hiking",
+"History",
+"Archaeology"
+],
+"target_customer_types": [
+"Solo Travelers",
+"Couples"
+]
+},
+"contact": {
+"phone": null,
+"mobile": "+96253581133",
+"email": "treks@iraqalamirtrails.example",
+"website": "[https://www.iraqalamirtrails.example](https://www.iraqalamirtrails.example)",
+"whatsapp": "+96253581133"
+},
+"location": {
+"country": "Jordan",
+"city": "Iraq Al-Amir",
+"region": "Balqa Governorate",
+"address": "Wadi Seer Approach, Iraq Al-Amir, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Iraq Al-Amir",
+"Wadi Seer",
+"As-Salt"
+],
+"preferred_destinations": [
+"Iraq Al-Amir",
+"Wadi Seer"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Adventure Activities",
+"Tour Guiding",
+"Walking Tours",
+"Special Interest Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Specialized Guides",
+"Local Guides"
+]
+},
+"transportation": {
+"available": false
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "08:30–17:00"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 14,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 25.0,
+"max_price": 80.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Hiking & Trekking",
+"Archaeological Tourism",
+"Nature"
+]
+},
+"reviews": {
+"rating": 4.7,
+"review_count": 29,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000026",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Balqa Culinary Journeys",
+"description": "Food tourism operator organizing traditional cooking classes, local heritage food tours, and culinary tastings highlighting authentic Balqa cuisine.",
+"experience_years": 4,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Food",
+"Culture",
+"Local Experiences"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": null,
+"mobile": "+96253556611",
+"email": "taste@balqaculinary.example",
+"website": "[https://www.balqaculinary.example](https://www.balqaculinary.example)",
+"whatsapp": "+96253556611"
+},
+"location": {
+"country": "Jordan",
+"city": "As-Salt",
+"region": "Balqa Governorate",
+"address": "Market District, As-Salt, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"As-Salt",
+"Fuheis"
+],
+"preferred_destinations": [
+"As-Salt"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Cultural Experiences",
+"Local Experiences",
+"Special Interest Tours",
+"Restaurant Booking"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": false
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "10:00–18:00"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 10,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 35.0,
+"max_price": 95.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Food & Culinary",
+"Local Experiences",
+"History & Culture"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 32,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+}
+]
+

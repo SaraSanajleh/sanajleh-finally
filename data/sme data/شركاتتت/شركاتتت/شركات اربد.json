@@ -1,0 +1,1074 @@
+[
+  {
+    "sme_id": "SME-000001",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Barada Travel and Tourism",
+      "description": "Barada Travel and Tourism is an established tour operator based in Irbid, Jordan, offering specialized travel planning, ticketing, and customized regional tour packages.",
+      "experience_years": 12,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Culture",
+        "Local Experiences"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples",
+        "Solo Travelers"
+      ]
+    },
+    "contact": {
+      "phone": "+962 2 727 0000",
+      "mobile": "+962 7 9000 0000",
+      "email": "info@baradatravel.example",
+      "website": "https://www.baradatravel.example",
+      "whatsapp": "+962 7 9000 0000"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "University Street, Irbid",
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Irbid",
+        "Umm Qais",
+        "Jerash",
+        "Amman"
+      ],
+      "preferred_destinations": [
+        "Umm Qais",
+        "Irbid"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "Arabic"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Custom Itineraries",
+        "Private Tours",
+        "Flight / Airline Ticketing"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Local Guides",
+        "Professional Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00-18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 40.0,
+      "max_price": 250.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Local Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.5,
+      "review_count": 34,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000002",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Yarmouk Tours",
+      "description": "Yarmouk Tours provides incoming travel services, cultural excursion management, and guided heritage site tours originating from Irbid.",
+      "experience_years": 8,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Archaeology",
+        "Religious Sites"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Solo Travelers"
+      ]
+    },
+    "contact": {
+      "phone": "+962 2 724 1111",
+      "mobile": "+962 7 8111 1111",
+      "email": "contact@yarmouktours.example",
+      "website": "https://www.yarmouktours.example",
+      "whatsapp": "+962 7 8111 1111"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Baghdad Street, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Irbid",
+        "Umm Qais",
+        "Pella",
+        "Ajloun"
+      ],
+      "preferred_destinations": [
+        "Umm Qais",
+        "Pella"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Guiding",
+        "Cultural Experiences",
+        "Special Interest Tours",
+        "Archaeological Tourism"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Licensed Tourist Guides",
+        "Specialized Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00-17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 20,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 30.0,
+      "max_price": 180.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Archaeological Tourism"
+      ]
+    },
+    "reviews": {
+      "rating": 4.7,
+      "review_count": 52,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000003",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Northern Gate Travel and Tourism",
+      "description": "Specialized incoming tour operator operating in northern Jordan, arranging customized itineraries focusing on local traditions, nature reserves, and historical landmarks.",
+      "experience_years": 10,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Nature",
+        "Culture",
+        "Hiking"
+      ],
+      "target_customer_types": [
+        "Couples",
+        "Families"
+      ]
+    },
+    "contact": {
+      "phone": "+962 2 725 2222",
+      "mobile": "+962 7 7222 2222",
+      "email": "info@northerngatetravel.example",
+      "website": "https://www.northerngatetravel.example",
+      "whatsapp": "+962 7 7222 2222"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Hashemite Street, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Irbid",
+        "Ajloun",
+        "Umm Qais",
+        "Dibeen"
+      ],
+      "preferred_destinations": [
+        "Ajloun",
+        "Irbid"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Private Tours",
+        "Transportation",
+        "Local Experiences"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Local Guides",
+        "Licensed Tourist Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "08:30-17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 50.0,
+      "max_price": 220.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "Nature",
+        "Hiking & Trekking",
+        "Local Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.6,
+      "review_count": 19,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000004",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Decapolis Tourism & Travel",
+      "description": "Decapolis Tourism & Travel focuses on archaeological and historical tours across the ancient Decapolis cities, offering expert-led excursions originating from Irbid.",
+      "experience_years": 15,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Archaeology",
+        "Culture"
+      ],
+      "target_customer_types": [
+        "Solo Travelers",
+        "Couples",
+        "Families"
+      ]
+    },
+    "contact": {
+      "phone": "+962 2 726 3333",
+      "mobile": "+962 7 9333 3333",
+      "email": "reservations@decapolistours.example",
+      "website": "https://www.decapolistours.example",
+      "whatsapp": "+962 7 9333 3333"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Palestine Street, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Umm Qais",
+        "Jerash",
+        "Amman",
+        "Irbid"
+      ],
+      "preferred_destinations": [
+        "Umm Qais",
+        "Jerash"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English",
+        "French"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Guiding",
+        "Custom Itineraries",
+        "Special Interest Tours",
+        "Archaeological Tourism"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Licensed Tourist Guides",
+        "Specialized Guides",
+        "Multilingual Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ],
+      "working_hours": "09:00-17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 30,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 45.0,
+      "max_price": 300.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Archaeological Tourism"
+      ]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 65,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000005",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Ajloun & Irbid Horizon Travel",
+      "description": "Horizon Travel operates across Irbid and Ajloun governorates, providing nature exploration trips, village homestay coordination, and outdoor adventure packages.",
+      "experience_years": 6,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Nature",
+        "Hiking",
+        "Local Experiences"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples"
+      ]
+    },
+    "contact": {
+      "phone": "+962 2 728 4444",
+      "mobile": "+962 7 8444 4444",
+      "email": "info@aihorizon.example",
+      "website": "https://www.aihorizon.example",
+      "whatsapp": "+962 7 8444 4444"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Cinema Street, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Irbid",
+        "Ajloun",
+        "Umm Qais"
+      ],
+      "preferred_destinations": [
+        "Ajloun",
+        "Irbid"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "Arabic"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Local Experiences",
+        "Adventure Activities",
+        "Private Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Local Guides",
+        "Specialized Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00-17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 12,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 35.0,
+      "max_price": 160.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "Nature",
+        "Hiking & Trekking",
+        "Community Tourism"
+      ]
+    },
+    "reviews": {
+      "rating": 4.4,
+      "review_count": 21,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000006",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Hauran Valley Tourism Agency",
+      "description": "Hauran Valley Tourism Agency provides tailored travel arrangements, ticketing, and regional sightseeing excursions rooted in Irbid's historical agricultural plains.",
+      "experience_years": 9,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Food",
+        "Local Experiences"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Solo Travelers"
+      ]
+    },
+    "contact": {
+      "phone": "+962 2 729 5555",
+      "mobile": "+962 7 7555 5555",
+      "email": "contact@haurantours.example",
+      "website": "https://www.haurantours.example",
+      "whatsapp": "+962 7 7555 5555"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Al-Midan, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Irbid",
+        "Umm Qais",
+        "Ramtha"
+      ],
+      "preferred_destinations": [
+        "Irbid",
+        "Umm Qais"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "Arabic"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Cultural Experiences",
+        "Local Experiences",
+        "Flight / Airline Ticketing"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Local Guides",
+        "Professional Guides"
+      ]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00-18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 25.0,
+      "max_price": 120.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "Food & Culinary",
+        "Local Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.3,
+      "review_count": 15,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000007",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Panorama North Tours",
+      "description": "Panorama North Tours specializes in scenic view tours, historical sightseeing, and customized group outings across the northern governorates of Jordan from Irbid.",
+      "experience_years": 11,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Nature",
+        "Photography"
+      ],
+      "target_customer_types": [
+        "Couples",
+        "Families",
+        "Solo Travelers"
+      ]
+    },
+    "contact": {
+      "phone": "+962 2 723 6666",
+      "mobile": "+962 7 9666 6666",
+      "email": "info@panoramanorth.example",
+      "website": "https://www.panoramanorth.example",
+      "whatsapp": "+962 7 9666 6666"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Al-Hashimi Street, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Irbid",
+        "Umm Qais",
+        "Ajloun",
+        "Jerash"
+      ],
+      "preferred_destinations": [
+        "Umm Qais",
+        "Ajloun"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Guiding",
+        "Transportation",
+        "Custom Itineraries",
+        "Private Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Licensed Tourist Guides",
+        "Specialized Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00-17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 35.0,
+      "max_price": 190.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Nature"
+      ]
+    },
+    "reviews": {
+      "rating": 4.6,
+      "review_count": 40,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000008",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Safsaf Travel and Tourism",
+      "description": "Safsaf Travel and Tourism offers comprehensive local tour planning, hotel bookings, and private excursion packages based in Irbid city.",
+      "experience_years": 7,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Culture",
+        "Religious Sites",
+        "History"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples"
+      ]
+    },
+    "contact": {
+      "phone": "+962 2 722 7777",
+      "mobile": "+962 7 8777 7777",
+      "email": "booking@safsaftravel.example",
+      "website": "https://www.safsaftravel.example",
+      "whatsapp": "+962 7 8777 7777"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "King Abdullah II Street, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Irbid",
+        "Amman",
+        "Umm Qais"
+      ],
+      "preferred_destinations": [
+        "Irbid",
+        "Amman"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "Arabic"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Hotel / Accommodation Booking",
+        "Private Tours",
+        "Religious Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": false,
+      "guide_types": []
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00-18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 30.0,
+      "max_price": 150.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Religious Tourism"
+      ]
+    },
+    "reviews": {
+      "rating": 4.2,
+      "review_count": 18,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000009",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Gilead Hills Tour Agency",
+      "description": "Gilead Hills Tour Agency organizes trekking, nature walks, and heritage journeys across the northern hills of Irbid and surrounding agricultural districts.",
+      "experience_years": 5,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Hiking",
+        "Nature",
+        "Local Experiences"
+      ],
+      "target_customer_types": [
+        "Solo Travelers",
+        "Couples",
+        "Families"
+      ]
+    },
+    "contact": {
+      "phone": "+962 2 721 8888",
+      "mobile": "+962 7 7888 8888",
+      "email": "info@gileadhills.example",
+      "website": "https://www.gileadhills.example",
+      "whatsapp": "+962 7 7888 8888"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Al-Razi Street, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Irbid",
+        "Ajloun",
+        "Umm Qais"
+      ],
+      "preferred_destinations": [
+        "Irbid",
+        "Ajloun"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Guiding",
+        "Adventure Activities",
+        "Local Experiences",
+        "Custom Itineraries"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Local Guides",
+        "Specialized Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "08:00-16:00"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 12,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 25.0,
+      "max_price": 110.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "Nature",
+        "Hiking & Trekking",
+        "Local Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.7,
+      "review_count": 28,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000010",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Arbela Travel and Tourism",
+      "description": "Arbela Travel and Tourism offers comprehensive local tourism services, city tours, and transport logistics based in the heart of Irbid.",
+      "experience_years": 14,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Culture",
+        "Shopping"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples",
+        "Solo Travelers"
+      ]
+    },
+    "contact": {
+      "phone": "+962 2 720 9999",
+      "mobile": "+962 7 9999 9999",
+      "email": "support@arbelatravel.example",
+      "website": "https://www.arbelatravel.example",
+      "whatsapp": "+962 7 9999 9999"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Irbid",
+      "region": "Irbid Governorate",
+      "address": "Baghdad Street, Irbid"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Irbid",
+        "Amman",
+        "Umm Qais",
+        "Jerash"
+      ],
+      "preferred_destinations": [
+        "Irbid",
+        "Umm Qais"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "Arabic"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Transportation",
+        "Private Tours",
+        "Airport Transfers"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Licensed Tourist Guides",
+        "Professional Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00-19:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 30,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 35.0,
+      "max_price": 200.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Local Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.5,
+      "review_count": 47,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  }
+]

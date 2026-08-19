@@ -1,0 +1,49 @@
+{
+  "mode": "build",
+  "requestedAt": "2026-08-15T20:17:38.626000Z",
+  "trip": {
+    "startDate": "2026-08-20",
+    "duration": "3",
+    "arrivalAirport": "AQJ",
+    "arrivalTime": "15:58",
+    "totalBudget": 900.0,
+    "preferredLanguage": "English",
+    "preferredRegions": [
+      "Dead Sea"
+    ]
+  },
+  "travelers": {
+    "adults": 4,
+    "children": 0,
+    "childrenAges": [],
+    "seniors": 0,
+    "groupType": "family",
+    "accessibilityNeeds": []
+  },
+  "preferences": {
+    "interests": [
+      "nature",
+      "food",
+      "photography"
+    ],
+    "tripPace": "Relaxed",
+    "activityLevel": "Moderate",
+    "mustVisit": [],
+    "placesToAvoid": ""
+  },
+  "accommodation": {
+    "type": "hotel",
+    "rating": "4 star"
+  },
+  "dining": {
+    "cuisine": [
+      "Local Jordanian"
+    ]
+  },
+  "extras": {
+    "specialOccasion": "None",
+    "smePreferences": [],
+    "aiPriority": "",
+    "freeText": ""
+  }
+}

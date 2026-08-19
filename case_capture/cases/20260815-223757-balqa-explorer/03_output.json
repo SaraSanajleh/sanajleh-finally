@@ -1,0 +1,924 @@
+{
+  "metadata": {
+    "model": "gpt-oss:20b-cloud",
+    "provider": "ollama",
+    "mode": "build",
+    "retries": 0
+  },
+  "package": {
+    "package_id": "pkg-496e7b512612",
+    "status": "complete",
+    "welcome_message": "Land in Amman, then 2 exploring days through Balqa (2 days).",
+    "trip_title": "Balqa Explorer",
+    "trip": {
+      "title": "Balqa Explorer",
+      "summary": "Arrival, then Balqa (2 days). Walk outdoors in the morning. Keep the afternoon for shade, meals, or indoor visits.",
+      "start_date": "2026-08-20",
+      "end_date": "2026-08-22",
+      "duration_days": 3,
+      "nights": 2,
+      "regions": [
+        "Amman",
+        "Balqa"
+      ],
+      "arrival_airport": "AMM",
+      "language": "English"
+    },
+    "traveler_profile": {
+      "group_type": "family",
+      "adults": 5,
+      "children": 1,
+      "children_ages": [
+        8
+      ],
+      "seniors": 0,
+      "total_travelers": 6,
+      "interests": [
+        "religious_sites",
+        "museums",
+        "shopping",
+        "hiking"
+      ],
+      "pace": "Relaxed",
+      "activity_level": "Easy",
+      "accessibility_needs": []
+    },
+    "planning": {
+      "strategy": "You land at 18:11, so arrival night stays in Amman — hotel, a meal, rest. The touring days start the next morning. After that the days stay on a short loop: Balqa (2 days). It's a hot month, so the outdoor sites go before midday.",
+      "constraints": {
+        "must_visit": [],
+        "places_to_avoid": []
+      },
+      "constraint_status": {
+        "status": "satisfied",
+        "unmet": []
+      },
+      "assumptions": [
+        "Travel times between cities are estimated qualitatively, not as exact minutes, unless evidence exists.",
+        "Opening hours are used only when present on the catalog record."
+      ],
+      "climate": {
+        "month": 8,
+        "season": "hot_dry_summer",
+        "typical_pattern": "High daytime heat, especially in the Jordan Valley and desert.",
+        "outdoor_guidance": "Walk outdoors in the morning. Keep the afternoon for shade, meals, or indoor visits.",
+        "heat_risk": "high"
+      },
+      "weather_status": "ok",
+      "decisions": [
+        {
+          "code": "day_route",
+          "title": "Each exploring day stays in one area",
+          "why": "Mixing far-apart cities in one day makes the trip exhausting.",
+          "effect": "After arrival, the days run Balqa (2 days)."
+        },
+        {
+          "code": "open_explore",
+          "title": "A route from what you like",
+          "why": "No cities were named, so the days follow the places that matched religious sites, museums, and shopping.",
+          "effect": "Those retrieved areas become the route: Balqa (2 days)."
+        },
+        {
+          "code": "one_half",
+          "title": "This trip stays in one part of Jordan",
+          "why": "2 exploring days is too short for both the north and the south.",
+          "effect": "So this journey focuses on the north and center, and those places get proper time."
+        },
+        {
+          "code": "arrival_stay",
+          "title": "Night one is near the airport",
+          "why": "You land at AMM at 18:11.",
+          "effect": "Sleep in Amman on arrival night. The exploring days start the next morning."
+        },
+        {
+          "code": "arrival_pace",
+          "title": "Settle in this evening",
+          "why": "You land at 18:11.",
+          "effect": "Food and rest first. A nearby stop only if enough evening remains, then back to the hotel."
+        },
+        {
+          "code": "hotel_move",
+          "title": "Then you move closer to the places you came for",
+          "why": "Sleeping in the same city you visit beats a long commute every morning.",
+          "effect": "After the arrival night, nearby days share one hotel. You only move when the next area is too far for a day trip."
+        },
+        {
+          "code": "heat",
+          "title": "Mornings for the outdoors",
+          "why": "High daytime heat, especially in the Jordan Valley and desert.",
+          "effect": "Walk heritage and nature in the morning. Save museums, meals, and shade for the afternoon."
+        },
+        {
+          "code": "pace",
+          "title": "A relaxed pace",
+          "why": "family group, Easy activity.",
+          "effect": "On exploring days, plan on about 3 visits and 3 meals. Arrival follows the time left after food and rest."
+        },
+        {
+          "code": "family",
+          "title": "Planned with children in mind",
+          "why": "Traveling with 1 child(ren).",
+          "effect": "Family-friendly stops come first, and long stacked hikes are avoided."
+        },
+        {
+          "code": "stay_tier",
+          "title": "4 star stays",
+          "why": "You asked for 4 star hotels.",
+          "effect": "Hotels are taken from listings at that star level when the city has them. If it does not, we use the closest listed tier and say so."
+        },
+        {
+          "code": "budget",
+          "title": "A comfort budget",
+          "why": "900 JOD for 3 days.",
+          "effect": "We lean toward more comfortable stays and dining when those places exist."
+        },
+        {
+          "code": "interests",
+          "title": "Chosen around what you care about",
+          "why": "religious sites, museums, and shopping",
+          "effect": "Stops follow religious sites, museums, and shopping. Unrelated places stay off the list."
+        }
+      ]
+    },
+    "days": [
+      {
+        "day": 1,
+        "date": "2026-08-20",
+        "region": "Amman",
+        "theme": "Arrival in Amman",
+        "summary": "Afternoon/evening arrival in Amman: eat and rest first. A quiet first evening.",
+        "is_arrival_day": true,
+        "schedule": [
+          {
+            "time": "18:56",
+            "end_time": "19:51",
+            "slot": "dinner",
+            "type": "restaurant",
+            "item_id": "restaurant_001041",
+            "name": "Dardasha Kitchen",
+            "duration_minutes": 55,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.99012,
+              "longitude": 35.85412,
+              "precision": "exact"
+            },
+            "description": "A cozy neighborhood spot offering comforting Levantine home-style dishes, fresh daily specials, and warm hospitality.",
+            "reason": "Dinner near the hotel. Nothing more tonight.",
+            "matched_preferences": [
+              "In Amman",
+              "Works well for families",
+              "Matches preferred cuisine"
+            ],
+            "estimated_cost": "11 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_001041"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "20:06",
+            "end_time": "23:06",
+            "slot": "overnight",
+            "type": "hotel",
+            "item_id": "hotel_000020",
+            "name": "Amman Rotana",
+            "duration_minutes": null,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.965028,
+              "longitude": 35.903111,
+              "precision": "exact"
+            },
+            "description": "Jordan's tallest building at 188 metres, this five-star Abdali tower hotel holds 412 rooms and suites across 50 floors, with several restaurants, a seasonal outdoor pool, a 24-hour gym and a full-service spa.",
+            "reason": "Check in and rest first. Add a nearby stop only if enough evening is left. 5-star stay, as requested",
+            "matched_preferences": [
+              "5-star stay, as requested",
+              "In Amman",
+              "Works well for families",
+              "5-star, as requested",
+              "Matches hotel"
+            ],
+            "estimated_cost": "130 JOD / night",
+            "source": {
+              "dataset": "hotels",
+              "record_id": "hotel_000020"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "You land at 18:11. The drive from Queen Alia to Amman is about 45 minutes. Times below start after that transfer."
+      },
+      {
+        "day": 2,
+        "date": "2026-08-21",
+        "region": "Balqa",
+        "theme": "Balqa",
+        "summary": "Morning transfer from Amman to Balqa, visits Tomb of Prophet Shuaib (Jethro), Zain Al-Sharaf Nature Reserve, As-Salt Heritage Trail Starting Point, with breakfast, lunch, and dinner on the clock.",
+        "is_arrival_day": false,
+        "schedule": [
+          {
+            "time": "07:30",
+            "end_time": "08:30",
+            "slot": "morning",
+            "type": "restaurant",
+            "item_id": "restaurant_001034",
+            "name": "Fخر الدين (Fakhre الدين)",
+            "duration_minutes": 60,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.94921,
+              "longitude": 35.91745,
+              "precision": "exact"
+            },
+            "description": "An elite, award-winning Lebanese restaurant set in a historic stone villa in Jabal Amman offering exquisite mezze and grills.",
+            "reason": "Breakfast in the morning, before visiting.",
+            "matched_preferences": [
+              "In Amman",
+              "Works well for families",
+              "Matches preferred cuisine",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "45 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_001034"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "08:45",
+            "end_time": "09:23",
+            "slot": "morning",
+            "type": "transfer",
+            "item_id": "transfer:amman:balqa:08:45",
+            "name": "Drive to Balqa",
+            "duration_minutes": 38,
+            "location": "Amman → Balqa",
+            "coordinates": null,
+            "description": "Travel from Amman to Balqa.",
+            "reason": "You woke up in a different place than today's sights.",
+            "matched_preferences": [],
+            "estimated_cost": "not_available",
+            "source": {
+              "dataset": "planning",
+              "record_id": "transfer:amman:balqa"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "09:23",
+            "end_time": "10:08",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_007035",
+            "name": "Tomb of Prophet Shuaib (Jethro)",
+            "duration_minutes": 45,
+            "location": "As-Salt",
+            "coordinates": {
+              "latitude": 32.015,
+              "longitude": 35.68,
+              "precision": "exact"
+            },
+            "description": "A sacred religious shrine located in Wadi Shueib venerated as the burial place of Prophet Jethro.",
+            "reason": "In Balqa; matches religious_sites interest; Matches religious_sites, hiking; Works well for families",
+            "matched_preferences": [
+              "In Balqa",
+              "matches religious_sites interest",
+              "Matches religious_sites, hiking",
+              "Works well for families"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_007035"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "10:23",
+            "end_time": "12:23",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_007008",
+            "name": "Zain Al-Sharaf Nature Reserve",
+            "duration_minutes": 120,
+            "location": "As-Salt",
+            "coordinates": {
+              "latitude": 32.05,
+              "longitude": 35.75,
+              "precision": "exact"
+            },
+            "description": "A protected natural area in the Balqa hills established for environmental conservation and local flora.",
+            "reason": "In Balqa; matches hiking interest; Works well for families",
+            "matched_preferences": [
+              "In Balqa",
+              "matches hiking interest",
+              "Works well for families"
+            ],
+            "estimated_cost": "not_available",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_007008"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "13:00",
+            "end_time": "14:00",
+            "slot": "afternoon",
+            "type": "restaurant",
+            "item_id": "restaurant_007021",
+            "name": "Al Ennab Restaurant",
+            "duration_minutes": 60,
+            "location": "As-Salt",
+            "coordinates": {
+              "latitude": 32.031,
+              "longitude": 35.751,
+              "precision": "exact"
+            },
+            "description": "Rustic village-style restaurant on the outskirts of Salt serving rich Levantine family meals under grape trellises.",
+            "reason": "Lunch in the afternoon.",
+            "matched_preferences": [
+              "In Balqa",
+              "Works well for families"
+            ],
+            "estimated_cost": "16 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_007021"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "14:15",
+            "end_time": "16:45",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_007030",
+            "name": "As-Salt Heritage Trail Starting Point",
+            "duration_minutes": 150,
+            "location": "As-Salt",
+            "coordinates": {
+              "latitude": 32.0375,
+              "longitude": 35.7272,
+              "precision": "exact"
+            },
+            "description": "The designated starting trailhead for exploring As-Salt's historic architectural trail and heritage buildings.",
+            "reason": "In Balqa; local_tourism_catalog; Matches hiking; Works well for families; One visit covering the nearby monuments",
+            "matched_preferences": [
+              "In Balqa",
+              "local_tourism_catalog",
+              "Matches hiking",
+              "Works well for families",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_007030"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "17:00",
+            "end_time": "18:00",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_007029",
+            "name": "Mahes Pine Forest Park",
+            "duration_minutes": 60,
+            "location": "Mahes",
+            "coordinates": {
+              "latitude": 31.98,
+              "longitude": 35.745,
+              "precision": "exact"
+            },
+            "description": "A peaceful pine woodland area situated on the rolling hills surrounding the town of Mahes.",
+            "reason": "In Balqa; local_tourism_catalog; Works well for families",
+            "matched_preferences": [
+              "In Balqa",
+              "local_tourism_catalog",
+              "Works well for families"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_007029"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "18:15",
+            "end_time": "19:15",
+            "slot": "evening",
+            "type": "restaurant",
+            "item_id": "restaurant_007018",
+            "name": "Al Ghabah Restaurant",
+            "duration_minutes": 60,
+            "location": "As-Salt",
+            "coordinates": {
+              "latitude": 32.112,
+              "longitude": 35.741,
+              "precision": "exact"
+            },
+            "description": "Open-air forest restaurant in Dibbeen forest border region serving authentic charcoal grills and traditional bread.",
+            "reason": "Dinner in the evening.",
+            "matched_preferences": [
+              "In Balqa",
+              "Works well for families",
+              "Matches preferred cuisine"
+            ],
+            "estimated_cost": "10 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_007018"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "",
+            "end_time": "",
+            "slot": "overnight",
+            "type": "hotel",
+            "item_id": "hotel_000060",
+            "name": "Beit Aziz Boutique Hotel",
+            "duration_minutes": null,
+            "location": "As-Salt",
+            "coordinates": {
+              "latitude": 32.0392,
+              "longitude": 35.7272,
+              "precision": "city_centroid"
+            },
+            "description": "Boutique hotel in a restored 1905 family house inside the UNESCO-listed historic core of As-Salt, with modern and original stone rooms, a Jordanian restaurant on a terrace over the old town, and community craft experiences.",
+            "reason": "Overnight stay in Balqa. This is your hotel, not an activity. No 4-star listing here — closest listed is 3-star",
+            "matched_preferences": [
+              "No 4-star listing here — closest listed is 3-star",
+              "In Balqa",
+              "Works well for families",
+              "3-star listing",
+              "Matches hotel"
+            ],
+            "estimated_cost": "60 JOD / night",
+            "source": {
+              "dataset": "hotels",
+              "record_id": "hotel_000060"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "This evening you check in to your hotel in Balqa."
+      },
+      {
+        "day": 3,
+        "date": "2026-08-22",
+        "region": "Balqa",
+        "theme": "More time in Balqa",
+        "summary": "Visits Zarqa River Eco-Trail Pathway, Burin Forest Park, Zai Forest Picnic Area, with breakfast, lunch, and dinner on the clock.",
+        "is_arrival_day": false,
+        "schedule": [
+          {
+            "time": "08:30",
+            "end_time": "09:10",
+            "slot": "morning",
+            "type": "restaurant",
+            "item_id": "restaurant_007007",
+            "name": "Al Quds Restaurant Salt",
+            "duration_minutes": 40,
+            "location": "As-Salt",
+            "coordinates": {
+              "latitude": 32.0381,
+              "longitude": 35.7268,
+              "precision": "exact"
+            },
+            "description": "Long-standing local restaurant on Hammam Street serving authentic everyday Jordanian cooked dishes and grills.",
+            "reason": "Breakfast in the morning, before visiting.",
+            "matched_preferences": [
+              "In Balqa",
+              "Matches shopping",
+              "Works well for families",
+              "Matches preferred cuisine",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "6 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_007007"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "09:25",
+            "end_time": "12:25",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_007042",
+            "name": "Zarqa River Eco-Trail Pathway",
+            "duration_minutes": 180,
+            "location": "As-Salt",
+            "coordinates": {
+              "latitude": 32.1,
+              "longitude": 35.74,
+              "precision": "exact"
+            },
+            "description": "A rugged natural trail following sections of the winding Zarqa River canyon in Balqa.",
+            "reason": "In Balqa; matches hiking interest; A second day to go beyond the main site; Matches hiking",
+            "matched_preferences": [
+              "In Balqa",
+              "matches hiking interest",
+              "A second day to go beyond the main site",
+              "Matches hiking"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_007042"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "14:15",
+            "end_time": "15:45",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_007012",
+            "name": "Burin Forest Park",
+            "duration_minutes": 90,
+            "location": "As-Salt",
+            "coordinates": {
+              "latitude": 32.08,
+              "longitude": 35.733,
+              "precision": "exact"
+            },
+            "description": "A forested picnic and recreational area located in the scenic highlands of the Balqa region.",
+            "reason": "In Balqa; local_tourism_catalog; A second day to go beyond the main site; Works well for families",
+            "matched_preferences": [
+              "In Balqa",
+              "local_tourism_catalog",
+              "A second day to go beyond the main site",
+              "Works well for families"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_007012"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "16:00",
+            "end_time": "18:00",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_007048",
+            "name": "Zai Forest Picnic Area",
+            "duration_minutes": 120,
+            "location": "As-Salt",
+            "coordinates": {
+              "latitude": 32.0833,
+              "longitude": 35.7,
+              "precision": "exact"
+            },
+            "description": "A scenic upland forest reserve near Zai offering pine groves, panoramic lookouts, and picnic facilities.",
+            "reason": "In Balqa; local_tourism_catalog; A second day to go beyond the main site; Works well for families",
+            "matched_preferences": [
+              "In Balqa",
+              "local_tourism_catalog",
+              "A second day to go beyond the main site",
+              "Works well for families"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_007048"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "Stay overnight in Balqa."
+      }
+    ],
+    "budget": {
+      "currency": "JOD",
+      "traveler_budget": 900.0,
+      "estimated_total": "1209 JOD",
+      "band": "comfort",
+      "items": [
+        {
+          "category": "Stays",
+          "estimated_cost": "190 JOD",
+          "notes": "Amman Rotana: 130 JOD × 1 night(s); Beit Aziz Boutique Hotel: 60 JOD × 1 night(s)",
+          "confidence": "medium"
+        },
+        {
+          "category": "Meals on the plan",
+          "estimated_cost": "684 JOD",
+          "notes": "7 listed meal(s) × 6 traveler(s).",
+          "confidence": "medium"
+        },
+        {
+          "category": "Entry tickets",
+          "estimated_cost": "0 JOD",
+          "notes": "6 listed site(s) × 6 traveler(s). 1 site(s) have no listed entry fee.",
+          "confidence": "medium"
+        },
+        {
+          "category": "Trip guide",
+          "estimated_cost": "285 JOD",
+          "notes": "Listed daily rate 95 JOD × 3 days (up to 160 JOD listed)",
+          "confidence": "medium"
+        },
+        {
+          "category": "Trip operator",
+          "estimated_cost": "50 JOD",
+          "notes": "Listed from 50 JOD (up to 200 JOD listed)",
+          "confidence": "medium"
+        },
+        {
+          "category": "Left vs your ceiling",
+          "estimated_cost": "-309 JOD",
+          "notes": "Your ceiling is 900 JOD. Listed pieces add up to 1209 JOD.",
+          "confidence": "medium"
+        }
+      ],
+      "disclaimer": "Amounts come from catalog listings. This is a planning estimate, not a final invoice. Missing prices stay unknown — we do not invent them."
+    },
+    "sme_value": {
+      "headline": "Your guide and operator for this journey",
+      "summary": "One local guide and one tour operator for the whole trip — not a new face every day.",
+      "recommended": [
+        {
+          "sme_id": "tour_guide:SME-000010:balqa",
+          "sme_type": "tour_guide",
+          "name": "Samir Al-Dabbas",
+          "role": "Trip guide",
+          "location": "As-Salt",
+          "experience_type": "History, Religious Sites, Archaeology",
+          "match_score": 0.688,
+          "reason": "Fits what you asked for: religious_sites, museums",
+          "matched_because": [
+            "Fits what you asked for: religious_sites, museums",
+            "Covers balqa",
+            "Based in As-Salt",
+            "Works with family travelers",
+            "Speaks English"
+          ],
+          "known_for": [
+            "Veteran freelance tourist guide with extensive knowledge of Al-Balqa's religious landmarks, historical trails, and cross-cultural sites connecting As-Salt to the Jordan Valley",
+            "Takes travelers to As-Salt, Deir Alla, Tomb of Prophet Yusha'a, Jordan Valley fringes",
+            "Also offers Religious Tours, Custom Itineraries, Private Tours",
+            "Private groups available",
+            "Can arrange transportation"
+          ],
+          "specializations": [
+            "History",
+            "Religious Sites",
+            "Archaeology",
+            "Culture"
+          ],
+          "languages": [
+            "Arabic",
+            "English",
+            "Japanese"
+          ],
+          "experience_years": 20,
+          "destinations_covered": [
+            "As-Salt",
+            "Deir Alla",
+            "Tomb of Prophet Yusha'a",
+            "Jordan Valley fringes"
+          ],
+          "covers_regions": [
+            "balqa"
+          ],
+          "package_role": "guide",
+          "specs": [
+            {
+              "label": "Specializations",
+              "value": "History, Religious Sites, Archaeology, Culture"
+            },
+            {
+              "label": "Experience",
+              "value": "20 years"
+            },
+            {
+              "label": "Languages",
+              "value": "Arabic, English, Japanese"
+            },
+            {
+              "label": "Best for",
+              "value": "Families, Couples, Solo Travelers"
+            },
+            {
+              "label": "Group size",
+              "value": "1–35"
+            },
+            {
+              "label": "From",
+              "value": "95–160 JOD"
+            },
+            {
+              "label": "Hours",
+              "value": "08:00 - 18:00"
+            },
+            {
+              "label": "Rating",
+              "value": "5.0 (64 reviews)"
+            }
+          ],
+          "source": {
+            "dataset": "sme_guides",
+            "record_id": "tour_guide:SME-000010:balqa"
+          },
+          "coordinates": {
+            "latitude": 32.0392,
+            "longitude": 35.7272,
+            "precision": "city_centroid"
+          }
+        },
+        {
+          "sme_id": "tour_operator:SME-000005:balqa",
+          "sme_type": "tour_operator",
+          "name": "Balqa Panorama Travel",
+          "role": "Trip operator",
+          "location": "As-Salt",
+          "experience_type": "History, Culture, Nature",
+          "match_score": 0.853,
+          "reason": "Fits what you asked for: museums, hiking",
+          "matched_because": [
+            "Fits what you asked for: museums, hiking",
+            "Covers amman, balqa",
+            "Based in As-Salt",
+            "Works with family travelers",
+            "Speaks English",
+            "Transportation across the itinerary"
+          ],
+          "known_for": [
+            "General incoming tour and travel services provider offering customized regional itineraries, airport transfers, and day tours across the Balqa governorate and Jordan",
+            "Takes travelers to As-Salt, Amman, Dead Sea, Jerash",
+            "Also offers Transportation, Custom Itineraries, Private Tours",
+            "Private groups available",
+            "Can arrange transportation"
+          ],
+          "specializations": [
+            "History",
+            "Culture",
+            "Nature"
+          ],
+          "languages": [
+            "Arabic",
+            "English"
+          ],
+          "experience_years": 10,
+          "destinations_covered": [
+            "As-Salt",
+            "Amman",
+            "Dead Sea",
+            "Jerash"
+          ],
+          "covers_regions": [
+            "amman",
+            "balqa"
+          ],
+          "package_role": "operator",
+          "specs": [
+            {
+              "label": "Specializations",
+              "value": "History, Culture, Nature"
+            },
+            {
+              "label": "Experience",
+              "value": "10 years"
+            },
+            {
+              "label": "Languages",
+              "value": "Arabic, English"
+            },
+            {
+              "label": "Best for",
+              "value": "Families, Couples, Solo Travelers"
+            },
+            {
+              "label": "Group size",
+              "value": "1–25"
+            },
+            {
+              "label": "From",
+              "value": "50–200 JOD"
+            },
+            {
+              "label": "Hours",
+              "value": "09:00–18:00"
+            },
+            {
+              "label": "Rating",
+              "value": "4.4 (42 reviews)"
+            }
+          ],
+          "source": {
+            "dataset": "sme_operators",
+            "record_id": "tour_operator:SME-000005:balqa"
+          },
+          "coordinates": {
+            "latitude": 32.0392,
+            "longitude": 35.7272,
+            "precision": "city_centroid"
+          }
+        }
+      ]
+    },
+    "sources": [
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_001041"
+      },
+      {
+        "dataset": "hotels",
+        "record_id": "hotel_000020"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_001034"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_007035"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_007008"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_007021"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_007030"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_007029"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_007018"
+      },
+      {
+        "dataset": "hotels",
+        "record_id": "hotel_000060"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_007007"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_007042"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_007012"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_007048"
+      },
+      {
+        "dataset": "sme_guides",
+        "record_id": "tour_guide:SME-000010:balqa"
+      },
+      {
+        "dataset": "sme_operators",
+        "record_id": "tour_operator:SME-000005:balqa"
+      }
+    ],
+    "warnings": [
+      {
+        "code": "note",
+        "message": "No 4-star hotel is listed in Balqa; using 3-star Beit Aziz Boutique Hotel.",
+        "severity": "info"
+      }
+    ],
+    "explanations": {
+      "trip_planning_reason": "You land at 18:11, so arrival night stays in Amman — hotel, a meal, rest. The touring days start the next morning. After that the days stay on a short loop: Balqa (2 days). It's a hot month, so the outdoor sites go before midday.",
+      "highlights": [
+        "Tomb of Prophet Shuaib (Jethro)",
+        "Zain Al-Sharaf Nature Reserve",
+        "As-Salt Heritage Trail Starting Point",
+        "Mahes Pine Forest Park",
+        "Zarqa River Eco-Trail Pathway",
+        "Burin Forest Park"
+      ],
+      "why_smes": [
+        "Samir Al-Dabbas: Fits what you asked for: religious_sites, museums",
+        "Balqa Panorama Travel: Fits what you asked for: museums, hiking"
+      ],
+      "context_benefits": []
+    }
+  }
+}

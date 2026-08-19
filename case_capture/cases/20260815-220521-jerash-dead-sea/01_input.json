@@ -1,0 +1,50 @@
+{
+  "mode": "build",
+  "requestedAt": "2026-08-15T22:03:57.223000Z",
+  "trip": {
+    "startDate": "2026-08-25",
+    "duration": "3",
+    "arrivalAirport": "AMM",
+    "arrivalTime": "20:48",
+    "totalBudget": 900.0,
+    "preferredLanguage": "English",
+    "preferredRegions": [
+      "Jerash",
+      "Dead Sea"
+    ]
+  },
+  "travelers": {
+    "adults": 2,
+    "children": 0,
+    "childrenAges": [],
+    "seniors": 0,
+    "groupType": "couple",
+    "accessibilityNeeds": []
+  },
+  "preferences": {
+    "interests": [
+      "history",
+      "nature",
+      "food"
+    ],
+    "tripPace": "Balanced",
+    "activityLevel": "Moderate",
+    "mustVisit": [],
+    "placesToAvoid": ""
+  },
+  "accommodation": {
+    "type": "hotel",
+    "rating": "4 star"
+  },
+  "dining": {
+    "cuisine": [
+      "Local Jordanian"
+    ]
+  },
+  "extras": {
+    "specialOccasion": "None",
+    "smePreferences": [],
+    "aiPriority": "",
+    "freeText": ""
+  }
+}

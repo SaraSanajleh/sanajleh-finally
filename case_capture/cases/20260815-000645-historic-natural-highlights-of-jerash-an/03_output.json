@@ -1,0 +1,264 @@
+{
+  "metadata": {
+    "model": "gpt-oss:20b-cloud",
+    "provider": "ollama",
+    "mode": "build",
+    "latencyMs": 21594.43,
+    "retries": 1,
+    "caseId": null,
+    "rag": {
+      "status": "unavailable",
+      "source": null,
+      "duration_days": 3,
+      "cluster_count": 0,
+      "clusters": []
+    }
+  },
+  "package": {
+    "welcome_message": "Welcome to your 3-day Jordan adventure!",
+    "why_you_will_love_this": {
+      "highlights": [
+        "Ancient Roman architecture",
+        "Scenic forest hikes",
+        "Authentic Jordanian flavors"
+      ],
+      "special_touches": [
+        "Cultural storytelling at each site",
+        "Handpicked local eateries",
+        "Comfortable 3-star accommodation"
+      ]
+    },
+    "trip_title": "Historic & Natural Highlights of Jerash and Ajloun",
+    "trip_description": {
+      "overview": "Explore the ancient ruins of Jerash, the lush forests of Ajloun, and savor local Jordanian cuisine in a comfortable 3-star hotel setting.",
+      "included": [
+        "3 nights 2-bedroom room at a 3-star hotel in Jerash",
+        "Daily breakfast",
+        "Guided tours of Jerash and Ajloun",
+        "Lunch and dinner at local restaurants",
+        "Entrance fees to all sites",
+        "All taxes and service charges"
+      ],
+      "not_included": [
+        "International flights",
+        "Personal expenses",
+        "Optional activities not listed"
+      ]
+    },
+    "trip_details": {
+      "duration": {
+        "days": "3",
+        "nights": "2"
+      },
+      "trip_type": [
+        "couple"
+      ],
+      "number_of_travelers": "2",
+      "budget": {
+        "amount": "900",
+        "currency": "JOD"
+      }
+    },
+    "daily_itinerary": [
+      {
+        "day_number": "1",
+        "day_title": "Jerash Ancient City",
+        "day_summary": "Morning exploration of Roman ruins, lunch at a local café, afternoon visit to the Roman theatre, and dinner at a traditional Jordanian restaurant. Night stay at Al-Jazira Hotel, Jerash.",
+        "activities": [
+          {
+            "start_time": "09:00",
+            "end_time": "11:30",
+            "activity_title": "Guided Tour of Jerash Amphitheatre",
+            "description": "Walk through the well-preserved amphitheatre and learn about its history.",
+            "location": "Jerash Amphitheatre",
+            "estimated_cost": "30.0 JOD",
+            "smart_tip": "Wear comfortable shoes"
+          },
+          {
+            "start_time": "12:00",
+            "end_time": "13:30",
+            "activity_title": "Lunch at Al-Mouhanna Café",
+            "description": "Enjoy local Jordanian dishes like mansaf and hummus.",
+            "location": "Al-Mouhanna Café, Jerash",
+            "estimated_cost": "25.0 JOD",
+            "smart_tip": "Try the grilled chicken"
+          },
+          {
+            "start_time": "14:00",
+            "end_time": "16:00",
+            "activity_title": "Visit Roman Theatre",
+            "description": "Explore the ancient theatre and its surrounding gardens.",
+            "location": "Roman Theatre, Jerash",
+            "estimated_cost": "20.0 JOD",
+            "smart_tip": "Bring a water bottle"
+          },
+          {
+            "start_time": "18:30",
+            "end_time": "20:30",
+            "activity_title": "Dinner at Al-Hammam Restaurant",
+            "description": "Savor traditional Jordanian cuisine in a cozy setting.",
+            "location": "Al-Hammam Restaurant, Jerash",
+            "estimated_cost": "35.0 JOD",
+            "smart_tip": "Ask for the chef's special"
+          }
+        ],
+        "activity_alternatives": [
+          {
+            "original_activity": "Roman Theatre",
+            "alternative_activity": "Visit the Ancient City Museum",
+            "reason": "If theatre is closed"
+          }
+        ]
+      },
+      {
+        "day_number": "2",
+        "day_title": "Ajloun Forest Reserve",
+        "day_summary": "Morning hike in Ajloun Forest, lunch at a local farm restaurant, afternoon visit to Ajloun Castle, and dinner at a nearby restaurant. Night stay at Al-Jazira Hotel, Jerash.",
+        "activities": [
+          {
+            "start_time": "09:00",
+            "end_time": "11:00",
+            "activity_title": "Hike to the Forest Viewpoint",
+            "description": "Enjoy panoramic views of the forest and surrounding hills.",
+            "location": "Ajloun Forest Reserve",
+            "estimated_cost": "Free",
+            "smart_tip": "Wear sturdy shoes"
+          },
+          {
+            "start_time": "12:00",
+            "end_time": "13:30",
+            "activity_title": "Lunch at Al-Zahra Farmhouse",
+            "description": "Taste fresh farm-to-table Jordanian dishes.",
+            "location": "Al-Zahra Farmhouse, Ajloun",
+            "estimated_cost": "30.0 JOD",
+            "smart_tip": "Try the local cheese"
+          },
+          {
+            "start_time": "14:00",
+            "end_time": "16:30",
+            "activity_title": "Guided Tour of Ajloun Castle",
+            "description": "Explore the medieval castle and its history.",
+            "location": "Ajloun Castle",
+            "estimated_cost": "25.0 JOD",
+            "smart_tip": "Bring a hat"
+          },
+          {
+            "start_time": "18:30",
+            "end_time": "20:30",
+            "activity_title": "Dinner at Al-Sultan Restaurant",
+            "description": "Enjoy a relaxed dinner with local flavors.",
+            "location": "Al-Sultan Restaurant, Ajloun",
+            "estimated_cost": "30.0 JOD",
+            "smart_tip": "Ask for the daily special"
+          }
+        ],
+        "activity_alternatives": [
+          {
+            "original_activity": "Ajloun Castle",
+            "alternative_activity": "Visit the nearby Olive Oil Press",
+            "reason": "If castle is closed"
+          }
+        ]
+      },
+      {
+        "day_number": "3",
+        "day_title": "Jerash Cultural Day",
+        "day_summary": "Morning visit to the Roman Baths, lunch at a local bakery, afternoon stroll through the ancient city streets, and farewell dinner at a rooftop restaurant. Night stay at Al-Jazira Hotel, Jerash.",
+        "activities": [
+          {
+            "start_time": "09:00",
+            "end_time": "10:30",
+            "activity_title": "Explore Roman Baths",
+            "description": "Discover the ancient bathing complex and its architecture.",
+            "location": "Roman Baths, Jerash",
+            "estimated_cost": "15.0 JOD",
+            "smart_tip": "Take photos carefully"
+          },
+          {
+            "start_time": "12:00",
+            "end_time": "13:30",
+            "activity_title": "Lunch at Al-Mara Bakery",
+            "description": "Enjoy freshly baked bread and local pastries.",
+            "location": "Al-Mara Bakery, Jerash",
+            "estimated_cost": "20.0 JOD",
+            "smart_tip": "Try the local cheese sandwich"
+          },
+          {
+            "start_time": "14:00",
+            "end_time": "16:00",
+            "activity_title": "Stroll Through Ancient City Streets",
+            "description": "Walk through the streets, visiting shops and historic sites.",
+            "location": "Jerash Ancient City",
+            "estimated_cost": "Free",
+            "smart_tip": "Wear comfortable shoes"
+          },
+          {
+            "start_time": "18:30",
+            "end_time": "20:30",
+            "activity_title": "Farewell Dinner at Al-Nahar Rooftop",
+            "description": "Enjoy a sunset view with traditional Jordanian dishes.",
+            "location": "Al-Nahar Rooftop, Jerash",
+            "estimated_cost": "35.0 JOD",
+            "smart_tip": "Book a table in advance"
+          }
+        ],
+        "activity_alternatives": [
+          {
+            "original_activity": "Stroll Through Ancient City Streets",
+            "alternative_activity": "Visit the Jerash Souk",
+            "reason": "If streets are crowded"
+          }
+        ]
+      }
+    ],
+    "budget_summary": {
+      "items": [
+        {
+          "category": "Accommodation",
+          "estimated_cost": "Not Available",
+          "notes": "2 night(s) requested as a 3 star hotel — no grounded nightly rate was returned, so no lodging cost is claimed here"
+        },
+        {
+          "category": "Meals",
+          "estimated_cost": "175 JOD",
+          "notes": "Sum of the meals scheduled in the itinerary"
+        },
+        {
+          "category": "Activities & Entry Fees",
+          "estimated_cost": "90 JOD",
+          "notes": "Sum of the entry fees scheduled in the itinerary"
+        },
+        {
+          "category": "Unallocated Budget (before accommodation and transport)",
+          "estimated_cost": "635 JOD",
+          "notes": "What is left of the 900 JOD ceiling once the lines above are counted. Lodging and transport between areas are not priced in this plan, so this is not spending money"
+        }
+      ],
+      "total_estimated_cost": "265 JOD"
+    },
+    "essential_travel_tips": [
+      {
+        "category": "Packing",
+        "tips": [
+          "Lightweight clothing, comfortable shoes, sunscreen, hat, reusable water bottle"
+        ]
+      },
+      {
+        "category": "Health",
+        "tips": [
+          "Stay hydrated, carry a small first aid kit, avoid street food if sensitive"
+        ]
+      },
+      {
+        "category": "Safety",
+        "tips": [
+          "Keep valuables secure, stay in well-lit areas, follow local advice"
+        ]
+      }
+    ],
+    "explanations": {
+      "trip_planning_reason": "Focused on must-visit Jerash with added nature in Ajloun, balancing history, culture, and nature within a 3-day budget.",
+      "selection_reason": "Chosen sites are accessible, offer guided tours, and fit the couple's moderate activity level while staying within the 900 JOD budget."
+    }
+  }
+}

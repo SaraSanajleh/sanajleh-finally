@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ReTour AI Brain — Playground</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>ReTour AI Brain</h1>
+    <p>Temporary playground — Phase 1 package generation tester</p>
+  </header>
+
+  <main>
+    <form id="package-form">
+      <section>
+        <h2>Mode</h2>
+        <label>
+          Mode
+          <select name="mode" required>
+            <option value="build">build — AI creates custom package</option>
+            <option value="browse">browse — filter ready packages</option>
+          </select>
+        </label>
+      </section>
+
+      <section>
+        <h2>Trip</h2>
+        <div class="grid">
+          <label>Start Date <input type="date" name="startDate" required /></label>
+          <label>
+            Duration (days)
+            <select name="duration" required>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="5" selected>5</option>
+              <option value="7">7</option>
+            </select>
+          </label>
+          <label>
+            Arrival Airport
+            <select name="arrivalAirport" required>
+              <option value="AMM">AMM — Queen Alia, Amman</option>
+              <option value="AQJ">AQJ — King Hussein, Aqaba</option>
+              <option value="OTHER">OTHER</option>
+            </select>
+          </label>
+          <label>Total Budget (JOD) <input type="number" name="totalBudget" min="0" value="1500" required /></label>
+          <label>
+            Preferred Language
+            <select name="preferredLanguage" required>
+              <option value="English">English</option>
+              <option value="Arabic">Arabic</option>
+              <option value="French">French</option>
+              <option value="German">German</option>
+              <option value="Spanish">Spanish</option>
+              <option value="Italian">Italian</option>
+            </select>
+          </label>
+        </div>
+        <fieldset>
+          <legend>Preferred Regions</legend>
+          <div class="checkbox-grid" id="regions"></div>
+        </fieldset>
+      </section>
+
+      <section>
+        <h2>Travelers</h2>
+        <div class="grid">
+          <label>Adults <input type="number" name="adults" min="1" max="20" value="2" required /></label>
+          <label>Children <input type="number" name="children" min="0" max="20" value="0" required /></label>
+          <label>Seniors <input type="number" name="seniors" min="0" max="20" value="0" required /></label>
+          <label>
+            Group Type
+            <select name="groupType" required>
+              <option value="solo">solo</option>
+              <option value="couple" selected>couple</option>
+              <option value="family">family</option>
+              <option value="friends">friends</option>
+              <option value="business">business</option>
+            </select>
+          </label>
+        </div>
+        <label>Children Ages (comma-separated) <input type="text" name="childrenAges" placeholder="e.g. 7, 12" /></label>
+        <fieldset>
+          <legend>Accessibility Needs</legend>
+          <div class="checkbox-grid" id="accessibility"></div>
+        </fieldset>
+      </section>
+
+      <section>
+        <h2>Preferences</h2>
+        <fieldset>
+          <legend>Interests (min 1)</legend>
+          <div class="checkbox-grid" id="interests"></div>
+        </fieldset>
+        <div class="grid">
+          <label>
+            Trip Pace
+            <select name="tripPace" required>
+              <option value="Relaxed">Relaxed</option>
+              <option value="Balanced" selected>Balanced</option>
+              <option value="Fast-paced">Fast-paced</option>
+              <option value="No Preference">No Preference</option>
+            </select>
+          </label>
+          <label>
+            Activity Level
+            <select name="activityLevel" required>
+              <option value="Easy">Easy</option>
+              <option value="Moderate" selected>Moderate</option>
+              <option value="Active">Active</option>
+              <option value="No Preference">No Preference</option>
+            </select>
+          </label>
+        </div>
+        <fieldset>
+          <legend>Must Visit</legend>
+          <div class="checkbox-grid" id="mustVisit"></div>
+        </fieldset>
+        <label>Places to Avoid <textarea name="placesToAvoid" rows="2"></textarea></label>
+      </section>
+
+      <section>
+        <h2>Accommodation</h2>
+        <div class="grid">
+          <label>
+            Type
+            <select name="accommodationType">
+              <option value="">Not specified</option>
+              <option value="no_pref">No preference</option>
+              <option value="hotel">Hotel</option>
+              <option value="resort">Resort</option>
+              <option value="boutique">Boutique</option>
+              <option value="eco_lodge">Eco lodge</option>
+              <option value="desert_camp">Desert camp</option>
+            </select>
+          </label>
+          <label>
+            Rating
+            <select name="accommodationRating">
+              <option value="">Not specified</option>
+              <option value="No Preference">No Preference</option>
+              <option value="3 star">3 star</option>
+              <option value="4 star">4 star</option>
+              <option value="5 star">5 star</option>
+            </select>
+          </label>
+        </div>
+      </section>
+
+      <section>
+        <h2>Dining</h2>
+        <fieldset>
+          <legend>Cuisine Preferences</legend>
+          <div class="checkbox-grid" id="cuisine"></div>
+        </fieldset>
+      </section>
+
+      <section>
+        <h2>Extras</h2>
+        <div class="grid">
+          <label>
+            Special Occasion
+            <select name="specialOccasion">
+              <option value="">None</option>
+              <option value="None">None</option>
+              <option value="Birthday">Birthday</option>
+              <option value="Honeymoon">Honeymoon</option>
+              <option value="Anniversary">Anniversary</option>
+              <option value="Graduation">Graduation</option>
+              <option value="Family Celebration">Family Celebration</option>
+            </select>
+          </label>
+          <label>
+            AI Priority
+            <select name="aiPriority">
+              <option value="">Not specified</option>
+              <option value="budget">Budget</option>
+              <option value="famous">Famous landmarks</option>
+              <option value="hidden">Hidden gems</option>
+              <option value="authentic">Authentic</option>
+              <option value="sustainable">Sustainable</option>
+              <option value="comfort">Comfort</option>
+              <option value="maximize">Maximize experiences</option>
+              <option value="family">Family</option>
+            </select>
+          </label>
+        </div>
+        <fieldset>
+          <legend>SME Preferences</legend>
+          <div class="checkbox-grid" id="smePreferences"></div>
+        </fieldset>
+        <label>Free Text <textarea name="freeText" rows="3" placeholder="Anything the form couldn't capture..."></textarea></label>
+      </section>
+
+      <div class="actions">
+        <button type="submit" id="submit-btn">Generate Package</button>
+        <span id="status"></span>
+      </div>
+    </form>
+
+    <section id="response-section" hidden>
+      <h2>Response</h2>
+      <pre id="response-viewer"></pre>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+{
+  "status": "succeeded",
+  "elapsed_s": 25.3,
+  "metadata": {
+    "model": "gpt-oss:20b-cloud",
+    "provider": "ollama",
+    "mode": "build",
+    "latencyMs": 25296.55,
+    "retries": 0,
+    "caseId": "20260814-231235-jerash-ajloun-heritage-nature-local-flav",
+    "rag": {
+      "status": "ok",
+      "source": "retriever",
+      "duration_days": 2,
+      "cluster_count": 2,
+      "clusters": [
+        {
+          "cluster_id": 0,
+          "theme": "Jerash Governorate · nature",
+          "poi_count": 5,
+          "hotel_count": 4,
+          "event_count": 3,
+          "poi_names": [
+            "Jerash Heritage Souk",
+            "Al-Kittah Village and Springs",
+            "Al-Mustaba Eco-Park",
+            "Al-Husseini Mosque Jerash",
+            "Suf Village Heritage Center"
+          ],
+          "hotel_names": [
+            "Celestia Boutique Inn",
+            "The Olive Branch Hotel",
+            "Jerash Hotel",
+            "Dream House Hotel Apartments"
+          ],
+          "sample_restaurants": [
+            "Jerash Oasis Grill",
+            "Jerash Gate Restaurant",
+            "Jerash Orchard Restaurant",
+            "Jerash Valley Resort Restaurant",
+            "Jerash Olive Grove Grill",
+            "Green Valley Restaurant Jerash"
+          ],
+          "event_names": [
+            "Jordan Summer Festival - Jerash",
+            "National Celebrations Programme - Jerash",
+            "Aesthetics of Place Cultural Programme - Jerash"
+          ]
+        },
+        {
+          "cluster_id": 1,
+          "theme": "Ajloun Governorate · history, nature",
+          "poi_count": 10,
+          "hotel_count": 4,
+          "event_count": 3,
+          "poi_names": [
+            "Ajloun Castle",
+            "Ajloun Great Mosque",
+            "Ajloun Forest Reserve",
+            "Ajloun Heritage Olive Tree",
+            "Ajloun Archeological Museum",
+            "Rasoon Village Heritage Area",
+            "Ajloun Souq",
+            "Mar Elias Trailhead",
+            "Ajloun Olive Press Museum",
+            "Ishtafina Park"
+          ],
+          "hotel_names": [
+            "Al-Jabal Castle Hotel - Ajloun",
+            "Ajloun Hotel",
+            "Ajloun cabins",
+            "Ajloun Forest Reserve"
+          ],
+          "sample_restaurants": [
+            "Ajloun Castle Restaurant",
+            "Al Yarmouk Falafel Ajloun",
+            "Ajloun Reserve Restaurant",
+            "Al Rayyan Valley Cafe & Restaurant",
+            "Tawaheen Ajloun Tourist Resort",
+            "Rasoun Heritage House Restaurant"
+          ],
+          "event_names": [
+            "Jordan Summer Festival - Ajloun",
+            "National Celebrations Programme - Ajloun",
+            "Ajloun Cable Car Summer Festival"
+          ]
+        }
+      ]
+    }
+  },
+  "rag_clusters": 2,
+  "day_count": 2,
+  "welcome": "Welcome to your personalized Jordan adventure!",
+  "days": [
+    {
+      "day": "1",
+      "title": "Jerash Heritage & Nature",
+      "activities": [
+        "Al-Mustaba Eco-Park",
+        "Lunch at Jerash Oasis Grill",
+        "Jerash Heritage Souk",
+        "Al-Husseini Mosque",
+        "Dinner at Jerash Gate Restaurant"
+      ]
+    },
+    {
+      "day": "2",
+      "title": "Ajloun Castle & Heritage",
+      "activities": [
+        "Ajloun Castle & Museum",
+        "Lunch at Ajloun Castle Restaurant",
+        "Ajloun Great Mosque & Souq",
+        "Ajloun Olive Press Museum",
+        "Dinner at Al Yarmouk Falafel"
+      ]
+    }
+  ],
+  "mentions_jerash_or_ajloun": [
+    "jerash",
+    "ajloun"
+  ],
+  "mentions_avoid_places": []
+}

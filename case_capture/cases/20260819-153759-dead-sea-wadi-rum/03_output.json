@@ -1,0 +1,1168 @@
+{
+  "metadata": {
+    "model": "qwen3:8b",
+    "provider": "ollama",
+    "mode": "build",
+    "retries": 2
+  },
+  "package": {
+    "package_id": "pkg-b6253552072c",
+    "status": "complete",
+    "welcome_message": "Land in Amman, then 3 exploring days through Dead Sea, then Wadi Rum (2 days).",
+    "trip_title": "Dead Sea · Wadi Rum",
+    "trip": {
+      "title": "Dead Sea · Wadi Rum",
+      "summary": "Arrival, then Dead Sea, then Wadi Rum (2 days). Walk outdoors in the morning. Keep the afternoon for shade, meals, or indoor visits.",
+      "start_date": "2026-08-22",
+      "end_date": "2026-08-25",
+      "duration_days": 4,
+      "nights": 3,
+      "regions": [
+        "Amman",
+        "Dead Sea",
+        "Wadi Rum"
+      ],
+      "arrival_airport": "AMM",
+      "language": "English"
+    },
+    "traveler_profile": {
+      "group_type": "couple",
+      "adults": 2,
+      "children": 0,
+      "children_ages": [],
+      "seniors": 0,
+      "total_travelers": 2,
+      "interests": [
+        "culture",
+        "nature",
+        "history"
+      ],
+      "pace": "Balanced",
+      "activity_level": "Active",
+      "accessibility_needs": []
+    },
+    "planning": {
+      "strategy": "You land at 18:15, so arrival night stays in Amman — hotel, a meal, rest. The touring days start the next morning. I put Wadi Rum on the calendar first, then kept the rest of the days on Dead Sea, then Wadi Rum (2 days). It's a hot month, so the outdoor sites go before midday.",
+      "constraints": {
+        "must_visit": [
+          "Wadi Rum"
+        ],
+        "places_to_avoid": []
+      },
+      "constraint_status": {
+        "status": "satisfied",
+        "unmet": []
+      },
+      "assumptions": [
+        "Travel times between cities are estimated qualitatively, not as exact minutes, unless evidence exists.",
+        "Opening hours are used only when present on the catalog record."
+      ],
+      "climate": {
+        "month": 8,
+        "season": "hot_dry_summer",
+        "typical_pattern": "High daytime heat, especially in the Jordan Valley and desert.",
+        "outdoor_guidance": "Walk outdoors in the morning. Keep the afternoon for shade, meals, or indoor visits.",
+        "heat_risk": "high"
+      },
+      "weather_status": "ok",
+      "decisions": [
+        {
+          "code": "day_route",
+          "title": "Each exploring day stays in one area",
+          "why": "Mixing far-apart cities in one day makes the trip exhausting.",
+          "effect": "After arrival, the days run Dead Sea, then Wadi Rum (2 days)."
+        },
+        {
+          "code": "arrival_stay",
+          "title": "Night one is near the airport",
+          "why": "You land at AMM at 18:15.",
+          "effect": "Sleep in Amman on arrival night. The exploring days start the next morning."
+        },
+        {
+          "code": "arrival_pace",
+          "title": "Settle in this evening",
+          "why": "You land at 18:15.",
+          "effect": "Food and rest first. A nearby stop only if enough evening remains, then back to the hotel."
+        },
+        {
+          "code": "hotel_move",
+          "title": "Then you move closer to the places you came for",
+          "why": "Sleeping in the same city you visit beats a long commute every morning.",
+          "effect": "After the arrival night, nearby days share one hotel. You only move when the next area is too far for a day trip."
+        },
+        {
+          "code": "must_visit",
+          "title": "Your must-see places get proper time",
+          "why": "Wadi Rum were marked as required.",
+          "effect": "Those places get up to two exploring days first. Then the remaining days go to the destinations you asked to explore."
+        },
+        {
+          "code": "heat",
+          "title": "Mornings for the outdoors",
+          "why": "High daytime heat, especially in the Jordan Valley and desert.",
+          "effect": "Walk heritage and nature in the morning. Save museums, meals, and shade for the afternoon."
+        },
+        {
+          "code": "pace",
+          "title": "A balanced pace",
+          "why": "couple group, Active activity.",
+          "effect": "On exploring days, plan on about 5 visits and 3 meals. Arrival follows the time left after food and rest."
+        },
+        {
+          "code": "stay_tier",
+          "title": "4 star stays",
+          "why": "You asked for 4 star hotels.",
+          "effect": "Hotels are taken from listings at that star level when the city has them. If it does not, we use the closest listed tier and say so."
+        },
+        {
+          "code": "budget",
+          "title": "A comfort budget",
+          "why": "899 JOD for 4 days.",
+          "effect": "We lean toward more comfortable stays and dining when those places exist."
+        },
+        {
+          "code": "interests",
+          "title": "Chosen around what you care about",
+          "why": "culture, nature, and history",
+          "effect": "Stops follow culture, nature, and history. Unrelated places stay off the list."
+        }
+      ]
+    },
+    "days": [
+      {
+        "day": 1,
+        "date": "2026-08-22",
+        "region": "Amman",
+        "theme": "Arrival in Amman",
+        "summary": "Afternoon/evening arrival in Amman: eat and rest first. A quiet first evening.",
+        "is_arrival_day": true,
+        "schedule": [
+          {
+            "time": "19:00",
+            "end_time": "19:20",
+            "slot": "dinner",
+            "type": "restaurant",
+            "item_id": "restaurant_001030",
+            "name": "Zalatimo Sweets",
+            "duration_minutes": 20,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.96051,
+              "longitude": 35.87682,
+              "precision": "exact"
+            },
+            "description": "A historic, legendary confectionery house in Amman famous for delicate filo pastries, marzipan, and baklava.",
+            "reason": "Dinner near the hotel. Nothing more tonight.",
+            "matched_preferences": [
+              "In Amman",
+              "Matches culture, history",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "8 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_001030"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "20:00",
+            "end_time": "22:00",
+            "slot": "overnight",
+            "type": "hotel",
+            "item_id": "hotel_000022",
+            "name": "InterContinental Jordan",
+            "duration_minutes": null,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.953689,
+              "longitude": 35.913879,
+              "precision": "exact"
+            },
+            "description": "Long-established five-star IHG hotel on Islamic College Street in Jabal Amman, between the Second and Third Circles, with six restaurants, indoor and outdoor pools, a spa and a 24-hour reception.",
+            "reason": "Check in and rest first. Add a nearby stop only if enough evening is left. 5-star stay, as requested",
+            "matched_preferences": [
+              "5-star stay, as requested",
+              "In Amman",
+              "Matches culture, history",
+              "5-star, as requested",
+              "Matches hotel"
+            ],
+            "estimated_cost": "165 JOD / night",
+            "source": {
+              "dataset": "hotels",
+              "record_id": "hotel_000022"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "You land at 18:15. The drive from Queen Alia to Amman is about 45 minutes. Times below start after that transfer."
+      },
+      {
+        "day": 2,
+        "date": "2026-08-23",
+        "region": "Dead Sea",
+        "theme": "Dead Sea",
+        "summary": "Morning transfer from Amman to Dead Sea, visits Dead Sea Panorama Complex (Madaba Overlook), Madaba Archaeological Park, Mount Nebo, with breakfast, lunch, and dinner on the clock.",
+        "is_arrival_day": false,
+        "schedule": [
+          {
+            "time": "09:35",
+            "end_time": "10:56",
+            "slot": "morning",
+            "type": "transfer",
+            "item_id": "transfer:amman:dead sea:09:35",
+            "name": "Drive to Dead Sea",
+            "duration_minutes": 81,
+            "location": "Amman → Dead Sea",
+            "coordinates": null,
+            "description": "Travel from Amman to Dead Sea.",
+            "reason": "You woke up in a different place than today's sights.",
+            "matched_preferences": [],
+            "estimated_cost": "not_available",
+            "source": {
+              "dataset": "planning",
+              "record_id": "transfer:amman:dead sea"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "10:56",
+            "end_time": "12:26",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_004029",
+            "name": "Dead Sea Panorama Complex (Madaba Overlook)",
+            "duration_minutes": 90,
+            "location": "Ma'in",
+            "coordinates": {
+              "latitude": 31.646944,
+              "longitude": 35.608889,
+              "precision": "exact"
+            },
+            "description": "Perched complex on the Zara cliff edge offering panoramic Dead Sea views, walking trails, and geology museum.",
+            "reason": "In Dead Sea; local_tourism_catalog; A must-see in Dead Sea; Matches culture, nature",
+            "matched_preferences": [
+              "In Dead Sea",
+              "local_tourism_catalog",
+              "A must-see in Dead Sea",
+              "Matches culture, nature"
+            ],
+            "estimated_cost": "2 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_004029"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "13:00",
+            "end_time": "14:00",
+            "slot": "afternoon",
+            "type": "restaurant",
+            "item_id": "restaurant_007017",
+            "name": "Al Ghorfal Seafood Restaurant",
+            "duration_minutes": 60,
+            "location": "Dead Sea Region",
+            "coordinates": {
+              "latitude": 31.7215,
+              "longitude": 35.5892,
+              "precision": "exact"
+            },
+            "description": "Resort-area seafood specialty restaurant located near the Dead Sea hotel zone in Sweimeh.",
+            "reason": "Lunch in the afternoon.",
+            "matched_preferences": [
+              "In Dead Sea",
+              "A must-see in Dead Sea",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "25 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_007017"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "14:15",
+            "end_time": "15:15",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_004002",
+            "name": "Madaba Archaeological Park",
+            "duration_minutes": 60,
+            "location": "Madaba",
+            "coordinates": {
+              "latitude": 31.716181,
+              "longitude": 35.793264,
+              "precision": "exact"
+            },
+            "description": "An open-air archaeological complex featuring ancient Roman roads, Byzantine churches, and exquisite floor mosaics.",
+            "reason": "In Madaba; A must-see in Madaba; Matches culture, history; One visit covering the nearby monuments",
+            "matched_preferences": [
+              "In Madaba",
+              "A must-see in Madaba",
+              "Matches culture, history",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "3 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_004002"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "15:30",
+            "end_time": "17:00",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_004003",
+            "name": "Mount Nebo",
+            "duration_minutes": 90,
+            "location": "Faisaliyah",
+            "coordinates": {
+              "latitude": 31.768311,
+              "longitude": 35.725228,
+              "precision": "exact"
+            },
+            "description": "Sacred mountain site from which Prophet Moses viewed the Promised Land, featuring ancient mosaics and panoramic views.",
+            "reason": "In Madaba; A must-see in Madaba; Matches culture, history",
+            "matched_preferences": [
+              "In Madaba",
+              "A must-see in Madaba",
+              "Matches culture, history"
+            ],
+            "estimated_cost": "3 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_004003"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "17:15",
+            "end_time": "18:00",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_004024",
+            "name": "Moses Spring (Ayn Musa)",
+            "duration_minutes": 45,
+            "location": "Faisaliyah",
+            "coordinates": {
+              "latitude": 31.776111,
+              "longitude": 35.738889,
+              "precision": "exact"
+            },
+            "description": "Historic freshwater spring tradition links to Moses striking the rock, set in a lush terraced valley below Mount Nebo.",
+            "reason": "In Madaba; A must-see in Madaba; Matches nature",
+            "matched_preferences": [
+              "In Madaba",
+              "A must-see in Madaba",
+              "Matches nature"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_004024"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "18:15",
+            "end_time": "19:15",
+            "slot": "evening",
+            "type": "restaurant",
+            "item_id": "restaurant_007033",
+            "name": "Dead Sea Panorama Restaurant",
+            "duration_minutes": 60,
+            "location": "Dead Sea Region",
+            "coordinates": {
+              "latitude": 31.6214,
+              "longitude": 35.5811,
+              "precision": "exact"
+            },
+            "description": "Cliffside fine-dining restaurant perched high above the Dead Sea coast, offering breathtaking sunset views and international cuisine.",
+            "reason": "Dinner in the evening.",
+            "matched_preferences": [
+              "In Dead Sea",
+              "A must-see in Dead Sea"
+            ],
+            "estimated_cost": "22 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_007033"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "",
+            "end_time": "",
+            "slot": "overnight",
+            "type": "hotel",
+            "item_id": "hotel_000085",
+            "name": "Kempinski Hotel Ishtar Dead Sea",
+            "duration_minutes": null,
+            "location": "Sweimeh",
+            "coordinates": {
+              "latitude": 31.715148,
+              "longitude": 35.58595,
+              "precision": "exact"
+            },
+            "description": "Five-star beachfront resort at Sweimeh with 345 rooms and suites set among gardens, lagoons and waterfalls, nine outdoor pools, and the Ishtar Spa with twenty treatment rooms and a large hydro-pool complex.",
+            "reason": "Overnight stay in Dead Sea. This is your hotel, not an activity. 5-star stay, as requested",
+            "matched_preferences": [
+              "5-star stay, as requested",
+              "In Dead Sea",
+              "A must-see in Dead Sea",
+              "Matches nature",
+              "5-star, as requested"
+            ],
+            "estimated_cost": "138 JOD / night",
+            "source": {
+              "dataset": "hotels",
+              "record_id": "hotel_000085"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "This evening you check in to your hotel in Dead Sea."
+      },
+      {
+        "day": 3,
+        "date": "2026-08-24",
+        "region": "Wadi Rum",
+        "theme": "Wadi Rum",
+        "summary": "Morning transfer from Dead Sea to Wadi Rum, visits Red Sand Dunes of Wadi Rum, Desert Police Station & Fort (Wadi Rum), Al-Khazali Mountain Petroglyphs, with breakfast, lunch, and dinner on the clock.",
+        "is_arrival_day": false,
+        "schedule": [
+          {
+            "time": "08:45",
+            "end_time": "13:05",
+            "slot": "morning",
+            "type": "transfer",
+            "item_id": "transfer:dead sea:wadi rum:08:45",
+            "name": "Drive to Wadi Rum",
+            "duration_minutes": 260,
+            "location": "Dead Sea → Wadi Rum",
+            "coordinates": null,
+            "description": "Travel from Dead Sea to Wadi Rum.",
+            "reason": "You woke up in a different place than today's sights.",
+            "matched_preferences": [],
+            "estimated_cost": "not_available",
+            "source": {
+              "dataset": "planning",
+              "record_id": "transfer:dead sea:wadi rum"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "13:05",
+            "end_time": "14:05",
+            "slot": "afternoon",
+            "type": "restaurant",
+            "item_id": "restaurant_002068",
+            "name": "Bedouin Night Camp Restaurant",
+            "duration_minutes": 60,
+            "location": "Wadi Rum",
+            "coordinates": {
+              "latitude": 29.5315,
+              "longitude": 35.421,
+              "precision": "exact"
+            },
+            "description": "Secluded desert camp dining space in Wadi Rum serving authentic Bedouin meals.",
+            "reason": "Lunch in the afternoon.",
+            "matched_preferences": [
+              "In Wadi Rum",
+              "Matches nature"
+            ],
+            "estimated_cost": "10 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_002068"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "14:20",
+            "end_time": "15:05",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_002032",
+            "name": "Red Sand Dunes of Wadi Rum",
+            "duration_minutes": 45,
+            "location": "Wadi Rum",
+            "coordinates": {
+              "latitude": 29.585278,
+              "longitude": 35.433611,
+              "precision": "exact"
+            },
+            "description": "Striking high red sand dunes leaning against sandstone mountain cliffs in central Wadi Rum.",
+            "reason": "In Wadi Rum; matches nature interest; A must-see in Wadi Rum; Matches nature",
+            "matched_preferences": [
+              "In Wadi Rum",
+              "matches nature interest",
+              "A must-see in Wadi Rum",
+              "Matches nature"
+            ],
+            "estimated_cost": "5 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_002032"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "15:20",
+            "end_time": "15:35",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_002037",
+            "name": "Desert Police Station & Fort (Wadi Rum)",
+            "duration_minutes": 15,
+            "location": "Wadi Rum",
+            "coordinates": {
+              "latitude": 29.576389,
+              "longitude": 35.419444,
+              "precision": "exact"
+            },
+            "description": "An active stone desert patrol fort in Rum Village staffed by traditional Jordan Desert Patrol officers.",
+            "reason": "In Wadi Rum; matches culture interest; Matches culture, nature, history; One visit covering the nearby monuments",
+            "matched_preferences": [
+              "In Wadi Rum",
+              "matches culture interest",
+              "Matches culture, nature, history",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_002037"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "15:50",
+            "end_time": "16:25",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_002026",
+            "name": "Al-Khazali Mountain Petroglyphs",
+            "duration_minutes": 35,
+            "location": "Wadi Rum",
+            "coordinates": {
+              "latitude": 29.5725,
+              "longitude": 35.425556,
+              "precision": "exact"
+            },
+            "description": "An extensive concentration of ancient Thamudic and Safaitic petroglyphs carved on Jebel Khazali cliffs.",
+            "reason": "In Wadi Rum; A must-see in Wadi Rum; Matches culture, nature, history; One visit covering the nearby monuments",
+            "matched_preferences": [
+              "In Wadi Rum",
+              "A must-see in Wadi Rum",
+              "Matches culture, nature, history",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "5 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_002026"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "16:40",
+            "end_time": "17:25",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_002009",
+            "name": "Lawrence's Spring",
+            "duration_minutes": 45,
+            "location": "Wadi Rum",
+            "coordinates": {
+              "latitude": 29.565833,
+              "longitude": 35.418056,
+              "precision": "exact"
+            },
+            "description": "A natural mountain spring nestled in Wadi Rum, associated with T.E. Lawrence's desert travels.",
+            "reason": "In Wadi Rum; A must-see in Wadi Rum; Matches nature, history",
+            "matched_preferences": [
+              "In Wadi Rum",
+              "A must-see in Wadi Rum",
+              "Matches nature, history"
+            ],
+            "estimated_cost": "5 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_002009"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "18:00",
+            "end_time": "19:00",
+            "slot": "evening",
+            "type": "restaurant",
+            "item_id": "restaurant_007074",
+            "name": "Captain's Desert Camp Restaurant Wadi Rum",
+            "duration_minutes": 60,
+            "location": "Wadi Rum",
+            "coordinates": {
+              "latitude": 29.6105,
+              "longitude": 35.4352,
+              "precision": "exact"
+            },
+            "description": "Established desert camp restaurant in Wadi Rum Protected Area serving traditional Bedouin buffet dinners around central campfires.",
+            "reason": "Dinner in the evening.",
+            "matched_preferences": [
+              "In Wadi Rum",
+              "Matches nature"
+            ],
+            "estimated_cost": "15 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_007074"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "This evening you check in to your hotel in Wadi Rum."
+      },
+      {
+        "day": 4,
+        "date": "2026-08-25",
+        "region": "Wadi Rum",
+        "theme": "More time in Wadi Rum",
+        "summary": "Visits Rum Village Bedouin Oasis, Lawrence's House, Anfeeshiah Inscriptions, with breakfast, lunch, and dinner on the clock.",
+        "is_arrival_day": false,
+        "schedule": [
+          {
+            "time": "08:45",
+            "end_time": "09:15",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_002036",
+            "name": "Rum Village Bedouin Oasis",
+            "duration_minutes": 30,
+            "location": "Wadi Rum",
+            "coordinates": {
+              "latitude": 29.577222,
+              "longitude": 35.418889,
+              "precision": "exact"
+            },
+            "description": "The main Bedouin residential village and hub for desert tour departures inside Wadi Rum.",
+            "reason": "In Wadi Rum; matches culture interest; A second day to go beyond the main site; Matches culture, nature; One visit covering the nearby monuments",
+            "matched_preferences": [
+              "In Wadi Rum",
+              "matches culture interest",
+              "A second day to go beyond the main site",
+              "Matches culture, nature",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "5 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_002036"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "09:30",
+            "end_time": "10:05",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_002028",
+            "name": "Lawrence's House",
+            "duration_minutes": 35,
+            "location": "Wadi Rum",
+            "coordinates": {
+              "latitude": 29.539167,
+              "longitude": 35.418611,
+              "precision": "exact"
+            },
+            "description": "The stone ruins of a Nabataean structure in Wadi Rum associated with T.E. Lawrence's military stay.",
+            "reason": "In Wadi Rum; A must-see in Wadi Rum; Matches culture, nature, history",
+            "matched_preferences": [
+              "In Wadi Rum",
+              "A must-see in Wadi Rum",
+              "Matches culture, nature, history"
+            ],
+            "estimated_cost": "5 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_002028"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "10:20",
+            "end_time": "10:45",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_002029",
+            "name": "Anfeeshiah Inscriptions",
+            "duration_minutes": 25,
+            "location": "Wadi Rum",
+            "coordinates": {
+              "latitude": 29.553056,
+              "longitude": 35.421944,
+              "precision": "exact"
+            },
+            "description": "A large vertical cliff wall in Wadi Rum decorated with ancient Thamudic petroglyphs and camel caravans.",
+            "reason": "In Wadi Rum; A second day to go beyond the main site; Matches culture, history",
+            "matched_preferences": [
+              "In Wadi Rum",
+              "A second day to go beyond the main site",
+              "Matches culture, history"
+            ],
+            "estimated_cost": "5 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_002029"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "11:00",
+            "end_time": "11:40",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_002011",
+            "name": "Um Frouth Rock Bridge",
+            "duration_minutes": 40,
+            "location": "Wadi Rum",
+            "coordinates": {
+              "latitude": 29.462778,
+              "longitude": 35.437778,
+              "precision": "exact"
+            },
+            "description": "A popular, accessible natural sandstone rock arch in Wadi Rum widely photographed by visitors.",
+            "reason": "In Wadi Rum; A must-see in Wadi Rum; Matches nature",
+            "matched_preferences": [
+              "In Wadi Rum",
+              "A must-see in Wadi Rum",
+              "Matches nature"
+            ],
+            "estimated_cost": "5 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_002011"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "13:15",
+            "end_time": "15:45",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_002031",
+            "name": "Barrah Canyon",
+            "duration_minutes": 150,
+            "location": "Wadi Rum",
+            "coordinates": {
+              "latitude": 29.583333,
+              "longitude": 35.483333,
+              "precision": "exact"
+            },
+            "description": "A 5-kilometer long majestic sandstone canyon in eastern Wadi Rum favored for desert trekking and rock climbing.",
+            "reason": "In Wadi Rum; A second day to go beyond the main site; Matches nature",
+            "matched_preferences": [
+              "In Wadi Rum",
+              "A second day to go beyond the main site",
+              "Matches nature"
+            ],
+            "estimated_cost": "5 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_002031"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "18:00",
+            "end_time": "19:00",
+            "slot": "evening",
+            "type": "restaurant",
+            "item_id": "restaurant_002062",
+            "name": "Hasan Zawaideh Camp Dining",
+            "duration_minutes": 60,
+            "location": "Wadi Rum",
+            "coordinates": {
+              "latitude": 29.628,
+              "longitude": 35.435,
+              "precision": "exact"
+            },
+            "description": "Authentic Bedouin camp restaurant in the red sand valley of Wadi Rum featuring daily Zarb feasts.",
+            "reason": "Dinner in the evening.",
+            "matched_preferences": [
+              "In Wadi Rum",
+              "Matches nature"
+            ],
+            "estimated_cost": "12 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_002062"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "Stay overnight in Wadi Rum."
+      }
+    ],
+    "budget": {
+      "currency": "JOD",
+      "traveler_budget": 899.0,
+      "estimated_total": "977 JOD",
+      "band": "comfort",
+      "items": [
+        {
+          "category": "Stays",
+          "estimated_cost": "441 JOD",
+          "notes": "InterContinental Jordan: 165 JOD × 1 night(s); Kempinski Hotel Ishtar Dead Sea: 138 JOD × 2 night(s)",
+          "confidence": "medium"
+        },
+        {
+          "category": "Meals on the plan",
+          "estimated_cost": "300 JOD",
+          "notes": "10 listed meal(s) × 2 traveler(s).",
+          "confidence": "medium"
+        },
+        {
+          "category": "Entry tickets",
+          "estimated_cost": "96 JOD",
+          "notes": "13 listed site(s) × 2 traveler(s).",
+          "confidence": "medium"
+        },
+        {
+          "category": "Trip guide",
+          "estimated_cost": "70 JOD",
+          "notes": "Listed from 70 JOD (up to 150 JOD listed)",
+          "confidence": "medium"
+        },
+        {
+          "category": "Trip operator",
+          "estimated_cost": "70 JOD",
+          "notes": "Listed from 70 JOD (up to 1100 JOD listed)",
+          "confidence": "medium"
+        },
+        {
+          "category": "Left vs your ceiling",
+          "estimated_cost": "-78 JOD",
+          "notes": "Your ceiling is 899 JOD. Listed pieces add up to 977 JOD.",
+          "confidence": "medium"
+        }
+      ],
+      "disclaimer": "Amounts come from catalog listings. This is a planning estimate, not a final invoice. Missing prices stay unknown — we do not invent them."
+    },
+    "sme_value": {
+      "headline": "Your guide and operator for this journey",
+      "summary": "One local guide and one tour operator for the whole trip — not a new face every day.",
+      "recommended": [
+        {
+          "sme_id": "tour_guide:SME-AQ-003:aqaba",
+          "sme_type": "tour_guide",
+          "name": "Salem Al-Zawaideh",
+          "role": "Trip guide",
+          "location": "Aqaba",
+          "experience_type": "Desert, Hiking, Camping",
+          "match_score": 0.668,
+          "reason": "Fits what you asked for: culture, nature, history",
+          "matched_because": [
+            "Fits what you asked for: culture, nature, history",
+            "Covers wadi rum",
+            "Works with couple travelers",
+            "Speaks English"
+          ],
+          "known_for": [
+            "Local desert and heritage guide born and raised near the southern sector, providing deep cultural interpretations of Bedouin traditions and desert trails",
+            "Takes travelers to Wadi Rum Protected Area, Aqaba Desert Outskirts, Jabal Um Ad Dami",
+            "Also offers Cultural Experiences, Local Experiences, Adventure Activities",
+            "Private groups available",
+            "Can arrange transportation"
+          ],
+          "specializations": [
+            "Desert",
+            "Hiking",
+            "Camping",
+            "Local Experiences",
+            "Adventure"
+          ],
+          "languages": [
+            "Arabic",
+            "English",
+            "German"
+          ],
+          "experience_years": 12,
+          "destinations_covered": [
+            "Wadi Rum Protected Area",
+            "Aqaba Desert Outskirts",
+            "Jabal Um Ad Dami"
+          ],
+          "covers_regions": [
+            "wadi rum"
+          ],
+          "package_role": "guide",
+          "specs": [
+            {
+              "label": "Specializations",
+              "value": "Desert, Hiking, Camping, Local Experiences, Adventure"
+            },
+            {
+              "label": "Experience",
+              "value": "12 years"
+            },
+            {
+              "label": "Languages",
+              "value": "Arabic, English, German"
+            },
+            {
+              "label": "Best for",
+              "value": "Couples, Families, Solo Travelers"
+            },
+            {
+              "label": "Group size",
+              "value": "1–8"
+            },
+            {
+              "label": "From",
+              "value": "70–150 JOD"
+            },
+            {
+              "label": "Hours",
+              "value": "07:00 - 19:00"
+            },
+            {
+              "label": "Rating",
+              "value": "5.0 (52 reviews)"
+            }
+          ],
+          "source": {
+            "dataset": "sme_guides",
+            "record_id": "tour_guide:SME-AQ-003:aqaba"
+          },
+          "coordinates": {
+            "latitude": 29.532,
+            "longitude": 35.0063,
+            "precision": "city_centroid"
+          }
+        },
+        {
+          "sme_id": "tour_operator:SME-000005:amman",
+          "sme_type": "tour_operator",
+          "name": "Jordan Horizons Tours",
+          "role": "Trip operator",
+          "location": "Amman",
+          "experience_type": "History, Nature, Archaeology",
+          "match_score": 0.885,
+          "reason": "Fits what you asked for: culture, nature, history",
+          "matched_because": [
+            "Fits what you asked for: culture, nature, history",
+            "Covers amman, dead sea, wadi rum",
+            "Based in Amman",
+            "Works with couple travelers",
+            "Speaks English",
+            "Transportation across the itinerary"
+          ],
+          "known_for": [
+            "Full-service incoming tour operator offering customized tour packages, ticketing, ground transportation, and guided excursions across all major Jordanian destinations",
+            "Takes travelers to Amman, Petra, Wadi Rum, Dead Sea",
+            "Also offers Transportation, Custom Itineraries, Private Tours",
+            "Private groups available",
+            "Can arrange transportation"
+          ],
+          "specializations": [
+            "History",
+            "Nature",
+            "Archaeology",
+            "Religious Sites"
+          ],
+          "languages": [
+            "English",
+            "Arabic",
+            "Spanish"
+          ],
+          "experience_years": 15,
+          "destinations_covered": [
+            "Amman",
+            "Petra",
+            "Wadi Rum",
+            "Dead Sea",
+            "Jerash",
+            "Madaba",
+            "Mount Nebo"
+          ],
+          "covers_regions": [
+            "amman",
+            "dead sea",
+            "wadi rum"
+          ],
+          "package_role": "operator",
+          "specs": [
+            {
+              "label": "Specializations",
+              "value": "History, Nature, Archaeology, Religious Sites"
+            },
+            {
+              "label": "Experience",
+              "value": "15 years"
+            },
+            {
+              "label": "Languages",
+              "value": "English, Arabic, Spanish"
+            },
+            {
+              "label": "Best for",
+              "value": "Families, Couples, Solo Travelers"
+            },
+            {
+              "label": "Group size",
+              "value": "1–40"
+            },
+            {
+              "label": "From",
+              "value": "70–1100 JOD"
+            },
+            {
+              "label": "Hours",
+              "value": "08:30-17:30"
+            },
+            {
+              "label": "Rating",
+              "value": "4.7 (95 reviews)"
+            }
+          ],
+          "source": {
+            "dataset": "sme_operators",
+            "record_id": "tour_operator:SME-000005:amman"
+          },
+          "coordinates": {
+            "latitude": 31.9454,
+            "longitude": 35.9284,
+            "precision": "city_centroid"
+          }
+        }
+      ]
+    },
+    "sources": [
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_001030"
+      },
+      {
+        "dataset": "hotels",
+        "record_id": "hotel_000022"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_004029"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_007017"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_004002"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_004003"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_004024"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_007033"
+      },
+      {
+        "dataset": "hotels",
+        "record_id": "hotel_000085"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_002068"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_002032"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_002037"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_002026"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_002009"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_007074"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_002036"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_002028"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_002029"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_002011"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_002031"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_002062"
+      },
+      {
+        "dataset": "sme_guides",
+        "record_id": "tour_guide:SME-AQ-003:aqaba"
+      },
+      {
+        "dataset": "sme_operators",
+        "record_id": "tour_operator:SME-000005:amman"
+      }
+    ],
+    "warnings": [
+      {
+        "code": "note",
+        "message": "No listed hotel was found for the night in Wadi Rum.",
+        "severity": "info"
+      }
+    ],
+    "explanations": {
+      "trip_planning_reason": "You land at 18:15, so arrival night stays in Amman — hotel, a meal, rest. The touring days start the next morning. I put Wadi Rum on the calendar first, then kept the rest of the days on Dead Sea, then Wadi Rum (2 days). It's a hot month, so the outdoor sites go before midday.",
+      "highlights": [
+        "Dead Sea Panorama Complex (Madaba Overlook)",
+        "Madaba Archaeological Park",
+        "Mount Nebo",
+        "Moses Spring (Ayn Musa)",
+        "Red Sand Dunes of Wadi Rum",
+        "Desert Police Station & Fort (Wadi Rum)"
+      ],
+      "why_smes": [
+        "Salem Al-Zawaideh: Fits what you asked for: culture, nature, history",
+        "Jordan Horizons Tours: Fits what you asked for: culture, nature, history"
+      ],
+      "context_benefits": []
+    }
+  }
+}

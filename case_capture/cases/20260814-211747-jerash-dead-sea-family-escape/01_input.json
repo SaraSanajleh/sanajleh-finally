@@ -1,0 +1,53 @@
+{
+  "mode": "build",
+  "requestedAt": "2026-08-14T21:12:42.732000Z",
+  "trip": {
+    "startDate": "2026-08-20",
+    "duration": "3",
+    "arrivalAirport": "AQJ",
+    "totalBudget": 1000.0,
+    "preferredLanguage": "English",
+    "preferredRegions": [
+      "Jerash",
+      "Dead Sea"
+    ]
+  },
+  "travelers": {
+    "adults": 3,
+    "children": 1,
+    "childrenAges": [
+      "8"
+    ],
+    "seniors": 0,
+    "groupType": "family",
+    "accessibilityNeeds": []
+  },
+  "preferences": {
+    "interests": [
+      "food",
+      "photography",
+      "museums"
+    ],
+    "tripPace": "Balanced",
+    "activityLevel": "Active",
+    "mustVisit": [
+      "Dead Sea"
+    ],
+    "placesToAvoid": ""
+  },
+  "accommodation": {
+    "type": "hotel",
+    "rating": "3 star"
+  },
+  "dining": {
+    "cuisine": [
+      "Middle Eastern"
+    ]
+  },
+  "extras": {
+    "specialOccasion": "Birthday",
+    "smePreferences": [],
+    "aiPriority": "family",
+    "freeText": "i want a pretty trip"
+  }
+}

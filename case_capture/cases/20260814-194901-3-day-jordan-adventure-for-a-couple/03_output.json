@@ -1,0 +1,262 @@
+{
+  "metadata": {
+    "model": "gpt-oss:20b-cloud",
+    "provider": "ollama",
+    "mode": "build",
+    "latencyMs": 47103.93,
+    "retries": 0,
+    "caseId": null,
+    "rag": {
+      "status": "unavailable",
+      "source": null,
+      "duration_days": 3,
+      "cluster_count": 0,
+      "clusters": []
+    }
+  },
+  "package": {
+    "welcome_message": "Welcome to your Jordan adventure! I've crafted a relaxed three-day itinerary that lets you soak in the country's iconic landscapes and flavors.",
+    "why_you_will_love_this": {
+      "highlights": [
+        "Wadi Rum desert vistas",
+        "Petra's ancient architecture",
+        "Aqaba's seaside charm"
+      ],
+      "special_touches": [
+        "Authentic Jordanian cuisine at local restaurants"
+      ]
+    },
+    "trip_title": "3-Day Jordan Adventure for a Couple",
+    "trip_description": {
+      "overview": "A balanced three-day journey through Jordan's iconic sites and local flavors.",
+      "included": [
+        "Historic sites",
+        "Desert landscapes",
+        "Local cuisine"
+      ],
+      "not_included": [
+        "Transportation",
+        "Events",
+        "Accommodation details"
+      ]
+    },
+    "trip_details": {
+      "duration": {
+        "days": "3",
+        "nights": "2"
+      },
+      "trip_type": [
+        "Couple"
+      ],
+      "number_of_travelers": "2",
+      "budget": {
+        "amount": "800 JOD",
+        "currency": "JOD"
+      }
+    },
+    "daily_itinerary": [
+      {
+        "day_number": "1",
+        "day_title": "Wadi Rum Desert Exploration",
+        "day_summary": "Morning desert walk, lunch, afternoon cultural stop, and dinner.",
+        "activities": [
+          {
+            "start_time": "09:00",
+            "end_time": "11:30",
+            "activity_title": "Wadi Rum Desert Exploration",
+            "description": "Explore the red sand dunes and rock formations.",
+            "location": "Wadi Rum",
+            "estimated_cost": "Not Available",
+            "smart_tip": "Wear comfortable shoes and bring water."
+          },
+          {
+            "start_time": "12:00",
+            "end_time": "13:30",
+            "activity_title": "Local Jordanian Lunch",
+            "description": "Enjoy traditional dishes at a nearby restaurant.",
+            "location": "Wadi Rum",
+            "estimated_cost": "Not Available",
+            "smart_tip": "Try the local lamb stew."
+          },
+          {
+            "start_time": "14:00",
+            "end_time": "16:30",
+            "activity_title": "Wadi Rum Cultural Stop",
+            "description": "Visit a local community site and learn about Bedouin heritage.",
+            "location": "Wadi Rum",
+            "estimated_cost": "Not Available",
+            "smart_tip": "Respect local customs and dress modestly."
+          },
+          {
+            "start_time": "18:30",
+            "end_time": "20:00",
+            "activity_title": "Jordanian Dinner",
+            "description": "Savor a dinner featuring regional specialties.",
+            "location": "Wadi Rum",
+            "estimated_cost": "Not Available",
+            "smart_tip": "Enjoy the sunset over the dunes."
+          }
+        ],
+        "activity_alternatives": [
+          {
+            "original_activity": "Wadi Rum Cultural Stop",
+            "alternative_activity": "Wadi Rum Sunset Viewpoint",
+            "reason": "If you prefer a shorter visit."
+          }
+        ]
+      },
+      {
+        "day_number": "2",
+        "day_title": "Petra Old City Tour",
+        "day_summary": "Morning tour of Petra, lunch, afternoon exploration, and dinner.",
+        "activities": [
+          {
+            "start_time": "09:00",
+            "end_time": "11:30",
+            "activity_title": "Petra Old City Tour",
+            "description": "Walk through the Siq and see the Treasury.",
+            "location": "Petra",
+            "estimated_cost": "Not Available",
+            "smart_tip": "Wear comfortable shoes and bring a hat."
+          },
+          {
+            "start_time": "12:00",
+            "end_time": "13:30",
+            "activity_title": "Local Jordanian Lunch",
+            "description": "Enjoy traditional dishes at a nearby restaurant.",
+            "location": "Petra",
+            "estimated_cost": "Not Available",
+            "smart_tip": "Try the local grilled meats."
+          },
+          {
+            "start_time": "14:00",
+            "end_time": "16:30",
+            "activity_title": "Petra Museum Visit",
+            "description": "Learn about the Nabatean history.",
+            "location": "Petra",
+            "estimated_cost": "Not Available",
+            "smart_tip": "Check the opening hours before you go."
+          },
+          {
+            "start_time": "18:30",
+            "end_time": "20:00",
+            "activity_title": "Jordanian Dinner",
+            "description": "Savor a dinner featuring regional specialties.",
+            "location": "Petra",
+            "estimated_cost": "Not Available",
+            "smart_tip": "Enjoy the evening light on the Treasury."
+          }
+        ],
+        "activity_alternatives": [
+          {
+            "original_activity": "Petra Museum Visit",
+            "alternative_activity": "Petra Archaeological Site",
+            "reason": "If you prefer a shorter visit."
+          }
+        ]
+      },
+      {
+        "day_number": "3",
+        "day_title": "Aqaba Beach and Souk",
+        "day_summary": "Morning beach walk, lunch, afternoon souk visit, and dinner.",
+        "activities": [
+          {
+            "start_time": "09:00",
+            "end_time": "11:30",
+            "activity_title": "Aqaba Beach Walk",
+            "description": "Stroll along the Red Sea shoreline.",
+            "location": "Aqaba",
+            "estimated_cost": "Not Available",
+            "smart_tip": "Wear sunscreen and a hat."
+          },
+          {
+            "start_time": "12:00",
+            "end_time": "13:30",
+            "activity_title": "Local Jordanian Lunch",
+            "description": "Enjoy traditional dishes at a nearby restaurant.",
+            "location": "Aqaba",
+            "estimated_cost": "Not Available",
+            "smart_tip": "Try the fresh seafood."
+          },
+          {
+            "start_time": "14:00",
+            "end_time": "16:30",
+            "activity_title": "Aqaba Souk Visit",
+            "description": "Explore local markets and crafts.",
+            "location": "Aqaba",
+            "estimated_cost": "Not Available",
+            "smart_tip": "Bargain politely and respect local customs."
+          },
+          {
+            "start_time": "18:30",
+            "end_time": "20:00",
+            "activity_title": "Jordanian Dinner",
+            "description": "Savor a dinner featuring regional specialties.",
+            "location": "Aqaba",
+            "estimated_cost": "Not Available",
+            "smart_tip": "Enjoy the sunset over the sea."
+          }
+        ],
+        "activity_alternatives": [
+          {
+            "original_activity": "Aqaba Souk Visit",
+            "alternative_activity": "Aqaba Beach Sunset",
+            "reason": "If you prefer a quieter evening."
+          }
+        ]
+      }
+    ],
+    "budget_summary": {
+      "items": [
+        {
+          "category": "Accommodation",
+          "estimated_cost": "Not Available",
+          "notes": "No specific hotel data available."
+        },
+        {
+          "category": "Meals",
+          "estimated_cost": "Not Available",
+          "notes": "No specific restaurant data available."
+        },
+        {
+          "category": "Activities & Entry Fees",
+          "estimated_cost": "Not Available",
+          "notes": "No specific POI data available."
+        },
+        {
+          "category": "Total",
+          "estimated_cost": "Not Available",
+          "notes": "Total cost cannot be calculated with available data."
+        }
+      ],
+      "total_estimated_cost": "Not Available"
+    },
+    "essential_travel_tips": [
+      {
+        "category": "Travel Logistics",
+        "tips": [
+          "Pack light, but bring a reusable water bottle.",
+          "Carry a small first-aid kit."
+        ]
+      },
+      {
+        "category": "Cultural Etiquette",
+        "tips": [
+          "Dress modestly when visiting historic sites.",
+          "Use the right hand for greetings and meals."
+        ]
+      },
+      {
+        "category": "Safety",
+        "tips": [
+          "Stay hydrated in the desert.",
+          "Avoid walking alone at night in remote areas."
+        ]
+      }
+    ],
+    "explanations": {
+      "trip_planning_reason": "Due to the lack of available evidence, a generic three-day itinerary was created covering the requested regions and interests, with placeholder activities and meals.",
+      "selection_reason": "The plan reflects the traveler's preferences for Wadi Rum, Petra, and Aqaba, balanced pacing, and local Jordanian cuisine, while acknowledging that specific venue details could not be confirmed."
+    }
+  }
+}

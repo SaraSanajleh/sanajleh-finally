@@ -1,0 +1,2669 @@
+[
+  {
+    "sme_id": "SME-000001",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Karak Castle Tourism & Heritage Agency",
+      "description": "A specialized local tour operator based in Al-Karak providing cultural heritage tours, historical sightseeing around Karak Castle, and guided desert edge excursions.",
+      "experience_years": 10,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Culture",
+        "Archaeology"
+      ],
+      "target_customer_types": [
+        "Couples",
+        "Families",
+        "Solo Travelers"
+      ]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": null,
+      "email": "info@karakcastletours.example",
+      "website": "https://karakcastletours.example",
+      "whatsapp": null
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Al-Karak",
+      "region": "Karak Governorate",
+      "address": "Castle Street, Al-Karak"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Al-Karak",
+        "Karak Castle",
+        "Mujib Nature Reserve",
+        "Dana Biosphere Reserve"
+      ],
+      "preferred_destinations": [
+        "Karak Castle",
+        "Mujib Nature Reserve"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Guiding",
+        "Tour Planning & Itinerary Design",
+        "Cultural Experiences",
+        "Private Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Local Guides",
+        "Licensed Tourist Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00-17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 20,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 25,
+      "max_price": 120,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Archaeological Tourism",
+        "Local Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.5,
+      "review_count": 34,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000002",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Mujib Adventure & Tours",
+      "description": "An incoming tour operator operating near the Karak and Mujib regions offering outdoor adventures, hiking excursions, and nature trail guiding.",
+      "experience_years": 7,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Nature",
+        "Adventure",
+        "Hiking"
+      ],
+      "target_customer_types": [
+        "Couples",
+        "Solo Travelers",
+        "Families"
+      ]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": null,
+      "email": "contact@mujibadventure.example",
+      "website": "https://mujibadventure.example",
+      "whatsapp": null
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Al-Karak",
+      "region": "Karak Governorate",
+      "address": "Wadi Mujib Area, Karak Governorate"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Wadi Mujib",
+        "Al-Karak",
+        "Dead Sea"
+      ],
+      "preferred_destinations": [
+        "Wadi Mujib",
+        "Al-Karak"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Guiding",
+        "Adventure Activities",
+        "Custom Itineraries",
+        "Private Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Specialized Guides",
+        "Local Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "working_hours": "08:00-18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 30,
+      "max_price": 150,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "Nature",
+        "Soft Adventure",
+        "Hiking & Trekking"
+      ]
+    },
+    "reviews": {
+      "rating": 4.7,
+      "review_count": 42,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000003",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Panoramas of Karak Travel",
+      "description": "A regional travel agency organizing cultural excursions, educational heritage trips, and community-based tourism experiences around Al-Karak.",
+      "experience_years": 12,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Culture",
+        "Local Experiences"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples"
+      ]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": null,
+      "email": "info@panoramaskarak.example",
+      "website": "https://panoramaskarak.example",
+      "whatsapp": null
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Al-Karak",
+      "region": "Karak Governorate",
+      "address": "Main Street, Al-Karak"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Al-Karak",
+        "Dana Biosphere Reserve",
+        "Madaba"
+      ],
+      "preferred_destinations": [
+        "Al-Karak"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Cultural Experiences",
+        "Local Experiences",
+        "Private Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Licensed Tourist Guides",
+        "Local Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00-17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 20,
+      "max_price": 100,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Community Tourism",
+        "Local Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.4,
+      "review_count": 19,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000004",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Karak Plateau Desert & Heritage Tours",
+      "description": "Local tour operator organizing customized desert fringe excursions, cultural village tours, and historical trekking across the Karak Governorate.",
+      "experience_years": 6,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Desert",
+        "History",
+        "Hiking"
+      ],
+      "target_customer_types": [
+        "Solo Travelers",
+        "Couples"
+      ]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": null,
+      "email": "bookings@karakplateautours.example",
+      "website": "https://karakplateautours.example",
+      "whatsapp": null
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Al-Karak",
+      "region": "Karak Governorate",
+      "address": "University Road, Al-Karak"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Al-Karak",
+        "Eastern Desert",
+        "Dana"
+      ],
+      "preferred_destinations": [
+        "Al-Karak",
+        "Eastern Desert"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Guiding",
+        "Desert Experiences",
+        "Custom Itineraries"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Specialized Guides",
+        "Local Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00-17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 12,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 35,
+      "max_price": 140,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "Desert Experiences",
+        "Hiking & Trekking",
+        "Nature"
+      ]
+    },
+    "reviews": {
+      "rating": 4.6,
+      "review_count": 25,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000005",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Bab Al-Karak Travel & Tourism",
+      "description": "Incoming travel services provider offering inbound tour arrangements, local guiding services, and cultural discovery packages centered in Al-Karak.",
+      "experience_years": 9,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Culture",
+        "History",
+        "Archaeology"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples",
+        "Solo Travelers"
+      ]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": null,
+      "email": "info@babalkaraktravel.example",
+      "website": "https://babalkaraktravel.example",
+      "whatsapp": null
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Al-Karak",
+      "region": "Karak Governorate",
+      "address": "Downtown Al-Karak"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Al-Karak",
+        "Karak Castle",
+        "Amman"
+      ],
+      "preferred_destinations": [
+        "Al-Karak",
+        "Karak Castle"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Guiding",
+        "Tour Planning & Itinerary Design",
+        "Private Tours",
+        "Group Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Licensed Tourist Guides",
+        "Multilingual Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00-17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 30,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 20,
+      "max_price": 95,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Archaeological Tourism",
+        "Family Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 51,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000006",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Karak Heritage Trails",
+      "description": "Specialized eco-tourism and heritage tour operator focusing on walking tours, local culinary experiences, and historical exploration around Karak.",
+      "experience_years": 5,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Food",
+        "Local Experiences"
+      ],
+      "target_customer_types": [
+        "Couples",
+        "Solo Travelers"
+      ]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": null,
+      "email": "contact@karakheritagetrails.example",
+      "website": "https://karakheritagetrails.example",
+      "whatsapp": null
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Al-Karak",
+      "region": "Karak Governorate",
+      "address": "Old City, Al-Karak"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Al-Karak",
+        "Local Villages"
+      ],
+      "preferred_destinations": [
+        "Al-Karak"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Cultural Experiences",
+        "Local Experiences",
+        "Food & Culinary"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Local Guides"
+      ]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "working_hours": "09:00-16:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 10,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 15,
+      "max_price": 75,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "Local Experiences",
+        "Food & Culinary",
+        "History & Culture"
+      ]
+    },
+    "reviews": {
+      "rating": 4.3,
+      "review_count": 18,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000007",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Karak Citadel Incoming Tour Operator",
+      "description": "Incoming tour operator offering comprehensive itinerary design, group excursions, and specialized historical tours throughout Al-Karak and surrounding areas.",
+      "experience_years": 11,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Culture",
+        "Archaeology"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples",
+        "Solo Travelers"
+      ]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": null,
+      "email": "info@karakcitadeltours.example",
+      "website": "https://karakcitadeltours.example",
+      "whatsapp": null
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Al-Karak",
+      "region": "Karak Governorate",
+      "address": "Al-Karak City Center"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Al-Karak",
+        "Karak Castle",
+        "Petra",
+        "Amman"
+      ],
+      "preferred_destinations": [
+        "Al-Karak",
+        "Karak Castle"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Guiding",
+        "Tour Planning & Itinerary Design",
+        "Custom Itineraries",
+        "Group Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Licensed Tourist Guides",
+        "Professional Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00-17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 35,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 25,
+      "max_price": 130,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Archaeological Tourism"
+      ]
+    },
+    "reviews": {
+      "rating": 4.6,
+      "review_count": 60,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000008",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Wadi Karak Excursions",
+      "description": "Local tour operator providing outdoor canyoning, hiking support, and guided valley expeditions originating from Al-Karak.",
+      "experience_years": 8,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Nature",
+        "Adventure",
+        "Hiking"
+      ],
+      "target_customer_types": [
+        "Solo Travelers",
+        "Couples"
+      ]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": null,
+      "email": "support@wadikarakexcursions.example",
+      "website": "https://wadikarakexcursions.example",
+      "whatsapp": null
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Al-Karak",
+      "region": "Karak Governorate",
+      "address": "Wadi Karak Road, Al-Karak"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Wadi Karak",
+        "Al-Karak"
+      ],
+      "preferred_destinations": [
+        "Wadi Karak"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Guiding",
+        "Adventure Activities",
+        "Private Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Specialized Guides",
+        "Local Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "working_hours": "08:00-18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 25,
+      "max_price": 110,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "Nature",
+        "Hiking & Trekking",
+        "Soft Adventure"
+      ]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 39,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000009",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Moab & Edom Discovery Tours",
+      "description": "Cultural travel agency specialized in historical tours covering the ancient lands of Moab and Edom, focusing on archaeological sites across Karak Governorate.",
+      "experience_years": 14,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Culture",
+        "Archaeology"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples"
+      ]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": null,
+      "email": "contact@moabedomtours.example",
+      "website": "https://moabedomtours.example",
+      "whatsapp": null
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Al-Karak",
+      "region": "Karak Governorate",
+      "address": "Al-Karak Cultural Center Area"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Al-Karak",
+        "Rabba",
+        "Balou'",
+        "Madaba"
+      ],
+      "preferred_destinations": [
+        "Al-Karak",
+        "Rabba"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Cultural Experiences",
+        "Private Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Licensed Tourist Guides",
+        "Specialized Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00-17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 30,
+      "max_price": 140,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Archaeological Tourism"
+      ]
+    },
+    "reviews": {
+      "rating": 4.5,
+      "review_count": 27,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000010",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Karak Gate Travel Agency",
+      "description": "Local tour and travel organizer providing custom itinerary planning, transport services, and guided day tours throughout the Karak region.",
+      "experience_years": 9,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Culture",
+        "Local Experiences"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples",
+        "Solo Travelers"
+      ]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": null,
+      "email": "info@karakgatetravel.example",
+      "website": "https://karakgatetravel.example",
+      "whatsapp": null
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Al-Karak",
+      "region": "Karak Governorate",
+      "address": "Al-Karak Commercial District"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Al-Karak",
+        "Dead Sea",
+        "Amman"
+      ],
+      "preferred_destinations": [
+        "Al-Karak",
+        "Dead Sea"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Guiding",
+        "Tour Planning & Itinerary Design",
+        "Transportation",
+        "Custom Itineraries",
+        "Private Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Licensed Tourist Guides",
+        "Local Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00-17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 20,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 20,
+      "max_price": 100,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Local Experiences",
+        "Family Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.4,
+      "review_count": 22,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  }
+] 
+
+
+[
+  {
+    "sme_id": "SME-000011",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Karak Heritage & Canyon Tours",
+      "description": "Specialized eco-tourism operator focused on combining historical castle tours in Al-Karak with guided eco-trekking adventures in the surrounding valleys and desert fringes.",
+      "experience_years": 8,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Nature",
+        "Adventure",
+        "Hiking"
+      ],
+      "target_customer_types": [
+        "Couples",
+        "Solo Travelers",
+        "Families"
+      ]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": null,
+      "email": "info@karakcanyontours.example",
+      "website": "https://karakcanyontours.example",
+      "whatsapp": null
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Al-Karak",
+      "region": "Karak Governorate",
+      "address": "Al-Karak Valley Road"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Al-Karak",
+        "Wadi Karak",
+        "Mujib Nature Reserve"
+      ],
+      "preferred_destinations": [
+        "Al-Karak",
+        "Wadi Karak"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Guiding",
+        "Adventure Activities",
+        "Private Tours",
+        "Custom Itineraries"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Specialized Guides",
+        "Local Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "08:30-17:30"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 25,
+      "max_price": 120,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Nature",
+        "Hiking & Trekking"
+      ]
+    },
+    "reviews": {
+      "rating": 4.7,
+      "review_count": 31,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000012",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "South Jordan Discovery Agency",
+      "description": "Incoming tour agency organizing multi-day itineraries connecting Al-Karak with southern Jordan's top archaeological and desert highlights.",
+      "experience_years": 13,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Culture",
+        "Archaeology"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples"
+      ]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": null,
+      "email": "contact@southjordandiscovery.example",
+      "website": "https://southjordandiscovery.example",
+      "whatsapp": null
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Al-Karak",
+      "region": "Karak Governorate",
+      "address": "King Hussein Street, Al-Karak"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Al-Karak",
+        "Dana Biosphere Reserve",
+        "Petra",
+        "Wadi Rum"
+      ],
+      "preferred_destinations": [
+        "Al-Karak",
+        "Petra"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Transportation",
+        "Private Tours",
+        "Group Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Licensed Tourist Guides",
+        "Professional Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00-17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 30,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 40,
+      "max_price": 180,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Archaeological Tourism",
+        "Desert Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.6,
+      "review_count": 48,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000013",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Karak Culinary & Culture Tours",
+      "description": "Boutique tour operator offering immersive local food experiences, traditional cooking classes, and heritage walking tours through Al-Karak's historic quarters.",
+      "experience_years": 5,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Food",
+        "Culture",
+        "Local Experiences"
+      ],
+      "target_customer_types": [
+        "Couples",
+        "Solo Travelers",
+        "Families"
+      ]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": null,
+      "email": "hello@karakculinarytours.example",
+      "website": "https://karakculinarytours.example",
+      "whatsapp": null
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Al-Karak",
+      "region": "Karak Governorate",
+      "address": "Old Market Street, Al-Karak"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Al-Karak",
+        "Nearby Villages"
+      ],
+      "preferred_destinations": [
+        "Al-Karak"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Cultural Experiences",
+        "Local Experiences",
+        "Food & Culinary",
+        "Private Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Local Guides"
+      ]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "working_hours": "09:00-16:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 12,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 20,
+      "max_price": 85,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "Food & Culinary",
+        "Local Experiences",
+        "Community Tourism"
+      ]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 29,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000014",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Karak Horizons Travel",
+      "description": "General travel and tour operator based in Al-Karak providing customized tour packages, ticketing assistance, and regional guiding services.",
+      "experience_years": 10,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Culture"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples",
+        "Solo Travelers"
+      ]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": null,
+      "email": "info@karakhorizonstravel.example",
+      "website": "https://karakhorizonstravel.example",
+      "whatsapp": null
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Al-Karak",
+      "region": "Karak Governorate",
+      "address": "Al-Karak Downtown"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Al-Karak",
+        "Amman",
+        "Dead Sea"
+      ],
+      "preferred_destinations": [
+        "Al-Karak"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Guiding",
+        "Tour Planning & Itinerary Design",
+        "Transportation",
+        "Custom Itineraries"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Licensed Tourist Guides",
+        "Professional Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00-17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 20,
+      "max_price": 110,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Family Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.3,
+      "review_count": 21,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000015",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Al-Mazar Heritage Guides & Tours",
+      "description": "Local tour provider centered around Al-Mazar district in Karak Governorate, specializing in religious tourism sites, local shrines, and regional heritage.",
+      "experience_years": 7,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Religious Sites",
+        "History",
+        "Culture"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples"
+      ]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": null,
+      "email": "contact@almazartours.example",
+      "website": "https://almazartours.example",
+      "whatsapp": null
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Al-Mazar Al-Janoubi",
+      "region": "Karak Governorate",
+      "address": "Al-Mazar Main Street, Karak Governorate"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Al-Mazar Al-Janoubi",
+        "Al-Karak"
+      ],
+      "preferred_destinations": [
+        "Al-Mazar Al-Janoubi"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "Arabic"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Guiding",
+        "Religious Tours",
+        "Cultural Experiences",
+        "Private Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Local Guides",
+        "Specialized Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00-17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 30,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 15,
+      "max_price": 80,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "Religious Tourism",
+        "History & Culture"
+      ]
+    },
+    "reviews": {
+      "rating": 4.5,
+      "review_count": 24,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000016",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Karak Castle Expeditions",
+      "description": "Specialized incoming tour operator focusing on detailed historical and architectural tours centered on Karak Castle and Crusader history in Jordan.",
+      "experience_years": 12,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Archaeology",
+        "Culture"
+      ],
+      "target_customer_types": [
+        "Couples",
+        "Families",
+        "Solo Travelers"
+      ]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": null,
+      "email": "bookings@karakcastleexpeditions.example",
+      "website": "https://karakcastleexpeditions.example",
+      "whatsapp": null
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Al-Karak",
+      "region": "Karak Governorate",
+      "address": "Castle Approach Road, Al-Karak"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Al-Karak",
+        "Karak Castle",
+        "Shobak Castle"
+      ],
+      "preferred_destinations": [
+        "Karak Castle"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English",
+        "French"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Guiding",
+        "Tour Planning & Itinerary Design",
+        "Special Interest Tours",
+        "Private Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Licensed Tourist Guides",
+        "Specialized Guides",
+        "Multilingual Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "08:30-17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 25,
+      "max_price": 110,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Archaeological Tourism"
+      ]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 65,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000017",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Karak Rural & Eco Tours",
+      "description": "Community-based tour operator organizing farm visits, rural homestay connections, and nature walks across the highlands of Karak Governorate.",
+      "experience_years": 6,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Nature",
+        "Local Experiences",
+        "Hiking"
+      ],
+      "target_customer_types": [
+        "Solo Travelers",
+        "Couples"
+      ]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": null,
+      "email": "info@karakruraltours.example",
+      "website": "https://karakruraltours.example",
+      "whatsapp": null
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Al-Karak",
+      "region": "Karak Governorate",
+      "address": "Rural Karak District"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Al-Karak",
+        "Karak Highlands"
+      ],
+      "preferred_destinations": [
+        "Karak Highlands"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Cultural Experiences",
+        "Local Experiences",
+        "Community Tourism"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Local Guides"
+      ]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00-16:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 10,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 20,
+      "max_price": 90,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "Community Tourism",
+        "Local Experiences",
+        "Nature"
+      ]
+    },
+    "reviews": {
+      "rating": 4.6,
+      "review_count": 22,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000018",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Karak Valley Adventure Travel",
+      "description": "Adventure tourism provider operating thrilling canyoning and trekking expeditions in Wadi Karak and surrounding gorge networks.",
+      "experience_years": 9,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Adventure",
+        "Nature",
+        "Hiking"
+      ],
+      "target_customer_types": [
+        "Solo Travelers",
+        "Couples"
+      ]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": null,
+      "email": "bookings@karakvalleyadventure.example",
+      "website": "https://karakvalleyadventure.example",
+      "whatsapp": null
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Al-Karak",
+      "region": "Karak Governorate",
+      "address": "Wadi Karak Entrance"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Wadi Karak",
+        "Al-Karak"
+      ],
+      "preferred_destinations": [
+        "Wadi Karak"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Guiding",
+        "Adventure Activities",
+        "Private Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Specialized Guides",
+        "Local Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "working_hours": "08:00-18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 30,
+      "max_price": 130,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "Soft Adventure",
+        "Hiking & Trekking",
+        "Nature"
+      ]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 54,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000019",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Karak Heritage & Pilgrimage Tours",
+      "description": "Incoming agency specialized in organizing cultural heritage tours and religious historical sightseeing across Al-Karak and southern Jordanian governorates.",
+      "experience_years": 11,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Religious Sites",
+        "Culture"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples"
+      ]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": null,
+      "email": "info@karakpilgrimagetours.example",
+      "website": "https://karakpilgrimagetours.example",
+      "whatsapp": null
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Al-Karak",
+      "region": "Karak Governorate",
+      "address": "Al-Karak City Center"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Al-Karak",
+        "Al-Mazar Al-Janoubi",
+        "Madaba"
+      ],
+      "preferred_destinations": [
+        "Al-Karak",
+        "Al-Mazar Al-Janoubi"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Guiding",
+        "Religious Tours",
+        "Cultural Experiences",
+        "Private Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Licensed Tourist Guides",
+        "Specialized Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00-17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 30,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 25,
+      "max_price": 120,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Religious Tourism"
+      ]
+    },
+    "reviews": {
+      "rating": 4.5,
+      "review_count": 33,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000020",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Karak Panorama Travel & Tours",
+      "description": "Full-service tour operator offering itinerary planning, transport coordination, and guided sightseeing tours throughout Karak Governorate and Jordan.",
+      "experience_years": 14,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Culture",
+        "Nature"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples",
+        "Solo Travelers"
+      ]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": null,
+      "email": "contact@karakpanoramatravel.example",
+      "website": "https://karakpanoramatravel.example",
+      "whatsapp": null
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Al-Karak",
+      "region": "Karak Governorate",
+      "address": "Al-Karak Main Boulevard"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Al-Karak",
+        "Dead Sea",
+        "Amman",
+        "Petra"
+      ],
+      "preferred_destinations": [
+        "Al-Karak",
+        "Dead Sea"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Guiding",
+        "Tour Planning & Itinerary Design",
+        "Transportation",
+        "Custom Itineraries",
+        "Private Tours",
+        "Group Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Licensed Tourist Guides",
+        "Professional Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00-17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 35,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 25,
+      "max_price": 140,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Nature",
+        "Family Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.7,
+      "review_count": 72,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  }
+]
+
+[
+  {
+    "sme_id": "SME-000021",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Karak Castle & Valley Explorers",
+      "description": "Boutique agency combining historical fortress tours of Al-Karak with guided walks along the scenic edges of Wadi Karak.",
+      "experience_years": 7,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Nature",
+        "Culture"
+      ],
+      "target_customer_types": [
+        "Couples",
+        "Solo Travelers",
+        "Families"
+      ]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": null,
+      "email": "info@karakvalleyexplorers.example",
+      "website": "https://karakvalleyexplorers.example",
+      "whatsapp": null
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Al-Karak",
+      "region": "Karak Governorate",
+      "address": "Al-Karak Ridge Road"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Al-Karak",
+        "Wadi Karak"
+      ],
+      "preferred_destinations": [
+        "Al-Karak"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Guiding",
+        "Cultural Experiences",
+        "Private Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Licensed Tourist Guides",
+        "Local Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00-17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 18,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 20,
+      "max_price": 95,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Nature"
+      ]
+    },
+    "reviews": {
+      "rating": 4.6,
+      "review_count": 28,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000022",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Karak Historical Gateways",
+      "description": "Tour organizer providing educational field trips and historical heritage sightseeing tours centered around Al-Karak and ancient Moabite sites.",
+      "experience_years": 10,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Archaeology",
+        "Culture"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples"
+      ]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": null,
+      "email": "contact@karakhistoricalgateways.example",
+      "website": "https://karakhistoricalgateways.example",
+      "whatsapp": null
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Al-Karak",
+      "region": "Karak Governorate",
+      "address": "Al-Karak Educational District"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Al-Karak",
+        "Rabba"
+      ],
+      "preferred_destinations": [
+        "Al-Karak"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Cultural Experiences",
+        "Private Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Licensed Tourist Guides",
+        "Specialized Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00-17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 25,
+      "max_price": 110,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Archaeological Tourism"
+      ]
+    },
+    "reviews": {
+      "rating": 4.5,
+      "review_count": 21,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000023",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Karak Heartland Travel",
+      "description": "Incoming travel operator organizing personalized itineraries, regional transfers, and guided explorations throughout Karak Governorate.",
+      "experience_years": 8,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Culture",
+        "History",
+        "Local Experiences"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples",
+        "Solo Travelers"
+      ]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": null,
+      "email": "info@karakheartlandtravel.example",
+      "website": "https://karakheartlandtravel.example",
+      "whatsapp": null
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Al-Karak",
+      "region": "Karak Governorate",
+      "address": "Al-Karak Municipal Center"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Al-Karak",
+        "Dead Sea",
+        "Amman"
+      ],
+      "preferred_destinations": [
+        "Al-Karak"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Guiding",
+        "Tour Planning & Itinerary Design",
+        "Transportation",
+        "Private Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Licensed Tourist Guides",
+        "Local Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00-17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 20,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 20,
+      "max_price": 100,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Local Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.4,
+      "review_count": 19,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000024",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Karak Ridge Trails & Camping",
+      "description": "Eco-tourism provider offering overnight desert-edge camping experiences, stargazing excursions, and ridge-line trekking tours in Karak.",
+      "experience_years": 5,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Nature",
+        "Adventure",
+        "Camping",
+        "Hiking"
+      ],
+      "target_customer_types": [
+        "Solo Travelers",
+        "Couples"
+      ]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": null,
+      "email": "bookings@karakbridgetrails.example",
+      "website": "https://karakbridgetrails.example",
+      "whatsapp": null
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Al-Karak",
+      "region": "Karak Governorate",
+      "address": "Eastern Karak Outskirts"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Al-Karak",
+        "Eastern Desert Fringe"
+      ],
+      "preferred_destinations": [
+        "Eastern Desert Fringe"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Guiding",
+        "Adventure Activities",
+        "Private Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Specialized Guides",
+        "Local Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "working_hours": "08:00-18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 12,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 35,
+      "max_price": 130,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "Hiking & Trekking",
+        "Desert Experiences",
+        "Nature"
+      ]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 27,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000025",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Karak Citadel Heritage Tours",
+      "description": "Specialist tour operator providing in-depth historical interpretation and guided visits focused on the Islamic and Crusader eras in Al-Karak.",
+      "experience_years": 9,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Culture",
+        "Religious Sites"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples",
+        "Solo Travelers"
+      ]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": null,
+      "email": "info@karakcitadelheritagetours.example",
+      "website": "https://karakcitadelheritagetours.example",
+      "whatsapp": null
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Al-Karak",
+      "region": "Karak Governorate",
+      "address": "Karak Castle Plaza"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Al-Karak",
+        "Karak Castle",
+        "Al-Mazar Al-Janoubi"
+      ],
+      "preferred_destinations": [
+        "Karak Castle"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Guiding",
+        "Cultural Experiences",
+        "Private Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Licensed Tourist Guides",
+        "Specialized Guides"
+      ]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00-17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 15,
+      "max_price": 75,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Religious Tourism"
+      ]
+    },
+    "reviews": {
+      "rating": 4.7,
+      "review_count": 41,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  }
+]
+

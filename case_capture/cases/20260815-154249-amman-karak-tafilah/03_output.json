@@ -1,0 +1,1302 @@
+{
+  "metadata": {
+    "model": "gpt-oss:20b-cloud",
+    "provider": "ollama",
+    "mode": "build",
+    "retries": 0
+  },
+  "package": {
+    "package_id": "pkg-1c9a0635b0d5",
+    "status": "complete",
+    "welcome_message": "Welcome to a 4-day family adventure through Amman, Karak, and Tafilah - a journey that blends history, culture, and Jordanian hospitality.",
+    "trip_title": "Amman · Karak · Tafilah",
+    "trip": {
+      "title": "Amman · Karak · Tafilah",
+      "summary": "Four days of immersive cultural exploration: start with a relaxed arrival in Amman, then two days of religious and museum highlights in Karak, and finish with a scenic and historic day in Tafilah. Each day stays within one region, with outdoor visits in the morning and shaded or indoor activities in the afternoon to beat the August heat.",
+      "start_date": "2026-08-20",
+      "end_date": "2026-08-23",
+      "duration_days": 4,
+      "nights": 3,
+      "regions": [
+        "Amman",
+        "Karak",
+        "Tafilah"
+      ],
+      "arrival_airport": "AMM",
+      "language": "English"
+    },
+    "traveler_profile": {
+      "group_type": "family",
+      "adults": 5,
+      "children": 0,
+      "children_ages": [],
+      "seniors": 0,
+      "total_travelers": 5,
+      "interests": [
+        "religious_sites",
+        "museums"
+      ],
+      "pace": "Balanced",
+      "activity_level": "Moderate",
+      "accessibility_needs": []
+    },
+    "planning": {
+      "strategy": "Each day stays in one area: Karak (2 days), then Tafilah. Walk heritage and nature in the morning. Save museums, meals, and shade for the afternoon. About 3 places to visit and 3 meals on exploring days. The arrival day follows the time that remains after food and rest.",
+      "constraints": {
+        "must_visit": [],
+        "places_to_avoid": []
+      },
+      "constraint_status": {
+        "status": "satisfied",
+        "unmet": []
+      },
+      "assumptions": [
+        "Travel times between cities are estimated qualitatively, not as exact minutes, unless evidence exists.",
+        "Opening hours are used only when present on the catalog record."
+      ],
+      "climate": {
+        "month": 8,
+        "season": "hot_dry_summer",
+        "typical_pattern": "High daytime heat, especially in the Jordan Valley and desert.",
+        "outdoor_guidance": "Walk outdoors in the morning. Keep the afternoon for shade, meals, or indoor visits.",
+        "heat_risk": "high"
+      },
+      "weather_status": "ok",
+      "decisions": [
+        {
+          "code": "day_route",
+          "title": "Each day stays in one area",
+          "why": "Mixing far-apart cities in one day makes the trip exhausting and confusing.",
+          "effect": "Your days follow Karak (2 days), then Tafilah."
+        },
+        {
+          "code": "open_explore",
+          "title": "A route built around your interests",
+          "why": "You didn't pick regions, so the days follow religious_sites, museums.",
+          "effect": "Instead of staying only in the arrival city, the journey goes to Karak (2 days), then Tafilah."
+        },
+        {
+          "code": "one_half",
+          "title": "This trip stays in one part of Jordan",
+          "why": "3 exploring days is too short for both the north and the south.",
+          "effect": "So this journey focuses on the south, and those places get proper time."
+        },
+        {
+          "code": "arrival_stay",
+          "title": "Your first night is near the airport",
+          "why": "You land at AMM at 10:40.",
+          "effect": "Night one is a hotel in Amman. Exploring starts from there the next day."
+        },
+        {
+          "code": "arrival_relocate",
+          "title": "Amman for the first night, then south",
+          "why": "You land at Queen Alia, and the exploring days are in Southern Jordan.",
+          "effect": "Stay in Amman on arrival night, then travel south the next day."
+        },
+        {
+          "code": "arrival_pace",
+          "title": "Arrive, rest, then a short same-city plan",
+          "why": "You arrive at 10:40.",
+          "effect": "About an hour for food, several hours of rest, then whatever daylight is left nearby — not a long drive."
+        },
+        {
+          "code": "day_trips",
+          "title": "Day trips from one hotel",
+          "why": "These places are close enough to visit and return the same day.",
+          "effect": "You keep the same hotel in Karak and come back there to sleep."
+        },
+        {
+          "code": "hotel_move",
+          "title": "Then you move closer to the places you came for",
+          "why": "Sleeping in the same city you visit beats a long commute every morning.",
+          "effect": "After the arrival night, nearby days share one hotel. You only move when the next area is too far for a day trip."
+        },
+        {
+          "code": "heat",
+          "title": "Mornings for the outdoors",
+          "why": "High daytime heat, especially in the Jordan Valley and desert.",
+          "effect": "Walk heritage and nature in the morning. Save museums, meals, and shade for the afternoon."
+        },
+        {
+          "code": "pace",
+          "title": "A balanced pace",
+          "why": "family group, Moderate activity.",
+          "effect": "About 3 places to visit and 3 meals on exploring days. The arrival day follows the time that remains after food and rest."
+        },
+        {
+          "code": "stay_tier",
+          "title": "4 star stays",
+          "why": "You asked for 4 star hotels.",
+          "effect": "Hotels are taken from listings at that star level when the city has them. If it does not, we use the closest listed tier and say so."
+        },
+        {
+          "code": "budget",
+          "title": "A moderate budget",
+          "why": "700 JOD for 4 days.",
+          "effect": "A mix of comfortable and good-value stays and meals, with listed prices only."
+        },
+        {
+          "code": "interests",
+          "title": "Chosen around what you care about",
+          "why": "religious_sites, museums",
+          "effect": "Sights, meals, and local hosts are matched to these. Unrelated places stay out."
+        }
+      ]
+    },
+    "days": [
+      {
+        "day": 1,
+        "date": "2026-08-20",
+        "region": "Amman",
+        "theme": "Arrival in Amman",
+        "summary": "Arrival in Amman: food, rest, then whatever daylight is left nearby. Then a short same-city plan: Amman Citadel, Amman Citadel Flagpole, Salah Din Park.",
+        "schedule": [
+          {
+            "time": "11:25",
+            "end_time": "12:10",
+            "slot": "lunch",
+            "type": "restaurant",
+            "item_id": "restaurant_001001",
+            "name": "Hashem Restaurant",
+            "duration_minutes": 45,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.951564,
+              "longitude": 35.938342,
+              "precision": "exact"
+            },
+            "description": "An iconic, legendary open-air street-level eatery in downtown Amman serving traditional Jordanian breakfast staples.",
+            "reason": "About an hour for lunch after landing, then rest at the hotel.",
+            "matched_preferences": [
+              "In Amman",
+              "Matches museums",
+              "Matches preferred cuisine",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "4 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_001001"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "12:25",
+            "end_time": "15:25",
+            "slot": "overnight",
+            "type": "hotel",
+            "item_id": "hotel_000022",
+            "name": "InterContinental Jordan",
+            "duration_minutes": null,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.953689,
+              "longitude": 35.913879,
+              "precision": "exact"
+            },
+            "description": "Long-established five-star IHG hotel on Islamic College Street in Jabal Amman, between the Second and Third Circles, with six restaurants, indoor and outdoor pools, a spa and a 24-hour reception.",
+            "reason": "Check in, eat nearby, and rest 3–5 hours. Remaining light is for a short same-city plan. 5-star stay, as requested",
+            "matched_preferences": [
+              "5-star stay, as requested",
+              "In Amman",
+              "Matches museums",
+              "5-star, as requested",
+              "Matches hotel"
+            ],
+            "estimated_cost": "165 JOD / night",
+            "source": {
+              "dataset": "hotels",
+              "record_id": "hotel_000022"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "15:25",
+            "end_time": "17:25",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_000001",
+            "name": "Amman Citadel",
+            "duration_minutes": 120,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.954605,
+              "longitude": 35.934891,
+              "precision": "exact"
+            },
+            "description": "Historic national site situated on a hill in central Amman featuring ancient ruins from the Bronze Age through the Islamic era.",
+            "reason": "Time remains after rest, so the arrival day continues nearby — not a long drive.",
+            "matched_preferences": [
+              "In Amman",
+              "local_tourism_catalog",
+              "A must-see in Amman",
+              "Matches museums",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "3 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_000001"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "17:40",
+            "end_time": "17:55",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_000052",
+            "name": "Amman Citadel Flagpole",
+            "duration_minutes": 15,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.956944,
+              "longitude": 35.942778,
+              "precision": "exact"
+            },
+            "description": "Massive national flagpole visible across Amman, located on the Royal Palace compound near the Citadel.",
+            "reason": "Time remains after rest, so the arrival day continues nearby — not a long drive.",
+            "matched_preferences": [
+              "In Amman",
+              "local_tourism_catalog",
+              "A must-see in Amman",
+              "Matches museums"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_000052"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "18:10",
+            "end_time": "18:55",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_000040",
+            "name": "Salah Din Park",
+            "duration_minutes": 45,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.956111,
+              "longitude": 35.908333,
+              "precision": "exact"
+            },
+            "description": "Landscaped urban neighborhood park located in the 4th Circle district of Jabal Amman.",
+            "reason": "Time remains after rest, so the arrival day continues nearby — not a long drive.",
+            "matched_preferences": [
+              "In Amman",
+              "local_tourism_catalog"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_000040"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "19:10",
+            "end_time": "19:30",
+            "slot": "overnight",
+            "type": "hotel",
+            "item_id": "hotel_000022",
+            "name": "InterContinental Jordan",
+            "duration_minutes": null,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.953689,
+              "longitude": 35.913879,
+              "precision": "exact"
+            },
+            "description": "Long-established five-star IHG hotel on Islamic College Street in Jabal Amman, between the Second and Third Circles, with six restaurants, indoor and outdoor pools, a spa and a 24-hour reception.",
+            "reason": "Back to your arrival hotel for the night.",
+            "matched_preferences": [
+              "5-star stay, as requested",
+              "In Amman",
+              "Matches museums",
+              "5-star, as requested",
+              "Matches hotel"
+            ],
+            "estimated_cost": "165 JOD / night",
+            "source": {
+              "dataset": "hotels",
+              "record_id": "hotel_000022"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "You land at 10:40. The drive from Queen Alia to Amman is about 45 minutes. Times below start after that transfer."
+      },
+      {
+        "day": 2,
+        "date": "2026-08-21",
+        "region": "Karak",
+        "theme": "Karak: religious_sites, museums",
+        "summary": "A full day of Karak's historic and cultural highlights: a Greek Orthodox church, a family park, a stadium, a shrine, and a market, followed by a comfortable stay in the town.",
+        "schedule": [
+          {
+            "time": "09:00",
+            "end_time": "10:00",
+            "slot": "morning",
+            "type": "restaurant",
+            "item_id": "restaurant_008001",
+            "name": "Adel Al Mubaidin Restaurant",
+            "duration_minutes": 60,
+            "location": "Karak",
+            "coordinates": {
+              "latitude": 31.181824,
+              "longitude": 35.702951,
+              "precision": "exact"
+            },
+            "description": "An iconic, long-standing local restaurant in Karak city famous for serving traditional Jordanian Mansaf made with authentic Karak Jameed.",
+            "reason": "Breakfast before the first visit.",
+            "matched_preferences": [
+              "In Karak",
+              "Matches museums",
+              "Matches preferred cuisine",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "8 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_008001"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "10:15",
+            "end_time": "10:45",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_008010",
+            "name": "St. George's Greek Orthodox Church",
+            "duration_minutes": 30,
+            "location": "Karak",
+            "coordinates": {
+              "latitude": 31.1835,
+              "longitude": 35.7058,
+              "precision": "exact"
+            },
+            "description": "Historical Greek Orthodox church located in the old city of Al-Karak.",
+            "reason": "A quick visit to a key religious site.",
+            "matched_preferences": [
+              "In Karak",
+              "matches religious_sites interest",
+              "Matches religious_sites, museums",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_008010"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "11:00",
+            "end_time": "12:00",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_008033",
+            "name": "Jannat Al-Karak Park",
+            "duration_minutes": 60,
+            "location": "Karak",
+            "coordinates": {
+              "latitude": 31.195,
+              "longitude": 35.718,
+              "precision": "exact"
+            },
+            "description": "Family recreational park featuring shaded lawns and children's play areas near Al-Karak.",
+            "reason": "A brief outdoor break in a shaded setting.",
+            "matched_preferences": [
+              "In Karak",
+              "local_tourism_catalog"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_008033"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "13:00",
+            "end_time": "15:00",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_008036",
+            "name": "Al-Karak Municipal Stadium",
+            "duration_minutes": 120,
+            "location": "Karak",
+            "coordinates": {
+              "latitude": 31.18,
+              "longitude": 35.7,
+              "precision": "exact"
+            },
+            "description": "Regional sports stadium hosting football matches and athletic events in Karak.",
+            "reason": "A quick visit to a local sports venue.",
+            "matched_preferences": [
+              "In Karak",
+              "local_tourism_catalog",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_008036"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "15:15",
+            "end_time": "15:45",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_008011",
+            "name": "Shrine of Prophet Noah",
+            "duration_minutes": 30,
+            "location": "Karak",
+            "coordinates": {
+              "latitude": 31.191,
+              "longitude": 35.703,
+              "precision": "exact"
+            },
+            "description": "Traditional religious shrine in Al-Karak dedicated to Prophet Noah.",
+            "reason": "A brief stop at a local shrine.",
+            "matched_preferences": [
+              "In Karak",
+              "local_tourism_catalog",
+              "Matches religious_sites, museums"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_008011"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "16:00",
+            "end_time": "16:45",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_008021",
+            "name": "Al-Karak Plaza Commercial Market",
+            "duration_minutes": 45,
+            "location": "Karak",
+            "coordinates": {
+              "latitude": 31.19,
+              "longitude": 35.715,
+              "precision": "exact"
+            },
+            "description": "Modern retail and commercial hub in Al-Karak providing local goods and services.",
+            "reason": "An indoor stop to rest and shop.",
+            "matched_preferences": [
+              "In Karak",
+              "local_tourism_catalog",
+              "Indoor option on a hot day"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_008021"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "18:00",
+            "end_time": "18:30",
+            "slot": "overnight",
+            "type": "hotel",
+            "item_id": "hotel_000077",
+            "name": "Alqalah Restotel",
+            "duration_minutes": null,
+            "location": "Al-Karak",
+            "coordinates": {
+              "latitude": 31.182435,
+              "longitude": 35.702608,
+              "precision": "exact"
+            },
+            "description": "Two-star, 16-room hotel and restaurant standing beside the entrance to Karak Castle, with a traditional Jordanian kitchen, a rooftop lounge, meeting rooms and valley views from many of the rooms.",
+            "reason": "Overnight stay in Karak. This is your hotel, not an activity. No 4-star listing here — closest listed is 3-star",
+            "matched_preferences": [
+              "No 4-star listing here — closest listed is 3-star",
+              "In Karak",
+              "Matches museums",
+              "3-star listing",
+              "Matches hotel"
+            ],
+            "estimated_cost": "39 JOD / night",
+            "source": {
+              "dataset": "hotels",
+              "record_id": "hotel_000077"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "This evening you check in to your hotel in Karak."
+      },
+      {
+        "day": 3,
+        "date": "2026-08-22",
+        "region": "Karak",
+        "theme": "Karak in more depth",
+        "summary": "A deeper dive into Karak's heritage: a defensive tower, a panoramic viewpoint, an archaeological site, a museum, and a family-friendly restaurant.",
+        "schedule": [
+          {
+            "time": "08:00",
+            "end_time": "09:00",
+            "slot": "morning",
+            "type": "restaurant",
+            "item_id": "restaurant_008031",
+            "name": "Fursan Almadena Restaurant",
+            "duration_minutes": 60,
+            "location": "Karak",
+            "coordinates": {
+              "latitude": 31.18215,
+              "longitude": 35.70188,
+              "precision": "exact"
+            },
+            "description": "Cozy restaurant opposite Kerak Castle serving traditional local meals, tea, and desserts with panoramic fortress views.",
+            "reason": "Breakfast before the first visit.",
+            "matched_preferences": [
+              "In Karak",
+              "Matches museums",
+              "Matches preferred cuisine",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "8.5 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_008031"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "09:15",
+            "end_time": "09:45",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_008004",
+            "name": "Ibn Maziad Tower",
+            "duration_minutes": 30,
+            "location": "Karak",
+            "coordinates": {
+              "latitude": 31.185,
+              "longitude": 35.711,
+              "precision": "exact"
+            },
+            "description": "Historical defensive tower structure located near Al-Karak.",
+            "reason": "A quick visit to a key heritage site.",
+            "matched_preferences": [
+              "In Karak",
+              "local_tourism_catalog",
+              "A second day to go beyond the main site",
+              "Matches museums",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_008004"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "10:00",
+            "end_time": "10:20",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_008016",
+            "name": "Al-Karak Panorama Viewpoint",
+            "duration_minutes": 20,
+            "location": "Karak",
+            "coordinates": {
+              "latitude": 31.178,
+              "longitude": 35.698,
+              "precision": "exact"
+            },
+            "description": "Scenic highway overlook providing sweeping views of the deep valleys surrounding Karak Castle.",
+            "reason": "A quick stop to enjoy the landscape.",
+            "matched_preferences": [
+              "In Karak",
+              "local_tourism_catalog",
+              "A second day to go beyond the main site"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_008016"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "10:35",
+            "end_time": "11:05",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_008022",
+            "name": "Ainun Archaeological Site",
+            "duration_minutes": 30,
+            "location": "Karak",
+            "coordinates": {
+              "latitude": 31.21,
+              "longitude": 35.72,
+              "precision": "exact"
+            },
+            "description": "Historic agricultural settlement ruin site featuring ancient water systems in the Karak highlands.",
+            "reason": "A brief visit to an archaeological site.",
+            "matched_preferences": [
+              "In Karak",
+              "local_tourism_catalog",
+              "A second day to go beyond the main site",
+              "Matches museums"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_008022"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "12:00",
+            "end_time": "13:05",
+            "slot": "afternoon",
+            "type": "restaurant",
+            "item_id": "restaurant_007062",
+            "name": "Al-Basha Tourist Restaurant Karak",
+            "duration_minutes": 65,
+            "location": "Karak",
+            "coordinates": {
+              "latitude": 31.1752,
+              "longitude": 35.721,
+              "precision": "exact"
+            },
+            "description": "Comfortable family restaurant near the entrance of Karak offering varied Levant grills and traditional stews.",
+            "reason": "Lunch in the afternoon.",
+            "matched_preferences": [
+              "In Karak",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "10 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_007062"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "13:20",
+            "end_time": "14:05",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_008002",
+            "name": "Karak Archaeological Museum",
+            "duration_minutes": 45,
+            "location": "Karak",
+            "coordinates": {
+              "latitude": 31.18205,
+              "longitude": 35.7049,
+              "precision": "exact"
+            },
+            "description": "Museum showcasing local archaeological artifacts from the Karak region.",
+            "reason": "An indoor visit to learn about Karak's past.",
+            "matched_preferences": [
+              "In Karak",
+              "matches museums interest",
+              "A second day to go beyond the main site",
+              "Matches museums",
+              "Indoor option on a hot day"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_008002"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "18:00",
+            "end_time": "19:00",
+            "slot": "evening",
+            "type": "restaurant",
+            "item_id": "restaurant_008020",
+            "name": "Al Karak Panorama Restaurant",
+            "duration_minutes": 60,
+            "location": "",
+            "coordinates": null,
+            "description": "Al Karak Panorama Restaurant in .",
+            "reason": "Dinner in the evening.",
+            "matched_preferences": [
+              "In Karak"
+            ],
+            "estimated_cost": "not_available",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_008020"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "Stay overnight in Karak."
+      },
+      {
+        "day": 4,
+        "date": "2026-08-23",
+        "region": "Tafilah",
+        "theme": "Tafilah: religious_sites, museums",
+        "summary": "A day of natural beauty and cultural insight in Tafilah: a viewpoint, two springs, a university garden, and a local museum, capped with a lunch at a hilltop restaurant.",
+        "schedule": [
+          {
+            "time": "07:30",
+            "end_time": "07:50",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_009021",
+            "name": "Tafilah Viewpoint Lookout",
+            "duration_minutes": 20,
+            "location": "Tafilah",
+            "coordinates": {
+              "latitude": 30.842,
+              "longitude": 35.598,
+              "precision": "exact"
+            },
+            "description": "A roadside vista on the mountain ridge providing sweeping views over Tafilah and the valley below.",
+            "reason": "A quick stop to enjoy the landscape.",
+            "matched_preferences": [
+              "In Tafilah",
+              "local_tourism_catalog"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_009021"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "08:05",
+            "end_time": "08:35",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_009024",
+            "name": "Ain Al-Faras Spring",
+            "duration_minutes": 30,
+            "location": "Tafilah",
+            "coordinates": {
+              "latitude": 30.82,
+              "longitude": 35.62,
+              "precision": "exact"
+            },
+            "description": "A historical mountain spring area providing natural water pools and shaded spots near Tafilah.",
+            "reason": "A brief visit to a natural spring.",
+            "matched_preferences": [
+              "In Tafilah",
+              "local_tourism_catalog"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_009024"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "08:50",
+            "end_time": "09:20",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_009026",
+            "name": "Tafilah Technical University Campus Gardens",
+            "duration_minutes": 30,
+            "location": "Tafilah",
+            "coordinates": {
+              "latitude": 30.825,
+              "longitude": 35.635,
+              "precision": "exact"
+            },
+            "description": "Landscaped gardens and open recreational grounds located within the university campus in Tafilah.",
+            "reason": "A quick stroll through a landscaped campus garden.",
+            "matched_preferences": [
+              "In Tafilah",
+              "local_tourism_catalog"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_009026"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "09:35",
+            "end_time": "10:05",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_009031",
+            "name": "Ain Al-Wehda Spring",
+            "duration_minutes": 30,
+            "location": "Tafilah",
+            "coordinates": {
+              "latitude": 30.795,
+              "longitude": 35.585,
+              "precision": "exact"
+            },
+            "description": "A secluded water spring and lush pocket located in the rugged mountain ravines of Tafilah Governorate.",
+            "reason": "A brief visit to another natural spring.",
+            "matched_preferences": [
+              "In Tafilah",
+              "local_tourism_catalog"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_009031"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "12:00",
+            "end_time": "13:00",
+            "slot": "afternoon",
+            "type": "restaurant",
+            "item_id": "restaurant_007066",
+            "name": "Al-Ayn Heritage Restaurant Tafilah",
+            "duration_minutes": 60,
+            "location": "Tafilah",
+            "coordinates": {
+              "latitude": 30.8385,
+              "longitude": 35.6042,
+              "precision": "exact"
+            },
+            "description": "Traditional hilltop restaurant in Tafilah city offering sweeping views of the surrounding olive valleys and classic southern Jordanian dishes.",
+            "reason": "Lunch in the afternoon.",
+            "matched_preferences": [
+              "In Tafilah",
+              "Matches museums",
+              "Matches preferred cuisine",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "8.5 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_007066"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "13:15",
+            "end_time": "14:00",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_009004",
+            "name": "Tafilah Museum",
+            "duration_minutes": 45,
+            "location": "Tafilah",
+            "coordinates": {
+              "latitude": 30.8375,
+              "longitude": 35.6042,
+              "precision": "exact"
+            },
+            "description": "A local cultural museum showcasing the heritage, history, and traditional lifestyle of Tafilah Governorate.",
+            "reason": "An indoor visit to learn about the region's past.",
+            "matched_preferences": [
+              "In Tafilah",
+              "matches museums interest",
+              "Matches museums",
+              "Indoor option on a hot day",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "not_available",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_009004"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "Come back to your hotel in Karak to sleep."
+      }
+    ],
+    "budget": {
+      "currency": "JOD",
+      "traveler_budget": 700.0,
+      "estimated_total": "553 JOD",
+      "band": "moderate",
+      "items": [
+        {
+          "category": "Stays",
+          "estimated_cost": "243 JOD",
+          "notes": "InterContinental Jordan: 165 JOD × 1 night(s); Alqalah Restotel: 39 JOD × 2 night(s)",
+          "confidence": "medium"
+        },
+        {
+          "category": "Meals on the plan",
+          "estimated_cost": "195 JOD",
+          "notes": "5 listed meal(s) × 5 traveler(s). 1 meal(s) have no listed price.",
+          "confidence": "medium"
+        },
+        {
+          "category": "Entry tickets",
+          "estimated_cost": "15 JOD",
+          "notes": "16 listed site(s) × 5 traveler(s). 1 site(s) have no listed entry fee.",
+          "confidence": "medium"
+        },
+        {
+          "category": "Trip guide",
+          "estimated_cost": "80 JOD",
+          "notes": "Listed from 80 JOD (up to 130 JOD listed)",
+          "confidence": "medium"
+        },
+        {
+          "category": "Trip operator",
+          "estimated_cost": "20 JOD",
+          "notes": "Listed from 20 JOD (up to 95 JOD listed)",
+          "confidence": "medium"
+        },
+        {
+          "category": "Left vs your ceiling",
+          "estimated_cost": "147 JOD",
+          "notes": "Your ceiling is 700 JOD. Listed pieces add up to 553 JOD.",
+          "confidence": "medium"
+        }
+      ],
+      "disclaimer": "Amounts come from catalog listings. This is a planning estimate, not a final invoice. Missing prices stay unknown — we do not invent them."
+    },
+    "sme_value": {
+      "headline": "Your guide and operator for this journey",
+      "summary": "One local guide and one tour operator for the whole trip — not a new face every day.",
+      "recommended": [
+        {
+          "sme_id": "tour_guide:SME-000003:amman",
+          "sme_type": "tour_guide",
+          "name": "Tariq Al-Masri",
+          "role": "Trip guide",
+          "location": "Amman",
+          "experience_type": "History, Archaeology, Religious Sites",
+          "match_score": 0.805,
+          "reason": "Fits what you asked for: religious_sites, museums",
+          "matched_because": [
+            "Fits what you asked for: religious_sites, museums",
+            "Covers amman",
+            "Based in Amman",
+            "Works with family travelers",
+            "Speaks English"
+          ],
+          "known_for": [
+            "Professional archaeological and historical tour guide offering immersive educational tours across Amman's ancient landmarks and museums",
+            "Takes travelers to Jordan Museum, Citadel Hill, Iraq Al-Amir, Qasr Al-Abd",
+            "Also offers Custom Itineraries, Private Tours, Special Interest Tours",
+            "Private groups available"
+          ],
+          "specializations": [
+            "History",
+            "Archaeology",
+            "Religious Sites"
+          ],
+          "languages": [
+            "Arabic",
+            "English",
+            "German"
+          ],
+          "experience_years": 15,
+          "destinations_covered": [
+            "Jordan Museum",
+            "Citadel Hill",
+            "Iraq Al-Amir",
+            "Qasr Al-Abd"
+          ],
+          "covers_regions": [
+            "amman"
+          ],
+          "package_role": "guide",
+          "specs": [
+            {
+              "label": "Specializations",
+              "value": "History, Archaeology, Religious Sites"
+            },
+            {
+              "label": "Experience",
+              "value": "15 years"
+            },
+            {
+              "label": "Languages",
+              "value": "Arabic, English, German"
+            },
+            {
+              "label": "Best for",
+              "value": "Families, Couples, Solo Travelers"
+            },
+            {
+              "label": "Group size",
+              "value": "1–20"
+            },
+            {
+              "label": "From",
+              "value": "80–130 JOD"
+            },
+            {
+              "label": "Hours",
+              "value": "08:30 - 17:00"
+            },
+            {
+              "label": "Rating",
+              "value": "4.9 (58 reviews)"
+            }
+          ],
+          "source": {
+            "dataset": "sme_guides",
+            "record_id": "tour_guide:SME-000003:amman"
+          },
+          "coordinates": {
+            "latitude": 31.9454,
+            "longitude": 35.9284,
+            "precision": "city_centroid"
+          }
+        },
+        {
+          "sme_id": "tour_operator:SME-000005:karak",
+          "sme_type": "tour_operator",
+          "name": "Bab Al-Karak Travel & Tourism",
+          "role": "Trip operator",
+          "location": "Al-Karak",
+          "experience_type": "Culture, History, Archaeology",
+          "match_score": 0.766,
+          "reason": "Fits what you asked for: museums",
+          "matched_because": [
+            "Fits what you asked for: museums",
+            "Covers amman, karak",
+            "Based in Al-Karak",
+            "Works with family travelers",
+            "Speaks English",
+            "Transportation across the itinerary"
+          ],
+          "known_for": [
+            "Incoming travel services provider offering inbound tour arrangements, local guiding services, and cultural discovery packages centered in Al-Karak",
+            "Takes travelers to Al-Karak, Karak Castle, Amman",
+            "Also offers Private Tours, Group Tours",
+            "Private groups available",
+            "Can arrange transportation"
+          ],
+          "specializations": [
+            "Culture",
+            "History",
+            "Archaeology"
+          ],
+          "languages": [
+            "Arabic",
+            "English"
+          ],
+          "experience_years": 9,
+          "destinations_covered": [
+            "Al-Karak",
+            "Karak Castle",
+            "Amman"
+          ],
+          "covers_regions": [
+            "amman",
+            "karak"
+          ],
+          "package_role": "operator",
+          "specs": [
+            {
+              "label": "Specializations",
+              "value": "Culture, History, Archaeology"
+            },
+            {
+              "label": "Experience",
+              "value": "9 years"
+            },
+            {
+              "label": "Languages",
+              "value": "Arabic, English"
+            },
+            {
+              "label": "Best for",
+              "value": "Families, Couples, Solo Travelers"
+            },
+            {
+              "label": "Group size",
+              "value": "1–30"
+            },
+            {
+              "label": "From",
+              "value": "20–95 JOD"
+            },
+            {
+              "label": "Hours",
+              "value": "09:00-17:00"
+            },
+            {
+              "label": "Rating",
+              "value": "4.8 (51 reviews)"
+            }
+          ],
+          "source": {
+            "dataset": "sme_operators",
+            "record_id": "tour_operator:SME-000005:karak"
+          },
+          "coordinates": {
+            "latitude": 31.1853,
+            "longitude": 35.7047,
+            "precision": "city_centroid"
+          }
+        }
+      ]
+    },
+    "sources": [
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_001001"
+      },
+      {
+        "dataset": "hotels",
+        "record_id": "hotel_000022"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_000001"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_000052"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_000040"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_008001"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_008010"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_008033"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_008036"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_008011"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_008021"
+      },
+      {
+        "dataset": "hotels",
+        "record_id": "hotel_000077"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_008031"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_008004"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_008016"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_008022"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_007062"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_008002"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_008020"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_009021"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_009024"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_009026"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_009031"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_007066"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_009004"
+      },
+      {
+        "dataset": "sme_guides",
+        "record_id": "tour_guide:SME-000003:amman"
+      },
+      {
+        "dataset": "sme_operators",
+        "record_id": "tour_operator:SME-000005:karak"
+      }
+    ],
+    "warnings": [
+      {
+        "code": "note",
+        "message": "No 4-star hotel is listed in Karak; using 3-star Alqalah Restotel.",
+        "severity": "info"
+      }
+    ],
+    "explanations": {
+      "trip_planning_reason": "Each day stays in one area: Karak (2 days), then Tafilah. Walk heritage and nature in the morning. Save museums, meals, and shade for the afternoon. About 3 places to visit and 3 meals on exploring days. The arrival day follows the time that remains after food and rest.",
+      "highlights": [
+        "Amman Citadel",
+        "Amman Citadel Flagpole",
+        "Salah Din Park",
+        "St. George's Greek Orthodox Church",
+        "Jannat Al-Karak Park",
+        "Al-Karak Municipal Stadium"
+      ],
+      "why_smes": [
+        "Tariq Al-Masri: Fits what you asked for: religious_sites, museums",
+        "Bab Al-Karak Travel & Tourism: Fits what you asked for: museums"
+      ],
+      "context_benefits": [
+        "Each day stays in one area: Your days follow Karak (2 days), then Tafilah.",
+        "A route built around your interests: Instead of staying only in the arrival city, the journey goes to Karak (2 days), then Tafilah.",
+        "This trip stays in one part of Jordan: So this journey focuses on the south, and those places get proper time.",
+        "Your first night is near the airport: Night one is a hotel in Amman. Exploring starts from there the next day.",
+        "Amman for the first night, then south: Stay in Amman on arrival night, then travel south the next day.",
+        "Arrive, rest, then a short same-city plan: About an hour for food, several hours of rest, then whatever daylight is left nearby — not a long drive.",
+        "Day trips from one hotel: You keep the same hotel in Karak and come back there to sleep.",
+        "Then you move closer to the places you came for: After the arrival night, nearby days share one hotel. You only move when the next area is too far for a day trip.",
+        "Mornings for the outdoors: Walk heritage and nature in the morning. Save museums, meals, and shade for the afternoon.",
+        "A balanced pace: About 3 places to visit and 3 meals on exploring days. The arrival day follows the time that remains after food and rest.",
+        "4 star stays: Hotels are taken from listings at that star level when the city has them. If it does not, we use the closest listed tier and say so.",
+        "A moderate budget: A mix of comfortable and good-value stays and meals, with listed prices only.",
+        "Chosen around what you care about: Sights, meals, and local hosts are matched to these. Unrelated places stay out."
+      ]
+    }
+  }
+}

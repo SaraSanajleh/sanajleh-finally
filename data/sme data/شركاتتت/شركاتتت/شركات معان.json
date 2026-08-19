@@ -1,0 +1,5433 @@
+[
+{
+"sme_id": "SME-000001",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Desert Moon Tourism Camp",
+"description": "Desert Moon Tourism Camp offers authentic Bedouin hospitality and guided desert tours in the heart of Wadi Rum, specializing in jeep safaris, camel rides, and overnight camping experiences under the stars.",
+"experience_years": 12,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Desert",
+"Nature",
+"Local Experiences",
+"Camping"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 209 0000",
+"mobile": "+962 7 9000 0000",
+"email": "info@desertmoontourism.example",
+"website": "[https://www.desertmoontourism.example](https://www.desertmoontourism.example)",
+"whatsapp": "+962 7 9000 0000"
+},
+"location": {
+"country": "Jordan",
+"city": "Wadi Rum",
+"region": "Ma'an Governorate",
+"address": "Wadi Rum Protected Area, Ma'an Governorate, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Wadi Rum",
+"Aqaba"
+],
+"preferred_destinations": [
+"Wadi Rum"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Tour Planning & Itinerary Design",
+"Cultural Experiences",
+"Local Experiences",
+"Private Tours",
+"Group Tours",
+"Activity & Excursion Booking"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "08:00–20:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 30,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person / Per Tour",
+"min_price": 25.0,
+"max_price": 150.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Desert Experiences",
+"Local Experiences",
+"Nature",
+"Soft Adventure"
+]
+},
+"reviews": {
+"rating": 4.7,
+"review_count": 64,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000002",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Bedouin Directions",
+"description": "Bedouin Directions provides traditional desert excursions, jeep tours, hiking guides, and authentic Bedouin night camping within the Wadi Rum protected desert reserve.",
+"experience_years": 8,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Desert",
+"Hiking",
+"Adventure",
+"Local Experiences"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 209 1111",
+"mobile": "+962 7 9111 1111",
+"email": "contact@bedouindirections.example",
+"website": "[https://www.bedouindirections.example](https://www.bedouindirections.example)",
+"whatsapp": "+962 7 9111 1111"
+},
+"location": {
+"country": "Jordan",
+"city": "Wadi Rum",
+"region": "Ma'an Governorate",
+"address": "Wadi Rum Village, Ma'an Governorate, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Wadi Rum"
+],
+"preferred_destinations": [
+"Wadi Rum"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Custom Itineraries",
+"Cultural Experiences",
+"Local Experiences",
+"Private Tours",
+"Adventure Activities"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "07:30–21:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 25,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 20.0,
+"max_price": 120.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Desert Experiences",
+"Hiking & Trekking",
+"Local Experiences"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 42,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000003",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Rum Star Adventures",
+"description": "Rum Star Adventures organizes customized desert tours, jeep safaris, rock climbing excursions, and stargazing night tours in Wadi Rum.",
+"experience_years": 10,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Desert",
+"Adventure",
+"Hiking",
+"Nature"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 209 2222",
+"mobile": "+962 7 9222 2222",
+"email": "info@rumstaradventures.example",
+"website": "[https://www.rumstaradventures.example](https://www.rumstaradventures.example)",
+"whatsapp": "+962 7 9222 2222"
+},
+"location": {
+"country": "Jordan",
+"city": "Wadi Rum",
+"region": "Ma'an Governorate",
+"address": "Wadi Rum Village, Ma'an Governorate, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Wadi Rum"
+],
+"preferred_destinations": [
+"Wadi Rum"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Tour Planning & Itinerary Design",
+"Private Tours",
+"Group Tours",
+"Adventure Activities"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "08:00–19:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 20,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 30.0,
+"max_price": 140.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Desert Experiences",
+"Soft Adventure",
+"Hiking & Trekking"
+]
+},
+"reviews": {
+"rating": 4.6,
+"review_count": 55,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000004",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Ma'an Heritage and Tourism Agency",
+"description": "Local agency based in Ma'an city facilitating cultural tours, historical city explorations, and excursions connecting historical sites across the Ma'an Governorate.",
+"experience_years": 6,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Archaeology",
+"Local Experiences"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 213 0000",
+"mobile": "+962 7 9333 3333",
+"email": "contact@maanheritage.example",
+"website": "[https://www.maanheritage.example](https://www.maanheritage.example)",
+"whatsapp": "+962 7 9333 3333"
+},
+"location": {
+"country": "Jordan",
+"city": "Ma'an",
+"region": "Ma'an Governorate",
+"address": "King Hussein Street, Ma'an, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Ma'an",
+"Petra",
+"Wadi Rum"
+],
+"preferred_destinations": [
+"Ma'an",
+"Petra"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "Arabic"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Cultural Experiences",
+"Private Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Licensed Tourist Guides",
+"Local Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00–17:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 15,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Tour",
+"min_price": 40.0,
+"max_price": 180.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Archaeological Tourism",
+"Local Experiences"
+]
+},
+"reviews": {
+"rating": 4.5,
+"review_count": 23,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000005",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Wadi Rum Nomads Desert Tours",
+"description": "Specialized incoming tour operator providing authentic Bedouin experiences, camel treks, jeep safaris, and overnight traditional camp stays in Wadi Rum.",
+"experience_years": 14,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Desert",
+"Culture",
+"Local Experiences",
+"Nature"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 209 4444",
+"mobile": "+962 7 9444 4444",
+"email": "info@rumnomads.example",
+"website": "[https://www.rumnomads.example](https://www.rumnomads.example)",
+"whatsapp": "+962 7 9444 4444"
+},
+"location": {
+"country": "Jordan",
+"city": "Wadi Rum",
+"region": "Ma'an Governorate",
+"address": "Wadi Rum Protected Area, Ma'an Governorate, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Wadi Rum"
+],
+"preferred_destinations": [
+"Wadi Rum"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English",
+"French"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Custom Itineraries",
+"Cultural Experiences",
+"Local Experiences",
+"Private Tours",
+"Group Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides",
+"Multilingual Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "08:00–21:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 35,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 25.0,
+"max_price": 130.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Desert Experiences",
+"Community Tourism",
+"Local Experiences"
+]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 98,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000006",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Petra & Rum Horizon Tours",
+"description": "Integrated tour operator coordinating multi-day travel packages connecting the Nabatean city of Petra with the desert landscapes of Wadi Rum.",
+"experience_years": 9,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Archaeology",
+"Desert",
+"Culture"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 215 5555",
+"mobile": "+962 7 9555 5555",
+"email": "booking@petrarumhorizon.example",
+"website": "[https://www.petrarumhorizon.example](https://www.petrarumhorizon.example)",
+"whatsapp": "+962 7 9555 5555"
+},
+"location": {
+"country": "Jordan",
+"city": "Wadi Musa",
+"region": "Ma'an Governorate",
+"address": "Tourism Street, Wadi Musa, Ma'an Governorate, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Petra",
+"Wadi Rum",
+"Aqaba"
+],
+"preferred_destinations": [
+"Petra",
+"Wadi Rum"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English",
+"German"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Custom Itineraries",
+"Private Tours",
+"Group Tours",
+"Hotel / Accommodation Booking"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Licensed Tourist Guides",
+"Local Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "08:30–18:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 30,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Package",
+"min_price": 50.0,
+"max_price": 300.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Archaeological Tourism",
+"Desert Experiences"
+]
+},
+"reviews": {
+"rating": 4.7,
+"review_count": 76,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000007",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Wadi Rum Dream Camp & Tours",
+"description": "Provider of desert camping accommodations, traditional Bedouin meals, jeep excursions, and camel riding tours across the scenic valleys of Wadi Rum.",
+"experience_years": 11,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Desert",
+"Nature",
+"Local Experiences",
+"Food"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 209 7777",
+"mobile": "+962 7 9777 7777",
+"email": "info@rumdreamcamp.example",
+"website": "[https://www.rumdreamcamp.example](https://www.rumdreamcamp.example)",
+"whatsapp": "+962 7 9777 7777"
+},
+"location": {
+"country": "Jordan",
+"city": "Wadi Rum",
+"region": "Ma'an Governorate",
+"address": "Wadi Rum Protected Area, Ma'an Governorate, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Wadi Rum"
+],
+"preferred_destinations": [
+"Wadi Rum"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Cultural Experiences",
+"Local Experiences",
+"Private Tours",
+"Group Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "08:00–20:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 25,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 25.0,
+"max_price": 110.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Desert Experiences",
+"Food & Culinary",
+"Local Experiences"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 89,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000008",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Balsam Travel & Tourism Agency",
+"description": "Regional travel agency offering ticketing, domestic tour packages, transportation arrangements, and guided excursions throughout the southern governorates of Jordan.",
+"experience_years": 7,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Nature"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 213 8888",
+"mobile": "+962 7 9888 8888",
+"email": "support@balsamtravel.example",
+"website": "[https://www.balsamtravel.example](https://www.balsamtravel.example)",
+"whatsapp": "+962 7 9888 8888"
+},
+"location": {
+"country": "Jordan",
+"city": "Ma'an",
+"region": "Ma'an Governorate",
+"address": "Ma'an City Center, Ma'an, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Ma'an",
+"Petra",
+"Wadi Rum",
+"Aqaba"
+],
+"preferred_destinations": [
+"Ma'an",
+"Petra"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "Arabic"
+},
+"services": {
+"service_categories": [
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Custom Itineraries",
+"Private Tours",
+"Hotel / Accommodation Booking",
+"Airport Transfers"
+]
+},
+"guides": {
+"provides_guides": false,
+"guide_types": []
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00–17:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 20,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Service / Package",
+"min_price": 35.0,
+"max_price": 200.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Family Experiences"
+]
+},
+"reviews": {
+"rating": 4.4,
+"review_count": 18,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000009",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Rum Magic Nature Camp",
+"description": "Eco-friendly desert camp and tour operator offering guided hiking trails, camel excursions, jeep tours, and traditional Bedouin hospitality in Wadi Rum.",
+"experience_years": 9,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Desert",
+"Hiking",
+"Nature",
+"Local Experiences"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 209 9999",
+"mobile": "+962 7 9999 9999",
+"email": "booking@rummagiccamp.example",
+"website": "[https://www.rummagiccamp.example](https://www.rummagiccamp.example)",
+"whatsapp": "+962 7 9999 9999"
+},
+"location": {
+"country": "Jordan",
+"city": "Wadi Rum",
+"region": "Ma'an Governorate",
+"address": "Wadi Rum Protected Area, Ma'an Governorate, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Wadi Rum"
+],
+"preferred_destinations": [
+"Wadi Rum"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Cultural Experiences",
+"Local Experiences",
+"Private Tours",
+"Group Tours",
+"Adventure Activities"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "08:00–21:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 30,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 25.0,
+"max_price": 125.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Desert Experiences",
+"Hiking & Trekking",
+"Nature"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 61,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000010",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Desert Touch Tourism",
+"description": "Boutique tour operator specializing in private desert safaris, customized camel caravans, and immersive cultural heritage tours across the desert valleys of Wadi Rum and Ma'an.",
+"experience_years": 13,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Desert",
+"Culture",
+"Local Experiences",
+"Photography"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 209 1234",
+"mobile": "+962 7 9123 4567",
+"email": "info@deserttouch.example",
+"website": "[https://www.deserttouch.example](https://www.deserttouch.example)",
+"whatsapp": "+962 7 9123 4567"
+},
+"location": {
+"country": "Jordan",
+"city": "Wadi Rum",
+"region": "Ma'an Governorate",
+"address": "Wadi Rum Village, Ma'an Governorate, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Wadi Rum",
+"Petra"
+],
+"preferred_destinations": [
+"Wadi Rum"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English",
+"Spanish"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Tour Planning & Itinerary Design",
+"Custom Itineraries",
+"Cultural Experiences",
+"Local Experiences",
+"Private Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides",
+"Multilingual Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "08:00–20:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 20,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 35.0,
+"max_price": 160.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Desert Experiences",
+"Local Experiences",
+"History & Culture"
+]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 83,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+}
+]
+
+[
+{
+"sme_id": "SME-000011",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Rum Sunset Desert Camp & Tours",
+"description": "Family-run tour operator and desert camp offering sunset jeep tours, stargazing sessions, overnight Bedouin tent stays, and hiking excursions in Wadi Rum.",
+"experience_years": 10,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Desert",
+"Nature",
+"Local Experiences",
+"Hiking"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 209 5500",
+"mobile": "+962 7 9550 0000",
+"email": "info@rumsunsetcamp.example",
+"website": "[https://www.rumsunsetcamp.example](https://www.rumsunsetcamp.example)",
+"whatsapp": "+962 7 9550 0000"
+},
+"location": {
+"country": "Jordan",
+"city": "Wadi Rum",
+"region": "Ma'an Governorate",
+"address": "Wadi Rum Protected Area, Ma'an Governorate, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Wadi Rum"
+],
+"preferred_destinations": [
+"Wadi Rum"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Cultural Experiences",
+"Local Experiences",
+"Private Tours",
+"Group Tours",
+"Adventure Activities"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "08:00–21:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 25,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 20.0,
+"max_price": 110.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Desert Experiences",
+"Local Experiences",
+"Nature"
+]
+},
+"reviews": {
+"rating": 4.7,
+"review_count": 52,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000012",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Desert Panorama Adventures",
+"description": "Incoming tour operator providing multi-day adventure packages, 4x4 desert safaris, rock climbing guidance, and traditional Bedouin hospitality in Wadi Rum.",
+"experience_years": 8,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Desert",
+"Adventure",
+"Hiking",
+"Nature"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 209 6600",
+"mobile": "+962 7 9660 0000",
+"email": "contact@desertpanorama.example",
+"website": "[https://www.desertpanorama.example](https://www.desertpanorama.example)",
+"whatsapp": "+962 7 9660 0000"
+},
+"location": {
+"country": "Jordan",
+"city": "Wadi Rum",
+"region": "Ma'an Governorate",
+"address": "Wadi Rum Village, Ma'an Governorate, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Wadi Rum",
+"Aqaba"
+],
+"preferred_destinations": [
+"Wadi Rum"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Tour Planning & Itinerary Design",
+"Custom Itineraries",
+"Private Tours",
+"Group Tours",
+"Adventure Activities"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "08:00–20:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 30,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 30.0,
+"max_price": 140.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Desert Experiences",
+"Soft Adventure",
+"Hiking & Trekking"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 67,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000013",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Ma'an Desert Gate Tourism",
+"description": "Regional travel facilitator specializing in connecting visitors from Ma'an city to historical desert trails, archaeological sites, and Wadi Rum excursions.",
+"experience_years": 5,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Desert",
+"Archaeology"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 213 7700",
+"mobile": "+962 7 9770 0000",
+"email": "info@maandesertgate.example",
+"website": "[https://www.maandesertgate.example](https://www.maandesertgate.example)",
+"whatsapp": "+962 7 9770 0000"
+},
+"location": {
+"country": "Jordan",
+"city": "Ma'an",
+"region": "Ma'an Governorate",
+"address": "University Street, Ma'an, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Ma'an",
+"Wadi Rum",
+"Petra"
+],
+"preferred_destinations": [
+"Ma'an",
+"Wadi Rum"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "Arabic"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Custom Itineraries",
+"Private Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Licensed Tourist Guides",
+"Local Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00–17:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 15,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Tour",
+"min_price": 45.0,
+"max_price": 170.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Archaeological Tourism",
+"Desert Experiences"
+]
+},
+"reviews": {
+"rating": 4.5,
+"review_count": 19,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000014",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Rum Starry Night Tours",
+"description": "Boutique tour agency focusing on astrophotography tours, night camping experiences, and custom jeep safaris through the protected canyons of Wadi Rum.",
+"experience_years": 7,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Desert",
+"Photography",
+"Nature",
+"Camping"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 209 8800",
+"mobile": "+962 7 9880 0000",
+"email": "booking@rumstarrynight.example",
+"website": "[https://www.rumstarrynight.example](https://www.rumstarrynight.example)",
+"whatsapp": "+962 7 9880 0000"
+},
+"location": {
+"country": "Jordan",
+"city": "Wadi Rum",
+"region": "Ma'an Governorate",
+"address": "Wadi Rum Village, Ma'an Governorate, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Wadi Rum"
+],
+"preferred_destinations": [
+"Wadi Rum"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Cultural Experiences",
+"Local Experiences",
+"Private Tours",
+"Adventure Activities"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "08:00–21:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 20,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 35.0,
+"max_price": 130.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Desert Experiences",
+"Local Experiences",
+"Nature"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 38,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000015",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Bedouin Traditions Camp & Tours",
+"description": "Authentic Bedouin-run tour operator providing camel caravans, hiking expeditions, jeep tours, and traditional overnight camp experiences in Wadi Rum.",
+"experience_years": 15,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Desert",
+"Culture",
+"Local Experiences",
+"Hiking"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 209 9900",
+"mobile": "+962 7 9990 0000",
+"email": "info@bedouintraditions.example",
+"website": "[https://www.bedouintraditions.example](https://www.bedouintraditions.example)",
+"whatsapp": "+962 7 9990 0000"
+},
+"location": {
+"country": "Jordan",
+"city": "Wadi Rum",
+"region": "Ma'an Governorate",
+"address": "Wadi Rum Protected Area, Ma'an Governorate, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Wadi Rum"
+],
+"preferred_destinations": [
+"Wadi Rum"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Cultural Experiences",
+"Local Experiences",
+"Private Tours",
+"Group Tours",
+"Adventure Activities"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "08:00–20:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 35,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 25.0,
+"max_price": 120.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Desert Experiences",
+"Community Tourism",
+"Local Experiences"
+]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 110,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+}
+]
+
+[
+{
+"sme_id": "SME-000016",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Wadi Rum Red Sand Tours",
+"description": "Local tour operator organizing red sand dune excursions, 4x4 jeep safaris, and overnight Bedouin camp stays in the southern areas of Wadi Rum.",
+"experience_years": 9,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Desert",
+"Nature",
+"Local Experiences",
+"Photography"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 209 1122",
+"mobile": "+962 7 9112 2333",
+"email": "info@redsandtours.example",
+"website": "[https://www.redsandtours.example](https://www.redsandtours.example)",
+"whatsapp": "+962 7 9112 2333"
+},
+"location": {
+"country": "Jordan",
+"city": "Wadi Rum",
+"region": "Ma'an Governorate",
+"address": "Wadi Rum Protected Area, Ma'an Governorate, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Wadi Rum"
+],
+"preferred_destinations": [
+"Wadi Rum"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Cultural Experiences",
+"Local Experiences",
+"Private Tours",
+"Group Tours",
+"Adventure Activities"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "08:00–20:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 25,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 25.0,
+"max_price": 115.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Desert Experiences",
+"Local Experiences",
+"Nature"
+]
+},
+"reviews": {
+"rating": 4.7,
+"review_count": 48,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000017",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Ma'an Silk Road Travel",
+"description": "Incoming regional agency offering historic caravan route tours, cultural heritage itineraries, and transportation services across Ma'an and surrounding governorates.",
+"experience_years": 11,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Archaeology"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 213 4455",
+"mobile": "+962 7 9445 5667",
+"email": "contact@maansilkroad.example",
+"website": "[https://www.maansilkroad.example](https://www.maansilkroad.example)",
+"whatsapp": "+962 7 9445 5667"
+},
+"location": {
+"country": "Jordan",
+"city": "Ma'an",
+"region": "Ma'an Governorate",
+"address": "Downtown Ma'an, Ma'an, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Ma'an",
+"Petra",
+"Wadi Rum"
+],
+"preferred_destinations": [
+"Ma'an",
+"Petra"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Custom Itineraries",
+"Private Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Licensed Tourist Guides",
+"Local Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00–17:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 20,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Tour",
+"min_price": 50.0,
+"max_price": 190.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Archaeological Tourism"
+]
+},
+"reviews": {
+"rating": 4.6,
+"review_count": 27,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000018",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Rum Valley Echo Adventures",
+"description": "Specialized eco-adventure operator focusing on long-distance desert hiking trails, rock scrambling, and sustainable tourism practices in Wadi Rum.",
+"experience_years": 7,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Desert",
+"Hiking",
+"Adventure",
+"Nature"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 209 3344",
+"mobile": "+962 7 9334 4556",
+"email": "info@rumvalleyecho.example",
+"website": "[https://www.rumvalleyecho.example](https://www.rumvalleyecho.example)",
+"whatsapp": "+962 7 9334 4556"
+},
+"location": {
+"country": "Jordan",
+"city": "Wadi Rum",
+"region": "Ma'an Governorate",
+"address": "Wadi Rum Village, Ma'an Governorate, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Wadi Rum"
+],
+"preferred_destinations": [
+"Wadi Rum"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Custom Itineraries",
+"Cultural Experiences",
+"Local Experiences",
+"Private Tours",
+"Adventure Activities"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "08:00–19:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 15,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 35.0,
+"max_price": 150.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Hiking & Trekking",
+"Desert Experiences",
+"Soft Adventure"
+]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 34,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000019",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Ma'an Desert Breeze Tourism",
+"description": "Travel provider offering city tours of Ma'an, desert excursion coordination, and logistical support for visitors exploring southern Jordan's historical landmarks.",
+"experience_years": 6,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Desert"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 213 8899",
+"mobile": "+962 7 9889 9001",
+"email": "booking@maandesertbreeze.example",
+"website": "[https://www.maandesertbreeze.example](https://www.maandesertbreeze.example)",
+"whatsapp": "+962 7 9889 9001"
+},
+"location": {
+"country": "Jordan",
+"city": "Ma'an",
+"region": "Ma'an Governorate",
+"address": "Main Highway, Ma'an, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Ma'an",
+"Wadi Rum",
+"Petra"
+],
+"preferred_destinations": [
+"Ma'an",
+"Wadi Rum"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "Arabic"
+},
+"services": {
+"service_categories": [
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Private Tours",
+"Airport Transfers"
+]
+},
+"guides": {
+"provides_guides": false,
+"guide_types": []
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00–17:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 20,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Service",
+"min_price": 30.0,
+"max_price": 140.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Family Experiences"
+]
+},
+"reviews": {
+"rating": 4.3,
+"review_count": 15,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000020",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Rum Golden Dunes Camp & Tours",
+"description": "Traditional desert camp and tour operator offering jeep safaris, camel rides, traditional zarb dinners, and overnight stays under the stars in Wadi Rum.",
+"experience_years": 12,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Desert",
+"Culture",
+"Food",
+"Local Experiences"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 209 7788",
+"mobile": "+962 7 9778 8990",
+"email": "info@rumgoldendunes.example",
+"website": "[https://www.rumgoldendunes.example](https://www.rumgoldendunes.example)",
+"whatsapp": "+962 7 9778 8990"
+},
+"location": {
+"country": "Jordan",
+"city": "Wadi Rum",
+"region": "Ma'an Governorate",
+"address": "Wadi Rum Protected Area, Ma'an Governorate, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Wadi Rum"
+],
+"preferred_destinations": [
+"Wadi Rum"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Cultural Experiences",
+"Local Experiences",
+"Private Tours",
+"Group Tours",
+"Activity & Excursion Booking"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "08:00–21:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 30,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 25.0,
+"max_price": 125.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Desert Experiences",
+"Food & Culinary",
+"Local Experiences"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 79,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+}
+]
+
+[
+{
+"sme_id": "SME-000021",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Rum Desert Majesty Tours",
+"description": "Incoming tour operator providing customized 4x4 desert safaris, traditional Bedouin hospitality, rock inscription sightseeing, and overnight luxury tent camps in Wadi Rum.",
+"experience_years": 9,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Desert",
+"Culture",
+"Archaeology",
+"Local Experiences"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 209 4411",
+"mobile": "+962 7 9441 1222",
+"email": "info@rumdesertmajesty.example",
+"website": "[https://www.rumdesertmajesty.example](https://www.rumdesertmajesty.example)",
+"whatsapp": "+962 7 9441 1222"
+},
+"location": {
+"country": "Jordan",
+"city": "Wadi Rum",
+"region": "Ma'an Governorate",
+"address": "Wadi Rum Protected Area, Ma'an Governorate, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Wadi Rum"
+],
+"preferred_destinations": [
+"Wadi Rum"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Cultural Experiences",
+"Local Experiences",
+"Private Tours",
+"Group Tours",
+"Adventure Activities"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "08:00–21:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 30,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 25.0,
+"max_price": 130.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Desert Experiences",
+"Local Experiences",
+"Archaeological Tourism"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 62,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000022",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Ma'an Horizon Travel & Tourism",
+"description": "Regional travel agency coordinating ticketing, tailored cultural itineraries, and private transport services connecting Ma'an city to major tourist destinations across southern Jordan.",
+"experience_years": 8,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Nature"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 213 6677",
+"mobile": "+962 7 9667 7889",
+"email": "contact@maanhorizon.example",
+"website": "[https://www.maanhorizon.example](https://www.maanhorizon.example)",
+"whatsapp": "+962 7 9667 7889"
+},
+"location": {
+"country": "Jordan",
+"city": "Ma'an",
+"region": "Ma'an Governorate",
+"address": "Ma'an Commercial Center, Ma'an, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Ma'an",
+"Petra",
+"Wadi Rum"
+],
+"preferred_destinations": [
+"Ma'an",
+"Petra"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "Arabic"
+},
+"services": {
+"service_categories": [
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Custom Itineraries",
+"Private Tours",
+"Airport Transfers"
+]
+},
+"guides": {
+"provides_guides": false,
+"guide_types": []
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00–17:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 20,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Service",
+"min_price": 35.0,
+"max_price": 160.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Family Experiences"
+]
+},
+"reviews": {
+"rating": 4.4,
+"review_count": 21,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000023",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Rum Red Canyon Adventures",
+"description": "Specialized outdoor tour operator offering hiking treks, rock climbing expeditions, and 4x4 desert tours through the dramatic canyons of Wadi Rum.",
+"experience_years": 10,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Desert",
+"Hiking",
+"Adventure",
+"Nature"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 209 5522",
+"mobile": "+962 7 9552 2334",
+"email": "info@rumredcanyon.example",
+"website": "[https://www.rumredcanyon.example](https://www.rumredcanyon.example)",
+"whatsapp": "+962 7 9552 2334"
+},
+"location": {
+"country": "Jordan",
+"city": "Wadi Rum",
+"region": "Ma'an Governorate",
+"address": "Wadi Rum Village, Ma'an Governorate, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Wadi Rum"
+],
+"preferred_destinations": [
+"Wadi Rum"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Custom Itineraries",
+"Cultural Experiences",
+"Local Experiences",
+"Private Tours",
+"Adventure Activities"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "08:00–19:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 20,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 30.0,
+"max_price": 140.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Hiking & Trekking",
+"Desert Experiences",
+"Soft Adventure"
+]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 54,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000024",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Wadi Rum Oasis Camp & Tours",
+"description": "Family-managed tour operator offering peaceful desert camp accommodations, guided camel treks, jeep tours, and traditional Bedouin dining experiences.",
+"experience_years": 11,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Desert",
+"Nature",
+"Local Experiences",
+"Food"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 209 8833",
+"mobile": "+962 7 9883 3445",
+"email": "booking@rumoasisamp.example",
+"website": "[https://www.rumoasisamp.example](https://www.rumoasisamp.example)",
+"whatsapp": "+962 7 9883 3445"
+},
+"location": {
+"country": "Jordan",
+"city": "Wadi Rum",
+"region": "Ma'an Governorate",
+"address": "Wadi Rum Protected Area, Ma'an Governorate, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Wadi Rum"
+],
+"preferred_destinations": [
+"Wadi Rum"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Cultural Experiences",
+"Local Experiences",
+"Private Tours",
+"Group Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "08:00–20:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 30,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 25.0,
+"max_price": 115.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Desert Experiences",
+"Food & Culinary",
+"Local Experiences"
+]
+},
+"reviews": {
+"rating": 4.7,
+"review_count": 71,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000025",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Ma'an Heritage Trails Agency",
+"description": "Local incoming agency focused on promoting historical discovery tours, ancient trade route exploration, and cultural immersion across Ma'an Governorate.",
+"experience_years": 7,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Archaeology"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 213 9922",
+"mobile": "+962 7 9992 2334",
+"email": "info@maanheritagetrails.example",
+"website": "[https://www.maanheritagetrails.example](https://www.maanheritagetrails.example)",
+"whatsapp": "+962 7 9992 2334"
+},
+"location": {
+"country": "Jordan",
+"city": "Ma'an",
+"region": "Ma'an Governorate",
+"address": "King Abdullah Street, Ma'an, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Ma'an",
+"Petra",
+"Wadi Rum"
+],
+"preferred_destinations": [
+"Ma'an",
+"Petra"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "Arabic"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Custom Itineraries",
+"Private Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Licensed Tourist Guides",
+"Local Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00–17:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 15,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Tour",
+"min_price": 40.0,
+"max_price": 175.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Archaeological Tourism"
+]
+},
+"reviews": {
+"rating": 4.5,
+"review_count": 24,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+}
+]
+[
+{
+"sme_id": "SME-000026",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Wild Wadi Rum Tours",
+"description": "Family-run tour operator belonging to the Zalabiyah tribe, offering custom jeep tours, camel treks, hiking expeditions, hot air balloon arrangements, and authentic Bedouin camp experiences.",
+"experience_years": 14,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Desert",
+"Adventure",
+"Hiking",
+"Local Experiences"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 209 1000",
+"mobile": "+962 7 9100 0000",
+"email": "info@wildwadirum.example",
+"website": "[https://wildwadirum.com](https://wildwadirum.com)",
+"whatsapp": "+962 7 9100 0000"
+},
+"location": {
+"country": "Jordan",
+"city": "Wadi Rum",
+"region": "Ma'an Governorate",
+"address": "Wadi Rum Protected Area, Ma'an Governorate, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Wadi Rum"
+],
+"preferred_destinations": [
+"Wadi Rum"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Custom Itineraries",
+"Cultural Experiences",
+"Local Experiences",
+"Private Tours",
+"Group Tours",
+"Adventure Activities"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "08:00–21:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 35,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 25.0,
+"max_price": 140.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Desert Experiences",
+"Soft Adventure",
+"Local Experiences"
+]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 134,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000027",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Ma'an Desert Star Travel",
+"description": "Local incoming tour operator coordinating multi-day cultural itineraries, historical desert excursions, and 4x4 transport services across Ma'an and surrounding southern regions.",
+"experience_years": 8,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Desert"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 213 1234",
+"mobile": "+962 7 9123 4111",
+"email": "contact@maandesertstar.example",
+"website": "[https://www.maandesertstar.example](https://www.google.com/search?q=https%3A%2F%2Fwww.maandesertstar.example)",
+"whatsapp": "+962 7 9123 4111"
+},
+"location": {
+"country": "Jordan",
+"city": "Ma'an",
+"region": "Ma'an Governorate",
+"address": "Ma'an Main Street, Ma'an, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Ma'an",
+"Petra",
+"Wadi Rum"
+],
+"preferred_destinations": [
+"Ma'an",
+"Petra"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "Arabic"
+},
+"services": {
+"service_categories": [
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Private Tours",
+"Airport Transfers"
+]
+},
+"guides": {
+"provides_guides": false,
+"guide_types": []
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00–17:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 20,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Service",
+"min_price": 30.0,
+"max_price": 150.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Family Experiences"
+]
+},
+"reviews": {
+"rating": 4.4,
+"review_count": 22,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000028",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Rum Moon Light Camp & Tours",
+"description": "Desert tour operator offering overnight stargazing camps, jeep excursions, camel trekking, and traditional Bedouin dining experiences in Wadi Rum.",
+"experience_years": 10,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Desert",
+"Nature",
+"Local Experiences",
+"Camping"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 209 4321",
+"mobile": "+962 7 9432 1555",
+"email": "info@rummoonlight.example",
+"website": "[https://www.rummoonlight.example](https://www.google.com/search?q=https%3A%2F%2Fwww.rummoonlight.example)",
+"whatsapp": "+962 7 9432 1555"
+},
+"location": {
+"country": "Jordan",
+"city": "Wadi Rum",
+"region": "Ma'an Governorate",
+"address": "Wadi Rum Protected Area, Ma'an Governorate, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Wadi Rum"
+],
+"preferred_destinations": [
+"Wadi Rum"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Cultural Experiences",
+"Local Experiences",
+"Private Tours",
+"Group Tours",
+"Adventure Activities"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "08:00–21:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 30,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 25.0,
+"max_price": 120.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Desert Experiences",
+"Local Experiences",
+"Nature"
+]
+},
+"reviews": {
+"rating": 4.7,
+"review_count": 59,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000029",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Wadi Rum Ancient Trails",
+"description": "Specialized eco-tourism operator focused on historical trekking paths, rock art exploration, and nomadic desert journeys across Wadi Rum.",
+"experience_years": 9,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Desert",
+"Hiking",
+"Archaeology",
+"History"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 209 7890",
+"mobile": "+962 7 9789 0111",
+"email": "booking@rumancienttrails.example",
+"website": "[https://www.rumancienttrails.example](https://www.google.com/search?q=https%3A%2F%2Fwww.rumancienttrails.example)",
+"whatsapp": "+962 7 9789 0111"
+},
+"location": {
+"country": "Jordan",
+"city": "Wadi Rum",
+"region": "Ma'an Governorate",
+"address": "Wadi Rum Village, Ma'an Governorate, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Wadi Rum"
+],
+"preferred_destinations": [
+"Wadi Rum"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Custom Itineraries",
+"Cultural Experiences",
+"Local Experiences",
+"Private Tours",
+"Adventure Activities"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "08:00–19:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 18,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 35.0,
+"max_price": 145.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Hiking & Trekking",
+"Desert Experiences",
+"Archaeological Tourism"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 41,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000030",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Ma'an Gateway Tours",
+"description": "Regional travel agency providing comprehensive tourism services, customized private tour packages, and transportation connecting Ma'an Governorate to Petra and Wadi Rum.",
+"experience_years": 12,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Desert"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 213 4321",
+"mobile": "+962 7 9432 1777",
+"email": "info@maangateway.example",
+"website": "[https://www.maangateway.example](https://www.google.com/search?q=https%3A%2F%2Fwww.maangateway.example)",
+"whatsapp": "+962 7 9432 1777"
+},
+"location": {
+"country": "Jordan",
+"city": "Ma'an",
+"region": "Ma'an Governorate",
+"address": "Princess Basma Street, Ma'an, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Ma'an",
+"Petra",
+"Wadi Rum"
+],
+"preferred_destinations": [
+"Ma'an",
+"Petra"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "Arabic"
+},
+"services": {
+"service_categories": [
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Custom Itineraries",
+"Private Tours",
+"Hotel / Accommodation Booking"
+]
+},
+"guides": {
+"provides_guides": false,
+"guide_types": []
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00–17:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 25,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Package",
+"min_price": 40.0,
+"max_price": 180.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Family Experiences"
+]
+},
+"reviews": {
+"rating": 4.5,
+"review_count": 31,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+}
+]
+[
+{
+"sme_id": "SME-000031",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Rum Desert Star Camp",
+"description": "Wadi Rum-based tour operator and desert camp providing traditional Bedouin hospitality, jeep safaris, camel rides, and overnight stargazing experiences.",
+"experience_years": 9,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Desert",
+"Nature",
+"Local Experiences",
+"Camping"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 209 1100",
+"mobile": "+962 7 9110 0111",
+"email": "info@rumdesertstarcamp.example",
+"website": "[https://www.rumdesertstarcamp.example](https://www.rumdesertstarcamp.example)",
+"whatsapp": "+962 7 9110 0111"
+},
+"location": {
+"country": "Jordan",
+"city": "Wadi Rum",
+"region": "Ma'an Governorate",
+"address": "Wadi Rum Protected Area, Ma'an Governorate, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Wadi Rum"
+],
+"preferred_destinations": [
+"Wadi Rum"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Cultural Experiences",
+"Local Experiences",
+"Private Tours",
+"Group Tours",
+"Adventure Activities"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "08:00–21:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 30,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 25.0,
+"max_price": 120.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Desert Experiences",
+"Local Experiences",
+"Nature"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 65,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000032",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Ma'an Panorama Travel & Tourism",
+"description": "Regional travel agency offering custom itinerary planning, transportation, and guided historical tours across Ma'an city and nearby heritage sites.",
+"experience_years": 7,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Nature"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 213 2233",
+"mobile": "+962 7 9223 3445",
+"email": "contact@maanpanorama.example",
+"website": "[https://www.maanpanorama.example](https://www.maanpanorama.example)",
+"whatsapp": "+962 7 9223 3445"
+},
+"location": {
+"country": "Jordan",
+"city": "Ma'an",
+"region": "Ma'an Governorate",
+"address": "Ma'an City Center, Ma'an, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Ma'an",
+"Petra",
+"Wadi Rum"
+],
+"preferred_destinations": [
+"Ma'an",
+"Petra"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "Arabic"
+},
+"services": {
+"service_categories": [
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Custom Itineraries",
+"Private Tours",
+"Airport Transfers"
+]
+},
+"guides": {
+"provides_guides": false,
+"guide_types": []
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00–17:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 20,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Service",
+"min_price": 35.0,
+"max_price": 160.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Family Experiences"
+]
+},
+"reviews": {
+"rating": 4.4,
+"review_count": 17,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000033",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Rum Silence Camp & Tours",
+"description": "Eco-conscious desert tour operator providing quiet camp stays, guided hiking trails, rock climbing excursions, and jeep safaris in remote areas of Wadi Rum.",
+"experience_years": 11,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Desert",
+"Hiking",
+"Nature",
+"Adventure"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 209 2233",
+"mobile": "+962 7 9223 3556",
+"email": "info@rumsilence.example",
+"website": "[https://www.rumsilence.example](https://www.rumsilence.example)",
+"whatsapp": "+962 7 9223 3556"
+},
+"location": {
+"country": "Jordan",
+"city": "Wadi Rum",
+"region": "Ma'an Governorate",
+"address": "Wadi Rum Protected Area, Ma'an Governorate, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Wadi Rum"
+],
+"preferred_destinations": [
+"Wadi Rum"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Cultural Experiences",
+"Local Experiences",
+"Private Tours",
+"Group Tours",
+"Adventure Activities"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "08:00–20:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 25,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 30.0,
+"max_price": 135.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Desert Experiences",
+"Hiking & Trekking",
+"Nature"
+]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 88,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000034",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Wadi Rum Sand Dunes Tours",
+"description": "Specialized tour operator organizing sandboarding adventures, 4x4 desert safaris, and overnight Bedouin camp experiences in Wadi Rum.",
+"experience_years": 8,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Desert",
+"Adventure",
+"Local Experiences"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 209 3355",
+"mobile": "+962 7 9335 5667",
+"email": "booking@rumsanddunes.example",
+"website": "[https://www.rumsanddunes.example](https://www.rumsanddunes.example)",
+"whatsapp": "+962 7 9335 5667"
+},
+"location": {
+"country": "Jordan",
+"city": "Wadi Rum",
+"region": "Ma'an Governorate",
+"address": "Wadi Rum Village, Ma'an Governorate, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Wadi Rum"
+],
+"preferred_destinations": [
+"Wadi Rum"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Cultural Experiences",
+"Local Experiences",
+"Private Tours",
+"Group Tours",
+"Adventure Activities"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "08:00–21:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 30,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 25.0,
+"max_price": 120.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Desert Experiences",
+"Soft Adventure",
+"Local Experiences"
+]
+},
+"reviews": {
+"rating": 4.7,
+"review_count": 53,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000035",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Ma'an Caravan Tourism Agency",
+"description": "Local incoming tour agency offering historic desert route tours, cultural heritage discovery, and reliable ground transportation across Ma'an Governorate.",
+"experience_years": 10,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Desert"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 213 4466",
+"mobile": "+962 7 9446 6778",
+"email": "info@maancaravantourism.example",
+"website": "[https://www.maancaravantourism.example](https://www.maancaravantourism.example)",
+"whatsapp": "+962 7 9446 6778"
+},
+"location": {
+"country": "Jordan",
+"city": "Ma'an",
+"region": "Ma'an Governorate",
+"address": "King Hussein Street, Ma'an, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Ma'an",
+"Petra",
+"Wadi Rum"
+],
+"preferred_destinations": [
+"Ma'an",
+"Petra"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "Arabic"
+},
+"services": {
+"service_categories": [
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Custom Itineraries",
+"Private Tours",
+"Hotel / Accommodation Booking"
+]
+},
+"guides": {
+"provides_guides": false,
+"guide_types": []
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00–17:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 25,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Package",
+"min_price": 40.0,
+"max_price": 185.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Family Experiences"
+]
+},
+"reviews": {
+"rating": 4.5,
+"review_count": 29,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000036",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Rum Bedouin Life Camp & Tours",
+"description": "Traditional desert tourism provider offering immersive Bedouin lifestyle experiences, camel caravans, jeep safaris, and overnight camp stays in Wadi Rum.",
+"experience_years": 13,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Desert",
+"Culture",
+"Local Experiences",
+"Camping"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 209 5566",
+"mobile": "+962 7 9556 6778",
+"email": "info@rumbedouinlife.example",
+"website": "[https://www.rumbedouinlife.example](https://www.rumbedouinlife.example)",
+"whatsapp": "+962 7 9556 6778"
+},
+"location": {
+"country": "Jordan",
+"city": "Wadi Rum",
+"region": "Ma'an Governorate",
+"address": "Wadi Rum Protected Area, Ma'an Governorate, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Wadi Rum"
+],
+"preferred_destinations": [
+"Wadi Rum"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Cultural Experiences",
+"Local Experiences",
+"Private Tours",
+"Group Tours",
+"Adventure Activities"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "08:00–21:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 35,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 25.0,
+"max_price": 130.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Desert Experiences",
+"Community Tourism",
+"Local Experiences"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 94,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000037",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Wadi Rum Adventure Gate",
+"description": "Dynamic tour operator organizing adrenaline-focused desert activities, rock climbing, scrambling tours, and 4x4 excursions across Wadi Rum.",
+"experience_years": 9,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Desert",
+"Adventure",
+"Hiking",
+"Nature"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 209 6677",
+"mobile": "+962 7 9667 7889",
+"email": "booking@rumadventuregate.example",
+"website": "[https://www.rumadventuregate.example](https://www.rumadventuregate.example)",
+"whatsapp": "+962 7 9667 7889"
+},
+"location": {
+"country": "Jordan",
+"city": "Wadi Rum",
+"region": "Ma'an Governorate",
+"address": "Wadi Rum Village, Ma'an Governorate, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Wadi Rum"
+],
+"preferred_destinations": [
+"Wadi Rum"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Custom Itineraries",
+"Cultural Experiences",
+"Local Experiences",
+"Private Tours",
+"Group Tours",
+"Adventure Activities"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "08:00–20:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 25,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 30.0,
+"max_price": 140.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Soft Adventure",
+"Desert Experiences",
+"Hiking & Trekking"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 60,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000038",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Ma'an Desert Explorer Agency",
+"description": "Regional travel facilitator providing customized desert excursion planning, cultural heritage tours, and ground transportation services throughout Ma'an Governorate.",
+"experience_years": 8,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Desert"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 213 7788",
+"mobile": "+962 7 9778 8990",
+"email": "info@maandexporer.example",
+"website": "[https://www.maandexporer.example](https://www.maandexporer.example)",
+"whatsapp": "+962 7 9778 8990"
+},
+"location": {
+"country": "Jordan",
+"city": "Ma'an",
+"region": "Ma'an Governorate",
+"address": "University Street, Ma'an, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Ma'an",
+"Petra",
+"Wadi Rum"
+],
+"preferred_destinations": [
+"Ma'an",
+"Petra"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "Arabic"
+},
+"services": {
+"service_categories": [
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Custom Itineraries",
+"Private Tours",
+"Airport Transfers"
+]
+},
+"guides": {
+"provides_guides": false,
+"guide_types": []
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00–17:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 20,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Service",
+"min_price": 35.0,
+"max_price": 165.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Family Experiences"
+]
+},
+"reviews": {
+"rating": 4.4,
+"review_count": 20,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000039",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Rum Red Mountain Tours",
+"description": "Specialized desert tour operator offering mountain trekking guides, rock scrambling tours, jeep excursions, and traditional overnight camp stays in Wadi Rum.",
+"experience_years": 10,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Desert",
+"Hiking",
+"Adventure",
+"Nature"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 209 8899",
+"mobile": "+962 7 9889 9002",
+"email": "booking@rumredmountain.example",
+"website": "[https://www.rumredmountain.example](https://www.rumredmountain.example)",
+"whatsapp": "+962 7 9889 9002"
+},
+"location": {
+"country": "Jordan",
+"city": "Wadi Rum",
+"region": "Ma'an Governorate",
+"address": "Wadi Rum Village, Ma'an Governorate, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Wadi Rum"
+],
+"preferred_destinations": [
+"Wadi Rum"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Custom Itineraries",
+"Cultural Experiences",
+"Local Experiences",
+"Private Tours",
+"Group Tours",
+"Adventure Activities"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "08:00–20:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 25,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 30.0,
+"max_price": 140.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Hiking & Trekking",
+"Desert Experiences",
+"Soft Adventure"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 57,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000040",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Wadi Rum Starry Sky Camp",
+"description": "Boutique desert camp and tour provider offering astrophotography tours, night camping, camel treks, and 4x4 jeep excursions across Wadi Rum.",
+"experience_years": 9,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Desert",
+"Photography",
+"Nature",
+"Camping"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 209 9901",
+"mobile": "+962 7 9901 1223",
+"email": "info@rumstarrysky.example",
+"website": "[https://www.rumstarrysky.example](https://www.rumstarrysky.example)",
+"whatsapp": "+962 7 9901 1223"
+},
+"location": {
+"country": "Jordan",
+"city": "Wadi Rum",
+"region": "Ma'an Governorate",
+"address": "Wadi Rum Protected Area, Ma'an Governorate, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Wadi Rum"
+],
+"preferred_destinations": [
+"Wadi Rum"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Cultural Experiences",
+"Local Experiences",
+"Private Tours",
+"Group Tours",
+"Adventure Activities"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "08:00–21:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 25,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 25.0,
+"max_price": 125.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Desert Experiences",
+"Local Experiences",
+"Nature"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 64,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+}
+]
+[
+{
+"sme_id": "SME-000041",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Rum Desert Echo Camp & Tours",
+"description": "Authentic Bedouin-run camp and tour operator specializing in overnight bubble tent experiences, camel treks, jeep safaris, and traditional desert cooking.",
+"experience_years": 8,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Desert",
+"Culture",
+"Camping",
+"Food"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 209 1234",
+"mobile": "+962 7 9123 4567",
+"email": "info@rumdesertecho.example",
+"website": "[https://www.rumdesertecho.example](https://www.rumdesertecho.example)",
+"whatsapp": "+962 7 9123 4567"
+},
+"location": {
+"country": "Jordan",
+"city": "Wadi Rum",
+"region": "Ma'an Governorate",
+"address": "Wadi Rum Protected Area, Ma'an Governorate, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Wadi Rum"
+],
+"preferred_destinations": [
+"Wadi Rum"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Cultural Experiences",
+"Local Experiences",
+"Private Tours",
+"Group Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "08:00–21:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 30,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 30.0,
+"max_price": 140.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Desert Experiences",
+"Local Experiences",
+"Food & Culinary"
+]
+},
+"reviews": {
+"rating": 4.7,
+"review_count": 52,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000042",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Ma'an Silk Route Logistics",
+"description": "Incoming travel agency specializing in historical trade route expeditions, tourist transport, and multi-destination itinerary coordination across Ma'an and Petra.",
+"experience_years": 9,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Archaeology"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 213 5588",
+"mobile": "+962 7 9558 8999",
+"email": "contact@maansilkroutelogistics.example",
+"website": "[https://www.maansilkroutelogistics.example](https://www.maansilkroutelogistics.example)",
+"whatsapp": "+962 7 9558 8999"
+},
+"location": {
+"country": "Jordan",
+"city": "Ma'an",
+"region": "Ma'an Governorate",
+"address": "Ma'an Industrial Zone Road, Ma'an, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Ma'an",
+"Petra",
+"Wadi Rum"
+],
+"preferred_destinations": [
+"Ma'an",
+"Petra"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "Arabic"
+},
+"services": {
+"service_categories": [
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Custom Itineraries",
+"Private Tours",
+"Airport Transfers"
+]
+},
+"guides": {
+"provides_guides": false,
+"guide_types": []
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00–17:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 25,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Service",
+"min_price": 40.0,
+"max_price": 170.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Family Experiences"
+]
+},
+"reviews": {
+"rating": 4.5,
+"review_count": 26,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000043",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Rum Golden Sun Tours",
+"description": "Wadi Rum adventure tour operator offering sunrise and sunset jeep tours, camel riding excursions, rock climbing guidance, and traditional bedouin camp stays.",
+"experience_years": 10,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Desert",
+"Adventure",
+"Photography",
+"Nature"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 209 7711",
+"mobile": "+962 7 9771 1222",
+"email": "info@rumgoldensun.example",
+"website": "[https://www.rumgoldensun.example](https://www.rumgoldensun.example)",
+"whatsapp": "+962 7 9771 1222"
+},
+"location": {
+"country": "Jordan",
+"city": "Wadi Rum",
+"region": "Ma'an Governorate",
+"address": "Wadi Rum Protected Area, Ma'an Governorate, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Wadi Rum"
+],
+"preferred_destinations": [
+"Wadi Rum"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Cultural Experiences",
+"Local Experiences",
+"Private Tours",
+"Group Tours",
+"Adventure Activities"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "08:00–20:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 30,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 25.0,
+"max_price": 125.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Desert Experiences",
+"Soft Adventure",
+"Local Experiences"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 68,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000044",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Wadi Rum Red Rock Expeditions",
+"description": "Specialized mountain trekking and rock climbing operator providing expert bedouin guides, multi-day hiking expeditions, and remote canyon tours in Wadi Rum.",
+"experience_years": 12,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Desert",
+"Hiking",
+"Adventure",
+"Nature"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 209 8844",
+"mobile": "+962 7 9884 4556",
+"email": "booking@rumredrockexpeditions.example",
+"website": "[https://www.rumredrockexpeditions.example](https://www.rumredrockexpeditions.example)",
+"whatsapp": "+962 7 9884 4556"
+},
+"location": {
+"country": "Jordan",
+"city": "Wadi Rum",
+"region": "Ma'an Governorate",
+"address": "Wadi Rum Village, Ma'an Governorate, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Wadi Rum"
+],
+"preferred_destinations": [
+"Wadi Rum"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Custom Itineraries",
+"Cultural Experiences",
+"Local Experiences",
+"Private Tours",
+"Group Tours",
+"Adventure Activities"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "08:00–19:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 15,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 35.0,
+"max_price": 150.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Hiking & Trekking",
+"Desert Experiences",
+"Soft Adventure"
+]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 76,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000045",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Ma'an Citadel Heritage Tours",
+"description": "Regional incoming tour agency organizing historical city walks, archaeological site visits across Ma'an Governorate, and custom regional transportation packages.",
+"experience_years": 7,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Archaeology"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 213 9900",
+"mobile": "+962 7 9990 0111",
+"email": "info@maancitadeltours.example",
+"website": "[https://www.maancitadeltours.example](https://www.maancitadeltours.example)",
+"whatsapp": "+962 7 9990 0111"
+},
+"location": {
+"country": "Jordan",
+"city": "Ma'an",
+"region": "Ma'an Governorate",
+"address": "Ma'an Heritage District, Ma'an, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Ma'an",
+"Petra",
+"Wadi Rum"
+],
+"preferred_destinations": [
+"Ma'an",
+"Petra"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "Arabic"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Custom Itineraries",
+"Private Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Licensed Tourist Guides",
+"Local Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00–17:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 20,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Tour",
+"min_price": 35.0,
+"max_price": 155.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Archaeological Tourism"
+]
+},
+"reviews": {
+"rating": 4.5,
+"review_count": 23,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+}
+]
+[
+{
+"sme_id": "SME-000051",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Rum Golden Horizon Camp",
+"description": "Boutique desert camp and tour operator offering panoramic sunset view excursions, 4x4 jeep adventures, camel caravans, and traditional Bedouin dining in Wadi Rum.",
+"experience_years": 10,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Desert",
+"Culture",
+"Camping",
+"Local Experiences"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 209 6611",
+"mobile": "+962 7 9661 1223",
+"email": "info@rumgoldenhorizon.example",
+"website": "[https://www.rumgoldenhorizon.example](https://www.rumgoldenhorizon.example)",
+"whatsapp": "+962 7 9661 1223"
+},
+"location": {
+"country": "Jordan",
+"city": "Wadi Rum",
+"region": "Ma'an Governorate",
+"address": "Wadi Rum Protected Area, Ma'an Governorate, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Wadi Rum"
+],
+"preferred_destinations": [
+"Wadi Rum"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Cultural Experiences",
+"Local Experiences",
+"Private Tours",
+"Group Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "08:00–21:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 30,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 25.0,
+"max_price": 125.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Desert Experiences",
+"Local Experiences",
+"Food & Culinary"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 73,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000052",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Ma'an Horizon Travel Logistics",
+"description": "Regional travel facilitator providing customized private tours, airport transfers, historical heritage itineraries, and ground transportation throughout Ma'an Governorate.",
+"experience_years": 9,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Nature"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 213 7722",
+"mobile": "+962 7 9772 2334",
+"email": "contact@maanhorizontravel.example",
+"website": "[https://www.maanhorizontravel.example](https://www.maanhorizontravel.example)",
+"whatsapp": "+962 7 9772 2334"
+},
+"location": {
+"country": "Jordan",
+"city": "Ma'an",
+"region": "Ma'an Governorate",
+"address": "Ma'an Commercial District, Ma'an, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Ma'an",
+"Petra",
+"Wadi Rum"
+],
+"preferred_destinations": [
+"Ma'an",
+"Petra"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "Arabic"
+},
+"services": {
+"service_categories": [
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Custom Itineraries",
+"Private Tours",
+"Airport Transfers"
+]
+},
+"guides": {
+"provides_guides": false,
+"guide_types": []
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00–17:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 25,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Service",
+"min_price": 35.0,
+"max_price": 165.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Family Experiences"
+]
+},
+"reviews": {
+"rating": 4.5,
+"review_count": 28,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000053",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Rum Red Sand Dunes Expedition",
+"description": "Specialized outdoor tour provider organizing dune bashing, sandboarding, 4x4 desert safaris, and overnight camp accommodations in Wadi Rum.",
+"experience_years": 8,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Desert",
+"Adventure",
+"Local Experiences"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 209 8833",
+"mobile": "+962 7 9883 3445",
+"email": "info@rumredsandexpedition.example",
+"website": "[https://www.rumredsandexpedition.example](https://www.rumredsandexpedition.example)",
+"whatsapp": "+962 7 9883 3445"
+},
+"location": {
+"country": "Jordan",
+"city": "Wadi Rum",
+"region": "Ma'an Governorate",
+"address": "Wadi Rum Village, Ma'an Governorate, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Wadi Rum"
+],
+"preferred_destinations": [
+"Wadi Rum"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Cultural Experiences",
+"Local Experiences",
+"Private Tours",
+"Group Tours",
+"Adventure Activities"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "08:00–21:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 30,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 25.0,
+"max_price": 120.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Desert Experiences",
+"Soft Adventure",
+"Local Experiences"
+]
+},
+"reviews": {
+"rating": 4.7,
+"review_count": 49,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000054",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Wadi Rum Wilderness Trekking",
+"description": "Specialized eco-tourism operator focusing on multi-day wilderness backpacking, rock climbing, remote canyon exploration, and traditional Bedouin camp stays.",
+"experience_years": 11,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"Desert",
+"Hiking",
+"Adventure",
+"Nature"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 209 9944",
+"mobile": "+962 7 9994 4556",
+"email": "booking@rumwildernesstrek.example",
+"website": "[https://www.rumwildernesstrek.example](https://www.rumwildernesstrek.example)",
+"whatsapp": "+962 7 9994 4556"
+},
+"location": {
+"country": "Jordan",
+"city": "Wadi Rum",
+"region": "Ma'an Governorate",
+"address": "Wadi Rum Village, Ma'an Governorate, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Wadi Rum"
+],
+"preferred_destinations": [
+"Wadi Rum"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Custom Itineraries",
+"Cultural Experiences",
+"Local Experiences",
+"Private Tours",
+"Group Tours",
+"Adventure Activities"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "08:00–19:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 15,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Person",
+"min_price": 35.0,
+"max_price": 155.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Hiking & Trekking",
+"Desert Experiences",
+"Soft Adventure"
+]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 83,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+},
+{
+"sme_id": "SME-000055",
+"sme_type": "tour_operator",
+"business_profile": {
+"name": "Ma'an Silk Road Heritage Agency",
+"description": "Incoming regional agency offering historical trade route tours, archaeological heritage itineraries, and custom ground transport across Ma'an Governorate.",
+"experience_years": 10,
+"business_type": [
+"Tour Operator"
+],
+"specializations": [
+"History",
+"Culture",
+"Archaeology"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962 3 213 1122",
+"mobile": "+962 7 9112 2335",
+"email": "info@maansilkroadheritage.example",
+"website": "[https://www.maansilkroadheritage.example](https://www.maansilkroadheritage.example)",
+"whatsapp": "+962 7 9112 2335"
+},
+"location": {
+"country": "Jordan",
+"city": "Ma'an",
+"region": "Ma'an Governorate",
+"address": "King Abdullah Street, Ma'an, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Ma'an",
+"Petra",
+"Wadi Rum"
+],
+"preferred_destinations": [
+"Ma'an",
+"Petra"
+]
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "Arabic"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Tour Planning & Itinerary Design",
+"Transportation",
+"Custom Itineraries",
+"Private Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Licensed Tourist Guides",
+"Local Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00–17:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 20,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Tour",
+"min_price": 40.0,
+"max_price": 175.0,
+"notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Archaeological Tourism"
+]
+},
+"reviews": {
+"rating": 4.6,
+"review_count": 32,
+"source": "Synthetic Dataset",
+"last_updated": "2026-08-01"
+}
+}
+]

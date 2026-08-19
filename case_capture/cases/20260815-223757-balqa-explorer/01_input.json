@@ -1,0 +1,51 @@
+{
+  "mode": "build",
+  "requestedAt": "2026-08-15T22:36:47.972000Z",
+  "trip": {
+    "startDate": "2026-08-20",
+    "duration": "2",
+    "arrivalAirport": "AMM",
+    "arrivalTime": "18:11",
+    "totalBudget": 900.0,
+    "preferredLanguage": "English",
+    "preferredRegions": []
+  },
+  "travelers": {
+    "adults": 5,
+    "children": 1,
+    "childrenAges": [
+      "8"
+    ],
+    "seniors": 0,
+    "groupType": "family",
+    "accessibilityNeeds": []
+  },
+  "preferences": {
+    "interests": [
+      "religious_sites",
+      "museums",
+      "shopping",
+      "hiking"
+    ],
+    "tripPace": "Relaxed",
+    "activityLevel": "Easy",
+    "mustVisit": [],
+    "placesToAvoid": ""
+  },
+  "accommodation": {
+    "type": "hotel",
+    "rating": "4 star"
+  },
+  "dining": {
+    "cuisine": [
+      "Local Jordanian",
+      "Middle Eastern"
+    ]
+  },
+  "extras": {
+    "specialOccasion": "None",
+    "smePreferences": [],
+    "aiPriority": "budget",
+    "freeText": ""
+  }
+}

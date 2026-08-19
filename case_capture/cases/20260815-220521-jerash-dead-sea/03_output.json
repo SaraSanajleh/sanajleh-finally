@@ -1,0 +1,1155 @@
+{
+  "metadata": {
+    "model": "gpt-oss:20b-cloud",
+    "provider": "ollama",
+    "mode": "build",
+    "retries": 0
+  },
+  "package": {
+    "package_id": "pkg-a1080edde413",
+    "status": "complete",
+    "welcome_message": "Land in Amman, then 3 exploring days through Jerash (2 days), then Dead Sea.",
+    "trip_title": "Jerash · Dead Sea",
+    "trip": {
+      "title": "Jerash · Dead Sea",
+      "summary": "Arrival, then Jerash (2 days), then Dead Sea. Walk outdoors in the morning. Keep the afternoon for shade, meals, or indoor visits.",
+      "start_date": "2026-08-25",
+      "end_date": "2026-08-28",
+      "duration_days": 4,
+      "nights": 3,
+      "regions": [
+        "Amman",
+        "Jerash",
+        "Dead Sea"
+      ],
+      "arrival_airport": "AMM",
+      "language": "English"
+    },
+    "traveler_profile": {
+      "group_type": "couple",
+      "adults": 2,
+      "children": 0,
+      "children_ages": [],
+      "seniors": 0,
+      "total_travelers": 2,
+      "interests": [
+        "history",
+        "nature",
+        "food"
+      ],
+      "pace": "Balanced",
+      "activity_level": "Moderate",
+      "accessibility_needs": []
+    },
+    "planning": {
+      "strategy": "You land at 20:48, so arrival night stays in Amman — hotel, a meal, rest. The touring days start the next morning. After that the days stay on a short loop: Jerash (2 days), then Dead Sea. It's a hot month, so the outdoor sites go before midday.",
+      "constraints": {
+        "must_visit": [],
+        "places_to_avoid": []
+      },
+      "constraint_status": {
+        "status": "satisfied",
+        "unmet": []
+      },
+      "assumptions": [
+        "Travel times between cities are estimated qualitatively, not as exact minutes, unless evidence exists.",
+        "Opening hours are used only when present on the catalog record."
+      ],
+      "climate": {
+        "month": 8,
+        "season": "hot_dry_summer",
+        "typical_pattern": "High daytime heat, especially in the Jordan Valley and desert.",
+        "outdoor_guidance": "Walk outdoors in the morning. Keep the afternoon for shade, meals, or indoor visits.",
+        "heat_risk": "high"
+      },
+      "weather_status": "ok",
+      "decisions": [
+        {
+          "code": "day_route",
+          "title": "Each exploring day stays in one area",
+          "why": "Mixing far-apart cities in one day makes the trip exhausting.",
+          "effect": "After arrival, the days run Jerash (2 days), then Dead Sea."
+        },
+        {
+          "code": "arrival_stay",
+          "title": "Night one is near the airport",
+          "why": "You land at AMM at 20:48.",
+          "effect": "Sleep in Amman on arrival night. The exploring days start the next morning."
+        },
+        {
+          "code": "arrival_pace",
+          "title": "A quiet first night",
+          "why": "You land at 20:48.",
+          "effect": "Transfer, a simple dinner if kitchens are open, then sleep. Exploring starts tomorrow."
+        },
+        {
+          "code": "hotel_move",
+          "title": "Then you move closer to the places you came for",
+          "why": "Sleeping in the same city you visit beats a long commute every morning.",
+          "effect": "After the arrival night, nearby days share one hotel. You only move when the next area is too far for a day trip."
+        },
+        {
+          "code": "heat",
+          "title": "Mornings for the outdoors",
+          "why": "High daytime heat, especially in the Jordan Valley and desert.",
+          "effect": "Walk heritage and nature in the morning. Save museums, meals, and shade for the afternoon."
+        },
+        {
+          "code": "pace",
+          "title": "A balanced pace",
+          "why": "couple group, Moderate activity.",
+          "effect": "On exploring days, plan on about 5 visits and 3 meals. Arrival follows the time left after food and rest."
+        },
+        {
+          "code": "stay_tier",
+          "title": "4 star stays",
+          "why": "You asked for 4 star hotels.",
+          "effect": "Hotels are taken from listings at that star level when the city has them. If it does not, we use the closest listed tier and say so."
+        },
+        {
+          "code": "budget",
+          "title": "A comfort budget",
+          "why": "900 JOD for 4 days.",
+          "effect": "We lean toward more comfortable stays and dining when those places exist."
+        },
+        {
+          "code": "interests",
+          "title": "Chosen around what you care about",
+          "why": "history, nature, and food",
+          "effect": "Stops follow history, nature, and food. Unrelated places stay off the list."
+        }
+      ]
+    },
+    "days": [
+      {
+        "day": 1,
+        "date": "2026-08-25",
+        "region": "Amman",
+        "theme": "Arrival in Amman",
+        "summary": "Late arrival in Amman: eat if you can, then sleep. Exploring starts tomorrow.",
+        "is_arrival_day": true,
+        "schedule": [
+          {
+            "time": "22:33",
+            "end_time": "07:00",
+            "slot": "overnight",
+            "type": "hotel",
+            "item_id": "hotel_000022",
+            "name": "InterContinental Jordan",
+            "duration_minutes": null,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.953689,
+              "longitude": 35.913879,
+              "precision": "exact"
+            },
+            "description": "Long-established five-star IHG hotel on Islamic College Street in Jabal Amman, between the Second and Third Circles, with six restaurants, indoor and outdoor pools, a spa and a 24-hour reception.",
+            "reason": "Check in and sleep. Sightseeing starts tomorrow. 5-star stay, as requested",
+            "matched_preferences": [
+              "5-star stay, as requested",
+              "In Amman",
+              "Matches history, food",
+              "5-star, as requested",
+              "Matches hotel"
+            ],
+            "estimated_cost": "165 JOD / night",
+            "source": {
+              "dataset": "hotels",
+              "record_id": "hotel_000022"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "You land at 20:48. The drive from Queen Alia to Amman is about 45 minutes. Times below start after that transfer."
+      },
+      {
+        "day": 2,
+        "date": "2026-08-26",
+        "region": "Jerash",
+        "theme": "Jerash",
+        "summary": "Morning transfer from Amman to Jerash, visits Dibbeen Forest Reserve, King Talal Dam Overlook, Suf Village Heritage Center, with breakfast, lunch, and dinner on the clock.",
+        "is_arrival_day": false,
+        "schedule": [
+          {
+            "time": "07:30",
+            "end_time": "08:15",
+            "slot": "morning",
+            "type": "restaurant",
+            "item_id": "restaurant_001001",
+            "name": "Hashem Restaurant",
+            "duration_minutes": 45,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.951564,
+              "longitude": 35.938342,
+              "precision": "exact"
+            },
+            "description": "Iconic open-air street-level eatery in downtown Amman serving traditional Jordanian breakfast staples.",
+            "reason": "Breakfast in the morning, before visiting.",
+            "matched_preferences": [
+              "In Amman",
+              "Matches history, food",
+              "Matches preferred cuisine",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "4 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_001001"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "08:30",
+            "end_time": "09:25",
+            "slot": "morning",
+            "type": "transfer",
+            "item_id": "transfer:amman:jerash:08:30",
+            "name": "Drive to Jerash",
+            "duration_minutes": 55,
+            "location": "Amman → Jerash",
+            "coordinates": null,
+            "description": "Travel from Amman to Jerash.",
+            "reason": "You woke up in a different place than today's sights.",
+            "matched_preferences": [],
+            "estimated_cost": "not_available",
+            "source": {
+              "dataset": "planning",
+              "record_id": "transfer:amman:jerash"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "09:25",
+            "end_time": "11:55",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_005013",
+            "name": "Dibbeen Forest Reserve",
+            "duration_minutes": 150,
+            "location": "Jerash",
+            "coordinates": {
+              "latitude": 32.24522,
+              "longitude": 35.81933,
+              "precision": "exact"
+            },
+            "description": "Protected pine-oak forest reserve managed by the RSCN, home to endangered Persian squirrels.",
+            "reason": "In Jerash; matches nature interest; Matches nature",
+            "matched_preferences": [
+              "In Jerash",
+              "matches nature interest",
+              "Matches nature"
+            ],
+            "estimated_cost": "3 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_005013"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "12:10",
+            "end_time": "12:30",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_005015",
+            "name": "King Talal Dam Overlook",
+            "duration_minutes": 20,
+            "location": "Jerash",
+            "coordinates": {
+              "latitude": 32.19305,
+              "longitude": 35.80722,
+              "precision": "exact"
+            },
+            "description": "Scenic viewpoint offering panoramic views of the King Talal Dam reservoir and surrounding pine forest hills.",
+            "reason": "In Jerash; matches nature interest; Matches nature",
+            "matched_preferences": [
+              "In Jerash",
+              "matches nature interest",
+              "Matches nature"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_005015"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "13:00",
+            "end_time": "14:00",
+            "slot": "afternoon",
+            "type": "restaurant",
+            "item_id": "restaurant_005021",
+            "name": "Al-Roummanah Restaurant",
+            "duration_minutes": 60,
+            "location": "Jerash",
+            "coordinates": {
+              "latitude": 32.28345,
+              "longitude": 35.8812,
+              "precision": "exact"
+            },
+            "description": "Picturesque restaurant amid local orchards in Jerash, offering authentic regional dishes and fresh juices.",
+            "reason": "Lunch in the afternoon.",
+            "matched_preferences": [
+              "In Jerash",
+              "Matches food",
+              "Matches preferred cuisine",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "14 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_005021"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "14:15",
+            "end_time": "15:30",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_005038",
+            "name": "Suf Village Heritage Center",
+            "duration_minutes": 75,
+            "location": "Jerash",
+            "coordinates": {
+              "latitude": 32.3112,
+              "longitude": 35.8361,
+              "precision": "exact"
+            },
+            "description": "Heritage village hub northwest of Jerash known for traditional stone houses, crafts, and ecotourism.",
+            "reason": "In Jerash; in requested region: Jerash Governorate; Matches history",
+            "matched_preferences": [
+              "In Jerash",
+              "in requested region: Jerash Governorate",
+              "Matches history"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_005038"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "15:45",
+            "end_time": "16:45",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_005037",
+            "name": "Al-Karakhouf Waterfall",
+            "duration_minutes": 60,
+            "location": "Jerash",
+            "coordinates": {
+              "latitude": 32.2218,
+              "longitude": 35.7952,
+              "precision": "exact"
+            },
+            "description": "Seasonal spring waterfall and creek in the green valley of Burma district west of Jerash.",
+            "reason": "In Jerash; matches nature interest; Matches nature",
+            "matched_preferences": [
+              "In Jerash",
+              "matches nature interest",
+              "Matches nature"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_005037"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "17:00",
+            "end_time": "18:00",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_005020",
+            "name": "Al-Kittah Village and Springs",
+            "duration_minutes": 60,
+            "location": "Jerash",
+            "coordinates": {
+              "latitude": 32.27472,
+              "longitude": 35.84583,
+              "precision": "exact"
+            },
+            "description": "Rural agricultural village west of Jerash known for spring water, olive groves, and traditional farming.",
+            "reason": "In Jerash; matches nature interest; Matches nature",
+            "matched_preferences": [
+              "In Jerash",
+              "matches nature interest",
+              "Matches nature"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_005020"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "18:15",
+            "end_time": "19:15",
+            "slot": "evening",
+            "type": "restaurant",
+            "item_id": "restaurant_005001",
+            "name": "Artemis Restaurant",
+            "duration_minutes": 60,
+            "location": "Jerash",
+            "coordinates": {
+              "latitude": 32.278912,
+              "longitude": 35.890145,
+              "precision": "exact"
+            },
+            "description": "Popular tourist-oriented restaurant near the Jerash archaeological site, serving traditional Jordanian and Levantine dishes.",
+            "reason": "Dinner in the evening.",
+            "matched_preferences": [
+              "In Jerash",
+              "A must-see in Jerash",
+              "Matches history, food",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "15 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_005001"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "",
+            "end_time": "",
+            "slot": "overnight",
+            "type": "hotel",
+            "item_id": "hotel_000047",
+            "name": "Celestia Boutique Inn",
+            "duration_minutes": null,
+            "location": "Jerash",
+            "coordinates": {
+              "latitude": 32.2808,
+              "longitude": 35.8993,
+              "precision": "city_centroid"
+            },
+            "description": "Small boutique inn about 1.1 km from the Jerash ruins, near the northern gate of the site, with a garden, a shared lounge, non-smoking rooms, and free wireless internet.",
+            "reason": "Overnight stay in Jerash. This is your hotel, not an activity. 4-star stay, as requested",
+            "matched_preferences": [
+              "4-star stay, as requested",
+              "In Jerash",
+              "Matches history",
+              "4-star, as requested",
+              "Matches hotel"
+            ],
+            "estimated_cost": "60 JOD / night",
+            "source": {
+              "dataset": "hotels",
+              "record_id": "hotel_000047"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "This evening you check in to your hotel in Jerash."
+      },
+      {
+        "day": 3,
+        "date": "2026-08-27",
+        "region": "Jerash",
+        "theme": "More time in Jerash",
+        "summary": "Visits Al-Mustaba Eco-Park, Al-Birketein Archaeological Site, Nabi Hud Shrine, with breakfast, lunch, and dinner on the clock.",
+        "is_arrival_day": false,
+        "schedule": [
+          {
+            "time": "09:15",
+            "end_time": "10:45",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_005035",
+            "name": "Al-Mustaba Eco-Park",
+            "duration_minutes": 90,
+            "location": "Jerash",
+            "coordinates": {
+              "latitude": 32.1648,
+              "longitude": 35.8521,
+              "precision": "exact"
+            },
+            "description": "Forest-edged mountain park in southern Jerash, popular for picnics and scenic nature walks.",
+            "reason": "In Jerash; matches nature interest; A second day to go beyond the main site; Matches nature",
+            "matched_preferences": [
+              "In Jerash",
+              "matches nature interest",
+              "A second day to go beyond the main site",
+              "Matches nature"
+            ],
+            "estimated_cost": "1 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_005035"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "11:00",
+            "end_time": "11:30",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_005014",
+            "name": "Al-Birketein Archaeological Site",
+            "duration_minutes": 30,
+            "location": "Jerash",
+            "coordinates": {
+              "latitude": 32.29611,
+              "longitude": 35.89889,
+              "precision": "exact"
+            },
+            "description": "Roman spring-fed reservoir complex north of Jerash that hosted water festivals in antiquity.",
+            "reason": "In Jerash; local_tourism_catalog; A second day to go beyond the main site; Matches history, nature",
+            "matched_preferences": [
+              "In Jerash",
+              "local_tourism_catalog",
+              "A second day to go beyond the main site",
+              "Matches history, nature"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_005014"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "11:45",
+            "end_time": "12:20",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_005036",
+            "name": "Nabi Hud Shrine",
+            "duration_minutes": 35,
+            "location": "Jerash",
+            "coordinates": {
+              "latitude": 32.27111,
+              "longitude": 35.93889,
+              "precision": "exact"
+            },
+            "description": "Religious shrine and hilltop mosque dedicated to Prophet Hud, located on a mountain east of Jerash.",
+            "reason": "In Jerash; local_tourism_catalog; A second day to go beyond the main site",
+            "matched_preferences": [
+              "In Jerash",
+              "local_tourism_catalog",
+              "A second day to go beyond the main site"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_005036"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "14:15",
+            "end_time": "17:15",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_005001",
+            "name": "Jerash Archaeological Site",
+            "duration_minutes": 180,
+            "location": "Jerash",
+            "coordinates": {
+              "latitude": 32.280012,
+              "longitude": 35.891245,
+              "precision": "exact"
+            },
+            "description": "One of the best-preserved Greco-Roman cities in the world, featuring colonnaded streets, temples, and large theaters.",
+            "reason": "In Jerash; local_tourism_catalog; A must-see in Jerash; Matches history, nature; One visit covering the nearby monuments",
+            "matched_preferences": [
+              "In Jerash",
+              "local_tourism_catalog",
+              "A must-see in Jerash",
+              "Matches history, nature",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "10 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_005001"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "17:30",
+            "end_time": "17:55",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_005033",
+            "name": "Churches of St. Peter and St. Paul",
+            "duration_minutes": 25,
+            "location": "Jerash",
+            "coordinates": {
+              "latitude": 32.2764,
+              "longitude": 35.8872,
+              "precision": "exact"
+            },
+            "description": "6th-century Byzantine basilica with detailed floor mosaics depicting saints and fortified cities.",
+            "reason": "In Jerash; local_tourism_catalog; A second day to go beyond the main site; One visit covering the nearby monuments",
+            "matched_preferences": [
+              "In Jerash",
+              "local_tourism_catalog",
+              "A second day to go beyond the main site",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "10 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_005033"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "18:10",
+            "end_time": "19:10",
+            "slot": "evening",
+            "type": "restaurant",
+            "item_id": "restaurant_005033",
+            "name": "Green Valley Restaurant Jerash",
+            "duration_minutes": 60,
+            "location": "Jerash",
+            "coordinates": {
+              "latitude": 32.26124,
+              "longitude": 35.89912,
+              "precision": "exact"
+            },
+            "description": "Expansive green garden restaurant on the outskirts of Jerash serving hearty Levantine barbecues and local dishes.",
+            "reason": "Dinner in the evening.",
+            "matched_preferences": [
+              "In Jerash",
+              "Matches food",
+              "Matches preferred cuisine"
+            ],
+            "estimated_cost": "17 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_005033"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "Stay overnight in Jerash."
+      },
+      {
+        "day": 4,
+        "date": "2026-08-28",
+        "region": "Dead Sea",
+        "theme": "Dead Sea",
+        "summary": "Morning transfer from Jerash to Dead Sea, visits Dead Sea Panorama Complex (Madaba Overlook), Madaba Archaeological Park, King's Highway Madaba Segment, with breakfast, lunch, and dinner on the clock.",
+        "is_arrival_day": false,
+        "schedule": [
+          {
+            "time": "09:00",
+            "end_time": "10:00",
+            "slot": "morning",
+            "type": "restaurant",
+            "item_id": "restaurant_007036",
+            "name": "Beit Khairat Souf",
+            "duration_minutes": 60,
+            "location": "Jerash",
+            "coordinates": {
+              "latitude": 32.3112,
+              "longitude": 35.8364,
+              "precision": "exact"
+            },
+            "description": "Historic stone home turned community kitchen in Souf, serving authentic home-cooked Jerash regional specialties.",
+            "reason": "Breakfast in the morning, before visiting.",
+            "matched_preferences": [
+              "In Jerash",
+              "Matches history, food"
+            ],
+            "estimated_cost": "10 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_007036"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "10:15",
+            "end_time": "12:07",
+            "slot": "morning",
+            "type": "transfer",
+            "item_id": "transfer:jerash:dead sea:10:15",
+            "name": "Drive to Dead Sea",
+            "duration_minutes": 112,
+            "location": "Jerash → Dead Sea",
+            "coordinates": null,
+            "description": "Travel from Jerash to Dead Sea.",
+            "reason": "You woke up in a different place than today's sights.",
+            "matched_preferences": [],
+            "estimated_cost": "not_available",
+            "source": {
+              "dataset": "planning",
+              "record_id": "transfer:jerash:dead sea"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "12:07",
+            "end_time": "13:07",
+            "slot": "afternoon",
+            "type": "restaurant",
+            "item_id": "restaurant_007017",
+            "name": "Al Ghorfal Seafood Restaurant",
+            "duration_minutes": 60,
+            "location": "Dead Sea Region",
+            "coordinates": {
+              "latitude": 31.7215,
+              "longitude": 35.5892,
+              "precision": "exact"
+            },
+            "description": "Resort-area seafood specialty restaurant near the Dead Sea hotel zone in Sweimeh.",
+            "reason": "Lunch in the afternoon.",
+            "matched_preferences": [
+              "In Dead Sea",
+              "A must-see in Dead Sea",
+              "Matches food",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "25 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_007017"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "13:22",
+            "end_time": "14:52",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_004029",
+            "name": "Dead Sea Panorama Complex (Madaba Overlook)",
+            "duration_minutes": 90,
+            "location": "Ma'in",
+            "coordinates": {
+              "latitude": 31.646944,
+              "longitude": 35.608889,
+              "precision": "exact"
+            },
+            "description": "Perched complex on the Zara cliff edge offering panoramic Dead Sea views, walking trails, and a geology museum.",
+            "reason": "In Dead Sea; local_tourism_catalog; A must-see in Dead Sea; Matches nature",
+            "matched_preferences": [
+              "In Dead Sea",
+              "local_tourism_catalog",
+              "A must-see in Dead Sea",
+              "Matches nature"
+            ],
+            "estimated_cost": "2 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_004029"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "15:07",
+            "end_time": "16:07",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_004002",
+            "name": "Madaba Archaeological Park",
+            "duration_minutes": 60,
+            "location": "Madaba",
+            "coordinates": {
+              "latitude": 31.716181,
+              "longitude": 35.793264,
+              "precision": "exact"
+            },
+            "description": "Open-air archaeological complex featuring ancient Roman roads, Byzantine churches, and exquisite floor mosaics.",
+            "reason": "In Madaba; local_tourism_catalog; A must-see in Madaba; Matches history; One visit covering the nearby monuments",
+            "matched_preferences": [
+              "In Madaba",
+              "local_tourism_catalog",
+              "A must-see in Madaba",
+              "Matches history",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "3 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_004002"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "16:22",
+            "end_time": "17:52",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_004017",
+            "name": "King's Highway Madaba Segment",
+            "duration_minutes": 90,
+            "location": "Madaba",
+            "coordinates": {
+              "latitude": 31.683333,
+              "longitude": 35.783333,
+              "precision": "exact"
+            },
+            "description": "Ancient trade and pilgrimage highway passing through Madaba's agricultural plateau and dramatic canyons.",
+            "reason": "In Madaba; matches history interest; Matches history, nature",
+            "matched_preferences": [
+              "In Madaba",
+              "matches history interest",
+              "Matches history, nature"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_004017"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "Stay overnight in Dead Sea."
+      }
+    ],
+    "budget": {
+      "currency": "JOD",
+      "traveler_budget": 900.0,
+      "estimated_total": "664 JOD",
+      "band": "comfort",
+      "items": [
+        {
+          "category": "Stays",
+          "estimated_cost": "285 JOD",
+          "notes": "InterContinental Jordan: 165 JOD × 1 night(s); Celestia Boutique Inn: 60 JOD × 2 night(s)",
+          "confidence": "medium"
+        },
+        {
+          "category": "Meals on the plan",
+          "estimated_cost": "256 JOD",
+          "notes": "9 listed meal(s) × 2 traveler(s).",
+          "confidence": "medium"
+        },
+        {
+          "category": "Entry tickets",
+          "estimated_cost": "58 JOD",
+          "notes": "13 listed site(s) × 2 traveler(s).",
+          "confidence": "medium"
+        },
+        {
+          "category": "Trip guide",
+          "estimated_cost": "25 JOD",
+          "notes": "Listed from 25 JOD (up to 50 JOD listed)",
+          "confidence": "medium"
+        },
+        {
+          "category": "Trip operator",
+          "estimated_cost": "40 JOD",
+          "notes": "Listed from 40 JOD (up to 160 JOD listed)",
+          "confidence": "medium"
+        },
+        {
+          "category": "Left vs your ceiling",
+          "estimated_cost": "236 JOD",
+          "notes": "Your ceiling is 900 JOD. Listed pieces add up to 664 JOD.",
+          "confidence": "medium"
+        }
+      ],
+      "disclaimer": "Amounts come from catalog listings. This is a planning estimate, not a final invoice. Missing prices stay unknown — we do not invent them."
+    },
+    "sme_value": {
+      "headline": "Your guide and operator for this journey",
+      "summary": "One local guide and one tour operator for the whole trip — not a new face every day.",
+      "recommended": [
+        {
+          "sme_id": "tour_guide:SME-000017:jerash",
+          "sme_type": "tour_guide",
+          "name": "Nabil Al-Hassan",
+          "role": "Trip guide",
+          "location": "Souf Village / Jerash",
+          "experience_type": "Local Experiences, Culture, Food",
+          "match_score": 0.726,
+          "reason": "Fits what you asked for: history, food",
+          "matched_because": [
+            "Fits what you asked for: history, food",
+            "Covers jerash",
+            "Based in Souf Village / Jerash",
+            "Works with couple travelers",
+            "Speaks English"
+          ],
+          "known_for": [
+            "Independent community tour guide focusing on authentic village stays, agricultural heritage, and local farm experiences around Jerash",
+            "Takes travelers to Souf Village Olive Groves, Traditional Stone Houses, Local Family Farms",
+            "Also offers Local Experiences, Cultural Experiences",
+            "Private groups available"
+          ],
+          "specializations": [
+            "Local Experiences",
+            "Culture",
+            "Food"
+          ],
+          "languages": [
+            "Arabic",
+            "English",
+            "Portuguese"
+          ],
+          "experience_years": 8,
+          "destinations_covered": [
+            "Souf Village Olive Groves",
+            "Traditional Stone Houses",
+            "Local Family Farms"
+          ],
+          "covers_regions": [
+            "jerash"
+          ],
+          "package_role": "guide",
+          "specs": [
+            {
+              "label": "Specializations",
+              "value": "Local Experiences, Culture, Food"
+            },
+            {
+              "label": "Experience",
+              "value": "8 years"
+            },
+            {
+              "label": "Languages",
+              "value": "Arabic, English, Portuguese"
+            },
+            {
+              "label": "Best for",
+              "value": "Families, Couples, Solo Travelers"
+            },
+            {
+              "label": "Group size",
+              "value": "2–15"
+            },
+            {
+              "label": "From",
+              "value": "25–50 JOD"
+            },
+            {
+              "label": "Hours",
+              "value": "09:00 - 17:00"
+            },
+            {
+              "label": "Rating",
+              "value": "4.8 (26 reviews)"
+            }
+          ],
+          "source": {
+            "dataset": "sme_guides",
+            "record_id": "tour_guide:SME-000017:jerash"
+          },
+          "coordinates": {
+            "latitude": 32.2808,
+            "longitude": 35.8993,
+            "precision": "city_centroid"
+          }
+        },
+        {
+          "sme_id": "tour_operator:SME-000005:jerash",
+          "sme_type": "tour_operator",
+          "name": "Gilead Hills Travel & Tourism",
+          "role": "Trip operator",
+          "location": "Jerash",
+          "experience_type": "History, Culture, Nature",
+          "match_score": 0.895,
+          "reason": "Fits what you asked for: history, nature",
+          "matched_because": [
+            "Fits what you asked for: history, nature",
+            "Covers amman, dead sea, jerash",
+            "Based in Jerash",
+            "Works with couple travelers",
+            "Speaks English",
+            "Transportation across the itinerary"
+          ],
+          "known_for": [
+            "Incoming travel agency based in Jerash providing tailored sightseeing packages, private vehicle transfers, and guided explorations of northern historical monuments",
+            "Takes travelers to Jerash, Amman, Ajloun, Dead Sea",
+            "Also offers Transportation, Private Tours, Airport Transfers",
+            "Private groups available",
+            "Can arrange transportation"
+          ],
+          "specializations": [
+            "History",
+            "Culture",
+            "Nature"
+          ],
+          "languages": [
+            "Arabic",
+            "English"
+          ],
+          "experience_years": 10,
+          "destinations_covered": [
+            "Jerash",
+            "Amman",
+            "Ajloun",
+            "Dead Sea"
+          ],
+          "covers_regions": [
+            "amman",
+            "dead sea",
+            "jerash"
+          ],
+          "package_role": "operator",
+          "specs": [
+            {
+              "label": "Specializations",
+              "value": "History, Culture, Nature"
+            },
+            {
+              "label": "Experience",
+              "value": "10 years"
+            },
+            {
+              "label": "Languages",
+              "value": "Arabic, English"
+            },
+            {
+              "label": "Best for",
+              "value": "Families, Couples"
+            },
+            {
+              "label": "Group size",
+              "value": "1–20"
+            },
+            {
+              "label": "From",
+              "value": "40–160 JOD"
+            },
+            {
+              "label": "Hours",
+              "value": "09:00–18:00"
+            },
+            {
+              "label": "Rating",
+              "value": "4.6 (63 reviews)"
+            }
+          ],
+          "source": {
+            "dataset": "sme_operators",
+            "record_id": "tour_operator:SME-000005:jerash"
+          },
+          "coordinates": {
+            "latitude": 32.2808,
+            "longitude": 35.8993,
+            "precision": "city_centroid"
+          }
+        }
+      ]
+    },
+    "sources": [
+      {
+        "dataset": "hotels",
+        "record_id": "hotel_000022"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_001001"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_005013"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_005015"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_005021"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_005038"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_005037"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_005020"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_005001"
+      },
+      {
+        "dataset": "hotels",
+        "record_id": "hotel_000047"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_005035"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_005014"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_005036"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_005001"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_005033"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_005033"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_007036"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_007017"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_004029"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_004002"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_004017"
+      },
+      {
+        "dataset": "sme_guides",
+        "record_id": "tour_guide:SME-000017:jerash"
+      },
+      {
+        "dataset": "sme_operators",
+        "record_id": "tour_operator:SME-000005:jerash"
+      }
+    ],
+    "warnings": [],
+    "explanations": {
+      "trip_planning_reason": "You land at 20:48, so arrival night stays in Amman — hotel, a meal, rest. The touring days start the next morning. After that the days stay on a short loop: Jerash (2 days), then Dead Sea. It's a hot month, so the outdoor sites go before midday.",
+      "highlights": [
+        "Dibbeen Forest Reserve",
+        "King Talal Dam Overlook",
+        "Suf Village Heritage Center",
+        "Al-Karakhouf Waterfall",
+        "Al-Kittah Village and Springs",
+        "Al-Mustaba Eco-Park"
+      ],
+      "why_smes": [
+        "Nabil Al-Hassan: Fits what you asked for: history, food",
+        "Gilead Hills Travel & Tourism: Fits what you asked for: history, nature"
+      ],
+      "context_benefits": []
+    }
+  }
+}

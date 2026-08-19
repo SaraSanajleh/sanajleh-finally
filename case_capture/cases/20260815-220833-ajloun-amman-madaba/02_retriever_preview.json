@@ -1,0 +1,118 @@
+{
+  "status": "ok",
+  "source": "retriever",
+  "duration_days": 3,
+  "cluster_count": 3,
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "theme": "Karak Governorate · nature, history",
+      "poi_count": 8,
+      "hotel_count": 4,
+      "event_count": 3,
+      "poi_names": [
+        "Wadi Hasa",
+        "Mujib Biosphere Reserve",
+        "Al-Safi Agricultural Research Station Park",
+        "Safi Museum (Lowest Place on Earth Museum)",
+        "Wadi Al-Hasa Lower Canyon",
+        "Zarqa Ma'in Thermal Springs (Southern Access/Wadi Zarqa)",
+        "Jannat Al-Karak Park",
+        "Al-Karak Heritage Village"
+      ],
+      "hotel_names": [
+        "Cairwan Hotel",
+        "Al-Mujeb Hotel",
+        "Bubble Castle House",
+        "Naylover Hotel & Suites"
+      ],
+      "sample_restaurants": [
+        "Wadi Bin Hammad Rest House & Restaurant",
+        "Safi Valley Heritage Cafe & Restaurant",
+        "Falafel & Hummus Al-Agha",
+        "Al-Mu'tasim Falafel & Hummus"
+      ],
+      "event_names": [
+        "Jordan Summer Festival - Karak",
+        "Eid Evenings - Karak",
+        "Karaki Ta'lileh Heritage Event"
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "theme": "Madaba Governorate · history, nature",
+      "poi_count": 10,
+      "hotel_count": 4,
+      "event_count": 3,
+      "poi_names": [
+        "King's Highway Madaba Segment",
+        "Wadi Mujib Biosphere Reserve (Madaba Approach)",
+        "Wadi Hidan Canyon",
+        "Moses Spring (Ayn Musa)",
+        "Wadi Wala Dam",
+        "Wadi Zerqa Ma'in Gorge",
+        "Al-Lajjun / East Madaba Desert Border Viewpoint",
+        "La Storica Mosaics (Mosaic Handicrafts Center)",
+        "Madaba Visitor Center",
+        "Madaba Art Space & Gallery"
+      ],
+      "hotel_names": [
+        "Mujib Chalets",
+        "Moab Land Hotel",
+        "Salome Hotel",
+        "Mariam Hotel"
+      ],
+      "sample_restaurants": [
+        "Al-Bustan Restaurant",
+        "Al-Bustan Restaurant Madaba",
+        "Carob House",
+        "Al-Salam Seafood & Grill",
+        "Al-Ittihad Restaurant",
+        "Mount Nebo Panorama Restaurant"
+      ],
+      "event_names": [
+        "National Celebrations Programme - Madaba",
+        "Aesthetics of Place Cultural Programme - Madaba",
+        "Jordan Summer Festival - Madaba"
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "theme": "Balqa Governorate · nature, history",
+      "poi_count": 10,
+      "hotel_count": 4,
+      "event_count": 3,
+      "poi_names": [
+        "Zarqa Ma'in Waterfalls (Balqa Border Area)",
+        "Fuheis Heritage Quarter (Al-Fuheis Old Town)",
+        "Abu Jaber Museum",
+        "As-Salt Hammam Street",
+        "Zarqa River Eco-Trail Pathway",
+        "Zain Al-Sharaf Nature Reserve",
+        "Al-Fuheis Heritage Quarter",
+        "Wadi Shueib Scenic Road and Stream",
+        "Zarqa River Thermal Springs",
+        "Burin Forest Park"
+      ],
+      "hotel_names": [
+        "Mountain Breeze Lodge & Resort",
+        "Al Hummar Restaurant and Hotel",
+        "Saltus Hotel",
+        "Al Hindi Palace"
+      ],
+      "sample_restaurants": [
+        "Dead Sea Panorama Restaurant",
+        "Carob House Fuheis",
+        "Sitt Inaya Heritage House",
+        "Daboor Falafel",
+        "Al Ghabah Restaurant",
+        "Beit Khairat As-Salt"
+      ],
+      "event_names": [
+        "Jordan Summer Festival - Balqa",
+        "Eid Evenings - Balqa",
+        "Fuheis Festival"
+      ]
+    }
+  ]
+}

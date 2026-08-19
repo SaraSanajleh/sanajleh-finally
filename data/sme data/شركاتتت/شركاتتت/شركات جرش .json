@@ -1,0 +1,1286 @@
+[
+  {
+    "sme_id": "SME-000001",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Jerash Heritage & Culture Tours",
+      "description": "Local tour operator based in Jerash specializing in historical, archaeological, and cultural excursions throughout the ancient Roman city of Jerash and northern Jordan.",
+      "experience_years": 8,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Culture",
+        "Archaeology",
+        "Religious Sites"
+      ],
+      "target_customer_types": [
+        "Couples",
+        "Families",
+        "Solo Travelers"
+      ]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": null,
+      "email": "info@jerashheritage.example",
+      "website": "https://jerashheritage.example",
+      "whatsapp": null
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Jerash",
+      "region": "Jerash Governorate",
+      "address": "Main Street, Near Arch of Hadrian, Jerash"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Jerash",
+        "Ajloun",
+        "Umm Qais"
+      ],
+      "preferred_destinations": [
+        "Jerash"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Guiding",
+        "Tour Planning & Itinerary Design",
+        "Custom Itineraries",
+        "Private Tours",
+        "Cultural Experiences"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Licensed Tourist Guides",
+        "Local Guides",
+        "Specialized Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00–17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 30.0,
+      "max_price": 120.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Archaeological Tourism",
+        "Local Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.7,
+      "review_count": 34,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000002",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Decapolis Discovery Tours",
+      "description": "Incoming tour operator focusing on the classical Decapolis cities of northern Jordan, with a strong emphasis on Jerash and surrounding historical landscapes.",
+      "experience_years": 12,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Archaeology",
+        "Culture"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples"
+      ]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": null,
+      "email": "contact@decapolisdiscovery.example",
+      "website": "https://decapolisdiscovery.example",
+      "whatsapp": null
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Jerash",
+      "region": "Jerash Governorate",
+      "address": "Hashemite Street, Jerash"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Jerash",
+        "Amman",
+        "Umm Qais",
+        "Ajloun"
+      ],
+      "preferred_destinations": [
+        "Jerash",
+        "Umm Qais"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English",
+        "French"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Private Tours",
+        "Special Interest Tours",
+        "Cultural Experiences",
+        "Transportation"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Professional Guides",
+        "Licensed Tourist Guides",
+        "Multilingual Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "08:30–18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 25.0,
+      "max_price": 150.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Archaeological Tourism"
+      ]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 52,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000003",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "North Jordan Adventure & Trekking",
+      "description": "Regional adventure provider organizing nature hikes, valley walks, and outdoor camping adventures across Jerash governorate's pine forests and hills.",
+      "experience_years": 6,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Nature",
+        "Hiking",
+        "Camping",
+        "Adventure"
+      ],
+      "target_customer_types": [
+        "Solo Travelers",
+        "Couples"
+      ]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": null,
+      "email": "info@northjordanadventure.example",
+      "website": "https://northjordanadventure.example",
+      "whatsapp": null
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Jerash",
+      "region": "Jerash Governorate",
+      "address": "Souf Road, Jerash"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Jerash",
+        "Ajloun",
+        "Dibbeen"
+      ],
+      "preferred_destinations": [
+        "Jerash",
+        "Dibbeen"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Adventure Activities",
+        "Custom Itineraries",
+        "Group Tours",
+        "Private Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Specialized Guides",
+        "Local Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "working_hours": "08:00–18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 12,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 20.0,
+      "max_price": 90.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "Nature",
+        "Hiking & Trekking",
+        "Soft Adventure"
+      ]
+    },
+    "reviews": {
+      "rating": 4.5,
+      "review_count": 29,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000004",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Jerash Rural & Community Tourism",
+      "description": "Community-focused tour organizer offering authentic local experiences, farm visits, traditional culinary workshops, and village tours in the Jerash countryside.",
+      "experience_years": 5,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Local Experiences",
+        "Food",
+        "Culture"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples",
+        "Solo Travelers"
+      ]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": null,
+      "email": "hello@jerashruraltourism.example",
+      "website": "https://jerashruraltourism.example",
+      "whatsapp": null
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Jerash",
+      "region": "Jerash Governorate",
+      "address": "Municipality Square Area, Jerash"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Jerash",
+        "Jerash Countryside Villages"
+      ],
+      "preferred_destinations": [
+        "Jerash"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Local Experiences",
+        "Cultural Experiences",
+        "Tour Planning & Itinerary Design",
+        "Private Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Local Guides",
+        "Specialized Guides"
+      ]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00–16:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 10,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 15.0,
+      "max_price": 75.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "Local Experiences",
+        "Community Tourism",
+        "Food & Culinary"
+      ]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 41,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000005",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Gilead Hills Travel & Tourism",
+      "description": "Incoming travel agency based in Jerash providing tailored sightseeing packages, private vehicle transfers, and guided explorations of northern historical monuments.",
+      "experience_years": 10,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Culture",
+        "Nature"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples"
+      ]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": null,
+      "email": "booking@gileadhills.example",
+      "website": "https://gileadhills.example",
+      "whatsapp": null
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Jerash",
+      "region": "Jerash Governorate",
+      "address": "King Abdullah II Street, Jerash"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Jerash",
+        "Amman",
+        "Ajloun",
+        "Dead Sea"
+      ],
+      "preferred_destinations": [
+        "Jerash",
+        "Ajloun"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Transportation",
+        "Private Tours",
+        "Airport Transfers",
+        "Custom Itineraries"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Licensed Tourist Guides",
+        "Professional Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00–18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 20,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 40.0,
+      "max_price": 160.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Family Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.6,
+      "review_count": 63,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  }
+]
+[
+  {
+    "sme_id": "SME-000006",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Jerash Panorama Incoming Tour Operator",
+      "description": "Specialized inbound tour operator offering cultural excursions, Roman archaeological site deep-dives, and customized itineraries centered around Jerash and northern Jordanian landmarks.",
+      "experience_years": 9,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Culture",
+        "Archaeology"
+      ],
+      "target_customer_types": [
+        "Couples",
+        "Families",
+        "Solo Travelers"
+      ]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": null,
+      "email": "info@jerashpanorama.example",
+      "website": "https://jerashpanorama.example",
+      "whatsapp": null
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Jerash",
+      "region": "Jerash Governorate",
+      "address": "Petra Street, Jerash"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Jerash",
+        "Ajloun",
+        "Amman"
+      ],
+      "preferred_destinations": [
+        "Jerash"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Private Tours",
+        "Cultural Experiences",
+        "Custom Itineraries"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Licensed Tourist Guides",
+        "Professional Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00–17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 20,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 35.0,
+      "max_price": 130.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Archaeological Tourism"
+      ]
+    },
+    "reviews": {
+      "rating": 4.6,
+      "review_count": 38,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000007",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Artemis Jerash Travel & Tourism",
+      "description": "Local travel agency providing guided heritage tours, transportation coordination, and customized sightseeing packages focusing on the Greco-Roman history of Jerash.",
+      "experience_years": 7,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Archaeology",
+        "Architecture"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples"
+      ]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": null,
+      "email": "contact@artemisjerashtours.example",
+      "website": "https://artemisjerashtours.example",
+      "whatsapp": null
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Jerash",
+      "region": "Jerash Governorate",
+      "address": "Near Temple of Artemis, Jerash"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Jerash",
+        "Umm Qais",
+        "Ajloun"
+      ],
+      "preferred_destinations": [
+        "Jerash"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English",
+        "German"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Guiding",
+        "Private Tours",
+        "Custom Itineraries",
+        "Transportation"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Licensed Tourist Guides",
+        "Multilingual Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "08:30–17:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 25.0,
+      "max_price": 110.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Archaeological Tourism"
+      ]
+    },
+    "reviews": {
+      "rating": 4.7,
+      "review_count": 25,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000008",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Dibbeen Pine Nature Tours",
+      "description": "Eco-tourism and outdoor adventure operator organizing guided nature walks, environmental trekking expeditions, and camping experiences inside the Dibbeen Forest Reserve in Jerash.",
+      "experience_years": 6,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Nature",
+        "Hiking",
+        "Camping"
+      ],
+      "target_customer_types": [
+        "Solo Travelers",
+        "Couples",
+        "Families"
+      ]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": null,
+      "email": "info@dibbeenpinetours.example",
+      "website": "https://dibbeenpinetours.example",
+      "whatsapp": null
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Jerash",
+      "region": "Jerash Governorate",
+      "address": "Dibbeen Forest Road, Jerash Governorate"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Dibbeen Forest Reserve",
+        "Jerash",
+        "Ajloun"
+      ],
+      "preferred_destinations": [
+        "Dibbeen Forest Reserve"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Adventure Activities",
+        "Group Tours",
+        "Private Tours",
+        "Local Experiences"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Specialized Guides",
+        "Local Guides"
+      ]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "working_hours": "08:00–17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 18.0,
+      "max_price": 85.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "Nature",
+        "Hiking & Trekking",
+        "Soft Adventure"
+      ]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 49,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000009",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Jerash Heritage Gate Travel",
+      "description": "Incoming tour organizer focused on experiential heritage tourism, traditional craft workshops, historical walking itineraries, and cultural discovery across Jerash.",
+      "experience_years": 8,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Culture",
+        "History",
+        "Local Experiences"
+      ],
+      "target_customer_types": [
+        "Couples",
+        "Families"
+      ]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": null,
+      "email": "booking@jerashheritagegate.example",
+      "website": "https://jerashheritagegate.example",
+      "whatsapp": null
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Jerash",
+      "region": "Jerash Governorate",
+      "address": "Main Cultural Center Road, Jerash"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Jerash",
+        "Amman"
+      ],
+      "preferred_destinations": [
+        "Jerash"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Cultural Experiences",
+        "Local Experiences",
+        "Tour Planning & Itinerary Design",
+        "Private Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Licensed Tourist Guides",
+        "Local Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00–17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 20,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 30.0,
+      "max_price": 100.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Local Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.6,
+      "review_count": 31,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000010",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Northern Jordan Express Tours",
+      "description": "Regional tour agency providing seamless private transportation, airport transfers, and customized day touring packages linking Jerash with Amman and other major northern sites.",
+      "experience_years": 11,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Culture"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples",
+        "Solo Travelers"
+      ]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": null,
+      "email": "support@northernjordanexpress.example",
+      "website": "https://northernjordanexpress.example",
+      "whatsapp": null
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Jerash",
+      "region": "Jerash Governorate",
+      "address": "Municipality Street, Jerash"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Jerash",
+        "Amman",
+        "Ajloun",
+        "Irbid"
+      ],
+      "preferred_destinations": [
+        "Jerash",
+        "Amman"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Transportation",
+        "Airport Transfers",
+        "Private Tours",
+        "Tour Planning & Itinerary Design"
+      ]
+    },
+    "guides": {
+      "provides_guides": false,
+      "guide_types": []
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "08:00–18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 30,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 45.0,
+      "max_price": 140.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Family Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.5,
+      "review_count": 55,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  }
+]
+[
+  {
+    "sme_id": "SME-000011",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Jerash Mosaic & Craft Tours",
+      "description": "Boutique tour operator specializing in handicraft workshops, traditional mosaic artistry visits, and cultural heritage explorations across Jerash.",
+      "experience_years": 7,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Art",
+        "Culture",
+        "Local Experiences"
+      ],
+      "target_customer_types": [
+        "Couples",
+        "Families"
+      ]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": null,
+      "email": "info@jerashmosaictours.example",
+      "website": "https://jerashmosaictours.example",
+      "whatsapp": null
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Jerash",
+      "region": "Jerash Governorate",
+      "address": "Craft Center Road, Jerash"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Jerash",
+        "Madaba"
+      ],
+      "preferred_destinations": [
+        "Jerash"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Cultural Experiences",
+        "Local Experiences",
+        "Private Tours",
+        "Special Interest Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Specialized Guides",
+        "Local Guides"
+      ]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00–16:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 12,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 25.0,
+      "max_price": 90.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Local Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 22,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000012",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Roman Columns Travel & Logistics",
+      "description": "Incoming agency delivering comprehensive tour planning, licensed guide coordination, and group logistics centered around the ancient ruins of Jerash.",
+      "experience_years": 10,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Archaeology"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples",
+        "Solo Travelers"
+      ]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": null,
+      "email": "booking@romancolumnstravel.example",
+      "website": "https://romancolumnstravel.example",
+      "whatsapp": null
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Jerash",
+      "region": "Jerash Governorate",
+      "address": "Main Highway Entrance, Jerash"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Jerash",
+        "Amman",
+        "Irbid"
+      ],
+      "preferred_destinations": [
+        "Jerash"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Private Tours",
+        "Group Tours",
+        "Transportation"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Licensed Tourist Guides",
+        "Professional Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "08:30–17:30"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 35,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 40.0,
+      "max_price": 150.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Archaeological Tourism"
+      ]
+    },
+    "reviews": {
+      "rating": 4.6,
+      "review_count": 45,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  }
+]

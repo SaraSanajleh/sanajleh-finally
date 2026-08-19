@@ -1,0 +1,54 @@
+{
+  "mode": "build",
+  "requestedAt": "2026-08-14T19:59:35.551000Z",
+  "trip": {
+    "startDate": "2026-08-21",
+    "duration": "3",
+    "arrivalAirport": "AMM",
+    "totalBudget": 800.0,
+    "preferredLanguage": "English",
+    "preferredRegions": [
+      "Petra",
+      "Wadi Rum",
+      "Aqaba"
+    ]
+  },
+  "travelers": {
+    "adults": 2,
+    "children": 0,
+    "childrenAges": [],
+    "seniors": 0,
+    "groupType": "couple",
+    "accessibilityNeeds": []
+  },
+  "preferences": {
+    "interests": [
+      "history",
+      "nature",
+      "luxury"
+    ],
+    "tripPace": "Balanced",
+    "activityLevel": "Moderate",
+    "mustVisit": [
+      "Wadi Rum",
+      "Aqaba",
+      "Petra"
+    ],
+    "placesToAvoid": ""
+  },
+  "accommodation": {
+    "type": "hotel",
+    "rating": "5 star"
+  },
+  "dining": {
+    "cuisine": [
+      "Local Jordanian"
+    ]
+  },
+  "extras": {
+    "specialOccasion": "None",
+    "smePreferences": [],
+    "aiPriority": "budget",
+    "freeText": ""
+  }
+}

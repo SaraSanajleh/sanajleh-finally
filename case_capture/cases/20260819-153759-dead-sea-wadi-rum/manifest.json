@@ -1,0 +1,81 @@
+{
+  "caseId": "20260819-153759-dead-sea-wadi-rum",
+  "createdAt": "2026-08-19T15:37:59.249668+00:00",
+  "trip_title": "Dead Sea · Wadi Rum",
+  "rag": {
+    "status": "ok",
+    "source": "retriever",
+    "duration_days": 3,
+    "cluster_count": 3,
+    "clusters": [
+      {
+        "cluster_id": 0,
+        "theme": "Ma'an Governorate · nature, culture, history",
+        "poi_count": 4,
+        "hotel_count": 0,
+        "event_count": 1,
+        "poi_names": [
+          "Red Sand Dunes of Wadi Rum",
+          "Wadi Rum Visitor Center",
+          "French Fortress Ruins (Wadi Rum)",
+          "Rum Village Bedouin Oasis"
+        ],
+        "hotel_names": [],
+        "sample_restaurants": [
+          "Captain's Desert Camp Restaurant Wadi Rum",
+          "Wadi Rum Visitor Center Rest House",
+          "Wadi Rum Rest House Restaurant"
+        ],
+        "event_names": [
+          "Wadi Rum Endurance Race"
+        ]
+      },
+      {
+        "cluster_id": 1,
+        "theme": "Karak Governorate · culture, nature, history",
+        "poi_count": 2,
+        "hotel_count": 4,
+        "event_count": 0,
+        "poi_names": [
+          "Al-Karak Panorama Viewpoint",
+          "Dead Sea Panorama Complex (Madaba Overlook)"
+        ],
+        "hotel_names": [
+          "Grand East Hotel Resort & Spa Dead Sea",
+          "Holiday Inn Resort Dead Sea",
+          "Ramada Resort by Wyndham Dead Sea",
+          "Kempinski Hotel Ishtar Dead Sea"
+        ],
+        "sample_restaurants": [
+          "Dead Sea Panorama Restaurant",
+          "Ocean Fresh Fish Sweimeh"
+        ],
+        "event_names": []
+      },
+      {
+        "cluster_id": 2,
+        "theme": "Ma'an Governorate · culture",
+        "poi_count": 1,
+        "hotel_count": 0,
+        "event_count": 1,
+        "poi_names": [
+          "Desert Police Station & Fort (Wadi Rum)"
+        ],
+        "hotel_names": [],
+        "sample_restaurants": [
+          "Captain's Desert Camp Restaurant Wadi Rum",
+          "Wadi Rum Visitor Center Rest House"
+        ],
+        "event_names": [
+          "Wadi Rum Endurance Race"
+        ]
+      }
+    ]
+  },
+  "paths": {
+    "input": "01_input.json",
+    "knowledge": "02_retriever.json",
+    "knowledge_preview": "02_retriever_preview.json",
+    "output": "03_output.json"
+  }
+}

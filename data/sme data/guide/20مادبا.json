@@ -1,0 +1,1383 @@
+[
+  {
+    "sme_id": "SME-000001",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Ziad Al-Tarawneh",
+      "description": "Licensed freelance tour guide specializing in the rich mosaic history, archaeological sites, and religious landmarks of Madaba and Mount Nebo.",
+      "experience_years": 8,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Archaeology", "Religious Sites", "Culture"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+96253241122",
+      "mobile": "+962795123456",
+      "email": "ziad.guide.madaba@gmail.com",
+      "website": null,
+      "whatsapp": "+962795123456"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Madaba",
+      "region": "Madaba Governorate",
+      "address": "Near St. George Church, Madaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Madaba Archaeological Park", "St. George Church", "Mount Nebo", "Machaerus"],
+      "preferred_destinations": "Madaba and surrounding Byzantine historical sites"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Private Tours", "Custom Itineraries", "Cultural Experiences"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Local Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "08:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 50,
+      "max_price": 100,
+      "notes": "Rates vary based on group size and customized itinerary duration."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism", "Religious Tourism"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 24,
+      "source": "Direct Client Feedback",
+      "last_updated": "2026-01-15"
+    }
+  },
+  {
+    "sme_id": "SME-000002",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Randa Haddad",
+      "description": "Professional local guide offering deep insights into the local heritage, traditional crafts, and Christian history of Madaba.",
+      "experience_years": 6,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Culture", "History", "Shopping", "Local Experiences"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+96253243344",
+      "mobile": "+962778987654",
+      "email": "randa.haddad.guide@yahoo.com",
+      "website": null,
+      "whatsapp": "+962778987654"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Madaba",
+      "region": "Madaba Governorate",
+      "address": "Tourism Street, Madaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Madaba Museum", "Church of the Apostles", "Madaba Institute for Mosaic Art and Restoration"],
+      "preferred_destinations": "Madaba City Center and Mosaic Workshops"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "French"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Multilingual Guides", "Local Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "09:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 10,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 45,
+      "max_price": 90,
+      "notes": "Half-day rates available upon request."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Local Experiences", "Religious Tourism"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 19,
+      "source": "Direct Client Feedback",
+      "last_updated": "2026-02-10"
+    }
+  },
+  {
+    "sme_id": "SME-000003",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Ibrahim Al-Shawaheen",
+      "description": "Experienced outdoor and adventure guide leading hiking trails and historical site explorations across the Madaba region and Wadi Mujib buffers.",
+      "experience_years": 10,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Nature", "Hiking", "Adventure", "History"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+96253256677",
+      "mobile": "+962786543210",
+      "email": "ibrahim.adventure.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962786543210"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Madaba",
+      "region": "Madaba Governorate",
+      "address": "Main Street, Madaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Wadi Mujib Biosphere Reserve surrounds", "Machaerus", "Mukawir Trails", "Mount Nebo trails"],
+      "preferred_destinations": "Wadi Mujib and Machaerus hiking routes"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Adventure Activities", "Custom Itineraries", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Specialized Guides", "Licensed Tourist Guides", "Professional Guides"]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "07:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 12,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 60,
+      "max_price": 120,
+      "notes": "Includes trail navigation support."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Nature", "Soft Adventure", "Hiking & Trekking"]
+    },
+    "reviews": {
+      "rating": 4.7,
+      "review_count": 31,
+      "source": "Direct Client Feedback",
+      "last_updated": "2026-03-01"
+    }
+  },
+  {
+    "sme_id": "SME-000004",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Sawsan Mdanat",
+      "description": "Specialized cultural and culinary guide focusing on traditional Jordanian food preparation, local family kitchens, and Madaba's heritage sites.",
+      "experience_years": 5,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Food", "Culture", "Local Experiences", "History"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+96253248899",
+      "mobile": "+962790112233",
+      "email": "sawsan.mdanat.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962790112233"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Madaba",
+      "region": "Madaba Governorate",
+      "address": "Hashemite Street, Madaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Madaba Old Town", "Local Markets", "St. George Church surroundings"],
+      "preferred_destinations": "Madaba City Heritage and Culinary Trails"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Licensed Tourist Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "09:00 - 16:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 8,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 40,
+      "max_price": 80,
+      "notes": "Prices exclude meal costs."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Food & Culinary", "Local Experiences", "History & Culture"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 15,
+      "source": "Direct Client Feedback",
+      "last_updated": "2026-01-20"
+    }
+  },
+  {
+    "sme_id": "SME-000005",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Yousef Al-Masri",
+      "description": "Licensed freelance tourist guide providing expert educational and historical tours across all major archaeological assets in the Madaba district.",
+      "experience_years": 12,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Archaeology", "Religious Sites", "Photography"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+96253245566",
+      "mobile": "+962777334455",
+      "email": "yousef.masri.guide@hotmail.com",
+      "website": null,
+      "whatsapp": "+962777334455"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Madaba",
+      "region": "Madaba Governorate",
+      "address": "King Talal Street, Madaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Mount Nebo", "Madaba Map", "Machaerus", "Umm ar-Rasas"],
+      "preferred_destinations": "Umm ar-Rasas and Mount Nebo"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "German"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Tour Planning & Itinerary Design", "Private Tours", "Religious Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "08:30 - 17:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 20,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 70,
+      "max_price": 130,
+      "notes": "Full-day comprehensive guiding rate."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism", "Religious Tourism"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 42,
+      "source": "Direct Client Feedback",
+      "last_updated": "2026-02-18"
+    }
+  },
+  {
+    "sme_id": "SME-000006",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Nisreen Salameh",
+      "description": "Community-oriented freelance guide sharing the heritage, handicraft centers, and women-led cooperative initiatives of Madaba.",
+      "experience_years": 4,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Culture", "Shopping", "Local Experiences", "Art"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+96253247788",
+      "mobile": "+962798889900",
+      "email": "nisreen.salameh.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962798889900"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Madaba",
+      "region": "Madaba Governorate",
+      "address": "Mosaic Street, Madaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Madaba Handicraft Workshops", "Local Women's Association", "Church of the Beheading of John the Baptist"],
+      "preferred_destinations": "Madaba Artisan Markets"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Licensed Tourist Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "working_hours": "09:00 - 16:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 10,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 35,
+      "max_price": 70,
+      "notes": "Customized shopping and cultural walkthroughs."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Local Experiences", "Community Tourism", "History & Culture"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 12,
+      "source": "Direct Client Feedback",
+      "last_updated": "2026-03-05"
+    }
+  },
+  {
+    "sme_id": "SME-000007",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Khaled Al-Azaydeh",
+      "description": "Professional archaeological and historical specialist guide covering the ancient ruins, churches, and fortresses throughout the Madaba governorate.",
+      "experience_years": 9,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Archaeology", "Religious Sites"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+96253242233",
+      "mobile": "+962785432109",
+      "email": "khaled.azaydeh.guide@yahoo.com",
+      "website": null,
+      "whatsapp": "+962785432109"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Madaba",
+      "region": "Madaba Governorate",
+      "address": "Near Madaba Museum, Madaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Umm ar-Rasas", "Madaba Archaeological Park", "Mount Nebo"],
+      "preferred_destinations": "Umm ar-Rasas UNESCO World Heritage site"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Private Tours", "Special Interest Tours", "Religious Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Professional Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "08:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 55,
+      "max_price": 110,
+      "notes": "Standard daily guiding fee."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism", "Religious Tourism"]
+    },
+    "reviews": {
+      "rating": 4.7,
+      "review_count": 22,
+      "source": "Direct Client Feedback",
+      "last_updated": "2026-02-02"
+    }
+  },
+  {
+    "sme_id": "SME-000008",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Eman Al-Suimat",
+      "description": "Friendly freelance guide offering tailored city tours, photography-friendly walks, and local cultural experiences in Madaba.",
+      "experience_years": 6,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Culture", "Photography", "History", "Local Experiences"],
+      "target_customer_types": ["Couples", "Solo Travelers", "Families"]
+    },
+    "contact": {
+      "phone": "+96253244455",
+      "mobile": "+962791239874",
+      "email": "eman.suimat.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962791239874"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Madaba",
+      "region": "Madaba Governorate",
+      "address": "City Center, Madaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Madaba Mosaic Map", "Burnt Palace", "Madaba Streets and Alleys"],
+      "preferred_destinations": "Madaba Old Quarter"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Spanish"],
+      "preferred_language": "Spanish"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Private Tours", "Custom Itineraries", "Cultural Experiences"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Multilingual Guides", "Local Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "09:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 10,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 50,
+      "max_price": 95,
+      "notes": "Half-day and full-day booking choices available."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Local Experiences", "Family Experiences"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 28,
+      "source": "Direct Client Feedback",
+      "last_updated": "2026-01-28"
+    }
+  },
+  {
+    "sme_id": "SME-000009",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Tariq Al-Hawarat",
+      "description": "Licensed local guide providing specialized desert-edge and historical site excursions connecting Madaba's heritage with surrounding nature reserves.",
+      "experience_years": 7,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Nature", "History", "Desert", "Hiking"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+96253249900",
+      "mobile": "+962776655443",
+      "email": "tariq.hawarat.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962776655443"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Madaba",
+      "region": "Madaba Governorate",
+      "address": "East Madaba Road, Madaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Umm ar-Rasas", "Desert Castles periphery", "Madaba countryside"],
+      "preferred_destinations": "Umm ar-Rasas and eastern plateau routes"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English"],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Adventure Activities", "Private Tours", "Special Interest Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Specialized Guides", "Local Guides"]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "08:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 12,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 65,
+      "max_price": 125,
+      "notes": "Transport inclusion negotiable."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Nature", "Desert Experiences", "History & Culture"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 17,
+      "source": "Direct Client Feedback",
+      "last_updated": "2026-02-14"
+    }
+  },
+  {
+    "sme_id": "SME-000010",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Maha Al-Wahsh",
+      "description": "Dedicated freelance guide with expert knowledge of Madaba's Christian pilgrimage destinations, ancient mosaics, and cultural traditions.",
+      "experience_years": 11,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Religious Sites", "History", "Culture", "Archaeology"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+96253241155",
+      "mobile": "+962799443322",
+      "email": "maha.wahsh.guide@yahoo.com",
+      "website": null,
+      "whatsapp": "+962799443322"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Madaba",
+      "region": "Madaba Governorate",
+      "address": "Mount Nebo Road, Madaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Mount Nebo Memorial Church", "Madaba Mosaic Map", "Church of the Beheading of John the Baptist"],
+      "preferred_destinations": "Mount Nebo and Madaba churches"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Italian"],
+      "preferred_language": "Italian"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Religious Tours", "Private Tours", "Custom Itineraries"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Multilingual Guides", "Professional Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "08:30 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 20,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 70,
+      "max_price": 140,
+      "notes": "Special rates for long-stay pilgrimage groups."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Religious Tourism", "History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 5.0,
+      "review_count": 38,
+      "source": "Direct Client Feedback",
+      "last_updated": "2026-03-10"
+    }
+  },
+[
+  {
+    "sme_id": "SME-000011",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Fadi Qussus",
+      "description": "Multilingual licensed freelance tour guide offering immersive historical and archaeological excursions across Madaba and surrounding regional sites.",
+      "experience_years": 14,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Archaeology", "Religious Sites", "Art"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+96253243322",
+      "mobile": "+962796332211",
+      "email": "fadi.qussus.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962796332211"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Madaba",
+      "region": "Madaba Governorate",
+      "address": "Near Greek Orthodox Church of St. George, Madaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["St. George Church", "Mount Nebo", "Madaba Archaeological Park", "Umm ar-Rasas"],
+      "preferred_destinations": "Madaba Byzantine Churches and Mount Nebo"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "French", "Spanish"],
+      "preferred_language": "French"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Private Tours", "Religious Tours", "Custom Itineraries"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Multilingual Guides", "Professional Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "08:00 - 18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 75,
+      "max_price": 150,
+      "notes": "Multilingual specialty tour premium included."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Religious Tourism", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 51,
+      "source": "Direct Client Feedback",
+      "last_updated": "2026-03-12"
+    }
+  },
+  {
+    "sme_id": "SME-000012",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Lina Zawati",
+      "description": "Professional freelance guide specializing in cultural exchanges, historical city trails, and local artisan workshops in Madaba.",
+      "experience_years": 9,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Culture", "History", "Shopping", "Local Experiences"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+96253246655",
+      "mobile": "+962775443322",
+      "email": "lina.zawati.guide@yahoo.com",
+      "website": null,
+      "whatsapp": "+962775443322"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Madaba",
+      "region": "Madaba Governorate",
+      "address": "Tourism Street, Madaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Madaba Institute for Mosaic Art and Restoration", "Local Mosaic Workshops", "Madaba Museum"],
+      "preferred_destinations": "Madaba Art and Mosaic Center"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "German"],
+      "preferred_language": "German"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Multilingual Guides", "Local Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "working_hours": "09:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 12,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 60,
+      "max_price": 110,
+      "notes": "Half-day rates available."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Local Experiences", "Community Tourism"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 34,
+      "source": "Direct Client Feedback",
+      "last_updated": "2026-02-25"
+    }
+  },
+  {
+    "sme_id": "SME-000013",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Samir Bdeir",
+      "description": "Licensed adventure and trekking guide leading nature walks, canyon explorations, and historical hikes across the Madaba and Mujib region.",
+      "experience_years": 11,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Nature", "Hiking", "Adventure", "Camping"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+96253248877",
+      "mobile": "+962789112233",
+      "email": "samir.bdeir.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962789112233"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Madaba",
+      "region": "Madaba Governorate",
+      "address": "Main Road, Madaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Wadi Mujib Biosphere Reserve", "Machaerus Trail", "Mukawir Valleys"],
+      "preferred_destinations": "Wadi Mujib trails and Mukawir cliffs"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Italian"],
+      "preferred_language": "Italian"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Adventure Activities", "Private Tours", "Custom Itineraries"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Specialized Guides", "Licensed Tourist Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "07:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 70,
+      "max_price": 135,
+      "notes": "Includes safety equipment coordination."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Nature", "Soft Adventure", "Hiking & Trekking"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 45,
+      "source": "Direct Client Feedback",
+      "last_updated": "2026-03-02"
+    }
+  },
+  {
+    "sme_id": "SME-000014",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Nour Al-Jammal",
+      "description": "Specialized cultural and culinary guide providing authentic food tours, home-cooking sessions, and city heritage walks in Madaba.",
+      "experience_years": 5,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Food", "Culture", "Local Experiences", "Shopping"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+96253242211",
+      "mobile": "+962793221144",
+      "email": "nour.jammal.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962793221144"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Madaba",
+      "region": "Madaba Governorate",
+      "address": "Hashemite Street, Madaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Madaba Old Souq", "Traditional Kitchens", "Madaba Historic Quarter"],
+      "preferred_destinations": "Madaba Local Food Markets"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Russian"],
+      "preferred_language": "Russian"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Local Guides", "Licensed Tourist Guides", "Multilingual Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "09:00 - 16:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 8,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 45,
+      "max_price": 85,
+      "notes": "Food tasting costs included in specific packages."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Food & Culinary", "Local Experiences", "History & Culture"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 21,
+      "source": "Direct Client Feedback",
+      "last_updated": "2026-02-19"
+    }
+  },
+  {
+    "sme_id": "SME-000015",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Rami Al-Majali",
+      "description": "Experienced licensed freelance tour guide offering extensive historical commentary on the ancient Christian and Roman heritage of Madaba.",
+      "experience_years": 10,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Archaeology", "Religious Sites"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+96253245544",
+      "mobile": "+962772113355",
+      "email": "rami.majali.guide@hotmail.com",
+      "website": null,
+      "whatsapp": "+962772113355"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Madaba",
+      "region": "Madaba Governorate",
+      "address": "King Talal Street, Madaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Mount Nebo", "Umm ar-Rasas", "Madaba Archaeological Park"],
+      "preferred_destinations": "Umm ar-Rasas and Mount Nebo"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "German"],
+      "preferred_language": "German"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Private Tours", "Religious Tours", "Tour Planning & Itinerary Design"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Multilingual Guides", "Professional Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "08:30 - 17:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 20,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 65,
+      "max_price": 130,
+      "notes": "Full day tour standard pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism", "Religious Tourism"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 39,
+      "source": "Direct Client Feedback",
+      "last_updated": "2026-03-08"
+    }
+  },
+  {
+    "sme_id": "SME-000016",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Yasmin Haddadin",
+      "description": "Professional local guide focusing on community tourism, traditional craftsmanship, and photography-oriented city tours in Madaba.",
+      "experience_years": 6,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Culture", "Photography", "Shopping", "Local Experiences"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+96253247711",
+      "mobile": "+962794556677",
+      "email": "yasmin.haddadin.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962794556677"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Madaba",
+      "region": "Madaba Governorate",
+      "address": "Mosaic Street, Madaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Madaba Handicraft Market", "Church of the Beheading of John the Baptist", "Madaba Old Alleyways"],
+      "preferred_destinations": "Madaba Old Town and Artisan Shops"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "French"],
+      "preferred_language": "French"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Multilingual Guides", "Local Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "working_hours": "09:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 10,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 50,
+      "max_price": 100,
+      "notes": "Custom photography itineraries available."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Local Experiences", "Community Tourism", "History & Culture"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 26,
+      "source": "Direct Client Feedback",
+      "last_updated": "2026-02-15"
+    }
+  },
+  {
+    "sme_id": "SME-000017",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Zaid Al-Suwaidan",
+      "description": "Licensed freelance guide specializing in desert-edge explorations, historical tracking, and archaeological sites around Madaba and the eastern desert.",
+      "experience_years": 8,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Desert", "Archaeology", "Nature"],
+      "target_customer_types": ["Couples", "Families", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+96253249988",
+      "mobile": "+962788332211",
+      "email": "zaid.suwaidan.guide@yahoo.com",
+      "website": null,
+      "whatsapp": "+962788332211"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Madaba",
+      "region": "Madaba Governorate",
+      "address": "East Madaba Highway, Madaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Umm ar-Rasas", "Desert Castles periphery", "Madaba rural peripheries"],
+      "preferred_destinations": "Umm ar-Rasas and Desert Highway routes"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Spanish"],
+      "preferred_language": "Spanish"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Adventure Activities", "Private Tours", "Special Interest Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Multilingual Guides", "Specialized Guides"]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "08:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 12,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 60,
+      "max_price": 120,
+      "notes": "Vehicle transport support negotiable."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Nature", "Desert Experiences", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 4.7,
+      "review_count": 18,
+      "source": "Direct Client Feedback",
+      "last_updated": "2026-03-04"
+    }
+  },
+  {
+    "sme_id": "SME-000018",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Hana Al-Nimri",
+      "description": "Dedicated freelance guide with specialized expertise in Christian pilgrimage itineraries, sacred art, and historical churches in Madaba.",
+      "experience_years": 12,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Religious Sites", "History", "Culture", "Art"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+96253241133",
+      "mobile": "+962791122334",
+      "email": "hana.nimri.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962791122334"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Madaba",
+      "region": "Madaba Governorate",
+      "address": "Mount Nebo Road, Madaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Mount Nebo Memorial", "St. George Church", "Church of the Apostles"],
+      "preferred_destinations": "Mount Nebo and Madaba religious sanctuaries"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Italian", "French"],
+      "preferred_language": "Italian"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Religious Tours", "Private Tours", "Custom Itineraries"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Multilingual Guides", "Professional Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "08:30 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 75,
+      "max_price": 145,
+      "notes": "Pilgrimage group rates available upon agreement."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Religious Tourism", "History & Culture", "Archaeological Tourism"]
+    },
+    "reviews": {
+      "rating": 5.0,
+      "review_count": 46,
+      "source": "Direct Client Feedback",
+      "last_updated": "2026-03-09"
+    }
+  },
+  {
+    "sme_id": "SME-000019",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Murad Al-Tarawneh",
+      "description": "Professional freelance tour guide offering detailed historical and topographical tours across Madaba governorate's archaeological landmarks.",
+      "experience_years": 9,
+      "business_type": ["Tour Guide"],
+      "specializations": ["History", "Archaeology", "Religious Sites"],
+      "target_customer_types": ["Solo Travelers", "Couples", "Families"]
+    },
+    "contact": {
+      "phone": "+96253243355",
+      "mobile": "+962779988776",
+      "email": "murad.tarawneh.guide@gmail.com",
+      "website": null,
+      "whatsapp": "+962779988776"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Madaba",
+      "region": "Madaba Governorate",
+      "address": "Near Madaba Museum, Madaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Madaba Archaeological Park", "Machaerus", "Mount Nebo"],
+      "preferred_destinations": "Machaerus fortress and Madaba park"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "Russian"],
+      "preferred_language": "Russian"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Private Tours", "Special Interest Tours", "Historical Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Multilingual Guides", "Professional Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "08:00 - 17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 60,
+      "max_price": 115,
+      "notes": "Standard professional guide fee."
+    },
+    "preferences": {
+      "preferred_experience_types": ["History & Culture", "Archaeological Tourism", "Religious Tourism"]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 29,
+      "source": "Direct Client Feedback",
+      "last_updated": "2026-02-28"
+    }
+  },
+  {
+    "sme_id": "SME-000020",
+    "sme_type": "tour_guide",
+    "business_profile": {
+      "name": "Dina Sweis",
+      "description": "Freelance cultural guide offering tailored city tours, local arts and crafts exploration, and culinary experiences in Madaba.",
+      "experience_years": 7,
+      "business_type": ["Tour Guide"],
+      "specializations": ["Culture", "Food", "Shopping", "Local Experiences"],
+      "target_customer_types": ["Families", "Couples", "Solo Travelers"]
+    },
+    "contact": {
+      "phone": "+96253246622",
+      "mobile": "+962798877665",
+      "email": "dina.sweis.guide@yahoo.com",
+      "website": null,
+      "whatsapp": "+962798877665"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Madaba",
+      "region": "Madaba Governorate",
+      "address": "Tourism Street, Madaba, Jordan"
+    },
+    "service_area": {
+      "destinations_covered": ["Madaba Old Town", "Local Artisan Workshops", "Traditional Markets"],
+      "preferred_destinations": "Madaba Heritage and Craft Centers"
+    },
+    "languages": {
+      "spoken": ["Arabic", "English", "German", "Spanish"],
+      "preferred_language": "German"
+    },
+    "services": {
+      "service_categories": ["Tour Guiding", "Cultural Experiences", "Local Experiences", "Private Tours"]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": ["Licensed Tourist Guides", "Multilingual Guides", "Local Guides"]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "working_hours": "09:00 - 17:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 10,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Day",
+      "min_price": 55,
+      "max_price": 105,
+      "notes": "Includes customized local souvenir shopping assistance."
+    },
+    "preferences": {
+      "preferred_experience_types": ["Local Experiences", "Food & Culinary", "History & Culture"]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 33,
+      "source": "Direct Client Feedback",
+      "last_updated": "2026-03-06"
+    }
+  }
+]]

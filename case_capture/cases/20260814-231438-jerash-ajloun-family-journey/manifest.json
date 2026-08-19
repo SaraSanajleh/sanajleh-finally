@@ -1,0 +1,120 @@
+{
+  "caseId": "20260814-231438-jerash-ajloun-family-journey",
+  "createdAt": "2026-08-14T23:14:38.323478+00:00",
+  "trip_title": "Jerash & Ajloun Family Journey",
+  "rag": {
+    "status": "ok",
+    "source": "retriever",
+    "duration_days": 3,
+    "cluster_count": 3,
+    "clusters": [
+      {
+        "cluster_id": 0,
+        "theme": "Jerash Governorate · history, nature",
+        "poi_count": 6,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "Hippodrome of Jerash",
+          "Al-Kittah Village and Springs",
+          "Al-Mustaba Eco-Park",
+          "Dibbeen Forest Reserve",
+          "Suf Village Heritage Center",
+          "Al-Karakhouf Waterfall"
+        ],
+        "hotel_names": [
+          "Celestia Boutique Inn",
+          "The Olive Branch Hotel",
+          "Jerash Hotel",
+          "Dream House Hotel Apartments"
+        ],
+        "sample_restaurants": [
+          "Roman Bridge Restaurant",
+          "Al-Khaimeh Restaurant",
+          "Green Valley Restaurant Jerash",
+          "Jerash Orchard Restaurant",
+          "Jerash Olive Grove Grill",
+          "Jerash Canyon Restaurant"
+        ],
+        "event_names": [
+          "Jerash Festival for Culture and Arts",
+          "National Celebrations Programme - Jerash",
+          "Aesthetics of Place Cultural Programme - Jerash"
+        ]
+      },
+      {
+        "cluster_id": 1,
+        "theme": "Jerash Governorate · nature",
+        "poi_count": 4,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "King Talal Dam Overlook",
+          "Propylaea of Jerash",
+          "Jerash Heritage Souk",
+          "Umayyad Mosque of Jerash"
+        ],
+        "hotel_names": [
+          "Celestia Boutique Inn",
+          "The Olive Branch Hotel",
+          "Jerash Hotel",
+          "Dream House Hotel Apartments"
+        ],
+        "sample_restaurants": [
+          "Al Ghabah Restaurant",
+          "The Lebanese House Jerash",
+          "Jerash Citadel Restaurant",
+          "Roman Jerash Restaurant",
+          "Jerash Oasis Grill",
+          "Jerash Gate Restaurant"
+        ],
+        "event_names": [
+          "Jerash Festival for Culture and Arts",
+          "National Celebrations Programme - Jerash",
+          "Aesthetics of Place Cultural Programme - Jerash"
+        ]
+      },
+      {
+        "cluster_id": 2,
+        "theme": "Ajloun Governorate · nature, history",
+        "poi_count": 7,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "Wadi Rayyan",
+          "Ajloun Forest Reserve",
+          "Wadi Shamali Viewpoint",
+          "Al-Karakah Nature Trail",
+          "Rasoon Village Heritage Area",
+          "Mar Elias Trailhead",
+          "Prophet Elijah Trailhead"
+        ],
+        "hotel_names": [
+          "Al-Jabal Castle Hotel - Ajloun",
+          "Ajloun Hotel",
+          "Ajloun Forest Reserve",
+          "Al Ghazal Villas"
+        ],
+        "sample_restaurants": [
+          "Rasoun Heritage House Restaurant",
+          "Wadi Al Rayyan Garden Resto",
+          "Ajloun Forest Reserve Restaurant",
+          "Al Rayyan Valley Cafe & Restaurant",
+          "Ajloun Castle Restaurant",
+          "Ishtafina Park Restaurant"
+        ],
+        "event_names": [
+          "Mar Elias Celebration",
+          "National Celebrations Programme - Ajloun",
+          "Ajloun Ramadan Family and Children Carnival"
+        ]
+      }
+    ]
+  },
+  "paths": {
+    "input": "01_input.json",
+    "knowledge": "02_retriever.json",
+    "knowledge_preview": "02_retriever_preview.json",
+    "output": "03_output.json"
+  }
+}

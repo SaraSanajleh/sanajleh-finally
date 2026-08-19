@@ -1,0 +1,51 @@
+{
+  "mode": "build",
+  "requestedAt": "2026-08-19T17:43:47.604000Z",
+  "trip": {
+    "startDate": "2026-08-21",
+    "duration": "3",
+    "arrivalAirport": "AQJ",
+    "arrivalTime": "20:45",
+    "totalBudget": 900.0,
+    "preferredLanguage": "English",
+    "preferredRegions": [
+      "Wadi Rum",
+      "Petra"
+    ]
+  },
+  "travelers": {
+    "adults": 2,
+    "children": 0,
+    "childrenAges": [],
+    "seniors": 0,
+    "groupType": "couple",
+    "accessibilityNeeds": []
+  },
+  "preferences": {
+    "interests": [
+      "culture",
+      "nature"
+    ],
+    "tripPace": "Balanced",
+    "activityLevel": "Moderate",
+    "mustVisit": [
+      "Dead Sea"
+    ],
+    "placesToAvoid": ""
+  },
+  "accommodation": {
+    "type": "hotel",
+    "rating": "4 star"
+  },
+  "dining": {
+    "cuisine": [
+      "Local Jordanian"
+    ]
+  },
+  "extras": {
+    "specialOccasion": "None",
+    "smePreferences": [],
+    "aiPriority": "budget",
+    "freeText": ""
+  }
+}

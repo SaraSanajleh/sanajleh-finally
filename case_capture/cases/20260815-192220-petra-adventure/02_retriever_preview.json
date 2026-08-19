@@ -1,0 +1,81 @@
+{
+  "status": "ok",
+  "source": "retriever",
+  "duration_days": 2,
+  "cluster_count": 2,
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "theme": "Ma'an Governorate · history, culture",
+      "poi_count": 7,
+      "hotel_count": 4,
+      "event_count": 3,
+      "poi_names": [
+        "Petra Museum",
+        "Maan Historic Souq",
+        "Petra Church (Byzantine Church)",
+        "Little Petra (Siq al-Barid)",
+        "Neolithic Village of Beidha",
+        "Royal Tombs",
+        "Al-Mu'aysrah Temple Trail"
+      ],
+      "hotel_names": [
+        "Petra Aretas Hotel",
+        "Petra Moon Luxury Hotel",
+        "Little Petra Bedouin Camp",
+        "Mövenpick Resort Petra"
+      ],
+      "sample_restaurants": [
+        "Bait Al-Karam Restaurant",
+        "My Mom's Recipe Restaurant",
+        "Bawabat Baghdad Restaurant",
+        "Crowne Plaza Petra Basin Restaurant",
+        "Nabataean Tent Restaurant",
+        "Rock Camp Restaurant Little Petra"
+      ],
+      "event_names": [
+        "Ma'an Family and Children Ramadan Carnival",
+        "Jordan Summer Festival - Ma'an",
+        "Petra Heritage Fashion and Local Products Exhibition"
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "theme": "Ma'an Governorate · culture, history",
+      "poi_count": 10,
+      "hotel_count": 4,
+      "event_count": 3,
+      "poi_names": [
+        "Wadi Rum Visitor Center",
+        "Rum Village Bedouin Oasis",
+        "French Fortress Ruins (Wadi Rum)",
+        "Al-Khazneh (The Treasury)",
+        "Al-Jafr Castle",
+        "Um Frouth Rock Bridge",
+        "Red Sand Dunes of Wadi Rum",
+        "Nabataean Theater",
+        "Jabal Burdah Rock Bridge",
+        "Al-Maddras Trail & High Viewpoint"
+      ],
+      "hotel_names": [
+        "Petra Aretas Hotel",
+        "Petra Moon Luxury Hotel",
+        "Little Petra Bedouin Camp",
+        "Mövenpick Resort Petra"
+      ],
+      "sample_restaurants": [
+        "Sun City Camp Dining Tent",
+        "Rahayeb Desert Camp Restaurant",
+        "Wadi Rum Visitor Center Rest House",
+        "Crowne Plaza Petra Basin Restaurant",
+        "Al-Safir Grill & Restaurant",
+        "Wadi Rum Rest House Restaurant"
+      ],
+      "event_names": [
+        "Ma'an Family and Children Ramadan Carnival",
+        "Jordan Summer Festival - Ma'an",
+        "Petra Heritage Fashion and Local Products Exhibition"
+      ]
+    }
+  ]
+}

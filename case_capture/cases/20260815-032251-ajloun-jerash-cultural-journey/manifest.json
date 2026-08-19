@@ -1,0 +1,129 @@
+{
+  "caseId": "20260815-032251-ajloun-jerash-cultural-journey",
+  "createdAt": "2026-08-15T03:22:51.597404+00:00",
+  "trip_title": "Ajloun & Jerash Cultural Journey",
+  "rag": {
+    "status": "ok",
+    "source": "retriever",
+    "duration_days": 3,
+    "cluster_count": 3,
+    "clusters": [
+      {
+        "cluster_id": 0,
+        "theme": "Ajloun Governorate · history, culture",
+        "poi_count": 10,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "Ajloun Great Mosque",
+          "Orjan Soap House Trailhead",
+          "Ajloun Biscuit House",
+          "Ajloun Olive Press Museum",
+          "Tell Johfiyeh",
+          "Al-Husun Traditional Pottery Studio",
+          "Tell Johfiyeh",
+          "Beit Al-Saraya Cultural Forum",
+          "Irbid Central Souq",
+          "Yarmouk University Anthropology Museum"
+        ],
+        "hotel_names": [
+          "Al-Jabal Castle Hotel - Ajloun",
+          "Ajloun Hotel",
+          "Al Ghazal Villas",
+          "Ajloun Forest Reserve"
+        ],
+        "sample_restaurants": [
+          "Al-Basha Restaurant Ajloun",
+          "Summaga Cafe & Restaurant",
+          "Ajloun Reserve Restaurant",
+          "Al Kufa Traditional Cafe",
+          "Tawaheen Al-Hawa Irbid",
+          "Al-Kanz Restaurant"
+        ],
+        "event_names": [
+          "Jordan Summer Festival - Ajloun",
+          "National Celebrations Programme - Ajloun",
+          "Eid Evenings - Ajloun"
+        ]
+      },
+      {
+        "cluster_id": 1,
+        "theme": "Jerash Governorate · culture, history",
+        "poi_count": 6,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "Jerash Heritage Souk",
+          "Hippodrome of Jerash",
+          "Suf Village Heritage Center",
+          "Propylaea of Jerash",
+          "Al-Husun Old Souq",
+          "Hayyan al-Mushref Archaeological Site"
+        ],
+        "hotel_names": [
+          "Jerash Hotel",
+          "Celestia Boutique Inn",
+          "Dream House Hotel Apartments",
+          "The Olive Branch Hotel"
+        ],
+        "sample_restaurants": [
+          "Jerash Oasis Grill",
+          "Columns View Cafe Jerash",
+          "Roman Bridge Restaurant",
+          "Al-Khaimeh Restaurant",
+          "Jerash Canyon Restaurant",
+          "Jerash Citadel Restaurant"
+        ],
+        "event_names": [
+          "Jordan Summer Festival - Jerash",
+          "Jerash Climate and Visual Arts Conference",
+          "Jerash Festival for Culture and Arts"
+        ]
+      },
+      {
+        "cluster_id": 2,
+        "theme": "Balqa Governorate · history, culture",
+        "poi_count": 10,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "Fuheis Heritage Quarter (Al-Fuheis Old Town)",
+          "As-Salt Hammam Street",
+          "Abu Jaber Museum",
+          "Fuheis Cultural Centre",
+          "Wild Jordan Center",
+          "Al-Fuheis Heritage Quarter",
+          "The English College Building (Heritage Site)",
+          "Zarqa River Bridge Historic Site",
+          "Al-Jubeiha to Balqa Agricultural Terraces Viewpoint",
+          "Zarqa River Eco-Trail Pathway"
+        ],
+        "hotel_names": [
+          "Al Hummar Restaurant and Hotel",
+          "Jordan Heritage Madhafa",
+          "Beit Aziz Boutique Hotel",
+          "Saltus Hotel"
+        ],
+        "sample_restaurants": [
+          "Obidos Cafe & Restaurant",
+          "Iskandarani Cafe",
+          "Jordan Heritage Restaurant Salt",
+          "Baladna Restaurant",
+          "Hashem Restaurant",
+          "Carob House Fuheis"
+        ],
+        "event_names": [
+          "Jordan Summer Festival - Balqa",
+          "Fuheis Festival",
+          "Eid Evenings - Balqa"
+        ]
+      }
+    ]
+  },
+  "paths": {
+    "input": "01_input.json",
+    "knowledge": "02_retriever.json",
+    "knowledge_preview": "02_retriever_preview.json",
+    "output": "03_output.json"
+  }
+}

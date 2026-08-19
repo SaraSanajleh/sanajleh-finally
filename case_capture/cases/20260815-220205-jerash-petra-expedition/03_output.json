@@ -1,0 +1,1396 @@
+{
+  "metadata": {
+    "model": "gpt-oss:20b-cloud",
+    "provider": "ollama",
+    "mode": "build",
+    "retries": 0
+  },
+  "package": {
+    "package_id": "pkg-15adc0589cff",
+    "status": "complete",
+    "welcome_message": "Land in Amman, then 3 exploring days through Jerash, then Petra (2 days).",
+    "trip_title": "Jerash & Petra Expedition",
+    "trip": {
+      "title": "Jerash & Petra Expedition",
+      "summary": "Arrival, then Jerash, then Petra (2 days). Walk outdoors in the morning. Keep the afternoon for shade, meals, or indoor visits.",
+      "start_date": "2026-08-25",
+      "end_date": "2026-08-28",
+      "duration_days": 4,
+      "nights": 3,
+      "regions": [
+        "Amman",
+        "Jerash",
+        "Petra"
+      ],
+      "arrival_airport": "AMM",
+      "language": "English"
+    },
+    "traveler_profile": {
+      "group_type": "couple",
+      "adults": 2,
+      "children": 0,
+      "children_ages": [],
+      "seniors": 0,
+      "total_travelers": 2,
+      "interests": [
+        "food",
+        "history",
+        "culture"
+      ],
+      "pace": "Balanced",
+      "activity_level": "Moderate",
+      "accessibility_needs": []
+    },
+    "planning": {
+      "strategy": "You land at 03:48, so arrival night stays in Amman — hotel, a meal, rest. The touring days start the next morning. I put Petra on the calendar first, then kept the rest of the days on Jerash, then Petra (2 days). It's a hot month, so the outdoor sites go before midday.",
+      "constraints": {
+        "must_visit": [
+          "Petra"
+        ],
+        "places_to_avoid": []
+      },
+      "constraint_status": {
+        "status": "satisfied",
+        "unmet": []
+      },
+      "assumptions": [
+        "Travel times between cities are estimated qualitatively, not as exact minutes, unless evidence exists.",
+        "Opening hours are used only when present on the catalog record."
+      ],
+      "climate": {
+        "month": 8,
+        "season": "hot_dry_summer",
+        "typical_pattern": "High daytime heat, especially in the Jordan Valley and desert.",
+        "outdoor_guidance": "Walk outdoors in the morning. Keep the afternoon for shade, meals, or indoor visits.",
+        "heat_risk": "high"
+      },
+      "weather_status": "ok",
+      "decisions": [
+        {
+          "code": "day_route",
+          "title": "Each exploring day stays in one area",
+          "why": "Mixing far-apart cities in one day makes the trip exhausting.",
+          "effect": "After arrival, the days run Jerash, then Petra (2 days)."
+        },
+        {
+          "code": "arrival_stay",
+          "title": "Night one is near the airport",
+          "why": "You land at AMM at 03:48.",
+          "effect": "Sleep in Amman on arrival night. The exploring days start the next morning."
+        },
+        {
+          "code": "arrival_pace",
+          "title": "Sleep first — you still have a day",
+          "why": "You land at 03:48, before the city is awake.",
+          "effect": "Go to the hotel and rest properly. After breakfast, nearby visits fill the rest of the arrival day."
+        },
+        {
+          "code": "day_trips",
+          "title": "Day trips from one hotel",
+          "why": "These places are close enough to visit and return the same day.",
+          "effect": "You keep the same hotel in Amman and come back there to sleep."
+        },
+        {
+          "code": "hotel_move",
+          "title": "Then you move closer to the places you came for",
+          "why": "Sleeping in the same city you visit beats a long commute every morning.",
+          "effect": "After the arrival night, nearby days share one hotel. You only move when the next area is too far for a day trip."
+        },
+        {
+          "code": "must_visit",
+          "title": "Your must-see places get proper time",
+          "why": "Petra were marked as required.",
+          "effect": "Those places get up to two exploring days first. Then the remaining days go to the destinations you asked to explore."
+        },
+        {
+          "code": "heat",
+          "title": "Mornings for the outdoors",
+          "why": "High daytime heat, especially in the Jordan Valley and desert.",
+          "effect": "Walk heritage and nature in the morning. Save museums, meals, and shade for the afternoon."
+        },
+        {
+          "code": "pace",
+          "title": "A balanced pace",
+          "why": "couple group, Moderate activity.",
+          "effect": "On exploring days, plan on about 5 visits and 3 meals. Arrival follows the time left after food and rest."
+        },
+        {
+          "code": "stay_tier",
+          "title": "4 star stays",
+          "why": "You asked for 4 star hotels.",
+          "effect": "Hotels are taken from listings at that star level when the city has them. If it does not, we use the closest listed tier and say so."
+        },
+        {
+          "code": "budget",
+          "title": "A comfort budget",
+          "why": "900 JOD for 4 days.",
+          "effect": "We lean toward more comfortable stays and dining when those places exist."
+        },
+        {
+          "code": "interests",
+          "title": "Chosen around what you care about",
+          "why": "food, history, and culture",
+          "effect": "Stops follow food, history, and culture. Unrelated places stay off the list."
+        }
+      ]
+    },
+    "days": [
+      {
+        "day": 1,
+        "date": "2026-08-25",
+        "region": "Amman",
+        "theme": "Arrival in Amman",
+        "summary": "You land before dawn in Amman. Sleep first, then breakfast. After you rest, the remaining day stays in Amman: Amman Citadel, Amman Citadel Flagpole, Al-Basha Turkish Bath.",
+        "is_arrival_day": true,
+        "schedule": [
+          {
+            "time": "04:33",
+            "end_time": "10:33",
+            "slot": "overnight",
+            "type": "hotel",
+            "item_id": "hotel_000022",
+            "name": "InterContinental Jordan",
+            "duration_minutes": null,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.953689,
+              "longitude": 35.913879,
+              "precision": "exact"
+            },
+            "description": "Long-established five-star IHG hotel on Islamic College Street in Jabal Amman, between the Second and Third Circles, with six restaurants, indoor and outdoor pools, a spa and a 24-hour reception.",
+            "reason": "You land before dawn. Go to your hotel and sleep properly — this is rest, not a visit. The day starts after you wake. 5-star stay, as requested",
+            "matched_preferences": [
+              "5-star stay, as requested",
+              "In Amman",
+              "Matches food, history, culture",
+              "5-star, as requested",
+              "Matches hotel"
+            ],
+            "estimated_cost": "165 JOD / night",
+            "source": {
+              "dataset": "hotels",
+              "record_id": "hotel_000022"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "10:33",
+            "end_time": "11:18",
+            "slot": "breakfast",
+            "type": "restaurant",
+            "item_id": "restaurant_001042",
+            "name": "Gerard Cafe",
+            "duration_minutes": 45,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.96289,
+              "longitude": 35.87345,
+              "precision": "exact"
+            },
+            "description": "An upscale European-style patisserie and cafe in Sweifieh offering exquisite French pastries, chocolates, and coffee.",
+            "reason": "Breakfast after rest — kitchens were closed when you landed.",
+            "matched_preferences": [
+              "In Amman",
+              "Matches culture",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "12 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_001042"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "11:33",
+            "end_time": "13:33",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_000001",
+            "name": "Amman Citadel",
+            "duration_minutes": 120,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.954605,
+              "longitude": 35.934891,
+              "precision": "exact"
+            },
+            "description": "Historic national site situated on a hill in central Amman featuring ancient ruins from the Bronze Age through the Islamic era.",
+            "reason": "Time remains after rest, so the arrival day continues nearby — not a long drive.",
+            "matched_preferences": [
+              "In Amman",
+              "local_tourism_catalog",
+              "A must-see in Amman",
+              "Matches history, culture",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "3 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_000001"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "13:48",
+            "end_time": "14:33",
+            "slot": "lunch",
+            "type": "restaurant",
+            "item_id": "restaurant_001001",
+            "name": "Hashem Restaurant",
+            "duration_minutes": 45,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.951564,
+              "longitude": 35.938342,
+              "precision": "exact"
+            },
+            "description": "An iconic, legendary open-air street-level eatery in downtown Amman serving traditional Jordanian breakfast staples.",
+            "reason": "Lunch nearby. You still have time left in the same city.",
+            "matched_preferences": [
+              "In Amman",
+              "Matches food, history, culture",
+              "Matches preferred cuisine",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "4 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_001001"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "14:48",
+            "end_time": "15:03",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_000052",
+            "name": "Amman Citadel Flagpole",
+            "duration_minutes": 15,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.956944,
+              "longitude": 35.942778,
+              "precision": "exact"
+            },
+            "description": "Massive national flagpole visible across Amman, located on the Royal Palace compound near the Citadel.",
+            "reason": "Time remains after rest, so the arrival day continues nearby — not a long drive.",
+            "matched_preferences": [
+              "In Amman",
+              "local_tourism_catalog",
+              "A must-see in Amman",
+              "Matches history, culture"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_000052"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "15:18",
+            "end_time": "17:18",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_000049",
+            "name": "Al-Basha Turkish Bath",
+            "duration_minutes": 120,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.950833,
+              "longitude": 35.929444,
+              "precision": "exact"
+            },
+            "description": "Traditional Levantine bathhouse near Rainbow Street offering steam baths and body treatments.",
+            "reason": "Time remains after rest, so the arrival day continues nearby — not a long drive.",
+            "matched_preferences": [
+              "In Amman",
+              "local_tourism_catalog",
+              "A must-see in Amman",
+              "Matches culture",
+              "Indoor option on a hot day"
+            ],
+            "estimated_cost": "25 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_000049"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "You land at 03:48. The drive from Queen Alia to Amman is about 45 minutes. Times below start after that transfer."
+      },
+      {
+        "day": 2,
+        "date": "2026-08-26",
+        "region": "Jerash",
+        "theme": "Jerash",
+        "summary": "Morning transfer from Amman to Jerash, visits Suf Village Heritage Center, Jerash Heritage Souk, Al-Kittah Village and Springs, with breakfast, lunch, and dinner on the clock.",
+        "is_arrival_day": false,
+        "schedule": [
+          {
+            "time": "08:30",
+            "end_time": "09:25",
+            "slot": "morning",
+            "type": "transfer",
+            "item_id": "transfer:amman:jerash:08:30",
+            "name": "Drive to Jerash",
+            "duration_minutes": 55,
+            "location": "Amman → Jerash",
+            "coordinates": null,
+            "description": "Travel from Amman to Jerash.",
+            "reason": "You woke up in a different place than today's sights.",
+            "matched_preferences": [],
+            "estimated_cost": "not_available",
+            "source": {
+              "dataset": "planning",
+              "record_id": "transfer:amman:jerash"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "09:25",
+            "end_time": "10:40",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_005038",
+            "name": "Suf Village Heritage Center",
+            "duration_minutes": 75,
+            "location": "Jerash",
+            "coordinates": {
+              "latitude": 32.3112,
+              "longitude": 35.8361,
+              "precision": "exact"
+            },
+            "description": "A heritage village hub northwest of Jerash known for traditional stone houses, crafts, and ecotourism.",
+            "reason": "In Jerash; matches culture interest; Matches history, culture",
+            "matched_preferences": [
+              "In Jerash",
+              "matches culture interest",
+              "Matches history, culture"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_005038"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "10:55",
+            "end_time": "11:55",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_005016",
+            "name": "Jerash Heritage Souk",
+            "duration_minutes": 60,
+            "location": "Jerash",
+            "coordinates": {
+              "latitude": 32.2792,
+              "longitude": 35.8968,
+              "precision": "exact"
+            },
+            "description": "A traditional market in the modern city of Jerash selling local crafts, spices, olive oil, and souvenirs.",
+            "reason": "In Jerash; matches culture interest; Matches history, culture; One visit covering the nearby monuments",
+            "matched_preferences": [
+              "In Jerash",
+              "matches culture interest",
+              "Matches history, culture",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_005016"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "12:10",
+            "end_time": "13:10",
+            "slot": "afternoon",
+            "type": "restaurant",
+            "item_id": "restaurant_005021",
+            "name": "Al-Roummanah Restaurant",
+            "duration_minutes": 60,
+            "location": "Jerash",
+            "coordinates": {
+              "latitude": 32.28345,
+              "longitude": 35.8812,
+              "precision": "exact"
+            },
+            "description": "Picturesque restaurant located amid local orchards in Jerash, offering authentic regional dishes and fresh juices.",
+            "reason": "Lunch in the afternoon.",
+            "matched_preferences": [
+              "In Jerash",
+              "Matches food, culture",
+              "Matches preferred cuisine",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "14 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_005021"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "13:25",
+            "end_time": "14:25",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_005020",
+            "name": "Al-Kittah Village and Springs",
+            "duration_minutes": 60,
+            "location": "Jerash",
+            "coordinates": {
+              "latitude": 32.27472,
+              "longitude": 35.84583,
+              "precision": "exact"
+            },
+            "description": "A rural agricultural village west of Jerash known for spring water, olive groves, and traditional farming.",
+            "reason": "In Jerash; in requested region: Jerash Governorate",
+            "matched_preferences": [
+              "In Jerash",
+              "in requested region: Jerash Governorate"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_005020"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "14:40",
+            "end_time": "16:10",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_005035",
+            "name": "Al-Mustaba Eco-Park",
+            "duration_minutes": 90,
+            "location": "Jerash",
+            "coordinates": {
+              "latitude": 32.1648,
+              "longitude": 35.8521,
+              "precision": "exact"
+            },
+            "description": "A forested mountain park in southern Jerash Governorate popular for outdoor picnics and scenic nature walks.",
+            "reason": "In Jerash; in requested region: Jerash Governorate",
+            "matched_preferences": [
+              "In Jerash",
+              "in requested region: Jerash Governorate"
+            ],
+            "estimated_cost": "1 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_005035"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "16:25",
+            "end_time": "16:50",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_005012",
+            "name": "Church of St. Theodore",
+            "duration_minutes": 25,
+            "location": "Jerash",
+            "coordinates": {
+              "latitude": 32.28135,
+              "longitude": 35.88972,
+              "precision": "exact"
+            },
+            "description": "A 5th-century Byzantine basilica featuring an atrium courtyard and mosaic pavement fragments.",
+            "reason": "In Jerash; local_tourism_catalog; Matches history, culture; One visit covering the nearby monuments",
+            "matched_preferences": [
+              "In Jerash",
+              "local_tourism_catalog",
+              "Matches history, culture",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "10 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_005012"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "17:05",
+            "end_time": "18:00",
+            "slot": "afternoon",
+            "type": "transfer",
+            "item_id": "transfer:jerash:amman:17:05",
+            "name": "Return to Amman",
+            "duration_minutes": 55,
+            "location": "Jerash → Amman",
+            "coordinates": null,
+            "description": "Travel from Jerash to Amman.",
+            "reason": "Back to tonight's hotel before dinner.",
+            "matched_preferences": [],
+            "estimated_cost": "not_available",
+            "source": {
+              "dataset": "planning",
+              "record_id": "transfer:jerash:amman"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "18:00",
+            "end_time": "19:00",
+            "slot": "evening",
+            "type": "restaurant",
+            "item_id": "restaurant_001026",
+            "name": "Dat Ras Restaurant",
+            "duration_minutes": 60,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.98642,
+              "longitude": 35.86711,
+              "precision": "exact"
+            },
+            "description": "An authentic local restaurant specializing in traditional Southern Jordanian dishes and slow-cooked lamb specialties.",
+            "reason": "Dinner in the evening.",
+            "matched_preferences": [
+              "In Amman",
+              "Matches food, history, culture",
+              "Matches preferred cuisine"
+            ],
+            "estimated_cost": "14 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_001026"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "Come back to your hotel in Amman to sleep."
+      },
+      {
+        "day": 3,
+        "date": "2026-08-27",
+        "region": "Petra",
+        "theme": "Petra",
+        "summary": "Morning transfer from Amman to Petra, visits Moses' Spring (Ain Musa), Petra Church (Byzantine Church), Al-Mu'aysrah Temple Trail, with breakfast, lunch, and dinner on the clock.",
+        "is_arrival_day": false,
+        "schedule": [
+          {
+            "time": "08:30",
+            "end_time": "12:07",
+            "slot": "morning",
+            "type": "transfer",
+            "item_id": "transfer:amman:petra:08:30",
+            "name": "Drive to Petra",
+            "duration_minutes": 217,
+            "location": "Amman → Petra",
+            "coordinates": null,
+            "description": "Travel from Amman to Petra.",
+            "reason": "You woke up in a different place than today's sights.",
+            "matched_preferences": [],
+            "estimated_cost": "not_available",
+            "source": {
+              "dataset": "planning",
+              "record_id": "transfer:amman:petra"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "12:07",
+            "end_time": "12:27",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_002024",
+            "name": "Moses' Spring (Ain Musa)",
+            "duration_minutes": 20,
+            "location": "Wadi Musa",
+            "coordinates": {
+              "latitude": 30.323611,
+              "longitude": 35.495278,
+              "precision": "exact"
+            },
+            "description": "A natural spring at the entrance of Wadi Musa town tied to biblical traditions of Prophet Moses.",
+            "reason": "In Petra; local_tourism_catalog; Matches history, culture; Indoor option on a hot day",
+            "matched_preferences": [
+              "In Petra",
+              "local_tourism_catalog",
+              "Matches history, culture",
+              "Indoor option on a hot day"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_002024"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "13:00",
+            "end_time": "14:00",
+            "slot": "afternoon",
+            "type": "restaurant",
+            "item_id": "restaurant_002047",
+            "name": "Al-Anbat Restaurant",
+            "duration_minutes": 60,
+            "location": "Wadi Musa",
+            "coordinates": {
+              "latitude": 30.3275,
+              "longitude": 35.4851,
+              "precision": "exact"
+            },
+            "description": "Long-established hotel restaurant in upper Wadi Musa serving local buffets and grills.",
+            "reason": "Lunch in the afternoon.",
+            "matched_preferences": [
+              "In Petra",
+              "Matches food, culture",
+              "Matches preferred cuisine",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "10 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_002047"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "14:15",
+            "end_time": "14:55",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_002018",
+            "name": "Petra Church (Byzantine Church)",
+            "duration_minutes": 40,
+            "location": "Wadi Musa",
+            "coordinates": {
+              "latitude": 30.330278,
+              "longitude": 35.444444,
+              "precision": "exact"
+            },
+            "description": "A 5th-century Byzantine basilica featuring well-preserved floor mosaics and the Petra Papyri discovery site.",
+            "reason": "In Petra; matches history interest; Matches history, culture; One visit covering the nearby monuments",
+            "matched_preferences": [
+              "In Petra",
+              "matches history interest",
+              "Matches history, culture",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "50 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_002018"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "15:10",
+            "end_time": "16:40",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_002035",
+            "name": "Al-Mu'aysrah Temple Trail",
+            "duration_minutes": 90,
+            "location": "Wadi Musa",
+            "coordinates": {
+              "latitude": 30.334444,
+              "longitude": 35.438889,
+              "precision": "exact"
+            },
+            "description": "An ancient residential and temple complex trail situated in northwestern Petra.",
+            "reason": "In Petra; local_tourism_catalog; Matches history, culture",
+            "matched_preferences": [
+              "In Petra",
+              "local_tourism_catalog",
+              "Matches history, culture"
+            ],
+            "estimated_cost": "50 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_002035"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "16:55",
+            "end_time": "17:55",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_002005",
+            "name": "Petra Museum",
+            "duration_minutes": 60,
+            "location": "Wadi Musa",
+            "coordinates": {
+              "latitude": 30.32525,
+              "longitude": 35.468222,
+              "precision": "exact"
+            },
+            "description": "A modern museum at the entrance of Petra showcasing artifacts from Nabataean, Roman, and Byzantine eras.",
+            "reason": "In Petra; matches history interest; Matches history, culture; Indoor option on a hot day",
+            "matched_preferences": [
+              "In Petra",
+              "matches history interest",
+              "Matches history, culture",
+              "Indoor option on a hot day"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_002005"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "",
+            "end_time": "",
+            "slot": "overnight",
+            "type": "hotel",
+            "item_id": "hotel_000158",
+            "name": "Petra Marriott Hotel",
+            "duration_minutes": null,
+            "location": "Wadi Musa",
+            "coordinates": {
+              "latitude": 30.304607,
+              "longitude": 35.46362,
+              "precision": "exact"
+            },
+            "description": "Five-star Marriott hotel on a ridge along Queen Rania Al Abdallah Street, about 3.5 kilometres from the Petra Visitor Centre, with 100 renovated rooms and suites, a full-service spa and a seasonal outdoor pool.",
+            "reason": "Overnight stay in Petra. This is your hotel, not an activity. 5-star stay, as requested",
+            "matched_preferences": [
+              "5-star stay, as requested",
+              "In Petra",
+              "Matches history, culture",
+              "5-star, as requested",
+              "Matches hotel"
+            ],
+            "estimated_cost": "94 JOD / night",
+            "source": {
+              "dataset": "hotels",
+              "record_id": "hotel_000158"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "This evening you check in to your hotel in Petra."
+      },
+      {
+        "day": 4,
+        "date": "2026-08-28",
+        "region": "Petra",
+        "theme": "More time in Petra",
+        "summary": "Visits Little Petra (Siq al-Barid), High Place of Sacrifice, Great Temple of Petra, with breakfast, lunch, and dinner on the clock.",
+        "is_arrival_day": false,
+        "schedule": [
+          {
+            "time": "08:45",
+            "end_time": "09:45",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_002007",
+            "name": "Little Petra (Siq al-Barid)",
+            "duration_minutes": 60,
+            "location": "Wadi Musa",
+            "coordinates": {
+              "latitude": 30.375361,
+              "longitude": 35.456639,
+              "precision": "exact"
+            },
+            "description": "An ancient Nabataean suburban trading post and residential site located north of Petra.",
+            "reason": "In Petra; local_tourism_catalog; A must-see in Petra; Matches history, culture; One visit covering the nearby monuments",
+            "matched_preferences": [
+              "In Petra",
+              "local_tourism_catalog",
+              "A must-see in Petra",
+              "Matches history, culture",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_002007"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "10:00",
+            "end_time": "12:00",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_002004",
+            "name": "High Place of Sacrifice",
+            "duration_minutes": 120,
+            "location": "Wadi Musa",
+            "coordinates": {
+              "latitude": 30.318889,
+              "longitude": 35.4475,
+              "precision": "exact"
+            },
+            "description": "An ancient hilltop Nabataean sacrificial altar complex offering expansive vistas across Petra.",
+            "reason": "In Petra; local_tourism_catalog; A second day to go beyond the main site; Matches history, culture; One visit covering the nearby monuments",
+            "matched_preferences": [
+              "In Petra",
+              "local_tourism_catalog",
+              "A second day to go beyond the main site",
+              "Matches history, culture",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "50 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_002004"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "12:15",
+            "end_time": "12:45",
+            "slot": "afternoon",
+            "type": "restaurant",
+            "item_id": "restaurant_002028",
+            "name": "Bedouin Cave Cafe",
+            "duration_minutes": 30,
+            "location": "Wadi Musa",
+            "coordinates": {
+              "latitude": 30.3231,
+              "longitude": 35.4519,
+              "precision": "exact"
+            },
+            "description": "Rustic teahouse located inside Petra archaeological park near the Treasury view points.",
+            "reason": "Lunch in the afternoon.",
+            "matched_preferences": [
+              "In Petra",
+              "A must-see in Petra",
+              "Matches history",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "3 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_002028"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "13:00",
+            "end_time": "13:45",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_002014",
+            "name": "Great Temple of Petra",
+            "duration_minutes": 45,
+            "location": "Wadi Musa",
+            "coordinates": {
+              "latitude": 30.328889,
+              "longitude": 35.443889,
+              "precision": "exact"
+            },
+            "description": "A monumental 1st-century BC Nabataean structural complex along the Colonnaded Street in Petra.",
+            "reason": "In Petra; local_tourism_catalog; A second day to go beyond the main site; Matches history, culture; One visit covering the nearby monuments",
+            "matched_preferences": [
+              "In Petra",
+              "local_tourism_catalog",
+              "A second day to go beyond the main site",
+              "Matches history, culture",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "50 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_002014"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "14:00",
+            "end_time": "16:00",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_002027",
+            "name": "Al-Maddras Trail & High Viewpoint",
+            "duration_minutes": 120,
+            "location": "Wadi Musa",
+            "coordinates": {
+              "latitude": 30.320556,
+              "longitude": 35.459444,
+              "precision": "exact"
+            },
+            "description": "An ancient alternative entry trail into Petra featuring sacred rock carvings and elevated perspectives.",
+            "reason": "In Petra; local_tourism_catalog; A second day to go beyond the main site; Matches history, culture",
+            "matched_preferences": [
+              "In Petra",
+              "local_tourism_catalog",
+              "A second day to go beyond the main site",
+              "Matches history, culture"
+            ],
+            "estimated_cost": "50 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_002027"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "16:15",
+            "end_time": "16:45",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_002019",
+            "name": "Nabataean Theater",
+            "duration_minutes": 30,
+            "location": "Wadi Musa",
+            "coordinates": {
+              "latitude": 30.323889,
+              "longitude": 35.449167,
+              "precision": "exact"
+            },
+            "description": "A massive 1st-century AD rock-cut theater carved directly into the mountainside at Petra.",
+            "reason": "In Petra; local_tourism_catalog; A second day to go beyond the main site; Matches history",
+            "matched_preferences": [
+              "In Petra",
+              "local_tourism_catalog",
+              "A second day to go beyond the main site",
+              "Matches history"
+            ],
+            "estimated_cost": "50 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_002019"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "17:00",
+            "end_time": "17:45",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_002040",
+            "name": "Maan Historic Souq",
+            "duration_minutes": 45,
+            "location": "Ma'an",
+            "coordinates": {
+              "latitude": 30.193611,
+              "longitude": 35.733333,
+              "precision": "exact"
+            },
+            "description": "A traditional market street in downtown Ma'an city known for local spices, Bedouin crafts, and textiles.",
+            "reason": "In Maan; matches history interest; A second day to go beyond the main site; Matches culture",
+            "matched_preferences": [
+              "In Maan",
+              "matches history interest",
+              "A second day to go beyond the main site",
+              "Matches culture"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_002040"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "18:00",
+            "end_time": "18:55",
+            "slot": "evening",
+            "type": "restaurant",
+            "item_id": "restaurant_002006",
+            "name": "Feinan Restaurant",
+            "duration_minutes": 55,
+            "location": "Wadi Musa",
+            "coordinates": {
+              "latitude": 30.32352,
+              "longitude": 35.4731,
+              "precision": "exact"
+            },
+            "description": "Warm dining venue in central Wadi Musa serving fresh Jordanian buffets and grilled specialties.",
+            "reason": "Dinner in the evening.",
+            "matched_preferences": [
+              "In Petra",
+              "Matches food"
+            ],
+            "estimated_cost": "9 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_002006"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "Stay overnight in Petra."
+      }
+    ],
+    "budget": {
+      "currency": "JOD",
+      "traveler_budget": 900.0,
+      "estimated_total": "1398 JOD",
+      "band": "comfort",
+      "items": [
+        {
+          "category": "Stays",
+          "estimated_cost": "424 JOD",
+          "notes": "InterContinental Jordan: 165 JOD × 2 night(s); Petra Marriott Hotel: 94 JOD × 1 night(s)",
+          "confidence": "medium"
+        },
+        {
+          "category": "Meals on the plan",
+          "estimated_cost": "196 JOD",
+          "notes": "11 listed meal(s) × 2 traveler(s).",
+          "confidence": "medium"
+        },
+        {
+          "category": "Entry tickets",
+          "estimated_cost": "678 JOD",
+          "notes": "18 listed site(s) × 2 traveler(s).",
+          "confidence": "medium"
+        },
+        {
+          "category": "Trip guide",
+          "estimated_cost": "25 JOD",
+          "notes": "Listed from 25 JOD (up to 50 JOD listed)",
+          "confidence": "medium"
+        },
+        {
+          "category": "Trip operator",
+          "estimated_cost": "75 JOD",
+          "notes": "Listed from 75 JOD (up to 1200 JOD listed)",
+          "confidence": "medium"
+        },
+        {
+          "category": "Left vs your ceiling",
+          "estimated_cost": "-498 JOD",
+          "notes": "Your ceiling is 900 JOD. Listed pieces add up to 1398 JOD.",
+          "confidence": "medium"
+        }
+      ],
+      "disclaimer": "Amounts come from catalog listings. This is a planning estimate, not a final invoice. Missing prices stay unknown — we do not invent them."
+    },
+    "sme_value": {
+      "headline": "Your guide and operator for this journey",
+      "summary": "One local guide and one tour operator for the whole trip — not a new face every day.",
+      "recommended": [
+        {
+          "sme_id": "tour_guide:SME-000017:jerash",
+          "sme_type": "tour_guide",
+          "name": "Nabil Al-Hassan",
+          "role": "Trip guide",
+          "location": "Souf Village / Jerash",
+          "experience_type": "Local Experiences, Culture, Food",
+          "match_score": 0.787,
+          "reason": "Fits what you asked for: food, history, culture",
+          "matched_because": [
+            "Fits what you asked for: food, history, culture",
+            "Covers jerash",
+            "Based in Souf Village / Jerash",
+            "Works with couple travelers",
+            "Speaks English"
+          ],
+          "known_for": [
+            "Independent community tour guide focusing on authentic village stays, agricultural heritage, and local farm experiences around Jerash",
+            "Takes travelers to Souf Village Olive Groves, Traditional Stone Houses, Local Family Farms",
+            "Also offers Local Experiences, Cultural Experiences",
+            "Private groups available"
+          ],
+          "specializations": [
+            "Local Experiences",
+            "Culture",
+            "Food"
+          ],
+          "languages": [
+            "Arabic",
+            "English",
+            "Portuguese"
+          ],
+          "experience_years": 8,
+          "destinations_covered": [
+            "Souf Village Olive Groves",
+            "Traditional Stone Houses",
+            "Local Family Farms"
+          ],
+          "covers_regions": [
+            "jerash"
+          ],
+          "package_role": "guide",
+          "specs": [
+            {
+              "label": "Specializations",
+              "value": "Local Experiences, Culture, Food"
+            },
+            {
+              "label": "Experience",
+              "value": "8 years"
+            },
+            {
+              "label": "Languages",
+              "value": "Arabic, English, Portuguese"
+            },
+            {
+              "label": "Best for",
+              "value": "Families, Couples, Solo Travelers"
+            },
+            {
+              "label": "Group size",
+              "value": "2–15"
+            },
+            {
+              "label": "From",
+              "value": "25–50 JOD"
+            },
+            {
+              "label": "Hours",
+              "value": "09:00 - 17:00"
+            },
+            {
+              "label": "Rating",
+              "value": "4.8 (26 reviews)"
+            }
+          ],
+          "source": {
+            "dataset": "sme_guides",
+            "record_id": "tour_guide:SME-000017:jerash"
+          },
+          "coordinates": {
+            "latitude": 32.2808,
+            "longitude": 35.8993,
+            "precision": "city_centroid"
+          }
+        },
+        {
+          "sme_id": "tour_operator:SME-000001:amman",
+          "sme_type": "tour_operator",
+          "name": "Dakkak Tours International",
+          "role": "Trip operator",
+          "location": "Amman",
+          "experience_type": "History, Culture, Archaeology",
+          "match_score": 0.826,
+          "reason": "Fits what you asked for: history, culture",
+          "matched_because": [
+            "Fits what you asked for: history, culture",
+            "Covers amman, jerash, petra",
+            "Based in Amman",
+            "Works with couple travelers",
+            "Speaks English",
+            "Transportation across the itinerary"
+          ],
+          "known_for": [
+            "A leading incoming tour operator and destination management company in Jordan, providing comprehensive travel services, customized itineraries, and professional tourism coordination since 1956",
+            "Takes travelers to Amman, Petra, Wadi Rum, Jerash",
+            "Also offers Transportation, Custom Itineraries, Cultural Experiences",
+            "Private groups available",
+            "Can arrange transportation"
+          ],
+          "specializations": [
+            "History",
+            "Culture",
+            "Archaeology",
+            "Religious Sites",
+            "Desert Experiences"
+          ],
+          "languages": [
+            "English",
+            "Arabic",
+            "French",
+            "German"
+          ],
+          "experience_years": 70,
+          "destinations_covered": [
+            "Amman",
+            "Petra",
+            "Wadi Rum",
+            "Jerash",
+            "Dead Sea",
+            "Aqaba"
+          ],
+          "covers_regions": [
+            "amman",
+            "jerash",
+            "petra"
+          ],
+          "package_role": "operator",
+          "specs": [
+            {
+              "label": "Specializations",
+              "value": "History, Culture, Archaeology, Religious Sites, Desert Experiences"
+            },
+            {
+              "label": "Experience",
+              "value": "70 years"
+            },
+            {
+              "label": "Languages",
+              "value": "English, Arabic, French, German"
+            },
+            {
+              "label": "Best for",
+              "value": "Couples, Families, Solo Travelers"
+            },
+            {
+              "label": "Group size",
+              "value": "1–50"
+            },
+            {
+              "label": "From",
+              "value": "75–1200 JOD"
+            },
+            {
+              "label": "Hours",
+              "value": "08:30-17:30"
+            },
+            {
+              "label": "Rating",
+              "value": "4.7 (142 reviews)"
+            }
+          ],
+          "source": {
+            "dataset": "sme_operators",
+            "record_id": "tour_operator:SME-000001:amman"
+          },
+          "coordinates": {
+            "latitude": 31.9454,
+            "longitude": 35.9284,
+            "precision": "city_centroid"
+          }
+        }
+      ]
+    },
+    "sources": [
+      {
+        "dataset": "hotels",
+        "record_id": "hotel_000022"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_001042"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_000001"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_001001"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_000052"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_000049"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_005038"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_005016"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_005021"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_005020"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_005035"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_005012"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_001026"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_002024"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_002047"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_002018"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_002035"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_002005"
+      },
+      {
+        "dataset": "hotels",
+        "record_id": "hotel_000158"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_002007"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_002004"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_002028"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_002014"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_002027"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_002019"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_002040"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_002006"
+      },
+      {
+        "dataset": "sme_guides",
+        "record_id": "tour_guide:SME-000017:jerash"
+      },
+      {
+        "dataset": "sme_operators",
+        "record_id": "tour_operator:SME-000001:amman"
+      }
+    ],
+    "warnings": [],
+    "explanations": {
+      "trip_planning_reason": "You land at 03:48, so arrival night stays in Amman — hotel, a meal, rest. The touring days start the next morning. I put Petra on the calendar first, then kept the rest of the days on Jerash, then Petra (2 days). It's a hot month, so the outdoor sites go before midday.",
+      "highlights": [
+        "Amman Citadel",
+        "Amman Citadel Flagpole",
+        "Al-Basha Turkish Bath",
+        "Suf Village Heritage Center",
+        "Jerash Heritage Souk",
+        "Al-Kittah Village and Springs"
+      ],
+      "why_smes": [
+        "Nabil Al-Hassan: Fits what you asked for: food, history, culture",
+        "Dakkak Tours International: Fits what you asked for: history, culture"
+      ],
+      "context_benefits": []
+    }
+  }
+}

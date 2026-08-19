@@ -1,0 +1,133 @@
+{
+  "caseId": "20260814-213659-jerash-ajloun-family-journey",
+  "createdAt": "2026-08-14T21:36:59.986213+00:00",
+  "trip_title": "Jerash & Ajloun Family Journey",
+  "rag": {
+    "status": "ok",
+    "source": "retriever",
+    "duration_days": 3,
+    "cluster_count": 3,
+    "clusters": [
+      {
+        "cluster_id": 0,
+        "theme": "Balqa Governorate · nature, history",
+        "poi_count": 10,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "Zain Al-Sharaf Nature Reserve",
+          "Wadi Shueib Scenic Road and Stream",
+          "Burin Forest Park",
+          "Abu Jaber Museum",
+          "Al-Fuheis Heritage Quarter",
+          "Zai Forest Picnic Area",
+          "Fuheis Heritage Quarter (Al-Fuheis Old Town)",
+          "As-Salt Heritage Trail Starting Point",
+          "Zarqa River Eco-Trail Pathway",
+          "Fuheis Cultural Centre"
+        ],
+        "hotel_names": [
+          "Beit Aziz Boutique Hotel",
+          "Saltus Hotel",
+          "Jordan Heritage Madhafa",
+          "Saraya Locanda"
+        ],
+        "sample_restaurants": [
+          "Sitt Inaya Heritage House",
+          "Bab Al-Hara Restaurant Salt",
+          "Al Ghabah Restaurant",
+          "Jordan Heritage Restaurant Salt",
+          "Baladna Restaurant",
+          "Al Deyafa Tourist Restaurant"
+        ],
+        "event_names": [
+          "Fuheis Festival",
+          "Eid Evenings - Balqa",
+          "Jordan Summer Festival - Balqa"
+        ]
+      },
+      {
+        "cluster_id": 1,
+        "theme": "Jerash Governorate · history, nature",
+        "poi_count": 10,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "Hippodrome of Jerash",
+          "Al-Kittah Village and Springs",
+          "Al-Mustaba Eco-Park",
+          "Dibbeen Forest Reserve",
+          "Al-Rumman Forest Recreation Area",
+          "Zarqa River Thermal Springs",
+          "Zarqa River Valley Overlook",
+          "Ain Al-Basha Public Park",
+          "Zarqa River Bridge Historic Site",
+          "Ain Al-Basha Public Library and Cultural Hub"
+        ],
+        "hotel_names": [
+          "Celestia Boutique Inn",
+          "The Olive Branch Hotel",
+          "Jerash Hotel",
+          "Dream House Hotel Apartments"
+        ],
+        "sample_restaurants": [
+          "Roman Bridge Restaurant",
+          "Green Valley Restaurant Jerash",
+          "Jerash Olive Grove Grill",
+          "Jerash Canyon Restaurant",
+          "Al Ghabah Restaurant",
+          "Al Deyafa Tourist Restaurant"
+        ],
+        "event_names": [
+          "Jerash Festival for Culture and Arts",
+          "National Celebrations Programme - Jerash",
+          "Aesthetics of Place Cultural Programme - Jerash"
+        ]
+      },
+      {
+        "cluster_id": 2,
+        "theme": "Ajloun Governorate · nature, history",
+        "poi_count": 10,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "Wadi Rayyan",
+          "Wadi Shamali Viewpoint",
+          "Ajloun Forest Reserve",
+          "Al-Karakah Nature Trail",
+          "Mazar Al-Shamali Forest Reserve",
+          "Wadi Jirim",
+          "Wadi Zqlab Oak Canopy Trail",
+          "Wadi Al-Arayan",
+          "Tell Johfiyeh",
+          "Natural History Museum at Yarmouk University"
+        ],
+        "hotel_names": [
+          "Al-Jabal Castle Hotel - Ajloun",
+          "Ajloun Hotel",
+          "Ajloun Forest Reserve",
+          "Al Ghazal Villas"
+        ],
+        "sample_restaurants": [
+          "Rasoun Heritage House Restaurant",
+          "Ajloun Forest Reserve Restaurant",
+          "Royal Academy for Nature Protection Restaurant",
+          "Ajloun Castle Restaurant",
+          "Ras Mounif Pine Forest Rest House",
+          "Al Rayyan Valley Cafe & Restaurant"
+        ],
+        "event_names": [
+          "Mar Elias Celebration",
+          "National Celebrations Programme - Ajloun",
+          "Ajloun Ramadan Family and Children Carnival"
+        ]
+      }
+    ]
+  },
+  "paths": {
+    "input": "01_input.json",
+    "knowledge": "02_retriever.json",
+    "knowledge_preview": "02_retriever_preview.json",
+    "output": "03_output.json"
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "status": "ok",
+  "source": "retriever",
+  "duration_days": 5,
+  "cluster_count": 5,
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "theme": "Tafilah Governorate · culture",
+      "poi_count": 9,
+      "hotel_count": 4,
+      "event_count": 3,
+      "poi_names": [
+        "Feynan Ecolodge",
+        "Busaira Heritage House",
+        "Tafilah Traditional Souq",
+        "Tafilah Museum",
+        "Dana Eco-Tourism Camp",
+        "Dana Community Handicraft Workshop",
+        "Dana Village",
+        "Wadi Dana Trailhead",
+        "Burbeita Hot Springs"
+      ],
+      "hotel_names": [
+        "Dana Tower Hotel",
+        "Dana Moon Hotel",
+        "Dana's Trail Hotel",
+        "Dana Horizon Hotel"
+      ],
+      "sample_restaurants": [
+        "Buseirah Heritage Rest House",
+        "Al-Ma'tan Heritage Rest House & Cafe",
+        "Al-Afrah Pastries & Pizza",
+        "Al-Arabi Fast Food & Shawarma",
+        "Al-Buseirah Central Grill",
+        "Al-Salea Gate Castle Restaurant"
+      ],
+      "event_names": [
+        "Jordan Summer Festival - Tafilah",
+        "National Celebrations Programme - Tafilah",
+        "Aesthetics of Place Cultural Programme - Tafilah"
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "theme": "Karak Governorate · culture",
+      "poi_count": 10,
+      "hotel_count": 4,
+      "event_count": 3,
+      "poi_names": [
+        "Al-Karak Heritage Village",
+        "Al-Karak Old Souq",
+        "Al-Mazar Al-Janubi Public Library and Cultural Center",
+        "Wadi Hasa",
+        "Mujib Biosphere Reserve",
+        "Jannat Al-Karak Park",
+        "Wadi Al-Hasa Lower Canyon",
+        "Al-Karak Plaza Park",
+        "Zarqa Ma'in Thermal Springs (Southern Access/Wadi Zarqa)",
+        "Mu'tah University Campus Gardens"
+      ],
+      "hotel_names": [
+        "Cairwan Hotel",
+        "The Old House",
+        "Al-Mujeb Hotel",
+        "Bubble Castle House"
+      ],
+      "sample_restaurants": [
+        "Al-Mu'tasim Falafel & Hummus",
+        "Nawafil Al-Karak Cafe",
+        "Al-Buhaira Panorama Restaurant Mutah",
+        "Wadi Bin Hammad Rest House & Restaurant",
+        "Falafel & Hummus Al-Agha",
+        "Safi Valley Heritage Cafe & Restaurant"
+      ],
+      "event_names": [
+        "Al-Qasr Jordanian City of Culture Programme",
+        "Jordan Summer Festival - Karak",
+        "Moab Poetry Festival"
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "theme": "Madaba Governorate · culture",
+      "poi_count": 9,
+      "hotel_count": 4,
+      "event_count": 3,
+      "poi_names": [
+        "Madaba Art Space & Gallery",
+        "Madaba Institute for Mosaic Art and Restoration (MIMAR)",
+        "Madaba Crafts Souk",
+        "King's Highway Madaba Segment",
+        "Madaba Visitor Center",
+        "Al-Lajjun / East Madaba Desert Border Viewpoint",
+        "La Storica Mosaics (Mosaic Handicrafts Center)",
+        "Wadi Hidan Canyon",
+        "Madaba Museum"
+      ],
+      "hotel_names": [
+        "Grand Hotel Madaba",
+        "Saint John Hotel",
+        "Moab Land Hotel",
+        "Mosaic City Hotel"
+      ],
+      "sample_restaurants": [
+        "Black Iris Cafe",
+        "Hikayet Sitti",
+        "Ayola Restaurant",
+        "Al-Bustan Restaurant",
+        "Haret Jdoudna",
+        "Al-Ittihad Restaurant"
+      ],
+      "event_names": [
+        "Jordan Summer Festival - Madaba",
+        "Ramadan Evenings - Madaba",
+        "National Celebrations Programme - Madaba"
+      ]
+    },
+    {
+      "cluster_id": 3,
+      "theme": "Balqa Governorate · culture",
+      "poi_count": 10,
+      "hotel_count": 4,
+      "event_count": 3,
+      "poi_names": [
+        "Fuheis Heritage Quarter (Al-Fuheis Old Town)",
+        "As-Salt Hammam Street",
+        "Fuheis Cultural Centre",
+        "Al-Salt Folklore Museum (Abu Jaber House)",
+        "Al-Fuheis Heritage Quarter",
+        "Al-Jubeiha to Balqa Agricultural Terraces Viewpoint",
+        "Zarqa River Eco-Trail Pathway",
+        "Zain Al-Sharaf Nature Reserve",
+        "Wadi Shueib Scenic Road and Stream",
+        "The English College Building (Heritage Site)"
+      ],
+      "hotel_names": [
+        "Al Hummar Restaurant and Hotel",
+        "Jordan Heritage Madhafa",
+        "Beit Aziz Boutique Hotel",
+        "Saltus Hotel"
+      ],
+      "sample_restaurants": [
+        "Obidos Cafe & Restaurant",
+        "Iskandarani Cafe",
+        "Carob House Fuheis",
+        "Beit Khairat As-Salt",
+        "Baladna Restaurant",
+        "Zuada"
+      ],
+      "event_names": [
+        "Jordan Summer Festival - Balqa",
+        "Fuheis Festival",
+        "Eid Evenings - Balqa"
+      ]
+    },
+    {
+      "cluster_id": 4,
+      "theme": "Aqaba Governorate · culture",
+      "poi_count": 6,
+      "hotel_count": 4,
+      "event_count": 3,
+      "poi_names": [
+        "Aqaba Heritage House",
+        "Souq By The Sea",
+        "Aqaba Spice Souq",
+        "Al-Ghandour Beach",
+        "Ayla Oasis Marina",
+        "Princess Salma Park"
+      ],
+      "hotel_names": [
+        "Marina Plaza Hotel Tala Bay",
+        "Jazeerat Qubtan Hotel",
+        "Aquavista Hotel & Suites",
+        "Hill Top Hotel"
+      ],
+      "sample_restaurants": [
+        "Deera Cafe & Restaurant",
+        "Formosa Chinese Restaurant",
+        "Royal Yacht Club Restaurant Aqaba",
+        "Baba Gafer Restaurant",
+        "Walkin Tea",
+        "Al Kufa Cafe & Restaurant"
+      ],
+      "event_names": [
+        "Golden Triangle Festival",
+        "Eid Evenings - Aqaba",
+        "Aqaba International Poetry Evening"
+      ]
+    }
+  ]
+}

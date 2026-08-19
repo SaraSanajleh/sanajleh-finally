@@ -1,0 +1,52 @@
+{
+  "mode": "build",
+  "requestedAt": "2026-08-15T22:00:20.482000Z",
+  "trip": {
+    "startDate": "2026-08-25",
+    "duration": "3",
+    "arrivalAirport": "AMM",
+    "arrivalTime": "03:48",
+    "totalBudget": 900.0,
+    "preferredLanguage": "English",
+    "preferredRegions": [
+      "Jerash",
+      "Petra"
+    ]
+  },
+  "travelers": {
+    "adults": 2,
+    "children": 0,
+    "childrenAges": [],
+    "seniors": 0,
+    "groupType": "couple",
+    "accessibilityNeeds": []
+  },
+  "preferences": {
+    "interests": [
+      "food",
+      "history",
+      "culture"
+    ],
+    "tripPace": "Balanced",
+    "activityLevel": "Moderate",
+    "mustVisit": [
+      "Petra"
+    ],
+    "placesToAvoid": ""
+  },
+  "accommodation": {
+    "type": "hotel",
+    "rating": "4 star"
+  },
+  "dining": {
+    "cuisine": [
+      "Local Jordanian"
+    ]
+  },
+  "extras": {
+    "specialOccasion": "None",
+    "smePreferences": [],
+    "aiPriority": "",
+    "freeText": ""
+  }
+}

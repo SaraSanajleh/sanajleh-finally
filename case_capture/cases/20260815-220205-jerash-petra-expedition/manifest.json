@@ -1,0 +1,118 @@
+{
+  "caseId": "20260815-220205-jerash-petra-expedition",
+  "createdAt": "2026-08-15T22:02:05.714958+00:00",
+  "trip_title": "Jerash & Petra Expedition",
+  "rag": {
+    "status": "ok",
+    "source": "retriever",
+    "duration_days": 3,
+    "cluster_count": 3,
+    "clusters": [
+      {
+        "cluster_id": 0,
+        "theme": "Jerash Governorate · culture, history",
+        "poi_count": 4,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "Suf Village Heritage Center",
+          "Jerash Heritage Souk",
+          "Hippodrome of Jerash",
+          "Al-Kittah Village and Springs"
+        ],
+        "hotel_names": [
+          "Celestia Boutique Inn",
+          "Jerash Hotel",
+          "Dream House Hotel Apartments",
+          "Dream House Hotel"
+        ],
+        "sample_restaurants": [
+          "Beit Khairat Souf",
+          "Bait Khairat Souf",
+          "Jerash Oasis Grill",
+          "Jerash Gate Restaurant",
+          "Roman Bridge Restaurant",
+          "Al-Khaimeh Restaurant"
+        ],
+        "event_names": [
+          "Jordan Summer Festival - Jerash",
+          "Jerash Climate and Visual Arts Conference",
+          "Jerash Festival for Culture and Arts"
+        ]
+      },
+      {
+        "cluster_id": 1,
+        "theme": "Ma'an Governorate · history, culture",
+        "poi_count": 7,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "Petra Museum",
+          "Maan Historic Souq",
+          "Petra Church (Byzantine Church)",
+          "Little Petra (Siq al-Barid)",
+          "Neolithic Village of Beidha",
+          "Red Sand Dunes of Wadi Rum",
+          "Al-Mu'aysrah Temple Trail"
+        ],
+        "hotel_names": [
+          "Petra Aretas Hotel",
+          "Petra Moon Luxury Hotel",
+          "Valentine Inn",
+          "Cleopetra Hotel"
+        ],
+        "sample_restaurants": [
+          "My Mom's Recipe Restaurant",
+          "Bait Al-Karam Restaurant",
+          "Al-Khalil Fast Food & Falafel",
+          "Crowne Plaza Petra Basin Restaurant",
+          "Nabataean Tent Restaurant",
+          "Rock Camp Restaurant Little Petra"
+        ],
+        "event_names": [
+          "Knafeh Making Experience in Petra",
+          "Petra Kitchen Workshop",
+          "Jordan Summer Festival - Ma'an"
+        ]
+      },
+      {
+        "cluster_id": 2,
+        "theme": "Jerash Governorate · history",
+        "poi_count": 4,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "Al-Mustaba Eco-Park",
+          "Macellum of Jerash",
+          "Hadrian's Arch",
+          "Churches of St. Cosmas and St. Damian"
+        ],
+        "hotel_names": [
+          "Celestia Boutique Inn",
+          "Jerash Hotel",
+          "Dream House Hotel Apartments",
+          "Dream House Hotel"
+        ],
+        "sample_restaurants": [
+          "Jerash Olive Grove Grill",
+          "Green Valley Restaurant Jerash",
+          "Peter Jerash Restaurant",
+          "Jerash Sunset Terrace",
+          "Souk Jerash Restaurant",
+          "Roman Bridge Restaurant"
+        ],
+        "event_names": [
+          "Jordan Summer Festival - Jerash",
+          "Jerash Climate and Visual Arts Conference",
+          "Jerash Festival for Culture and Arts"
+        ]
+      }
+    ]
+  },
+  "paths": {
+    "input": "01_input.json",
+    "knowledge": "02_retriever.json",
+    "knowledge_preview": "02_retriever_preview.json",
+    "output": "03_output.json"
+  }
+}

@@ -1,0 +1,346 @@
+{
+  "metadata": {
+    "model": "gpt-oss:20b-cloud",
+    "provider": "ollama",
+    "mode": "build",
+    "latencyMs": 129751.46,
+    "retries": 0,
+    "caseId": null,
+    "rag": {
+      "status": "ok",
+      "source": "retriever",
+      "duration_days": 3,
+      "cluster_count": 3,
+      "clusters": [
+        {
+          "cluster_id": 0,
+          "theme": "Aqaba Governorate · nature, history",
+          "poi_count": 5,
+          "hotel_count": 4,
+          "event_count": 3,
+          "poi_names": [
+            "Aqaba Marine Park",
+            "Gorgone I Reef",
+            "Ayla Oasis Marina",
+            "Aqaba Heritage House",
+            "Aqaba Gateway Shopping Complex"
+          ],
+          "hotel_names": [
+            "Al Manara, a Luxury Collection Hotel, Aqaba",
+            "Kempinski Hotel Aqaba",
+            "Cedar Hotel",
+            "Sea View Hotel"
+          ],
+          "sample_restaurants": [
+            "Royal Yacht Club Restaurant Aqaba",
+            "Tiki Bar & Grill",
+            "Suzana Restaurant & Cafe",
+            "Casalingo",
+            "Pave Restaurant & Cafe",
+            "Ayla Golf Club Restaurant"
+          ],
+          "event_names": [
+            "Golden Triangle Festival",
+            "Aesthetics of Aqaba and Aqabawi Heritage Seminar",
+            "Aqaba International Poetry Evening"
+          ]
+        },
+        {
+          "cluster_id": 1,
+          "theme": "Ma'an Governorate · nature, history",
+          "poi_count": 10,
+          "hotel_count": 4,
+          "event_count": 3,
+          "poi_names": [
+            "Red Sand Dunes of Wadi Rum",
+            "Wadi Rum Visitor Center",
+            "French Fortress Ruins (Wadi Rum)",
+            "Desert Police Station & Fort (Wadi Rum)",
+            "Maan Historic Souq",
+            "Um Frouth Rock Bridge",
+            "Barrah Canyon",
+            "Rum Village Bedouin Oasis",
+            "Neolithic Village of Beidha",
+            "Little Petra (Siq al-Barid)"
+          ],
+          "hotel_names": [
+            "Petra Moon Luxury Hotel",
+            "Cleopetra Hotel",
+            "Rocky Mountain Hotel",
+            "Valentine Inn"
+          ],
+          "sample_restaurants": [
+            "Captain's Desert Camp Restaurant Wadi Rum",
+            "Sun City Camp Dining Tent",
+            "Rum Magic Restaurant",
+            "Rahayeb Desert Camp Restaurant",
+            "Al-Pasha Sweets & Bakery Ma'an",
+            "Wadi Rum Rest House Restaurant"
+          ],
+          "event_names": [
+            "Jordan Summer Festival - Ma'an",
+            "Ma'an Cultural Days",
+            "Petra Heritage Fashion and Local Products Exhibition"
+          ]
+        },
+        {
+          "cluster_id": 2,
+          "theme": "Aqaba Governorate · nature",
+          "poi_count": 5,
+          "hotel_count": 4,
+          "event_count": 3,
+          "poi_names": [
+            "Japanese Garden Dive Site",
+            "Aqaba Bird Observatory",
+            "Souq By The Sea",
+            "Princess Salma Park",
+            "Aqaba Spice Souq"
+          ],
+          "hotel_names": [
+            "Al Manara, a Luxury Collection Hotel, Aqaba",
+            "Kempinski Hotel Aqaba",
+            "Cedar Hotel",
+            "Sea View Hotel"
+          ],
+          "sample_restaurants": [
+            "Royal Yacht Club Restaurant Aqaba",
+            "Suzana Restaurant & Cafe",
+            "Pave Restaurant & Cafe",
+            "Ayla Golf Club Restaurant",
+            "Deera Cafe & Restaurant",
+            "Al Kufa Cafe & Restaurant"
+          ],
+          "event_names": [
+            "Golden Triangle Festival",
+            "Aesthetics of Aqaba and Aqabawi Heritage Seminar",
+            "Aqaba International Poetry Evening"
+          ]
+        }
+      ]
+    }
+  },
+  "package": {
+    "welcome_message": "Welcome to Jordan, dear travelers! Get ready for a relaxed luxury adventure through the desert and the sea.",
+    "why_you_will_love_this": {
+      "highlights": [
+        "Red Sand Dunes of Wadi Rum",
+        "Aqaba Marine Park"
+      ],
+      "special_touches": [
+        "Staying at 4-star luxury hotels",
+        "Fine dining in the desert and by the sea"
+      ]
+    },
+    "trip_title": "Desert & Sea: A Luxury Journey Through Wadi Rum and Aqaba",
+    "trip_description": {
+      "overview": "A three-day escape that blends the dramatic landscapes of Wadi Rum with the vibrant marine life of Aqaba, all wrapped in comfort and style.",
+      "included": [
+        "Wadi Rum desert exploration",
+        "Aqaba marine park visit",
+        "Luxury hotel stays",
+        "Fine dining experiences"
+      ],
+      "not_included": [
+        "International flights",
+        "Personal transport",
+        "Optional tours"
+      ]
+    },
+    "trip_details": {
+      "duration": {
+        "days": "3",
+        "nights": "2"
+      },
+      "trip_type": [
+        "Luxury",
+        "Relaxed"
+      ],
+      "number_of_travelers": "2",
+      "budget": {
+        "amount": "900",
+        "currency": "JOD"
+      }
+    },
+    "daily_itinerary": [
+      {
+        "day_number": "1",
+        "day_title": "Wadi Rum Desert Adventure",
+        "day_summary": "Explore the iconic Red Sand Dunes and historic ruins in the heart of Wadi Rum.",
+        "activities": [
+          {
+            "start_time": "09:00",
+            "end_time": "09:45",
+            "activity_title": "Red Sand Dunes of Wadi Rum",
+            "description": "Stroll through the famous dunes.",
+            "location": "Red Sand Dunes of Wadi Rum",
+            "estimated_cost": "5 JOD",
+            "smart_tip": "Wear comfortable shoes and bring water."
+          },
+          {
+            "start_time": "09:45",
+            "end_time": "10:15",
+            "activity_title": "Wadi Rum Visitor Center",
+            "description": "Learn about the desert's history.",
+            "location": "Wadi Rum Visitor Center",
+            "estimated_cost": "5 JOD",
+            "smart_tip": "Ask for a map of nearby trails."
+          },
+          {
+            "start_time": "10:15",
+            "end_time": "10:40",
+            "activity_title": "French Fortress Ruins (Wadi Rum)",
+            "description": "Explore ancient fort ruins.",
+            "location": "French Fortress Ruins (Wadi Rum)",
+            "estimated_cost": "5 JOD",
+            "smart_tip": "Take a short walk to see the ruins from different angles."
+          },
+          {
+            "start_time": "12:00",
+            "end_time": "13:00",
+            "activity_title": "Lunch at Captain's Desert Camp Restaurant",
+            "description": "Enjoy local cuisine in the desert.",
+            "location": "Captain's Desert Camp Restaurant",
+            "estimated_cost": "15 JOD",
+            "smart_tip": "Try the grilled meats and fresh salads."
+          }
+        ],
+        "activity_alternatives": [
+          {
+            "original_activity": "Lunch at Captain's Desert Camp Restaurant",
+            "alternative_activity": "Lunch at Sun City Camp Dining Tent",
+            "reason": "Different menu options."
+          }
+        ]
+      },
+      {
+        "day_number": "2",
+        "day_title": "Wadi Rum Cultural Highlights",
+        "day_summary": "Discover hidden forts and enjoy a desert dining experience.",
+        "activities": [
+          {
+            "start_time": "09:00",
+            "end_time": "09:15",
+            "activity_title": "Desert Police Station & Fort (Wadi Rum)",
+            "description": "Visit a historic fort.",
+            "location": "Desert Police Station & Fort (Wadi Rum)",
+            "estimated_cost": "5 JOD",
+            "smart_tip": "Take a short walk around the fort to see the surrounding landscape."
+          },
+          {
+            "start_time": "12:00",
+            "end_time": "13:00",
+            "activity_title": "Lunch at Rahayeb Desert Camp Restaurant",
+            "description": "Savor traditional desert dishes.",
+            "location": "Rahayeb Desert Camp Restaurant",
+            "estimated_cost": "15 JOD",
+            "smart_tip": "Ask for a local spice blend."
+          }
+        ],
+        "activity_alternatives": [
+          {
+            "original_activity": "Lunch at Rahayeb Desert Camp Restaurant",
+            "alternative_activity": "Lunch at Sun City Camp Dining Tent",
+            "reason": "Different cuisine options."
+          }
+        ]
+      },
+      {
+        "day_number": "3",
+        "day_title": "Aqaba Marine & Culinary Delight",
+        "day_summary": "Enjoy the sea, explore marine life, and dine by the waterfront.",
+        "activities": [
+          {
+            "start_time": "09:00",
+            "end_time": "12:00",
+            "activity_title": "Aqaba Marine Park",
+            "description": "Explore marine life and snorkeling.",
+            "location": "Aqaba Marine Park",
+            "estimated_cost": "0 JOD",
+            "smart_tip": "Wear a wetsuit for better visibility."
+          },
+          {
+            "start_time": "12:00",
+            "end_time": "13:00",
+            "activity_title": "Lunch at Royal Yacht Club Restaurant Aqaba",
+            "description": "Fine dining with a sea view.",
+            "location": "Royal Yacht Club Restaurant Aqaba",
+            "estimated_cost": "22 JOD",
+            "smart_tip": "Reserve a table in advance for the best view."
+          },
+          {
+            "start_time": "13:00",
+            "end_time": "14:00",
+            "activity_title": "Gorgone I Reef",
+            "description": "Visit the historic reef site.",
+            "location": "Gorgone I Reef",
+            "estimated_cost": "0 JOD",
+            "smart_tip": "Take a short walk to see the reef from different angles."
+          },
+          {
+            "start_time": "18:30",
+            "end_time": "20:00",
+            "activity_title": "Dinner at Ayla Golf Club Restaurant",
+            "description": "Enjoy a gourmet dinner by the sea.",
+            "location": "Ayla Golf Club Restaurant",
+            "estimated_cost": "22 JOD",
+            "smart_tip": "Try the local seafood specialties."
+          }
+        ],
+        "activity_alternatives": [
+          {
+            "original_activity": "Lunch at Royal Yacht Club Restaurant Aqaba",
+            "alternative_activity": "Lunch at Suzana Restaurant & Cafe",
+            "reason": "More affordable option."
+          }
+        ]
+      }
+    ],
+    "budget_summary": {
+      "items": [
+        {
+          "category": "Accommodation",
+          "estimated_cost": "385 JOD",
+          "notes": "85 JOD/night for Petra Moon Luxury Hotel (2 nights) + 215 JOD/night for Al Manara (1 night)."
+        },
+        {
+          "category": "Entry Fees",
+          "estimated_cost": "20 JOD",
+          "notes": "5 JOD each for Red Sand Dunes, Wadi Rum Visitor Center, French Fortress Ruins, and Desert Police Station & Fort."
+        },
+        {
+          "category": "Restaurants",
+          "estimated_cost": "74 JOD",
+          "notes": "15 JOD at Captain's Desert Camp, 15 JOD at Rahayeb Desert Camp, 22 JOD at Royal Yacht Club, 22 JOD at Ayla Golf Club."
+        }
+      ],
+      "total_estimated_cost": "479 JOD"
+    },
+    "essential_travel_tips": [
+      {
+        "category": "Dining",
+        "tips": [
+          "Reserve tables at fine dining restaurants in advance.",
+          "Ask for local specialties at desert camps."
+        ]
+      },
+      {
+        "category": "Safety",
+        "tips": [
+          "Carry sufficient water and sunscreen in the desert.",
+          "Wear comfortable footwear for uneven terrain."
+        ]
+      },
+      {
+        "category": "Packing",
+        "tips": [
+          "Pack light layers for desert heat and cooler evenings.",
+          "Bring a reusable water bottle."
+        ]
+      }
+    ],
+    "explanations": {
+      "trip_planning_reason": "Route follows retrieved places matching the traveler preferences.",
+      "selection_reason": "Activities and dining taken from retrieved EntityCards."
+    }
+  }
+}

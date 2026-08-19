@@ -1,0 +1,1070 @@
+[
+  {
+    "sme_id": "SME-000011",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Zarqa River Tourism & Travel",
+      "description": "Zarqa River Tourism & Travel is a local tour operator offering nature walks, regional exploration, and customized travel planning across the Zarqa Governorate and surrounding valleys.",
+      "experience_years": 8,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Nature",
+        "History",
+        "Local Experiences"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples",
+        "Solo Travelers"
+      ]
+    },
+    "contact": {
+      "phone": "+962 5 398 0000",
+      "mobile": "+962 7 9011 0000",
+      "email": "info@zarqarivertravel.example",
+      "website": "https://www.zarqarivertravel.example",
+      "whatsapp": "+962 7 9011 0000"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Zarqa",
+      "region": "Zarqa Governorate",
+      "address": "Army Street, Zarqa"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Zarqa",
+        "Azraq",
+        "Amman",
+        "Jerash"
+      ],
+      "preferred_destinations": [
+        "Zarqa",
+        "Azraq"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "Arabic"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Private Tours",
+        "Local Experiences",
+        "Transportation"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Local Guides",
+        "Professional Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00-18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 20,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 35.0,
+      "max_price": 180.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "Nature",
+        "Local Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.5,
+      "review_count": 24,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000012",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Azraq Wetlands Eco-Tours",
+      "description": "Azraq Wetlands Eco-Tours specializes in ecological excursions, bird watching expeditions, and desert castle heritage tours operating from the Zarqa and Azraq region.",
+      "experience_years": 10,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Nature",
+        "Desert",
+        "History"
+      ],
+      "target_customer_types": [
+        "Solo Travelers",
+        "Couples",
+        "Families"
+      ]
+    },
+    "contact": {
+      "phone": "+962 5 383 1111",
+      "mobile": "+962 7 8122 1111",
+      "email": "contact@azraqecotours.example",
+      "website": "https://www.azraqecotours.example",
+      "whatsapp": "+962 7 8122 1111"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Zarqa",
+      "region": "Zarqa Governorate",
+      "address": "King Hussein Street, Zarqa"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Azraq",
+        "Zarqa",
+        "Shaumari",
+        "Amman"
+      ],
+      "preferred_destinations": [
+        "Azraq",
+        "Shaumari"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Guiding",
+        "Cultural Experiences",
+        "Special Interest Tours",
+        "Adventure Activities"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Licensed Tourist Guides",
+        "Specialized Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "08:30-17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 40.0,
+      "max_price": 200.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "Nature",
+        "Desert Experiences",
+        "History & Culture"
+      ]
+    },
+    "reviews": {
+      "rating": 4.7,
+      "review_count": 42,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000013",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Desert Castles Travel Agency",
+      "description": "Desert Castles Travel Agency focuses on historical itineraries covering Jordan's eastern desert castles, Umayyad heritage sites, and Bedouin cultural tours originating from Zarqa.",
+      "experience_years": 12,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Desert",
+        "Archaeology"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples"
+      ]
+    },
+    "contact": {
+      "phone": "+962 5 396 2222",
+      "mobile": "+962 7 7233 2222",
+      "email": "info@desertcastlestravel.example",
+      "website": "https://www.desertcastlestravel.example",
+      "whatsapp": "+962 7 7233 2222"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Zarqa",
+      "region": "Zarqa Governorate",
+      "address": "Saad bin Abi Waqas Street, Zarqa"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Zarqa",
+        "Azraq",
+        "Quseir Amra",
+        "Qasr Kharana"
+      ],
+      "preferred_destinations": [
+        "Azraq",
+        "Quseir Amra"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Private Tours",
+        "Transportation",
+        "Archaeological Tourism"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Licensed Tourist Guides",
+        "Specialized Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00-17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 50.0,
+      "max_price": 250.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Desert Experiences",
+        "Archaeological Tourism"
+      ]
+    },
+    "reviews": {
+      "rating": 4.6,
+      "review_count": 31,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000014",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Al-Rawda Tourism & Travel",
+      "description": "Al-Rawda Tourism & Travel provides comprehensive travel services, ticketing, and regional tour packages based in the commercial hub of Zarqa.",
+      "experience_years": 9,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Culture",
+        "Shopping",
+        "History"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Solo Travelers",
+        "Couples"
+      ]
+    },
+    "contact": {
+      "phone": "+962 5 397 3333",
+      "mobile": "+962 7 9344 3333",
+      "email": "booking@alrawdatravel.example",
+      "website": "https://www.alrawdatravel.example",
+      "whatsapp": "+962 7 9344 3333"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Zarqa",
+      "region": "Zarqa Governorate",
+      "address": "Shouneh Street, Zarqa"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Zarqa",
+        "Amman",
+        "Jerash",
+        "Irbid"
+      ],
+      "preferred_destinations": [
+        "Zarqa",
+        "Amman"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "Arabic"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Flight / Airline Ticketing",
+        "Hotel / Accommodation Booking",
+        "Private Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": false,
+      "guide_types": []
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00-19:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 20,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 30.0,
+      "max_price": 150.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Family Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.3,
+      "review_count": 18,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000015",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "East Gate Travel Agency",
+      "description": "East Gate Travel Agency coordinates inbound travel logistics, airport transfers, and customized excursions connecting Zarqa with Jordan's main tourism circuits.",
+      "experience_years": 7,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Culture"
+      ],
+      "target_customer_types": [
+        "Couples",
+        "Families"
+      ]
+    },
+    "contact": {
+      "phone": "+962 5 395 4444",
+      "mobile": "+962 7 8455 4444",
+      "email": "info@eastgatetravel.example",
+      "website": "https://www.eastgatetravel.example",
+      "whatsapp": "+962 7 8455 4444"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Zarqa",
+      "region": "Zarqa Governorate",
+      "address": "Mكة Street, Zarqa"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Zarqa",
+        "Amman",
+        "Madaba",
+        "Dead Sea"
+      ],
+      "preferred_destinations": [
+        "Zarqa",
+        "Amman"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Airport Transfers",
+        "Transportation",
+        "Tour Planning & Itinerary Design",
+        "Private Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Professional Guides",
+        "Local Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00-18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 40.0,
+      "max_price": 190.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Luxury Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.4,
+      "review_count": 22,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000016",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Bani Hashem Tourism & Travel",
+      "description": "Bani Hashem Tourism & Travel offers localized tour arrangements, ticketing services, and cultural heritage trips based in Zarqa.",
+      "experience_years": 11,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Culture",
+        "History",
+        "Religious Sites"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Solo Travelers"
+      ]
+    },
+    "contact": {
+      "phone": "+962 5 394 5555",
+      "mobile": "+962 7 7566 5555",
+      "email": "support@banihashemtravel.example",
+      "website": "https://www.banihashemtravel.example",
+      "whatsapp": "+962 7 7566 5555"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Zarqa",
+      "region": "Zarqa Governorate",
+      "address": "Prince Nayef Street, Zarqa"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Zarqa",
+        "Amman",
+        "Azraq"
+      ],
+      "preferred_destinations": [
+        "Zarqa",
+        "Amman"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "Arabic"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Flight / Airline Ticketing",
+        "Religious Tours",
+        "Custom Itineraries"
+      ]
+    },
+    "guides": {
+      "provides_guides": false,
+      "guide_types": []
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00-18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 12,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 25.0,
+      "max_price": 120.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Religious Tourism"
+      ]
+    },
+    "reviews": {
+      "rating": 4.2,
+      "review_count": 14,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000017",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Zarqa Oasis Travel Agency",
+      "description": "Zarqa Oasis Travel Agency specializes in curated leisure tours, regional group trips, and comprehensive travel coordination operating out of Zarqa.",
+      "experience_years": 6,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Culture",
+        "Shopping",
+        "Nature"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples"
+      ]
+    },
+    "contact": {
+      "phone": "+962 5 393 6666",
+      "mobile": "+962 7 9677 6666",
+      "email": "info@zarqaoasistravel.example",
+      "website": "https://www.zarqaoasistravel.example",
+      "whatsapp": "+962 7 9677 6666"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Zarqa",
+      "region": "Zarqa Governorate",
+      "address": "Cinema Street, Zarqa"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Zarqa",
+        "Amman",
+        "Dead Sea",
+        "Jerash"
+      ],
+      "preferred_destinations": [
+        "Zarqa",
+        "Dead Sea"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "Arabic"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Hotel / Accommodation Booking",
+        "Private Tours",
+        "Group Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Local Guides",
+        "Professional Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00-18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 30.0,
+      "max_price": 160.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Family Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.5,
+      "review_count": 27,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000018",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Mesopotamia Jordan Travel",
+      "description": "Mesopotamia Jordan Travel provides incoming tour operator services connecting eastern trade route heritage with modern Jordanian tourism circuits from Zarqa.",
+      "experience_years": 13,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Archaeology",
+        "Culture"
+      ],
+      "target_customer_types": [
+        "Solo Travelers",
+        "Couples",
+        "Families"
+      ]
+    },
+    "contact": {
+      "phone": "+962 5 392 7777",
+      "mobile": "+962 7 8888 7777",
+      "email": "reservations@mesopotamiatravel.example",
+      "website": "https://www.mesopotamiatravel.example",
+      "whatsapp": "+962 7 8888 7777"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Zarqa",
+      "region": "Zarqa Governorate",
+      "address": "Al-Husseini Street, Zarqa"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Zarqa",
+        "Azraq",
+        "Amman",
+        "Madaba"
+      ],
+      "preferred_destinations": [
+        "Azraq",
+        "Amman"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Guiding",
+        "Custom Itineraries",
+        "Special Interest Tours",
+        "Archaeological Tourism"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Licensed Tourist Guides",
+        "Specialized Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ],
+      "working_hours": "09:00-17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 20,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 45.0,
+      "max_price": 220.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Archaeological Tourism"
+      ]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 39,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000019",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Al-Nakheel Tourism & Travel",
+      "description": "Al-Nakheel Tourism & Travel offers local tour planning, transportation logistics, and family holiday bookings based in Zarqa city.",
+      "experience_years": 8,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Culture",
+        "History",
+        "Nature"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples"
+      ]
+    },
+    "contact": {
+      "phone": "+962 5 391 8888",
+      "mobile": "+962 7 7999 8888",
+      "email": "info@alnakheeltravel.example",
+      "website": "https://www.alnakheeltravel.example",
+      "whatsapp": "+962 7 7999 8888"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Zarqa",
+      "region": "Zarqa Governorate",
+      "address": "King Talal Street, Zarqa"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Zarqa",
+        "Amman",
+        "Jerash",
+        "Ajloun"
+      ],
+      "preferred_destinations": [
+        "Zarqa",
+        "Amman"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "Arabic"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Transportation",
+        "Private Tours",
+        "Hotel / Accommodation Booking"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Local Guides",
+        "Professional Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00-18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 18,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 35.0,
+      "max_price": 170.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Family Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.4,
+      "review_count": 19,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000020",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Zarqa Gateway Travel",
+      "description": "Zarqa Gateway Travel facilitates incoming tourism logistics, custom travel planning, and airport transfer services based in the Zarqa Governorate.",
+      "experience_years": 10,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Culture",
+        "Desert"
+      ],
+      "target_customer_types": [
+        "Couples",
+        "Families",
+        "Solo Travelers"
+      ]
+    },
+    "contact": {
+      "phone": "+962 5 390 9999",
+      "mobile": "+962 7 9000 9999",
+      "email": "support@zarqagateway.example",
+      "website": "https://www.zarqagateway.example",
+      "whatsapp": "+962 7 9000 9999"
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Zarqa",
+      "region": "Zarqa Governorate",
+      "address": "Saad bin Abi Waqas Street, Zarqa"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Zarqa",
+        "Amman",
+        "Azraq",
+        "Madaba"
+      ],
+      "preferred_destinations": [
+        "Zarqa",
+        "Amman"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Airport Transfers",
+        "Private Tours",
+        "Transportation"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Licensed Tourist Guides",
+        "Professional Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00-18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 40.0,
+      "max_price": 200.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Desert Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.6,
+      "review_count": 35,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  }
+]

@@ -1,0 +1,480 @@
+{
+  "duration_days": 2,
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "theme": "Jerash",
+      "summary": "full cluster",
+      "pois": [
+        {
+          "poi": {
+            "id": "p0",
+            "name": "POI 0",
+            "role": "anchor",
+            "facts": {
+              "notes": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            }
+          },
+          "restaurants": [
+            {
+              "id": "r00",
+              "name": "R0"
+            },
+            {
+              "id": "r01",
+              "name": "R1"
+            },
+            {
+              "id": "r02",
+              "name": "R2"
+            },
+            {
+              "id": "r03",
+              "name": "R3"
+            },
+            {
+              "id": "r04",
+              "name": "R4"
+            },
+            {
+              "id": "r05",
+              "name": "R5"
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "p0",
+              "km": 0
+            },
+            {
+              "poi_id": "p1",
+              "km": 1
+            },
+            {
+              "poi_id": "p2",
+              "km": 2
+            },
+            {
+              "poi_id": "p3",
+              "km": 3
+            },
+            {
+              "poi_id": "p4",
+              "km": 4
+            },
+            {
+              "poi_id": "p5",
+              "km": 5
+            },
+            {
+              "poi_id": "p6",
+              "km": 6
+            },
+            {
+              "poi_id": "p7",
+              "km": 7
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "p1",
+            "name": "POI 1",
+            "role": "anchor",
+            "facts": {
+              "notes": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            }
+          },
+          "restaurants": [
+            {
+              "id": "r10",
+              "name": "R0"
+            },
+            {
+              "id": "r11",
+              "name": "R1"
+            },
+            {
+              "id": "r12",
+              "name": "R2"
+            },
+            {
+              "id": "r13",
+              "name": "R3"
+            },
+            {
+              "id": "r14",
+              "name": "R4"
+            },
+            {
+              "id": "r15",
+              "name": "R5"
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "p0",
+              "km": 0
+            },
+            {
+              "poi_id": "p1",
+              "km": 1
+            },
+            {
+              "poi_id": "p2",
+              "km": 2
+            },
+            {
+              "poi_id": "p3",
+              "km": 3
+            },
+            {
+              "poi_id": "p4",
+              "km": 4
+            },
+            {
+              "poi_id": "p5",
+              "km": 5
+            },
+            {
+              "poi_id": "p6",
+              "km": 6
+            },
+            {
+              "poi_id": "p7",
+              "km": 7
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "p2",
+            "name": "POI 2",
+            "role": "anchor",
+            "facts": {
+              "notes": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            }
+          },
+          "restaurants": [
+            {
+              "id": "r20",
+              "name": "R0"
+            },
+            {
+              "id": "r21",
+              "name": "R1"
+            },
+            {
+              "id": "r22",
+              "name": "R2"
+            },
+            {
+              "id": "r23",
+              "name": "R3"
+            },
+            {
+              "id": "r24",
+              "name": "R4"
+            },
+            {
+              "id": "r25",
+              "name": "R5"
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "p0",
+              "km": 0
+            },
+            {
+              "poi_id": "p1",
+              "km": 1
+            },
+            {
+              "poi_id": "p2",
+              "km": 2
+            },
+            {
+              "poi_id": "p3",
+              "km": 3
+            },
+            {
+              "poi_id": "p4",
+              "km": 4
+            },
+            {
+              "poi_id": "p5",
+              "km": 5
+            },
+            {
+              "poi_id": "p6",
+              "km": 6
+            },
+            {
+              "poi_id": "p7",
+              "km": 7
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "p3",
+            "name": "POI 3",
+            "role": "anchor",
+            "facts": {
+              "notes": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            }
+          },
+          "restaurants": [
+            {
+              "id": "r30",
+              "name": "R0"
+            },
+            {
+              "id": "r31",
+              "name": "R1"
+            },
+            {
+              "id": "r32",
+              "name": "R2"
+            },
+            {
+              "id": "r33",
+              "name": "R3"
+            },
+            {
+              "id": "r34",
+              "name": "R4"
+            },
+            {
+              "id": "r35",
+              "name": "R5"
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "p0",
+              "km": 0
+            },
+            {
+              "poi_id": "p1",
+              "km": 1
+            },
+            {
+              "poi_id": "p2",
+              "km": 2
+            },
+            {
+              "poi_id": "p3",
+              "km": 3
+            },
+            {
+              "poi_id": "p4",
+              "km": 4
+            },
+            {
+              "poi_id": "p5",
+              "km": 5
+            },
+            {
+              "poi_id": "p6",
+              "km": 6
+            },
+            {
+              "poi_id": "p7",
+              "km": 7
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "p4",
+            "name": "POI 4",
+            "role": "anchor",
+            "facts": {
+              "notes": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            }
+          },
+          "restaurants": [
+            {
+              "id": "r40",
+              "name": "R0"
+            },
+            {
+              "id": "r41",
+              "name": "R1"
+            },
+            {
+              "id": "r42",
+              "name": "R2"
+            },
+            {
+              "id": "r43",
+              "name": "R3"
+            },
+            {
+              "id": "r44",
+              "name": "R4"
+            },
+            {
+              "id": "r45",
+              "name": "R5"
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "p0",
+              "km": 0
+            },
+            {
+              "poi_id": "p1",
+              "km": 1
+            },
+            {
+              "poi_id": "p2",
+              "km": 2
+            },
+            {
+              "poi_id": "p3",
+              "km": 3
+            },
+            {
+              "poi_id": "p4",
+              "km": 4
+            },
+            {
+              "poi_id": "p5",
+              "km": 5
+            },
+            {
+              "poi_id": "p6",
+              "km": 6
+            },
+            {
+              "poi_id": "p7",
+              "km": 7
+            }
+          ]
+        },
+        {
+          "poi": {
+            "id": "p5",
+            "name": "POI 5",
+            "role": "anchor",
+            "facts": {
+              "notes": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            }
+          },
+          "restaurants": [
+            {
+              "id": "r50",
+              "name": "R0"
+            },
+            {
+              "id": "r51",
+              "name": "R1"
+            },
+            {
+              "id": "r52",
+              "name": "R2"
+            },
+            {
+              "id": "r53",
+              "name": "R3"
+            },
+            {
+              "id": "r54",
+              "name": "R4"
+            },
+            {
+              "id": "r55",
+              "name": "R5"
+            }
+          ],
+          "dining_available": true,
+          "distances_to_others": [
+            {
+              "poi_id": "p0",
+              "km": 0
+            },
+            {
+              "poi_id": "p1",
+              "km": 1
+            },
+            {
+              "poi_id": "p2",
+              "km": 2
+            },
+            {
+              "poi_id": "p3",
+              "km": 3
+            },
+            {
+              "poi_id": "p4",
+              "km": 4
+            },
+            {
+              "poi_id": "p5",
+              "km": 5
+            },
+            {
+              "poi_id": "p6",
+              "km": 6
+            },
+            {
+              "poi_id": "p7",
+              "km": 7
+            }
+          ]
+        }
+      ],
+      "hotels": [
+        {
+          "id": "h0",
+          "name": "H0"
+        },
+        {
+          "id": "h1",
+          "name": "H1"
+        },
+        {
+          "id": "h2",
+          "name": "H2"
+        },
+        {
+          "id": "h3",
+          "name": "H3"
+        },
+        {
+          "id": "h4",
+          "name": "H4"
+        }
+      ],
+      "events": [
+        {
+          "id": "e0",
+          "name": "E0"
+        },
+        {
+          "id": "e1",
+          "name": "E1"
+        },
+        {
+          "id": "e2",
+          "name": "E2"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "rag_status": "ok",
+    "source": "retriever",
+    "compacted": false,
+    "planning_lock": "PLANNING LOCK (hard — plan OVER clusters, then write JSON):\n- Fill ALL 2 days (nights=1). No empty/partial days.\n- Mandatory destinations (preferredRegions + mustVisit): Dead Sea, Petra, Wadi Rum. Plan ONLY in these areas — any other cluster is reference material, not a day.\n- Destination→cluster map: Dead Sea→UNMAPPED (no matching cluster); Petra→UNMAPPED (no matching cluster); Wadi Rum→UNMAPPED (no matching cluster)\n- Day→cluster route (one day per cluster, in this order): D1:C0/Jerash → D2:C0/Jerash\n- mustVisit entity lock: Petra→NOT IN EVIDENCE (still plan around preferred regions); Dead Sea→NOT IN EVIDENCE (still plan around preferred regions)\n- Each day draws its POIs, meals and hotel from ITS OWN cluster.\n- No entity twice in the whole trip: a POI or restaurant used on one day cannot reappear on another, and lunch and dinner are different places. Two days in the same city are two different clusters — use each cluster's own entities.\n- Each day: 3 sights + lunch + dinner (5 entries, 6 max). Two sights only when the cluster has no third worth visiting, and say so. No gap over 90 minutes, no site under 45 minutes, at least 4 hours of sightseeing per full day.\n- activity_alternatives come from that cluster's UNUSED entities: never an entity scheduled elsewhere in the trip, and never two scheduled stops as each other's swap.\n- One visit, one fee (POIs within 600 m are parts of one site): (no such groups here)\n- Lodging requested: rating=4 star, type=boutique. Per-night base (night N = where day N ends): N1(C0): H0 [unrated] (rating absent from card — claim no rating)\n- Money: 1500 JOD covers 2 traveller(s) for 2 days (≈750 JOD/day for the whole party). Lodging = nightly rate x 1 night(s) x ~1 room(s), arithmetic shown in the notes. aiPriority=authentic → favour local, family-run entities where the cards say so. SME=Family-owned Businesses.\n- Entry fees are the last thing to cut: never skip a named destination's main ticketed site to save money, and state what is left of the budget.\n- Names/hours/fees: EntityCards only. If a card does not carry a fact (rating, booking requirement, closing day), do not state it.\n- Prices: use the card value as-is, multiplied by the party size, and show the arithmetic in the tip (\"10 JOD x 4\"). If a card has no price, estimate from pricing_level and label it \"~N JOD (estimated)\".\n- Events are reference only: never schedule them in the itinerary or budget."
+  }
+}

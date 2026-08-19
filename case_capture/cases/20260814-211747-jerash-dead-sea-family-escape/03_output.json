@@ -1,0 +1,369 @@
+{
+  "metadata": {
+    "model": "gpt-oss:20b-cloud",
+    "provider": "ollama",
+    "mode": "build",
+    "latencyMs": 304498.71,
+    "retries": 2,
+    "caseId": null,
+    "rag": {
+      "status": "ok",
+      "source": "retriever",
+      "duration_days": 3,
+      "cluster_count": 3,
+      "clusters": [
+        {
+          "cluster_id": 0,
+          "theme": "Madaba Governorate · photography, museums",
+          "poi_count": 10,
+          "hotel_count": 4,
+          "event_count": 3,
+          "poi_names": [
+            "Dead Sea Panorama Complex (Madaba Overlook)",
+            "Ma'in Hot Springs",
+            "Wadi Mujib Biosphere Reserve (Madaba Approach)",
+            "Zarqa Ma'in Waterfalls (Balqa Border Area)",
+            "Zarqa Ma'in Thermal Springs (Southern Access/Wadi Zarqa)",
+            "Mujib Biosphere Reserve",
+            "Wadi Hidan Canyon",
+            "Wadi Zerqa Ma'in Gorge",
+            "Madaba Museum",
+            "Al-Faisaliyah Viewpoint"
+          ],
+          "hotel_names": [
+            "Ma'In Hotel & Spa",
+            "Saint John Hotel",
+            "Mount Nebo Hotel & Restaurant Madaba City Center",
+            "Mosaic City Hotel"
+          ],
+          "sample_restaurants": [
+            "Dead Sea Panorama Restaurant",
+            "Il Terrazzo",
+            "Wadi Bin Hammad Rest House & Restaurant",
+            "Ocean Fresh Fish Sweimeh",
+            "Zero Degrees Cafe Sweimeh",
+            "Champions Sports Bar"
+          ],
+          "event_names": [
+            "National Celebrations Programme - Madaba",
+            "Eid Joy Celebration - Madaba",
+            "Aesthetics of Place Cultural Programme - Madaba"
+          ]
+        },
+        {
+          "cluster_id": 1,
+          "theme": "Balqa Governorate · museums",
+          "poi_count": 10,
+          "hotel_count": 4,
+          "event_count": 3,
+          "poi_names": [
+            "Al-Salt Folklore Museum (Abu Jaber House)",
+            "Abu Jaber House",
+            "Burin Forest Park",
+            "Wadi Shueib Scenic Road and Stream",
+            "Fuheis Cultural Centre",
+            "The Children's Museum Jordan",
+            "Zaha Cultural Center",
+            "South Shuna Public Park",
+            "Al-Fuheis Heritage Quarter",
+            "Zai Forest Picnic Area"
+          ],
+          "hotel_names": [
+            "Saltus Hotel",
+            "Jordan Heritage Madhafa",
+            "Beit Aziz Boutique Hotel",
+            "Saraya Locanda"
+          ],
+          "sample_restaurants": [
+            "Beit Khairat As-Salt",
+            "Sitt Inaya Heritage House",
+            "Al Ghabah Restaurant",
+            "Bab Al-Hara Restaurant Salt",
+            "Baladna Restaurant",
+            "Dardasha Kitchen"
+          ],
+          "event_names": [
+            "Jaret Al Qalaa Heritage Market",
+            "Jordan International Food Festival",
+            "Shabib Festival for Arts and Culture"
+          ]
+        },
+        {
+          "cluster_id": 2,
+          "theme": "Jerash Governorate · museums, photography",
+          "poi_count": 10,
+          "hotel_count": 4,
+          "event_count": 3,
+          "poi_names": [
+            "Jerash Archaeological Museum",
+            "Al-Mustaba Eco-Park",
+            "Suf Village Heritage Center",
+            "Al-Kittah Village and Springs",
+            "Wadi Shamali Viewpoint",
+            "Ajloun Olive Press Museum",
+            "Ain Al-Basha Public Library and Cultural Hub",
+            "Rasoon Village Heritage Area",
+            "Al-Karakah Nature Trail",
+            "Ain Al-Basha Public Park"
+          ],
+          "hotel_names": [
+            "The Olive Branch Hotel",
+            "Celestia Boutique Inn",
+            "Jerash Hotel",
+            "Makanak Villas"
+          ],
+          "sample_restaurants": [
+            "Peter Jerash Restaurant",
+            "Green Valley Restaurant Jerash",
+            "Jerash Canyon Restaurant",
+            "Jerash Valley Resort Restaurant",
+            "Ajloun Forest Reserve Restaurant",
+            "Al-Manara Grill & Restaurant"
+          ],
+          "event_names": [
+            "National Celebrations Programme - Jerash",
+            "Jerash Festival for Culture and Arts",
+            "Aesthetics of Place Cultural Programme - Jerash"
+          ]
+        }
+      ]
+    }
+  },
+  "package": {
+    "welcome_message": "Welcome to your 3-day family adventure in Jerash and the Dead Sea!",
+    "why_you_will_love_this": {
+      "highlights": [
+        "Ancient Roman ruins and mosaics in Jerash",
+        "Spectacular Dead Sea views and thermal springs",
+        "Delicious Middle Eastern cuisine at local restaurants",
+        "Family-friendly activities and scenic photography spots"
+      ],
+      "special_touches": [
+        "Birthday celebration with a sunset photo session at the Dead Sea",
+        "Hand-picked local eateries for authentic Jordanian flavors"
+      ]
+    },
+    "trip_title": "Jerash & Dead Sea Family Escape",
+    "trip_description": {
+      "overview": "A 3-day journey that blends historic exploration, natural wonders, and culinary delights, perfect for a family celebrating a birthday.",
+      "included": [
+        "Museum visits in Jerash",
+        "Scenic viewpoints and thermal springs",
+        "Local Middle Eastern meals",
+        "3-star hotel stays in Jerash and Dead Sea",
+        "Birthday surprise at sunset"
+      ],
+      "not_included": [
+        "Transportation between sites",
+        "Event tickets",
+        "High-end dining",
+        "Souvenir purchases"
+      ]
+    },
+    "trip_details": {
+      "duration": {
+        "days": "3",
+        "nights": "2"
+      },
+      "trip_type": [],
+      "number_of_travelers": "",
+      "budget": {
+        "amount": "1000 JOD",
+        "currency": "JOD"
+      }
+    },
+    "daily_itinerary": [
+      {
+        "day_number": "1",
+        "day_title": "Jerash Heritage & Culture",
+        "day_summary": "Explore Roman antiquities, enjoy local cuisine, and capture stunning photos.",
+        "activities": [
+          {
+            "start_time": "09:00",
+            "end_time": "10:00",
+            "activity_title": "Jerash Archaeological Museum",
+            "description": "Discover Roman mosaics and artifacts.",
+            "location": "Jerash",
+            "estimated_cost": "Free",
+            "smart_tip": "Arrive early to avoid crowds."
+          },
+          {
+            "start_time": "12:00",
+            "end_time": "13:30",
+            "activity_title": "Lunch at Peter Jerash Restaurant",
+            "description": "Taste local Middle Eastern dishes.",
+            "location": "Jerash",
+            "estimated_cost": "50 JOD",
+            "smart_tip": "Try the traditional Mansaf."
+          },
+          {
+            "start_time": "14:00",
+            "end_time": "16:00",
+            "activity_title": "Al-Mustaba Eco-Park",
+            "description": "Walk through oak forests and enjoy nature.",
+            "location": "Jerash",
+            "estimated_cost": "1 JOD",
+            "smart_tip": "Bring water and sunblock."
+          },
+          {
+            "start_time": "18:30",
+            "end_time": "20:00",
+            "activity_title": "Dinner at Green Valley Restaurant Jerash",
+            "description": "Enjoy a scenic meal with local flavors.",
+            "location": "Jerash",
+            "estimated_cost": "85 JOD",
+            "smart_tip": "Reserve a table with a view."
+          }
+        ],
+        "activity_alternatives": []
+      },
+      {
+        "day_number": "2",
+        "day_title": "Jerash Villages & Springs",
+        "day_summary": "Visit heritage centers, enjoy local springs, and relax with family.",
+        "activities": [
+          {
+            "start_time": "09:00",
+            "end_time": "10:30",
+            "activity_title": "Suf Village Heritage Center",
+            "description": "Explore Ottoman stone houses and local crafts.",
+            "location": "Jerash",
+            "estimated_cost": "Free",
+            "smart_tip": "Wear comfortable shoes."
+          },
+          {
+            "start_time": "12:00",
+            "end_time": "13:30",
+            "activity_title": "Lunch at Jerash Valley Resort Restaurant",
+            "description": "Sample Middle Eastern specialties.",
+            "location": "Jerash",
+            "estimated_cost": "110 JOD",
+            "smart_tip": "Reserve a table early."
+          },
+          {
+            "start_time": "14:30",
+            "end_time": "16:00",
+            "activity_title": "Al-Kittah Village and Springs",
+            "description": "Stroll through olive groves and springs.",
+            "location": "Jerash",
+            "estimated_cost": "Free",
+            "smart_tip": "Take photos of the natural scenery."
+          },
+          {
+            "start_time": "18:30",
+            "end_time": "20:00",
+            "activity_title": "Dinner at Jerash Valley Resort Restaurant",
+            "description": "Enjoy a family-friendly dinner.",
+            "location": "Jerash",
+            "estimated_cost": "110 JOD",
+            "smart_tip": "Try the local grilled meats."
+          }
+        ],
+        "activity_alternatives": []
+      },
+      {
+        "day_number": "3",
+        "day_title": "Dead Sea Wonders",
+        "day_summary": "Experience thermal springs, the Dead Sea, and a memorable sunset.",
+        "activities": [
+          {
+            "start_time": "09:00",
+            "end_time": "12:00",
+            "activity_title": "Wadi Mujib Biosphere Reserve (Madaba Approach)",
+            "description": "Hike through the canyon and enjoy natural pools.",
+            "location": "Dead Sea region",
+            "estimated_cost": "21 JOD",
+            "smart_tip": "Wear sturdy shoes and bring a hat."
+          },
+          {
+            "start_time": "12:00",
+            "end_time": "13:30",
+            "activity_title": "Lunch at Dead Sea Panorama Restaurant",
+            "description": "Dine with panoramic views of the Dead Sea.",
+            "location": "Dead Sea region",
+            "estimated_cost": "110 JOD",
+            "smart_tip": "Reserve a table near the terrace."
+          },
+          {
+            "start_time": "14:00",
+            "end_time": "15:30",
+            "activity_title": "Dead Sea Panorama Complex",
+            "description": "Enjoy the cliff-edge viewpoint and exhibits.",
+            "location": "Dead Sea region",
+            "estimated_cost": "2 JOD",
+            "smart_tip": "Capture sunset photos from the terrace."
+          },
+          {
+            "start_time": "18:30",
+            "end_time": "20:00",
+            "activity_title": "Dinner at Dead Sea Panorama Restaurant",
+            "description": "Finish the day with a sunset dinner.",
+            "location": "Dead Sea region",
+            "estimated_cost": "110 JOD",
+            "smart_tip": "Order the mezze platter for sharing."
+          }
+        ],
+        "activity_alternatives": []
+      }
+    ],
+    "budget_summary": {
+      "items": [
+        {
+          "category": "Accommodation",
+          "estimated_cost": "Not Available",
+          "notes": "Incomplete model budget — grounded rates missing or truncated"
+        },
+        {
+          "category": "Meals",
+          "estimated_cost": "Not Available",
+          "notes": "Incomplete model budget"
+        },
+        {
+          "category": "Activities & Entry Fees",
+          "estimated_cost": "Not Available",
+          "notes": "Incomplete model budget"
+        },
+        {
+          "category": "Remaining Budget",
+          "estimated_cost": "1000 JOD total cap",
+          "notes": "Traveler budget ceiling from wizard"
+        }
+      ],
+      "total_estimated_cost": "Not Available"
+    },
+    "essential_travel_tips": [
+      {
+        "category": "Safety",
+        "tips": [
+          "Stay hydrated and wear sunscreen during daytime hikes.",
+          "Keep a small first-aid kit for minor cuts and sunburns."
+        ]
+      },
+      {
+        "category": "Packing",
+        "tips": [
+          "Bring comfortable walking shoes for museum and canyon trails.",
+          "Pack a light jacket for cooler evenings by the Dead Sea."
+        ]
+      },
+      {
+        "category": "Local Etiquette",
+        "tips": [
+          "Respect local customs; dress modestly when visiting heritage sites.",
+          "Use the Arabic word 'Shukran' to say thank you."
+        ]
+      },
+      {
+        "category": "Food & Drink",
+        "tips": [
+          "Try the local Mansaf and mezze at recommended restaurants.",
+          "Drink bottled water and avoid tap water."
+        ]
+      }
+    ],
+    "explanations": {
+      "trip_planning_reason": "Balanced active itinerary focusing on family-friendly activities, photography, museums, and a birthday celebration at the Dead Sea.",
+      "selection_reason": "Chosen based on user preferences for food, photography, museums, and must-visit Dead Sea, with 3-star hotels and budget-friendly options."
+    }
+  }
+}

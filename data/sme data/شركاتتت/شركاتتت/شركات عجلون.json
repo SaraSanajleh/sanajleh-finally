@@ -1,0 +1,1303 @@
+[
+  {
+    "sme_id": "SME-000001",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Ajloun Forest Reserve Tour Operations",
+      "description": "Eco-tourism operator based in Ajloun Governorate managing nature trails, forest camping experiences, local cabin bookings, and guided environmental tours.",
+      "experience_years": 14,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Nature",
+        "Hiking",
+        "Camping",
+        "Local Experiences"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples",
+        "Solo Travelers"
+      ]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": null,
+      "email": "info@ajlounforesttours.example",
+      "website": "https://ajlounforesttours.example",
+      "whatsapp": null
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Ajloun Forest Reserve Main Gate, Ajloun"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Ajloun",
+        "Ajloun Forest Reserve",
+        "Dibbeen"
+      ],
+      "preferred_destinations": [
+        "Ajloun Forest Reserve"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English",
+        "French"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Adventure Activities",
+        "Local Experiences",
+        "Hotel / Accommodation Booking",
+        "Group Tours",
+        "Private Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Local Guides",
+        "Specialized Guides"
+      ]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "working_hours": "08:00–18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 15.0,
+      "max_price": 80.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "Nature",
+        "Hiking & Trekking",
+        "Community Tourism"
+      ]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 96,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000002",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Ajloun Castle Heritage Travel",
+      "description": "Local tour agency offering historical excursions, guided visits around the Islamic fortress of Ajloun Castle, and cultural sightseeing itineraries across northern Jordan.",
+      "experience_years": 9,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Culture",
+        "Archaeology"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples",
+        "Solo Travelers"
+      ]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": null,
+      "email": "booking@ajlouncastleheritage.example",
+      "website": "https://ajlouncastleheritage.example",
+      "whatsapp": null
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Castle Road, Ajloun"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Ajloun",
+        "Jerash",
+        "Umm Qais"
+      ],
+      "preferred_destinations": [
+        "Ajloun"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English",
+        "German"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Private Tours",
+        "Cultural Experiences",
+        "Tour Guiding"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Licensed Tourist Guides",
+        "Professional Guides",
+        "Multilingual Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00–17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 20,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 30.0,
+      "max_price": 120.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Archaeological Tourism"
+      ]
+    },
+    "reviews": {
+      "rating": 4.6,
+      "review_count": 42,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000003",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Highland Ajloun Adventures",
+      "description": "Outdoor activity provider organizing mountain biking tracks, hill hiking paths, and adventure tourism across the highlands of Ajloun.",
+      "experience_years": 5,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Adventure",
+        "Hiking",
+        "Cycling",
+        "Nature"
+      ],
+      "target_customer_types": [
+        "Solo Travelers",
+        "Couples"
+      ]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": null,
+      "email": "contact@highlandajloun.example",
+      "website": "https://highlandajloun.example",
+      "whatsapp": null
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Main Highway, Ajloun"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Ajloun",
+        "Kufranjah"
+      ],
+      "preferred_destinations": [
+        "Ajloun"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English",
+        "Italian"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Adventure Activities",
+        "Custom Itineraries",
+        "Group Tours",
+        "Private Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Specialized Guides",
+        "Local Guides"
+      ]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "working_hours": "08:00–17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 12,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 25.0,
+      "max_price": 95.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "Nature",
+        "Hiking & Trekking",
+        "Soft Adventure"
+      ]
+    },
+    "reviews": {
+      "rating": 4.7,
+      "review_count": 31,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000004",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Ajloun Villages & Culinary Trails",
+      "description": "Specialized inbound operator focused on rural community tourism, traditional farmhouse cooking experiences, organic olive oil tour sessions, and village hospitality in Ajloun.",
+      "experience_years": 7,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Local Experiences",
+        "Food",
+        "Culture"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples",
+        "Solo Travelers"
+      ]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": null,
+      "email": "hello@ajlounvillagetrails.example",
+      "website": "https://ajlounvillagetrails.example",
+      "whatsapp": null
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Orjan Village Road, Ajloun"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Ajloun",
+        "Orjan",
+        "Rasun"
+      ],
+      "preferred_destinations": [
+        "Ajloun"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English",
+        "Spanish"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Local Experiences",
+        "Cultural Experiences",
+        "Restaurant Booking",
+        "Tour Planning & Itinerary Design"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Local Guides",
+        "Specialized Guides"
+      ]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00–16:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 20.0,
+      "max_price": 85.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "Local Experiences",
+        "Community Tourism",
+        "Food & Culinary"
+      ]
+    },
+    "reviews": {
+      "rating": 4.9,
+      "review_count": 58,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000005",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "North Ridge Travel & Transport Ajloun",
+      "description": "Travel and tour coordination agency providing private vehicle transport services, airport transfers, and tailored sightseeing packages spanning Ajloun and northern cities.",
+      "experience_years": 11,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Nature"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples"
+      ]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": null,
+      "email": "support@northridgetravel.example",
+      "website": "https://northridgetravel.example",
+      "whatsapp": null
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Main Commercial Street, Ajloun"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Ajloun",
+        "Jerash",
+        "Amman",
+        "Irbid"
+      ],
+      "preferred_destinations": [
+        "Ajloun",
+        "Jerash"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English",
+        "French"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Transportation",
+        "Airport Transfers",
+        "Tour Planning & Itinerary Design",
+        "Private Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": false,
+      "guide_types": []
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "08:30–18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 30,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 40.0,
+      "max_price": 150.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Family Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.5,
+      "review_count": 50,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000006",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Soap House & Nature Journeys Ajloun",
+      "description": "Boutique eco-tour operator offering specialized visits to local olive oil soap women's cooperatives, handcraft workshops, and nature walks in Ajloun.",
+      "experience_years": 8,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Local Experiences",
+        "Art",
+        "Culture"
+      ],
+      "target_customer_types": [
+        "Couples",
+        "Families"
+      ]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": null,
+      "email": "info@soaphouseajloun.example",
+      "website": "https://soaphouseajloun.example",
+      "whatsapp": null
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "King Talal Street, Ajloun"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Ajloun",
+        "Kufranjah"
+      ],
+      "preferred_destinations": [
+        "Ajloun"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English",
+        "German"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Cultural Experiences",
+        "Local Experiences",
+        "Private Tours",
+        "Special Interest Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Local Guides",
+        "Specialized Guides"
+      ]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00–17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": false
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 20.0,
+      "max_price": 75.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "Local Experiences",
+        "Community Tourism"
+      ]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 35,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000007",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Ajloun Horizon Discovery",
+      "description": "Incoming tour operator providing customized multi-day itineraries, castle tours, orchard valley hikes, and full sightseeing support in Ajloun.",
+      "experience_years": 10,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Nature",
+        "Culture"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples",
+        "Solo Travelers"
+      ]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": null,
+      "email": "booking@ajlounhorizon.example",
+      "website": "https://ajlounhorizon.example",
+      "whatsapp": null
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Downtown Ajloun, Ajloun"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Ajloun",
+        "Jerash",
+        "Umm Qais",
+        "Amman"
+      ],
+      "preferred_destinations": [
+        "Ajloun"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English",
+        "French"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Private Tours",
+        "Custom Itineraries",
+        "Transportation",
+        "Tour Guiding"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Licensed Tourist Guides",
+        "Professional Guides",
+        "Multilingual Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "08:30–17:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 35.0,
+      "max_price": 140.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Nature"
+      ]
+    },
+    "reviews": {
+      "rating": 4.6,
+      "review_count": 60,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000008",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Jordan Highlands Trekking Ajloun",
+      "description": "Specialized trekking operator focusing on long-distance hiking segments, nature reserve paths, and camping expeditions across the northern hills of Ajloun.",
+      "experience_years": 6,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Hiking",
+        "Nature",
+        "Camping",
+        "Adventure"
+      ],
+      "target_customer_types": [
+        "Solo Travelers",
+        "Couples"
+      ]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": null,
+      "email": "info@jordanhighlandstrek.example",
+      "website": "https://jordanhighlandstrek.example",
+      "whatsapp": null
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Ain Jandaq Road, Ajloun"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Ajloun",
+        "Ajloun Forest Reserve",
+        "Rasun"
+      ],
+      "preferred_destinations": [
+        "Ajloun Forest Reserve"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Adventure Activities",
+        "Group Tours",
+        "Private Tours",
+        "Custom Itineraries"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Specialized Guides",
+        "Local Guides"
+      ]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "working_hours": "08:00–17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 22.0,
+      "max_price": 90.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "Nature",
+        "Hiking & Trekking",
+        "Soft Adventure"
+      ]
+    },
+    "reviews": {
+      "rating": 4.7,
+      "review_count": 39,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000009",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Ajloun Heritage & Craft Agency",
+      "description": "Inbound tour operator offering heritage sightseeing, traditional craft immersion tours, local pottery sessions, and customized cultural trips in Ajloun Governorate.",
+      "experience_years": 8,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Culture",
+        "History",
+        "Local Experiences",
+        "Art"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples"
+      ]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": null,
+      "email": "contact@ajlounheritagecraft.example",
+      "website": "https://ajlounheritagecraft.example",
+      "whatsapp": null
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Cultural Center Avenue, Ajloun"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Ajloun",
+        "Jerash"
+      ],
+      "preferred_destinations": [
+        "Ajloun"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English",
+        "Dutch"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Cultural Experiences",
+        "Local Experiences",
+        "Tour Planning & Itinerary Design",
+        "Private Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Licensed Tourist Guides",
+        "Local Guides",
+        "Multilingual Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00–17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 18,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 28.0,
+      "max_price": 105.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Local Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 27,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000010",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Northern Panorama Tour Operations",
+      "description": "Comprehensive regional tour operator delivering customized tourist packages, private logistics, and guided sightseeing across Ajloun, Jerash, and Umm Qais.",
+      "experience_years": 12,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Culture",
+        "Nature"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples",
+        "Solo Travelers"
+      ]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": null,
+      "email": "booking@northernpanoramatours.example",
+      "website": "https://northernpanoramatours.example",
+      "whatsapp": null
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "University Street, Ajloun"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Ajloun",
+        "Jerash",
+        "Umm Qais",
+        "Irbid"
+      ],
+      "preferred_destinations": [
+        "Ajloun",
+        "Jerash"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English",
+        "French"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Transportation",
+        "Private Tours",
+        "Group Tours",
+        "Custom Itineraries"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Licensed Tourist Guides",
+        "Professional Guides",
+        "Multilingual Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "08:30–18:00"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 35,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 45.0,
+      "max_price": 160.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Family Experiences"
+      ]
+    },
+    "reviews": {
+      "rating": 4.6,
+      "review_count": 68,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  }
+]
+
+[
+  {
+    "sme_id": "SME-000011",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Ajloun Eco-Venture Travel",
+      "description": "Specialized eco-tourism operator facilitating nature conservation tours, outdoor hiking expeditions, and eco-lodge coordination across the Ajloun highlands.",
+      "experience_years": 7,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "Nature",
+        "Hiking",
+        "Adventure",
+        "Camping"
+      ],
+      "target_customer_types": [
+        "Solo Travelers",
+        "Couples",
+        "Families"
+      ]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": null,
+      "email": "info@ajlounecoventure.example",
+      "website": "https://ajlounecoventure.example",
+      "whatsapp": null
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Reserve Bypass Road, Ajloun"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Ajloun",
+        "Ajloun Forest Reserve",
+        "Dibbeen"
+      ],
+      "preferred_destinations": [
+        "Ajloun Forest Reserve"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English",
+        "German"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Adventure Activities",
+        "Hotel / Accommodation Booking",
+        "Group Tours",
+        "Private Tours"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Specialized Guides",
+        "Local Guides"
+      ]
+    },
+    "transportation": {
+      "available": false
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "working_hours": "08:00–17:00"
+    },
+    "capacity": {
+      "minimum_group_size": 2,
+      "maximum_group_size": 15,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Person",
+      "min_price": 20.0,
+      "max_price": 85.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "Nature",
+        "Hiking & Trekking",
+        "Soft Adventure"
+      ]
+    },
+    "reviews": {
+      "rating": 4.8,
+      "review_count": 34,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  },
+  {
+    "sme_id": "SME-000012",
+    "sme_type": "tour_operator",
+    "business_profile": {
+      "name": "Ajloun Citadel Sightseeing & Logistics",
+      "description": "Incoming tour agency providing historical tours around Ajloun Castle, private ground transport coordination, and custom itinerary planning for northern attractions.",
+      "experience_years": 9,
+      "business_type": [
+        "Tour Operator"
+      ],
+      "specializations": [
+        "History",
+        "Culture",
+        "Archaeology"
+      ],
+      "target_customer_types": [
+        "Families",
+        "Couples",
+        "Solo Travelers"
+      ]
+    },
+    "contact": {
+      "phone": null,
+      "mobile": null,
+      "email": "booking@ajlouncitadeltravel.example",
+      "website": "https://ajlouncitadeltravel.example",
+      "whatsapp": null
+    },
+    "location": {
+      "country": "Jordan",
+      "city": "Ajloun",
+      "region": "Ajloun Governorate",
+      "address": "Al-Huson Street, Ajloun"
+    },
+    "service_area": {
+      "destinations_covered": [
+        "Ajloun",
+        "Jerash",
+        "Irbid"
+      ],
+      "preferred_destinations": [
+        "Ajloun"
+      ]
+    },
+    "languages": {
+      "spoken": [
+        "Arabic",
+        "English",
+        "French"
+      ],
+      "preferred_language": "English"
+    },
+    "services": {
+      "service_categories": [
+        "Tour Planning & Itinerary Design",
+        "Transportation",
+        "Private Tours",
+        "Tour Guiding"
+      ]
+    },
+    "guides": {
+      "provides_guides": true,
+      "guide_types": [
+        "Licensed Tourist Guides",
+        "Professional Guides"
+      ]
+    },
+    "transportation": {
+      "available": true
+    },
+    "availability": {
+      "working_days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "working_hours": "09:00–17:30"
+    },
+    "capacity": {
+      "minimum_group_size": 1,
+      "maximum_group_size": 25,
+      "private_groups": true,
+      "group_tours": true
+    },
+    "pricing": {
+      "currency": "JOD",
+      "pricing_model": "Per Tour",
+      "min_price": 35.0,
+      "max_price": 125.0,
+      "notes": "Synthetic estimate based on the business profile and typical Jordan tourism pricing."
+    },
+    "preferences": {
+      "preferred_experience_types": [
+        "History & Culture",
+        "Archaeological Tourism"
+      ]
+    },
+    "reviews": {
+      "rating": 4.6,
+      "review_count": 47,
+      "source": "Synthetic Dataset",
+      "last_updated": "2026-08-01"
+    }
+  }
+] 
+

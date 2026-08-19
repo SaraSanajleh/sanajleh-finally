@@ -1,0 +1,119 @@
+{
+  "caseId": "20260815-201838-dead-sea-escape",
+  "createdAt": "2026-08-15T20:18:38.033554+00:00",
+  "trip_title": "Dead Sea Escape",
+  "rag": {
+    "status": "ok",
+    "source": "retriever",
+    "duration_days": 3,
+    "cluster_count": 3,
+    "clusters": [
+      {
+        "cluster_id": 0,
+        "theme": "Madaba Governorate · nature, photography",
+        "poi_count": 8,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "Ma'in Hot Springs",
+          "Al-Faisaliyah Viewpoint",
+          "Wadi Wala Dam",
+          "Moses Spring (Ayn Musa)",
+          "Dead Sea Panorama Complex (Madaba Overlook)",
+          "Sayyidat al-Jabal (Our Lady of the Mount) Church",
+          "Madaba Art Space & Gallery",
+          "Al-Lajjun / East Madaba Desert Border Viewpoint"
+        ],
+        "hotel_names": [
+          "Rumman Hotel",
+          "Moab Land Hotel",
+          "Saint John Hotel",
+          "Mosaic City Hotel"
+        ],
+        "sample_restaurants": [
+          "Carob House",
+          "Mount Nebo Rest Area Restaurant",
+          "Al-Bustan Restaurant",
+          "Al-Bustan Restaurant Madaba",
+          "Mt. Nebo Sunset Terrace Cafe",
+          "Jaw Zaman"
+        ],
+        "event_names": [
+          "National Celebrations Programme - Madaba",
+          "Eid Joy Celebration - Madaba",
+          "Aesthetics of Place Cultural Programme - Madaba"
+        ]
+      },
+      {
+        "cluster_id": 1,
+        "theme": "Madaba Governorate · nature",
+        "poi_count": 4,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "Wadi Hidan Canyon",
+          "Wadi Mujib Biosphere Reserve (Madaba Approach)",
+          "King Hussein Public Park Madaba",
+          "Madaba Museum"
+        ],
+        "hotel_names": [
+          "Rumman Hotel",
+          "Moab Land Hotel",
+          "Saint John Hotel",
+          "Mosaic City Hotel"
+        ],
+        "sample_restaurants": [
+          "Al-Bustan Restaurant",
+          "Al-Bustan Restaurant Madaba",
+          "Abu Ali Broasted & Seafood",
+          "Al-Ashaer Broasted Chicken",
+          "Bait Mosaic Restaurant",
+          "Bawabit Madaba"
+        ],
+        "event_names": [
+          "National Celebrations Programme - Madaba",
+          "Eid Joy Celebration - Madaba",
+          "Aesthetics of Place Cultural Programme - Madaba"
+        ]
+      },
+      {
+        "cluster_id": 2,
+        "theme": "Madaba Governorate · nature",
+        "poi_count": 4,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "Wadi Zerqa Ma'in Gorge",
+          "Madaba Visitor Center",
+          "Burnt Palace of Madaba",
+          "La Storica Mosaics (Mosaic Handicrafts Center)"
+        ],
+        "hotel_names": [
+          "Rumman Hotel",
+          "Moab Land Hotel",
+          "Saint John Hotel",
+          "Mosaic City Hotel"
+        ],
+        "sample_restaurants": [
+          "Hikayet Sitti",
+          "Haret Jdoudna",
+          "Grandfather's House Bakery",
+          "Mosaic Resto-Bar",
+          "Carob House",
+          "Mt. Nebo Sunset Terrace Cafe"
+        ],
+        "event_names": [
+          "National Celebrations Programme - Madaba",
+          "Eid Joy Celebration - Madaba",
+          "Aesthetics of Place Cultural Programme - Madaba"
+        ]
+      }
+    ]
+  },
+  "paths": {
+    "input": "01_input.json",
+    "knowledge": "02_retriever.json",
+    "knowledge_preview": "02_retriever_preview.json",
+    "output": "03_output.json"
+  }
+}

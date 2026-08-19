@@ -1,0 +1,121 @@
+{
+  "status": "ok",
+  "source": "retriever",
+  "duration_days": 3,
+  "cluster_count": 3,
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "theme": "Balqa Governorate · museums, religious_sites",
+      "poi_count": 9,
+      "hotel_count": 4,
+      "event_count": 3,
+      "poi_names": [
+        "Fuheis Cultural Centre",
+        "Abu Jaber Museum",
+        "Al-Salt Latin Church and Convent",
+        "Tomb of Prophet Joshua (Nabi Yusha)",
+        "As-Salt Heritage Trail Starting Point",
+        "Fuheis Heritage Quarter (Al-Fuheis Old Town)",
+        "Al-Fuheis Heritage Quarter",
+        "Al-Jubeiha to Balqa Agricultural Terraces Viewpoint",
+        "Zarqa River Eco-Trail Pathway"
+      ],
+      "hotel_names": [
+        "Al Hummar Restaurant and Hotel",
+        "Mountain Breeze Lodge & Resort",
+        "Grand East Hotel Resort & Spa Dead Sea",
+        "Holiday Inn Resort Dead Sea"
+      ],
+      "sample_restaurants": [
+        "Baladna Restaurant",
+        "Sitt Inaya Heritage House",
+        "Beit Khairat As-Salt",
+        "Al Deyafa Tourist Restaurant",
+        "Jordan Heritage Restaurant Salt",
+        "Carob House Fuheis"
+      ],
+      "event_names": [
+        "Fuheis Festival",
+        "Eid Evenings - Balqa",
+        "Jordan Summer Festival - Balqa"
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "theme": "Karak Governorate · museums, religious_sites",
+      "poi_count": 10,
+      "hotel_count": 4,
+      "event_count": 3,
+      "poi_names": [
+        "Safi Museum (Lowest Place on Earth Museum)",
+        "Karak Archaeological Museum",
+        "St. George's Greek Orthodox Church",
+        "Sanctuary of Lot (Deir 'Ain 'Abata)",
+        "Al-Mazar Al-Janubi Public Library and Cultural Center",
+        "Al-Karak Heritage Village",
+        "Jannat Al-Karak Park",
+        "Mu'tah University Campus Gardens",
+        "Al-Karak Plaza Park",
+        "Wadi Hasa"
+      ],
+      "hotel_names": [
+        "Cairwan Hotel",
+        "Al-Mujeb Hotel",
+        "The Old House",
+        "Bubble Castle House"
+      ],
+      "sample_restaurants": [
+        "Safi Valley Heritage Cafe & Restaurant",
+        "Al-Mouasher Restaurant",
+        "Ar-Rai Restaurant",
+        "Al-Buhaira Panorama Restaurant Mutah",
+        "Al Rayyan Bakery & Fast Food",
+        "Falafel & Hummus Al-Agha"
+      ],
+      "event_names": [
+        "Ramadan Evenings - Karak",
+        "Karaki Ta'lileh Heritage Event",
+        "Eid Evenings - Karak"
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "theme": "Tafilah Governorate · museums",
+      "poi_count": 10,
+      "hotel_count": 4,
+      "event_count": 3,
+      "poi_names": [
+        "Tafilah Museum",
+        "Dana Biosphere Reserve Visitor Center",
+        "Busaira Heritage House",
+        "Dana Village",
+        "Tafilah Municipal Park",
+        "Feynan Ecolodge",
+        "Dana Biosphere Reserve",
+        "Dana Community Handicraft Workshop",
+        "Tafilah Viewpoint Lookout",
+        "Dana Eco-Tourism Camp"
+      ],
+      "hotel_names": [
+        "Tafileh-Sila'a Heritage Village",
+        "Dana Tower Hotel",
+        "Dana's Trail Hotel",
+        "Dana Horizon Hotel"
+      ],
+      "sample_restaurants": [
+        "Al-Ayn Heritage Restaurant Tafilah",
+        "Buseirah Heritage Rest House",
+        "Abu Abdullah Traditional Eatery",
+        "Al-Salea Gate Castle Restaurant",
+        "Al-Rashid Crispy Chicken & Broasted",
+        "Al-Buseirah Central Grill"
+      ],
+      "event_names": [
+        "National Celebrations Programme - Tafilah",
+        "Jordan Summer Festival - Tafilah",
+        "Aesthetics of Place Cultural Programme - Tafilah"
+      ]
+    }
+  ]
+}

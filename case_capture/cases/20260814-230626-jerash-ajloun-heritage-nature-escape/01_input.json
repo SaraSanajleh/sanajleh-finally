@@ -1,0 +1,53 @@
+{
+  "mode": "build",
+  "requestedAt": "2026-08-04T13:00:00Z",
+  "trip": {
+    "startDate": "2026-09-10",
+    "duration": "2",
+    "arrivalAirport": "AMM",
+    "totalBudget": 600.0,
+    "preferredLanguage": "English",
+    "preferredRegions": [
+      "Jerash",
+      "Ajloun"
+    ]
+  },
+  "travelers": {
+    "adults": 2,
+    "children": 0,
+    "childrenAges": [],
+    "seniors": 0,
+    "groupType": "couple",
+    "accessibilityNeeds": []
+  },
+  "preferences": {
+    "interests": [
+      "history",
+      "food",
+      "nature"
+    ],
+    "tripPace": "Balanced",
+    "activityLevel": "Moderate",
+    "mustVisit": [
+      "Jerash"
+    ],
+    "placesToAvoid": "Petra, Wadi Rum"
+  },
+  "accommodation": {
+    "type": "boutique",
+    "rating": "4 star"
+  },
+  "dining": {
+    "cuisine": [
+      "Local Jordanian"
+    ]
+  },
+  "extras": {
+    "specialOccasion": "None",
+    "smePreferences": [
+      "Family-owned Businesses"
+    ],
+    "aiPriority": "authentic",
+    "freeText": "North Jordan focus: Jerash and Ajloun. Avoid Petra and Wadi Rum."
+  }
+}

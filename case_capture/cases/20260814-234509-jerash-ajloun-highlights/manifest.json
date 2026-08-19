@@ -1,0 +1,18 @@
+{
+  "caseId": "20260814-234509-jerash-ajloun-highlights",
+  "createdAt": "2026-08-14T23:45:09.789524+00:00",
+  "trip_title": "Jerash & Ajloun Highlights",
+  "rag": {
+    "status": "unavailable",
+    "source": null,
+    "duration_days": 3,
+    "cluster_count": 0,
+    "clusters": []
+  },
+  "paths": {
+    "input": "01_input.json",
+    "knowledge": "02_retriever.json",
+    "knowledge_preview": "02_retriever_preview.json",
+    "output": "03_output.json"
+  }
+}

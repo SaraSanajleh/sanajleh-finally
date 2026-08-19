@@ -1,0 +1,2144 @@
+[
+{
+"sme_id": "SME-000001",
+"sme_type": "tour_guide",
+"business_profile": {
+"name": "Ibrahim Al-Rfoou",
+"description": "Licensed independent tourist and nature guide specializing in the Dana Biosphere Reserve, Wadi Ghuweir, and historical Edomite sites across Tafilah Governorate.",
+"experience_years": 9,
+"business_type": [
+"Tour Guide"
+],
+"specializations": [
+"History",
+"Nature",
+"Archaeology",
+"Hiking",
+"Camping"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962791234567",
+"mobile": "+962791234567",
+"email": "ibrahim.rfoou.guide@gmail.com",
+"website": null,
+"whatsapp": "+962791234567"
+},
+"location": {
+"country": "Jordan",
+"city": "Tafilah",
+"region": "Tafilah Governorate",
+"address": "Main Street, Tafilah, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Dana Biosphere Reserve",
+"Wadi Ghuweir",
+"Tafilah City",
+"Khirbet edh-Dharih"
+],
+"preferred_destinations": "Dana Biosphere Reserve and Wadi Ghuweir trails"
+},
+"languages": {
+"spoken": [
+"Arabic",
+"English"
+],
+"preferred_language": "English"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Custom Itineraries",
+"Private Tours",
+"Group Tours",
+"Adventure Activities"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Licensed Tourist Guides",
+"Local Guides",
+"Multilingual Guides"
+]
+},
+"transportation": {
+"available": false
+},
+"availability": {
+"working_days": [
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "07:00 - 18:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 12,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Day",
+"min_price": 50,
+"max_price": 120,
+"notes": "Rates vary based on trail length and group size."
+},
+"preferences": {
+"preferred_experience_types": [
+"Nature",
+"Hiking & Trekking",
+"Archaeological Tourism",
+"Community Tourism"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 34,
+"source": "Direct Client Feedback & Regional Platforms",
+"last_updated": "2026-02-10"
+}
+},
+{
+"sme_id": "SME-000002",
+"sme_type": "tour_guide",
+"business_profile": {
+"name": "Fatima Al- السعودي (Al-Saoudi)",
+"description": "Professional freelance cultural and historical guide offering immersive heritage walks through old Tafilah villages, local community encounters, and culinary experiences.",
+"experience_years": 6,
+"business_type": [
+"Tour Guide"
+],
+"specializations": [
+"Culture",
+"Food",
+"Local Experiences",
+"History"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962789876543",
+"mobile": "+962789876543",
+"email": "fatima.alsaoudi.tours@gmail.com",
+"website": null,
+"whatsapp": "+962789876543"
+},
+"location": {
+"country": "Jordan",
+"city": "Tafilah",
+"region": "Tafilah Governorate",
+"address": "Al-Ain Al-Bayda, Tafilah, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Tafilah City",
+"Al-Ain Al-Bayda",
+"Afra Hot Springs",
+"Busirah"
+],
+"preferred_destinations": "Tafilah villages and agricultural terraces"
+},
+"languages": {
+"spoken": [
+"Arabic",
+"French",
+"English"
+],
+"preferred_language": "French"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Cultural Experiences",
+"Local Experiences",
+"Custom Itineraries",
+"Private Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Professional Guides",
+"Local Guides",
+"Multilingual Guides"
+]
+},
+"transportation": {
+"available": false
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "08:30 - 17:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 8,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Day",
+"min_price": 45,
+"max_price": 100,
+"notes": "Includes local community hosting coordination."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Local Experiences",
+"Food & Culinary",
+"Community Tourism"
+]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 21,
+"source": "Local Community Tourism Networks",
+"last_updated": "2026-01-15"
+}
+},
+{
+"sme_id": "SME-000003",
+"sme_type": "tour_guide",
+"business_profile": {
+"name": "Yousef Al-Qatawneh",
+"description": "Certified adventure and trekking guide specializing in deep canyon expeditions, Wadi Al-Hasa approaches, and rugged mountain paths across the Tafilah region.",
+"experience_years": 12,
+"business_type": [
+"Tour Guide"
+],
+"specializations": [
+"Adventure",
+"Hiking",
+"Nature",
+"Camping"
+],
+"target_customer_types": [
+"Solo Travelers",
+"Couples"
+]
+},
+"contact": {
+"phone": "+962775554321",
+"mobile": "+962775554321",
+"email": "yousef.qatawneh.hike@gmail.com",
+"website": null,
+"whatsapp": "+962775554321"
+},
+"location": {
+"country": "Jordan",
+"city": "Tafilah",
+"region": "Tafilah Governorate",
+"address": "Busirah, Tafilah Governorate, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Wadi Al-Hasa",
+"Dana Biosphere Reserve",
+"Busirah ruins"
+],
+"preferred_destinations": "Wadi Al-Hasa water canyon and gorge tracks"
+},
+"languages": {
+"spoken": [
+"Arabic",
+"German",
+"English"
+],
+"preferred_language": "German"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Adventure Activities",
+"Private Tours",
+"Special Interest Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Licensed Tourist Guides",
+"Specialized Guides",
+"Multilingual Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "06:00 - 19:00"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 10,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Day",
+"min_price": 60,
+"max_price": 140,
+"notes": "Higher rates apply for multi-day canyoning and wild camping expeditions."
+},
+"preferences": {
+"preferred_experience_types": [
+"Soft Adventure",
+"Hiking & Trekking",
+"Nature"
+]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 45,
+"source": "Trekking Associations & Visitor Logs",
+"last_updated": "2026-03-01"
+}
+},
+{
+"sme_id": "SME-000004",
+"sme_type": "tour_guide",
+"business_profile": {
+"name": "Nour Al-Muhaisen",
+"description": "Independent archaeological and historical tourist guide providing detailed insights into the Edomite kingdom ruins, Khirbet edh-Dharih, and ancient trade routes in Tafilah.",
+"experience_years": 7,
+"business_type": [
+"Tour Guide"
+],
+"specializations": [
+"History",
+"Archaeology",
+"Culture"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962798112233",
+"mobile": "+962798112233",
+"email": "nour.muhaisen.guide@yahoo.com",
+"website": null,
+"whatsapp": "+962798112233"
+},
+"location": {
+"country": "Jordan",
+"city": "Tafilah",
+"region": "Tafilah Governorate",
+"address": "University Street, Tafilah, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Khirbet edh-Dharih",
+"Tafilah Museum",
+"Edomite Sela Fortress"
+],
+"preferred_destinations": "Khirbet edh-Dharih Nabatean temple site"
+},
+"languages": {
+"spoken": [
+"Arabic",
+"Spanish",
+"English"
+],
+"preferred_language": "Spanish"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Tour Planning & Itinerary Design",
+"Private Tours",
+"Educational Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Licensed Tourist Guides",
+"Specialized Guides",
+"Multilingual Guides"
+]
+},
+"transportation": {
+"available": false
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday"
+],
+"working_hours": "08:00 - 16:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 15,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Day",
+"min_price": 45,
+"max_price": 95,
+"notes": "Special rates for academic and school groups."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Archaeological Tourism"
+]
+},
+"reviews": {
+"rating": 4.7,
+"review_count": 18,
+"source": "Independent Heritage Tours",
+"last_updated": "2025-11-20"
+}
+},
+{
+"sme_id": "SME-000005",
+"sme_type": "tour_guide",
+"business_profile": {
+"name": "Khaled Al-Maraziq",
+"description": "Local nature and landscape photography guide offering specialized photo-tours across the dramatic cliffs, hidden springs, and panoramic viewpoints of Tafilah.",
+"experience_years": 8,
+"business_type": [
+"Tour Guide"
+],
+"specializations": [
+"Photography",
+"Nature",
+"Hiking"
+],
+"target_customer_types": [
+"Solo Travelers",
+"Couples"
+]
+},
+"contact": {
+"phone": "+962776633221",
+"mobile": "+962776633221",
+"email": "khaled.maraziq.photo@gmail.com",
+"website": null,
+"whatsapp": "+962776633221"
+},
+"location": {
+"country": "Jordan",
+"city": "Tafilah",
+"region": "Tafilah Governorate",
+"address": "Qadisiya, Tafilah Governorate, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Qadisiya viewpoints",
+"Dana Ridge",
+"Feynan approaches"
+],
+"preferred_destinations": "Dana Biosphere upper rim and Qadisiya cliffs"
+},
+"languages": {
+"spoken": [
+"Arabic",
+"Italian",
+"English"
+],
+"preferred_language": "Italian"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Special Interest Tours",
+"Private Tours",
+"Custom Itineraries"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides",
+"Multilingual Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "05:00 - 19:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 5,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Day",
+"min_price": 70,
+"max_price": 150,
+"notes": "Tailored for photography enthusiasts seeking golden hour lighting."
+},
+"preferences": {
+"preferred_experience_types": [
+"Nature",
+"Soft Adventure",
+"Hiking & Trekking"
+]
+},
+"reviews": {
+"rating": 5.0,
+"review_count": 14,
+"source": "Photography Expedition Registries",
+"last_updated": "2026-02-28"
+}
+},
+{
+"sme_id": "SME-000006",
+"sme_type": "tour_guide",
+"business_profile": {
+"name": "Amina Al-Khatib",
+"description": "Independent wellness and cultural guide leading restorative tours combining the therapeutic Afra and Buried hot springs with herbal lore and slow local traditions.",
+"experience_years": 5,
+"business_type": [
+"Tour Guide"
+],
+"specializations": [
+"Wellness",
+"Nature",
+"Culture",
+"Local Experiences"
+],
+"target_customer_types": [
+"Couples",
+"Families"
+]
+},
+"contact": {
+"phone": "+962790998877",
+"mobile": "+962790998877",
+"email": "amina.wellness.guide@gmail.com",
+"website": null,
+"whatsapp": "+962790998877"
+},
+"location": {
+"country": "Jordan",
+"city": "Tafilah",
+"region": "Tafilah Governorate",
+"address": "Afra Hot Springs Area, Tafilah, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Afra Hot Springs",
+"Bureita Hot Springs",
+"Tafilah agricultural valleys"
+],
+"preferred_destinations": "Afra and Bureita mineral springs"
+},
+"languages": {
+"spoken": [
+"Arabic",
+"Russian",
+"English"
+],
+"preferred_language": "Russian"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Wellness Tours",
+"Local Experiences",
+"Private Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Licensed Tourist Guides",
+"Local Guides",
+"Multilingual Guides"
+]
+},
+"transportation": {
+"available": false
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Wednesday",
+"Thursday",
+"Friday"
+],
+"working_hours": "09:00 - 17:00"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 8,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Day",
+"min_price": 50,
+"max_price": 110,
+"notes": "Focuses on health, relaxation, and regional herbal traditions."
+},
+"preferences": {
+"preferred_experience_types": [
+"Wellness",
+"Local Experiences",
+"Family Experiences"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 19,
+"source": "Wellness Travel Reviews",
+"last_updated": "2026-01-05"
+}
+},
+{
+"sme_id": "SME-000007",
+"sme_type": "tour_guide",
+"business_profile": {
+"name": "Bilal Al-Greinat",
+"description": "Expert Jordan Trail section leader and wilderness trekking guide specializing in the Dana-to-Feynan and surrounding Tafilah mountain corridors.",
+"experience_years": 10,
+"business_type": [
+"Tour Guide"
+],
+"specializations": [
+"Hiking",
+"Adventure",
+"Nature",
+"Camping"
+],
+"target_customer_types": [
+"Solo Travelers",
+"Couples",
+"Families"
+]
+},
+"contact": {
+"phone": "+962784433221",
+"mobile": "+962784433221",
+"email": "bilal.greinat.trail@gmail.com",
+"website": null,
+"whatsapp": "+962784433221"
+},
+"location": {
+"country": "Jordan",
+"city": "Tafilah",
+"region": "Tafilah Governorate",
+"address": "Dana Village, Tafilah Governorate, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Dana Village",
+"Feynan Valley",
+"Jordan Trail Section 11 & 12"
+],
+"preferred_destinations": "Dana to Feynan trek route"
+},
+"languages": {
+"spoken": [
+"Arabic",
+"Dutch",
+"English"
+],
+"preferred_language": "Dutch"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Adventure Activities",
+"Custom Itineraries",
+"Private Tours",
+"Group Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Licensed Tourist Guides",
+"Local Guides",
+"Specialized Guides",
+"Multilingual Guides"
+]
+},
+"transportation": {
+"available": false
+},
+"availability": {
+"working_days": [
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "06:30 - 18:30"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 15,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Day",
+"min_price": 55,
+"max_price": 130,
+"notes": "Certified Jordan Trail Association partner guide."
+},
+"preferences": {
+"preferred_experience_types": [
+"Hiking & Trekking",
+"Soft Adventure",
+"Nature",
+"Community Tourism"
+]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 52,
+"source": "Jordan Trail Community Bookings",
+"last_updated": "2026-03-12"
+}
+},
+{
+"sme_id": "SME-000008",
+"sme_type": "tour_guide",
+"business_profile": {
+"name": "Sawsan Al-Bustanji",
+"description": "Specialized cultural and culinary guide focusing on traditional rural cooking practices, local agriculture, and historical storytelling in the highlands of Tafilah.",
+"experience_years": 6,
+"business_type": [
+"Tour Guide"
+],
+"specializations": [
+"Food",
+"Culture",
+"Local Experiences",
+"History"
+],
+"target_customer_types": [
+"Families",
+"Couples"
+]
+},
+"contact": {
+"phone": "+962797788990",
+"mobile": "+962797788990",
+"email": "sawsan.bustanji.tours@gmail.com",
+"website": null,
+"whatsapp": "+962797788990"
+},
+"location": {
+"country": "Jordan",
+"city": "Tafilah",
+"region": "Tafilah Governorate",
+"address": "Tafilah City Center, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Tafilah City Markets",
+"Olive Groves of Tafilah",
+"Local villages"
+],
+"preferred_destinations": "Tafilah rural homesteads and old markets"
+},
+"languages": {
+"spoken": [
+"Arabic",
+"Mandarin",
+"English"
+],
+"preferred_language": "Mandarin"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Cultural Experiences",
+"Local Experiences",
+"Private Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides",
+"Multilingual Guides"
+]
+},
+"transportation": {
+"available": false
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00 - 17:00"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 8,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Day",
+"min_price": 40,
+"max_price": 90,
+"notes": "Includes ingredients and home-hosted hospitality sessions."
+},
+"preferences": {
+"preferred_experience_types": [
+"Food & Culinary",
+"Local Experiences",
+"Family Experiences"
+]
+},
+"reviews": {
+"rating": 4.7,
+"review_count": 16,
+"source": "Culinary Tourism Portals",
+"last_updated": "2025-12-18"
+}
+},
+{
+"sme_id": "SME-000009",
+"sme_type": "tour_guide",
+"business_profile": {
+"name": "Tariq Al-Saudi",
+"description": "Licensed historical and archaeological tour guide covering the medieval and Ottoman history of Tafilah, including the site of the historic Battle of Tafilah during the Arab Revolt.",
+"experience_years": 11,
+"business_type": [
+"Tour Guide"
+],
+"specializations": [
+"History",
+"Culture",
+"Archaeology"
+],
+"target_customer_types": [
+"Families",
+"Solo Travelers",
+"Couples"
+]
+},
+"contact": {
+"phone": "+962771122334",
+"mobile": "+962771122334",
+"email": "tariq.saudi.history@gmail.com",
+"website": null,
+"whatsapp": "+962771122334"
+},
+"location": {
+"country": "Jordan",
+"city": "Tafilah",
+"region": "Tafilah Governorate",
+"address": "Old Town, Tafilah, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Tafilah Heritage Museum",
+"Historic Tafilah Town",
+"Lawrence of Arabia Route landmarks"
+],
+"preferred_destinations": "Tafilah historic landmarks and Ottoman sites"
+},
+"languages": {
+"spoken": [
+"Arabic",
+"Japanese",
+"English"
+],
+"preferred_language": "Japanese"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Custom Itineraries",
+"Private Tours",
+"Group Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Licensed Tourist Guides",
+"Professional Guides",
+"Multilingual Guides"
+]
+},
+"transportation": {
+"available": false
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "08:00 - 17:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 20,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Day",
+"min_price": 55,
+"max_price": 125,
+"notes": "Expert in regional military and civil history narratives."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Archaeological Tourism"
+]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 38,
+"source": "Global Historical Tours Database",
+"last_updated": "2026-02-01"
+}
+},
+{
+"sme_id": "SME-000010",
+"sme_type": "tour_guide",
+"business_profile": {
+"name": "Rania Al-Awad",
+"description": "Independent eco-tourism and local community guide focusing on sustainable rural explorations, nomadic lifestyles, and flora/fauna interpretation around Dana and corporate-free zones.",
+"experience_years": 5,
+"business_type": [
+"Tour Guide"
+],
+"specializations": [
+"Nature",
+"Local Experiences",
+"Hiking",
+"Camping"
+],
+"target_customer_types": [
+"Solo Travelers",
+"Couples",
+"Families"
+]
+},
+"contact": {
+"phone": "+962796655443",
+"mobile": "+962796655443",
+"email": "rania.awad.eco@gmail.com",
+"website": null,
+"whatsapp": "+962796655443"
+},
+"location": {
+"country": "Jordan",
+"city": "Tafilah",
+"region": "Tafilah Governorate",
+"address": "Dana Reserve Buffer Zone, Tafilah, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Dana Biosphere Reserve outskirts",
+"Feynan valley fringes",
+"Local Bedouin camps"
+],
+"preferred_destinations": "Dana eco-trails and community paths"
+},
+"languages": {
+"spoken": [
+"Arabic",
+"Korean",
+"English"
+],
+"preferred_language": "Korean"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Local Experiences",
+"Eco Tours",
+"Private Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides",
+"Multilingual Guides"
+]
+},
+"transportation": {
+"available": false
+},
+"availability": {
+"working_days": [
+"Monday",
+"Tuesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "07:30 - 17:30"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 10,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Day",
+"min_price": 45,
+"max_price": 100,
+"notes": "Emphasizes low-impact travel and environmental conservation."
+},
+"preferences": {
+"preferred_experience_types": [
+"Community Tourism",
+"Nature",
+"Hiking & Trekking",
+"Local Experiences"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 27,
+"source": "Eco-Travelers Network",
+"last_updated": "2026-02-14"
+}
+},
+[
+{
+"sme_id": "SME-000011",
+"sme_type": "tour_guide",
+"business_profile": {
+"name": "Ziyad Al-Hasanat",
+"description": "Independent freelance mountain guide providing specialized trekking and historical navigation across the rugged landscapes and hidden ridges of Tafilah Governorate.",
+"experience_years": 8,
+"business_type": [
+"Tour Guide"
+],
+"specializations": [
+"History",
+"Hiking",
+"Nature",
+"Adventure"
+],
+"target_customer_types": [
+"Solo Travelers",
+"Couples",
+"Families"
+]
+},
+"contact": {
+"phone": "+962795544332",
+"mobile": "+962795544332",
+"email": "ziyad.hasanat.guide@gmail.com",
+"website": null,
+"whatsapp": "+962795544332"
+},
+"location": {
+"country": "Jordan",
+"city": "Tafilah",
+"region": "Tafilah Governorate",
+"address": "Busirah Road, Tafilah, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Busirah",
+"Dana Biosphere periphery",
+"Jabal Al-Malkhi"
+],
+"preferred_destinations": "Highland ridges and historic Edomite lookout points"
+},
+"languages": {
+"spoken": [
+"Arabic",
+"Swedish",
+"English"
+],
+"preferred_language": "Swedish"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Adventure Activities",
+"Private Tours",
+"Custom Itineraries"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Licensed Tourist Guides",
+"Local Guides",
+"Multilingual Guides"
+]
+},
+"transportation": {
+"available": false
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "07:00 - 17:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 10,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Day",
+"min_price": 50,
+"max_price": 110,
+"notes": "Custom rates for multi-day ridge crossings."
+},
+"preferences": {
+"preferred_experience_types": [
+"Hiking & Trekking",
+"Soft Adventure",
+"History & Culture"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 22,
+"source": "Regional Trekking Logs",
+"last_updated": "2026-02-20"
+}
+},
+{
+"sme_id": "SME-000012",
+"sme_type": "tour_guide",
+"business_profile": {
+"name": "Maha Al-Qaisi",
+"description": "Local heritage and storytelling guide offering personalized exploration of traditional village architecture, folklore, and local crafts in rural Tafilah communities.",
+"experience_years": 6,
+"business_type": [
+"Tour Guide"
+],
+"specializations": [
+"Culture",
+"Local Experiences",
+"History",
+"Shopping"
+],
+"target_customer_types": [
+"Families",
+"Couples"
+]
+},
+"contact": {
+"phone": "+962778899112",
+"mobile": "+962778899112",
+"email": "maha.qaisi.heritage@gmail.com",
+"website": null,
+"whatsapp": "+962778899112"
+},
+"location": {
+"country": "Jordan",
+"city": "Tafilah",
+"region": "Tafilah Governorate",
+"address": "Al-Ain Al-Bayda, Tafilah, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Al-Ain Al-Bayda village",
+"Tafilah Old Quarter",
+"Local artisan workshops"
+],
+"preferred_destinations": "Traditional handcraft centers and village quarters"
+},
+"languages": {
+"spoken": [
+"Arabic",
+"Finnish",
+"English"
+],
+"preferred_language": "Finnish"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Cultural Experiences",
+"Local Experiences",
+"Private Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides",
+"Multilingual Guides"
+]
+},
+"transportation": {
+"available": false
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00 - 16:00"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 8,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Day",
+"min_price": 40,
+"max_price": 90,
+"notes": "Includes support for local women cooperative artisans."
+},
+"preferences": {
+"preferred_experience_types": [
+"Community Tourism",
+"Local Experiences",
+"History & Culture"
+]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 17,
+"source": "Handcraft Tourism Registry",
+"last_updated": "2026-01-25"
+}
+},
+{
+"sme_id": "SME-000013",
+"sme_type": "tour_guide",
+"business_profile": {
+"name": "Rami Al-Suheimat",
+"description": "Professional archaeological guide specializing in Nabatean and Roman structural remains, water management systems, and ancient heritage sites across the Tafilah region.",
+"experience_years": 11,
+"business_type": [
+"Tour Guide"
+],
+"specializations": [
+"History",
+"Archaeology",
+"Culture"
+],
+"target_customer_types": [
+"Solo Travelers",
+"Families",
+"Couples"
+]
+},
+"contact": {
+"phone": "+962793322114",
+"mobile": "+962793322114",
+"email": "rami.suheimat.arch@gmail.com",
+"website": null,
+"whatsapp": "+962793322114"
+},
+"location": {
+"country": "Jordan",
+"city": "Tafilah",
+"region": "Tafilah Governorate",
+"address": "University Road, Tafilah, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Khirbet edh-Dharih",
+"Tafilah archaeological tells",
+"Surrounding Roman road remnants"
+],
+"preferred_destinations": "Khirbet edh-Dharih sanctuary site"
+},
+"languages": {
+"spoken": [
+"Arabic",
+"Norwegian",
+"English"
+],
+"preferred_language": "Norwegian"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Tour Planning & Itinerary Design",
+"Private Tours",
+"Educational Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Licensed Tourist Guides",
+"Specialized Guides",
+"Multilingual Guides"
+]
+},
+"transportation": {
+"available": false
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday"
+],
+"working_hours": "08:00 - 16:30"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 15,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Day",
+"min_price": 60,
+"max_price": 130,
+"notes": "Focused historical breakdowns for structured study tours."
+},
+"preferences": {
+"preferred_experience_types": [
+"Archaeological Tourism",
+"History & Culture"
+]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 31,
+"source": "Academic Heritage Tours",
+"last_updated": "2026-03-05"
+}
+},
+{
+"sme_id": "SME-000014",
+"sme_type": "tour_guide",
+"business_profile": {
+"name": "Lana Al-Batayneh",
+"description": "Independent botanical and eco-trekking guide focusing on seasonal wild flora, bird watching, and gentle nature paths inside the Dana Biosphere Reserve buffers.",
+"experience_years": 7,
+"business_type": [
+"Tour Guide"
+],
+"specializations": [
+"Nature",
+"Hiking",
+"Camping"
+],
+"target_customer_types": [
+"Couples",
+"Families",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962786677889",
+"mobile": "+962786677889",
+"email": "lana.batayneh.nature@gmail.com",
+"website": null,
+"whatsapp": "+962786677889"
+},
+"location": {
+"country": "Jordan",
+"city": "Tafilah",
+"region": "Tafilah Governorate",
+"address": "Dana Village Entry, Tafilah, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Dana Village trails",
+"Wadi Dana upper slopes",
+"Local protected valleys"
+],
+"preferred_destinations": "Botanical walking tracks around Dana Reserve"
+},
+"languages": {
+"spoken": [
+"Arabic",
+"Danish",
+"English"
+],
+"preferred_language": "Danish"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Eco Tours",
+"Private Tours",
+"Special Interest Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Licensed Tourist Guides",
+"Specialized Guides",
+"Multilingual Guides"
+]
+},
+"transportation": {
+"available": false
+},
+"availability": {
+"working_days": [
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "07:00 - 17:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 10,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Day",
+"min_price": 45,
+"max_price": 105,
+"notes": "Specialized in spring wildflower interpretation."
+},
+"preferences": {
+"preferred_experience_types": [
+"Nature",
+"Hiking & Trekking",
+"Community Tourism"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 26,
+"source": "Eco-Guide Association",
+"last_updated": "2026-02-18"
+}
+},
+{
+"sme_id": "SME-000015",
+"sme_type": "tour_guide",
+"business_profile": {
+"name": "Hassan Al-Frehat",
+"description": "Independent desert and canyoning guide leading excursions through the upper reaches of Wadi Araba drainage canyons and remote wadis within Tafilah's border.",
+"experience_years": 9,
+"business_type": [
+"Tour Guide"
+],
+"specializations": [
+"Adventure",
+"Hiking",
+"Desert",
+"Nature"
+],
+"target_customer_types": [
+"Solo Travelers",
+"Couples"
+]
+},
+"contact": {
+"phone": "+962772211445",
+"mobile": "+962772211445",
+"email": "hassan.frehat.canyon@gmail.com",
+"website": null,
+"whatsapp": "+962772211445"
+},
+"location": {
+"country": "Jordan",
+"city": "Tafilah",
+"region": "Tafilah Governorate",
+"address": "Feynan Access Road, Tafilah, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Wadi Araba slopes",
+"Feynan valley floor",
+"Lower Wadi Ghuweir"
+],
+"preferred_destinations": "Wadi Araba edge exploration and deep wadi trails"
+},
+"languages": {
+"spoken": [
+"Arabic",
+"Polish",
+"English"
+],
+"preferred_language": "Polish"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Adventure Activities",
+"Private Tours",
+"Custom Itineraries"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides",
+"Multilingual Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "06:00 - 18:00"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 8,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Day",
+"min_price": 65,
+"max_price": 140,
+"notes": "Includes safety gear coordination and remote area tracking."
+},
+"preferences": {
+"preferred_experience_types": [
+"Soft Adventure",
+"Hiking & Trekking",
+"Desert Experiences"
+]
+},
+"reviews": {
+"rating": 5.0,
+"review_count": 29,
+"source": "Adventure Travellers Registry",
+"last_updated": "2026-03-10"
+}
+},
+{
+"sme_id": "SME-000016",
+"sme_type": "tour_guide",
+"business_profile": {
+"name": "Yasmin Al-Majali",
+"description": "Cultural and culinary tour guide specializing in traditional baking workshops, local agricultural practices, and culinary heritage routes across Tafilah hills.",
+"experience_years": 5,
+"business_type": [
+"Tour Guide"
+],
+"specializations": [
+"Food",
+"Culture",
+"Local Experiences"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962794455667",
+"mobile": "+962794455667",
+"email": "yasmin.majali.food@gmail.com",
+"website": null,
+"whatsapp": "+962794455667"
+},
+"location": {
+"country": "Jordan",
+"city": "Tafilah",
+"region": "Tafilah Governorate",
+"address": "Tafilah Agricultural Area, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Tafilah farming terraces",
+"Local cooperative kitchens",
+"Olive press stations"
+],
+"preferred_destinations": "Rural kitchens and community farming fields"
+},
+"languages": {
+"spoken": [
+"Arabic",
+"Czech",
+"English"
+],
+"preferred_language": "Czech"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Cultural Experiences",
+"Local Experiences",
+"Private Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides",
+"Multilingual Guides"
+]
+},
+"transportation": {
+"available": false
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "09:00 - 16:00"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 8,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Day",
+"min_price": 40,
+"max_price": 95,
+"notes": "Includes hands-on traditional cooking sessions."
+},
+"preferences": {
+"preferred_experience_types": [
+"Food & Culinary",
+"Local Experiences",
+"Family Experiences"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 20,
+"source": "Culinary Tourism Networks",
+"last_updated": "2026-02-05"
+}
+},
+{
+"sme_id": "SME-000017",
+"sme_type": "tour_guide",
+"business_profile": {
+"name": "Nabeel Al-Omari",
+"description": "Licensed freelance historical guide covering ancient regional settlements, Byzantine ruins, and cultural transition epochs in Tafilah Governorate.",
+"experience_years": 10,
+"business_type": [
+"Tour Guide"
+],
+"specializations": [
+"History",
+"Culture",
+"Archaeology"
+],
+"target_customer_types": [
+"Families",
+"Couples",
+"Solo Travelers"
+]
+},
+"contact": {
+"phone": "+962781122335",
+"mobile": "+962781122335",
+"email": "nabeel.omari.history@gmail.com",
+"website": null,
+"whatsapp": "+962781122335"
+},
+"location": {
+"country": "Jordan",
+"city": "Tafilah",
+"region": "Tafilah Governorate",
+"address": "Tafilah City Center, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Tafilah Heritage Museum",
+"Byzantine church sites",
+"Old town historical quarters"
+],
+"preferred_destinations": "Ancient ruins and historic settlement sites"
+},
+"languages": {
+"spoken": [
+"Arabic",
+"Greek",
+"English"
+],
+"preferred_language": "Greek"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Custom Itineraries",
+"Private Tours",
+"Group Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Licensed Tourist Guides",
+"Professional Guides",
+"Multilingual Guides"
+]
+},
+"transportation": {
+"available": false
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "08:00 - 17:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 20,
+"private_groups": true,
+"group_tours": true
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Day",
+"min_price": 50,
+"max_price": 120,
+"notes": "Comprehensive historical narrative tours."
+},
+"preferences": {
+"preferred_experience_types": [
+"History & Culture",
+"Archaeological Tourism"
+]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 35,
+"source": "Heritage Guides Registry",
+"last_updated": "2026-01-30"
+}
+},
+{
+"sme_id": "SME-000018",
+"sme_type": "tour_guide",
+"business_profile": {
+"name": "Suha Al-Zyoud",
+"description": "Independent community and wellness guide organizing relaxation getaways, meditation walks, and herbal wellness retreats around Tafilah's natural hot springs.",
+"experience_years": 6,
+"business_type": [
+"Tour Guide"
+],
+"specializations": [
+"Wellness",
+"Nature",
+"Local Experiences"
+],
+"target_customer_types": [
+"Couples",
+"Families"
+]
+},
+"contact": {
+"phone": "+962779988776",
+"mobile": "+962779988776",
+"email": "suha.zyoud.wellness@gmail.com",
+"website": null,
+"whatsapp": "+962779988776"
+},
+"location": {
+"country": "Jordan",
+"city": "Tafilah",
+"region": "Tafilah Governorate",
+"address": "Afra Hot Springs Area, Tafilah, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Afra Hot Springs",
+"Bureita mineral baths",
+"Surrounding green valleys"
+],
+"preferred_destinations": "Mineral spring reserves and peaceful nature nooks"
+},
+"languages": {
+"spoken": [
+"Arabic",
+"Portuguese",
+"English"
+],
+"preferred_language": "Portuguese"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Wellness Tours",
+"Local Experiences",
+"Private Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides",
+"Multilingual Guides"
+]
+},
+"transportation": {
+"available": false
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Wednesday",
+"Thursday",
+"Friday"
+],
+"working_hours": "09:00 - 17:00"
+},
+"capacity": {
+"minimum_group_size": 2,
+"maximum_group_size": 8,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Day",
+"min_price": 50,
+"max_price": 115,
+"notes": "Tailored for stress-relief and wellness tourism."
+},
+"preferences": {
+"preferred_experience_types": [
+"Wellness",
+"Local Experiences",
+"Nature"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 23,
+"source": "Wellness Travel Reviews",
+"last_updated": "2026-02-12"
+}
+},
+{
+"sme_id": "SME-000019",
+"sme_type": "tour_guide",
+"business_profile": {
+"name": "Murad Al-Kababji",
+"description": "Freelance adventure and off-road hiking guide leading technical treks through rugged ravines, wadi crossings, and high-altitude lookouts in Tafilah.",
+"experience_years": 8,
+"business_type": [
+"Tour Guide"
+],
+"specializations": [
+"Adventure",
+"Hiking",
+"Nature",
+"Camping"
+],
+"target_customer_types": [
+"Solo Travelers",
+"Couples"
+]
+},
+"contact": {
+"phone": "+962796677441",
+"mobile": "+962796677441",
+"email": "murad.kababji.trek@gmail.com",
+"website": null,
+"whatsapp": "+962796677441"
+},
+"location": {
+"country": "Jordan",
+"city": "Tafilah",
+"region": "Tafilah Governorate",
+"address": "Qadisiya, Tafilah Governorate, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Qadisiya ridges",
+"Upper Wadi Al-Hasa",
+"Dana escarpment trails"
+],
+"preferred_destinations": "High-altitude escarpment tracks and deep wadi paths"
+},
+"languages": {
+"spoken": [
+"Arabic",
+"Turkish",
+"English"
+],
+"preferred_language": "Turkish"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Adventure Activities",
+"Private Tours",
+"Custom Itineraries"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides",
+"Multilingual Guides"
+]
+},
+"transportation": {
+"available": true
+},
+"availability": {
+"working_days": [
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+],
+"working_hours": "06:00 - 18:30"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 10,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Day",
+"min_price": 55,
+"max_price": 125,
+"notes": "Specialized in challenging terrain routing."
+},
+"preferences": {
+"preferred_experience_types": [
+"Soft Adventure",
+"Hiking & Trekking",
+"Nature"
+]
+},
+"reviews": {
+"rating": 4.9,
+"review_count": 28,
+"source": "Mountain Explorer Network",
+"last_updated": "2026-03-01"
+}
+},
+{
+"sme_id": "SME-000020",
+"sme_type": "tour_guide",
+"business_profile": {
+"name": "Hanan Al-Bdour",
+"description": "Independent cultural and photography guide specializing in documenting traditional rural lifestyles, local agriculture, and scenic vistas across Tafilah villages.",
+"experience_years": 7,
+"business_type": [
+"Tour Guide"
+],
+"specializations": [
+"Culture",
+"Photography",
+"Local Experiences",
+"Nature"
+],
+"target_customer_types": [
+"Solo Travelers",
+"Couples",
+"Families"
+]
+},
+"contact": {
+"phone": "+962783344556",
+"mobile": "+962783344556",
+"email": "hanan.bdour.photo@gmail.com",
+"website": null,
+"whatsapp": "+962783344556"
+},
+"location": {
+"country": "Jordan",
+"city": "Tafilah",
+"region": "Tafilah Governorate",
+"address": "Busirah, Tafilah Governorate, Jordan"
+},
+"service_area": {
+"destinations_covered": [
+"Busirah old village",
+"Agricultural valleys",
+"Tafilah scenic overlooks"
+],
+"preferred_destinations": "Village heritage sites and photography viewpoints"
+},
+"languages": {
+"spoken": [
+"Arabic",
+"Hindi",
+"English"
+],
+"preferred_language": "Hindi"
+},
+"services": {
+"service_categories": [
+"Tour Guiding",
+"Cultural Experiences",
+"Local Experiences",
+"Private Tours"
+]
+},
+"guides": {
+"provides_guides": true,
+"guide_types": [
+"Local Guides",
+"Specialized Guides",
+"Multilingual Guides"
+]
+},
+"transportation": {
+"available": false
+},
+"availability": {
+"working_days": [
+"Sunday",
+"Monday",
+"Tuesday",
+"Thursday",
+"Saturday"
+],
+"working_hours": "08:30 - 17:00"
+},
+"capacity": {
+"minimum_group_size": 1,
+"maximum_group_size": 6,
+"private_groups": true,
+"group_tours": false
+},
+"pricing": {
+"currency": "JOD",
+"pricing_model": "Per Day",
+"min_price": 45,
+"max_price": 100,
+"notes": "Combined culture and visual storytelling tours."
+},
+"preferences": {
+"preferred_experience_types": [
+"Local Experiences",
+"History & Culture",
+"Nature"
+]
+},
+"reviews": {
+"rating": 4.8,
+"review_count": 21,
+"source": "Creative Travelers Registry",
+"last_updated": "2026-02-15"
+}
+}
+]]

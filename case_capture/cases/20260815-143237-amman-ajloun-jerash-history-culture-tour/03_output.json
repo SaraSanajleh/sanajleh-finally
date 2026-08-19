@@ -1,0 +1,810 @@
+{
+  "metadata": {
+    "model": "gpt-oss:20b-cloud",
+    "provider": "ollama",
+    "mode": "build",
+    "retries": 0
+  },
+  "package": {
+    "package_id": "pkg-cf89aeccae83",
+    "status": "complete",
+    "welcome_message": "Welcome to a 3-day Jordan adventure through Amman, Ajloun, and Jerash - curated with authentic local experiences and expert guides.",
+    "trip_title": "Amman, Ajloun & Jerash - History & Culture Tour",
+    "trip": {
+      "title": "Amman, Ajloun & Jerash - History & Culture Tour",
+      "summary": "Three days of historic exploration and cultural immersion, each day focused on a single region. Morning walks in the heat, afternoon shade and dining, and a comfortable 4-star stay in Amman.",
+      "start_date": "2026-08-20",
+      "end_date": "2026-08-22",
+      "duration_days": 3,
+      "nights": 2,
+      "regions": [
+        "Amman",
+        "Ajloun",
+        "Jerash"
+      ],
+      "arrival_airport": "AMM",
+      "language": "English"
+    },
+    "traveler_profile": {
+      "group_type": "family",
+      "adults": 4,
+      "children": 0,
+      "children_ages": [],
+      "seniors": 0,
+      "total_travelers": 4,
+      "interests": [
+        "history",
+        "culture"
+      ],
+      "pace": "Balanced",
+      "activity_level": "Easy",
+      "accessibility_needs": []
+    },
+    "planning": {
+      "strategy": "Each day stays in one area: Amman, Ajloun, then Jerash. Walk heritage and nature in the morning. Save museums, meals, and shade for the afternoon. About 3 places to visit and 2 meals each day.",
+      "constraints": {
+        "must_visit": [],
+        "places_to_avoid": []
+      },
+      "constraint_status": {
+        "status": "satisfied",
+        "unmet": []
+      },
+      "assumptions": [
+        "Travel times between cities are estimated qualitatively, not as exact minutes, unless evidence exists.",
+        "Opening hours are used only when present on the catalog record."
+      ],
+      "climate": {
+        "month": 8,
+        "season": "hot_dry_summer",
+        "typical_pattern": "High daytime heat, especially in the Jordan Valley and desert.",
+        "outdoor_guidance": "Walk outdoors in the morning. Keep the afternoon for shade, meals, or indoor visits.",
+        "heat_risk": "high"
+      },
+      "weather_status": "ok",
+      "decisions": [
+        {
+          "code": "day_route",
+          "title": "Each day stays in one area",
+          "why": "Mixing far-apart cities in one day makes the trip exhausting and confusing.",
+          "effect": "Your days follow Amman, Ajloun, then Jerash."
+        },
+        {
+          "code": "arrival_stay",
+          "title": "Your first night is near the airport",
+          "why": "You land at AMM at 15:50.",
+          "effect": "Night one is a hotel in Amman, as close to the airport as the listings allow."
+        },
+        {
+          "code": "arrival_pace",
+          "title": "Ease in after landing",
+          "why": "You arrive at 15:50.",
+          "effect": "Transfer, eat, rest at the hotel. Sightseeing starts the next day."
+        },
+        {
+          "code": "day_trips",
+          "title": "Day trips from one hotel",
+          "why": "These places are close enough to visit and return the same day.",
+          "effect": "You keep the same hotel in Amman and come back there to sleep."
+        },
+        {
+          "code": "heat",
+          "title": "Mornings for the outdoors",
+          "why": "High daytime heat, especially in the Jordan Valley and desert.",
+          "effect": "Walk heritage and nature in the morning. Save museums, meals, and shade for the afternoon."
+        },
+        {
+          "code": "pace",
+          "title": "A balanced pace",
+          "why": "family group, Easy activity.",
+          "effect": "About 3 places to visit and 2 meals each day."
+        },
+        {
+          "code": "stay_tier",
+          "title": "4 star stays",
+          "why": "You asked for 4 star hotels.",
+          "effect": "Hotels are taken from listings at that star level when the city has them. If it does not, we use the closest listed tier and say so."
+        },
+        {
+          "code": "budget",
+          "title": "A comfort budget",
+          "why": "800 JOD for 3 days.",
+          "effect": "We lean toward more comfortable stays and dining when those places exist."
+        },
+        {
+          "code": "interests",
+          "title": "Chosen around what you care about",
+          "why": "history, culture",
+          "effect": "Sights, meals, and local hosts are matched to these. Unrelated places stay out."
+        }
+      ]
+    },
+    "days": [
+      {
+        "day": 1,
+        "date": "2026-08-20",
+        "region": "Amman",
+        "theme": "Arrival in Amman",
+        "summary": "Afternoon arrival in Amman: lunch, then rest. A quiet first evening.",
+        "schedule": [
+          {
+            "time": "16:35",
+            "end_time": "20:35",
+            "slot": "overnight",
+            "type": "hotel",
+            "item_id": "hotel_000022",
+            "name": "InterContinental Jordan",
+            "duration_minutes": null,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.953689,
+              "longitude": 35.913879,
+              "precision": "exact"
+            },
+            "description": "Long-established five-star IHG hotel on Islamic College Street in Jabal Amman, between the Second and Third Circles, with six restaurants, indoor and outdoor pools, a spa and a 24-hour reception.",
+            "reason": "Check in and rest through the hot / tired hours. Keep the first evening easy. 5-star stay, as requested",
+            "matched_preferences": [
+              "5-star stay, as requested",
+              "In Amman",
+              "Matches history, culture",
+              "5-star, as requested",
+              "Matches hotel"
+            ],
+            "estimated_cost": "165 JOD / night",
+            "source": {
+              "dataset": "hotels",
+              "record_id": "hotel_000022"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "20:35",
+            "end_time": "22:05",
+            "slot": "dinner",
+            "type": "restaurant",
+            "item_id": "restaurant_001049",
+            "name": "Sufra Restaurant",
+            "duration_minutes": 90,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.94751,
+              "longitude": 35.92612,
+              "precision": "exact"
+            },
+            "description": "An award-winning upscale Jordanian restaurant on Rainbow Street serving authentic heritage recipes in a gorgeous villa.",
+            "reason": "A simple dinner if the kitchen is still open, then sleep.",
+            "matched_preferences": [
+              "In Amman",
+              "A must-see in Amman",
+              "Matches history, culture",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "32 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_001049"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "You land at 15:50. The drive from Queen Alia to Amman is about 45 minutes. Times below start after that transfer."
+      },
+      {
+        "day": 2,
+        "date": "2026-08-21",
+        "region": "Ajloun",
+        "theme": "Ajloun: history, culture",
+        "summary": "Explore Ajloun's natural beauty and medieval fortress, then enjoy local Jordanian cuisine in the forest reserve.",
+        "schedule": [
+          {
+            "time": "08:30",
+            "end_time": "09:15",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_006037",
+            "name": "Al-Karakah Nature Trail",
+            "duration_minutes": 45,
+            "location": "Ajloun",
+            "coordinates": {
+              "latitude": 32.328889,
+              "longitude": 35.731944,
+              "precision": "exact"
+            },
+            "description": "Peaceful municipal forest walking path through pine and oak woods near Ajloun Castle.",
+            "reason": "Natural setting to start the day in shade, matching the history and culture theme.",
+            "matched_preferences": [
+              "In Ajloun",
+              "in requested region: Ajloun Governorate",
+              "A must-see in Ajloun",
+              "Matches history"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_006037"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "09:30",
+            "end_time": "11:00",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_006001",
+            "name": "Ajloun Castle",
+            "duration_minutes": 90,
+            "location": "Ajloun",
+            "coordinates": {
+              "latitude": 32.332611,
+              "longitude": 35.727333,
+              "precision": "exact"
+            },
+            "description": "12th-century Ayyubid fortress guarding against Crusader incursions and protecting local iron mines.",
+            "reason": "Iconic medieval site that embodies Ajloun's historical heritage.",
+            "matched_preferences": [
+              "In Ajloun",
+              "local_tourism_catalog",
+              "A must-see in Ajloun",
+              "Matches history, culture",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "3 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_006001"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "11:15",
+            "end_time": "11:35",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_006019",
+            "name": "Ain Al-Tissis Lookout",
+            "duration_minutes": 20,
+            "location": "Ajloun",
+            "coordinates": {
+              "latitude": 32.358889,
+              "longitude": 35.760278,
+              "precision": "exact"
+            },
+            "description": "Scenic mountain bend overlook above forested ravines along the upper Ajloun circuit.",
+            "reason": "Brief scenic stop to enjoy panoramic views before lunch.",
+            "matched_preferences": [
+              "In Ajloun",
+              "local_tourism_catalog"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_006019"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "12:00",
+            "end_time": "13:15",
+            "slot": "midday",
+            "type": "restaurant",
+            "item_id": "restaurant_007042",
+            "name": "Ajloun Forest Reserve Restaurant",
+            "duration_minutes": 75,
+            "location": "Ajloun",
+            "coordinates": {
+              "latitude": 32.3812,
+              "longitude": 35.7601,
+              "precision": "exact"
+            },
+            "description": "Scenic nature reserve restaurant serving organic, locally sourced Jordanian dishes.",
+            "reason": "Fresh, local cuisine in a forest setting, aligning with the cultural theme.",
+            "matched_preferences": [
+              "In Ajloun",
+              "A must-see in Ajloun",
+              "Matches culture",
+              "Matches preferred cuisine"
+            ],
+            "estimated_cost": "13.5 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_007042"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "18:30",
+            "end_time": "19:15",
+            "slot": "evening",
+            "type": "restaurant",
+            "item_id": "restaurant_006005",
+            "name": "Summaga Cafe & Restaurant",
+            "duration_minutes": 45,
+            "location": "Ajloun",
+            "coordinates": {
+              "latitude": 32.375211,
+              "longitude": 35.75932,
+              "precision": "exact"
+            },
+            "description": "Farm-to-table organic eatery offering regional sumac dishes and local crafts.",
+            "reason": "Light dinner to conclude the day with authentic flavors.",
+            "matched_preferences": [
+              "In Ajloun",
+              "Matches culture",
+              "Matches preferred cuisine"
+            ],
+            "estimated_cost": "7 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_006005"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "Come back to your hotel in Amman to sleep."
+      },
+      {
+        "day": 3,
+        "date": "2026-08-22",
+        "region": "Jerash",
+        "theme": "Jerash: history, culture",
+        "summary": "Discover Jerash's heritage village, rural springs, and a seasonal waterfall before enjoying two delightful Jordanian meals.",
+        "schedule": [
+          {
+            "time": "09:00",
+            "end_time": "10:15",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_005038",
+            "name": "Suf Village Heritage Center",
+            "duration_minutes": 75,
+            "location": "Jerash",
+            "coordinates": {
+              "latitude": 32.3112,
+              "longitude": 35.8361,
+              "precision": "exact"
+            },
+            "description": "Heritage village hub with traditional stone houses, crafts, and community tourism.",
+            "reason": "Immersive cultural experience showcasing local traditions.",
+            "matched_preferences": [
+              "In Jerash",
+              "matches culture interest",
+              "Matches history, culture"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_005038"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "10:30",
+            "end_time": "11:30",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_005020",
+            "name": "Al-Kittah Village and Springs",
+            "duration_minutes": 60,
+            "location": "Jerash",
+            "coordinates": {
+              "latitude": 32.27472,
+              "longitude": 35.84583,
+              "precision": "exact"
+            },
+            "description": "Rural village with springs, olive groves, and traditional farming.",
+            "reason": "Showcases Jerash's natural and agricultural heritage.",
+            "matched_preferences": [
+              "In Jerash",
+              "in requested region: Jerash Governorate"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_005020"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "11:45",
+            "end_time": "12:45",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_005037",
+            "name": "Al-Karakhouf Waterfall",
+            "duration_minutes": 60,
+            "location": "Jerash",
+            "coordinates": {
+              "latitude": 32.2218,
+              "longitude": 35.7952,
+              "precision": "exact"
+            },
+            "description": "Seasonal spring waterfall in the green valley of Burma district.",
+            "reason": "Natural highlight offering a refreshing break in the heat.",
+            "matched_preferences": [
+              "In Jerash",
+              "in requested region: Jerash Governorate"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_005037"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "13:00",
+            "end_time": "14:25",
+            "slot": "midday",
+            "type": "restaurant",
+            "item_id": "restaurant_005062",
+            "name": "Jerash Canyon Restaurant",
+            "duration_minutes": 85,
+            "location": "Jerash",
+            "coordinates": {
+              "latitude": 32.29124,
+              "longitude": 35.86891,
+              "precision": "exact"
+            },
+            "description": "Canyon-side restaurant offering outdoor dining with gorge views.",
+            "reason": "Midday meal with scenic surroundings, aligning with the cultural theme.",
+            "matched_preferences": [
+              "In Jerash"
+            ],
+            "estimated_cost": "17 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_005062"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "18:30",
+            "end_time": "20:00",
+            "slot": "evening",
+            "type": "restaurant",
+            "item_id": "restaurant_007038",
+            "name": "Green Valley Restaurant Jerash",
+            "duration_minutes": 90,
+            "location": "Jerash",
+            "coordinates": {
+              "latitude": 32.2685,
+              "longitude": 35.8542,
+              "precision": "exact"
+            },
+            "description": "Garden restaurant along the stream valley between Jerash and Dibbeen forest.",
+            "reason": "Evening meal in a relaxed garden setting, perfect for winding down.",
+            "matched_preferences": [
+              "In Jerash"
+            ],
+            "estimated_cost": "12 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_007038"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "Come back to your hotel in Amman to sleep."
+      }
+    ],
+    "budget": {
+      "currency": "JOD",
+      "traveler_budget": 800.0,
+      "estimated_total": "773 JOD",
+      "band": "comfort",
+      "items": [
+        {
+          "category": "Stays",
+          "estimated_cost": "330 JOD",
+          "notes": "InterContinental Jordan: 165 JOD × 2 night(s)",
+          "confidence": "medium"
+        },
+        {
+          "category": "Meals on the plan",
+          "estimated_cost": "326 JOD",
+          "notes": "5 listed meal(s) × 4 traveler(s).",
+          "confidence": "medium"
+        },
+        {
+          "category": "Entry tickets",
+          "estimated_cost": "12 JOD",
+          "notes": "6 listed site(s) × 4 traveler(s).",
+          "confidence": "medium"
+        },
+        {
+          "category": "Trip guide",
+          "estimated_cost": "80 JOD",
+          "notes": "Listed from 80 JOD (up to 140 JOD listed)",
+          "confidence": "medium"
+        },
+        {
+          "category": "Trip operator",
+          "estimated_cost": "25 JOD",
+          "notes": "Listed from 25 JOD (up to 150 JOD listed)",
+          "confidence": "medium"
+        },
+        {
+          "category": "Left vs your ceiling",
+          "estimated_cost": "27 JOD",
+          "notes": "Your ceiling is 800 JOD. Listed pieces add up to 773 JOD.",
+          "confidence": "medium"
+        }
+      ],
+      "disclaimer": "Amounts come from catalog listings. This is a planning estimate, not a final invoice. Missing prices stay unknown — we do not invent them."
+    },
+    "sme_value": {
+      "headline": "Your guide and operator for this journey",
+      "summary": "One local guide and one tour operator for the whole trip — not a new face every day.",
+      "recommended": [
+        {
+          "sme_id": "tour_guide:SME-000007:amman",
+          "sme_type": "tour_guide",
+          "name": "Khaled Al-Momani",
+          "role": "Trip guide",
+          "location": "Amman",
+          "experience_type": "History, Archaeology, Culture",
+          "match_score": 0.912,
+          "reason": "Fits what you asked for: history, culture",
+          "matched_because": [
+            "Fits what you asked for: history, culture",
+            "Covers ajloun, amman, jerash",
+            "Based in Amman",
+            "Works with family travelers",
+            "Speaks English"
+          ],
+          "known_for": [
+            "Professional freelance tourist guide with extensive knowledge of Jordan's northern and central archaeological sites, operating primarily from Amman",
+            "Takes travelers to Amman Citadel, Jerash, Umm Qais, Ajloun Castle",
+            "Also offers Private Tours, Custom Itineraries",
+            "Private groups available"
+          ],
+          "specializations": [
+            "History",
+            "Archaeology",
+            "Culture"
+          ],
+          "languages": [
+            "Arabic",
+            "English",
+            "Italian"
+          ],
+          "experience_years": 14,
+          "destinations_covered": [
+            "Amman Citadel",
+            "Jerash",
+            "Umm Qais",
+            "Ajloun Castle"
+          ],
+          "covers_regions": [
+            "ajloun",
+            "amman",
+            "jerash"
+          ],
+          "package_role": "guide",
+          "specs": [
+            {
+              "label": "Specializations",
+              "value": "History, Archaeology, Culture"
+            },
+            {
+              "label": "Experience",
+              "value": "14 years"
+            },
+            {
+              "label": "Languages",
+              "value": "Arabic, English, Italian"
+            },
+            {
+              "label": "Best for",
+              "value": "Families, Couples, Solo Travelers"
+            },
+            {
+              "label": "Group size",
+              "value": "1–30"
+            },
+            {
+              "label": "From",
+              "value": "80–140 JOD"
+            },
+            {
+              "label": "Hours",
+              "value": "08:00 - 18:00"
+            },
+            {
+              "label": "Rating",
+              "value": "4.9 (51 reviews)"
+            }
+          ],
+          "source": {
+            "dataset": "sme_guides",
+            "record_id": "tour_guide:SME-000007:amman"
+          },
+          "coordinates": {
+            "latitude": 31.9454,
+            "longitude": 35.9284,
+            "precision": "city_centroid"
+          }
+        },
+        {
+          "sme_id": "tour_operator:SME-000002:jerash",
+          "sme_type": "tour_operator",
+          "name": "Decapolis Discovery Tours",
+          "role": "Trip operator",
+          "location": "Jerash",
+          "experience_type": "History, Archaeology, Culture",
+          "match_score": 0.946,
+          "reason": "Fits what you asked for: history, culture",
+          "matched_because": [
+            "Fits what you asked for: history, culture",
+            "Covers ajloun, amman, jerash",
+            "Based in Jerash",
+            "Works with family travelers",
+            "Speaks English",
+            "Transportation across the itinerary"
+          ],
+          "known_for": [
+            "Incoming tour operator focusing on the classical Decapolis cities of northern Jordan, with a strong emphasis on Jerash and surrounding historical landscapes",
+            "Takes travelers to Jerash, Amman, Umm Qais, Ajloun",
+            "Also offers Private Tours, Special Interest Tours, Cultural Experiences",
+            "Private groups available",
+            "Can arrange transportation"
+          ],
+          "specializations": [
+            "History",
+            "Archaeology",
+            "Culture"
+          ],
+          "languages": [
+            "Arabic",
+            "English",
+            "French"
+          ],
+          "experience_years": 12,
+          "destinations_covered": [
+            "Jerash",
+            "Amman",
+            "Umm Qais",
+            "Ajloun"
+          ],
+          "covers_regions": [
+            "ajloun",
+            "amman",
+            "jerash"
+          ],
+          "package_role": "operator",
+          "specs": [
+            {
+              "label": "Specializations",
+              "value": "History, Archaeology, Culture"
+            },
+            {
+              "label": "Experience",
+              "value": "12 years"
+            },
+            {
+              "label": "Languages",
+              "value": "Arabic, English, French"
+            },
+            {
+              "label": "Best for",
+              "value": "Families, Couples"
+            },
+            {
+              "label": "Group size",
+              "value": "1–25"
+            },
+            {
+              "label": "From",
+              "value": "25–150 JOD"
+            },
+            {
+              "label": "Hours",
+              "value": "08:30–18:00"
+            },
+            {
+              "label": "Rating",
+              "value": "4.8 (52 reviews)"
+            }
+          ],
+          "source": {
+            "dataset": "sme_operators",
+            "record_id": "tour_operator:SME-000002:jerash"
+          },
+          "coordinates": {
+            "latitude": 32.2808,
+            "longitude": 35.8993,
+            "precision": "city_centroid"
+          }
+        }
+      ]
+    },
+    "sources": [
+      {
+        "dataset": "hotels",
+        "record_id": "hotel_000022"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_001049"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_006037"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_006001"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_006019"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_007042"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_006005"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_005038"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_005020"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_005037"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_005062"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_007038"
+      },
+      {
+        "dataset": "sme_guides",
+        "record_id": "tour_guide:SME-000007:amman"
+      },
+      {
+        "dataset": "sme_operators",
+        "record_id": "tour_operator:SME-000002:jerash"
+      }
+    ],
+    "warnings": [],
+    "explanations": {
+      "trip_planning_reason": "Each day stays in one area: Amman, Ajloun, then Jerash. Walk heritage and nature in the morning. Save museums, meals, and shade for the afternoon. About 3 places to visit and 2 meals each day.",
+      "highlights": [
+        "Al-Karakah Nature Trail",
+        "Ajloun Castle",
+        "Ain Al-Tissis Lookout",
+        "Suf Village Heritage Center",
+        "Al-Kittah Village and Springs",
+        "Al-Karakhouf Waterfall"
+      ],
+      "why_smes": [
+        "Khaled Al-Momani: Fits what you asked for: history, culture",
+        "Decapolis Discovery Tours: Fits what you asked for: history, culture"
+      ],
+      "context_benefits": [
+        "Each day stays in one area: Your days follow Amman, Ajloun, then Jerash.",
+        "Your first night is near the airport: Night one is a hotel in Amman, as close to the airport as the listings allow.",
+        "Ease in after landing: Transfer, eat, rest at the hotel. Sightseeing starts the next day.",
+        "Day trips from one hotel: You keep the same hotel in Amman and come back there to sleep.",
+        "Mornings for the outdoors: Walk heritage and nature in the morning. Save museums, meals, and shade for the afternoon.",
+        "A balanced pace: About 3 places to visit and 2 meals each day.",
+        "4 star stays: Hotels are taken from listings at that star level when the city has them. If it does not, we use the closest listed tier and say so.",
+        "A comfort budget: We lean toward more comfortable stays and dining when those places exist.",
+        "Chosen around what you care about: Sights, meals, and local hosts are matched to these. Unrelated places stay out."
+      ]
+    }
+  }
+}

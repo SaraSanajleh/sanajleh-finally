@@ -1,0 +1,40 @@
+# ReTour AI Brain — LLM Configuration
+# Change provider/model here only. No code changes required.
+
+provider: ollama
+
+model:
+  # Local Qwen (run via Ollama). Model name must exist in `ollama list`.
+  # If you haven't pulled it yet: `ollama pull qwen3:8b`
+  name: qwen3:8b
+  display_name: Qwen3 8B (local)
+
+generation:
+  temperature: 0.3
+  top_p: 0.9
+  # Covers reasoning AND the answer, so a long package needs headroom above both.
+  # Keep a lower cap to avoid long runtimes on slow local GPUs.
+  max_tokens: 4096
+  timeout_seconds: 600
+  max_retries: 0  # agent layer retries on bad JSON; avoid stacking LLM retries
+
+ollama:
+  base_url: http://localhost:11434
+  api_path: /api/chat
+  # Disable "thinking" channel so we don't burn budget before JSON starts.
+  think: false
+  # Force JSON-only content channel (stops prose / thinking from being treated as the reply).
+  format: json
+  keep_alive: 10m
+  # Must hold the evidence prompt plus the whole generated package (max_tokens above).
+  num_ctx: 49152
+  # num_gpu is ignored for cloud models; leave unset.
+
+# Future providers — uncomment and set provider above to switch
+# openai:
+#   base_url: https://api.openai.com/v1
+#   api_key_env: OPENAI_API_KEY
+#
+# anthropic:
+#   base_url: https://api.anthropic.com
+#   api_key_env: ANTHROPIC_API_KEY

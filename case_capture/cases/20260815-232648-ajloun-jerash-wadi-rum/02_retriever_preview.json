@@ -1,0 +1,113 @@
+{
+  "status": "ok",
+  "source": "retriever",
+  "duration_days": 3,
+  "cluster_count": 3,
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "theme": "Jerash Governorate · shopping",
+      "poi_count": 4,
+      "hotel_count": 4,
+      "event_count": 3,
+      "poi_names": [
+        "Jerash Heritage Souk",
+        "Al-Mustaba Eco-Park",
+        "Suf Village Heritage Center",
+        "Al-Kittah Village and Springs"
+      ],
+      "hotel_names": [
+        "Jerash Hotel",
+        "The Olive Branch Hotel",
+        "Celestia Boutique Inn",
+        "Dream House Hotel Apartments"
+      ],
+      "sample_restaurants": [
+        "Jerash Oasis Grill",
+        "Al Baraka Bakery & Cafe Jerash",
+        "Green Valley Restaurant Jerash",
+        "Jerash Olive Grove Grill",
+        "Jerash Canyon Restaurant",
+        "Jerash Valley Resort Restaurant"
+      ],
+      "event_names": [
+        "Jordan Summer Festival - Jerash",
+        "National Celebrations Programme - Jerash",
+        "Aesthetics of Place Cultural Programme - Jerash"
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "theme": "Ajloun Governorate · shopping, food",
+      "poi_count": 8,
+      "hotel_count": 4,
+      "event_count": 3,
+      "poi_names": [
+        "RSCN Biscuit House",
+        "Ajloun Souq",
+        "Orjan Soap House Trailhead",
+        "Rasoon Village Heritage Area",
+        "Ishtafina Park",
+        "Al-Karakah Nature Trail",
+        "Mar Elias Trailhead",
+        "Ajloun Forest Reserve"
+      ],
+      "hotel_names": [
+        "Ajloun Hotel",
+        "Al Ghazal Villas",
+        "Al-Jabal Castle Hotel - Ajloun",
+        "Ajloun Forest Reserve"
+      ],
+      "sample_restaurants": [
+        "Ajloun Forest Reserve Restaurant",
+        "Al-Basha Restaurant Ajloun",
+        "Summaga Cafe & Restaurant",
+        "Ishtafina Park Restaurant",
+        "Royal Oak Restaurant",
+        "Al Qala'a Restaurant"
+      ],
+      "event_names": [
+        "Mar Elias Celebration",
+        "National Celebrations Programme - Ajloun",
+        "Jordan Summer Festival - Ajloun"
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "theme": "Ma'an Governorate · shopping",
+      "poi_count": 9,
+      "hotel_count": 4,
+      "event_count": 3,
+      "poi_names": [
+        "Maan Historic Souq",
+        "Wadi Rum Visitor Center",
+        "Rum Village Bedouin Oasis",
+        "Barrah Canyon",
+        "Al-Maddras Trail & High Viewpoint",
+        "Jabal Burdah Rock Bridge",
+        "Al-Mu'aysrah Temple Trail",
+        "Red Sand Dunes of Wadi Rum",
+        "Neolithic Village of Beidha"
+      ],
+      "hotel_names": [
+        "Cleopetra Hotel",
+        "Rocky Mountain Hotel",
+        "Valentine Inn",
+        "Petra Gate Hotel"
+      ],
+      "sample_restaurants": [
+        "Al-Khalil Fast Food & Falafel",
+        "Hasan Zawaideh Camp Dining",
+        "Rahayeb Desert Camp Restaurant",
+        "Wadi Rum Rest House Restaurant",
+        "The Cave Bar",
+        "Bedouin Night Camp Restaurant"
+      ],
+      "event_names": [
+        "Knafeh Making Experience in Petra",
+        "Petra Kitchen Workshop",
+        "Jordan Summer Festival - Ma'an"
+      ]
+    }
+  ]
+}

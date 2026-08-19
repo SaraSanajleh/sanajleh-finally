@@ -1,0 +1,82 @@
+{
+  "status": "ok",
+  "source": "retriever",
+  "duration_days": 3,
+  "cluster_count": 3,
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "theme": "Ma'an Governorate · culture, nature",
+      "poi_count": 4,
+      "hotel_count": 0,
+      "event_count": 1,
+      "poi_names": [
+        "Wadi Rum Visitor Center",
+        "Red Sand Dunes of Wadi Rum",
+        "Rum Village Bedouin Oasis",
+        "Desert Police Station & Fort (Wadi Rum)"
+      ],
+      "hotel_names": [],
+      "sample_restaurants": [
+        "Captain's Desert Camp Restaurant Wadi Rum",
+        "Wadi Rum Rest House Restaurant",
+        "Wadi Rum Visitor Center Rest House"
+      ],
+      "event_names": [
+        "Wadi Rum Endurance Race"
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "theme": "Ma'an Governorate · culture, nature",
+      "poi_count": 4,
+      "hotel_count": 4,
+      "event_count": 3,
+      "poi_names": [
+        "Petra Museum",
+        "The Siq",
+        "Little Petra (Siq al-Barid)",
+        "Al-Khazneh Viewpoint (Jabal al-Khubtha Trail)"
+      ],
+      "hotel_names": [
+        "Petra Aretas Hotel",
+        "Cleopetra Hotel",
+        "Petra Sky Hotel",
+        "Petra Gate Hotel"
+      ],
+      "sample_restaurants": [
+        "Little Petra Bedouin Camp Restaurant",
+        "Rock Camp Restaurant Little Petra",
+        "The Basin Restaurant Petra",
+        "Crowne Plaza Petra Basin Restaurant"
+      ],
+      "event_names": [
+        "Petra Heritage Fashion and Local Products Exhibition",
+        "Dinner in Front of the Treasury",
+        "Caravans of Petra Documentary Screening"
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "theme": "Madaba Governorate · culture, nature",
+      "poi_count": 2,
+      "hotel_count": 4,
+      "event_count": 0,
+      "poi_names": [
+        "Dead Sea Panorama Complex (Madaba Overlook)",
+        "Al-Karak Panorama Viewpoint"
+      ],
+      "hotel_names": [
+        "Holiday Inn Resort Dead Sea",
+        "Grand East Hotel Resort & Spa Dead Sea",
+        "Ramada Resort by Wyndham Dead Sea",
+        "Kempinski Hotel Ishtar Dead Sea"
+      ],
+      "sample_restaurants": [
+        "Dead Sea Panorama Restaurant",
+        "Ocean Fresh Fish Sweimeh"
+      ],
+      "event_names": []
+    }
+  ]
+}

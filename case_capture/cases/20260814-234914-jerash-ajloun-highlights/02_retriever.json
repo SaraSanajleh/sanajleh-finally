@@ -1,0 +1,8 @@
+{
+  "duration_days": 3,
+  "clusters": [],
+  "meta": {
+    "rag_status": "unavailable",
+    "error": "All connection attempts failed"
+  }
+}

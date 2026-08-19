@@ -1,0 +1,133 @@
+{
+  "caseId": "20260814-223030-jerash-ajloun-heritage-adventure",
+  "createdAt": "2026-08-14T22:30:30.746276+00:00",
+  "trip_title": "Jerash & Ajloun Heritage Adventure",
+  "rag": {
+    "status": "ok",
+    "source": "retriever",
+    "duration_days": 3,
+    "cluster_count": 3,
+    "clusters": [
+      {
+        "cluster_id": 0,
+        "theme": "Balqa Governorate · history, culture",
+        "poi_count": 10,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "Al-Fuheis Heritage Quarter",
+          "Fuheis Heritage Quarter (Al-Fuheis Old Town)",
+          "Fuheis Cultural Centre",
+          "Mahes Pine Forest Park",
+          "Abu Jaber Museum",
+          "Zaha Cultural Center",
+          "As-Salt Heritage Trail Starting Point",
+          "Zain Al-Sharaf Nature Reserve",
+          "Mahes Ancient Village and Springs",
+          "Al-Jubeiha to Balqa Agricultural Terraces Viewpoint"
+        ],
+        "hotel_names": [
+          "Al Hummar Restaurant and Hotel",
+          "Mountain Breeze Lodge & Resort",
+          "Grand East Hotel Resort & Spa Dead Sea",
+          "Holiday Inn Resort Dead Sea"
+        ],
+        "sample_restaurants": [
+          "Baladna Restaurant",
+          "Carob House Fuheis",
+          "Kababish Fuheis",
+          "Obidos Cafe & Restaurant",
+          "Jordan Heritage Restaurant Salt",
+          "Dardasha Kitchen"
+        ],
+        "event_names": [
+          "Fuheis Festival",
+          "Jordan Summer Festival - Balqa",
+          "Eid Evenings - Balqa"
+        ]
+      },
+      {
+        "cluster_id": 1,
+        "theme": "Jerash Governorate · culture, history",
+        "poi_count": 10,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "Jerash Heritage Souk",
+          "Hippodrome of Jerash",
+          "Suf Village Heritage Center",
+          "North Theater of Jerash",
+          "Zarqa River Bridge Historic Site",
+          "Ain Al-Basha Public Park",
+          "Ain Al-Basha Old Marketplace",
+          "Tell Johfiyeh",
+          "Ain Al-Basha Public Library and Cultural Hub",
+          "King Abdullah II Park"
+        ],
+        "hotel_names": [
+          "Celestia Boutique Inn",
+          "Jerash Hotel",
+          "The Olive Branch Hotel",
+          "Dream House Hotel Apartments"
+        ],
+        "sample_restaurants": [
+          "Jerash Gate Restaurant",
+          "Roman Bridge Restaurant",
+          "Jerash Canyon Restaurant",
+          "Green Jerash Restaurant",
+          "Al Deyafa Tourist Restaurant",
+          "Al Ghabah Restaurant"
+        ],
+        "event_names": [
+          "Jerash Festival for Culture and Arts",
+          "National Celebrations Programme - Jerash",
+          "Jordan Summer Festival - Jerash"
+        ]
+      },
+      {
+        "cluster_id": 2,
+        "theme": "Ajloun Governorate · culture, history",
+        "poi_count": 10,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "Ajloun Olive Press Museum",
+          "Ajloun Biscuit House",
+          "Wadi Rayyan",
+          "Baoun Historic Village",
+          "Al-Husun Traditional Pottery Studio",
+          "Tell Johfiyeh",
+          "Mazar Al-Shamali Forest Reserve",
+          "Wadi Jirim",
+          "Pella Archaeological Site",
+          "Wadi Al-Arayan"
+        ],
+        "hotel_names": [
+          "Ajloun Hotel",
+          "Al-Jabal Castle Hotel - Ajloun",
+          "Al Ghazal Villas",
+          "Ajloun Forest Reserve"
+        ],
+        "sample_restaurants": [
+          "Al-Manara Grill & Restaurant",
+          "Ajloun Forest Reserve Restaurant",
+          "Rasoun Heritage House Restaurant",
+          "Orjan Village Farm Breakfast & House",
+          "Al-Kanz Restaurant",
+          "Tawaheen Al-Hawa Irbid"
+        ],
+        "event_names": [
+          "National Celebrations Programme - Ajloun",
+          "Ajloun Ramadan Family and Children Carnival",
+          "Jordan Summer Festival - Ajloun"
+        ]
+      }
+    ]
+  },
+  "paths": {
+    "input": "01_input.json",
+    "knowledge": "02_retriever.json",
+    "knowledge_preview": "02_retriever_preview.json",
+    "output": "03_output.json"
+  }
+}

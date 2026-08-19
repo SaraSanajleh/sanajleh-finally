@@ -1,0 +1,95 @@
+{
+  "caseId": "20260815-223757-balqa-explorer",
+  "createdAt": "2026-08-15T22:37:57.638708+00:00",
+  "trip_title": "Balqa Explorer",
+  "rag": {
+    "status": "ok",
+    "source": "retriever",
+    "duration_days": 2,
+    "cluster_count": 2,
+    "clusters": [
+      {
+        "cluster_id": 0,
+        "theme": "Karak Governorate · museums, shopping, hiking",
+        "poi_count": 10,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "Safi Museum (Lowest Place on Earth Museum)",
+          "Al-Karak Old Souq",
+          "Karak Archaeological Museum",
+          "Al-Karak Plaza Commercial Market",
+          "Jannat Al-Karak Park",
+          "Al-Karak Plaza Park",
+          "Wadi Hasa",
+          "Wadi Al-Hasa Lower Canyon",
+          "Al-Karak Heritage Village",
+          "Al-Karak Panorama Viewpoint"
+        ],
+        "hotel_names": [
+          "Cairwan Hotel",
+          "Hostel Karak Dream",
+          "The Old House",
+          "Al-Mujeb Hotel"
+        ],
+        "sample_restaurants": [
+          "Safi Valley Heritage Cafe & Restaurant",
+          "Al-Zahra Shawarma",
+          "Al-Mu'tasim Falafel & Hummus",
+          "Falafel & Hummus Al-Agha",
+          "Ar-Rai Restaurant",
+          "Al Baghdadi Restaurant"
+        ],
+        "event_names": [
+          "Ramadan Evenings - Karak",
+          "Eid Evenings - Karak",
+          "Jordan Summer Festival - Karak"
+        ]
+      },
+      {
+        "cluster_id": 1,
+        "theme": "Balqa Governorate · hiking, museums, religious_sites",
+        "poi_count": 10,
+        "hotel_count": 4,
+        "event_count": 3,
+        "poi_names": [
+          "Al-Rumman Forest Recreation Area",
+          "Fuheis Cultural Centre",
+          "Zain Al-Sharaf Nature Reserve",
+          "Tomb of Prophet Shuaib (Jethro)",
+          "Burin Forest Park",
+          "As-Salt Heritage Trail Starting Point",
+          "Zai Forest Picnic Area",
+          "Mahes Pine Forest Park",
+          "South Shuna Public Park",
+          "Zarqa River Eco-Trail Pathway"
+        ],
+        "hotel_names": [
+          "Mountain Breeze Lodge & Resort",
+          "Sindyan Resort",
+          "Saltus Hotel",
+          "Holiday Inn Resort Dead Sea"
+        ],
+        "sample_restaurants": [
+          "Al Ghabah Restaurant",
+          "Baladna Restaurant",
+          "Sitt Inaya Heritage House",
+          "Bab Al-Hara Restaurant Salt",
+          "Al Deyafa Tourist Restaurant",
+          "Jordan Heritage Restaurant Salt"
+        ],
+        "event_names": [
+          "Fuheis Festival",
+          "Jordan Summer Festival - Balqa",
+          "Eid Evenings - Balqa"
+        ]
+      }
+    ]
+  },
+  "paths": {
+    "input": "01_input.json",
+    "knowledge": "02_retriever.json",
+    "knowledge_preview": "02_retriever_preview.json",
+    "output": "03_output.json"
+  }
+}

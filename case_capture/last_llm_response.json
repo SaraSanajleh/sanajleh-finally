@@ -1,0 +1,12 @@
+{
+  "model": "gpt-oss:20b-cloud",
+  "done_reason": "stop",
+  "content_len": 0,
+  "thinking_len": 66,
+  "selected_len": 66,
+  "content_head": "",
+  "content_full": "",
+  "thinking_head": "{\"welcome_message\":\"Hi\",\"trip_title\":\"North\",\"daily_itinerary\":[]}",
+  "selected_head": "{\"welcome_message\":\"Hi\",\"trip_title\":\"North\",\"daily_itinerary\":[]}",
+  "selected_full": "{\"welcome_message\":\"Hi\",\"trip_title\":\"North\",\"daily_itinerary\":[]}"
+}

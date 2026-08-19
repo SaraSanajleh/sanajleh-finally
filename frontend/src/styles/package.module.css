@@ -1,0 +1,339 @@
+.experience {
+  --ink: #12241c;
+  --forest: #145c3a;
+  --forest-deep: #0d3d27;
+  --gold: #c4a35a;
+  --sand: #f4efe3;
+  --cream: #fbf8f1;
+  --card: #ffffff;
+  --muted: #5d6b63;
+  --line: rgba(20, 36, 28, 0.08);
+  --shadow: 0 18px 50px rgba(18, 36, 28, 0.08);
+  color: var(--ink);
+  background:
+    radial-gradient(circle at top right, rgba(196, 163, 90, 0.16), transparent 28%),
+    linear-gradient(180deg, #fbf8f1 0%, #f3eee4 100%);
+  border-radius: 28px;
+  overflow: hidden;
+}
+
+.hero {
+  position: relative;
+  padding: 36px 32px 28px;
+  background:
+    linear-gradient(135deg, rgba(13, 61, 39, 0.92), rgba(20, 92, 58, 0.78)),
+    url("/images/hero/petra-hero.png") center/cover;
+  color: #fff;
+}
+
+.kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #f0d48a;
+  margin-bottom: 12px;
+}
+
+.hero h1 {
+  font-family: "Fraunces", Georgia, serif;
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  line-height: 1.15;
+  margin: 0 0 12px;
+  max-width: 18ch;
+}
+
+.hero p {
+  max-width: 62ch;
+  color: rgba(255, 255, 255, 0.86);
+  margin: 0 0 20px;
+}
+
+.statRow {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 12px;
+}
+
+.stat {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 16px;
+  padding: 12px 14px;
+}
+
+.stat span {
+  display: block;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.72;
+}
+
+.stat strong {
+  font-size: 1.05rem;
+}
+
+.body {
+  padding: 28px 24px 36px;
+  display: grid;
+  gap: 22px;
+}
+
+.sectionTitle {
+  font-family: "Fraunces", Georgia, serif;
+  font-size: 1.45rem;
+  margin: 0 0 6px;
+}
+
+.sectionLead {
+  color: var(--muted);
+  margin: 0 0 16px;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 1.4fr 0.8fr;
+  gap: 18px;
+}
+
+.mapCard,
+.panel,
+.dayCard,
+.smeCard,
+.itemCard {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  box-shadow: var(--shadow);
+}
+
+.mapCard {
+  min-height: 360px;
+  overflow: hidden;
+}
+
+.mapInner {
+  height: 360px;
+  width: 100%;
+}
+
+.panel,
+.dayCard,
+.smeCard {
+  padding: 20px;
+}
+
+.whyList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 10px;
+}
+
+.whyList li {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  color: var(--ink);
+}
+
+.check {
+  color: var(--forest);
+  flex: 0 0 auto;
+  margin-top: 2px;
+}
+
+.days {
+  display: grid;
+  gap: 18px;
+}
+
+.dayHead {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+.dayBadge {
+  background: var(--sand);
+  color: var(--forest-deep);
+  border-radius: 999px;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.timeline {
+  display: grid;
+  gap: 12px;
+}
+
+.itemCard {
+  padding: 16px;
+  display: grid;
+  grid-template-columns: 88px 1fr;
+  gap: 14px;
+}
+
+.timeCol {
+  font-size: 13px;
+  color: var(--forest);
+  font-weight: 700;
+}
+
+.typePill {
+  display: inline-flex;
+  margin-top: 6px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  background: #eef6f0;
+  color: var(--forest);
+  border-radius: 999px;
+  padding: 3px 8px;
+}
+
+.itemCard h4 {
+  margin: 0 0 6px;
+  font-size: 1.05rem;
+}
+
+.itemCard p {
+  margin: 0 0 8px;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.reason {
+  font-size: 0.9rem;
+  color: var(--ink);
+}
+
+.smeGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 14px;
+  margin-top: 14px;
+}
+
+.smeCard h4 {
+  margin: 4px 0 8px;
+  font-family: "Fraunces", Georgia, serif;
+}
+
+.matchList {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+  display: grid;
+  gap: 6px;
+  font-size: 0.9rem;
+}
+
+.specLabel {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 14px 0 0;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--forest-deep);
+  font-weight: 700;
+}
+
+.specList {
+  margin: 12px 0 0;
+  display: grid;
+  gap: 8px;
+}
+
+.specList div {
+  display: grid;
+  gap: 2px;
+  padding: 8px 10px;
+  background: var(--sand);
+  border-radius: 12px;
+}
+
+.specList dt {
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.specList dd {
+  margin: 0;
+  font-size: 0.92rem;
+  color: var(--ink);
+}
+
+.progress {
+  padding: 28px 24px;
+  text-align: center;
+}
+
+.progressTrack {
+  display: grid;
+  gap: 10px;
+  max-width: 460px;
+  margin: 22px auto 0;
+  text-align: left;
+}
+
+.stage {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 10px 12px;
+  border-radius: 14px;
+  background: #fff;
+  border: 1px solid var(--line);
+  color: var(--muted);
+}
+
+.stageActive {
+  border-color: rgba(20, 92, 58, 0.28);
+  color: var(--ink);
+  box-shadow: var(--shadow);
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #c9d4cc;
+}
+
+.stageActive .dot {
+  background: var(--forest);
+  box-shadow: 0 0 0 6px rgba(20, 92, 58, 0.12);
+}
+
+.warn {
+  background: #fff7e8;
+  border: 1px solid #efd7a4;
+  border-radius: 16px;
+  padding: 12px 14px;
+  color: #6a4b10;
+}
+
+@media (max-width: 900px) {
+  .grid2,
+  .itemCard {
+    grid-template-columns: 1fr;
+  }
+
+  .hero,
+  .body {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

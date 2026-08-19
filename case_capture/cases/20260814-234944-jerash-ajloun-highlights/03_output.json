@@ -1,0 +1,296 @@
+{
+  "metadata": {
+    "model": "gpt-oss:20b-cloud",
+    "provider": "ollama",
+    "mode": "build",
+    "latencyMs": 14576.57,
+    "retries": 0,
+    "caseId": null,
+    "rag": {
+      "status": "unavailable",
+      "source": null,
+      "duration_days": 3,
+      "cluster_count": 0,
+      "clusters": []
+    }
+  },
+  "package": {
+    "welcome_message": "Welcome to your Jordan adventure!",
+    "why_you_will_love_this": {
+      "highlights": [
+        "Jerash Roman ruins",
+        "Ajloun Forest Park"
+      ],
+      "special_touches": [
+        "Enjoy local Jordanian cuisine at each stop"
+      ]
+    },
+    "trip_title": "Jerash & Ajloun Highlights",
+    "trip_description": {
+      "overview": "A three-day journey through historic Jerash and the natural beauty of Ajloun, with local dining and comfortable 3-star accommodation.",
+      "included": [
+        "Meals at local restaurants",
+        "Entry fees to Jerash and Ajloun",
+        "Two nights at a 3-star hotel"
+      ],
+      "not_included": [
+        "Transport between sites",
+        "Guided tours",
+        "Travel insurance"
+      ]
+    },
+    "trip_details": {
+      "duration": {
+        "days": "3",
+        "nights": "2"
+      },
+      "trip_type": [
+        "Couple",
+        "Culture",
+        "Nature",
+        "History"
+      ],
+      "number_of_travelers": "2",
+      "budget": {
+        "amount": "900",
+        "currency": "JOD"
+      }
+    },
+    "daily_itinerary": [
+      {
+        "day_number": "1",
+        "day_title": "Jerash Roman Splendour",
+        "day_summary": "Explore the ancient city and stay at a 3-star hotel in Jerash.",
+        "activities": [
+          {
+            "start_time": "09:00",
+            "end_time": "12:00",
+            "activity_title": "Jerash Roman Theatre",
+            "description": "Visit the iconic theatre with guided audio",
+            "location": "Jerash",
+            "estimated_cost": "20 JOD",
+            "smart_tip": "Entry 10 JOD per person, 2 travellers"
+          },
+          {
+            "start_time": "12:00",
+            "end_time": "13:30",
+            "activity_title": "Lunch at Al-Maqsoud Restaurant",
+            "description": "Local Jordanian dishes in a family-run setting",
+            "location": "Jerash",
+            "estimated_cost": "30 JOD",
+            "smart_tip": "Average cost 15 JOD per person"
+          },
+          {
+            "start_time": "14:00",
+            "end_time": "16:30",
+            "activity_title": "Hadrian's Arch and Forum",
+            "description": "Walk through the main forum and arch",
+            "location": "Jerash",
+            "estimated_cost": "20 JOD",
+            "smart_tip": "Entry 10 JOD per person"
+          },
+          {
+            "start_time": "17:00",
+            "end_time": "18:30",
+            "activity_title": "Stroll in Jerash Gardens",
+            "description": "Leisure walk in the historic gardens",
+            "location": "Jerash",
+            "estimated_cost": "Free",
+            "smart_tip": "No entry fee"
+          },
+          {
+            "start_time": "19:00",
+            "end_time": "21:00",
+            "activity_title": "Dinner at Al-Sham Restaurant",
+            "description": "Traditional Jordanian dinner",
+            "location": "Jerash",
+            "estimated_cost": "30 JOD",
+            "smart_tip": "Average cost 15 JOD per person"
+          }
+        ],
+        "activity_alternatives": [
+          {
+            "original_activity": "Hadrian's Arch and Forum",
+            "alternative_activity": "Roman Amphitheatre",
+            "reason": "If the forum is closed, the amphitheatre offers a similar experience"
+          }
+        ]
+      },
+      {
+        "day_number": "2",
+        "day_title": "Ajloun Forest Adventure",
+        "day_summary": "Discover Ajloun Castle and forest trails, staying in a nearby 3-star hotel.",
+        "activities": [
+          {
+            "start_time": "09:00",
+            "end_time": "12:00",
+            "activity_title": "Ajloun Castle",
+            "description": "Explore the medieval fortress",
+            "location": "Ajloun",
+            "estimated_cost": "20 JOD",
+            "smart_tip": "Entry 10 JOD per person"
+          },
+          {
+            "start_time": "12:00",
+            "end_time": "13:30",
+            "activity_title": "Lunch at Al-Maqsoud Restaurant",
+            "description": "Local Jordanian dishes in a family-run setting",
+            "location": "Ajloun",
+            "estimated_cost": "30 JOD",
+            "smart_tip": "Average cost 15 JOD per person"
+          },
+          {
+            "start_time": "14:00",
+            "end_time": "16:30",
+            "activity_title": "Forest Walk in Ajloun Park",
+            "description": "Hike through pine and oak trees",
+            "location": "Ajloun",
+            "estimated_cost": "Free",
+            "smart_tip": "No entry fee"
+          },
+          {
+            "start_time": "17:00",
+            "end_time": "18:30",
+            "activity_title": "Visit the Olive Oil Press",
+            "description": "Learn about traditional olive oil production",
+            "location": "Ajloun",
+            "estimated_cost": "10 JOD",
+            "smart_tip": "Entry 5 JOD per person"
+          },
+          {
+            "start_time": "19:00",
+            "end_time": "21:00",
+            "activity_title": "Dinner at Al-Sham Restaurant",
+            "description": "Traditional Jordanian dinner",
+            "location": "Ajloun",
+            "estimated_cost": "30 JOD",
+            "smart_tip": "Average cost 15 JOD per person"
+          }
+        ],
+        "activity_alternatives": [
+          {
+            "original_activity": "Forest Walk in Ajloun Park",
+            "alternative_activity": "Bird Watching Spot",
+            "reason": "If the trail is closed, the spot offers a similar nature experience"
+          }
+        ]
+      },
+      {
+        "day_number": "3",
+        "day_title": "Return to Amman",
+        "day_summary": "Final day in Amman with a short cultural visit and departure.",
+        "activities": [
+          {
+            "start_time": "09:00",
+            "end_time": "11:00",
+            "activity_title": "Amman Citadel",
+            "description": "Explore the historic citadel and its museums",
+            "location": "Amman",
+            "estimated_cost": "10 JOD",
+            "smart_tip": "Entry 5 JOD per person"
+          },
+          {
+            "start_time": "12:00",
+            "end_time": "13:30",
+            "activity_title": "Lunch at Al-Maqsoud Restaurant",
+            "description": "Local Jordanian dishes in a family-run setting",
+            "location": "Amman",
+            "estimated_cost": "30 JOD",
+            "smart_tip": "Average cost 15 JOD per person"
+          },
+          {
+            "start_time": "14:00",
+            "end_time": "15:30",
+            "activity_title": "Jordan Museum",
+            "description": "Discover Jordanian heritage",
+            "location": "Amman",
+            "estimated_cost": "10 JOD",
+            "smart_tip": "Entry 5 JOD per person"
+          },
+          {
+            "start_time": "16:00",
+            "end_time": "17:30",
+            "activity_title": "Walk in Rainbow Street",
+            "description": "Stroll through a vibrant street market",
+            "location": "Amman",
+            "estimated_cost": "Free",
+            "smart_tip": "No entry fee"
+          },
+          {
+            "start_time": "18:30",
+            "end_time": "20:30",
+            "activity_title": "Farewell Dinner at Al-Sham Restaurant",
+            "description": "Final dinner with local flavors",
+            "location": "Amman",
+            "estimated_cost": "30 JOD",
+            "smart_tip": "Average cost 15 JOD per person"
+          }
+        ],
+        "activity_alternatives": [
+          {
+            "original_activity": "Jordan Museum",
+            "alternative_activity": "National Museum of Jordan",
+            "reason": "If the museum is closed, the national museum offers a similar experience"
+          }
+        ]
+      }
+    ],
+    "budget_summary": {
+      "items": [
+        {
+          "category": "Accommodation",
+          "estimated_cost": "120 JOD",
+          "notes": "2 nights x 60 JOD per night"
+        },
+        {
+          "category": "Meals",
+          "estimated_cost": "180 JOD",
+          "notes": "5 lunches + 5 dinners at 15 JOD per person"
+        },
+        {
+          "category": "Activities & Entry Fees",
+          "estimated_cost": "140 JOD",
+          "notes": "All entry fees for 2 travellers"
+        },
+        {
+          "category": "Total",
+          "estimated_cost": "440 JOD",
+          "notes": "Actual spend, 460 JOD remaining from budget"
+        },
+        {
+          "category": "Unallocated Budget (before transport)",
+          "estimated_cost": "460 JOD",
+          "notes": "440 JOD of the 900 JOD ceiling is committed above. Transport between areas is not priced in this plan"
+        }
+      ],
+      "total_estimated_cost": "440 JOD"
+    },
+    "essential_travel_tips": [
+      {
+        "category": "Dining",
+        "tips": [
+          "Try the local hummus at Al-Maqsoud; it's a family favourite",
+          "Al-Sham serves hearty stews perfect for evenings"
+        ]
+      },
+      {
+        "category": "Safety",
+        "tips": [
+          "Carry water during forest walks",
+          "Keep valuables in hotel lockers"
+        ]
+      },
+      {
+        "category": "Timing",
+        "tips": [
+          "Arrive early at Jerash to avoid crowds",
+          "Plan lunch breaks around 12:00-13:30"
+        ]
+      }
+    ],
+    "explanations": {
+      "trip_planning_reason": "The itinerary follows the traveler's must-visit Jerash and preferred regions, keeping each day within one area and using 3-star hotels to meet the budget and comfort preference.",
+      "selection_reason": "POIs and restaurants were chosen for their cultural, natural, and historical relevance, with local family-run venues to satisfy the SME preference and budget priority."
+    }
+  }
+}

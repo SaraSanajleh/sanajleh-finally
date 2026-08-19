@@ -1,0 +1,742 @@
+{
+  "metadata": {
+    "model": "gpt-oss:20b-cloud",
+    "provider": "ollama",
+    "mode": "build",
+    "retries": 0
+  },
+  "package": {
+    "package_id": "pkg-640a8daf48f0",
+    "status": "complete",
+    "welcome_message": "Welcome to your 3-day Amman adventure, curated with authentic Jordanian experiences and local expertise.",
+    "trip_title": "Amman Highlights & Heritage",
+    "trip": {
+      "title": "Amman Highlights & Heritage",
+      "summary": "Three days of cultural immersion in Amman, featuring historic sites, rooftop dining, and local guides. Each day stays within the city, with outdoor visits in the cooler mornings and relaxed afternoons.",
+      "start_date": "2026-08-20",
+      "end_date": "2026-08-22",
+      "duration_days": 3,
+      "nights": 2,
+      "regions": [
+        "Amman"
+      ],
+      "arrival_airport": "AMM",
+      "language": "English"
+    },
+    "traveler_profile": {
+      "group_type": "couple",
+      "adults": 2,
+      "children": 0,
+      "children_ages": [],
+      "seniors": 0,
+      "total_travelers": 2,
+      "interests": [
+        "history",
+        "nature",
+        "adventure"
+      ],
+      "pace": "Relaxed",
+      "activity_level": "Moderate",
+      "accessibility_needs": []
+    },
+    "planning": {
+      "strategy": "Each day stays in one area: Amman (3 days). Walk heritage and nature in the morning. Save museums, meals, and shade for the afternoon. About 2 places to visit and 2 meals each day.",
+      "constraints": {
+        "must_visit": [],
+        "places_to_avoid": []
+      },
+      "constraint_status": {
+        "status": "satisfied",
+        "unmet": []
+      },
+      "assumptions": [
+        "Travel times between cities are estimated qualitatively, not as exact minutes, unless evidence exists.",
+        "Opening hours are used only when present on the catalog record."
+      ],
+      "climate": {
+        "month": 8,
+        "season": "hot_dry_summer",
+        "typical_pattern": "High daytime heat, especially in the Jordan Valley and desert.",
+        "outdoor_guidance": "Walk outdoors in the morning. Keep the afternoon for shade, meals, or indoor visits.",
+        "heat_risk": "high"
+      },
+      "weather_status": "ok",
+      "decisions": [
+        {
+          "code": "day_route",
+          "title": "Each day stays in one area",
+          "why": "Mixing far-apart cities in one day makes the trip exhausting and confusing.",
+          "effect": "Your days follow Amman (3 days)."
+        },
+        {
+          "code": "arrival_stay",
+          "title": "Your first night is near the airport",
+          "why": "You land at AMM at 18:34.",
+          "effect": "Night one is a hotel in Amman, as close to the airport as the listings allow."
+        },
+        {
+          "code": "arrival_pace",
+          "title": "Settle in this evening",
+          "why": "You land at 18:34.",
+          "effect": "Dinner near the hotel, then rest. No sightseeing after a late-day flight."
+        },
+        {
+          "code": "heat",
+          "title": "Mornings for the outdoors",
+          "why": "High daytime heat, especially in the Jordan Valley and desert.",
+          "effect": "Walk heritage and nature in the morning. Save museums, meals, and shade for the afternoon."
+        },
+        {
+          "code": "pace",
+          "title": "A relaxed pace",
+          "why": "couple group, Moderate activity.",
+          "effect": "About 2 places to visit and 2 meals each day."
+        },
+        {
+          "code": "stay_tier",
+          "title": "4 star stays",
+          "why": "You asked for 4 star hotels.",
+          "effect": "Hotels are taken from listings at that star level when the city has them. If it does not, we use the closest listed tier and say so."
+        },
+        {
+          "code": "budget",
+          "title": "A comfort budget",
+          "why": "900 JOD for 3 days.",
+          "effect": "We lean toward more comfortable stays and dining when those places exist."
+        },
+        {
+          "code": "interests",
+          "title": "Chosen around what you care about",
+          "why": "history, nature, adventure",
+          "effect": "Sights, meals, and local hosts are matched to these. Unrelated places stay out."
+        }
+      ]
+    },
+    "days": [
+      {
+        "day": 1,
+        "date": "2026-08-20",
+        "region": "Amman",
+        "theme": "Arrival in Amman",
+        "summary": "Evening arrival in Amman: eat if you can, then sleep. Visiting starts tomorrow.",
+        "schedule": [
+          {
+            "time": "19:19",
+            "end_time": "20:49",
+            "slot": "dinner",
+            "type": "restaurant",
+            "item_id": "restaurant_001038",
+            "name": "Cantaloupe Gastro Pub",
+            "duration_minutes": 90,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.94789,
+              "longitude": 35.92512,
+              "precision": "exact"
+            },
+            "description": "A sophisticated rooftop gastro pub in Jabal Amman offering innovative cocktails, international fusion cuisine, and citadel views.",
+            "reason": "Dinner near the hotel. Nothing more tonight.",
+            "matched_preferences": [
+              "In Amman",
+              "A must-see in Amman",
+              "Matches nature",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "30 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_001038"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "21:04",
+            "end_time": "07:45",
+            "slot": "overnight",
+            "type": "hotel",
+            "item_id": "hotel_000022",
+            "name": "InterContinental Jordan",
+            "duration_minutes": null,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.953689,
+              "longitude": 35.913879,
+              "precision": "exact"
+            },
+            "description": "Long-established five-star IHG hotel on Islamic College Street in Jabal Amman, between the Second and Third Circles, with six restaurants, indoor and outdoor pools, a spa and a 24-hour reception.",
+            "reason": "Check in and sleep. Sightseeing starts tomorrow. 5-star stay, as requested",
+            "matched_preferences": [
+              "5-star stay, as requested",
+              "In Amman",
+              "Matches history",
+              "5-star, as requested",
+              "Matches hotel"
+            ],
+            "estimated_cost": "165 JOD / night",
+            "source": {
+              "dataset": "hotels",
+              "record_id": "hotel_000022"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "You land at 18:34. The drive from Queen Alia to Amman is about 45 minutes. Times below start after that transfer."
+      },
+      {
+        "day": 2,
+        "date": "2026-08-21",
+        "region": "Amman",
+        "theme": "Amman in more depth",
+        "summary": "Morning exploration of Roman heritage, afternoon rooftop dining, and a sweet treat to finish the day.",
+        "schedule": [
+          {
+            "time": "08:30",
+            "end_time": "09:30",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_000002",
+            "name": "Roman Theatre",
+            "duration_minutes": 60,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.951558,
+              "longitude": 35.939281,
+              "precision": "exact"
+            },
+            "description": "A 2nd-century 6,000-seat Roman amphitheatre built into the hillside in central downtown Amman.",
+            "reason": "In Amman; local_tourism_catalog; A second day to go beyond the main site; Matches history; One visit covering the nearby monuments",
+            "matched_preferences": [
+              "In Amman",
+              "local_tourism_catalog",
+              "A second day to go beyond the main site",
+              "Matches history",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "2 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_000002"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "09:45",
+            "end_time": "10:00",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_000052",
+            "name": "Amman Citadel Flagpole",
+            "duration_minutes": 15,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.956944,
+              "longitude": 35.942778,
+              "precision": "exact"
+            },
+            "description": "Massive national flagpole visible across Amman, located on the Royal Palace compound near the Citadel.",
+            "reason": "In Amman; local_tourism_catalog; A must-see in Amman; Matches history, nature",
+            "matched_preferences": [
+              "In Amman",
+              "local_tourism_catalog",
+              "A must-see in Amman",
+              "Matches history, nature"
+            ],
+            "estimated_cost": "0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_000052"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "17:00",
+            "end_time": "18:30",
+            "slot": "midday",
+            "type": "restaurant",
+            "item_id": "restaurant_001057",
+            "name": "Cantaloupe Gastro Pub",
+            "duration_minutes": 90,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.94851,
+              "longitude": 35.92712,
+              "precision": "exact"
+            },
+            "description": "A sophisticated rooftop gastro pub in Jabal Amman offering stunning citadel views, gourmet bites, and craft cocktails.",
+            "reason": "In Amman; A must-see in Amman; Matches nature; One visit covering the nearby monuments",
+            "matched_preferences": [
+              "In Amman",
+              "A must-see in Amman",
+              "Matches nature",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "30 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_001057"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "18:45",
+            "end_time": "19:05",
+            "slot": "evening",
+            "type": "restaurant",
+            "item_id": "restaurant_001002",
+            "name": "Habibah Sweets",
+            "duration_minutes": 20,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.95311,
+              "longitude": 35.93489,
+              "precision": "exact"
+            },
+            "description": "The premier and most famous destination in Amman for traditional Levantine sweets, particularly authentic Kanafeh.",
+            "reason": "In Amman; Matches history; Matches preferred cuisine; One visit covering the nearby monuments",
+            "matched_preferences": [
+              "In Amman",
+              "Matches history",
+              "Matches preferred cuisine",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "2.5 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_001002"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "Stay overnight in Amman."
+      },
+      {
+        "day": 3,
+        "date": "2026-08-22",
+        "region": "Amman",
+        "theme": "Amman in more depth",
+        "summary": "Morning visit to historic theatres, afternoon upscale Jordanian dining, and a rooftop café to wrap up the trip.",
+        "schedule": [
+          {
+            "time": "08:30",
+            "end_time": "09:00",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_000021",
+            "name": "Odeon Theatre",
+            "duration_minutes": 30,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.951917,
+              "longitude": 35.940222,
+              "precision": "exact"
+            },
+            "description": "Restored 500-seat 2nd-century Roman odeon situated alongside the Hashemite Plaza in downtown Amman.",
+            "reason": "In Amman; local_tourism_catalog; A second day to go beyond the main site; Matches history",
+            "matched_preferences": [
+              "In Amman",
+              "local_tourism_catalog",
+              "A second day to go beyond the main site",
+              "Matches history"
+            ],
+            "estimated_cost": "2 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_000021"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "09:15",
+            "end_time": "10:00",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_000004",
+            "name": "King Abdullah I Mosque",
+            "duration_minutes": 45,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.961311,
+              "longitude": 35.914275,
+              "precision": "exact"
+            },
+            "description": "Distinctive blue-domed landmark mosque open to non-Muslim visitors in the Al-Abdali district.",
+            "reason": "In Amman; local_tourism_catalog; A second day to go beyond the main site; One visit covering the nearby monuments",
+            "matched_preferences": [
+              "In Amman",
+              "local_tourism_catalog",
+              "A second day to go beyond the main site",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "2 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_000004"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "13:00",
+            "end_time": "14:30",
+            "slot": "midday",
+            "type": "restaurant",
+            "item_id": "restaurant_001049",
+            "name": "Sufra Restaurant",
+            "duration_minutes": 90,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.94751,
+              "longitude": 35.92612,
+              "precision": "exact"
+            },
+            "description": "An award-winning upscale Jordanian restaurant on Rainbow Street serving authentic heritage recipes in a gorgeous villa.",
+            "reason": "In Amman; A must-see in Amman; Matches history; One visit covering the nearby monuments",
+            "matched_preferences": [
+              "In Amman",
+              "A must-see in Amman",
+              "Matches history",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "32 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_001049"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "18:30",
+            "end_time": "19:30",
+            "slot": "evening",
+            "type": "restaurant",
+            "item_id": "restaurant_001052",
+            "name": "Zajal",
+            "duration_minutes": 60,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.95152,
+              "longitude": 35.93912,
+              "precision": "exact"
+            },
+            "description": "A charming cultural cafe and rooftop overlooking Roman ruins in Downtown Amman, offering homemade juices and light bites.",
+            "reason": "In Amman; Matches history, nature; One visit covering the nearby monuments",
+            "matched_preferences": [
+              "In Amman",
+              "Matches history, nature",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "7 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_001052"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "Stay overnight in Amman."
+      }
+    ],
+    "budget": {
+      "currency": "JOD",
+      "traveler_budget": 900.0,
+      "estimated_total": "630 JOD",
+      "band": "comfort",
+      "items": [
+        {
+          "category": "Stays",
+          "estimated_cost": "330 JOD",
+          "notes": "InterContinental Jordan: 165 JOD × 2 night(s)",
+          "confidence": "medium"
+        },
+        {
+          "category": "Meals on the plan",
+          "estimated_cost": "203 JOD",
+          "notes": "5 listed meal(s) × 2 traveler(s).",
+          "confidence": "medium"
+        },
+        {
+          "category": "Entry tickets",
+          "estimated_cost": "12 JOD",
+          "notes": "4 listed site(s) × 2 traveler(s).",
+          "confidence": "medium"
+        },
+        {
+          "category": "Trip guide",
+          "estimated_cost": "25 JOD",
+          "notes": "Listed from 25 JOD (up to 55 JOD listed)",
+          "confidence": "medium"
+        },
+        {
+          "category": "Trip operator",
+          "estimated_cost": "60 JOD",
+          "notes": "Listed from 60 JOD (up to 850 JOD listed)",
+          "confidence": "medium"
+        },
+        {
+          "category": "Left vs your ceiling",
+          "estimated_cost": "270 JOD",
+          "notes": "Your ceiling is 900 JOD. Listed pieces add up to 630 JOD.",
+          "confidence": "medium"
+        }
+      ],
+      "disclaimer": "Amounts come from catalog listings. This is a planning estimate, not a final invoice. Missing prices stay unknown — we do not invent them."
+    },
+    "sme_value": {
+      "headline": "Your guide and operator for this journey",
+      "summary": "One local guide and one tour operator for the whole trip — not a new face every day.",
+      "recommended": [
+        {
+          "sme_id": "tour_guide:SME-000014:amman",
+          "sme_type": "tour_guide",
+          "name": "Hiba Tarawneh",
+          "role": "Trip guide",
+          "location": "Amman",
+          "experience_type": "Nature, Hiking, Camping",
+          "match_score": 0.833,
+          "reason": "Fits what you asked for: nature, adventure",
+          "matched_because": [
+            "Fits what you asked for: nature, adventure",
+            "Covers amman",
+            "Based in Amman",
+            "Works with couple travelers",
+            "Speaks English"
+          ],
+          "known_for": [
+            "Freelance nature and hiking guide leading outdoor trekking adventures in the valleys and hills surrounding Amman Governorate",
+            "Takes travelers to Wadi Shueib trails, Zarqa river basin, Amman surrounding hills",
+            "Also offers Adventure Activities, Private Tours, Group Tours",
+            "Private groups available"
+          ],
+          "specializations": [
+            "Nature",
+            "Hiking",
+            "Camping",
+            "Photography"
+          ],
+          "languages": [
+            "Arabic",
+            "English"
+          ],
+          "experience_years": 7,
+          "destinations_covered": [
+            "Wadi Shueib trails",
+            "Zarqa river basin",
+            "Amman surrounding hills"
+          ],
+          "covers_regions": [
+            "amman"
+          ],
+          "package_role": "guide",
+          "specs": [
+            {
+              "label": "Specializations",
+              "value": "Nature, Hiking, Camping, Photography"
+            },
+            {
+              "label": "Experience",
+              "value": "7 years"
+            },
+            {
+              "label": "Languages",
+              "value": "Arabic, English"
+            },
+            {
+              "label": "Best for",
+              "value": "Solo Travelers, Couples, Families"
+            },
+            {
+              "label": "Group size",
+              "value": "2–15"
+            },
+            {
+              "label": "From",
+              "value": "25–55 JOD"
+            },
+            {
+              "label": "Hours",
+              "value": "07:00 - 16:00"
+            },
+            {
+              "label": "Rating",
+              "value": "4.8 (36 reviews)"
+            }
+          ],
+          "source": {
+            "dataset": "sme_guides",
+            "record_id": "tour_guide:SME-000014:amman"
+          },
+          "coordinates": {
+            "latitude": 31.9454,
+            "longitude": 35.9284,
+            "precision": "city_centroid"
+          }
+        },
+        {
+          "sme_id": "tour_operator:SME-000003:amman",
+          "sme_type": "tour_operator",
+          "name": "Karma House for Tourism",
+          "role": "Trip operator",
+          "location": "Amman",
+          "experience_type": "Culture, Desert, History",
+          "match_score": 0.898,
+          "reason": "Fits what you asked for: history, nature, adventure",
+          "matched_because": [
+            "Fits what you asked for: history, nature, adventure",
+            "Covers amman",
+            "Based in Amman",
+            "Works with couple travelers",
+            "Speaks English"
+          ],
+          "known_for": [
+            "Incoming tour operator specializing in cultural excursions, historical tours, and specialized desert adventures across the Hashemite Kingdom of Jordan",
+            "Takes travelers to Amman, Wadi Rum, Petra, Aqaba",
+            "Also offers Custom Itineraries, Private Tours, Adventure Activities",
+            "Private groups available",
+            "Can arrange transportation"
+          ],
+          "specializations": [
+            "Culture",
+            "Desert",
+            "History",
+            "Adventure"
+          ],
+          "languages": [
+            "English",
+            "Arabic"
+          ],
+          "experience_years": 12,
+          "destinations_covered": [
+            "Amman",
+            "Wadi Rum",
+            "Petra",
+            "Aqaba",
+            "Dana"
+          ],
+          "covers_regions": [
+            "amman"
+          ],
+          "package_role": "operator",
+          "specs": [
+            {
+              "label": "Specializations",
+              "value": "Culture, Desert, History, Adventure"
+            },
+            {
+              "label": "Experience",
+              "value": "12 years"
+            },
+            {
+              "label": "Languages",
+              "value": "English, Arabic"
+            },
+            {
+              "label": "Best for",
+              "value": "Solo Travelers, Couples, Families"
+            },
+            {
+              "label": "Group size",
+              "value": "2–20"
+            },
+            {
+              "label": "From",
+              "value": "60–850 JOD"
+            },
+            {
+              "label": "Hours",
+              "value": "09:00-17:00"
+            },
+            {
+              "label": "Rating",
+              "value": "4.8 (52 reviews)"
+            }
+          ],
+          "source": {
+            "dataset": "sme_operators",
+            "record_id": "tour_operator:SME-000003:amman"
+          },
+          "coordinates": {
+            "latitude": 31.9454,
+            "longitude": 35.9284,
+            "precision": "city_centroid"
+          }
+        }
+      ]
+    },
+    "sources": [
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_001038"
+      },
+      {
+        "dataset": "hotels",
+        "record_id": "hotel_000022"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_000002"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_000052"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_001057"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_001002"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_000021"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_000004"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_001049"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_001052"
+      },
+      {
+        "dataset": "sme_guides",
+        "record_id": "tour_guide:SME-000014:amman"
+      },
+      {
+        "dataset": "sme_operators",
+        "record_id": "tour_operator:SME-000003:amman"
+      }
+    ],
+    "warnings": [],
+    "explanations": {
+      "trip_planning_reason": "Each day stays in one area: Amman (3 days). Walk heritage and nature in the morning. Save museums, meals, and shade for the afternoon. About 2 places to visit and 2 meals each day.",
+      "highlights": [
+        "Roman Theatre",
+        "Amman Citadel Flagpole",
+        "Odeon Theatre",
+        "King Abdullah I Mosque"
+      ],
+      "why_smes": [
+        "Hiba Tarawneh: Fits what you asked for: nature, adventure",
+        "Karma House for Tourism: Fits what you asked for: history, nature, adventure"
+      ],
+      "context_benefits": [
+        "Each day stays in one area: Your days follow Amman (3 days).",
+        "Your first night is near the airport: Night one is a hotel in Amman, as close to the airport as the listings allow.",
+        "Settle in this evening: Dinner near the hotel, then rest. No sightseeing after a late-day flight.",
+        "Mornings for the outdoors: Walk heritage and nature in the morning. Save museums, meals, and shade for the afternoon.",
+        "A relaxed pace: About 2 places to visit and 2 meals each day.",
+        "4 star stays: Hotels are taken from listings at that star level when the city has them. If it does not, we use the closest listed tier and say so.",
+        "A comfort budget: We lean toward more comfortable stays and dining when those places exist.",
+        "Chosen around what you care about: Sights, meals, and local hosts are matched to these. Unrelated places stay out."
+      ]
+    }
+  }
+}

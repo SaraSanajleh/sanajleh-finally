@@ -1,0 +1,813 @@
+{
+  "metadata": {
+    "model": "gpt-oss:20b-cloud",
+    "provider": "ollama",
+    "mode": "build",
+    "retries": 0
+  },
+  "package": {
+    "package_id": "pkg-fcd3ad4a0e89",
+    "status": "complete",
+    "welcome_message": "Welcome to a 3-day Jordan adventure through Amman, Petra, and Wadi Rum - curated with authentic Jordanian experiences and local guides.",
+    "trip_title": "Amman • Petra • Wadi Rum",
+    "trip": {
+      "title": "Amman • Petra • Wadi Rum",
+      "summary": "Three days of historic exploration and desert photography, each day staying in one region: Amman, Petra, then Wadi Rum. Morning visits to outdoor sites, afternoons for shade, meals, and indoor attractions.",
+      "start_date": "2026-08-20",
+      "end_date": "2026-08-22",
+      "duration_days": 3,
+      "nights": 2,
+      "regions": [
+        "Amman",
+        "Petra",
+        "Wadi Rum"
+      ],
+      "arrival_airport": "AMM",
+      "language": "English"
+    },
+    "traveler_profile": {
+      "group_type": "couple",
+      "adults": 2,
+      "children": 0,
+      "children_ages": [],
+      "seniors": 0,
+      "total_travelers": 2,
+      "interests": [
+        "history",
+        "photography",
+        "culture"
+      ],
+      "pace": "Balanced",
+      "activity_level": "Moderate",
+      "accessibility_needs": []
+    },
+    "planning": {
+      "strategy": "Each day stays in one area: Amman, Petra, then Wadi Rum. Walk heritage and nature in the morning. Save museums, meals, and shade for the afternoon. About 3 places to visit and 2 meals each day.",
+      "constraints": {
+        "must_visit": [],
+        "places_to_avoid": []
+      },
+      "constraint_status": {
+        "status": "satisfied",
+        "unmet": []
+      },
+      "assumptions": [
+        "Travel times between cities are estimated qualitatively, not as exact minutes, unless evidence exists.",
+        "Opening hours are used only when present on the catalog record."
+      ],
+      "climate": {
+        "month": 8,
+        "season": "hot_dry_summer",
+        "typical_pattern": "High daytime heat, especially in the Jordan Valley and desert.",
+        "outdoor_guidance": "Walk outdoors in the morning. Keep the afternoon for shade, meals, or indoor visits.",
+        "heat_risk": "high"
+      },
+      "weather_status": "ok",
+      "decisions": [
+        {
+          "code": "day_route",
+          "title": "Each day stays in one area",
+          "why": "Mixing far-apart cities in one day makes the trip exhausting and confusing.",
+          "effect": "Your days follow Amman, Petra, then Wadi Rum."
+        },
+        {
+          "code": "arrival_stay",
+          "title": "Your first night is near the airport",
+          "why": "You land at AMM at 16:34.",
+          "effect": "Night one is a hotel in Amman, as close to the airport as the listings allow."
+        },
+        {
+          "code": "arrival_pace",
+          "title": "Ease in after landing",
+          "why": "You arrive at 16:34.",
+          "effect": "First a meal, then rest at the hotel. Sightseeing starts the next day."
+        },
+        {
+          "code": "hotel_move",
+          "title": "Then you move closer to the places you came for",
+          "why": "Sleeping in the same city you visit beats a long commute every morning.",
+          "effect": "After the arrival night, the hotel follows the rest of the route."
+        },
+        {
+          "code": "heat",
+          "title": "Mornings for the outdoors",
+          "why": "High daytime heat, especially in the Jordan Valley and desert.",
+          "effect": "Walk heritage and nature in the morning. Save museums, meals, and shade for the afternoon."
+        },
+        {
+          "code": "pace",
+          "title": "A balanced pace",
+          "why": "couple group, Moderate activity.",
+          "effect": "About 3 places to visit and 2 meals each day."
+        },
+        {
+          "code": "budget",
+          "title": "A comfort budget",
+          "why": "900 JOD for 3 days.",
+          "effect": "We lean toward more comfortable stays and dining when those places exist."
+        },
+        {
+          "code": "interests",
+          "title": "Chosen around what you care about",
+          "why": "history, photography, culture",
+          "effect": "Sights, meals, and local hosts are matched to these. Unrelated places stay out."
+        }
+      ]
+    },
+    "days": [
+      {
+        "day": 1,
+        "date": "2026-08-20",
+        "region": "Amman",
+        "theme": "Arrival in Amman",
+        "summary": "Arrive, enjoy a relaxed dinner, and settle into a downtown hotel near the airport.",
+        "schedule": [
+          {
+            "time": "16:34",
+            "end_time": "17:34",
+            "slot": "arrival",
+            "type": "restaurant",
+            "item_id": "restaurant_001057",
+            "name": "Cantaloupe Gastro Pub",
+            "duration_minutes": 90,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.94851,
+              "longitude": 35.92712,
+              "precision": "exact"
+            },
+            "description": "A sophisticated rooftop gastro pub in Jabal Amman offering stunning citadel views, gourmet bites, and craft cocktails.",
+            "reason": "A convenient meal after landing, with panoramic views to ease jet-lag and set the tone for the trip.",
+            "matched_preferences": [
+              "In Amman",
+              "A must-see in Amman",
+              "Matches photography, culture",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "30.0 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_001057"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "17:34",
+            "end_time": "22:34",
+            "slot": "overnight",
+            "type": "hotel",
+            "item_id": "hotel_000029",
+            "name": "Art Hotel Downtown",
+            "duration_minutes": null,
+            "location": "Amman",
+            "coordinates": {
+              "latitude": 31.9454,
+              "longitude": 35.9284,
+              "precision": "city_centroid"
+            },
+            "description": "Recently refurbished three-star hotel at 30 King Faisal Street in Downtown Amman with a terrace, on-site restaurant, and easy access to the Citadel.",
+            "reason": "Close to the airport and city center, providing a comfortable rest after travel.",
+            "matched_preferences": [
+              "In Amman",
+              "A must-see in Amman",
+              "Matches history, culture",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "not_available",
+            "source": {
+              "dataset": "hotels",
+              "record_id": "hotel_000029"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "Land in Amman, eat nearby, then rest at your hotel."
+      },
+      {
+        "day": 2,
+        "date": "2026-08-21",
+        "region": "Petra",
+        "theme": "Petra: history, photography",
+        "summary": "Explore Petra's iconic sites, enjoy a Bedouin tea break, and finish with a fine-dining experience before checking into a local hotel.",
+        "schedule": [
+          {
+            "time": "09:00",
+            "end_time": "09:45",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_002001",
+            "name": "Al-Khazneh (The Treasury)",
+            "duration_minutes": 45,
+            "location": "Wadi Musa",
+            "coordinates": {
+              "latitude": 30.322003,
+              "longitude": 35.451624,
+              "precision": "exact"
+            },
+            "description": "An iconic ancient Nabataean rock-cut temple façade carved into the rose-red sandstone cliff face at Petra.",
+            "reason": "A must-see Petra landmark that offers dramatic photography and deep historical context.",
+            "matched_preferences": [
+              "In Petra",
+              "A must-see in Petra",
+              "Matches history, photography, culture",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "50.0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_002001"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "10:05",
+            "end_time": "12:05",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_002027",
+            "name": "Al-Maddras Trail & High Viewpoint",
+            "duration_minutes": 120,
+            "location": "Wadi Musa",
+            "coordinates": {
+              "latitude": 30.320556,
+              "longitude": 35.459444,
+              "precision": "exact"
+            },
+            "description": "An ancient alternative entry trail into Petra featuring sacred rock carvings and elevated perspectives.",
+            "reason": "Provides a less-crowded route with unique photographic opportunities and cultural insight.",
+            "matched_preferences": [
+              "In Petra",
+              "Matches history, photography, culture"
+            ],
+            "estimated_cost": "50.0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_002027"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "12:25",
+            "end_time": "13:10",
+            "slot": "midday",
+            "type": "restaurant",
+            "item_id": "restaurant_002028",
+            "name": "Bedouin Cave Cafe",
+            "duration_minutes": 45,
+            "location": "Wadi Musa",
+            "coordinates": {
+              "latitude": 30.3231,
+              "longitude": 35.4519,
+              "precision": "exact"
+            },
+            "description": "Rustic teahouse located inside Petra archaeological park near the Treasury view points.",
+            "reason": "A quick, authentic Bedouin tea break that complements the morning's archaeological exploration.",
+            "matched_preferences": [
+              "In Petra",
+              "A must-see in Petra",
+              "Matches history, photography",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "3.0 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_002028"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "13:25",
+            "end_time": "14:10",
+            "slot": "afternoon",
+            "type": "poi",
+            "item_id": "poi_002021",
+            "name": "Little Petra Triclinium & Painted House",
+            "duration_minutes": 45,
+            "location": "Wadi Musa",
+            "coordinates": {
+              "latitude": 30.375833,
+              "longitude": 35.456389,
+              "precision": "exact"
+            },
+            "description": "A famous interior rock chamber within Little Petra featuring rare 2,000-year-old Nabataean ceiling frescoes.",
+            "reason": "An indoor, shaded site ideal for a hot afternoon, offering rich cultural and photographic value.",
+            "matched_preferences": [
+              "In Petra",
+              "Matches history, culture",
+              "Indoor option on a hot day",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "not_available",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_002021"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "18:30",
+            "end_time": "19:30",
+            "slot": "evening",
+            "type": "restaurant",
+            "item_id": "restaurant_002020",
+            "name": "Crown Plaza Basin Restaurant",
+            "duration_minutes": 60,
+            "location": "Wadi Musa",
+            "coordinates": {
+              "latitude": 30.3286,
+              "longitude": 35.4421,
+              "precision": "exact"
+            },
+            "description": "Historic restaurant located inside the Petra Archaeological Park near the start of the Monastery trail.",
+            "reason": "A refined dining experience that showcases local flavors after a day of exploration.",
+            "matched_preferences": [
+              "In Petra",
+              "A must-see in Petra",
+              "Matches history",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "17.0 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_002020"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "20:30",
+            "end_time": "21:00",
+            "slot": "overnight",
+            "type": "hotel",
+            "item_id": "hotel_000179",
+            "name": "Nomads Hotel Petra",
+            "duration_minutes": null,
+            "location": "Wadi Musa",
+            "coordinates": {
+              "latitude": 30.321748,
+              "longitude": 35.473129,
+              "precision": "exact"
+            },
+            "description": "Independent hostel-hotel on Touristic Street with around 49 rooms, a rooftop bar with mountain and sunset views, and a games room.",
+            "reason": "Convenient overnight stay in Petra, allowing easy access to the next day's sites.",
+            "matched_preferences": [
+              "In Petra",
+              "Matches history, photography, culture",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "not_available",
+            "source": {
+              "dataset": "hotels",
+              "record_id": "hotel_000179"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "This evening you check in to your hotel in Petra."
+      },
+      {
+        "day": 3,
+        "date": "2026-08-22",
+        "region": "Wadi Rum",
+        "theme": "Wadi Rum: history, photography",
+        "summary": "Discover Wadi Rum's desert heritage, enjoy a rest house lunch, and finish with a Bedouin camp dinner under the stars.",
+        "schedule": [
+          {
+            "time": "09:00",
+            "end_time": "09:45",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_002008",
+            "name": "Wadi Rum Visitor Center",
+            "duration_minutes": 45,
+            "location": "Wadi Rum",
+            "coordinates": {
+              "latitude": 29.6385,
+              "longitude": 35.434639,
+              "precision": "exact"
+            },
+            "description": "The main operational gateway and orientation center for the UNESCO-listed Wadi Rum Protected Area.",
+            "reason": "A quick orientation to the desert's layout and cultural significance, ideal for a morning visit.",
+            "matched_preferences": [
+              "In Wadi Rum",
+              "A must-see in Wadi Rum",
+              "Matches culture",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "5.0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_002008"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "10:05",
+            "end_time": "10:50",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_002026",
+            "name": "Al-Khazali Mountain Petroglyphs",
+            "duration_minutes": 45,
+            "location": "Wadi Rum",
+            "coordinates": {
+              "latitude": 29.5725,
+              "longitude": 35.425556,
+              "precision": "exact"
+            },
+            "description": "An extensive concentration of ancient Thamudic and Safaitic petroglyphs carved on Jebel Khazali cliffs.",
+            "reason": "A compact, high-value photographic site showcasing desert rock art.",
+            "matched_preferences": [
+              "In Wadi Rum",
+              "Matches history, culture",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "5.0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_002026"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "11:10",
+            "end_time": "11:55",
+            "slot": "midday",
+            "type": "restaurant",
+            "item_id": "restaurant_007075",
+            "name": "Wadi Rum Visitor Center Rest House",
+            "duration_minutes": 45,
+            "location": "Wadi Rum",
+            "coordinates": {
+              "latitude": 29.5778,
+              "longitude": 35.419,
+              "precision": "exact"
+            },
+            "description": "Historical rest house and eatery located at Rum Village entrance, serving travelers and desert trekkers since the 1980s.",
+            "reason": "A convenient lunch spot with local flavors, positioned near the visitor center.",
+            "matched_preferences": [
+              "In Wadi Rum",
+              "A must-see in Wadi Rum",
+              "Matches history",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "7.0 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_007075"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "12:10",
+            "end_time": "12:55",
+            "slot": "morning",
+            "type": "poi",
+            "item_id": "poi_002039",
+            "name": "Nabataean Temple of Wadi Rum",
+            "duration_minutes": 45,
+            "location": "Wadi Rum",
+            "coordinates": {
+              "latitude": 29.575556,
+              "longitude": 35.416667,
+              "precision": "exact"
+            },
+            "description": "The stone ruins of a 1st-century BC Nabataean temple dedicated to goddess Allat near Rum Village.",
+            "reason": "An iconic, easily accessible ruin that offers rich historical context and photographic appeal.",
+            "matched_preferences": [
+              "In Wadi Rum",
+              "Matches history, culture",
+              "One visit covering the nearby monuments"
+            ],
+            "estimated_cost": "5.0 JOD",
+            "source": {
+              "dataset": "pois",
+              "record_id": "poi_002039"
+            },
+            "confidence": "high"
+          },
+          {
+            "time": "18:30",
+            "end_time": "19:50",
+            "slot": "evening",
+            "type": "restaurant",
+            "item_id": "restaurant_007074",
+            "name": "Captain's Desert Camp Restaurant Wadi Rum",
+            "duration_minutes": 80,
+            "location": "Wadi Rum",
+            "coordinates": {
+              "latitude": 29.6105,
+              "longitude": 35.4352,
+              "precision": "exact"
+            },
+            "description": "Established desert camp restaurant in Wadi Rum Protected Area serving traditional Bedouin buffet dinners around central campfires.",
+            "reason": "A memorable desert dining experience that complements the day's cultural exploration.",
+            "matched_preferences": [
+              "In Wadi Rum",
+              "A must-see in Wadi Rum"
+            ],
+            "estimated_cost": "15.0 JOD",
+            "source": {
+              "dataset": "restaurants",
+              "record_id": "restaurant_007074"
+            },
+            "confidence": "high"
+          }
+        ],
+        "smes": [],
+        "transport_notes": "Stay overnight in Wadi Rum."
+      }
+    ],
+    "budget": {
+      "currency": "JOD",
+      "traveler_budget": 900.0,
+      "estimated_total": "not_available",
+      "band": "comfort",
+      "items": [],
+      "disclaimer": "We only show amounts when a listing includes a price."
+    },
+    "sme_value": {
+      "headline": "Your guide and operator for this journey",
+      "summary": "One local guide and one tour operator for the whole trip — not a new face every day.",
+      "recommended": [
+        {
+          "sme_id": "tour_guide:SME-000010:ma'an",
+          "sme_type": "tour_guide",
+          "name": "Ziyad Al-Tweissi",
+          "role": "Trip guide",
+          "location": "Wadi Musa",
+          "experience_type": "History, Desert, Photography",
+          "match_score": 0.765,
+          "reason": "14 years specializing in History, Desert, Photography",
+          "matched_because": [
+            "Distinguished by History, Desert, Photography",
+            "Covers ma'an, petra",
+            "Based in Wadi Musa",
+            "Matches interests: history, photography, culture",
+            "Works with couple travelers",
+            "Speaks English",
+            "14 years of local experience"
+          ],
+          "known_for": [
+            "14 years specializing in History, Desert, Photography",
+            "Multi-lingual licensed guide expert in Nabataean history, geological formations, and desert night sky astronomy tours in the Ma'an region",
+            "Takes travelers to Petra, Little Petra, Wadi Araba desert, Ma'an plateau",
+            "Services: Tour Guiding, Special Interest Tours, Private Tours",
+            "Private groups available",
+            "Transportation available"
+          ],
+          "specializations": [
+            "History",
+            "Desert",
+            "Photography",
+            "Astronomy"
+          ],
+          "languages": [
+            "Arabic",
+            "English",
+            "Japanese",
+            "French"
+          ],
+          "experience_years": 14,
+          "destinations_covered": [
+            "Petra",
+            "Little Petra",
+            "Wadi Araba desert",
+            "Ma'an plateau"
+          ],
+          "covers_regions": [
+            "ma'an",
+            "petra"
+          ],
+          "package_role": "guide",
+          "specs": [
+            {
+              "label": "Specializations",
+              "value": "History, Desert, Photography, Astronomy"
+            },
+            {
+              "label": "Experience",
+              "value": "14 years"
+            },
+            {
+              "label": "Languages",
+              "value": "Arabic, English, Japanese, French"
+            },
+            {
+              "label": "Best for",
+              "value": "Couples, Solo Travelers, Families"
+            },
+            {
+              "label": "Group size",
+              "value": "1–18"
+            },
+            {
+              "label": "From",
+              "value": "95–180 JOD"
+            },
+            {
+              "label": "Hours",
+              "value": "07:00 - 22:00"
+            },
+            {
+              "label": "Rating",
+              "value": "5.0 (64 reviews)"
+            }
+          ],
+          "source": {
+            "dataset": "sme_guides",
+            "record_id": "tour_guide:SME-000010:ma'an"
+          },
+          "coordinates": {
+            "latitude": 30.1962,
+            "longitude": 35.734,
+            "precision": "city_centroid"
+          }
+        },
+        {
+          "sme_id": "tour_operator:SME-000010:maan",
+          "sme_type": "tour_operator",
+          "name": "Desert Touch Tourism",
+          "role": "Trip operator",
+          "location": "Wadi Rum",
+          "experience_type": "Desert, Culture, Local Experiences",
+          "match_score": 0.829,
+          "reason": "13 years specializing in Desert, Culture, Local Experiences",
+          "matched_because": [
+            "Distinguished by Desert, Culture, Local Experiences",
+            "Covers ma'an, maan, petra, wadi rum",
+            "Based in Wadi Rum",
+            "Matches interests: history, photography, culture",
+            "Works with couple travelers",
+            "Speaks English",
+            "Transportation across the itinerary",
+            "13 years of local experience"
+          ],
+          "known_for": [
+            "13 years specializing in Desert, Culture, Local Experiences",
+            "Boutique tour operator specializing in private desert safaris, customized camel caravans, and immersive cultural heritage tours across the desert valleys of Wadi Rum and Ma'an",
+            "Takes travelers to Wadi Rum, Petra",
+            "Services: Tour Guiding, Tour Planning & Itinerary Design, Custom Itineraries",
+            "Private groups available",
+            "Transportation available"
+          ],
+          "specializations": [
+            "Desert",
+            "Culture",
+            "Local Experiences",
+            "Photography"
+          ],
+          "languages": [
+            "Arabic",
+            "English",
+            "Spanish"
+          ],
+          "experience_years": 13,
+          "destinations_covered": [
+            "Wadi Rum",
+            "Petra"
+          ],
+          "covers_regions": [
+            "ma'an",
+            "maan",
+            "petra",
+            "wadi rum"
+          ],
+          "package_role": "operator",
+          "specs": [
+            {
+              "label": "Specializations",
+              "value": "Desert, Culture, Local Experiences, Photography"
+            },
+            {
+              "label": "Experience",
+              "value": "13 years"
+            },
+            {
+              "label": "Languages",
+              "value": "Arabic, English, Spanish"
+            },
+            {
+              "label": "Best for",
+              "value": "Couples, Families, Solo Travelers"
+            },
+            {
+              "label": "Group size",
+              "value": "1–20"
+            },
+            {
+              "label": "From",
+              "value": "35–160 JOD"
+            },
+            {
+              "label": "Hours",
+              "value": "08:00–20:00"
+            },
+            {
+              "label": "Rating",
+              "value": "4.9 (83 reviews)"
+            }
+          ],
+          "source": {
+            "dataset": "sme_operators",
+            "record_id": "tour_operator:SME-000010:maan"
+          },
+          "coordinates": {
+            "latitude": 30.1962,
+            "longitude": 35.734,
+            "precision": "city_centroid"
+          }
+        }
+      ]
+    },
+    "sources": [
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_001057"
+      },
+      {
+        "dataset": "hotels",
+        "record_id": "hotel_000029"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_002001"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_002027"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_002028"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_002021"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_002020"
+      },
+      {
+        "dataset": "hotels",
+        "record_id": "hotel_000179"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_002008"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_002026"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_007075"
+      },
+      {
+        "dataset": "pois",
+        "record_id": "poi_002039"
+      },
+      {
+        "dataset": "restaurants",
+        "record_id": "restaurant_007074"
+      },
+      {
+        "dataset": "sme_guides",
+        "record_id": "tour_guide:SME-000010:ma'an"
+      },
+      {
+        "dataset": "sme_operators",
+        "record_id": "tour_operator:SME-000010:maan"
+      }
+    ],
+    "warnings": [],
+    "explanations": {
+      "trip_planning_reason": "Each day stays in one area: Amman, Petra, then Wadi Rum. Walk heritage and nature in the morning. Save museums, meals, and shade for the afternoon. About 3 places to visit and 2 meals each day.",
+      "highlights": [
+        "Al-Khazneh (The Treasury)",
+        "Al-Maddras Trail & High Viewpoint",
+        "Little Petra Triclinium & Painted House",
+        "Wadi Rum Visitor Center",
+        "Al-Khazali Mountain Petroglyphs",
+        "Nabataean Temple of Wadi Rum"
+      ],
+      "why_smes": [
+        "Ziyad Al-Tweissi: 14 years specializing in History, Desert, Photography",
+        "Desert Touch Tourism: 13 years specializing in Desert, Culture, Local Experiences"
+      ],
+      "context_benefits": [
+        "Each day stays in one area: Your days follow Amman, Petra, then Wadi Rum.",
+        "Your first night is near the airport: Night one is a hotel in Amman, as close to the airport as the listings allow.",
+        "Ease in after landing: First a meal, then rest at the hotel. Sightseeing starts the next day.",
+        "Then you move closer to the places you came for: After the arrival night, the hotel follows the rest of the route.",
+        "Mornings for the outdoors: Walk heritage and nature in the morning. Save museums, meals, and shade for the afternoon.",
+        "A balanced pace: About 3 places to visit and 2 meals each day.",
+        "A comfort budget: We lean toward more comfortable stays and dining when those places exist.",
+        "Chosen around what you care about: Sights, meals, and local hosts are matched to these. Unrelated places stay out."
+      ]
+    }
+  }
+}
